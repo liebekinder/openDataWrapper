@@ -74,18 +74,24 @@ public class Principale {
 
 		DataSource dts = listeDataSource.get(result);
 
-		ConvertXML cxml = new ConvertXML(dts.getXsltFile(),
-				"ressources/output/" + dts.getNom() + ".n3");
-		if(dts.getFormat() == "XML"){
+		System.out.println(dts.getFormat());
+		if (dts.getFormat().equals("XML")) {
+
+			ConvertXML cxml = new ConvertXML(dts.getXsltFile(),
+					"ressources/output/" + dts.getNom() + ".n3");
 			if (dts.isApi()) {
 				cxml.convertFromApi(dts.getApiUrl());
-			}
-			else{
+			} else {
 				cxml.convertfromFile(dts.getFilePath());
 			}
-		}
-		else{
-			System.err.println("This application isn't able to convert CSV yet!");
+		} else {
+			if(dts.getFormat().equals("CSV")){
+			ConvertCSV ccsv = new ConvertCSV(dts.getXsltFile(), "ressources/output/" + dts.getNom() + ".n3");
+			ccsv.convertfromFile(dts.getFilePath());
+			}
+			else{
+				System.err.println("the format "+dts.getFormat()+" is not supported yet!");
+			}
 		}
 
 		System.out.println("conversion ok!");

@@ -1,0 +1,426 @@
+ 
+@prefix ex: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix proj: <http://projet.com/8/> . 
+ 
+        
+<http://projet.com/8/FÊTE_DU_LIVRE_JEUNESSE>	 ex:nom 	 "FÊTE DU LIVRE JEUNESSE"^^xsd:string; 
+    	ex:description	 "À Aizenay, les enfants sont les principaux acteurs de la Fête du livre jeunesse : ils jouent tour à tour le rôle de conseillers lecteurs, auteurs et raconteurs de kamishibaïs ou de raconte-tapis, lecteurs pour les plus jeunes… Cette année, ils font « La fête à Claude Ponti », dans un décor créé par la plasticienne Sophie M. Parmi les animations : expositions, tables rondes, spectacles pour enfants, soirée festive, petit déjeuner littéraire..."^^xsd:string ;
+    	ex:dates	"28 mars-1er avril"^^xsd:string ;
+     	ex:tel	 "0637079929"^^xsd:integer;
+    	ex:ville	"Aizenay"^^xsd:string ;
+    	ex:departement	"85"^^xsd:integer ;
+     	ex:codeInsee	 "85003"^^xsd:string;
+     	ex:siteWeb	 "www.fetedulivre-aizenay.com"^^xsd:string;
+     	ex:organisateur	 "Association Bibliobulle"^^xsd:string.
+    
+<http://projet.com/8/CARTE_BLANCHE_À_CHRISTOPHE_BOTTI>	 ex:nom 	 "CARTE BLANCHE À CHRISTOPHE BOTTI"^^xsd:string; 
+    	ex:description	 "Temps fort à l’occasion de la clôture de la résidence du dramaturge Christophe Botti sur le territoire des Mauges et du Pays d’Ancenis en 2012. L’association La Turmelière et le théâtre Quartier Libre à Ancenis invitent à découvrir l’artiste invité par l’auteur : Stéphane Botti. Une soirée pour deux spectacles : « La Merveilleuse évasion » (Stéphane Botti), suivi du spectacle « Doubles ou l’incroyable histoire de Robert et Louis les frères siamois » (Stéphane et Christophe Botti)."^^xsd:string ;
+    	ex:dates	"4 juillet"^^xsd:string ;
+     	ex:tel	 "0240091516"^^xsd:integer;
+    	ex:ville	"Ancenis"^^xsd:string ;
+    	ex:departement	"44"^^xsd:integer ;
+     	ex:codeInsee	 "44003"^^xsd:string;
+     	ex:siteWeb	 "www.laturmeliere.org"^^xsd:string;
+     	ex:organisateur	 "Association La Turmelière à Liré"^^xsd:string.
+    
+<http://projet.com/8/FESTIVAL_ANGERS_BD>	 ex:nom 	 "FESTIVAL ANGERS BD"^^xsd:string; 
+    	ex:description	 "Lors de sa 14e édition, le festival présentera des œuvres de dessinateurs de BD au travers de nombreuses animations, rencontres avec les artistes, expositions, conférences-débats et séances de dédicaces. Les exposants, viticulteurs, libraires et bouquinistes, seront présents pour partager avec les bédéphiles – petits et grands – la richesse de ce festival, au centre des congrès d’Angers."^^xsd:string ;
+    	ex:dates	"1er-2 décembre"^^xsd:string ;
+     	ex:tel	 "null"^^xsd:integer;
+    	ex:ville	"Angers"^^xsd:string ;
+    	ex:departement	"49"^^xsd:integer ;
+     	ex:codeInsee	 "49007"^^xsd:string;
+     	ex:siteWeb	 "www.angersbd.fr"^^xsd:string;
+     	ex:organisateur	 "Association Angers BD "^^xsd:string.
+    
+<http://projet.com/8/BD_MANIA>	 ex:nom 	 "BD MANIA"^^xsd:string; 
+    	ex:description	 "Rendez-vous des amateurs de bande dessinée en Sarthe, BD Mania accueillera 28 auteurs professionnels ainsi que de nombreuses animations : expositions de planches originales, jeu concours en lien avec le réseau des médiathèques du département, cafés BD, ateliers d’initiations à la BD. Á noter également : un espace jeune auteurs."^^xsd:string ;
+    	ex:dates	"24-25 novembre"^^xsd:string ;
+     	ex:tel	 "0243211006"^^xsd:integer;
+    	ex:ville	"Arnage"^^xsd:string ;
+    	ex:departement	"72"^^xsd:integer ;
+     	ex:codeInsee	 "72008"^^xsd:string;
+     	ex:siteWeb	 " www.arnage.fr"^^xsd:string;
+     	ex:organisateur	 "Commune d’Arnage"^^xsd:string.
+    
+<http://projet.com/8/DES_MOTS_À_LA_BOUCHE>	 ex:nom 	 "DES MOTS À LA BOUCHE"^^xsd:string; 
+    	ex:description	 "Événement dédié à la littérature et à l’écrit, Des mots à la bouche propose pour sa cinquième édition expositions, dédicaces, lectures et ateliers autour du thème Galerie de portraits. Différents auteurs-illustrateurs se prêtent à des rencontres : Nicolas Jolivot, Fred Sochard et Yves Jouan parleront de leur travail à plus de 300 enfants lors de journées dédiées aux scolaires."^^xsd:string ;
+    	ex:dates	"28-31 mars"^^xsd:string ;
+     	ex:tel	 "null"^^xsd:integer;
+    	ex:ville	"Beaufort-en-Vallée"^^xsd:string ;
+    	ex:departement	"49"^^xsd:integer ;
+     	ex:codeInsee	 "49021"^^xsd:string;
+     	ex:siteWeb	 "http://desmotsalabouche.blogspot.com"^^xsd:string;
+     	ex:organisateur	 "Association Aé"^^xsd:string.
+    
+<http://projet.com/8/LA_TRÈS_PETITE_BALADE_LITTÉRAIRE>	 ex:nom 	 "LA TRÈS PETITE BALADE LITTÉRAIRE"^^xsd:string; 
+    	ex:description	 "Pour la 3e année, La très petite association organise une balade littéraire dans Clisson, avec des lectures de textes « coups de cœur » dans des endroits insolites de la ville… Cette année, la balade est nocturne… Rendez-vous à 19 h devant la librairie."^^xsd:string ;
+    	ex:dates	"26 mai"^^xsd:string ;
+     	ex:tel	 "0251718966"^^xsd:integer;
+    	ex:ville	"Clisson"^^xsd:string ;
+    	ex:departement	"44"^^xsd:integer ;
+     	ex:codeInsee	 "44043"^^xsd:string;
+     	ex:siteWeb	 "null"^^xsd:string;
+     	ex:organisateur	 "La très petite librairie"^^xsd:string.
+    
+<http://projet.com/8/RENCONTRES_DE_FONTEVRAUD>	 ex:nom 	 "RENCONTRES DE FONTEVRAUD"^^xsd:string; 
+    	ex:description	 "La Maison des écrivains étrangers et des traducteurs organise les 20 et 21 octobre 2012, à l’abbaye de Fontevraud, un colloque intitulé : « L’engagement critique ». « La critique a longtemps exercé un magistère, 10 rendez-vous littéraires et le rez-de-chaussée du journal Le Monde en était une ﬁgure. Aujourd’hui, existe-t-il  un type de critique qui déﬁnisse ce qui est  littérature et ce qui ne l’est pas ? Comment  la légitimité vient-elle aux œuvres ? Quel  rôle la critique universitaire joue-t-elle  maintenant qu’elle accepte de se confronter  à l’immédiat contemporain? »"^^xsd:string ;
+    	ex:dates	"20-21 octobre"^^xsd:string ;
+     	ex:tel	 "0240666320"^^xsd:integer;
+    	ex:ville	"Fontevraud"^^xsd:string ;
+    	ex:departement	"49"^^xsd:integer ;
+     	ex:codeInsee	 "49140"^^xsd:string;
+     	ex:siteWeb	 "www.maisonecrivainsetrangers.com"^^xsd:string;
+     	ex:organisateur	 "Association Meet"^^xsd:string.
+    
+<http://projet.com/8/FESTIVAL_DU_LIVRE_EN_BRETAGNE>	 ex:nom 	 "FESTIVAL DU LIVRE EN BRETAGNE"^^xsd:string; 
+    	ex:description	 "Rendez-vous d’automne des éditeurs, des auteurs et des lecteurs, le Festival du Livre en Bretagne de Guérande fait découvrir à un large public des ouvrages en relation avec la Bretagne au Centre Culturel Athanor. Placé sous le thème de « La Bretagne au féminin », la 9e édition du Festival sera l’occasion d’échanges avec les auteurs invités, de voyages inattendus grâce aux conférences, exposition, films…"^^xsd:string ;
+    	ex:dates	"23-25 novembre"^^xsd:string ;
+     	ex:tel	 "0240176889"^^xsd:integer;
+    	ex:ville	"Guérande"^^xsd:string ;
+    	ex:departement	"44"^^xsd:integer ;
+     	ex:codeInsee	 "44069"^^xsd:string;
+     	ex:siteWeb	 "www.festivaldulivreenbretagne.com  "^^xsd:string;
+     	ex:organisateur	 "Association Gourenez"^^xsd:string.
+    
+<http://projet.com/8/ÉCRIVAINS_EN_BORD_DE_MER>	 ex:nom 	 "ÉCRIVAINS EN BORD DE MER"^^xsd:string; 
+    	ex:description	 "Une manifestation littéraire au cœur de l’été où tous les participants ont en commun l’amour d’une littérature créative. Cette manifestation est aussi l’occasion de mettre en avant ceux qui propagent cette littérature audacieuse : les éditeurs, les traducteurs, les journalistes, les critiques littéraires… Auteurs attendus pour cette 16e édition : Annie Ernaux, John Burnside, Laura Kasischke, Charles Robinson…"^^xsd:string ;
+    	ex:dates	"18-22 juillet"^^xsd:string ;
+     	ex:tel	 "0240695194"^^xsd:integer;
+    	ex:ville	"La Baule"^^xsd:string ;
+    	ex:departement	"44"^^xsd:integer ;
+     	ex:codeInsee	 "44055"^^xsd:string;
+     	ex:siteWeb	 "www.ecrivainsenborddemer.fr"^^xsd:string;
+     	ex:organisateur	 "Association Ecrivains en bord de mer"^^xsd:string.
+    
+<http://projet.com/8/FÊTE_DU_LIVRE>	 ex:nom 	 "FÊTE DU LIVRE"^^xsd:string; 
+    	ex:description	 "Manifestation en plein air présentant la production et la création littéraire des Pays de Loire et de Bretagne, tous genres confondus, avec toutefois une mise en avant du polar pour cette 8e édition. Des animations littéraires seront proposées sur le salon durant la journée."^^xsd:string ;
+    	ex:dates	"22 juillet"^^xsd:string ;
+     	ex:tel	 "0240215252"^^xsd:integer;
+    	ex:ville	"La Plaine sur Mer"^^xsd:string ;
+    	ex:departement	"44"^^xsd:integer ;
+     	ex:codeInsee	 "44126"^^xsd:string;
+     	ex:siteWeb	 "www.laplainesurmer.fr"^^xsd:string;
+     	ex:organisateur	 "Office de Tourisme de La Plaine-sur-Mer"^^xsd:string.
+    
+<http://projet.com/8/FESTIVAL_DU_PREMIER_ROMAN>	 ex:nom 	 "FESTIVAL DU PREMIER ROMAN"^^xsd:string; 
+    	ex:description	 "Cette édition exceptionnelle du Festival, parrainé par Sorj Chalandon, et qui aura lieu au Théâtre de Laval, fait honneur aux 12 auteurs de premiers romans (Kaouther Adimi, Marie-Odile Ascher, Joël Baqué, Stéphane Chaumet, Dalibor Frioux, Hélène Gestern, Caroline Lunoir, William Memlouk, Emmanuelle Pol, Nicole Roland, Sophie Schulze et Eric Sommier) aux cafés littéraires et tables rondes, aux éditions Gallimard dont le centenaire s’associe aux 20 ans de Lecture en Tête, organisatrice du Festival, ainsi qu’aux 19 éditions passées qui ont vu défi ler pour leur premier roman des auteurs tels que Carole Martinez, Blandine Le Callet, Isabelle Jarry, Olivier Maulin et Violaine Bérot. Samedi 24 mars à 20 h 30, Macha Méril et Laurent Menez prêtent leurs voix aux premiers romans chefs d’œuvre de la littérature des 100 dernières années lors d’une lecture-spectacle de 45 minutes."^^xsd:string ;
+    	ex:dates	"22-25 mars"^^xsd:string ;
+     	ex:tel	 "0243531190"^^xsd:integer;
+    	ex:ville	"Laval"^^xsd:string ;
+    	ex:departement	"53"^^xsd:integer ;
+     	ex:codeInsee	 "53130"^^xsd:string;
+     	ex:siteWeb	 "www.lecture-en-tete.fr"^^xsd:string;
+     	ex:organisateur	 "Association Lecture en Tête "^^xsd:string.
+    
+<http://projet.com/8/PASSERELLES_:_AU-DELÀ_DES_GENRES>	 ex:nom 	 "PASSERELLES : AU-DELÀ DES GENRES"^^xsd:string; 
+    	ex:description	 "« Passerelles » est un rendez-vous annuel proposé par la médiathèque de l’Espal autour des littératures de l’imaginaire (science-fiction, fantastique, fantasy). Cette quatrième rencontre aborde le thème des « cités et mondes utopiques » en compagnie de Joëlle Wintrebert, Mathieu Gaborit et Sylvie Denis."^^xsd:string ;
+    	ex:dates	"31 mars"^^xsd:string ;
+     	ex:tel	 "0243473997"^^xsd:integer;
+    	ex:ville	"Le Mans"^^xsd:string ;
+    	ex:departement	"72"^^xsd:integer ;
+     	ex:codeInsee	 "72181"^^xsd:string;
+     	ex:siteWeb	 "www.facebook.com/mediatheques.lemans"^^xsd:string;
+     	ex:organisateur	 "Médiathèque de l’Espal"^^xsd:string.
+    
+<http://projet.com/8/LECTURES_EN_CITÉ_PLANTAGENÊT>	 ex:nom 	 "LECTURES EN CITÉ PLANTAGENÊT"^^xsd:string; 
+    	ex:description	 "Dans les Jardins de da Cathédrale Saint Julien, comédiens et public partagent le plaisir de la lecture des grands textes littéraires. Se succéderont Catherine Paysan, Brigitte Fossey, Jean-Claude Drouot, Marie-Christine Barrault et Charles Gonzales, Xavier Gallais, Jean-Francois Balmer."^^xsd:string ;
+    	ex:dates	"juillet-août"^^xsd:string ;
+     	ex:tel	 "0243281722"^^xsd:integer;
+    	ex:ville	"Le Mans"^^xsd:string ;
+    	ex:departement	"72"^^xsd:integer ;
+     	ex:codeInsee	 "72181"^^xsd:string;
+     	ex:siteWeb	 "www.lemanstourisme.com"^^xsd:string;
+     	ex:organisateur	 "Office de Tourisme du Mans"^^xsd:string.
+    
+<http://projet.com/8/LA_25E_HEURE_DU_LIVRE>	 ex:nom 	 "LA 25E HEURE DU LIVRE"^^xsd:string; 
+    	ex:description	 "Le salon du livre du Mans, organisé par la Ville du Mans et l’association « La 25e Heure du Livre », recevra les auteurs de l’actualité littéraire au sein de ses espaces jeunesse, BD, polar, littérature de l’imaginaire, littérature générale… Sa thématique à caractère ethnographique sera cette année consacrée à une rencontre avec les peuples d’Océanie. Journée scolaire le 12 octobre réservée aux classes lauréates des Trophées Lecture Jeunesse."^^xsd:string ;
+    	ex:dates	"12-14 octobre"^^xsd:string ;
+     	ex:tel	 "0243240968"^^xsd:integer;
+    	ex:ville	"Le Mans"^^xsd:string ;
+    	ex:departement	"72"^^xsd:integer ;
+     	ex:codeInsee	 "72181"^^xsd:string;
+     	ex:siteWeb	 "www.la25eheuredulivre.fr"^^xsd:string;
+     	ex:organisateur	 "Association 25e Heure du livre"^^xsd:string.
+    
+<http://projet.com/8/FORUM_LE_MONDE_–_LE_MANS>	 ex:nom 	 "FORUM LE MONDE – LE MANS"^^xsd:string; 
+    	ex:description	 "Depuis plus de vingt ans, le journal Le Monde, la ville du Mans, l’Université du Maine et l’association du Forum Le Monde Le Mans invitent des grands noms de la pensée française et internationale à débattre pendant trois jours sur des préoccupations majeures de ce début de siècle : science et philosophie, éthique, culture européenne, modernité de la pensée antique, argent, art et connaissance, bonheur, avenir, tolérance, valeur, violence, techniques... Le déﬁ de ces rencontres est de rendre accessible la philosophie à tous sans pour autant rendre simpliste le propos, de démontrer que la rigueur des colloques savants et la spontanéité du débat citoyen convergent dans un seul et même élan. Le thème du 24e Forum sera celui de l’amour."^^xsd:string ;
+    	ex:dates	"9-11 novembre"^^xsd:string ;
+     	ex:tel	 "0243473860"^^xsd:integer;
+    	ex:ville	"Le Mans "^^xsd:string ;
+    	ex:departement	"72"^^xsd:integer ;
+     	ex:codeInsee	 "72181"^^xsd:string;
+     	ex:siteWeb	 "forumlemondelemans.univ-lemans.fr"^^xsd:string;
+     	ex:organisateur	 "Association Cercle des amis Forum Le Monde-Le Mans"^^xsd:string.
+    
+<http://projet.com/8/FESTIVAL_DE_LA_BD_ENGAGÉE>	 ex:nom 	 "FESTIVAL DE LA BD ENGAGÉE"^^xsd:string; 
+    	ex:description	 "Rencontres entre auteurs, dessinateurs et le public curieux de découvrir le travail des artistes associant l’art graphique aux problèmes de société. Ce festival est organisé en partenariat avec la librairie le Yéti."^^xsd:string ;
+    	ex:dates	"12-14 octobre"^^xsd:string ;
+     	ex:tel	 "0241554298"^^xsd:integer;
+    	ex:ville	"Le May-sur-Evre"^^xsd:string ;
+    	ex:departement	"49"^^xsd:integer ;
+     	ex:codeInsee	 "49193"^^xsd:string;
+     	ex:siteWeb	 "www.bandesapart.org"^^xsd:string;
+     	ex:organisateur	 "Association Bandes à part"^^xsd:string.
+    
+<http://projet.com/8/LES_BELLES_RENCONTRES>	 ex:nom 	 "LES BELLES RENCONTRES"^^xsd:string; 
+    	ex:description	 "Ces trois journées littéraires s’organisent autour du thème de la maison : celle qui abrite, accompagne, fait grandir, édite… Au programme : des débats, rencontres et tables rondes – « Première publication et après ? », « La place de la librairie indépendante dans la diffusion de textes et d’auteurs plus confidentiels »… –, des ateliers (impression, calligraphie…), et la découverte du travail des éditeurs indépendants présents. Parmi eux : Attila, Ane Bâté, Cénomane, Chandeigne, éditions du Chemin de fer, Chants d’ortie, L’Escarbille, Esperluète, MLD, La Part commune, éditions du Sonneur, Millefeuille, etc."^^xsd:string ;
+    	ex:dates	"11-13 mai"^^xsd:string ;
+     	ex:tel	 "0240118628"^^xsd:integer;
+    	ex:ville	"Le Pouliguen"^^xsd:string ;
+    	ex:departement	"44"^^xsd:integer ;
+     	ex:codeInsee	 "44135"^^xsd:string;
+     	ex:siteWeb	 "http://le-sel-des-mots.over-blog.com"^^xsd:string;
+     	ex:organisateur	 "Association Le Sel des Mots"^^xsd:string.
+    
+<http://projet.com/8/RENDEZ-VOUS_DU_BOIS_CHEVALIER>	 ex:nom 	 "RENDEZ-VOUS DU BOIS CHEVALIER"^^xsd:string; 
+    	ex:description	 "Cette 4e édition traitera le thème du soleil. Des spécialistes de ce sujet interviendront, scientifiques et astrophysiciens : Jean-Claude Vial, Patrick Boumier. Conférences, lectures de poésie, avec pour invités Antoine Emaz, Anthony Phelps et Évelyne Morin, ainsi que la participation de Brigitte Gyr. Pour les enfants et les plus grands, une coupole du Planétarium de Nantes sera installée dans la cour."^^xsd:string ;
+    	ex:dates	"16-17 juin"^^xsd:string ;
+     	ex:tel	 "null"^^xsd:integer;
+    	ex:ville	"Légé"^^xsd:string ;
+    	ex:departement	"49"^^xsd:integer ;
+     	ex:codeInsee	 "44081"^^xsd:string;
+     	ex:siteWeb	 "www.rendez-vous-du-bois-chevalier.com"^^xsd:string;
+     	ex:organisateur	 "Association Les amis de la Forge"^^xsd:string.
+    
+<http://projet.com/8/MAI_LIVRES>	 ex:nom 	 "MAI LIVRES"^^xsd:string; 
+    	ex:description	 "La 6e édition de Mai Livres débarque dans la commune des Épesses pour deux jours, dans une bibliothèque fraîchement agrandie et rénovée. Ce week-end est synonyme de rencontres et d’échanges autour d’intervenants, de conteurs et de spectacles. Seront présents Jean-Claude Lumet, Marcel Grelet, Christophe Prat, la maison d’édition Gulf Stream, l’illustrateur Lionel Tarchala et les éditions Soc & Foc. Des escales littéraires, une balade contée semi-nocturne et un spectacle musical seront les temps forts de ce week-end. "^^xsd:string ;
+    	ex:dates	"5-6 mai"^^xsd:string ;
+     	ex:tel	 "0251668227"^^xsd:integer;
+    	ex:ville	"Les Épesses"^^xsd:string ;
+    	ex:departement	"85"^^xsd:integer ;
+     	ex:codeInsee	 "85082"^^xsd:string;
+     	ex:siteWeb	 "www.cc-paysdesherbiers.fr"^^xsd:string;
+     	ex:organisateur	 "Communauté de Communes du Pays des Herbiers"^^xsd:string.
+    
+<http://projet.com/8/FESTIVAL_SIMENON>	 ex:nom 	 "FESTIVAL SIMENON"^^xsd:string; 
+    	ex:description	 "14e festival sous le thème « Georges Simenon, le Liégeois de Vendée ». Débats, projections de films, animations expositions, autour de l’œuvre de Simenon."^^xsd:string ;
+    	ex:dates	"22-23 juin"^^xsd:string ;
+     	ex:tel	 "0251959412"^^xsd:integer;
+    	ex:ville	"Les Sables-d’Olonne"^^xsd:string ;
+    	ex:departement	"85"^^xsd:integer ;
+     	ex:codeInsee	 "85194"^^xsd:string;
+     	ex:siteWeb	 "www.festival-simenon-sablesolonne.com"^^xsd:string;
+     	ex:organisateur	 "Association sablaise pour la promotion de la culture (ASPC)"^^xsd:string.
+    
+<http://projet.com/8/FESTI’MALLES>	 ex:nom 	 "FESTI’MALLES"^^xsd:string; 
+    	ex:description	 "3e édition de Festi’malles : un festival gratuit pour les animateurs, bibliothécaires et médiateurs de la lecture (salariés et bénévoles). Temps privilégié de découvertes, réflexions, partages et de rencontres sur les pratiques d’animation en lecture et en écriture, pour faire connaître et valoriser les différents outils d’animation lecture des Pays-de-Loire (forum, tables rondes, conférences, ateliers...)."^^xsd:string ;
+    	ex:dates	"3-5 octobre"^^xsd:string ;
+     	ex:tel	 "0240091516"^^xsd:integer;
+    	ex:ville	"Liré"^^xsd:string ;
+    	ex:departement	"49"^^xsd:integer ;
+     	ex:codeInsee	 "49197"^^xsd:string;
+     	ex:siteWeb	 "www.laturmeliere.org"^^xsd:string;
+     	ex:organisateur	 "Association La Turmelière "^^xsd:string.
+    
+<http://projet.com/8/RENCONTRES_DE_LIRÉ>	 ex:nom 	 "RENCONTRES DE LIRÉ"^^xsd:string; 
+    	ex:description	 "Ces rencontres biennales se penchent pour leur 6e édition sur le thème : « Le français, une langue pour réussir ». Pendant une semaine, il s’agira de réfléchir au rôle joué par la langue française dans les domaines socio-politique, professionnel et artistique, au cours de communications et d’échanges avec le public. Des tables rondes prolongeront la réflexion, tandis qu’expositions, spectacles, ateliers (dictée des Lyriades, mots croisés), jeux, parcours et visites apporteront à la manifestation sa dimension festive."^^xsd:string ;
+    	ex:dates	"24-29 avril"^^xsd:string ;
+     	ex:tel	 "0241479591"^^xsd:integer;
+    	ex:ville	"Liré, Angers, Ancenis"^^xsd:string ;
+    	ex:departement	"49"^^xsd:integer ;
+     	ex:codeInsee	 "49197"^^xsd:string;
+     	ex:siteWeb	 "www.leslyriades.fr"^^xsd:string;
+     	ex:organisateur	 "Association Les Lyriades"^^xsd:string.
+    
+<http://projet.com/8/SEMAINE_DU_LIVRE_JEUNESSE>	 ex:nom 	 "SEMAINE DU LIVRE JEUNESSE"^^xsd:string; 
+    	ex:description	 "Placée sous la thématique « le livre fait son cinéma », cette 13e édition de la Semaine du livre jeunesse met en lumière le travail de création que représente l’adaptation d’une œuvre écrite au cinéma ou en bande dessinée. Expositions, rencontres, spectacles et projections de films inviteront à découvrir le travail de nombreux artistes – illustrateurs, auteurs, scénaristes… Parmi eux : Eric Simard, Thomas Scotto, Yves Grevet, Sylvie Deshors, Yann Degruel, Donal Grant… "^^xsd:string ;
+    	ex:dates	"19-25 mars"^^xsd:string ;
+     	ex:tel	 "0251561009"^^xsd:integer;
+    	ex:ville	"Luçon"^^xsd:string ;
+    	ex:departement	"85"^^xsd:integer ;
+     	ex:codeInsee	 "85128"^^xsd:string;
+     	ex:siteWeb	 "www.livre-jeunesse-lucon.com"^^xsd:string;
+     	ex:organisateur	 "Médiathèque Pierre Menanteau"^^xsd:string.
+    
+<http://projet.com/8/MAUVES_EN_NOIR>	 ex:nom 	 "MAUVES EN NOIR"^^xsd:string; 
+    	ex:description	 "Mauves en noir recevra une quarantaine d’auteurs de roman noir et polar pour cette 11e édition. Pour la première fois, des auteurs de langue espagnole sont invités. Des rencontres, tables rondes, conférences, jeux de lecture et d’écriture et une ouverture particulière au public non et mal-voyant. Dans les jours précédents plusieurs auteurs invités interviendront dans les écoles, collèges et lycées ainsi que dans des TER."^^xsd:string ;
+    	ex:dates	"28-29 avril"^^xsd:string ;
+     	ex:tel	 "0240255592"^^xsd:integer;
+    	ex:ville	"Mauves-sur-Loire"^^xsd:string ;
+    	ex:departement	"44"^^xsd:integer ;
+     	ex:codeInsee	 "44094"^^xsd:string;
+     	ex:siteWeb	 "mauvesennoir.com"^^xsd:string;
+     	ex:organisateur	 "Association Mauves en Noir"^^xsd:string.
+    
+<http://projet.com/8/CROQ’LES_MOTS,_MARMOT_!>	 ex:nom 	 "CROQ’LES MOTS, MARMOT !"^^xsd:string; 
+    	ex:description	 "Pour la 3° édition, le Pays de Haute Mayenne, le Kiosque et le réseau Lecture s’associent de nouveau pour la mise en place de la formule unique de Croq’. Rendez-vous le vendredi 1er juin pour la journée professionnelle autour de « L’oralité, les livres et les tout-petits » ; puis les 2 et 3 juin pour le salon du livre petite enfance (0-6 ans) : 12 auteurs-illustrateurs, une librairie géante ; des rencontres, des ateliers, des spectacles, des projections, des expos et surtout des lecteurs permanents : un salon où tout est fait pour les enfants !"^^xsd:string ;
+    	ex:dates	"1er-3 juin"^^xsd:string ;
+     	ex:tel	 "0243046450"^^xsd:integer;
+    	ex:ville	"Mayenne"^^xsd:string ;
+    	ex:departement	"53"^^xsd:integer ;
+     	ex:codeInsee	 "53147"^^xsd:string;
+     	ex:siteWeb	 "www.hautemayenne.org"^^xsd:string;
+     	ex:organisateur	 "Pays de Haute Mayenne"^^xsd:string.
+    
+<http://projet.com/8/LE_PRINTEMPS_DU_LIVRE_DE_MONTAIGU>	 ex:nom 	 "LE PRINTEMPS DU LIVRE DE MONTAIGU"^^xsd:string; 
+    	ex:description	 "Sous la présidence d’honneur de Mireille Calmel, 250 auteurs et de nombreux professionnels du livre (libraires, éditeurs, bibliothécaires) sont rassemblés pour la 24e édition du Printemps du livre de Montaigu. Il se tient cette année sur le site du théâtre de Thalie, le nouveau pôle culturel de la Communauté de communes Terres de Montaigu."^^xsd:string ;
+    	ex:dates	"30 mars-1er avril"^^xsd:string ;
+     	ex:tel	 "0251464444"^^xsd:integer;
+    	ex:ville	"Montaigu"^^xsd:string ;
+    	ex:departement	"85"^^xsd:integer ;
+     	ex:codeInsee	 "85146"^^xsd:string;
+     	ex:siteWeb	 "www.terresdemontaigu.fr"^^xsd:string;
+     	ex:organisateur	 "Communauté de communes Terres de Montaigu"^^xsd:string.
+    
+<http://projet.com/8/13ÈME_FESTIVAL_BD>	 ex:nom 	 "13ÈME FESTIVAL BD"^^xsd:string; 
+    	ex:description	 "Aux côtés de l’invité d’honneur Philippe Xavier, dessinateur de Croisade, le festival rassemble de nombreux auteurs de BD dont Alexe, Adeline Blondieau, Boulet, Jean Dufaux, Curd Ridel…Le collectif angevin La boîte qui fait Beuh anime un atelier BD. Nouveauté 2012 : un café littéraire au petit théâtre des caves Bouvet-Ladubay à Saint Hilaire Saint Florent le vendredi 1er juin 2012 à 18 h 30."^^xsd:string ;
+    	ex:dates	"2-3 juin"^^xsd:string ;
+     	ex:tel	 "0272155080"^^xsd:integer;
+    	ex:ville	"Montreuil-Bellay"^^xsd:string ;
+    	ex:departement	"49"^^xsd:integer ;
+     	ex:codeInsee	 "49125"^^xsd:string;
+     	ex:siteWeb	 "www.aucoeurdesbulles.com"^^xsd:string;
+     	ex:organisateur	 "Association Au coeur des bulles"^^xsd:string.
+    
+<http://projet.com/8/SALON_ANGEVIN_DU_LIVRE_ANCIEN>	 ex:nom 	 "SALON ANGEVIN DU LIVRE ANCIEN"^^xsd:string; 
+    	ex:description	 "14e édition qui réunit nombre de librairies anciennes et d’occasion ainsi que quelques artisans (relieur, enlumineur) autour d’expositions et d’animations. Les vieux métiers seront à l’honneur pour 2012."^^xsd:string ;
+    	ex:dates	"31 mars-1er avril"^^xsd:string ;
+     	ex:tel	 "0241578185"^^xsd:integer;
+    	ex:ville	"Mûrs-Érigné"^^xsd:string ;
+    	ex:departement	"49"^^xsd:integer ;
+     	ex:codeInsee	 "49223"^^xsd:string;
+     	ex:siteWeb	 "www.ville-murs-erigne.fr"^^xsd:string;
+     	ex:organisateur	 "Centre culturel Jean-Carmet"^^xsd:string.
+    
+<http://projet.com/8/LES_UTOPIALES>	 ex:nom 	 "LES UTOPIALES"^^xsd:string; 
+    	ex:description	 "Ce festival international de référence consacre une large place à la littérature, le cinéma, la bande dessinée, et propose expositions, jeux de rôles et rencontres scientiﬁques… Durant quatre jours, la science-ﬁction est abordée dans son actualité et dans toutes ses dimensions à la Cité des Congrès de Nantes-Métropole."^^xsd:string ;
+    	ex:dates	"novembre"^^xsd:string ;
+     	ex:tel	 "0251882060"^^xsd:integer;
+    	ex:ville	"Nantes"^^xsd:string ;
+    	ex:departement	"44"^^xsd:integer ;
+     	ex:codeInsee	 "44109"^^xsd:string;
+     	ex:siteWeb	 "www.utopiales.org"^^xsd:string;
+     	ex:organisateur	 "Association du Festival International de Science-Fiction de Nantes"^^xsd:string.
+    
+<http://projet.com/8/RENCONTRES_LITTÉRAIRES_NORDIQUES>	 ex:nom 	 "RENCONTRES LITTÉRAIRES NORDIQUES"^^xsd:string; 
+    	ex:description	 "L’association Impressions d’Europe invite à découvrir les littératures nordiques avec des représentants du Danemark, de Suède, de Finlande, de Norvège et des Pays Bas. Films, expositions d’œuvres graphiques, théâtre, librairie thématique."^^xsd:string ;
+    	ex:dates	"novembre"^^xsd:string ;
+     	ex:tel	 "0240124237"^^xsd:integer;
+    	ex:ville	"Nantes"^^xsd:string ;
+    	ex:departement	"44"^^xsd:integer ;
+     	ex:codeInsee	 "44109"^^xsd:string;
+     	ex:siteWeb	 "www.impressionsdeurope.com"^^xsd:string;
+     	ex:organisateur	 "Association Impressions d’Europe"^^xsd:string.
+    
+<http://projet.com/8/LES_CRAYONANTES>	 ex:nom 	 "LES CRAYONANTES"^^xsd:string; 
+    	ex:description	 "Pour sa 8e édition, le festival organisé par l’association Taille-crayon proposera des expositions, des ateliers manga, animations, rencontres avec une trentaine d’auteurs pour le grand public et le public scolaire."^^xsd:string ;
+    	ex:dates	"décembre"^^xsd:string ;
+     	ex:tel	 "0671071220"^^xsd:integer;
+    	ex:ville	"Nantes"^^xsd:string ;
+    	ex:departement	"44"^^xsd:integer ;
+     	ex:codeInsee	 "44109"^^xsd:string;
+     	ex:siteWeb	 "www.nantesbd.com"^^xsd:string;
+     	ex:organisateur	 "Association Taille-Crayon"^^xsd:string.
+    
+<http://projet.com/8/ESCALE_2012_DU_SALON_DU_LIVRE_DE_MER_DE_L’ÎLE_DE_NOIRMOUTIER>	 ex:nom 	 "ESCALE 2012 DU SALON DU LIVRE DE MER DE L’ÎLE DE NOIRMOUTIER"^^xsd:string; 
+    	ex:description	 "Rencontres et dédicaces d’écrivains, conférences, cafés littéraires, expositions, avec également présence de libraires, éditeurs, associations à vocation maritime."^^xsd:string ;
+    	ex:dates	"23-24 juin"^^xsd:string ;
+     	ex:tel	 "0251935769"^^xsd:integer;
+    	ex:ville	"Noirmoutier"^^xsd:string ;
+    	ex:departement	"85"^^xsd:integer ;
+     	ex:codeInsee	 "85163"^^xsd:string;
+     	ex:siteWeb	 "www.livre-mer-noirmoutier.com"^^xsd:string;
+     	ex:organisateur	 "Association Printemps Lecture et Culture "^^xsd:string.
+    
+<http://projet.com/8/ABRACADABULLES>	 ex:nom 	 "ABRACADABULLES"^^xsd:string; 
+    	ex:description	 "Plus de 40 auteurs sont attendus pour cette 13e édition du festival de la bande dessinée."^^xsd:string ;
+    	ex:dates	"8-9 septembre"^^xsd:string ;
+     	ex:tel	 "0241722335"^^xsd:integer;
+    	ex:ville	"Olonne-sur-Mer"^^xsd:string ;
+    	ex:departement	"85"^^xsd:integer ;
+     	ex:codeInsee	 "85166"^^xsd:string;
+     	ex:siteWeb	 "www.abracadabulles.com"^^xsd:string;
+     	ex:organisateur	 "Association Abracadabulles"^^xsd:string.
+    
+<http://projet.com/8/MARCHÉ_DE_LA_POÉSIE>	 ex:nom 	 "MARCHÉ DE LA POÉSIE"^^xsd:string; 
+    	ex:description	 "Le marché de la poésie présente des éditeurs de poésie de toute la France et des lectures de poètes. En 2012, la commune accueillera Christophe Jubien, Maram Al Masri, Franck Cottet, Françoise Hàn et Jean-Pierre Siméon (Président du Printemps des Poètes au niveau national). Edith Azam, poète accueillie en résidence d’avril à juillet présentera le travail effectué lors de cette période. Enfin, les habitants de Rochefort-sur-Loire proposeront des intermèdes poétiques et musicaux dans la commune."^^xsd:string ;
+    	ex:dates	"29 juin-1er juillet"^^xsd:string ;
+     	ex:tel	 "0241787914"^^xsd:integer;
+    	ex:ville	"Rochefort-sur-Loire"^^xsd:string ;
+    	ex:departement	"49"^^xsd:integer ;
+     	ex:codeInsee	 "49259"^^xsd:string;
+     	ex:siteWeb	 "null"^^xsd:string;
+     	ex:organisateur	 "Centre Poétique de Rochefort-sur-Loire"^^xsd:string.
+    
+<http://projet.com/8/JOURNÉES_DE_LA_BD>	 ex:nom 	 "JOURNÉES DE LA BD"^^xsd:string; 
+    	ex:description	 "Pour leur 25e édition, les journées de la BD font un tour du côté de la science-fiction, avec pour cri de ralliement : « Inventez le XXVe siècle ! » Autour de Gess – dessinateur de l’affiche 2012 – et de Jean-Marie Michaud, une quarantaine d’auteurs seront présents pour rencontrer leur public et dédicacer leurs albums."^^xsd:string ;
+    	ex:dates	"28-29 avril"^^xsd:string ;
+     	ex:tel	 "0240642930"^^xsd:integer;
+    	ex:ville	"Rouans"^^xsd:string ;
+    	ex:departement	"44"^^xsd:integer ;
+     	ex:codeInsee	 "44145"^^xsd:string;
+     	ex:siteWeb	 "http://journeesbd.free.fr"^^xsd:string;
+     	ex:organisateur	 "Association Journées de la BD"^^xsd:string.
+    
+<http://projet.com/8/SABLÉ_SUR_LIVRES>	 ex:nom 	 "SABLÉ SUR LIVRES"^^xsd:string; 
+    	ex:description	 "Sablé Sur Livres fête son 10e anniversaire le dimanche 1er avril de 10 h à 19 h à la Halle de l’Hippodrome de Sablé. Au programme : rencontres, dédicaces, ateliers... Seront présents : la bibliothèque municipale, Alpha Sablé, la bibliothèque pour tous, Passé Simple ainsi que la Librairie Doucet (Le Mans) et les éditions Le Petit Pavé, La Vie Mancelle, Télémaque, Les Deux Encres, Vinarelles, MF Editions..."^^xsd:string ;
+    	ex:dates	"31 mars-1er avril"^^xsd:string ;
+     	ex:tel	 "0243923746"^^xsd:integer;
+    	ex:ville	"Sablé"^^xsd:string ;
+    	ex:departement	"72"^^xsd:integer ;
+     	ex:codeInsee	 "72264"^^xsd:string;
+     	ex:siteWeb	 "www.sable-sur-livres.com"^^xsd:string;
+     	ex:organisateur	 "Association Sablé-sur-Livres"^^xsd:string.
+    
+<http://projet.com/8/JOURNÉES_GRACQ>	 ex:nom 	 "JOURNÉES GRACQ"^^xsd:string; 
+    	ex:description	 "Depuis 2008, la ville de Saint-Florent-Le-Vieil organise des événements littéraires autour de l’œuvre de Julien Gracq dans le cadre du projet Maison Julien Gracq. En 2012, la commune poursuivra ses actions avec notamment la cinquième édition des Journées Gracq. Écrivains, journalistes et personnalités du monde littéraire interviendront tout au long de ce week-end."^^xsd:string ;
+    	ex:dates	"6-7 octobre"^^xsd:string ;
+     	ex:tel	 "0241725039"^^xsd:integer;
+    	ex:ville	"Saint-Florent-Le-Vieil"^^xsd:string ;
+    	ex:departement	"49"^^xsd:integer ;
+     	ex:codeInsee	 "49276"^^xsd:string;
+     	ex:siteWeb	 "www.ville-saintflorentlevieil.fr"^^xsd:string;
+     	ex:organisateur	 "Commune de Saint-Florent-Le-Vieil"^^xsd:string.
+    
+<http://projet.com/8/AFRIQUE_ANJOU_LIVRES_&_EXPRESSIONS>	 ex:nom 	 "AFRIQUE ANJOU LIVRES & EXPRESSIONS"^^xsd:string; 
+    	ex:description	 "Sous le nouveau nom Afrique Anjou Livres & expressions, l’ancien Salon du livre africain, biennal, rassemble pour sa 7e édition des auteurs français et africains dans la salle communale de Saint-Lambert-la-Potherie. Au fil de la journée se tiendront des conférences et des débats, des séances de dédicaces et diverses animations."^^xsd:string ;
+    	ex:dates	"2 juin"^^xsd:string ;
+     	ex:tel	 "0241877563"^^xsd:integer;
+    	ex:ville	"Saint-Lambert-la-Potherie"^^xsd:string ;
+    	ex:departement	"49"^^xsd:integer ;
+     	ex:codeInsee	 "49294"^^xsd:string;
+     	ex:siteWeb	 "null"^^xsd:string;
+     	ex:organisateur	 "Association Ebena"^^xsd:string.
+    
+<http://projet.com/8/L’ENFANCE_À_LA_PAGE>	 ex:nom 	 "L’ENFANCE À LA PAGE"^^xsd:string; 
+    	ex:description	 "L’Écrit parle organise son sixième salon du livre pour enfants. Une trentaine d’éditeurs, d’ici et d’ailleurs, petits ou grands, seront présentés. Au programme des rencontres avec des auteurs et des illustrateurs, des spectacles, des contes…."^^xsd:string ;
+    	ex:dates	"mi-décembre"^^xsd:string ;
+     	ex:tel	 "0240019570"^^xsd:integer;
+    	ex:ville	"Saint-Nazaire"^^xsd:string ;
+    	ex:departement	"44"^^xsd:integer ;
+     	ex:codeInsee	 "44184"^^xsd:string;
+     	ex:siteWeb	 "null"^^xsd:string;
+     	ex:organisateur	 "Association L’Écrit parle "^^xsd:string.
+    
+<http://projet.com/8/MEETING_N°10>	 ex:nom 	 "MEETING N°10"^^xsd:string; 
+    	ex:description	 "Chaque année, le troisième week-end de novembre, la Maison des écrivains étrangers et des traducteurs de Saint-Nazaire invite une vingtaine d’écrivains du monde entier à venir se rencontrer et rencontrer leurs lecteurs. Deux villes seront à l’honneur en 2012 : Quito et Dublin."^^xsd:string ;
+    	ex:dates	"15-18 novembre"^^xsd:string ;
+     	ex:tel	 "0240666320"^^xsd:integer;
+    	ex:ville	"Saint-Nazaire "^^xsd:string ;
+    	ex:departement	"44"^^xsd:integer ;
+     	ex:codeInsee	 "44184"^^xsd:string;
+     	ex:siteWeb	 "www.maisonecrivainsetrangers.com"^^xsd:string;
+     	ex:organisateur	 "Association Meet"^^xsd:string.
+    
+<http://projet.com/8/JOURNÉES_NATIONALES_DU_LIVRE_ET_DU_VIN>	 ex:nom 	 "JOURNÉES NATIONALES DU LIVRE ET DU VIN"^^xsd:string; 
+    	ex:description	 "Le thème décliné cette année est « L’ivresse de la liberté ». Au programme : lectures publiques, conférences, débats littéraires autour d’une centaine d’invités."^^xsd:string ;
+    	ex:dates	"12-13 mai"^^xsd:string ;
+     	ex:tel	 "0241838390"^^xsd:integer;
+    	ex:ville	"Saumur"^^xsd:string ;
+    	ex:departement	"49"^^xsd:integer ;
+     	ex:codeInsee	 "49328"^^xsd:string;
+     	ex:siteWeb	 "www.livreetvin.com"^^xsd:string;
+     	ex:organisateur	 "Association Journées nationales du livre et du vin"^^xsd:string.
+    
+<http://projet.com/8/SALON_DU_LIVRE_JEUNESSE_EN_ERDRE_ET_GESVRES>	 ex:nom 	 "SALON DU LIVRE JEUNESSE EN ERDRE ET GESVRES"^^xsd:string; 
+    	ex:description	 "Pour cette 8e édition sont attendus à Sucé-sur-Erdre 17 auteurs et illustrateurs, qui auront au préalable rencontré des élèves dans leurs établissements. Parmi eux : Juliette Binet, Pierrick Bisinski, Nathalie Brisac, Frédéric Clément, Cécile Gambini, Julien Magnani, Zazie Sazono… Un rendez-vous professionnel, « Quand les livres jouent… », précède également le salon, le 29 mars. Rythmé de rencontres, dédicaces, ateliers, animations, expositions, conférences…, celui-ci s’articule cette année autour du thème « De l’autre côté du miroir »."^^xsd:string ;
+    	ex:dates	"31 mars-1er avril"^^xsd:string ;
+     	ex:tel	 "0228022252"^^xsd:integer;
+    	ex:ville	"Sucé-sur-Erdre"^^xsd:string ;
+    	ex:departement	"44"^^xsd:integer ;
+     	ex:codeInsee	 "44201"^^xsd:string;
+     	ex:siteWeb	 "www.salonlivre-erdreetgesvres.fr"^^xsd:string;
+     	ex:organisateur	 "Communauté de communes Erdre et Gesvres"^^xsd:string.
+    

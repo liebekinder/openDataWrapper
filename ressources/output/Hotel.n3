@@ -1,450 +1,611 @@
 @prefix ex: <http://example.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ex:1			ex:postalCode	"44410"^^xsd:integer ;
+
+      ex:1			ex:postalCode	"44410"^^xsd:integer ;
 			ex:ville	"ASSERAC"^^xsd:string ;
 			ex:label	"LE BRETAGNE"^^xsd:string .
-ex:2			ex:postalCode	"44740"^^xsd:integer ;
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      ex:2			ex:postalCode	"44740"^^xsd:integer ;
 			ex:ville	"BATZ-SUR-MER"^^xsd:string ;
 			ex:label	"LE LICHEN DE LA MER"^^xsd:string .
-ex:3			ex:postalCode	"44740"^^xsd:integer ;
+
+      ex:3			ex:postalCode	"44740"^^xsd:integer ;
 			ex:ville	"BATZ-SUR-MER"^^xsd:string ;
 			ex:label	"LES EMBRUNS"^^xsd:string .
-ex:4			ex:postalCode	"44346"^^xsd:integer ;
+
+      ex:4			ex:postalCode	"44346"^^xsd:integer ;
 			ex:ville	"BOUGUENAIS"^^xsd:string ;
 			ex:label	"B&B HÔTEL NANTES AEROPORT"^^xsd:string .
-ex:5			ex:postalCode	"44340"^^xsd:integer ;
+
+      ex:5			ex:postalCode	"44340"^^xsd:integer ;
 			ex:ville	"BOUGUENAIS"^^xsd:string ;
 			ex:label	"HOTEL F1 - BOUGUENAIS"^^xsd:string .
-ex:6			ex:postalCode	"44340"^^xsd:integer ;
+
+      ex:6			ex:postalCode	"44340"^^xsd:integer ;
 			ex:ville	"BOUGUENAIS"^^xsd:string ;
 			ex:label	"ESCALE OCEANIA"^^xsd:string .
-ex:7			ex:postalCode	"44470"^^xsd:integer ;
+
+      ex:7			ex:postalCode	"44470"^^xsd:integer ;
 			ex:ville	"CARQUEFOU"^^xsd:string ;
 			ex:label	"HOTEL F1 - CARQUEFOU LA BELLE ETOILE"^^xsd:string .
-ex:8			ex:postalCode	"44110"^^xsd:integer ;
+
+      ex:8			ex:postalCode	"44110"^^xsd:integer ;
 			ex:ville	"CHATEAUBRIANT"^^xsd:string ;
 			ex:label	"LE CHATEAUBRIANT"^^xsd:string .
-ex:9			ex:postalCode	"44110"^^xsd:integer ;
+
+      ex:9			ex:postalCode	"44110"^^xsd:integer ;
 			ex:ville	"CHATEAUBRIANT"^^xsd:string ;
 			ex:label	"ETAP HOTEL"^^xsd:string .
-ex:10			ex:postalCode	"44190"^^xsd:integer ;
+
+      ex:10			ex:postalCode	"44190"^^xsd:integer ;
 			ex:ville	"CLISSON"^^xsd:string ;
 			ex:label	"LA GARE"^^xsd:string .
-ex:11			ex:postalCode	"44190"^^xsd:integer ;
+
+      ex:11			ex:postalCode	"44190"^^xsd:integer ;
 			ex:ville	"CLISSON"^^xsd:string ;
 			ex:label	"AUBERGE DE LA CASCADE"^^xsd:string .
-ex:12			ex:postalCode	"44190"^^xsd:integer ;
+
+      ex:12			ex:postalCode	"44190"^^xsd:integer ;
 			ex:ville	"CLISSON"^^xsd:string ;
 			ex:label	"BEST WESTERN VILLA SAINT ANTOINE"^^xsd:string .
-ex:13			ex:postalCode	"44220"^^xsd:integer ;
+
+      ex:13			ex:postalCode	"44220"^^xsd:integer ;
 			ex:ville	"COUERON"^^xsd:string ;
 			ex:label	"ETAP HOTEL NANTES OUEST"^^xsd:string .
-ex:14			ex:postalCode	"44350"^^xsd:integer ;
+
+      ex:14			ex:postalCode	"44350"^^xsd:integer ;
 			ex:ville	"GUERANDE"^^xsd:string ;
 			ex:label	"EUROCEAN"^^xsd:string .
-ex:15			ex:postalCode	"44350"^^xsd:integer ;
+
+      ex:15			ex:postalCode	"44350"^^xsd:integer ;
 			ex:ville	"GUERANDE"^^xsd:string ;
 			ex:label	"LES REMP'ARTS"^^xsd:string .
-ex:16			ex:postalCode	"44350"^^xsd:integer ;
+
+      ex:16			ex:postalCode	"44350"^^xsd:integer ;
 			ex:ville	"GUERANDE"^^xsd:string ;
 			ex:label	"HOTEL DE LA CITE"^^xsd:string .
-ex:17			ex:postalCode	"44115"^^xsd:integer ;
+
+      ex:17			ex:postalCode	"44115"^^xsd:integer ;
 			ex:ville	"HAUTE-GOULAINE"^^xsd:string ;
 			ex:label	"LA LOUEE"^^xsd:string .
-ex:18			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:18			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"HERMITAGE BARRIERE"^^xsd:string .
-ex:19			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:19			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"ROYAL-THALASSO-BARRIERE"^^xsd:string .
-ex:20			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:20			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"ALCYON"^^xsd:string .
-ex:21			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:21			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"BELLEVUE PLAGE"^^xsd:string .
-ex:22			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:22			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"MERCURE LA BAULE MAJESTIC"^^xsd:string .
-ex:23			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:23			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"LA VILLA CAROLINE"^^xsd:string .
-ex:24			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:24			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"BRITTANY BEST WESTERN"^^xsd:string .
-ex:25			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:25			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"VILLA CAP D'AIL"^^xsd:string .
-ex:26			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:26			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"HOSTELLERIE DU BOIS"^^xsd:string .
-ex:27			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:27			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"LUTETIA"^^xsd:string .
-ex:28			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:28			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"LA MASCOTTE"^^xsd:string .
-ex:29			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:29			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"SAINT CHRISTOPHE"^^xsd:string .
-ex:30			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:30			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"LE SAINT PIERRE"^^xsd:string .
-ex:31			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:31			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"RELAIS&CHATEAUX CASTEL MARIE-LOUISE"^^xsd:string .
-ex:32			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:32			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"LE CHRISTINA"^^xsd:string .
-ex:33			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:33			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"CONCORDE"^^xsd:string .
-ex:34			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:34			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"ASTROLABE"^^xsd:string .
-ex:35			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:35			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"MONA LISA"^^xsd:string .
-ex:36			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:36			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"LA CLOSERIE"^^xsd:string .
-ex:37			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:37			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"DUNES"^^xsd:string .
-ex:38			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:38			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"MARINI"^^xsd:string .
-ex:39			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:39			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"LA PALMERAIE"^^xsd:string .
-ex:40			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:40			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"LE PARIS"^^xsd:string .
-ex:41			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:41			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"PLEIADES"^^xsd:string .
-ex:42			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:42			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"LES TENNIS MEN"^^xsd:string .
-ex:43			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:43			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"TY GWENN"^^xsd:string .
-ex:44			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:44			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"LE CORALLI"^^xsd:string .
-ex:45			ex:postalCode	"44240"^^xsd:integer ;
+
+      ex:45			ex:postalCode	"44240"^^xsd:integer ;
 			ex:ville	"LA CHAPELLE-SUR-ERDRE"^^xsd:string ;
 			ex:label	"B&B HÔTEL NANTES LA CHAPELLE"^^xsd:string .
-ex:46			ex:postalCode	"44118"^^xsd:integer ;
+
+      ex:46			ex:postalCode	"44118"^^xsd:integer ;
 			ex:ville	"LA CHEVROLIERE"^^xsd:string ;
 			ex:label	"DELMAR HOTEL"^^xsd:string .
-ex:47			ex:postalCode	"44420"^^xsd:integer ;
+
+      ex:47			ex:postalCode	"44420"^^xsd:integer ;
 			ex:ville	"LA TURBALLE"^^xsd:string ;
 			ex:label	"LES CHANTS D'AILES"^^xsd:string .
-ex:48			ex:postalCode	"44490"^^xsd:integer ;
+
+      ex:48			ex:postalCode	"44490"^^xsd:integer ;
 			ex:ville	"LE CROISIC"^^xsd:string ;
 			ex:label	"LES VIKINGS"^^xsd:string .
-ex:49			ex:postalCode	"44490"^^xsd:integer ;
+
+      ex:49			ex:postalCode	"44490"^^xsd:integer ;
 			ex:ville	"LE CROISIC"^^xsd:string ;
 			ex:label	"LES NIDS"^^xsd:string .
-ex:50			ex:postalCode	"44510"^^xsd:integer ;
+
+      ex:50			ex:postalCode	"44510"^^xsd:integer ;
 			ex:ville	"LE POULIGUEN"^^xsd:string ;
 			ex:label	"LE MONDÈS"^^xsd:string .
-ex:51			ex:postalCode	"44510"^^xsd:integer ;
+
+      ex:51			ex:postalCode	"44510"^^xsd:integer ;
 			ex:ville	"LE POULIGUEN"^^xsd:string ;
 			ex:label	"LES FARFADETS"^^xsd:string .
-ex:52			ex:postalCode	"44510"^^xsd:integer ;
+
+      ex:52			ex:postalCode	"44510"^^xsd:integer ;
 			ex:ville	"LE POULIGUEN"^^xsd:string ;
 			ex:label	"A L'OREE DU BOIS"^^xsd:string .
-ex:53			ex:postalCode	"44522"^^xsd:integer ;
+
+      ex:53			ex:postalCode	"44522"^^xsd:integer ;
 			ex:ville	"MESANGER"^^xsd:string ;
 			ex:label	"ETAP HOTEL ANCENIS"^^xsd:string .
-ex:54			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:54			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"AMIRAL"^^xsd:string .
-ex:55			ex:postalCode	"44303"^^xsd:integer ;
+
+      ex:55			ex:postalCode	"44303"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"STARS"^^xsd:string .
-ex:56			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:56			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"B&B HÔTEL NANTES CENTRE"^^xsd:string .
-ex:57			ex:postalCode	"44303"^^xsd:integer ;
+
+      ex:57			ex:postalCode	"44303"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"HOTEL F1 - NANTES EST PORTE DE SAINTE LUCE"^^xsd:string .
-ex:58			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:58			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"HOTEL (L')"^^xsd:string .
-ex:59			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:59			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"KYRIAD NANTES GARE"^^xsd:string .
-ex:60			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:60			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"LA PEROUSE"^^xsd:string .
-ex:61			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:61			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"DUQUESNE"^^xsd:string .
-ex:62			ex:postalCode	"44100"^^xsd:integer ;
+
+      ex:62			ex:postalCode	"44100"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"LONGCHAMP (LE)"^^xsd:string .
-ex:63			ex:postalCode	"44200"^^xsd:integer ;
+
+      ex:63			ex:postalCode	"44200"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"TRIANON"^^xsd:string .
-ex:64			ex:postalCode	"44300"^^xsd:integer ;
+
+      ex:64			ex:postalCode	"44300"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"B&B HÔTEL NANTES LA BEAUJOIRE"^^xsd:string .
-ex:65			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:65			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"HOTEL DU COMMERCE"^^xsd:string .
-ex:66			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:66			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"SAINT PATRICK"^^xsd:string .
-ex:67			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:67			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"HOTEL MERCURE NANTES CENTRAL"^^xsd:string .
-ex:68			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:68			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"BOURGOGNE (DE)"^^xsd:string .
-ex:69			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:69			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"GRASLIN (LE)"^^xsd:string .
-ex:70			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:70			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"ALL SEASONS NANTES CENTRE"^^xsd:string .
-ex:71			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:71			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"COMFORT HOTEL NANTES ASTORIA"^^xsd:string .
-ex:72			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:72			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"CHATEAUBRIAND"^^xsd:string .
-ex:73			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:73			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"CHOLET (LE)"^^xsd:string .
-ex:74			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:74			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"COEUR DE LOIRE"^^xsd:string .
-ex:75			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:75			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
-			ex:label	"IBIS STYLE NANTES PLACE GRASLIN "^^xsd:string .
-ex:76			ex:postalCode	"44000"^^xsd:integer ;
+			ex:label	"IBIS STYLE NANTES PLACE GRASLIN"^^xsd:string .
+
+      ex:76			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"HOTEL DE LA GARE - CITOTEL"^^xsd:string .
-ex:77			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:77			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"GRAND HOTEL DE NANTES"^^xsd:string .
-ex:78			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:78			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"POMMERAYE"^^xsd:string .
-ex:79			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:79			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"SURCOUF (LE)"^^xsd:string .
-ex:80			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:80			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"TERMINUS"^^xsd:string .
-ex:81			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:81			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"ABAT JOUR"^^xsd:string .
-ex:82			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:82			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"BOURSE (DE LA)"^^xsd:string .
-ex:83			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:83			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"CHATEAU (DU)"^^xsd:string .
-ex:84			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:84			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"GRAND MONARQUE (DU)"^^xsd:string .
-ex:85			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:85			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"OCEAN (L')"^^xsd:string .
-ex:86			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:86			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"ORLEANS (D')"^^xsd:string .
-ex:87			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:87			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"RENOVA"^^xsd:string .
-ex:88			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:88			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"SAINT DANIEL"^^xsd:string .
-ex:89			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:89			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"TOURISME (DU)"^^xsd:string .
-ex:90			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:90			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"SAINT YVES"^^xsd:string .
-ex:91			ex:postalCode	"44390"^^xsd:integer ;
+
+      ex:91			ex:postalCode	"44390"^^xsd:integer ;
 			ex:ville	"NORT-SUR-ERDRE"^^xsd:string ;
 			ex:label	"LE RELAIS DE LA GRANGE"^^xsd:string .
-ex:92			ex:postalCode	"44700"^^xsd:integer ;
+
+      ex:92			ex:postalCode	"44700"^^xsd:integer ;
 			ex:ville	"ORVAULT"^^xsd:string ;
 			ex:label	"INTER HOTEL AGORA"^^xsd:string .
-ex:93			ex:postalCode	"44700"^^xsd:integer ;
+
+      ex:93			ex:postalCode	"44700"^^xsd:integer ;
 			ex:ville	"ORVAULT"^^xsd:string ;
 			ex:label	"CITOTEL ALBERT"^^xsd:string .
-ex:94			ex:postalCode	"44210"^^xsd:integer ;
+
+      ex:94			ex:postalCode	"44210"^^xsd:integer ;
 			ex:ville	"PORNIC"^^xsd:string ;
 			ex:label	"BEAU SOLEIL"^^xsd:string .
-ex:95			ex:postalCode	"44210"^^xsd:integer ;
+
+      ex:95			ex:postalCode	"44210"^^xsd:integer ;
 			ex:ville	"PORNIC"^^xsd:string ;
 			ex:label	"BRIT HOTEL LES ALIZES"^^xsd:string .
-ex:96			ex:postalCode	"44210"^^xsd:integer ;
+
+      ex:96			ex:postalCode	"44210"^^xsd:integer ;
 			ex:ville	"PORNIC"^^xsd:string ;
 			ex:label	"ARC EN CIEL"^^xsd:string .
-ex:97			ex:postalCode	"44710"^^xsd:integer ;
+
+      ex:97			ex:postalCode	"44710"^^xsd:integer ;
 			ex:ville	"PORT-SAINT-PERE"^^xsd:string ;
 			ex:label	"NUIT DE RETZ"^^xsd:string .
-ex:98			ex:postalCode	"44406"^^xsd:integer ;
+
+      ex:98			ex:postalCode	"44406"^^xsd:integer ;
 			ex:ville	"REZE"^^xsd:string ;
 			ex:label	"PREMIERE CLASSE - REZE"^^xsd:string .
-ex:99			ex:postalCode	"44400"^^xsd:integer ;
+
+      ex:99			ex:postalCode	"44400"^^xsd:integer ;
 			ex:ville	"REZE"^^xsd:string ;
 			ex:label	"CHEVAL BLANC (DU)"^^xsd:string .
-ex:100			ex:postalCode	"44250"^^xsd:integer ;
+
+      ex:100			ex:postalCode	"44250"^^xsd:integer ;
 			ex:ville	"SAINT-BREVIN"^^xsd:string ;
 			ex:label	"L'ESTUAIRE"^^xsd:string .
-ex:101			ex:postalCode	"44800"^^xsd:integer ;
+
+      ex:101			ex:postalCode	"44800"^^xsd:integer ;
 			ex:ville	"SAINT-HERBLAIN"^^xsd:string ;
 			ex:label	"B&B HOTEL NANTES SAINT HERBLAIN"^^xsd:string .
-ex:102			ex:postalCode	"44800"^^xsd:integer ;
+
+      ex:102			ex:postalCode	"44800"^^xsd:integer ;
 			ex:ville	"SAINT-HERBLAIN"^^xsd:string ;
 			ex:label	"HOTEL F1 - SAINT HERBLAIN"^^xsd:string .
-ex:103			ex:postalCode	"44800"^^xsd:integer ;
+
+      ex:103			ex:postalCode	"44800"^^xsd:integer ;
 			ex:ville	"SAINT-HERBLAIN"^^xsd:string ;
 			ex:label	"PREMIERE CLASSE - SAINT HERBLAIN"^^xsd:string .
-ex:104			ex:postalCode	"44800"^^xsd:integer ;
+
+      ex:104			ex:postalCode	"44800"^^xsd:integer ;
 			ex:ville	"SAINT-HERBLAIN"^^xsd:string ;
 			ex:label	"ETAP HOTEL NANTES NORD SAINT HERBLAIN"^^xsd:string .
-ex:105			ex:postalCode	"44800"^^xsd:integer ;
+
+      ex:105			ex:postalCode	"44800"^^xsd:integer ;
 			ex:ville	"SAINT-HERBLAIN"^^xsd:string ;
 			ex:label	"AGIL"^^xsd:string .
-ex:106			ex:postalCode	"44800"^^xsd:integer ;
+
+      ex:106			ex:postalCode	"44800"^^xsd:integer ;
 			ex:ville	"SAINT-HERBLAIN"^^xsd:string ;
 			ex:label	"ATLANTYS HOTEL"^^xsd:string .
-ex:107			ex:postalCode	"44800"^^xsd:integer ;
+
+      ex:107			ex:postalCode	"44800"^^xsd:integer ;
 			ex:ville	"SAINT-HERBLAIN"^^xsd:string ;
 			ex:label	"BALLADINS NANTES SAINT HERBLAIN"^^xsd:string .
-ex:108			ex:postalCode	"44800"^^xsd:integer ;
+
+      ex:108			ex:postalCode	"44800"^^xsd:integer ;
 			ex:ville	"SAINT-HERBLAIN"^^xsd:string ;
 			ex:label	"KYRIAD SAINT-HERBLAIN"^^xsd:string .
-ex:109			ex:postalCode	"44730"^^xsd:integer ;
+
+      ex:109			ex:postalCode	"44730"^^xsd:integer ;
 			ex:ville	"SAINT-MICHEL-CHEF-CHEF"^^xsd:string ;
 			ex:label	"LA COTE DE JADE"^^xsd:string .
-ex:110			ex:postalCode	"44600"^^xsd:integer ;
+
+      ex:110			ex:postalCode	"44600"^^xsd:integer ;
 			ex:ville	"SAINT-NAZAIRE"^^xsd:string ;
 			ex:label	"BRIT HOTEL LE KORALI"^^xsd:string .
-ex:111			ex:postalCode	"44600"^^xsd:integer ;
+
+      ex:111			ex:postalCode	"44600"^^xsd:integer ;
 			ex:ville	"SAINT-NAZAIRE"^^xsd:string ;
 			ex:label	"HOLIDAY INN EXPRESS"^^xsd:string .
-ex:112			ex:postalCode	"44600"^^xsd:integer ;
+
+      ex:112			ex:postalCode	"44600"^^xsd:integer ;
 			ex:ville	"SAINT-NAZAIRE"^^xsd:string ;
 			ex:label	"LA BELLE EPEE"^^xsd:string .
-ex:113			ex:postalCode	"44600"^^xsd:integer ;
+
+      ex:113			ex:postalCode	"44600"^^xsd:integer ;
 			ex:ville	"SAINT-NAZAIRE"^^xsd:string ;
 			ex:label	"LE BRETAGNE"^^xsd:string .
-ex:114			ex:postalCode	"44600"^^xsd:integer ;
+
+      ex:114			ex:postalCode	"44600"^^xsd:integer ;
 			ex:ville	"SAINT-NAZAIRE"^^xsd:string ;
 			ex:label	"LE DAUPHIN"^^xsd:string .
-ex:115			ex:postalCode	"44600"^^xsd:integer ;
+
+      ex:115			ex:postalCode	"44600"^^xsd:integer ;
 			ex:ville	"SAINT-NAZAIRE"^^xsd:string ;
 			ex:label	"L'EUROPE"^^xsd:string .
-ex:116			ex:postalCode	"44600"^^xsd:integer ;
+
+      ex:116			ex:postalCode	"44600"^^xsd:integer ;
 			ex:ville	"SAINT-NAZAIRE"^^xsd:string ;
 			ex:label	"LE SAINT LOUIS"^^xsd:string .
-ex:117			ex:postalCode	"44600"^^xsd:integer ;
+
+      ex:117			ex:postalCode	"44600"^^xsd:integer ;
 			ex:ville	"SAINT-NAZAIRE"^^xsd:string ;
 			ex:label	"LE TOURAINE"^^xsd:string .
-ex:118			ex:postalCode	"44600"^^xsd:integer ;
+
+      ex:118			ex:postalCode	"44600"^^xsd:integer ;
 			ex:ville	"SAINT-NAZAIRE"^^xsd:string ;
 			ex:label	"HOTEL ANAIADE"^^xsd:string .
-ex:119			ex:postalCode	"44460"^^xsd:integer ;
+
+      ex:119			ex:postalCode	"44460"^^xsd:integer ;
 			ex:ville	"SAINT-NICOLAS-DE-REDON"^^xsd:string ;
 			ex:label	"BEL HOTEL"^^xsd:string .
-ex:120			ex:postalCode	"44230"^^xsd:integer ;
+
+      ex:120			ex:postalCode	"44230"^^xsd:integer ;
 			ex:ville	"SAINT-SEBASTIEN-SUR-LOIRE"^^xsd:string ;
 			ex:label	"B&B HÔTEL NANTES SAINT SEBASTIEN"^^xsd:string .
-ex:121			ex:postalCode	"44230"^^xsd:integer ;
+
+      ex:121			ex:postalCode	"44230"^^xsd:integer ;
 			ex:ville	"SAINT-SEBASTIEN-SUR-LOIRE"^^xsd:string ;
 			ex:label	"PREMIERE CLASSE - SAINT SEBASTIEN SUR LOIRE"^^xsd:string .
-ex:122			ex:postalCode	"44980"^^xsd:integer ;
+
+      ex:122			ex:postalCode	"44980"^^xsd:integer ;
 			ex:ville	"SAINTE-LUCE-SUR-LOIRE"^^xsd:string ;
 			ex:label	"LE RELAIS DE NANTES - PREMIER PRIX HOTEL"^^xsd:string .
-ex:123			ex:postalCode	"44980"^^xsd:integer ;
+
+      ex:123			ex:postalCode	"44980"^^xsd:integer ;
 			ex:ville	"SAINTE-LUCE-SUR-LOIRE"^^xsd:string ;
 			ex:label	"PREMIERE CLASSE - SAINTE LUCE SUR LOIRE"^^xsd:string .
-ex:124			ex:postalCode	"44980"^^xsd:integer ;
+
+      ex:124			ex:postalCode	"44980"^^xsd:integer ;
 			ex:ville	"SAINTE-LUCE-SUR-LOIRE"^^xsd:string ;
 			ex:label	"APARTE (L')"^^xsd:string .
-ex:125			ex:postalCode	"44980"^^xsd:integer ;
+
+      ex:125			ex:postalCode	"44980"^^xsd:integer ;
 			ex:ville	"SAINTE-LUCE-SUR-LOIRE"^^xsd:string ;
 			ex:label	"ETAP HOTEL - SAINTE LUCE SUR LOIRE"^^xsd:string .
-ex:126			ex:postalCode	"44570"^^xsd:integer ;
+
+      ex:126			ex:postalCode	"44570"^^xsd:integer ;
 			ex:ville	"TRIGNAC"^^xsd:string ;
 			ex:label	"HOTEL PREMIERE CLASSE"^^xsd:string .
-ex:127			ex:postalCode	"44570"^^xsd:integer ;
+
+      ex:127			ex:postalCode	"44570"^^xsd:integer ;
 			ex:ville	"TRIGNAC"^^xsd:string ;
 			ex:label	"HOTEL F1"^^xsd:string .
-ex:128			ex:postalCode	"44570"^^xsd:integer ;
+
+      ex:128			ex:postalCode	"44570"^^xsd:integer ;
 			ex:ville	"TRIGNAC"^^xsd:string ;
-			ex:label	"IBIS "^^xsd:string .
-ex:129			ex:postalCode	"44570"^^xsd:integer ;
+			ex:label	"IBIS"^^xsd:string .
+
+      ex:129			ex:postalCode	"44570"^^xsd:integer ;
 			ex:ville	"TRIGNAC"^^xsd:string ;
 			ex:label	"HOTEL B&B"^^xsd:string .
-ex:130			ex:postalCode	"44330"^^xsd:integer ;
+
+      ex:130			ex:postalCode	"44330"^^xsd:integer ;
 			ex:ville	"VALLET"^^xsd:string ;
 			ex:label	"CLAIR DE LIE"^^xsd:string .
-ex:131			ex:postalCode	"44330"^^xsd:integer ;
+
+      ex:131			ex:postalCode	"44330"^^xsd:integer ;
 			ex:ville	"VALLET"^^xsd:string ;
 			ex:label	"LE DON QUICHOTTE"^^xsd:string .
-ex:132			ex:postalCode	"44120"^^xsd:integer ;
+
+      ex:132			ex:postalCode	"44120"^^xsd:integer ;
 			ex:ville	"VERTOU"^^xsd:string ;
 			ex:label	"LA HAUTE FORET"^^xsd:string .
-ex:133			ex:postalCode	"44120"^^xsd:integer ;
+
+      ex:133			ex:postalCode	"44120"^^xsd:integer ;
 			ex:ville	"VERTOU"^^xsd:string ;
 			ex:label	"LE LAURIER FLEURI"^^xsd:string .
-ex:134			ex:postalCode	"44120"^^xsd:integer ;
+
+      ex:134			ex:postalCode	"44120"^^xsd:integer ;
 			ex:ville	"VERTOU"^^xsd:string ;
 			ex:label	"LE BEAUTOUR"^^xsd:string .
-ex:135			ex:postalCode	"44300"^^xsd:integer ;
+
+      ex:135			ex:postalCode	"44300"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"HOTEL TEST"^^xsd:string .
-ex:136			ex:postalCode	"44400"^^xsd:integer ;
+
+      ex:136			ex:postalCode	"44400"^^xsd:integer ;
 			ex:ville	"REZE"^^xsd:string ;
 			ex:label	"ALL SEASONS NANTES SUD REZE"^^xsd:string .
-ex:137			ex:postalCode	"44470"^^xsd:integer ;
+
+      ex:137			ex:postalCode	"44470"^^xsd:integer ;
 			ex:ville	"CARQUEFOU"^^xsd:string ;
 			ex:label	"BALLADINS"^^xsd:string .
-ex:138			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:138			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"BEST HOTEL NANTES CENTRE"^^xsd:string .
-ex:139			ex:postalCode	"44500"^^xsd:integer ;
+
+      ex:139			ex:postalCode	"44500"^^xsd:integer ;
 			ex:ville	"LA BAULE"^^xsd:string ;
 			ex:label	"BEST WESTERN GARDEN AND SPA"^^xsd:string .
-ex:140			ex:postalCode	"44800"^^xsd:integer ;
+
+      ex:140			ex:postalCode	"44800"^^xsd:integer ;
 			ex:ville	"SAINT-HERBLAIN"^^xsd:string ;
 			ex:label	"BEST WESTERN PLUS LE COLISEE"^^xsd:string .
-ex:141			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:141			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"BRIT HOTEL BELFORT"^^xsd:string .
-ex:142			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:142			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"CAMBRONNE (LE)"^^xsd:string .
-ex:143			ex:postalCode	"44200"^^xsd:integer ;
+
+      ex:143			ex:postalCode	"44200"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"CAMPANILE NANTES CENTRE SAINT JACQUES"^^xsd:string .
-ex:144			ex:postalCode	"44380"^^xsd:integer ;
+
+      ex:144			ex:postalCode	"44380"^^xsd:integer ;
 			ex:ville	"PORNICHET"^^xsd:string ;
 			ex:label	"ESCALE OCEANIA"^^xsd:string .
-ex:145			ex:postalCode	"44350"^^xsd:integer ;
+
+      ex:145			ex:postalCode	"44350"^^xsd:integer ;
 			ex:ville	"GUERANDE"^^xsd:string ;
 			ex:label	"HOTEL ECO NUIT"^^xsd:string .
-ex:146			ex:postalCode	"44430"^^xsd:integer ;
+
+      ex:146			ex:postalCode	"44430"^^xsd:integer ;
 			ex:ville	"LE LOROUX-BOTTEREAU"^^xsd:string ;
 			ex:label	"LE CHEVAL BLANC"^^xsd:string .
-ex:147			ex:postalCode	"44470"^^xsd:integer ;
+
+      ex:147			ex:postalCode	"44470"^^xsd:integer ;
 			ex:ville	"CARQUEFOU"^^xsd:string ;
 			ex:label	"NOVELLA NANTES CARQUEFOU"^^xsd:string .
-ex:148			ex:postalCode	"44300"^^xsd:integer ;
+
+      ex:148			ex:postalCode	"44300"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"QUICK PALACE"^^xsd:string .
-ex:149			ex:postalCode	"44000"^^xsd:integer ;
+
+      ex:149			ex:postalCode	"44000"^^xsd:integer ;
 			ex:ville	"NANTES"^^xsd:string ;
 			ex:label	"SOZO HOTEL"^^xsd:string .
+
+   

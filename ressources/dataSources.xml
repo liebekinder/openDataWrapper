@@ -2,12 +2,79 @@
 <sources>
 	<source>
 		<nom>Hotel</nom>
-		<api>false</api>
-		<apiurl>http://data.paysdelaloire.fr/api/publication/22440002800011_CG44_TOU_04815/hotels_STBL/content?format=xml</apiurl>
-		<file>true</file>
-		<filepath>ressources/hotel/hotel.xml</filepath>
+		<api>true</api>
+		<apiurl>http://data.paysdelaloire.fr/api/publication/22440002800011_CG44_TOU_04815/hotels_STBL/content?format=xml
+		</apiurl>
+		<file>false</file>
+		<filepath>null</filepath>
 		<mappingFile>null</mappingFile>
 		<xsltFile>ressources/hotel/hotelSaxon.xslt</xsltFile>
+		<format>XML</format>
+	</source>
+	<source>
+		<nom>Petites_cités_de_caractere</nom>
+		<api>true</api>
+		<apiurl>http://data.paysdelaloire.fr/api/publication/23440003400026_J027/cites_de_caractere_table/content?format=xml
+		</apiurl>
+		<file>false</file>
+		<filepath>null</filepath>
+		<mappingFile>null</mappingFile>
+		<xsltFile>ressources/cite/citeToTurtle.xsl</xsltFile>
+		<format>XML</format>
+	</source>
+	<source>
+		<nom>Communes_geolocalises</nom>
+		<api>true</api>
+		<apiurl>http://data.paysdelaloire.fr/api/publication/23440003400026_J194/communes_geolocalisees_table/content?format=xml
+		</apiurl>
+		<file>false</file>
+		<filepath>null</filepath>
+		<mappingFile>null</mappingFile>
+		<xsltFile>ressources/commune/communesGeoToTurtle.xsl</xsltFile>
+		<format>XML</format>
+	</source>
+	<source>
+		<nom>Librairies</nom>
+		<api>true</api>
+		<apiurl>http://data.paysdelaloire.fr/api/publication/23440003400026_J123/librairies_table/content?format=xml
+		</apiurl>
+		<file>false</file>
+		<filepath>null</filepath>
+		<mappingFile>null</mappingFile>
+		<xsltFile>ressources/librairies/transfoLibrairies.xsl</xsltFile>
+		<format>XML</format>
+	</source>
+	<source>
+		<nom>lieux_d_art</nom>
+		<api>true</api>
+		<apiurl>http://data.paysdelaloire.fr/api/publication/23440003400026_J026/art_contemporain_table/content?format=xml
+		</apiurl>
+		<file>false</file>
+		<filepath>null</filepath>
+		<mappingFile>null</mappingFile>
+		<xsltFile>ressources/lieuxArt/lieuxArtToTurtle.xsl</xsltFile>
+		<format>XML</format>
+	</source>
+	<source>
+		<nom>manifestations_sportives</nom>
+		<api>false</api>
+		<apiurl>null
+		</apiurl>
+		<file>true</file>
+		<filepath>ressources/manifSport/manifestations_sportives.csv</filepath>
+		<mappingFile>null</mappingFile>
+		<xsltFile>ressources/manifSport/manifSportToTurtle.xsl</xsltFile>
+		<format>CSV</format>
+	</source>
+	<source>
+		<nom>RDV_litteraires</nom>
+		<api>true</api>
+		<apiurl>http://data.paysdelaloire.fr/api/publication/23440003400026_J028/agenda_rdv_table/content?format=xml
+		</apiurl>
+		<file>false</file>
+		<filepath>null</filepath>
+		<mappingFile>null</mappingFile>
+		<xsltFile>ressources/rdvLitteraire/rdvLitteraires.xsl</xsltFile>
 		<format>XML</format>
 	</source>
 </sources>

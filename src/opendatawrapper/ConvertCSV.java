@@ -1,36 +1,50 @@
 package opendatawrapper;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Properties;
 
 public class ConvertCSV {
 
-	public String fileCSV;
-	public String fileMapping;
-	public Map<String,String> mapping;
-	
-	public ConvertCSV(String pathCSV, String pathMapping){
-		fileCSV = pathCSV;
-		fileMapping = pathMapping;
-		mapping = new HashMap<String,String>();
+	public String fileOutout;
+	public String fileXSLT;
+
+	public ConvertCSV(String pathXslt, String output) {
+		fileOutout = output;
+		fileXSLT = pathXslt;
 	}
-	
-	public boolean convert() throws Exception{
-		//Load mapping properties file
-		loadMapping();
-		
-		return false;
-	}
-	
-	private void loadMapping() throws FileNotFoundException, IOException {
-		Properties prop = new Properties();
-		prop.load(new FileReader(fileMapping));
-		for (Object key : prop.keySet()) {
-			this.mapping.put(key.toString(), prop.getProperty(key.toString()));
-		}		
+
+	public void convertfromFile(String XMLFile_){
+
+		// TransformerFactory transformerFactory = new TransformerFactoryImpl();
+		// StreamSource xsltSource = new StreamSource(new File(fileXSLT));
+		// Transformer transformer =
+		// transformerFactory.newTransformer(xsltSource);
+		// ((net.sf.saxon.Controller)transformer).setInitialTemplate("/");
+		// StringWriter stringWriter = new StringWriter();
+		// transformer.transform(null, new StreamResult(stringWriter));
+		// String transformedDocument = stringWriter.toString().trim();
+
+//		Processor proc = new Processor(false);
+//		XsltCompiler comp = proc.newXsltCompiler();
+//		
+//		BufferedReader reader = new BufferedReader(new FileReader(fileXSLT));
+//		String line = new String();
+//		String qString = new String();
+//		while ((line = reader.readLine()) != null) {
+//			qString += line;
+//		}
+//		
+//		String stylesheet = qString;
+//		XsltExecutable exp = comp.compile(new StreamSource(new StringReader(
+//				stylesheet)));
+//
+//		Serializer out = new Serializer();
+//		out.setOutputProperty(Serializer.Property.METHOD, "text");
+//		XsltTransformer t = exp.load();
+//		t.setInitialTemplate(new QName("document"));
+//		
+//		StringWriter sw = new StringWriter();
+//        out.setOutputWriter(sw);
+//        t.setDestination(out);
+//        t.transform();
+
 	}
 }
