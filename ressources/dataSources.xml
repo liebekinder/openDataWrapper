@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sources>
+	<source>
+		<nom>Hotel</nom>
+		<api>false</api>
+		<apiurl>http://data.paysdelaloire.fr/api/publication/22440002800011_CG44_TOU_04815/hotels_STBL/content?format=xml</apiurl>
+		<file>true</file>
+		<filepath>ressources/hotel/hotel.xml</filepath>
+		<mappingFile>null</mappingFile>
+		<xsltFile>ressources/hotel/hotelSaxon.xslt</xsltFile>
+		<format>XML</format>
+	</source>
+</sources>
