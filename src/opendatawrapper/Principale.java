@@ -15,11 +15,7 @@ public class Principale {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// System.setProperty("http.proxyHost", "iproxy1.cg44.fr");
-		// System.setProperty("http.proxyPort", "3128");
-		// System.getProperties().put("http.proxyUser", "021806B");
-		// System.getProperties().put("http.proxyPassword", "HSi1eBSW44");
-
+		
 		// TODO
 		/*
 		 * This will be the front door of the application The wrapper will know
@@ -65,7 +61,9 @@ public class Principale {
 					+ listeDataSource.get(courant).getNom());
 		}
 	}
-
+	/*
+	 * Select the
+	 */
 	public static void conversion() {
 		System.out.println("Which dataset?");
 		listDatasources();

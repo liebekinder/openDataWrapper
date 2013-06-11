@@ -57,14 +57,15 @@
 	</source>
 	<source>
 		<nom>manifestations_sportives</nom>
-		<api>false</api>
-		<apiurl>null
+		<api>true</api>
+		<apiurl>http://data.paysdelaloire.fr/api/publication/23440003400026_J174/manifestations_sportives_table/content?format=xml
 		</apiurl>
-		<file>true</file>
-		<filepath>ressources/manifSport/manifestations_sportives.csv</filepath>
+		<file>false</file>
+		<filepath>ressources/manifSport/manifestations_sportives.csv
+		</filepath>
 		<mappingFile>null</mappingFile>
 		<xsltFile>ressources/manifSport/manifSportToTurtle.xsl</xsltFile>
-		<format>CSV</format>
+		<format>XML</format>
 	</source>
 	<source>
 		<nom>RDV_litteraires</nom>
@@ -75,6 +76,39 @@
 		<filepath>null</filepath>
 		<mappingFile>null</mappingFile>
 		<xsltFile>ressources/rdvLitteraire/rdvLitteraires.xsl</xsltFile>
+		<format>XML</format>
+	</source>
+	<source>
+		<nom>patrimoine</nom>
+		<api>true</api>
+		<apiurl>http://data.paysdelaloire.fr/api/publication/23440003400026_J001/inventaire_patrimoine_table/content?format=xml
+		</apiurl>
+		<file>false</file>
+		<filepath>null</filepath>
+		<mappingFile>null</mappingFile>
+		<xsltFile>ressources/patrimoine/patrimoinePDLToTurtle.xsl</xsltFile>
+		<format>XML</format>
+	</source>
+	<source>
+		<nom>salle_cinema</nom>
+		<api>false</api>
+		<apiurl>null
+		</apiurl>
+		<file>true</file>
+		<filepath>ressources/cinema/salles_de_cinema.csv</filepath>
+		<mappingFile>null</mappingFile>
+		<xsltFile>/openDataWrapper/ressources/cinema/cinema.xsl</xsltFile>
+		<format>CSV</format>
+	</source>
+	<source>
+		<nom>chateau_monument</nom>
+		<api>true</api>
+		<apiurl>http://data.paysdelaloire.fr/api/publication/22440002800011_CG44_TOU_04805/chateaux_monuments_musees_artisanat_STBL/content?format=xml
+		</apiurl>
+		<file>false</file>
+		<filepath>null</filepath>
+		<mappingFile>null</mappingFile>
+		<xsltFile>ressources/chateau/chateau.xsl</xsltFile>
 		<format>XML</format>
 	</source>
 </sources>

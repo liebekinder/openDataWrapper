@@ -33,8 +33,8 @@ public class ConvertXML {
 
 	final String proxyHost = "iproxy1.cg44.fr";
 	final String proxyPort = "3128";
-	final String authUser = "";
-	final String authPassword = "";
+	final String authUser = "021806B";
+	final String authPassword = "HSi1eBSW44";
 
 	/*
 	 * Constructeur
@@ -143,7 +143,7 @@ public class ConvertXML {
 					.println("probleme de gestion du stream de donnée! Etes-vous connecté à internet? ("
 							+ e.getMessage() + ")");
 			System.err
-					.println("Vérifiez que vous n'etes pas derriere un proxy. Dans le cas positif, ");
+					.println("Vérifiez que vous n'etes pas derriere un proxy. Dans le cas positif, vérifez vos paramètres proxy! ");
 			return null;
 		} catch (JDOMException e) {
 			// TODO Auto-generated catch block
