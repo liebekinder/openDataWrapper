@@ -1,0 +1,750 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ex="http://example.org/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="http://example.org/144">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ESCALE OCEANIA</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PORNICHET</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44380</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/52">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A L'OREE DU BOIS</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE POULIGUEN</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44510</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/124">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APARTE (L')</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINTE-LUCE-SUR-LOIRE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44980</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/105">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGIL</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-HERBLAIN</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44800</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/32">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE CHRISTINA</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/114">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE DAUPHIN</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-NAZAIRE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44600</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/42">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LES TENNIS MEN</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/12">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BEST WESTERN VILLA SAINT ANTOINE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLISSON</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44190</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/134">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE BEAUTOUR</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VERTOU</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44120</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/92">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INTER HOTEL AGORA</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORVAULT</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44700</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/33">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CONCORDE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/7">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HOTEL F1 - CARQUEFOU LA BELLE ETOILE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARQUEFOU</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44470</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/63">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRIANON</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44200</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/73">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHOLET (LE)</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/23">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA VILLA CAROLINE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/82">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOURSE (DE LA)</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/53">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ETAP HOTEL ANCENIS</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESANGER</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44522</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/125">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ETAP HOTEL - SAINTE LUCE SUR LOIRE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINTE-LUCE-SUR-LOIRE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44980</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/29">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT CHRISTOPHE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/19">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROYAL-THALASSO-BARRIERE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/115">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L'EUROPE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-NAZAIRE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44600</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/104">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ETAP HOTEL NANTES NORD SAINT HERBLAIN</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-HERBLAIN</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44800</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/11">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AUBERGE DE LA CASCADE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLISSON</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44190</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/43">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TY GWENN</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/93">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CITOTEL ALBERT</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORVAULT</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44700</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/44">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE CORALLI</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/10">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA GARE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLISSON</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44190</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/135">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HOTEL TEST</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44300</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/8">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE CHATEAUBRIANT</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHATEAUBRIANT</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44110</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/62">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LONGCHAMP (LE)</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44100</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/34">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASTROLABE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/24">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRITTANY BEST WESTERN</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/83">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHATEAU (DU)</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/72">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHATEAUBRIAND</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/145">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HOTEL ECO NUIT</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GUERANDE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44350</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/49">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LES NIDS</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE CROISIC</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44490</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/126">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HOTEL PREMIERE CLASSE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRIGNAC</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44570</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/20">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALCYON</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/54">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMIRAL</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/40">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE PARIS</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/132">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA HAUTE FORET</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VERTOU</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44120</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/112">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BELLE EPEE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-NAZAIRE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44600</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/107">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BALLADINS NANTES SAINT HERBLAIN</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-HERBLAIN</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44800</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/18">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HERMITAGE BARRIERE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/35">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONA LISA</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/5">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HOTEL F1 - BOUGUENAIS</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOUGUENAIS</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44340</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/94">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BEAU SOLEIL</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PORNIC</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44210</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/61">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUQUESNE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/80">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TERMINUS</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/146">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE CHEVAL BLANC</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE LOROUX-BOTTEREAU</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44430</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/55">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STARS</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44303</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/75">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IBIS STYLE NANTES PLACE GRASLIN </ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/21">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BELLEVUE PLAGE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/127">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HOTEL F1</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRIGNAC</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44570</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/133">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE LAURIER FLEURI</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VERTOU</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44120</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/41">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLEIADES</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/17">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA LOUEE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAUTE-GOULAINE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44115</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/113">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE BRETAGNE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-NAZAIRE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44600</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/106">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATLANTYS HOTEL</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-HERBLAIN</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44800</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/36">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA CLOSERIE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/95">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRIT HOTEL LES ALIZES</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PORNIC</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44210</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/6">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ESCALE OCEANIA</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOUGUENAIS</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44340</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/60">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA PEROUSE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/89">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TOURISME (DU)</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/147">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOVELLA NANTES CARQUEFOU</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARQUEFOU</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44470</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/56">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B&amp;B HÔTEL NANTES CENTRE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/81">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABAT JOUR</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/22">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MERCURE LA BAULE MAJESTIC</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/69">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRASLIN (LE)</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/74">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COEUR DE LOIRE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/16">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HOTEL DE LA CITE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GUERANDE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44350</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/68">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOURGOGNE (DE)</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/57">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HOTEL F1 - NANTES EST PORTE DE SAINTE LUCE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44303</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/87">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RENOVA</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/97">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NUIT DE RETZ</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PORT-SAINT-PERE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44710</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/47">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LES CHANTS D'AILES</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA TURBALLE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44420</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/3">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LES EMBRUNS</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BATZ-SUR-MER</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44740</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/109">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA COTE DE JADE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-MICHEL-CHEF-CHEF</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44730</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/78">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POMMERAYE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/120">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B&amp;B HÔTEL NANTES SAINT SEBASTIEN</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-SEBASTIEN-SUR-LOIRE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44230</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/131">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE DON QUICHOTTE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VALLET</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44330</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/27">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUTETIA</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/118">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HOTEL ANAIADE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-NAZAIRE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44600</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/101">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B&amp;B HOTEL NANTES SAINT HERBLAIN</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-HERBLAIN</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44800</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/148">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">QUICK PALACE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44300</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/88">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT DANIEL</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/37">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUNES</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/128">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IBIS </ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRIGNAC</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44570</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/141">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRIT HOTEL BELFORT</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/138">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BEST HOTEL NANTES CENTRE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/110">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRIT HOTEL LE KORALI</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-NAZAIRE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44600</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/108">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KYRIAD SAINT-HERBLAIN</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-HERBLAIN</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44800</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/15">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LES REMP'ARTS</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GUERANDE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44350</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/67">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HOTEL MERCURE NANTES CENTRAL</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/86">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORLEANS (D')</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/58">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HOTEL (L')</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/4">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B&amp;B HÔTEL NANTES AEROPORT</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOUGUENAIS</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44346</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/100">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L'ESTUAIRE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-BREVIN</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44250</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/96">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARC EN CIEL</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PORNIC</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44210</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/48">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LES VIKINGS</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE CROISIC</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44490</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/77">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRAND HOTEL DE NANTES</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/76">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HOTEL DE LA GARE - CITOTEL</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/121">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREMIERE CLASSE - SAINT SEBASTIEN SUR LOIRE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-SEBASTIEN-SUR-LOIRE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44230</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/130">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLAIR DE LIE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VALLET</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44330</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/149">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOZO HOTEL</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/28">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA MASCOTTE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/119">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BEL HOTEL</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-NICOLAS-DE-REDON</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44460</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/140">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BEST WESTERN PLUS LE COLISEE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-HERBLAIN</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44800</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/129">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HOTEL B&amp;B</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRIGNAC</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44570</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/38">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MARINI</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/111">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HOLIDAY INN EXPRESS</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-NAZAIRE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44600</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/139">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BEST WESTERN GARDEN AND SPA</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/85">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OCEAN (L')</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/14">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EUROCEAN</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GUERANDE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44350</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/70">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALL SEASONS NANTES CENTRE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/59">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KYRIAD NANTES GARE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/66">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT PATRICK</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/50">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MONDÈS</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE POULIGUEN</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44510</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/45">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B&amp;B HÔTEL NANTES LA CHAPELLE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA CHAPELLE-SUR-ERDRE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44240</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/103">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREMIERE CLASSE - SAINT HERBLAIN</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-HERBLAIN</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44800</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/1">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE BRETAGNE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASSERAC</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44410</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/116">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE SAINT LOUIS</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-NAZAIRE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44600</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/90">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT YVES</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/122">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE RELAIS DE NANTES - PREMIER PRIX HOTEL</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINTE-LUCE-SUR-LOIRE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44980</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/25">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VILLA CAP D'AIL</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/30">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE SAINT PIERRE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/143">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMPANILE NANTES CENTRE SAINT JACQUES</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44200</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/65">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HOTEL DU COMMERCE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/9">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ETAP HOTEL</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHATEAUBRIANT</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44110</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/39">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA PALMERAIE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/136">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALL SEASONS NANTES SUD REZE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REZE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44400</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/13">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ETAP HOTEL NANTES OUEST</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COUERON</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44220</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/84">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRAND MONARQUE (DU)</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/71">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COMFORT HOTEL NANTES ASTORIA</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/79">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SURCOUF (LE)</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/123">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREMIERE CLASSE - SAINTE LUCE SUR LOIRE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINTE-LUCE-SUR-LOIRE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44980</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/46">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DELMAR HOTEL</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA CHEVROLIERE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44118</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/2">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE LICHEN DE LA MER</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BATZ-SUR-MER</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44740</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/98">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREMIERE CLASSE - REZE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REZE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44406</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/51">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LES FARFADETS</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE POULIGUEN</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44510</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/102">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HOTEL F1 - SAINT HERBLAIN</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-HERBLAIN</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44800</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/117">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE TOURAINE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-NAZAIRE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44600</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/26">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HOSTELLERIE DU BOIS</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/99">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEVAL BLANC (DU)</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REZE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44400</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/31">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELAIS&amp;CHATEAUX CASTEL MARIE-LOUISE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/64">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B&amp;B HÔTEL NANTES LA BEAUJOIRE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44300</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/142">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMBRONNE (LE)</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/137">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BALLADINS</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARQUEFOU</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44470</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/91">
+    <ex:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE RELAIS DE LA GRANGE</ex:label>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NORT-SUR-ERDRE</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44390</ex:postalCode>
+  </rdf:Description>
+</rdf:RDF>

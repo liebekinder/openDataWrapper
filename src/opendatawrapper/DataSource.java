@@ -10,10 +10,11 @@ public class DataSource {
 	public String mappingFile;
 	public String xsltFile;
 	public String format;
-	public String output;
+	public String outputTtl;
+	public String outputRdf;
 	
 	public DataSource(String nom, boolean api, String apiUrl, boolean file,
-			String filePath, String mappingFile, String xsltFile,String format,String output) {
+			String filePath, String mappingFile, String xsltFile,String format,String outputTtl,String outputRdf) {
 		super();
 		this.nom = nom;
 		this.api = api;
@@ -23,7 +24,8 @@ public class DataSource {
 		this.mappingFile = mappingFile;
 		this.xsltFile = xsltFile;
 		this.format = format;
-		this.output = output;
+		this.outputTtl = outputTtl;
+		this.outputRdf = outputRdf;
 	}
 
 	public String getNom() {
@@ -58,8 +60,11 @@ public class DataSource {
 		return format;
 	}
 	
-	public String getOutput() {
-		return output;
+	public String getOutputTtl() {
+		return outputTtl;
 	}
 	
+	public String getOutputRdf() {
+		return outputRdf;
+	}
 }

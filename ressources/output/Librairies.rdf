@@ -1,0 +1,1226 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ex="http://example.org/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:proj="http://projet.com/1/" > 
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_RECREALIVRES">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72181</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recrealivresque.free.fr </ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recrealivres@hotmail.com</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0243438721</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29 RUE DES PONTS NEUFS</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE RECREALIVRES</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_L&apos;ODYSSEE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44212</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairielodyssee-vallet.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">odyssee.vallet@aliceadsl.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240339003</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44330</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VALLET</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44 RUE FRANCOIS LUNEAU</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE L'ODYSSEE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_KROKI">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49007</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kroki.over-blog.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kroki.bd@orange.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0241886115</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49100</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16 RUE LOUIS DE ROMAIN</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE KROKI</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_DOUCET">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72181</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wwww.librairiedoucet.fr</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0243244320</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">66 AVENUE DU GENERAL DE GAULLE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE DOUCET</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_GWENLADENN">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44184</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gweladenn.free.fr</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240221610</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44600</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT NAZAIRE</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOULEVARD DE LA LEGION D'HONNEUR</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE GWENLADENN</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_TRAIT_D&apos;UNION">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85163</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">librairie.noirmoutier@orange.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0251355922</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85330</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOIRMOUTIER</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 BIS RUE DU GRAND FOUR</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE TRAIT D'UNION</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_PARENTHESE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49023</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parenthesebeaupreau@wanadoo.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0241633255</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49600</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BEAUPREAU</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 TER RUE SAINT GILLES</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE PARENTHESE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_OTAKU_NERA_DERA">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.otakunodera.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contact@otakunodera.com </ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240352583</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 RUE DES TROIS CROISSANTS </ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE OTAKU NERA DERA</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_ALADIN">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.canalbd.net</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aladinlib@canalbd.net</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240203923</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8 RUE MERCOEUR</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE ALADIN</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_MEDICALE_ET_SCIENTIFIQUE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.lms-web.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240470666</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 BIS ALLEE DE TURENNE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE MEDICALE ET SCIENTIFIQUE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_DU_CHÂTEAU_DES_DUCS_DE_BRETAGNE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.chateau-nantes.fr</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0251174956</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 PLACE MARC ELDER</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE DU CHÂTEAU DES DUCS DE BRETAGNE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_DU_CASINO">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44055</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240608660</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ESPLANADE FRANCOIS ANDRE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE DU CASINO</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_PAPYRUS_72">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72132</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairie-papyrus.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">papyruslp@wanadoo.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0243930053</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72400</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA FERTE BERNARD</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37 RUE D'HUISNE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE PAPYRUS 72</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_LA_PARENTHESE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49023</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairielaparenthese.fr</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contact@librairielaparenthese.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0241633255</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49600</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BEAUPREAU</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 TER RUE SAINT GILLES</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LA PARENTHESE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_L&apos;ART_EN_BULLES">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.lartenbulles-librairie-bd.fr</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">artenbulles@laposte.net</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0281022066</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 RUE JEAN JACQUES ROUSSEAU</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE L'ART EN BULLES</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_L&apos;AUTRE_RIVE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.autrerive-librairie-nantes.fr</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autrerive.nantes@wanadoo.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240893076</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21 RUE DE LA PAIX</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE L'AUTRE RIVE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_LA_PLUME">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44015</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240873341</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44130</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BLAIN</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 RUE ARISTIDE BRIAND</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LA PLUME</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_PROLOGUE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49099</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairie-prologue.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">librairie-prologue@wanadoo.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0241585597</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49300</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHOLET</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">67 RUE DU COMMERCE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE PROLOGUE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_VENT_D&apos;OUEST">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairie-nantes.fr</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">librairie@ventdouest.org</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240486481</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 PLACE DU BON PASTEUR</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE VENT D'OUEST</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_DOBREE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairiedobree.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">info@librairiedobree.com</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240698484</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14 RUE VOLTAIRE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE DOBREE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_GEOTHEQUE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geotheque.over-blog.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mtageotheque@free.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240474068</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 PLACE PILORI </ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE GEOTHEQUE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_COIFFARD">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240481619</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 RUE DE LA FOSSE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE COIFFARD</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_AU_REPAIRE_DES_HEROS">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49007</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aurepairedesheros@orange.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0241348306</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49100</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41 RUE BEAUREPAIRE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE AU REPAIRE DES HEROS</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_LE_LIVRE_A_VENIR">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49328</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lelivreavenir@gmail.com</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0241521056</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49400</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAUMUR</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21 RUE DE LA TONNELLE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LE LIVRE A VENIR</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_LACROIX">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85191</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0251373077</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA ROCHE SUR YON</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38 RUE CLEMENCEAU</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LACROIX</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_BULLE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72181</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairie-bulle.fr</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lib.bulle@wanadoo.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0243390623</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 RUE SAINT HONORE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE BULLE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_SOULARD">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44043</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240316760</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44190</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLISSON</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18 RUE DES HALLES</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE SOULARD</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_CLIO">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85010</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0251223257</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85440</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AVRILLE</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11 AVENUE DU GENERAL DE GAULLE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE CLIO</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_LES_ENFANTS_TERRIBLES">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lesenfantsterribles@wanadoo.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0251820215</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17 RUE VERDUN</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LES ENFANTS TERRIBLES</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_ALBUM">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44184</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240668271</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44600</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT NAZAIRE</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">71 RUE JEAN JAURES</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE ALBUM</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_GRAFFITY&apos;S">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49373</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">graffitys2@wanadoo.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0241758275</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49310</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIHIERS</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23 PLACE CHARLES DE GAULLE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE GRAFFITY'S</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_BULLE_D&apos;AIR">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49007</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0241888333</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49100</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41 RUE BRESSIGNY</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE BULLE D'AIR</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_STORY_BD">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.story-bd.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">story-bd@wanadoo.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240356950</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 RUE GUEPIN</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE STORY BD</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_ARNOULD">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49099</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0967098463</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49300</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHOLET</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">67 RUE DU COMMERCE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE ARNOULD</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_SILOE_72">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72181</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.siloe-librairies.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">le-mans@siloe-librairies.com</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0243875316</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38 BIS PLACE DES COMTES DU MAINE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE SILOE 72</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_LA_PRESSE_ET_LE_LIVRE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53130</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0243670490</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LAVAL</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">61 BOULEVARD FELIX GRAT</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LA PRESSE ET LE LIVRE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_LUDIBULLE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.ludibulle.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ludibulle@aliceadsl.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240357134</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 RUE DES VIEILLES DOUVES</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LUDIBULLE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_ENGUEHARD">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72124</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0243421045</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72220</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECOMMOY</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 PLACE DE LA REPUBLIQUE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE ENGUEHARD</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_LEROY">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85092</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0251698685</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85200</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FONTENAY LE COMTE</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 PASSAGE DU COMMERCE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LEROY</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_VENT_DE_GALERNE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49063</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ventdegalerne@orange.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0241451958</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49290</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHALONNES SUR LOIRE</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 RUE CARNOT</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE VENT DE GALERNE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_DU_GRAND_T">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.legrandt.fr</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0251882525</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84 RUE DU GENERAL BUAT</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE DU GRAND T</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_LA_LIGERIENNE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49307</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contact@la-ligerienne.fr </ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0241570050</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49250</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST MATHURIN SUR LOIRE</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE BELLENOUE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LA LIGERIENNE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_CENTRALE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85194</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lib.cent.ls@wanadoo.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0251328597</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85108</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LES SABLES D'OLONNES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20 RUE DE L'HOTEL DE VILLE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE CENTRALE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_RIBARD">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44190</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240805492</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44230</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT SEBASTIEN SUR LOIRE</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20 RUE MAURICE DANIEL</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE RIBARD</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_L&apos;ILE_AUX_TRESOR">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49140</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.lileautresor.fr</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">librairie@lileautresor.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0241516565</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49590</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FONTEVRAUD</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 PLACE DES PLANTAGENETS</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE L'ILE AUX TRESOR</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_HELLIO_">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85163</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">encre.bleue85@orange.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0251390068</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85330</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOIRMOUTIER</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 GRANDE RUE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE HELLIO </ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_SAC_A_PAPIER">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44184</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sacapapier@sfr.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240665571</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44600</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT NAZAIRE</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38 RUE DU MAINE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE SAC A PAPIER</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_ATLANTIC_PAPETERIE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85222</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atlantic.papeterie@wanadoo.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0251559131</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85800</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT GILLES CROIX DE VIE</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13 RUE DU GENERAL DE GAULLE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE ATLANTIC PAPETERIE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_LANDRON">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49283</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0241391381</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49170</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST GEORGES SUR LOIRE</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 RUE DE CHALONNES </ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LANDRON</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_LA_TRES_PETITE_LIBRAIRIE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44043</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">latrespetitelibrairie@laposte.net</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0251718966</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44190</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLISSON</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">58 BIS RUE DES HALLES</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LA TRES PETITE LIBRAIRIE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_FRANKLIN">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">librairie.franklin44@orange.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0251889708</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18 RUE FRANKLIN</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE FRANKLIN</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_K&apos;DO_SAINT_AUBIN">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44069</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240249126</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44350</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GUERANDE</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 PLACE SAINT AUBIN</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE K'DO SAINT AUBIN</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_VENT_D&apos;OUEST_-_LIEU_UNIQUE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairie-nantes.fr</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ventdouestaulieuunique@yahoo.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240476483</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 RUE DE LA BISCUITERIE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE VENT D'OUEST - LIEU UNIQUE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_LE_MOT_PASSANT">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49099</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">librairielemotpassant@orange.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0241624430</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49300</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHOLET</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 RUE PINEAU</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LE MOT PASSANT</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_FNAC">
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72000</ex:postalCode>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13 RUE CLAUDE BLONDEAU</ex:adresse>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</ex:ville>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE FNAC</ex:nom>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0892350405</ex:tel>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.fnac.com/Angers</ex:siteWeb>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49100</ex:postalCode>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.fnac.com/Nantes</ex:siteWeb>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49007</ex:codeInsee>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLACE DU COMMERCE</ex:adresse>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.fnac.com/Le-Mans</ex:siteWeb>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72181</ex:codeInsee>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25 RUE LENEPVEU</ex:adresse>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_LES_NUITS_BLANCHES">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairie-lesnuitsblanches.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">librairielesnuitsblanches@orange.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0251832890</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 RUE DES HAUTS PAVES</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LES NUITS BLANCHES</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_VOYELLES_HERBIGNAC">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44072</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">voyelles@aliceadsl.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0251769001</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44410</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HERBIGNAC</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13 PLACE DU GENERAL D'ARGENCE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE VOYELLES HERBIGNAC</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_ARCADIE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85128</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.arcadie-calipage.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0251560267</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85400</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUCON</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 PLACE DU PETIT BOOTH</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE ARCADIE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_SILOE_85">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85191</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.siloe-librairies.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">la-roche-sur-yon@siloe-librairies.com</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0251373881</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA ROCHE SUR YON</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">58 RUE DU MARECHAL JOFFRE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE SILOE 85</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_L&apos;EQUIPAGE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44018</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lequipage@yahoo.fr </ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0228075872 </ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44830</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOUAYE</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 RUE DE PORNIC</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE L'EQUIPAGE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_SILOE_LIS">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.siloe-librairies.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nantes@siloe-librairies.com</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240743905</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 BIS RUE CLEMENCEAU</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE SILOE LIS</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_PAPYRUS_">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49092</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lib.pap.chemille@wanadoo.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0241306026</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49420</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMILLE</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">185 RUE NATIONALE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE PAPYRUS </ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_VOYELLES">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85194</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairie-voyelles.net</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gto.voyelles@wanadoo.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0251237177</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85100</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LES SABLES D'OLONNES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">64 RUE NATIONALE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE VOYELLES</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_DU_VAL_DE_LOIRE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49328</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0241401669</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49400</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAUMUR</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46 RUE D'ORLEANS</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE DU VAL DE LOIRE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_KARA_PASSE_EN_BULLE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0251650036</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85500</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LES HERBIERS</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 BIS RUE DE LA BIENFAISANCE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE KARA PASSE EN BULLE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_AGORA">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85191</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairie-agora.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0251445881</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA ROCHE SUR YON</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11 RUE CLEMENCEAU</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE AGORA</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_HUET">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53272</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0243033086</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53700</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VILLAINES LA JUHEL</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 PLACE DES HALLES</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE HUET</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_DU_MARAIS">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53147</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairiedumarais.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libdumarais@orange.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0243041012</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53100</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAYENNE</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLACE CLEMENCEAU</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE DU MARAIS</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_LIRE_ET_ECRIRE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53084</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0243062902</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53400</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRAON</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 RUE NEUVE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LIRE ET ECRIRE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_ITINERANCES">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49007</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contact@librairie-itinérances.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0241773647</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">62 RUE BAUDRIERE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE ITINERANCES</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_BOUQUINERIE_DU_VIEUX_CHÂTEAU">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53130</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0243562643</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LAVAL</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19 GRANDE RUE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE BOUQUINERIE DU VIEUX CHÂTEAU</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_ROMINI">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72138</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0243332883</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FRESNAY SUR SARTHE</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 RUE GAMBETTA</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE ROMINI</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_DES_ANTILLES">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44026</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240508410</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44470</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARQUEFOU</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE DES ANTILLES</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE DES ANTILLES</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_QUILLET">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53097</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">librairiequillet@voila.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0243016174</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53600</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EVRON</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44 RUE FONTAINE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE QUILLET</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_SILOE_53">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53130</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.siloe-librairies.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laval@siloe-librairies.com</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0243591150</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LAVAL</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 RUE DU GENERAL DE GAULLE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE SILOE 53</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_CHAPITRE_COM_LAVAL">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53130</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laval@siloe-librairie.com</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0243591150</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LAVAL</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 RUE DU GENERAL DE GAULLE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE CHAPITRE.COM LAVAL</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_THUARD">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72181</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairiethuard.fr</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0243822222</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24 RUE DE L'ETOILE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE THUARD</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_DES_PONTS">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49328</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0241674991</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49400</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAUMUR</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27 AVENUE DU GENERAL DE GAULLE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE DES PONTS</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_L&apos;ESPRIT_DU_TEMPS">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240480126</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 RUE SIMON FOUCAULT</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE L'ESPRIT DU TEMPS</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_LHERIAU">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49007</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">librairie.lheriau@wanadoo.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0241877587</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49100</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 PLACE DE LA VISITATION</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LHERIAU</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_PAYS_ET_TERROIRS">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49099</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pays.et.terroirs@wanadoo.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0241626894</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49300</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHOLET</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">65 PLACE DU ROUGE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE PAYS ET TERROIRS</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_SILOE_44">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.siloe-librairies.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nantes@siloe-librairies.com</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240891118</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 RUE ANGE GUEPIN</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE SILOE 44</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_DURANCE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairiedurance.fr</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240486879</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 ALLEE D'ORLEANS</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE DURANCE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_LES_FABLES_D&apos;OLONNE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85194</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.lesfablesdolonne.fr</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lesfablesdolonne@gmail.com</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0251201290</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85100</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LES SABLES D'OLONNES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">56 PROMENADE GEORGES CLEMENCEAU</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LES FABLES D'OLONNE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_A_PLUS_D&apos;UN_TITRE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72176</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0243482181</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72800</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE LUDE</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15 RUE BŒUF</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE A PLUS D'UN TITRE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_L&apos;ESPRIT_LARGE_">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44069</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairielespritlarge.over-blog.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">librairie@esprit-large.com</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240234444</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44350</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GUERANDE</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 RUE VANNETAISE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE L'ESPRIT LARGE </ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_BLONDEAU">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72373</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blondeau.vibraye@wanadoo.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0243936023</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72140</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIBRAYE</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26 RUE XAVIER BOUTET</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE BLONDEAU</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_L&apos;ATALANTE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.l-atalante.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lib.atalante@wanadoo.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240475477</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15 RUE DES VIEILLES DOUVES</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE L'ATALANTE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_ETOILE_POLAR">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.letoilepolar.fr</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lelibraire@etoilepolar.com</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0981812830</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">58 RUE DE LA BASTILLE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE ETOILE POLAR</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_LE_TRIANGLE_BLANC">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44049</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">letriangleblanc@wanadoo.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240157416</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44490</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE CROISIC</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14 RUE DE LA MARINE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LE TRIANGLE BLANC</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_JEUX_BOUQUINE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53130</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jeuxbouquine@orange.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0243538324</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LAVAL</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 RUE VAL DE MAYENNE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE JEUX BOUQUINE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_CONTACT">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49007</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0241241500</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 RUE LENEPVEU</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE CONTACT</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_M&apos;LIRE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53130</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairiemlire.hautetfort.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">librairiemlire@gmail.com</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0243530411</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LAVAL</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 RUE DE LA PAIX</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE M'LIRE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_APOSTROPHES">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44195</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairie-apostrophes.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apostrophes.savenay@wanadoo.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240568003</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44260</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAVENAY</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 PLACE DES HALLES</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE APOSTROPHES</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_PARCHEMINS">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49276</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairieparchemins.blogspot.fr</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">librairieparchemins@orange.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0241429214</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49410</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT FLORENT LE VIEL</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 RUE CHARLES DE RENEVILLE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE PARCHEMINS</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_POLYGLOT">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://polyglot.free.fr/</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">librairie.polyglot@wanadoo.fr </ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240140704</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 BOULEVARD PETIT PORT</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE POLYGLOT</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_DU_MUSEE_DES_BEAUX_ARTS">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.museedesbeauxarts.nantes.fr</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0251819741</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 RUE CLEMENCEAU</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE DU MUSEE DES BEAUX ARTS</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_LE_PILIER_AUX_CLES">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72181</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.le-pilier-aux-cles.fr</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infos@le-pilier-aux-cles.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0243249726</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81-83 GRANDE RUE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LE PILIER AUX CLES</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_L&apos;ATHANOR">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72181</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0243236318</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22 RUE MARCHANDE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE L'ATHANOR</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_LA_DIFFERENCE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">differences@hotmail.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0251828668</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35 CHAUSSEE DE LA MADELEINE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LA DIFFERENCE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_85_000">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85191</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">librairie85000@gmail.com</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0251372793</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA ROCHE SUR YON</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARREAU DES HALLES</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE 85 000</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_LA_LUCIOLE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49007</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.laluciole.fr</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laluciole@citrouille.net</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0241861606</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49100</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 RUE DES POELIERS</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LA LUCIOLE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_BOUQUINERIE_DU_CENTRE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72181</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0243870279</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23 RUE NATIONALE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE BOUQUINERIE DU CENTRE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_LE_YETI">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49099</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">le.yeti.pagesperso-orange.fr</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leyetiweb@wanadoo.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0241652303</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44300</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHOLET</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9 RUE TRAVERSIERE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LE YETI</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_CHRYSALIDE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49007</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairiechrysalide.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">info@librairiechrysalide.com</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0241868237</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11 RUE DES DEUX HAIES</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE CHRYSALIDE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_S_A_D_E_L_(SOCIETE_ANGEVINE_D&apos;EDITION_ET_LIBRAIRIE)_">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49267</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0241211462</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49124</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT BARTHELEMY D'ANJOU</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOULEVARD DE LA ROMANERIE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE S.A.D.E.L (SOCIETE ANGEVINE D'EDITION ET LIBRAIRIE) </ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_TECHNIQUE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49099</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairietechnique-cholet.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">librairie.technique@wanadoo.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0241460240</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49300</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHOLET</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">54 RUE SAINT PIERRE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE TECHNIQUE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_PAUSE_MANGA">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72181</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pausemanga@free.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0253762417</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">56 RUE NATIONALE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE PAUSE MANGA</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_A_PLEIN_REVES">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.apleinreves.fr</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contact@comics-apleinreves.com</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240382237</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13 ALLEE PORT MAILLARD</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE A PLEIN REVES</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_PLUME_ET_FABULETTES">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44003</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plumeeetfabulettes@gmail.com</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0674374014</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44150</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANCENIS</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8 RUE CLEMENCEAU</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE PLUME ET FABULETTES</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_LA_NEF_DES_LIVRES">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44184</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairielanefdeslivres.fr</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lanefdeslivres@orange.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240700171</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44600</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT NAZAIRE</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26 AVENUE DE LA HAVANE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LA NEF DES LIVRES</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_LE_PASSAGE_A_L&apos;ACTE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72006</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lepassagealacte@orange.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0233806470</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72610</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARCONNAY</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZONE COMMERCIALE LE POINT D'ALENCON</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LE PASSAGE A L'ACTE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_LA_MYSTERIEUSE_LIBRAIRIE_NANTAISE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.mysterieuselibrairienantaise.wordpress.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mysterieuselibrairienantaise@gmail.com</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0251721889</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 RUE DE LA PAIX</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LA MYSTERIEUSE LIBRAIRIE NANTAISE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_HALL_DES_INFORMATIONS">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44055</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240600430</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35 BOULEVARD DE L'OCEAN</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE HALL DES INFORMATIONS</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_CLE_DE_VIE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72181</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.cledevie.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cle-de-vie@wanadoo.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0243282742</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">71 RUE NATIONALE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE CLE DE VIE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_LIVRES_COMME_L&apos;AIR">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240891246</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 RUE COPERNIC</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LIVRES COMME L'AIR</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_RICHER">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49007</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairie-richer.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">accueil@librairie-richer.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0241255000</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49100</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6-8 RUE CHAPERONNIERE</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE RICHER</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_VOYELLES_PONTCHATEAU">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44129</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">voyelles@aliceadsl.fr </ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240663220</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44160</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PONTCHATEAU</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25 RUE MAURICE SAMBRON</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE VOYELLES PONTCHATEAU</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_FRANCE_LOISIRS">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.franceloisirs.com</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0240486495</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 RUE JEAN JACQUES ROUSSEAU</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE FRANCE LOISIRS</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_L&apos;OR_EN_LIVRE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85238</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lorenlivre@orange.fr</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0251678823</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85290</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT LAURENT SUR SEVRE</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26 PLACE SAINT GABRIEL</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE L'OR EN LIVRE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/1/LIBRAIRIE_HACHETTE">
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44172</ex:codeInsee>
+    <ex:siteWeb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:siteWeb>
+    <ex:mail rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:mail>
+    <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0251850911</ex:tel>
+    <ex:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44980</ex:postalCode>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINTE LUCE SUR LOIRE</ex:ville>
+    <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 RUE HELENE BOUCHER</ex:adresse>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE HACHETTE</ex:nom>
+  </rdf:Description>
+</rdf:RDF>

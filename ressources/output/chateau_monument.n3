@@ -1,798 +1,1688 @@
- 
+
 @prefix ex: <http://example.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix proj: <http://projet.com/10/> . 
- 
+
         
-<http://projet.com/10/LA_MAISON_DES_VINS_>	 ex:nom 	 "LA MAISON DES VINS "^^xsd:string; 
-    	ex:id	 "1"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "28 place du Millénaire"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44150"^^xsd:integer ;
-    
-<http://projet.com/10/LA_MAISON_DES_PALUDIERS>	 ex:nom 	 "LA MAISON DES PALUDIERS"^^xsd:string; 
-    	ex:id	 "2"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Saillé"^^xsd:string;
-    
- 	 ex:adresse2 	 "18 rue des Prés-Garniers"^^xsd:string;
-    	ex:codePostal	 "44350"^^xsd:integer ;
-    
-<http://projet.com/10/EDF_-_Unité_de_Production>	 ex:nom 	 "EDF - Unité de Production"^^xsd:string; 
-    	ex:id	 "3"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "BP 13"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44360"^^xsd:integer ;
-    
-<http://projet.com/10/LA_MAISON_DE_BONCHAMPS>	 ex:nom 	 "LA MAISON DE BONCHAMPS"^^xsd:string; 
-    	ex:id	 "4"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "61 rue de la Basse Meilleraie"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44370"^^xsd:integer ;
-    
-<http://projet.com/10/LA_VILLA_LEMOT>	 ex:nom 	 "LA VILLA LEMOT"^^xsd:string; 
-    	ex:id	 "5"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "null"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44190"^^xsd:integer ;
-    
-<http://projet.com/10/MUSEE_DE_LA_VIGNE_ET_DU_VIN>	 ex:nom 	 "MUSEE DE LA VIGNE ET DU VIN"^^xsd:string; 
-    	ex:id	 "6"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Abbaye de Sainte Radegonde"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44430"^^xsd:integer ;
-    
-<http://projet.com/10/CHATEAU_D'OUDON_-_LOIRE_EN_SCENE>	 ex:nom 	 "CHATEAU D'OUDON - LOIRE EN SCENE"^^xsd:string; 
-    	ex:id	 "7"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Loire en Scène"^^xsd:string;
-    
- 	 ex:adresse2 	 "11 Rue du Pont Levis"^^xsd:string;
-    	ex:codePostal	 "44521"^^xsd:integer ;
-    
-<http://projet.com/10/ECOMUSEE_DES_FOURS_A_CHAUX>	 ex:nom 	 "ECOMUSEE DES FOURS A CHAUX"^^xsd:string; 
-    	ex:id	 "8"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Route de St Julien de Vouvantes"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44110"^^xsd:integer ;
-    
-<http://projet.com/10/ATELIER_ET_MEMOIRE_DU_PAPIER>	 ex:nom 	 "ATELIER ET MEMOIRE DU PAPIER"^^xsd:string; 
-    	ex:id	 "9"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Chapelle des Templiers"^^xsd:string;
-    
- 	 ex:adresse2 	 "Impasse de la Commanderie"^^xsd:string;
-    	ex:codePostal	 "44190"^^xsd:integer ;
-    
-<http://projet.com/10/MUSEE_DU_VIGNOBLE_NANTAIS>	 ex:nom 	 "MUSEE DU VIGNOBLE NANTAIS"^^xsd:string; 
-    	ex:id	 "10"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "82 rue Pierre Abelard"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44330"^^xsd:integer ;
-    
-<http://projet.com/10/MAISON_DE__PAYS_MUSEE_DES_FORGES_>	 ex:nom 	 "MAISON DE  PAYS MUSEE DES FORGES "^^xsd:string; 
-    	ex:id	 "11"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "La Forge Neuve"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44520"^^xsd:integer ;
-    
-<http://projet.com/10/MUSEE_DE_LA_RESISTANCE>	 ex:nom 	 "MUSEE DE LA RESISTANCE"^^xsd:string; 
-    	ex:id	 "12"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Ferme de la Sablière"^^xsd:string;
-    
- 	 ex:adresse2 	 "Route de Laval"^^xsd:string;
-    	ex:codePostal	 "44110"^^xsd:integer ;
-    
-<http://projet.com/10/LE_SITE_DE_LA_CANTRIE>	 ex:nom 	 "LE SITE DE LA CANTRIE"^^xsd:string; 
-    	ex:id	 "13"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Association des « Amis de St Fiacre »"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44690"^^xsd:integer ;
-    
-<http://projet.com/10/DEMEURE_RENE_GUY_CADOU>	 ex:nom 	 "DEMEURE RENE GUY CADOU"^^xsd:string; 
-    	ex:id	 "14"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "3 rue René Guy Cadou"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44110"^^xsd:integer ;
-    
-<http://projet.com/10/MUSEE_DE_LA_CHANSON_FRANCAISE>	 ex:nom 	 "MUSEE DE LA CHANSON FRANCAISE"^^xsd:string; 
-    	ex:id	 "15"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "8 rue Paul Joyau"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44140"^^xsd:integer ;
-    
-<http://projet.com/10/MUSEE_AGRI-RETRO>	 ex:nom 	 "MUSEE AGRI-RETRO"^^xsd:string; 
-    	ex:id	 "16"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Le Bas-Houx"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44170"^^xsd:integer ;
-    
-<http://projet.com/10/MUSEE_ERDRE_VIVANTE>	 ex:nom 	 "MUSEE ERDRE VIVANTE"^^xsd:string; 
-    	ex:id	 "17"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Site des Renaudières"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44470"^^xsd:integer ;
-    
-<http://projet.com/10/FRAC_DES_PAYS_DE_LA_LOIRE>	 ex:nom 	 "FRAC DES PAYS DE LA LOIRE"^^xsd:string; 
-    	ex:id	 "18"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Fonds Régional d'Art Contemporain"^^xsd:string;
-    
- 	 ex:adresse2 	 "La Fleuriaye"^^xsd:string;
-    	ex:codePostal	 "44470"^^xsd:integer ;
-    
-<http://projet.com/10/MUSEE_DU_TEMPS_QUI_PASSE>	 ex:nom 	 "MUSEE DU TEMPS QUI PASSE"^^xsd:string; 
-    	ex:id	 "19"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Les Renaudières"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44470"^^xsd:integer ;
-    
-<http://projet.com/10/LES_FORGES_DE_LA_HUNAUDIERE>	 ex:nom 	 "LES FORGES DE LA HUNAUDIERE"^^xsd:string; 
-    	ex:id	 "20"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Association Les Amis des Forges de la Hunaudière"^^xsd:string;
-    
- 	 ex:adresse2 	 "La Hunaudière"^^xsd:string;
-    	ex:codePostal	 "44590"^^xsd:integer ;
-    
-<http://projet.com/10/LE_MOULIN_DE_KERBROUE>	 ex:nom 	 "LE MOULIN DE KERBROUE"^^xsd:string; 
-    	ex:id	 "21"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Route de St Molf"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44420"^^xsd:integer ;
-    
-<http://projet.com/10/MUSEE_D'HISTOIRE_DE_NANTES>	 ex:nom 	 "MUSEE D'HISTOIRE DE NANTES"^^xsd:string; 
-    	ex:id	 "22"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "4 place Marc Elder"^^xsd:string;
-    
- 	 ex:adresse2 	 "Château des Ducs de Bretagne"^^xsd:string;
-    	ex:codePostal	 "44000"^^xsd:integer ;
-    
-<http://projet.com/10/MUSEE_NAVAL_MAILLE_BREZE>	 ex:nom 	 "MUSEE NAVAL MAILLE BREZE"^^xsd:string; 
-    	ex:id	 "23"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "105 Quai de la Fosse"^^xsd:string;
-    
- 	 ex:adresse2 	 "BP 68721"^^xsd:string;
-    	ex:codePostal	 "44187"^^xsd:integer ;
-    
-<http://projet.com/10/LA_MAISON_DES_VINS_DE_LOIRE>	 ex:nom 	 "LA MAISON DES VINS DE LOIRE"^^xsd:string; 
-    	ex:id	 "24"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "15 place du Commerce"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44000"^^xsd:integer ;
-    
-<http://projet.com/10/MUSEE_DE_L’IMPRIMERIE>	 ex:nom 	 "MUSEE DE L’IMPRIMERIE"^^xsd:string; 
-    	ex:id	 "25"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Pro Arte Graphica"^^xsd:string;
-    
- 	 ex:adresse2 	 "24 quai de la Fosse"^^xsd:string;
-    	ex:codePostal	 "44000"^^xsd:integer ;
-    
-<http://projet.com/10/MUSEUM_D’HISTOIRE_NATURELLE>	 ex:nom 	 "MUSEUM D’HISTOIRE NATURELLE"^^xsd:string; 
-    	ex:id	 "26"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "12 rue Voltaire"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44000"^^xsd:integer ;
-    
-<http://projet.com/10/LA_MAISON_DES_HOMMES_ET_DES_TECHNIQUES>	 ex:nom 	 "LA MAISON DES HOMMES ET DES TECHNIQUES"^^xsd:string; 
-    	ex:id	 "27"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "2 bis bd Léon Bureau"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44200"^^xsd:integer ;
-    
-<http://projet.com/10/LA_MAISON_RADIEUSE_LE_CORBUSIER>	 ex:nom 	 "LA MAISON RADIEUSE LE CORBUSIER"^^xsd:string; 
-    	ex:id	 "28"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "rue Théodore Brosseaud"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44403"^^xsd:integer ;
-    
-<http://projet.com/10/MUSEE_JULES_VERNE>	 ex:nom 	 "MUSEE JULES VERNE"^^xsd:string; 
-    	ex:id	 "29"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "3 rue de l’Hermitage"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44000"^^xsd:integer ;
-    
-<http://projet.com/10/MUSEE_COMPAGNONNIQUE>	 ex:nom 	 "MUSEE COMPAGNONNIQUE"^^xsd:string; 
-    	ex:id	 "30"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Manoir de la Hautière"^^xsd:string;
-    
- 	 ex:adresse2 	 "14 rue Guillon Verne"^^xsd:string;
-    	ex:codePostal	 "44100"^^xsd:integer ;
-    
-<http://projet.com/10/LE_MOULIN_DU_PONT>	 ex:nom 	 "LE MOULIN DU PONT"^^xsd:string; 
-    	ex:id	 "31"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Association de Sauvegarde du Moulin du Pont Godalin"^^xsd:string;
-    
- 	 ex:adresse2 	 "Le Pont"^^xsd:string;
-    	ex:codePostal	 "44590"^^xsd:integer ;
-    
-<http://projet.com/10/LA_CARRIERE_DE_LA_PIERRE_BLEUE>	 ex:nom 	 "LA CARRIERE DE LA PIERRE BLEUE"^^xsd:string; 
-    	ex:id	 "32"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "25 rue du Vieux Bourg"^^xsd:string;
-    
- 	 ex:adresse2 	 "Route de Rennes"^^xsd:string;
-    	ex:codePostal	 "44170"^^xsd:integer ;
-    
-<http://projet.com/10/OBSERVATOIRE_ORNITHOLOGIQUE_DU_LAC_DE_GRAND-LIEU>	 ex:nom 	 "OBSERVATOIRE ORNITHOLOGIQUE DU LAC DE GRAND-LIEU"^^xsd:string; 
-    	ex:id	 "33"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Maison des Pêcheurs"^^xsd:string;
-    
- 	 ex:adresse2 	 "16 rue Yves Brisson"^^xsd:string;
-    	ex:codePostal	 "44118"^^xsd:integer ;
-    
-<http://projet.com/10/LA_MAISON_DU_PECHEUR_>	 ex:nom 	 "LA MAISON DU PECHEUR "^^xsd:string; 
-    	ex:id	 "34"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "16 rue Yves Brisson"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44118"^^xsd:integer ;
-    
-<http://projet.com/10/SITE_DE_L'ABBATIALE_-_DEAS>	 ex:nom 	 "SITE DE L'ABBATIALE - DEAS"^^xsd:string; 
-    	ex:id	 "35"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Place de l'Abbatiale"^^xsd:string;
-    
- 	 ex:adresse2 	 "Le Prieuré"^^xsd:string;
-    	ex:codePostal	 "44310"^^xsd:integer ;
-    
-<http://projet.com/10/LA_MAISON_DE_LA_RESERVE_DU_LAC_DE_GRANDLIEU>	 ex:nom 	 "LA MAISON DE LA RESERVE DU LAC DE GRANDLIEU"^^xsd:string; 
-    	ex:id	 "36"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "20, rue de l’Acheneau"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44830"^^xsd:integer ;
-    
-<http://projet.com/10/ECOMUSEE_RURAL_DU_PAYS_NANTAIS>	 ex:nom 	 "ECOMUSEE RURAL DU PAYS NANTAIS"^^xsd:string; 
-    	ex:id	 "37"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "11 rue du Lavoir"^^xsd:string;
-    
- 	 ex:adresse2 	 "81  rue Anne de Bretagne"^^xsd:string;
-    	ex:codePostal	 "44360"^^xsd:integer ;
-    
-<http://projet.com/10/MUSEE_BENOIST_-_MAISON_DE_LA_FORET_DU_GAVRE>	 ex:nom 	 "MUSEE BENOIST - MAISON DE LA FORET DU GAVRE"^^xsd:string; 
-    	ex:id	 "38"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Association Musée Benoist"^^xsd:string;
-    
- 	 ex:adresse2 	 "2 route de Conquéreuil"^^xsd:string;
-    	ex:codePostal	 "44130"^^xsd:integer ;
-    
-<http://projet.com/10/CHATEAU_DE_BLAIN_-_MONUMENT_HISTORIQUE>	 ex:nom 	 "CHATEAU DE BLAIN - MONUMENT HISTORIQUE"^^xsd:string; 
-    	ex:id	 "39"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Château et Essor Blinois"^^xsd:string;
-    
- 	 ex:adresse2 	 "6 allée Olivier de Clisson"^^xsd:string;
-    	ex:codePostal	 "44130"^^xsd:integer ;
-    
-<http://projet.com/10/MUSEE_DE_LA_FEVE,_CRECHES_ET_TRADITIONS_POPULAIRES>	 ex:nom 	 "MUSEE DE LA FEVE, CRECHES ET TRADITIONS POPULAIRES"^^xsd:string; 
-    	ex:id	 "40"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "2 place Jean Guihard"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44130"^^xsd:integer ;
-    
-<http://projet.com/10/MUSEE_MINES_ET_MINERAUX_-_LA_FERME_DE_L'ORME>	 ex:nom 	 "MUSEE MINES ET MINERAUX - LA FERME DE L'ORME"^^xsd:string; 
-    	ex:id	 "41"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "L'Orme"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44130"^^xsd:integer ;
-    
-<http://projet.com/10/ESPACE_MAQUETTES_DE_TRAIN>	 ex:nom 	 "ESPACE MAQUETTES DE TRAIN"^^xsd:string; 
-    	ex:id	 "42"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "10 boulevard des Acacias"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44260"^^xsd:integer ;
-    
-<http://projet.com/10/MUSEE_DU_PAYS_DE_RETZ>	 ex:nom 	 "MUSEE DU PAYS DE RETZ"^^xsd:string; 
-    	ex:id	 "43"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "6 rue des Moines - BP 14"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44580"^^xsd:integer ;
-    
-<http://projet.com/10/MARAIS_SALANT_« TENUE_DE_MAREIL »>	 ex:nom 	 "MARAIS SALANT « TENUE DE MAREIL »"^^xsd:string; 
-    	ex:id	 "44"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Association Patrimoine Marche de Bretagne Marais Breton"^^xsd:string;
-    
- 	 ex:adresse2 	 "Domaine de Lyarne"^^xsd:string;
-    	ex:codePostal	 "44760"^^xsd:integer ;
-    
-<http://projet.com/10/MUSEE_DE_LA_MARINE_EN_BOIS_DU_BRIVET>	 ex:nom 	 "MUSEE DE LA MARINE EN BOIS DU BRIVET"^^xsd:string; 
-    	ex:id	 "45"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Espace Châteaubriant "^^xsd:string;
-    
- 	 ex:adresse2 	 "6 rue de Châteaubriant"^^xsd:string;
-    	ex:codePostal	 "44550"^^xsd:integer ;
-    
-<http://projet.com/10/LA_MAISON_DE_L’ECLUSIER>	 ex:nom 	 "LA MAISON DE L’ECLUSIER"^^xsd:string; 
-    	ex:id	 "46"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Rozé"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44550"^^xsd:integer ;
-    
-<http://projet.com/10/LE_MULON_DE_PEN_BRON>	 ex:nom 	 "LE MULON DE PEN BRON"^^xsd:string; 
-    	ex:id	 "47"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Monsieur Philippe CONSTANT"^^xsd:string;
-    
- 	 ex:adresse2 	 "Route de Pen Bron"^^xsd:string;
-    	ex:codePostal	 "44350"^^xsd:integer ;
-    
-<http://projet.com/10/SEMAPHORE_DE_LA_POINTE_ST_GILDAS>	 ex:nom 	 "SEMAPHORE DE LA POINTE ST GILDAS"^^xsd:string; 
-    	ex:id	 "48"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Pointe Saint-Gildas"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44770"^^xsd:integer ;
-    
-<http://projet.com/10/CHANTIERS_NAVALS_DE_SAINT-NAZAIRE>	 ex:nom 	 "CHANTIERS NAVALS DE SAINT-NAZAIRE"^^xsd:string; 
-    	ex:id	 "49"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Boulevard de la Légion d'Honneur"^^xsd:string;
-    
- 	 ex:adresse2 	 "Base sous-marine / Ville Port"^^xsd:string;
-    	ex:codePostal	 "44600"^^xsd:integer ;
-    
-<http://projet.com/10/LA_CHAUMIERE_DES_MARIONNETTES>	 ex:nom 	 "LA CHAUMIERE DES MARIONNETTES"^^xsd:string; 
-    	ex:id	 "50"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "28 rue de la Herviais"^^xsd:string;
-    
- 	 ex:adresse2 	 "Mayun"^^xsd:string;
-    	ex:codePostal	 "44410"^^xsd:integer ;
-    
-<http://projet.com/10/LA_CHAUMIERE_DU_PATRIMOINE>	 ex:nom 	 "LA CHAUMIERE DU PATRIMOINE"^^xsd:string; 
-    	ex:id	 "51"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "1, rue du Coilly"^^xsd:string;
-    
- 	 ex:adresse2 	 "Mayun"^^xsd:string;
-    	ex:codePostal	 "44410"^^xsd:integer ;
-    
-<http://projet.com/10/LE_MOULIN_DE_LA_BICANE>	 ex:nom 	 "LE MOULIN DE LA BICANE"^^xsd:string; 
-    	ex:id	 "52"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "La Bicane"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44750"^^xsd:integer ;
-    
-<http://projet.com/10/LA_MAISON_DE_LA_MARIEE>	 ex:nom 	 "LA MAISON DE LA MARIEE"^^xsd:string; 
-    	ex:id	 "53"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Parc Naturel Régional de Brière"^^xsd:string;
-    
- 	 ex:adresse2 	 "182 rue du Pouet"^^xsd:string;
-    	ex:codePostal	 "44720"^^xsd:integer ;
-    
-<http://projet.com/10/VILLAGE_DE_KERHINET>	 ex:nom 	 "VILLAGE DE KERHINET"^^xsd:string; 
-    	ex:id	 "54"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Parc Naturel Régional de Brière"^^xsd:string;
-    
- 	 ex:adresse2 	 "Village de Kerhinet"^^xsd:string;
-    	ex:codePostal	 "44410"^^xsd:integer ;
-    
-<http://projet.com/10/BRASSERIE_DE_LA_BRIERE>	 ex:nom 	 "BRASSERIE DE LA BRIERE"^^xsd:string; 
-    	ex:id	 "55"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Le Nezyl"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44410"^^xsd:integer ;
-    
-<http://projet.com/10/LE_MOULIN_DE_LA_FEE>	 ex:nom 	 "LE MOULIN DE LA FEE"^^xsd:string; 
-    	ex:id	 "56"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "La Masse"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44410"^^xsd:integer ;
-    
-<http://projet.com/10/MUSEE_AERONAUTIQUE_DE_LA_PRESQU'ILE_COTE_D'AMOUR>	 ex:nom 	 "MUSEE AERONAUTIQUE DE LA PRESQU'ILE COTE D'AMOUR"^^xsd:string; 
-    	ex:id	 "57"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Aérodrome de La Baule-Escoublac"^^xsd:string;
-    
- 	 ex:adresse2 	 "Rue Breton"^^xsd:string;
-    	ex:codePostal	 "44500"^^xsd:integer ;
-    
-<http://projet.com/10/MUSEE_DE_LA_POUPEE_ET_DU_JOUET_ANCIEN>	 ex:nom 	 "MUSEE DE LA POUPEE ET DU JOUET ANCIEN"^^xsd:string; 
-    	ex:id	 "58"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "23 rue de Saillé"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44350"^^xsd:integer ;
-    
-<http://projet.com/10/REMPARTS_DE_GUERANDE>	 ex:nom 	 "REMPARTS DE GUERANDE"^^xsd:string; 
-    	ex:id	 "59"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Porte St-Michel"^^xsd:string;
-    
- 	 ex:adresse2 	 "BP 85139"^^xsd:string;
-    	ex:codePostal	 "44351"^^xsd:integer ;
-    
-<http://projet.com/10/LE_GRAND_BLOCKHAUS>	 ex:nom 	 "LE GRAND BLOCKHAUS"^^xsd:string; 
-    	ex:id	 "60"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Route de la Côte Sauvage"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44740"^^xsd:integer ;
-    
-<http://projet.com/10/LA_MAISON_DU_CANAL_>	 ex:nom 	 "LA MAISON DU CANAL "^^xsd:string; 
-    	ex:id	 "61"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "1 rue de Pont Miny"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44460"^^xsd:integer ;
-    
-<http://projet.com/10/LA_MAISON_DU_LAVOIR>	 ex:nom 	 "LA MAISON DU LAVOIR"^^xsd:string; 
-    	ex:id	 "62"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Rue de Pornic"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44320"^^xsd:integer ;
-    
-<http://projet.com/10/MUSEE_DES_MARAIS_SALANTS>	 ex:nom 	 "MUSEE DES MARAIS SALANTS"^^xsd:string; 
-    	ex:id	 "63"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "29 bis rue Pasteur"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44740"^^xsd:integer ;
-    
-<http://projet.com/10/LE_CONSERVATOIRE_DES_VIEUX_METIERS>	 ex:nom 	 "LE CONSERVATOIRE DES VIEUX METIERS"^^xsd:string; 
-    	ex:id	 "64"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Chemin de Sainte Opportune"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44320"^^xsd:integer ;
-    
-<http://projet.com/10/MUSEE_LA_MAISON_DE_LA_PECHE>	 ex:nom 	 "MUSEE LA MAISON DE LA PECHE"^^xsd:string; 
-    	ex:id	 "65"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Centre de marée"^^xsd:string;
-    
- 	 ex:adresse2 	 "Port de La Turballe"^^xsd:string;
-    	ex:codePostal	 "44420"^^xsd:integer ;
-    
-<http://projet.com/10/LA_MAISON_DU_PATRIMOINE>	 ex:nom 	 "LA MAISON DU PATRIMOINE"^^xsd:string; 
-    	ex:id	 "66"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "3 Place Henri Vignioboul"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44420"^^xsd:integer ;
-    
-<http://projet.com/10/LA_FERME_DU_VIEUX_PORCHE>	 ex:nom 	 "LA FERME DU VIEUX PORCHE"^^xsd:string; 
-    	ex:id	 "67"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "La Grande Thibaudière"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44650"^^xsd:integer ;
-    
-<http://projet.com/10/SEL_DE_BOURGNEUF_EN_RETZ_LES_SALINES_NEUVES_-_D__ROBARD_PALUDIER>	 ex:nom 	 "SEL DE BOURGNEUF EN RETZ LES SALINES NEUVES - D  ROBARD PALUDIER"^^xsd:string; 
-    	ex:id	 "68"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Le Fresne"^^xsd:string;
-    
- 	 ex:adresse2 	 "BP 2"^^xsd:string;
-    	ex:codePostal	 "44580"^^xsd:integer ;
-    
-<http://projet.com/10/SALINES_DE_MILLAC>	 ex:nom 	 "SALINES DE MILLAC"^^xsd:string; 
-    	ex:id	 "69"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "1 avenue Bocandé"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44760"^^xsd:integer ;
-    
-<http://projet.com/10/CAVEAU_DES_MUSCADETS>	 ex:nom 	 "CAVEAU DES MUSCADETS"^^xsd:string; 
-    	ex:id	 "70"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Office de Tourisme"^^xsd:string;
-    
- 	 ex:adresse2 	 "Place du Minage"^^xsd:string;
-    	ex:codePostal	 "44190"^^xsd:integer ;
-    
-<http://projet.com/10/LA_BISCUITERIE_LE_PETIT_MOUZILLON>	 ex:nom 	 "LA BISCUITERIE LE PETIT MOUZILLON"^^xsd:string; 
-    	ex:id	 "71"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "ZA des quatre chemins"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44330"^^xsd:integer ;
-    
-<http://projet.com/10/LA_FERME_DES_ABEILLES>	 ex:nom 	 "LA FERME DES ABEILLES"^^xsd:string; 
-    	ex:id	 "72"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "57 La Granville"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44250"^^xsd:integer ;
-    
-<http://projet.com/10/MUSEE_DE_LA_MARINE>	 ex:nom 	 "MUSEE DE LA MARINE"^^xsd:string; 
-    	ex:id	 "73"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Place Bougainville"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44250"^^xsd:integer ;
-    
-<http://projet.com/10/LE_MOULIN_DE_LA_FALAISE>	 ex:nom 	 "LE MOULIN DE LA FALAISE"^^xsd:string; 
-    	ex:id	 "74"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Route du Croisic"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44740"^^xsd:integer ;
-    
-<http://projet.com/10/LE_NATURSEL_DE_GUERANDE>	 ex:nom 	 "LE NATURSEL DE GUERANDE"^^xsd:string; 
-    	ex:id	 "75"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Rue de Bretagne"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44740"^^xsd:integer ;
-    
-<http://projet.com/10/MUSEE_DU_TEMPS_DE_BAIGNEURS>	 ex:nom 	 "MUSEE DU TEMPS DE BAIGNEURS"^^xsd:string; 
-    	ex:id	 "76"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "8 rue de la gorge sèche"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44360"^^xsd:integer ;
-    
-<http://projet.com/10/BRASSERIE_DU_BOUFFAY>	 ex:nom 	 "BRASSERIE DU BOUFFAY"^^xsd:string; 
-    	ex:id	 "77"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "54 rue des Monceaux"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44470"^^xsd:integer ;
-    
-<http://projet.com/10/ILE_MOUCHET>	 ex:nom 	 "ILE MOUCHET"^^xsd:string; 
-    	ex:id	 "78"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Office de Tourisme d'Ancenis"^^xsd:string;
-    
- 	 ex:adresse2 	 "27 rue du Château"^^xsd:string;
-    	ex:codePostal	 "44150"^^xsd:integer ;
-    
-<http://projet.com/10/GAEC_LES_CHAMPS_MARINS>	 ex:nom 	 "GAEC LES CHAMPS MARINS"^^xsd:string; 
-    	ex:id	 "79"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Pend Hué"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44350"^^xsd:integer ;
-    
-<http://projet.com/10/ATELIERS_LE_MAUFF>	 ex:nom 	 "ATELIERS LE MAUFF"^^xsd:string; 
-    	ex:id	 "80"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "La Harrois"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44160"^^xsd:integer ;
-    
-<http://projet.com/10/LA_FERME_MARINE_DE_PEN_BE>	 ex:nom 	 "LA FERME MARINE DE PEN BE"^^xsd:string; 
-    	ex:id	 "81"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Route de l'Estran"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44410"^^xsd:integer ;
-    
-<http://projet.com/10/LES_SALINES_DE_BEAUREGARD>	 ex:nom 	 "LES SALINES DE BEAUREGARD"^^xsd:string; 
-    	ex:id	 "82"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Ques Couic"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44410"^^xsd:integer ;
-    
-<http://projet.com/10/LA_MAISON_DU_PATRIMOINE>	 ex:nom 	 "LA MAISON DU PATRIMOINE"^^xsd:string; 
-    	ex:id	 "83"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Mairie"^^xsd:string;
-    
- 	 ex:adresse2 	 "1 avenue de la Monneraye"^^xsd:string;
-    	ex:codePostal	 "44410"^^xsd:integer ;
-    
-<http://projet.com/10/PASSION_FAIENCE>	 ex:nom 	 "PASSION FAIENCE"^^xsd:string; 
-    	ex:id	 "84"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "1 rue de Nantes"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44590"^^xsd:integer ;
-    
-<http://projet.com/10/LA_CARRIERE_DES_FUSILLES>	 ex:nom 	 "LA CARRIERE DES FUSILLES"^^xsd:string; 
-    	ex:id	 "85"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "La Sablière"^^xsd:string;
-    
- 	 ex:adresse2 	 "Route de Laval"^^xsd:string;
-    	ex:codePostal	 "44110"^^xsd:integer ;
-    
-<http://projet.com/10/L'ENCLOS_DU_VIEUX_BOURG>	 ex:nom 	 "L'ENCLOS DU VIEUX BOURG"^^xsd:string; 
-    	ex:id	 "86"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "25 rue du Vieux Bourg"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44170"^^xsd:integer ;
-    
-<http://projet.com/10/CHATEAU_D’ANCENIS>	 ex:nom 	 "CHATEAU D’ANCENIS"^^xsd:string; 
-    	ex:id	 "87"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "null"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44150"^^xsd:integer ;
-    
-<http://projet.com/10/CHATEAU_DE_LA_MOTTE_GLAIN>	 ex:nom 	 "CHATEAU DE LA MOTTE GLAIN"^^xsd:string; 
-    	ex:id	 "88"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "null"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44670"^^xsd:integer ;
-    
-<http://projet.com/10/SITE_ARCHEOLOGIQUE_DE_SAINT-LUPIEN>	 ex:nom 	 "SITE ARCHEOLOGIQUE DE SAINT-LUPIEN"^^xsd:string; 
-    	ex:id	 "89"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Mairie"^^xsd:string;
-    
- 	 ex:adresse2 	 "Place Jean Baptiste Daviais"^^xsd:string;
-    	ex:codePostal	 "44403"^^xsd:integer ;
-    
-<http://projet.com/10/LA_MAISON_DU_JARDINIER>	 ex:nom 	 "LA MAISON DU JARDINIER"^^xsd:string; 
-    	ex:id	 "90"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Domaine Départemental de la Garenne Lemot"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44190"^^xsd:integer ;
-    
-<http://projet.com/10/CHATEAU_DEPARTEMENTAL_DE_CLISSON>	 ex:nom 	 "CHATEAU DEPARTEMENTAL DE CLISSON"^^xsd:string; 
-    	ex:id	 "91"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Rue du Château"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44190"^^xsd:integer ;
-    
-<http://projet.com/10/CHATEAU_DEPARTEMENTAL_DE_CHATEAUBRIANT>	 ex:nom 	 "CHATEAU DEPARTEMENTAL DE CHATEAUBRIANT"^^xsd:string; 
-    	ex:id	 "92"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Place du Général de Gaulle"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44110"^^xsd:integer ;
-    
-<http://projet.com/10/CHATEAU_DE_GOULAINE>	 ex:nom 	 "CHATEAU DE GOULAINE"^^xsd:string; 
-    	ex:id	 "93"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Allée du château"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44115"^^xsd:integer ;
-    
-<http://projet.com/10/CHATEAU_DES_DUCS_DE_BRETAGNE_>	 ex:nom 	 "CHATEAU DES DUCS DE BRETAGNE "^^xsd:string; 
-    	ex:id	 "94"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "4 place Marc Elder"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44000"^^xsd:integer ;
-    
-<http://projet.com/10/PLANETARIUM>	 ex:nom 	 "PLANETARIUM"^^xsd:string; 
-    	ex:id	 "95"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "8 rue des Acadiens"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44100"^^xsd:integer ;
-    
-<http://projet.com/10/CHATEAU_DE_GILLES_DE_RAIS>	 ex:nom 	 "CHATEAU DE GILLES DE RAIS"^^xsd:string; 
-    	ex:id	 "96"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Route de Nantes"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44270"^^xsd:integer ;
-    
-<http://projet.com/10/CHATEAU_DE_RANROUET>	 ex:nom 	 "CHATEAU DE RANROUET"^^xsd:string; 
-    	ex:id	 "97"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Rue de Ranrouët"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44410"^^xsd:integer ;
-    
-<http://projet.com/10/CHATEAU_DE_CAREIL>	 ex:nom 	 "CHATEAU DE CAREIL"^^xsd:string; 
-    	ex:id	 "98"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "33 rue du château de Careil"^^xsd:string;
-    
- 	 ex:adresse2 	 "null"^^xsd:string;
-    	ex:codePostal	 "44350"^^xsd:integer ;
-    
-<http://projet.com/10/LE_CLOCHER_DE_SAINT_LYPHARD>	 ex:nom 	 "LE CLOCHER DE SAINT LYPHARD"^^xsd:string; 
-    	ex:id	 "99"^^xsd:integer ;
-    
- 	 ex:adresse1 	 "Office de Tourisme"^^xsd:string;
-    
- 	 ex:adresse2 	 "Place de l'Eglise"^^xsd:string;
-    	ex:codePostal	 "44410"^^xsd:integer ;
-    
+<http://projet.com/10/LA_MAISON_DES_VINS_>	 ex:nom 	 "LA MAISON DES VINS "^^xsd:string;
+	ex:id	 "1"^^xsd:integer ;
+	ex:adresse1 	 "28 place du Millénaire"^^xsd:string;
+	ex:codePostal	 "44150"^^xsd:integer ;
+	ex:ville 	 "ANCENIS"^^xsd:string;
+	ex:telephone1 	 "02 40 96 14 92"^^xsd:string;
+	ex:mail1 	 "infos@vins-ancenis.fr"^^xsd:string;
+	ex:website 	 "www.vins-ancenis.fr"^^xsd:string;
+	ex:horaire 	 "Ouvert toute l'année "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Ancenis et les coteaux de la Loire"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.3635938 , -1.1784402]"^^xsd:string.
+
+<http://projet.com/10/LA_MAISON_DES_PALUDIERS>	 ex:nom 	 "LA MAISON DES PALUDIERS"^^xsd:string;
+	ex:id	 "2"^^xsd:integer ;
+	ex:adresse1 	 "Saillé"^^xsd:string;
+	ex:adresse2 	 "18 rue des Prés-Garniers"^^xsd:string;
+	ex:codePostal	 "44350"^^xsd:integer ;
+	ex:ville 	 "GUERANDE"^^xsd:string;
+	ex:telephone1 	 "02 40 62 21 96"^^xsd:string;
+	ex:telephone2 	 "02 40 15 03 46"^^xsd:string;
+	ex:mail1 	 "contact@maisondespaludiers.fr"^^xsd:string;
+	ex:website 	 "www.maisondespaludiers.fr"^^xsd:string;
+	ex:tarif 	 "Selon options : adulte : de 4,40 € à 6,20 € , enfant : de 3,10 € à 4,40 € "^^xsd:string;
+	ex:type1 	 "Artisanat"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.23414095 , -1.18748945]"^^xsd:string.
+
+<http://projet.com/10/EDF_-_Unité_de_Production>	 ex:nom 	 "EDF - Unité de Production"^^xsd:string;
+	ex:id	 "3"^^xsd:integer ;
+	ex:adresse1 	 "BP 13"^^xsd:string;
+	ex:codePostal	 "44360"^^xsd:integer ;
+	ex:ville 	 "CORDEMAIS"^^xsd:string;
+	ex:telephone1 	 "02 40 44 33 00"^^xsd:string;
+	ex:telephone2 	 "02 40 44 31 19"^^xsd:string;
+	ex:website 	 "www.edf.fr"^^xsd:string;
+	ex:tarif 	 "Gratuit"^^xsd:string;
+	ex:type1 	 "Artisanat"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.12528534 , -1.23737027]"^^xsd:string.
+
+<http://projet.com/10/LA_MAISON_DE_BONCHAMPS>	 ex:nom 	 "LA MAISON DE BONCHAMPS"^^xsd:string;
+	ex:id	 "4"^^xsd:integer ;
+	ex:adresse1 	 "61 rue de la Basse Meilleraie"^^xsd:string;
+	ex:codePostal	 "44370"^^xsd:integer ;
+	ex:ville 	 "VARADES"^^xsd:string;
+	ex:telephone1 	 "02 40 98 33 03"^^xsd:string;
+	ex:mail1 	 "info@varades.fr"^^xsd:string;
+	ex:website 	 "http://www.varades.fr/"^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Ancenis et les coteaux de la Loire"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.3719288 , -1.238949]"^^xsd:string.
+
+<http://projet.com/10/LA_VILLA_LEMOT>	 ex:nom 	 "LA VILLA LEMOT"^^xsd:string;
+	ex:id	 "5"^^xsd:integer ;
+	ex:codePostal	 "44190"^^xsd:integer ;
+	ex:ville 	 "GETIGNE"^^xsd:string;
+	ex:telephone1 	 "02 40 54 75 85"^^xsd:string;
+	ex:mail1 	 "vderouet@cg44.fr"^^xsd:string;
+	ex:website 	 "www.culturecg44.fr"^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Clisson et le Vignoble nantais"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:tarif1 	 "Adulte : de 1,50 à 2,20"^^xsd:string;
+	ex:coordinate 	 "[ 47.751384 , -1.2501441]"^^xsd:string.
+
+<http://projet.com/10/MUSEE_DE_LA_VIGNE_ET_DU_VIN>	 ex:nom 	 "MUSEE DE LA VIGNE ET DU VIN"^^xsd:string;
+	ex:id	 "6"^^xsd:integer ;
+	ex:adresse1 	 "Abbaye de Sainte Radegonde"^^xsd:string;
+	ex:codePostal	 "44430"^^xsd:integer ;
+	ex:ville 	 "LE LOROUX-BOTTEREAU"^^xsd:string;
+	ex:telephone1 	 "02 40 03 74 78"^^xsd:string;
+	ex:telephone2 	 "06 15 86 57 55"^^xsd:string;
+	ex:mail1 	 "musee@radegonde.fr"^^xsd:string;
+	ex:website 	 "www.radegonde.fr"^^xsd:string;
+	ex:horaire 	 "Ouvert toute l'année sur rendez-vous "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Châteaubriant et environs"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.2601605 , -1.2735922]"^^xsd:string.
+
+<http://projet.com/10/CHATEAU_D'OUDON_-_LOIRE_EN_SCENE>	 ex:nom 	 "CHATEAU D'OUDON - LOIRE EN SCENE"^^xsd:string;
+	ex:id	 "7"^^xsd:integer ;
+	ex:adresse1 	 "Loire en Scène"^^xsd:string;
+	ex:adresse2 	 "11 Rue du Pont Levis"^^xsd:string;
+	ex:codePostal	 "44521"^^xsd:integer ;
+	ex:ville 	 "OUDON"^^xsd:string;
+	ex:telephone1 	 "02 40 83 60 00"^^xsd:string;
+	ex:mail1 	 "loire-scene@wanadoo.fr"^^xsd:string;
+	ex:website 	 "www.loire-en-scene.fr"^^xsd:string;
+	ex:tarif 	 "Adultes : 6 €  Enfant (5-14 ans) : 3,80 €  Tarifs réduits pour les groupes  PASS (château + bateau) : adulte : 13 €, enfant : 7,50 € "^^xsd:string;
+	ex:horaire 	 "Ouvert du 1er mars au 31 août 2011 "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:type2 	 "Château"^^xsd:string;
+	ex:ohlalaqa 	 "oui"^^xsd:string;
+	ex:VD 	 "oui"^^xsd:string;
+	ex:geo 	 "Ancenis et les coteaux de la Loire"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.3456481 , -1.2914903]"^^xsd:string.
+
+<http://projet.com/10/ECOMUSEE_DES_FOURS_A_CHAUX>	 ex:nom 	 "ECOMUSEE DES FOURS A CHAUX"^^xsd:string;
+	ex:id	 "8"^^xsd:integer ;
+	ex:adresse1 	 "Route de St Julien de Vouvantes"^^xsd:string;
+	ex:codePostal	 "44110"^^xsd:integer ;
+	ex:ville 	 "ERBRAY"^^xsd:string;
+	ex:telephone1 	 "06 84 23 33 97"^^xsd:string;
+	ex:tarif 	 "Tarif adulte : 3 € - Tarif groupe : 2 €, "^^xsd:string;
+	ex:horaire 	 "Visites sur rdv, "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:label1 	 "Classé et contrôlé par la DMF"^^xsd:string;
+	ex:ohlalaqa 	 "oui"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.650425 , -1.2958918]"^^xsd:string.
+
+<http://projet.com/10/ATELIER_ET_MEMOIRE_DU_PAPIER>	 ex:nom 	 "ATELIER ET MEMOIRE DU PAPIER"^^xsd:string;
+	ex:id	 "9"^^xsd:integer ;
+	ex:adresse1 	 "Chapelle des Templiers"^^xsd:string;
+	ex:adresse2 	 "Impasse de la Commanderie"^^xsd:string;
+	ex:codePostal	 "44190"^^xsd:integer ;
+	ex:ville 	 "CLISSON"^^xsd:string;
+	ex:telephone1 	 "02 40 54 31 65"^^xsd:string;
+	ex:website 	 "http://artgraphclissonfree.fr"^^xsd:string;
+	ex:horaire 	 "Ouvert du 1er juin au 30 septembre 2011 , En mai et octobre, ouvert simplement les samedi et dimanches  Pour les groupes, ouvert du 1er mai au 31 octobre sur réservation  , "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:type2 	 "Musée d'histoire naturelle"^^xsd:string;
+	ex:label1 	 "Classé et contrôlé par la DMF"^^xsd:string;
+	ex:geo 	 "Nantes et environs"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.1010352 , -1.3021336]"^^xsd:string.
+
+<http://projet.com/10/MUSEE_DU_VIGNOBLE_NANTAIS>	 ex:nom 	 "MUSEE DU VIGNOBLE NANTAIS"^^xsd:string;
+	ex:id	 "10"^^xsd:integer ;
+	ex:adresse1 	 "82 rue Pierre Abelard"^^xsd:string;
+	ex:codePostal	 "44330"^^xsd:integer ;
+	ex:ville 	 "LE PALLET"^^xsd:string;
+	ex:telephone1 	 "02 40 80 90 13"^^xsd:string;
+	ex:telephone2 	 "02 40 80 49 81"^^xsd:string;
+	ex:mail1 	 "accueil@musee-vignoble-nantais.fr"^^xsd:string;
+	ex:website 	 "www.vignoble-nantais.eu"^^xsd:string;
+	ex:horaire 	 "Ouvert du 1er avril au 12 novembre 2011 , Ouvert toute l'année pour les groupes sur réservation , Ouvert toute l'année sur rendez-vous   Visite guidée le dimanche à 15h30  "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:label1 	 "Classé et contrôlé par la DMF"^^xsd:string;
+	ex:ohlalaqa 	 "oui"^^xsd:string;
+	ex:geo 	 "Nantes et environs"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:tarif1 	 "Adulte : de 2,50 à 4,50"^^xsd:string;
+	ex:coordinate 	 "[ 47.1357043 , -1.3312769]"^^xsd:string.
+
+<http://projet.com/10/MAISON_DE__PAYS_MUSEE_DES_FORGES_>	 ex:nom 	 "MAISON DE  PAYS MUSEE DES FORGES "^^xsd:string;
+	ex:id	 "11"^^xsd:integer ;
+	ex:adresse1 	 "La Forge Neuve"^^xsd:string;
+	ex:codePostal	 "44520"^^xsd:integer ;
+	ex:ville 	 "MOISDON-LA-RIVIERE"^^xsd:string;
+	ex:telephone1 	 "02 40 07 62 07"^^xsd:string;
+	ex:telephone2 	 "02 40 28 20 90"^^xsd:string;
+	ex:mail1 	 "pitonguy@orange.fr"^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Châteaubriant et environs"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.6046278 , -1.3457145]"^^xsd:string.
+
+<http://projet.com/10/MUSEE_DE_LA_RESISTANCE>	 ex:nom 	 "MUSEE DE LA RESISTANCE"^^xsd:string;
+	ex:id	 "12"^^xsd:integer ;
+	ex:adresse1 	 "Ferme de la Sablière"^^xsd:string;
+	ex:adresse2 	 "Route de Laval"^^xsd:string;
+	ex:codePostal	 "44110"^^xsd:integer ;
+	ex:ville 	 "CHATEAUBRIANT"^^xsd:string;
+	ex:telephone1 	 "02 40 28 60 36"^^xsd:string;
+	ex:horaire 	 "Ouvert toute l'année "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Clisson et le Vignoble nantais"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.7241569 , -1.3819337]"^^xsd:string.
+
+<http://projet.com/10/LE_SITE_DE_LA_CANTRIE>	 ex:nom 	 "LE SITE DE LA CANTRIE"^^xsd:string;
+	ex:id	 "13"^^xsd:integer ;
+	ex:adresse1 	 "Association des « Amis de St Fiacre »"^^xsd:string;
+	ex:codePostal	 "44690"^^xsd:integer ;
+	ex:ville 	 "SAINT-FIACRE-SUR-MAINE"^^xsd:string;
+	ex:telephone1 	 "02 40 54 82 26"^^xsd:string;
+	ex:mail1 	 "contact@lesamisdestfiacre.fr"^^xsd:string;
+	ex:website 	 "www.lesamisdestfiacre.fr"^^xsd:string;
+	ex:horaire 	 "Site naturel ouvert toute l'année  Ouverture des exposition du 1er mai au 30 septembre  "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Clisson et le Vignoble nantais"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.1439184 , -1.4159454]"^^xsd:string.
+
+<http://projet.com/10/DEMEURE_RENE_GUY_CADOU>	 ex:nom 	 "DEMEURE RENE GUY CADOU"^^xsd:string;
+	ex:id	 "14"^^xsd:integer ;
+	ex:adresse1 	 "3 rue René Guy Cadou"^^xsd:string;
+	ex:codePostal	 "44110"^^xsd:integer ;
+	ex:ville 	 "LOUISFERT"^^xsd:string;
+	ex:telephone1 	 "02 40 81 22 64"^^xsd:string;
+	ex:telephone2 	 "06 62 40 44 56"^^xsd:string;
+	ex:mail1 	 "martinjc45@aol.com"^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Clisson et le Vignoble nantais"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.67415838 , -1.43020643]"^^xsd:string.
+
+<http://projet.com/10/MUSEE_DE_LA_CHANSON_FRANCAISE>	 ex:nom 	 "MUSEE DE LA CHANSON FRANCAISE"^^xsd:string;
+	ex:id	 "15"^^xsd:integer ;
+	ex:adresse1 	 "8 rue Paul Joyau"^^xsd:string;
+	ex:codePostal	 "44140"^^xsd:integer ;
+	ex:ville 	 "LA PLANCHE"^^xsd:string;
+	ex:telephone1 	 "02 40 26 52 15"^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.169295 , -1.4369241]"^^xsd:string.
+
+<http://projet.com/10/MUSEE_AGRI-RETRO>	 ex:nom 	 "MUSEE AGRI-RETRO"^^xsd:string;
+	ex:id	 "16"^^xsd:integer ;
+	ex:adresse1 	 "Le Bas-Houx"^^xsd:string;
+	ex:codePostal	 "44170"^^xsd:integer ;
+	ex:ville 	 "ABBARETZ"^^xsd:string;
+	ex:telephone1 	 "02 40 55 19 71"^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Châteaubriant et environs"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.5743829 , -1.4619924]"^^xsd:string.
+
+<http://projet.com/10/MUSEE_ERDRE_VIVANTE>	 ex:nom 	 "MUSEE ERDRE VIVANTE"^^xsd:string;
+	ex:id	 "17"^^xsd:integer ;
+	ex:adresse1 	 "Site des Renaudières"^^xsd:string;
+	ex:codePostal	 "44470"^^xsd:integer ;
+	ex:ville 	 "CARQUEFOU"^^xsd:string;
+	ex:telephone1 	 "02 28 22 24 45"^^xsd:string;
+	ex:mail1 	 "musee@mairie-carquefou.fr"^^xsd:string;
+	ex:website 	 "www.carquefou.fr/musee"^^xsd:string;
+	ex:type1 	 "Artisanat"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.2968907 , -1.4922237]"^^xsd:string.
+
+<http://projet.com/10/FRAC_DES_PAYS_DE_LA_LOIRE>	 ex:nom 	 "FRAC DES PAYS DE LA LOIRE"^^xsd:string;
+	ex:id	 "18"^^xsd:integer ;
+	ex:adresse1 	 "Fonds Régional d'Art Contemporain"^^xsd:string;
+	ex:adresse2 	 "La Fleuriaye"^^xsd:string;
+	ex:codePostal	 "44470"^^xsd:integer ;
+	ex:ville 	 "CARQUEFOU"^^xsd:string;
+	ex:telephone1 	 "02 28 01 50 00"^^xsd:string;
+	ex:mail1 	 "contact@fracdespaysdelaloire.com"^^xsd:string;
+	ex:website 	 "www.fracdespaysdelaloire.com"^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Nantes et environs"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.3025061 , -1.5039115]"^^xsd:string.
+
+<http://projet.com/10/MUSEE_DU_TEMPS_QUI_PASSE>	 ex:nom 	 "MUSEE DU TEMPS QUI PASSE"^^xsd:string;
+	ex:id	 "19"^^xsd:integer ;
+	ex:adresse1 	 "Les Renaudières"^^xsd:string;
+	ex:codePostal	 "44470"^^xsd:integer ;
+	ex:ville 	 "CARQUEFOU"^^xsd:string;
+	ex:telephone1 	 "02 40 52 79 30"^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:type2 	 "Fédération nationale des écomusées"^^xsd:string;
+	ex:label1 	 "Classé et contrôlé par la DMF"^^xsd:string;
+	ex:ohlalaqa 	 "oui"^^xsd:string;
+	ex:VD 	 "oui"^^xsd:string;
+	ex:geo 	 "Clisson et le Vignoble nantais"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.3004404 , -1.5122228]"^^xsd:string.
+
+<http://projet.com/10/LES_FORGES_DE_LA_HUNAUDIERE>	 ex:nom 	 "LES FORGES DE LA HUNAUDIERE"^^xsd:string;
+	ex:id	 "20"^^xsd:integer ;
+	ex:adresse1 	 "Association Les Amis des Forges de la Hunaudière"^^xsd:string;
+	ex:adresse2 	 "La Hunaudière"^^xsd:string;
+	ex:codePostal	 "44590"^^xsd:integer ;
+	ex:ville 	 "SION-LES-MINES"^^xsd:string;
+	ex:telephone1 	 "02 40 07 70 10"^^xsd:string;
+	ex:telephone2 	 "02 40 28 94 29"^^xsd:string;
+	ex:mail1 	 "info@lesforgesdelahunaudiere.fr"^^xsd:string;
+	ex:website 	 "www.lesforgesdelahunaudiere.fr"^^xsd:string;
+	ex:horaire 	 "Ouvert toute l'année / l'animation débute à 14h45 et dure environ 2h30  "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Châteaubriant et environs"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.7136932 , -1.5328291]"^^xsd:string.
+
+<http://projet.com/10/LE_MOULIN_DE_KERBROUE>	 ex:nom 	 "LE MOULIN DE KERBROUE"^^xsd:string;
+	ex:id	 "21"^^xsd:integer ;
+	ex:adresse1 	 "Route de St Molf"^^xsd:string;
+	ex:codePostal	 "44420"^^xsd:integer ;
+	ex:ville 	 "LA TURBALLE"^^xsd:string;
+	ex:telephone1 	 "02 40 11 71 31"^^xsd:string;
+	ex:telephone2 	 "02 40 11 71 31"^^xsd:string;
+	ex:mail1 	 "augredesvents@wanadoo.fr"^^xsd:string;
+	ex:tarif 	 "Adulte : 2 €  Enfant (3-12 ans) : 1 €"^^xsd:string;
+	ex:horaire 	 "Juillet et août et vacances scolaires "^^xsd:string;
+	ex:type1 	 "Artisanat"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.1461497 , -1.53696504]"^^xsd:string.
+
+<http://projet.com/10/MUSEE_D'HISTOIRE_DE_NANTES>	 ex:nom 	 "MUSEE D'HISTOIRE DE NANTES"^^xsd:string;
+	ex:id	 "22"^^xsd:integer ;
+	ex:adresse1 	 "4 place Marc Elder"^^xsd:string;
+	ex:adresse2 	 "Château des Ducs de Bretagne"^^xsd:string;
+	ex:codePostal	 "44000"^^xsd:integer ;
+	ex:ville 	 "NANTES"^^xsd:string;
+	ex:telephone1 	 "0811 46 46 44"^^xsd:string;
+	ex:mail1 	 "contact@chateau-nantes.fr"^^xsd:string;
+	ex:website 	 "www.chateau-nantes.fr"^^xsd:string;
+	ex:horaire 	 "Ouvert toute l'année / Musée fermé le lundi sauf juillet et août ouvert 7j/7 , , "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:ohlalaqa 	 "oui"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:tarif1 	 "Adulte : de 5 à 8"^^xsd:string;
+	ex:coordinate 	 "[ 47.2162938 , -1.5500136]"^^xsd:string.
+
+<http://projet.com/10/MUSEE_NAVAL_MAILLE_BREZE>	 ex:nom 	 "MUSEE NAVAL MAILLE BREZE"^^xsd:string;
+	ex:id	 "23"^^xsd:integer ;
+	ex:adresse1 	 "105 Quai de la Fosse"^^xsd:string;
+	ex:adresse2 	 "BP 68721"^^xsd:string;
+	ex:codePostal	 "44187"^^xsd:integer ;
+	ex:ville 	 "NANTES"^^xsd:string;
+	ex:cedex	 "CEDEX 4"^^xsd:integer ;
+	ex:telephone1 	 "08 79 18 33 51"^^xsd:string;
+	ex:telephone2 	 "02 40 69 75 15"^^xsd:string;
+	ex:mail1 	 "maillebreze@orange.fr"^^xsd:string;
+	ex:website 	 "www.maillebreze.com"^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Châteaubriant et environs"^^xsd:string;
+	ex:coordinate 	 "[ 47.2168424 , -1.5567445]"^^xsd:string.
+
+<http://projet.com/10/LA_MAISON_DES_VINS_DE_LOIRE>	 ex:nom 	 "LA MAISON DES VINS DE LOIRE"^^xsd:string;
+	ex:id	 "24"^^xsd:integer ;
+	ex:adresse1 	 "15 place du Commerce"^^xsd:string;
+	ex:codePostal	 "44000"^^xsd:integer ;
+	ex:ville 	 "NANTES"^^xsd:string;
+	ex:telephone1 	 "02 40 89 75 98"^^xsd:string;
+	ex:mail1 	 "mdesvins-nantes@vinsdeloire.fr"^^xsd:string;
+	ex:website 	 "www.vinsdeloirefr"^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:VD 	 "oui"^^xsd:string;
+	ex:geo 	 "Nantes et environs"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.2129273 , -1.5580736]"^^xsd:string.
+
+<http://projet.com/10/MUSEE_DE_L’IMPRIMERIE>	 ex:nom 	 "MUSEE DE L’IMPRIMERIE"^^xsd:string;
+	ex:id	 "25"^^xsd:integer ;
+	ex:adresse1 	 "Pro Arte Graphica"^^xsd:string;
+	ex:adresse2 	 "24 quai de la Fosse"^^xsd:string;
+	ex:codePostal	 "44000"^^xsd:integer ;
+	ex:ville 	 "NANTES"^^xsd:string;
+	ex:telephone1 	 "02 40 73 26 55"^^xsd:string;
+	ex:telephone2 	 "02 40 73 26 85"^^xsd:string;
+	ex:mail1 	 "info@museeimprimerie.com"^^xsd:string;
+	ex:website 	 "www.museeimprimerie.com"^^xsd:string;
+	ex:type1 	 "Artisanat"^^xsd:string;
+	ex:geo 	 "Châteaubriant et environs"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.211013 , -1.56184]"^^xsd:string.
+
+<http://projet.com/10/MUSEUM_D’HISTOIRE_NATURELLE>	 ex:nom 	 "MUSEUM D’HISTOIRE NATURELLE"^^xsd:string;
+	ex:id	 "26"^^xsd:integer ;
+	ex:adresse1 	 "12 rue Voltaire"^^xsd:string;
+	ex:codePostal	 "44000"^^xsd:integer ;
+	ex:ville 	 "NANTES"^^xsd:string;
+	ex:telephone1 	 "02 40 41 55 00"^^xsd:string;
+	ex:telephone2 	 "02 40 41 55 35"^^xsd:string;
+	ex:mail1 	 "museum-sciences@mairie-nantes.fr"^^xsd:string;
+	ex:website 	 "www.museumnantes.fr"^^xsd:string;
+	ex:horaire 	 "Ouver toute l'année / Musée fermé le mardi  Ouvert de 10h à 18h , , "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Nantes et environs"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:tarif1 	 "Adulte : de 2 à 3,50"^^xsd:string;
+	ex:coordinate 	 "[ 47.212446 , -1.564685]"^^xsd:string.
+
+<http://projet.com/10/LA_MAISON_DES_HOMMES_ET_DES_TECHNIQUES>	 ex:nom 	 "LA MAISON DES HOMMES ET DES TECHNIQUES"^^xsd:string;
+	ex:id	 "27"^^xsd:integer ;
+	ex:adresse1 	 "2 bis bd Léon Bureau"^^xsd:string;
+	ex:codePostal	 "44200"^^xsd:integer ;
+	ex:ville 	 "NANTES"^^xsd:string;
+	ex:telephone1 	 "02 40 08 20 22"^^xsd:string;
+	ex:mail1 	 "mhtnantes@wanadoo.fr"^^xsd:string;
+	ex:website 	 "http://mht-nantespagesperso-orange.fr"^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Nantes et environs"^^xsd:string;
+	ex:coordinate 	 "[ 47.2075627 , -1.5652803]"^^xsd:string.
+
+<http://projet.com/10/LA_MAISON_RADIEUSE_LE_CORBUSIER>	 ex:nom 	 "LA MAISON RADIEUSE LE CORBUSIER"^^xsd:string;
+	ex:id	 "28"^^xsd:integer ;
+	ex:adresse1 	 "rue Théodore Brosseaud"^^xsd:string;
+	ex:codePostal	 "44403"^^xsd:integer ;
+	ex:ville 	 "REZE"^^xsd:string;
+	ex:cedex	 "CEDEX"^^xsd:integer ;
+	ex:telephone1 	 "892 464 044"^^xsd:string;
+	ex:telephone2 	 "02 40 84 43 84"^^xsd:string;
+	ex:mail1 	 "office@nantes-tourisme.com"^^xsd:string;
+	ex:website 	 "www.nantes-tourisme.com"^^xsd:string;
+	ex:horaire 	 "Visites organisées par la mairie de Rezé : 02 40 84 43 84 "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Nantes et environs"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.188343 , -1.5668677]"^^xsd:string.
+
+<http://projet.com/10/MUSEE_JULES_VERNE>	 ex:nom 	 "MUSEE JULES VERNE"^^xsd:string;
+	ex:id	 "29"^^xsd:integer ;
+	ex:adresse1 	 "3 rue de l’Hermitage"^^xsd:string;
+	ex:codePostal	 "44000"^^xsd:integer ;
+	ex:ville 	 "NANTES"^^xsd:string;
+	ex:telephone1 	 "02 40 69 72 52"^^xsd:string;
+	ex:telephone2 	 "02 40 73 28 18"^^xsd:string;
+	ex:mail1 	 "musee-julesverne@mairie-nantes.fr"^^xsd:string;
+	ex:website 	 "www.nantes.fr/julesverne"^^xsd:string;
+	ex:horaire 	 "Ouvert toute l'année / Musée fermé le mardi, le dimanche matin et les jours fériés , "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Nantes et environs"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.2024241 , -1.5765212]"^^xsd:string.
+
+<http://projet.com/10/MUSEE_COMPAGNONNIQUE>	 ex:nom 	 "MUSEE COMPAGNONNIQUE"^^xsd:string;
+	ex:id	 "30"^^xsd:integer ;
+	ex:adresse1 	 "Manoir de la Hautière"^^xsd:string;
+	ex:adresse2 	 "14 rue Guillon Verne"^^xsd:string;
+	ex:codePostal	 "44100"^^xsd:integer ;
+	ex:ville 	 "NANTES"^^xsd:string;
+	ex:telephone1 	 "02 40 69 30 55"^^xsd:string;
+	ex:mail1 	 "unioncompagnonnique@orange.fr"^^xsd:string;
+	ex:website 	 "www.le.compagnonnage.com"^^xsd:string;
+	ex:horaire 	 "Ouvert le samedi uniquement de 14h à 18h "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Nantes et environs"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.2026904 , -1.5826774]"^^xsd:string.
+
+<http://projet.com/10/LE_MOULIN_DU_PONT>	 ex:nom 	 "LE MOULIN DU PONT"^^xsd:string;
+	ex:id	 "31"^^xsd:integer ;
+	ex:adresse1 	 "Association de Sauvegarde du Moulin du Pont Godalin"^^xsd:string;
+	ex:adresse2 	 "Le Pont"^^xsd:string;
+	ex:codePostal	 "44590"^^xsd:integer ;
+	ex:ville 	 "SION-LES-MINES"^^xsd:string;
+	ex:telephone1 	 "02 40 28 99 84"^^xsd:string;
+	ex:mail1 	 "moulin-du-pont@ouvaton.org"^^xsd:string;
+	ex:website 	 "www.moulindupontouvaton.org"^^xsd:string;
+	ex:tarif 	 "Adulte : 3,50 €  Enfant (6-16 ans) : 2 €  Groupes : 3 € par personne  Gratuit pour les enfants de moins de 6 ans "^^xsd:string;
+	ex:horaire 	 "Ouvert du 1er avril au 31 octobre sur rendez-vous, "^^xsd:string;
+	ex:type1 	 "Artisanat"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.7313882 , -1.59250161]"^^xsd:string.
+
+<http://projet.com/10/LA_CARRIERE_DE_LA_PIERRE_BLEUE>	 ex:nom 	 "LA CARRIERE DE LA PIERRE BLEUE"^^xsd:string;
+	ex:id	 "32"^^xsd:integer ;
+	ex:adresse1 	 "25 rue du Vieux Bourg"^^xsd:string;
+	ex:adresse2 	 "Route de Rennes"^^xsd:string;
+	ex:codePostal	 "44170"^^xsd:integer ;
+	ex:ville 	 "NOZAY"^^xsd:string;
+	ex:telephone1 	 "02 40 79 34 29"^^xsd:string;
+	ex:mail1 	 "asphanozay@gmail.com"^^xsd:string;
+	ex:website 	 "www.asphan.fr"^^xsd:string;
+	ex:tarif 	 "Tarif visite guidée : adulte : 2 €, enfant  : 1 €  Visite avec livret d'interprétation : 3 €  Tarif groupe (à partir de 10 personnes) : 1,50 €  Visite libre gratuite "^^xsd:string;
+	ex:horaire 	 "De mi-juin à mi-septembre "^^xsd:string;
+	ex:type1 	 "Artisanat"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.5767487 , -1.6254748]"^^xsd:string.
+
+<http://projet.com/10/OBSERVATOIRE_ORNITHOLOGIQUE_DU_LAC_DE_GRAND-LIEU>	 ex:nom 	 "OBSERVATOIRE ORNITHOLOGIQUE DU LAC DE GRAND-LIEU"^^xsd:string;
+	ex:id	 "33"^^xsd:integer ;
+	ex:adresse1 	 "Maison des Pêcheurs"^^xsd:string;
+	ex:adresse2 	 "16 rue Yves Brisson"^^xsd:string;
+	ex:codePostal	 "44118"^^xsd:integer ;
+	ex:ville 	 "LA CHEVROLIERE"^^xsd:string;
+	ex:telephone1 	 "06 84 05 37 82"^^xsd:string;
+	ex:telephone2 	 "02 40 89 59 25  "^^xsd:string;
+	ex:mail1 	 "fdc44@wanadoo.fr"^^xsd:string;
+	ex:horaire 	 "Ouvert du 1er mai au 31 octobre 2011 / Les samedis et dimanches départ à 14h30, 16h et 17h30  La semaine sur réservation pour les groupes  , 	, "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:label1 	 "Classé et contrôlé par la DMF"^^xsd:string;
+	ex:geo 	 "Saint-Nazaire et l'Estuaire de la Loire"^^xsd:string;
+	ex:tarif2 	 "Enfant : de 1 à 3"^^xsd:string;
+	ex:coordinate 	 "[ 47.964945 , -1.6337742]"^^xsd:string.
+
+<http://projet.com/10/LA_MAISON_DU_PECHEUR_>	 ex:nom 	 "LA MAISON DU PECHEUR "^^xsd:string;
+	ex:id	 "34"^^xsd:integer ;
+	ex:adresse1 	 "16 rue Yves Brisson"^^xsd:string;
+	ex:codePostal	 "44118"^^xsd:integer ;
+	ex:ville 	 "LA CHEVROLIERE"^^xsd:string;
+	ex:telephone1 	 "02 40 31 36 46"^^xsd:string;
+	ex:mail1 	 "maison-du-pecheur@wanadoo.fr"^^xsd:string;
+	ex:horaire 	 "Du 1er janvier au 15 juin et du 15 septembre au 31 décembre 2011 : ouvert le mercredi et le samedi de 14h à 17h et le dimanche de 14h à 18h  , Du 15 juin au 15 septembre 2011 : ouvert tous les jours de 10h à 19h "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Pays de Grandlieu, Machecoul & Logne"^^xsd:string;
+	ex:coordinate 	 "[ 47.975031 , -1.637565]"^^xsd:string.
+
+<http://projet.com/10/SITE_DE_L'ABBATIALE_-_DEAS>	 ex:nom 	 "SITE DE L'ABBATIALE - DEAS"^^xsd:string;
+	ex:id	 "35"^^xsd:integer ;
+	ex:adresse1 	 "Place de l'Abbatiale"^^xsd:string;
+	ex:adresse2 	 "Le Prieuré"^^xsd:string;
+	ex:codePostal	 "44310"^^xsd:integer ;
+	ex:ville 	 "SAINT-PHILBERT-DE-GRAND-LIEU"^^xsd:string;
+	ex:telephone1 	 "02 40 78 73 88"^^xsd:string;
+	ex:telephone2 	 "02 40 78 83 42"^^xsd:string;
+	ex:mail1 	 "tourisme@stphilbert.fr"^^xsd:string;
+	ex:website 	 "www.stphilbert.fr/indexphp/fre/Decouvrir-et-parcourir/Le-site-de-l-abbatiale-Deas"^^xsd:string;
+	ex:horaire 	 "Ouvert toute l'année  Fermeture le 1er novembre et congés scolaires de Noël  , Du 1er janvier au 31 mars 2011 et du 1er septembre au 31 décembre 2011 / Ouvert  du Mardi au vendredi de 10h à 12h et de 14h à 17h30  Samedis, dimanches et jours fériés de 14h "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Nantes et environs"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:tarif1 	 "Adulte : de 2,50 à 3"^^xsd:string;
+	ex:coordinate 	 "[ 47.36878 , -1.642905]"^^xsd:string.
+
+<http://projet.com/10/LA_MAISON_DE_LA_RESERVE_DU_LAC_DE_GRANDLIEU>	 ex:nom 	 "LA MAISON DE LA RESERVE DU LAC DE GRANDLIEU"^^xsd:string;
+	ex:id	 "36"^^xsd:integer ;
+	ex:adresse1 	 "20, rue de l’Acheneau"^^xsd:string;
+	ex:codePostal	 "44830"^^xsd:integer ;
+	ex:ville 	 "BOUAYE"^^xsd:string;
+	ex:telephone1 	 "02 40 65 57 73"^^xsd:string;
+	ex:horaire 	 "Ouverture les mercredis et samedis de 14h à 18h "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Nantes et environs"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.1354098 , -1.6713101]"^^xsd:string.
+
+<http://projet.com/10/ECOMUSEE_RURAL_DU_PAYS_NANTAIS>	 ex:nom 	 "ECOMUSEE RURAL DU PAYS NANTAIS"^^xsd:string;
+	ex:id	 "37"^^xsd:integer ;
+	ex:adresse1 	 "11 rue du Lavoir"^^xsd:string;
+	ex:adresse2 	 "81  rue Anne de Bretagne"^^xsd:string;
+	ex:codePostal	 "44360"^^xsd:integer ;
+	ex:ville 	 "VIGNEUX-DE-BRETAGNE"^^xsd:string;
+	ex:telephone1 	 "02 40 57 14 51"^^xsd:string;
+	ex:telephone2 	 "06 03 69 20 95"^^xsd:string;
+	ex:mail1 	 "robertpaul-chantal@wanadoo.fr"^^xsd:string;
+	ex:website 	 "www.e.comusee-rural.com"^^xsd:string;
+	ex:horaire 	 "Ouvert du 1er mai au 30 septembre 2011 , La Paquelais est ouvert : les mardi, mercredi, jeudi et dimanche  L'Ecomusée le mardi et vendredi de 14h00 à 18h00   Toute l'année sur rendez-vous pour les groupes de 20 personnes , "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Canal de Nantes à Brest et Pays de Redon"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:tarif2 	 "Enfant : de 1 à 3"^^xsd:string;
+	ex:coordinate 	 "[ 47.3336602 , -1.6964894]"^^xsd:string.
+
+<http://projet.com/10/MUSEE_BENOIST_-_MAISON_DE_LA_FORET_DU_GAVRE>	 ex:nom 	 "MUSEE BENOIST - MAISON DE LA FORET DU GAVRE"^^xsd:string;
+	ex:id	 "38"^^xsd:integer ;
+	ex:adresse1 	 "Association Musée Benoist"^^xsd:string;
+	ex:adresse2 	 "2 route de Conquéreuil"^^xsd:string;
+	ex:codePostal	 "44130"^^xsd:integer ;
+	ex:ville 	 "LE GAVRE"^^xsd:string;
+	ex:telephone1 	 "02 40 51 25 14"^^xsd:string;
+	ex:mail1 	 "maisondelaforet44@msn.com"^^xsd:string;
+	ex:website 	 "http://maisondelaforet44free.fr"^^xsd:string;
+	ex:horaire 	 "Ouvert du 31 mars au 30 novembre 2011 / Ouvert de mars à novembre  Le week-end de 14h30 à 18h30 (hors vacances scolaires)  Tous les jours de 14h30 à 18h30 pendant les vacances scolaires de la zone A  , "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:ohlalaqa 	 "oui"^^xsd:string;
+	ex:geo 	 "Canal de Nantes à Brest et Pays de Redon"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.5198841 , -1.7460058]"^^xsd:string.
+
+<http://projet.com/10/CHATEAU_DE_BLAIN_-_MONUMENT_HISTORIQUE>	 ex:nom 	 "CHATEAU DE BLAIN - MONUMENT HISTORIQUE"^^xsd:string;
+	ex:id	 "39"^^xsd:integer ;
+	ex:adresse1 	 "Château et Essor Blinois"^^xsd:string;
+	ex:adresse2 	 "6 allée Olivier de Clisson"^^xsd:string;
+	ex:codePostal	 "44130"^^xsd:integer ;
+	ex:ville 	 "BLAIN"^^xsd:string;
+	ex:telephone1 	 "02 40 79 07 81"^^xsd:string;
+	ex:mail1 	 "contact@chateau-blain.com"^^xsd:string;
+	ex:website 	 "www.chateau-blain.fr"^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:type2 	 "Château"^^xsd:string;
+	ex:geo 	 "Canal de Nantes à Brest et Pays de Redon"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.4754743 , -1.7646641]"^^xsd:string.
+
+<http://projet.com/10/MUSEE_DE_LA_FEVE,_CRECHES_ET_TRADITIONS_POPULAIRES>	 ex:nom 	 "MUSEE DE LA FEVE, CRECHES ET TRADITIONS POPULAIRES"^^xsd:string;
+	ex:id	 "40"^^xsd:integer ;
+	ex:adresse1 	 "2 place Jean Guihard"^^xsd:string;
+	ex:codePostal	 "44130"^^xsd:integer ;
+	ex:ville 	 "BLAIN"^^xsd:string;
+	ex:telephone1 	 "02 40 79 98 51"^^xsd:string;
+	ex:mail1 	 "museedeblain@wanadoo.fr"^^xsd:string;
+	ex:website 	 "www.musee-de-blain.fr"^^xsd:string;
+	ex:horaire 	 "Ouvert toute l'année "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:label1 	 "Classé et contrôlé par la DMF"^^xsd:string;
+	ex:geo 	 "Canal de Nantes à Brest et Pays de Redon"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.4755443 , -1.7646729]"^^xsd:string.
+
+<http://projet.com/10/MUSEE_MINES_ET_MINERAUX_-_LA_FERME_DE_L'ORME>	 ex:nom 	 "MUSEE MINES ET MINERAUX - LA FERME DE L'ORME"^^xsd:string;
+	ex:id	 "41"^^xsd:integer ;
+	ex:adresse1 	 "L'Orme"^^xsd:string;
+	ex:codePostal	 "44130"^^xsd:integer ;
+	ex:ville 	 "BLAIN"^^xsd:string;
+	ex:telephone1 	 "02 40 79 19 83"^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:type2 	 "Fédération nationale des écomusées"^^xsd:string;
+	ex:label1 	 "Classé et contrôlé par la DMF"^^xsd:string;
+	ex:geo 	 "Nantes et environs"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.4605454 , -1.8614859]"^^xsd:string.
+
+<http://projet.com/10/ESPACE_MAQUETTES_DE_TRAIN>	 ex:nom 	 "ESPACE MAQUETTES DE TRAIN"^^xsd:string;
+	ex:id	 "42"^^xsd:integer ;
+	ex:adresse1 	 "10 boulevard des Acacias"^^xsd:string;
+	ex:codePostal	 "44260"^^xsd:integer ;
+	ex:ville 	 "SAVENAY"^^xsd:string;
+	ex:telephone1 	 "02 40 58 47 33"^^xsd:string;
+	ex:website 	 "http://emt.savenay.pagesperso-orange.fr/"^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Saint-Nazaire et l'Estuaire de la Loire"^^xsd:string;
+	ex:coordinate 	 "[ 47.3573943 , -1.9507873]"^^xsd:string.
+
+<http://projet.com/10/MUSEE_DU_PAYS_DE_RETZ>	 ex:nom 	 "MUSEE DU PAYS DE RETZ"^^xsd:string;
+	ex:id	 "43"^^xsd:integer ;
+	ex:adresse1 	 "6 rue des Moines - BP 14"^^xsd:string;
+	ex:codePostal	 "44580"^^xsd:integer ;
+	ex:ville 	 "BOURGNEUF-EN-RETZ"^^xsd:string;
+	ex:telephone1 	 "02 40 21 40 83"^^xsd:string;
+	ex:mail1 	 "amispays@free.fr"^^xsd:string;
+	ex:website 	 "www.museepaysderetz.com"^^xsd:string;
+	ex:horaire 	 "Ouvert du 26 mars au 31 octobre 2011   , Horaires pour avril, mai, juin, septembre et octobre : de 14h30 à 18h30 fermeture le lundi  , Horaires pour juillet et août : tous les jours de 10h30 à 13h et de 15h à 19h  "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Nantes et environs"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.4266 , -1.9529014]"^^xsd:string.
+
+<http://projet.com/10/MARAIS_SALANT_« TENUE_DE_MAREIL »>	 ex:nom 	 "MARAIS SALANT « TENUE DE MAREIL »"^^xsd:string;
+	ex:id	 "44"^^xsd:integer ;
+	ex:adresse1 	 "Association Patrimoine Marche de Bretagne Marais Breton"^^xsd:string;
+	ex:adresse2 	 "Domaine de Lyarne"^^xsd:string;
+	ex:codePostal	 "44760"^^xsd:integer ;
+	ex:ville 	 "LES MOUTIERS-EN-RETZ"^^xsd:string;
+	ex:telephone1 	 "02 40 64 67 46"^^xsd:string;
+	ex:mail1 	 "francoisadam@free.fr"^^xsd:string;
+	ex:tarif 	 "Visite de la saline et observation des oiseaux, histoire du sel aux Moutiers et en Baie de Bourgneuf : réservations et tarifs auprès de l'Office de Tourisme Municipal : 02 40 82 74 00  Pour les visites gratuites (19 juin et 19 septembre) et pour l'accueil"^^xsd:string;
+	ex:horaire 	 "D'avril à octobre "^^xsd:string;
+	ex:type1 	 "Artisanat"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.466595 , -1.9927499]"^^xsd:string.
+
+<http://projet.com/10/MUSEE_DE_LA_MARINE_EN_BOIS_DU_BRIVET>	 ex:nom 	 "MUSEE DE LA MARINE EN BOIS DU BRIVET"^^xsd:string;
+	ex:id	 "45"^^xsd:integer ;
+	ex:adresse1 	 "Espace Châteaubriant "^^xsd:string;
+	ex:adresse2 	 "6 rue de Châteaubriant"^^xsd:string;
+	ex:codePostal	 "44550"^^xsd:integer ;
+	ex:ville 	 "MONTOIR-DE-BRETAGNE"^^xsd:string;
+	ex:telephone1 	 "02 40 45 58 22"^^xsd:string;
+	ex:mail1 	 "contact@marineenboisdubrivet.fr"^^xsd:string;
+	ex:website 	 "www.marineenboisdubrivet.fr"^^xsd:string;
+	ex:horaire 	 "Ouvert du 1er juillet au 31 août 2011 , Le reste de l'année, uniquement pour les groupes  "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.3280206 , -2.1557444]"^^xsd:string.
+
+<http://projet.com/10/LA_MAISON_DE_L’ECLUSIER>	 ex:nom 	 "LA MAISON DE L’ECLUSIER"^^xsd:string;
+	ex:id	 "46"^^xsd:integer ;
+	ex:adresse1 	 "Rozé"^^xsd:string;
+	ex:codePostal	 "44550"^^xsd:integer ;
+	ex:ville 	 "SAINT-MALO-DE-GUERSAC"^^xsd:string;
+	ex:telephone1 	 "02 40 66 85 01"^^xsd:string;
+	ex:mail1 	 "tourisme@parc-naturel-briere.fr"^^xsd:string;
+	ex:website 	 "www.parc-naturel-briere.fr"^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.3523816 , -2.1774138]"^^xsd:string.
+
+<http://projet.com/10/LE_MULON_DE_PEN_BRON>	 ex:nom 	 "LE MULON DE PEN BRON"^^xsd:string;
+	ex:id	 "47"^^xsd:integer ;
+	ex:adresse1 	 "Monsieur Philippe CONSTANT"^^xsd:string;
+	ex:adresse2 	 "Route de Pen Bron"^^xsd:string;
+	ex:codePostal	 "44350"^^xsd:integer ;
+	ex:ville 	 "GUERANDE"^^xsd:string;
+	ex:telephone1 	 "02 40 15 64 28"^^xsd:string;
+	ex:telephone2 	 "06 72 01 83 78"^^xsd:string;
+	ex:mail1 	 "constant840@orange.fr"^^xsd:string;
+	ex:tarif 	 "Adulte : 5 €  Enfant de 5 à 12 ans : 3 €  Enfant de moins de 5 ans : gratuit "^^xsd:string;
+	ex:horaire 	 "Juillet et août : tous les jours à 11 h sans réservation "^^xsd:string;
+	ex:type1 	 "Artisanat"^^xsd:string;
+	ex:ohlalaqa 	 "oui"^^xsd:string;
+	ex:geo 	 "Saint-Nazaire et l'Estuaire de la Loire"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.28318886 , -2.21737552]"^^xsd:string.
+
+<http://projet.com/10/SEMAPHORE_DE_LA_POINTE_ST_GILDAS>	 ex:nom 	 "SEMAPHORE DE LA POINTE ST GILDAS"^^xsd:string;
+	ex:id	 "48"^^xsd:integer ;
+	ex:adresse1 	 "Pointe Saint-Gildas"^^xsd:string;
+	ex:codePostal	 "44770"^^xsd:integer ;
+	ex:ville 	 "PREFAILLES"^^xsd:string;
+	ex:telephone1 	 "02 40 21 01 21"^^xsd:string;
+	ex:mail1 	 "semaphoreccpornic@wanadoo.fr"^^xsd:string;
+	ex:website 	 "www.ccpornic.fr"^^xsd:string;
+	ex:horaire 	 "Ouvert du 12 février au 14 mars 2011, du 9 avril au 31 août 2011 , Nocturnes thématiques organisées courant juillet et août de 20h30 à 22h30 , , "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:ohlalaqa 	 "oui"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.1358649 , -2.2451526]"^^xsd:string.
+
+<http://projet.com/10/CHANTIERS_NAVALS_DE_SAINT-NAZAIRE>	 ex:nom 	 "CHANTIERS NAVALS DE SAINT-NAZAIRE"^^xsd:string;
+	ex:id	 "49"^^xsd:integer ;
+	ex:adresse1 	 "Boulevard de la Légion d'Honneur"^^xsd:string;
+	ex:adresse2 	 "Base sous-marine / Ville Port"^^xsd:string;
+	ex:codePostal	 "44600"^^xsd:integer ;
+	ex:ville 	 "SAINT-NAZAIRE"^^xsd:string;
+	ex:telephone1 	 "0 810 888 444"^^xsd:string;
+	ex:telephone2 	 "02 28 54 08 10"^^xsd:string;
+	ex:mail1 	 "contact@saint-nazaire-tourisme.com"^^xsd:string;
+	ex:website 	 "www.saint-nazaire-tourisme.com"^^xsd:string;
+	ex:tarif 	 "adulte 12€ / enfant (de 4 à 18 ans) 8€ /- 4 ans gratuit / tarifs réduits nous consulter  "^^xsd:string;
+	ex:horaire 	 "Du 6 février au 31 décembre 2010 inclus "^^xsd:string;
+	ex:type1 	 "Artisanat"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.2896954 , -2.2614914]"^^xsd:string.
+
+<http://projet.com/10/LA_CHAUMIERE_DES_MARIONNETTES>	 ex:nom 	 "LA CHAUMIERE DES MARIONNETTES"^^xsd:string;
+	ex:id	 "50"^^xsd:integer ;
+	ex:adresse1 	 "28 rue de la Herviais"^^xsd:string;
+	ex:adresse2 	 "Mayun"^^xsd:string;
+	ex:codePostal	 "44410"^^xsd:integer ;
+	ex:ville 	 "LA CHAPELLE-DES-MARAIS"^^xsd:string;
+	ex:telephone1 	 "02 40 53 22 40"^^xsd:string;
+	ex:mail1 	 "chaumarionnette@orange.fr"^^xsd:string;
+	ex:horaire 	 "Ouvert du 12 février au 1er novembre 2011  , Ouvert tous les après midis pendants les vacances scolaires  Le reste de l'année, possibilité de visites uniquement pour les groupes  "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.4410433 , -2.264768]"^^xsd:string.
+
+<http://projet.com/10/LA_CHAUMIERE_DU_PATRIMOINE>	 ex:nom 	 "LA CHAUMIERE DU PATRIMOINE"^^xsd:string;
+	ex:id	 "51"^^xsd:integer ;
+	ex:adresse1 	 "1, rue du Coilly"^^xsd:string;
+	ex:adresse2 	 "Mayun"^^xsd:string;
+	ex:codePostal	 "44410"^^xsd:integer ;
+	ex:ville 	 "LA CHAPELLE-DES-MARAIS"^^xsd:string;
+	ex:telephone1 	 "02 40 66 85 01  "^^xsd:string;
+	ex:mail1 	 "tourisme@parc-naturel-briere.fr"^^xsd:string;
+	ex:website 	 "www.parc-naturel-briere.fr"^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.4465236 , -2.2667857]"^^xsd:string.
+
+<http://projet.com/10/LE_MOULIN_DE_LA_BICANE>	 ex:nom 	 "LE MOULIN DE LA BICANE"^^xsd:string;
+	ex:id	 "52"^^xsd:integer ;
+	ex:adresse1 	 "La Bicane"^^xsd:string;
+	ex:codePostal	 "44750"^^xsd:integer ;
+	ex:ville 	 "CAMPBON"^^xsd:string;
+	ex:telephone1 	 "02 40 56 56 34"^^xsd:string;
+	ex:mail1 	 "stephaneglotin0073@orange.fr"^^xsd:string;
+	ex:tarif 	 "Adulte : 3 €  Groupe adultes : 2 € par personne  Groupe scolaires : 1 € par personne "^^xsd:string;
+	ex:type1 	 "Artisanat"^^xsd:string;
+	ex:geo 	 "Saint-Nazaire et l'Estuaire de la Loire"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.50808683 , -2.27904127]"^^xsd:string.
+
+<http://projet.com/10/LA_MAISON_DE_LA_MARIEE>	 ex:nom 	 "LA MAISON DE LA MARIEE"^^xsd:string;
+	ex:id	 "53"^^xsd:integer ;
+	ex:adresse1 	 "Parc Naturel Régional de Brière"^^xsd:string;
+	ex:adresse2 	 "182 rue du Pouet"^^xsd:string;
+	ex:codePostal	 "44720"^^xsd:integer ;
+	ex:ville 	 "SAINT-JOACHIM"^^xsd:string;
+	ex:telephone1 	 "02 40 91 65 91"^^xsd:string;
+	ex:mail1 	 "maisondelamariee@parc-naturel-briere.fr"^^xsd:string;
+	ex:website 	 "http://www.parc-naturel-briere.fr"^^xsd:string;
+	ex:horaire 	 "Ouvert du 1er avril au 30 septembre "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:label1 	 "Classé et contrôlé par la DMF"^^xsd:string;
+	ex:ohlalaqa 	 "oui"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.3365067 , -2.3269449]"^^xsd:string.
+
+<http://projet.com/10/VILLAGE_DE_KERHINET>	 ex:nom 	 "VILLAGE DE KERHINET"^^xsd:string;
+	ex:id	 "54"^^xsd:integer ;
+	ex:adresse1 	 "Parc Naturel Régional de Brière"^^xsd:string;
+	ex:adresse2 	 "Village de Kerhinet"^^xsd:string;
+	ex:codePostal	 "44410"^^xsd:integer ;
+	ex:ville 	 "SAINT-LYPHARD"^^xsd:string;
+	ex:telephone1 	 "02 40 66 85 01"^^xsd:string;
+	ex:mail1 	 "tourisme@parc-naturel-briere.fr"^^xsd:string;
+	ex:website 	 "www.parc-naturel-briere.fr"^^xsd:string;
+	ex:horaire 	 "Ouvert toute l'année "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Clisson et le Vignoble nantais"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.3365067 , -2.3269449]"^^xsd:string.
+
+<http://projet.com/10/BRASSERIE_DE_LA_BRIERE>	 ex:nom 	 "BRASSERIE DE LA BRIERE"^^xsd:string;
+	ex:id	 "55"^^xsd:integer ;
+	ex:adresse1 	 "Le Nezyl"^^xsd:string;
+	ex:codePostal	 "44410"^^xsd:integer ;
+	ex:ville 	 "SAINT-LYPHARD"^^xsd:string;
+	ex:telephone1 	 "02 40 91 33 62"^^xsd:string;
+	ex:telephone2 	 "02 40 91 33 62"^^xsd:string;
+	ex:mail1 	 "brasseriebriere@orange.fr"^^xsd:string;
+	ex:website 	 "http://brasseriedelabriere.fr"^^xsd:string;
+	ex:tarif 	 "3,50 €"^^xsd:string;
+	ex:horaire 	 "Toute l'année sur réservation "^^xsd:string;
+	ex:type1 	 "Artisanat"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.37101307 , -2.32773507]"^^xsd:string.
+
+<http://projet.com/10/LE_MOULIN_DE_LA_FEE>	 ex:nom 	 "LE MOULIN DE LA FEE"^^xsd:string;
+	ex:id	 "56"^^xsd:integer ;
+	ex:adresse1 	 "La Masse"^^xsd:string;
+	ex:codePostal	 "44410"^^xsd:integer ;
+	ex:ville 	 "SAINT-LYPHARD"^^xsd:string;
+	ex:telephone1 	 "06 11 84 06 88"^^xsd:string;
+	ex:telephone2 	 "06 74 54 08 47"^^xsd:string;
+	ex:mail1 	 "thierrybouilland@gmail.com"^^xsd:string;
+	ex:tarif 	 "Visite découverte : 2,50 €  Enfants de 6 à 12 ans : 1,00 €"^^xsd:string;
+	ex:horaire 	 "Se renseigner par téléphone "^^xsd:string;
+	ex:type1 	 "Artisanat"^^xsd:string;
+	ex:geo 	 "Châteaubriant et environs"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.36408956 , -2.36046031]"^^xsd:string.
+
+<http://projet.com/10/MUSEE_AERONAUTIQUE_DE_LA_PRESQU'ILE_COTE_D'AMOUR>	 ex:nom 	 "MUSEE AERONAUTIQUE DE LA PRESQU'ILE COTE D'AMOUR"^^xsd:string;
+	ex:id	 "57"^^xsd:integer ;
+	ex:adresse1 	 "Aérodrome de La Baule-Escoublac"^^xsd:string;
+	ex:adresse2 	 "Rue Breton"^^xsd:string;
+	ex:codePostal	 "44500"^^xsd:integer ;
+	ex:ville 	 "LA BAULE"^^xsd:string;
+	ex:telephone1 	 "02 51 75 10 43"^^xsd:string;
+	ex:website 	 "www.mapica.org"^^xsd:string;
+	ex:horaire 	 "Ouvert toute l'année  Durant l'été, le musée est ouvert le mardi  "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.2988956 , -2.4143596]"^^xsd:string.
+
+<http://projet.com/10/MUSEE_DE_LA_POUPEE_ET_DU_JOUET_ANCIEN>	 ex:nom 	 "MUSEE DE LA POUPEE ET DU JOUET ANCIEN"^^xsd:string;
+	ex:id	 "58"^^xsd:integer ;
+	ex:adresse1 	 "23 rue de Saillé"^^xsd:string;
+	ex:codePostal	 "44350"^^xsd:integer ;
+	ex:ville 	 "GUERANDE"^^xsd:string;
+	ex:telephone1 	 "02 40 15 69 13"^^xsd:string;
+	ex:mail1 	 "noel747@hotmail.fr"^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Châteaubriant et environs"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.3267313 , -2.4292855]"^^xsd:string.
+
+<http://projet.com/10/REMPARTS_DE_GUERANDE>	 ex:nom 	 "REMPARTS DE GUERANDE"^^xsd:string;
+	ex:id	 "59"^^xsd:integer ;
+	ex:adresse1 	 "Porte St-Michel"^^xsd:string;
+	ex:adresse2 	 "BP 85139"^^xsd:string;
+	ex:codePostal	 "44351"^^xsd:integer ;
+	ex:ville 	 "GUERANDE"^^xsd:string;
+	ex:cedex	 "CEDEX"^^xsd:integer ;
+	ex:telephone1 	 "02 28 55 05 05"^^xsd:string;
+	ex:mail1 	 "patrimoinemusee@ville-guerande.fr"^^xsd:string;
+	ex:website 	 "www.ville-guerande.fr"^^xsd:string;
+	ex:horaire 	 "Ouvert du 2 avril au 31 octobre 2011 , Ouvert en octobre de 10h à 12h et de 14h à 18h "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:label1 	 "Classé et contrôlé par la DMF"^^xsd:string;
+	ex:geo 	 "Pays de Grandlieu, Machecoul & Logne"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.3278182 , -2.4294169]"^^xsd:string.
+
+<http://projet.com/10/LE_GRAND_BLOCKHAUS>	 ex:nom 	 "LE GRAND BLOCKHAUS"^^xsd:string;
+	ex:id	 "60"^^xsd:integer ;
+	ex:adresse1 	 "Route de la Côte Sauvage"^^xsd:string;
+	ex:codePostal	 "44740"^^xsd:integer ;
+	ex:ville 	 "BATZ-SUR-MER"^^xsd:string;
+	ex:telephone1 	 "02 40 23 88 29"^^xsd:string;
+	ex:mail1 	 "grand-blockhaus@wanadoo.fr"^^xsd:string;
+	ex:website 	 "www.grand-blockhaus.com"^^xsd:string;
+	ex:horaire 	 "Ouvert du 26 février au 13 mars 2011 et du 1er avril au 11 novembre 2011 "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:label1 	 "Classé et contrôlé par la DMF"^^xsd:string;
+	ex:ohlalaqa 	 "oui"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:tarif1 	 "Adulte : de  à 6,50"^^xsd:string;
+	ex:coordinate 	 "[ 47.2807662 , -2.458151]"^^xsd:string.
+
+<http://projet.com/10/LA_MAISON_DU_CANAL_>	 ex:nom 	 "LA MAISON DU CANAL "^^xsd:string;
+	ex:id	 "61"^^xsd:integer ;
+	ex:adresse1 	 "1 rue de Pont Miny"^^xsd:string;
+	ex:codePostal	 "44460"^^xsd:integer ;
+	ex:ville 	 "FEGREAC"^^xsd:string;
+	ex:telephone1 	 "02 40 91 24 96"^^xsd:string;
+	ex:mail1 	 "mairiefegreactourisme@orange.fr"^^xsd:string;
+	ex:tarif 	 "Gratuit"^^xsd:string;
+	ex:horaire 	 "Ouvert du 1er mai au 30 septembre 2011 , En mai, juin et septembre : ouvert les dimanches de 14h30 à 18h30  En juillet et août de 10h à 12h et de 14h30 à 19h  "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Canal de Nantes à Brest et Pays de Redon"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.5718108 , -2.46234]"^^xsd:string.
+
+<http://projet.com/10/LA_MAISON_DU_LAVOIR>	 ex:nom 	 "LA MAISON DU LAVOIR"^^xsd:string;
+	ex:id	 "62"^^xsd:integer ;
+	ex:adresse1 	 "Rue de Pornic"^^xsd:string;
+	ex:codePostal	 "44320"^^xsd:integer ;
+	ex:ville 	 "SAINT-PERE-EN-RETZ"^^xsd:string;
+	ex:telephone1 	 "02 40 21 71 45"^^xsd:string;
+	ex:telephone2 	 "02 40 21 74 46"^^xsd:string;
+	ex:website 	 "http://persoorange.fr/stpereenretz-club"^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:tarif1 	 "Adulte : de 1,50 à "^^xsd:string;
+	ex:coordinate 	 "[ 47.2064402 , -2.470702]"^^xsd:string.
+
+<http://projet.com/10/MUSEE_DES_MARAIS_SALANTS>	 ex:nom 	 "MUSEE DES MARAIS SALANTS"^^xsd:string;
+	ex:id	 "63"^^xsd:integer ;
+	ex:adresse1 	 "29 bis rue Pasteur"^^xsd:string;
+	ex:codePostal	 "44740"^^xsd:integer ;
+	ex:ville 	 "BATZ-SUR-MER"^^xsd:string;
+	ex:telephone1 	 "02 40 23 82 79"^^xsd:string;
+	ex:mail1 	 "museedesmaraissalants@wanadoo.fr"^^xsd:string;
+	ex:website 	 "www..cap-atlantique.fr/rubrique/mus%C3%A9e-des-marais-salants"^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Canal de Nantes à Brest et Pays de Redon"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.2786853 , -2.4779877]"^^xsd:string.
+
+<http://projet.com/10/LE_CONSERVATOIRE_DES_VIEUX_METIERS>	 ex:nom 	 "LE CONSERVATOIRE DES VIEUX METIERS"^^xsd:string;
+	ex:id	 "64"^^xsd:integer ;
+	ex:adresse1 	 "Chemin de Sainte Opportune"^^xsd:string;
+	ex:codePostal	 "44320"^^xsd:integer ;
+	ex:ville 	 "SAINT-PERE-EN-RETZ"^^xsd:string;
+	ex:telephone1 	 "02 40 21 71 45"^^xsd:string;
+	ex:telephone2 	 "02 40 21 74 46"^^xsd:string;
+	ex:website 	 "http://persoorange.fr/stpereenretz-club"^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.2065982 , -2.491509]"^^xsd:string.
+
+<http://projet.com/10/MUSEE_LA_MAISON_DE_LA_PECHE>	 ex:nom 	 "MUSEE LA MAISON DE LA PECHE"^^xsd:string;
+	ex:id	 "65"^^xsd:integer ;
+	ex:adresse1 	 "Centre de marée"^^xsd:string;
+	ex:adresse2 	 "Port de La Turballe"^^xsd:string;
+	ex:codePostal	 "44420"^^xsd:integer ;
+	ex:ville 	 "LA TURBALLE"^^xsd:string;
+	ex:telephone1 	 "02 40 11 71 31"^^xsd:string;
+	ex:mail1 	 "augredesvents@wanadoo.fr"^^xsd:string;
+	ex:website 	 "www.mairie-laturballe.fr/spipphp?article28"^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.3465513 , -2.5084261]"^^xsd:string.
+
+<http://projet.com/10/LA_MAISON_DU_PATRIMOINE>	 ex:nom 	 "LA MAISON DU PATRIMOINE"^^xsd:string;
+	ex:id	 "66"^^xsd:integer ;
+	ex:adresse1 	 "3 Place Henri Vignioboul"^^xsd:string;
+	ex:codePostal	 "44420"^^xsd:integer ;
+	ex:ville 	 "PIRIAC-SUR-MER"^^xsd:string;
+	ex:telephone1 	 "02 40 15 59 71"^^xsd:string;
+	ex:mail1 	 "patrimoinepiriac@yahoo.fr"^^xsd:string;
+	ex:website 	 "www.patrimoinepiriac.fr"^^xsd:string;
+	ex:horaire 	 "Ouvert sur rendez-vous du 1er janvier au 31 mars 2011 , Ouvert du 2 avril au 31 août 2011  , Jours fériés : de 15h à 18h /  Nocturne le jeudi soir de 21h à 23h "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.3802521 , -2.5454719]"^^xsd:string.
+
+<http://projet.com/10/LA_FERME_DU_VIEUX_PORCHE>	 ex:nom 	 "LA FERME DU VIEUX PORCHE"^^xsd:string;
+	ex:id	 "67"^^xsd:integer ;
+	ex:adresse1 	 "La Grande Thibaudière"^^xsd:string;
+	ex:codePostal	 "44650"^^xsd:integer ;
+	ex:ville 	 "TOUVOIS"^^xsd:string;
+	ex:telephone1 	 "02 40 31 60 33"^^xsd:string;
+	ex:telephone2 	 "02 40 31 62 11"^^xsd:string;
+	ex:tarif 	 "Tarif adulte : 5/7 €, Tarif enfant  : 3/5 €"^^xsd:string;
+	ex:horaire 	 "Ouvert toute l'année"^^xsd:string;
+	ex:type1 	 "Artisanat"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 46.903727 , -1.68412]"^^xsd:string.
+
+<http://projet.com/10/SEL_DE_BOURGNEUF_EN_RETZ_LES_SALINES_NEUVES_-_D__ROBARD_PALUDIER>	 ex:nom 	 "SEL DE BOURGNEUF EN RETZ LES SALINES NEUVES - D  ROBARD PALUDIER"^^xsd:string;
+	ex:id	 "68"^^xsd:integer ;
+	ex:adresse1 	 "Le Fresne"^^xsd:string;
+	ex:adresse2 	 "BP 2"^^xsd:string;
+	ex:codePostal	 "44580"^^xsd:integer ;
+	ex:ville 	 "BOURGNEUF-EN-RETZ"^^xsd:string;
+	ex:telephone1 	 "02 40 64 20 65"^^xsd:string;
+	ex:telephone2 	 "02 40 64 20 05"^^xsd:string;
+	ex:mail1 	 "seldebourgneuf@yahoo.fr"^^xsd:string;
+	ex:website 	 "www.sel-de-bourgneuf.eu/"^^xsd:string;
+	ex:tarif 	 "Tarif adulte : 4 €, Tarif enfant : 2 €"^^xsd:string;
+	ex:type1 	 "Artisanat"^^xsd:string;
+	ex:geo 	 "Nantes et environs"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.042904 , -1.953453]"^^xsd:string.
+
+<http://projet.com/10/SALINES_DE_MILLAC>	 ex:nom 	 "SALINES DE MILLAC"^^xsd:string;
+	ex:id	 "69"^^xsd:integer ;
+	ex:adresse1 	 "1 avenue Bocandé"^^xsd:string;
+	ex:codePostal	 "44760"^^xsd:integer ;
+	ex:ville 	 "LES MOUTIERS-EN-RETZ"^^xsd:string;
+	ex:telephone1 	 "06 11 23 87 75"^^xsd:string;
+	ex:telephone2 	 "02 51 74 64 63"^^xsd:string;
+	ex:mail1 	 "emnat@salines-de-millac.com"^^xsd:string;
+	ex:website 	 "www.salines-de-millac.com"^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Nantes et environs"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.063302 , -2.000229]"^^xsd:string.
+
+<http://projet.com/10/CAVEAU_DES_MUSCADETS>	 ex:nom 	 "CAVEAU DES MUSCADETS"^^xsd:string;
+	ex:id	 "70"^^xsd:integer ;
+	ex:adresse1 	 "Office de Tourisme"^^xsd:string;
+	ex:adresse2 	 "Place du Minage"^^xsd:string;
+	ex:codePostal	 "44190"^^xsd:integer ;
+	ex:ville 	 "CLISSON"^^xsd:string;
+	ex:telephone1 	 "02 40 54 02 95"^^xsd:string;
+	ex:telephone2 	 "02 40 54 07 77"^^xsd:string;
+	ex:mail1 	 "ot@clisson.com"^^xsd:string;
+	ex:tarif 	 "Dégustations gratuites  Vente de vins entre 5 et 11 € "^^xsd:string;
+	ex:horaire 	 "7 jours/7 de 10h à 12h30 et de 14h30 à 18h  Le dimanche : de 14h30 à 17h30 du 1er novembre au 15 mars "^^xsd:string;
+	ex:type1 	 "Artisanat"^^xsd:string;
+	ex:geo 	 "Pays de Grandlieu, Machecoul & Logne"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.087148 , -1.281795]"^^xsd:string.
+
+<http://projet.com/10/LA_BISCUITERIE_LE_PETIT_MOUZILLON>	 ex:nom 	 "LA BISCUITERIE LE PETIT MOUZILLON"^^xsd:string;
+	ex:id	 "71"^^xsd:integer ;
+	ex:adresse1 	 "ZA des quatre chemins"^^xsd:string;
+	ex:codePostal	 "44330"^^xsd:integer ;
+	ex:ville 	 "MOUZILLON"^^xsd:string;
+	ex:telephone1 	 "02 40 33 77 77"^^xsd:string;
+	ex:telephone2 	 "02 40 33 77 78"^^xsd:string;
+	ex:type1 	 "Artisanat"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.140728 , -1.282125]"^^xsd:string.
+
+<http://projet.com/10/LA_FERME_DES_ABEILLES>	 ex:nom 	 "LA FERME DES ABEILLES"^^xsd:string;
+	ex:id	 "72"^^xsd:integer ;
+	ex:adresse1 	 "57 La Granville"^^xsd:string;
+	ex:codePostal	 "44250"^^xsd:integer ;
+	ex:ville 	 "SAINT-BREVIN"^^xsd:string;
+	ex:telephone1 	 "02 40 27 33 67"^^xsd:string;
+	ex:type1 	 "Artisanat"^^xsd:string;
+	ex:geo 	 "Pays de Grandlieu, Machecoul & Logne"^^xsd:string;
+	ex:coordinate 	 "[ 47.246659 , -2.165807]"^^xsd:string.
+
+<http://projet.com/10/MUSEE_DE_LA_MARINE>	 ex:nom 	 "MUSEE DE LA MARINE"^^xsd:string;
+	ex:id	 "73"^^xsd:integer ;
+	ex:adresse1 	 "Place Bougainville"^^xsd:string;
+	ex:codePostal	 "44250"^^xsd:integer ;
+	ex:ville 	 "SAINT-BREVIN"^^xsd:string;
+	ex:telephone1 	 "02 40 27 00 64  "^^xsd:string;
+	ex:mail1 	 "musee-marine-mindin@orange.fr"^^xsd:string;
+	ex:website 	 "www.musee-marine-mindin-st-brevin.fr"^^xsd:string;
+	ex:horaire 	 "Ouvert du 15 avril au 18 septembre 2011 "^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Saint-Nazaire et l'Estuaire de la Loire"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.268032899 , -2.1679286]"^^xsd:string.
+
+<http://projet.com/10/LE_MOULIN_DE_LA_FALAISE>	 ex:nom 	 "LE MOULIN DE LA FALAISE"^^xsd:string;
+	ex:id	 "74"^^xsd:integer ;
+	ex:adresse1 	 "Route du Croisic"^^xsd:string;
+	ex:codePostal	 "44740"^^xsd:integer ;
+	ex:ville 	 "BATZ-SUR-MER"^^xsd:string;
+	ex:telephone1 	 "02 40 23 72 46"^^xsd:string;
+	ex:tarif 	 "Tarif adulte : 2,50 €, Tarif enfant (10 à 12 ans) : 1,80 €"^^xsd:string;
+	ex:horaire 	 "Ouvert du 05/04 au 15/09"^^xsd:string;
+	ex:type1 	 "Artisanat"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.279337 , -2.0886691]"^^xsd:string.
+
+<http://projet.com/10/LE_NATURSEL_DE_GUERANDE>	 ex:nom 	 "LE NATURSEL DE GUERANDE"^^xsd:string;
+	ex:id	 "75"^^xsd:integer ;
+	ex:adresse1 	 "Rue de Bretagne"^^xsd:string;
+	ex:codePostal	 "44740"^^xsd:integer ;
+	ex:ville 	 "BATZ-SUR-MER"^^xsd:string;
+	ex:telephone1 	 "02 40 23 99 58"^^xsd:string;
+	ex:website 	 "www.lenatursel.com"^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Saint-Nazaire et l'Estuaire de la Loire"^^xsd:string;
+	ex:coordinate 	 "[ 47.281986 , -2.478268]"^^xsd:string.
+
+<http://projet.com/10/MUSEE_DU_TEMPS_DE_BAIGNEURS>	 ex:nom 	 "MUSEE DU TEMPS DE BAIGNEURS"^^xsd:string;
+	ex:id	 "76"^^xsd:integer ;
+	ex:adresse1 	 "8 rue de la gorge sèche"^^xsd:string;
+	ex:codePostal	 "44360"^^xsd:integer ;
+	ex:ville 	 "CORDEMAIS"^^xsd:string;
+	ex:telephone1 	 "02 40 57 85 89"^^xsd:string;
+	ex:telephone2 	 "02 40 57 85 89"^^xsd:string;
+	ex:type1 	 "Artisanat"^^xsd:string;
+	ex:VD 	 "oui"^^xsd:string;
+	ex:geo 	 "Pays de Grandlieu, Machecoul & Logne"^^xsd:string;
+	ex:coordinate 	 "[ 47.2906162 , -1.8786739]"^^xsd:string.
+
+<http://projet.com/10/BRASSERIE_DU_BOUFFAY>	 ex:nom 	 "BRASSERIE DU BOUFFAY"^^xsd:string;
+	ex:id	 "77"^^xsd:integer ;
+	ex:adresse1 	 "54 rue des Monceaux"^^xsd:string;
+	ex:codePostal	 "44470"^^xsd:integer ;
+	ex:ville 	 "CARQUEFOU"^^xsd:string;
+	ex:telephone1 	 "02 40 52 76 16"^^xsd:string;
+	ex:type1 	 "Artisanat"^^xsd:string;
+	ex:geo 	 "Clisson et le Vignoble nantais"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.3103867 , -1.5075762]"^^xsd:string.
+
+<http://projet.com/10/ILE_MOUCHET>	 ex:nom 	 "ILE MOUCHET"^^xsd:string;
+	ex:id	 "78"^^xsd:integer ;
+	ex:adresse1 	 "Office de Tourisme d'Ancenis"^^xsd:string;
+	ex:adresse2 	 "27 rue du Château"^^xsd:string;
+	ex:codePostal	 "44150"^^xsd:integer ;
+	ex:ville 	 "ANCENIS"^^xsd:string;
+	ex:telephone1 	 "02 40 83 07 44"^^xsd:string;
+	ex:website 	 "www.pays-ancenis-tourisme.com"^^xsd:string;
+	ex:tarif 	 "Accès gratuit"^^xsd:string;
+	ex:horaire 	 "Toute l'année , "^^xsd:string;
+	ex:type1 	 "Artisanat"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.3639232 , -1.1780538]"^^xsd:string.
+
+<http://projet.com/10/GAEC_LES_CHAMPS_MARINS>	 ex:nom 	 "GAEC LES CHAMPS MARINS"^^xsd:string;
+	ex:id	 "79"^^xsd:integer ;
+	ex:adresse1 	 "Pend Hué"^^xsd:string;
+	ex:codePostal	 "44350"^^xsd:integer ;
+	ex:ville 	 "SAINT-MOLF"^^xsd:string;
+	ex:telephone1 	 "02 40 62 53 39"^^xsd:string;
+	ex:telephone2 	 "02 40 62 59 12"^^xsd:string;
+	ex:tarif 	 "Tarif : 3,20 €, Tarif avec dégustation : 4,70 €"^^xsd:string;
+	ex:type1 	 "Artisanat"^^xsd:string;
+	ex:geo 	 "Châteaubriant et environs"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.390932 , -2.424955]"^^xsd:string.
+
+<http://projet.com/10/ATELIERS_LE_MAUFF>	 ex:nom 	 "ATELIERS LE MAUFF"^^xsd:string;
+	ex:id	 "80"^^xsd:integer ;
+	ex:adresse1 	 "La Harrois"^^xsd:string;
+	ex:codePostal	 "44160"^^xsd:integer ;
+	ex:ville 	 "BESNE"^^xsd:string;
+	ex:telephone1 	 "02 40 01 34 23"^^xsd:string;
+	ex:telephone2 	 "02 40 01 38 29"^^xsd:string;
+	ex:mail1 	 "lemauffsa@wanadoo.fr"^^xsd:string;
+	ex:website 	 "www.lemauffsa.com"^^xsd:string;
+	ex:tarif 	 "Gratuit"^^xsd:string;
+	ex:type1 	 "Artisanat"^^xsd:string;
+	ex:geo 	 "Nantes et environs"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.406243 , -2.0886691]"^^xsd:string.
+
+<http://projet.com/10/LA_FERME_MARINE_DE_PEN_BE>	 ex:nom 	 "LA FERME MARINE DE PEN BE"^^xsd:string;
+	ex:id	 "81"^^xsd:integer ;
+	ex:adresse1 	 "Route de l'Estran"^^xsd:string;
+	ex:codePostal	 "44410"^^xsd:integer ;
+	ex:ville 	 "ASSERAC"^^xsd:string;
+	ex:telephone1 	 "02 51 10 22 11"^^xsd:string;
+	ex:horaire 	 "Ouvert toute l'année"^^xsd:string;
+	ex:type1 	 "Artisanat"^^xsd:string;
+	ex:geo 	 "Saint-Nazaire et l'Estuaire de la Loire"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.4257714 , -2.4542032]"^^xsd:string.
+
+<http://projet.com/10/LES_SALINES_DE_BEAUREGARD>	 ex:nom 	 "LES SALINES DE BEAUREGARD"^^xsd:string;
+	ex:id	 "82"^^xsd:integer ;
+	ex:adresse1 	 "Ques Couic"^^xsd:string;
+	ex:codePostal	 "44410"^^xsd:integer ;
+	ex:ville 	 "ASSERAC"^^xsd:string;
+	ex:telephone1 	 "02 51 10 27 87"^^xsd:string;
+	ex:mail1 	 "laurentretailleau@club-internet.fr"^^xsd:string;
+	ex:tarif 	 "Tarif (+ 7 ans) : 3,50 €"^^xsd:string;
+	ex:type1 	 "Artisanat"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.42930699 , -2.390605]"^^xsd:string.
+
+<http://projet.com/10/LA_MAISON_DU_PATRIMOINE>	 ex:nom 	 "LA MAISON DU PATRIMOINE"^^xsd:string;
+	ex:id	 "83"^^xsd:integer ;
+	ex:adresse1 	 "Mairie"^^xsd:string;
+	ex:adresse2 	 "1 avenue de la Monneraye"^^xsd:string;
+	ex:codePostal	 "44410"^^xsd:integer ;
+	ex:ville 	 "HERBIGNAC"^^xsd:string;
+	ex:telephone1 	 "02 40 88 90 01"^^xsd:string;
+	ex:mail1 	 "patrimoine@herbignac.com"^^xsd:string;
+	ex:horaire 	 "Juillet et août"^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.4493894 , -2.3161148]"^^xsd:string.
+
+<http://projet.com/10/PASSION_FAIENCE>	 ex:nom 	 "PASSION FAIENCE"^^xsd:string;
+	ex:id	 "84"^^xsd:integer ;
+	ex:adresse1 	 "1 rue de Nantes"^^xsd:string;
+	ex:codePostal	 "44590"^^xsd:integer ;
+	ex:ville 	 "DERVAL"^^xsd:string;
+	ex:telephone1 	 "02 40 07 72 97"^^xsd:string;
+	ex:mail1 	 "anniehabay@wanadoo.fr"^^xsd:string;
+	ex:website 	 "www.manoirdebellevue-derval.fr"^^xsd:string;
+	ex:horaire 	 "Du 1er avril au 30 septembre"^^xsd:string;
+	ex:type1 	 "Artisanat"^^xsd:string;
+	ex:geo 	 "Clisson et le Vignoble nantais"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.6663989 , -1.6697898]"^^xsd:string.
+
+<http://projet.com/10/LA_CARRIERE_DES_FUSILLES>	 ex:nom 	 "LA CARRIERE DES FUSILLES"^^xsd:string;
+	ex:id	 "85"^^xsd:integer ;
+	ex:adresse1 	 "La Sablière"^^xsd:string;
+	ex:adresse2 	 "Route de Laval"^^xsd:string;
+	ex:codePostal	 "44110"^^xsd:integer ;
+	ex:ville 	 "CHATEAUBRIANT"^^xsd:string;
+	ex:telephone1 	 "02 40 28 20 90"^^xsd:string;
+	ex:mail1 	 "accueil@tourisme-chateaubrian.tfr"^^xsd:string;
+	ex:website 	 "www.tourisme-chateaubriant.fr"^^xsd:string;
+	ex:type1 	 "Musée"^^xsd:string;
+	ex:geo 	 "Châteaubriant et environs"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.723028 , -1.382061]"^^xsd:string.
+
+<http://projet.com/10/L'ENCLOS_DU_VIEUX_BOURG>	 ex:nom 	 "L'ENCLOS DU VIEUX BOURG"^^xsd:string;
+	ex:id	 "86"^^xsd:integer ;
+	ex:adresse1 	 "25 rue du Vieux Bourg"^^xsd:string;
+	ex:codePostal	 "44170"^^xsd:integer ;
+	ex:ville 	 "NOZAY"^^xsd:string;
+	ex:telephone1 	 "02 40 79 34 29"^^xsd:string;
+	ex:mail1 	 "asphanozay@gmail.com"^^xsd:string;
+	ex:website 	 "www.asphan.fr"^^xsd:string;
+	ex:type1 	 "Musée prive"^^xsd:string;
+	ex:geo 	 "Ancenis et les coteaux de la Loire"^^xsd:string;
+	ex:coordinate 	 "[ 47.56679 , -1.615689]"^^xsd:string.
+
+<http://projet.com/10/CHATEAU_D’ANCENIS>	 ex:nom 	 "CHATEAU D’ANCENIS"^^xsd:string;
+	ex:id	 "87"^^xsd:integer ;
+	ex:codePostal	 "44150"^^xsd:integer ;
+	ex:ville 	 "ANCENIS"^^xsd:string;
+	ex:telephone1 	 "02 40 83 19 21"^^xsd:string;
+	ex:mail1 	 "officetourismeancenis@wanadoo.fr"^^xsd:string;
+	ex:horaire 	 "Du 1/1/2011 au 12/31/2011 / Fermé pour restauration  Visite libre des extérieurs (panneaux d'information)  Visite commentée des extérieurs sur réservation à l'Office de Tourisme d'Ancenis  "^^xsd:string;
+	ex:type1 	 "Château"^^xsd:string;
+	ex:ohlalaqa 	 "oui"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.3661499 , -1.1759927]"^^xsd:string.
+
+<http://projet.com/10/CHATEAU_DE_LA_MOTTE_GLAIN>	 ex:nom 	 "CHATEAU DE LA MOTTE GLAIN"^^xsd:string;
+	ex:id	 "88"^^xsd:integer ;
+	ex:codePostal	 "44670"^^xsd:integer ;
+	ex:ville 	 "LA CHAPELLE-GLAIN"^^xsd:string;
+	ex:telephone1 	 "02 40 55 52 01"^^xsd:string;
+	ex:telephone2 	 "02 40 55 52 01"^^xsd:string;
+	ex:type1 	 "Château"^^xsd:string;
+	ex:geo 	 "Pays de Grandlieu, Machecoul & Logne"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.6219513 , -1.1958014]"^^xsd:string.
+
+<http://projet.com/10/SITE_ARCHEOLOGIQUE_DE_SAINT-LUPIEN>	 ex:nom 	 "SITE ARCHEOLOGIQUE DE SAINT-LUPIEN"^^xsd:string;
+	ex:id	 "89"^^xsd:integer ;
+	ex:adresse1 	 "Mairie"^^xsd:string;
+	ex:adresse2 	 "Place Jean Baptiste Daviais"^^xsd:string;
+	ex:codePostal	 "44403"^^xsd:integer ;
+	ex:ville 	 "REZE"^^xsd:string;
+	ex:cedex	 "CEDEX"^^xsd:integer ;
+	ex:telephone1 	 "02 40 84 43 96"^^xsd:string;
+	ex:telephone2 	 "02 40 84 43 78"^^xsd:string;
+	ex:mail1 	 "opheliedeperetti@mairie-reze.fr"^^xsd:string;
+	ex:website 	 "www.mairie-reze.fr"^^xsd:string;
+	ex:horaire 	 "les mercredis 12/10, 23/11 et 14/12 à 14h00 et les dimanches 23/10, 13/11 et 04/12 à 15h00 "^^xsd:string;
+	ex:type1 	 "Château"^^xsd:string;
+	ex:geo 	 "Ancenis et les coteaux de la Loire"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.38136509 , -1.2268875]"^^xsd:string.
+
+<http://projet.com/10/LA_MAISON_DU_JARDINIER>	 ex:nom 	 "LA MAISON DU JARDINIER"^^xsd:string;
+	ex:id	 "90"^^xsd:integer ;
+	ex:adresse1 	 "Domaine Départemental de la Garenne Lemot"^^xsd:string;
+	ex:codePostal	 "44190"^^xsd:integer ;
+	ex:ville 	 "GETIGNE"^^xsd:string;
+	ex:telephone1 	 "02 40 54 75 85"^^xsd:string;
+	ex:telephone2 	 "02 40 03 99 22"^^xsd:string;
+	ex:mail1 	 "garennelemot@cg44.fr"^^xsd:string;
+	ex:website 	 "www.culturecg44.fr"^^xsd:string;
+	ex:type1 	 "Château"^^xsd:string;
+	ex:geo 	 "Nantes et environs"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.860943 , -1.2719343]"^^xsd:string.
+
+<http://projet.com/10/CHATEAU_DEPARTEMENTAL_DE_CLISSON>	 ex:nom 	 "CHATEAU DEPARTEMENTAL DE CLISSON"^^xsd:string;
+	ex:id	 "91"^^xsd:integer ;
+	ex:adresse1 	 "Rue du Château"^^xsd:string;
+	ex:codePostal	 "44190"^^xsd:integer ;
+	ex:ville 	 "CLISSON"^^xsd:string;
+	ex:telephone1 	 "02 40 54 02 22"^^xsd:string;
+	ex:mail1 	 "garennelemot@cg44.fr"^^xsd:string;
+	ex:website 	 "http://cultureloire-atlantique.fr/culture/jcms/c_7195/forteresse-des-marches-de-bretagne"^^xsd:string;
+	ex:type1 	 "Château"^^xsd:string;
+	ex:type2 	 "Fédération nationale des écomusées"^^xsd:string;
+	ex:label1 	 "Classé et contrôlé par la DMF"^^xsd:string;
+	ex:TH1 	 "oui"^^xsd:string;
+	ex:TH2 	 "oui"^^xsd:string;
+	ex:tTH3 	 "oui"^^xsd:string;
+	ex:TH4 	 "oui"^^xsd:string;
+	ex:geo 	 "Nantes et environs"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.803335 , -1.3378106]"^^xsd:string.
+
+<http://projet.com/10/CHATEAU_DEPARTEMENTAL_DE_CHATEAUBRIANT>	 ex:nom 	 "CHATEAU DEPARTEMENTAL DE CHATEAUBRIANT"^^xsd:string;
+	ex:id	 "92"^^xsd:integer ;
+	ex:adresse1 	 "Place du Général de Gaulle"^^xsd:string;
+	ex:codePostal	 "44110"^^xsd:integer ;
+	ex:ville 	 "CHATEAUBRIANT"^^xsd:string;
+	ex:telephone1 	 "02 40 28 20 20"^^xsd:string;
+	ex:telephone2 	 "02 40 28 20 28"^^xsd:string;
+	ex:mail1 	 "chateauchateaubriant@loire-atlantique.fr"^^xsd:string;
+	ex:website 	 "www.culturecg44.fr"^^xsd:string;
+	ex:tarif 	 "Tarif adulte : 2,50 €  Tarif enfant (10-18 ans) : 1,50 €  Gratuit jusqu'à 10 ans, les personnes handicapées et les accompagnateurs de groupes, "^^xsd:string;
+	ex:horaire 	 "Accès libre et gratuit des cours extérieures du château, tous les jours de 7h30 à 18h (du 1er mai au 30 sept : de 7h30 à 20h), "^^xsd:string;
+	ex:type1 	 "Château"^^xsd:string;
+	ex:ohlalaqa 	 "oui"^^xsd:string;
+	ex:VD 	 "oui"^^xsd:string;
+	ex:geo 	 "Clisson et le Vignoble nantais"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.7186173 , -1.3724956]"^^xsd:string.
+
+<http://projet.com/10/CHATEAU_DE_GOULAINE>	 ex:nom 	 "CHATEAU DE GOULAINE"^^xsd:string;
+	ex:id	 "93"^^xsd:integer ;
+	ex:adresse1 	 "Allée du château"^^xsd:string;
+	ex:codePostal	 "44115"^^xsd:integer ;
+	ex:ville 	 "HAUTE-GOULAINE"^^xsd:string;
+	ex:telephone1 	 "02 40 54 91 42"^^xsd:string;
+	ex:telephone2 	 "02 40 54 90 23"^^xsd:string;
+	ex:mail1 	 "chateaudegoulaine@orange.fr"^^xsd:string;
+	ex:website 	 "http://www.chateaudegoulaine.fr"^^xsd:string;
+	ex:horaire 	 "Du 27 mars au 30 juin  2011 : ouvert tous les mercredis, week-ends et jours fériés + vacances de printemps tous les jours et du 2 juillet au 4 septembre : , Juillet et août : ouvert tous les jours , et du 1er septembre au 6 novembre 2011 : ouvert tous les"^^xsd:string;
+	ex:type1 	 "Château"^^xsd:string;
+	ex:geo 	 "Châteaubriant et environs"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:tarif1 	 "Adulte : de  à 8"^^xsd:string;
+	ex:tarif2 	 "Enfant : de 0 à 5"^^xsd:string;
+	ex:coordinate 	 "[ 47.2009897 , -1.4066578]"^^xsd:string.
+
+<http://projet.com/10/CHATEAU_DES_DUCS_DE_BRETAGNE_>	 ex:nom 	 "CHATEAU DES DUCS DE BRETAGNE "^^xsd:string;
+	ex:id	 "94"^^xsd:integer ;
+	ex:adresse1 	 "4 place Marc Elder"^^xsd:string;
+	ex:codePostal	 "44000"^^xsd:integer ;
+	ex:ville 	 "NANTES"^^xsd:string;
+	ex:telephone1 	 "0811 46 46 44"^^xsd:string;
+	ex:mail1 	 "contact@chateau-nantes.fr"^^xsd:string;
+	ex:website 	 "www.chateau-nantes.fr"^^xsd:string;
+	ex:horaire 	 "Ouvert toute l'année , Cour et remparts ouverts 7j/7 de 10h à 19h (Juillet et Août de 9h à 20h)  , Le musée est fermé le lundi (sauf juillet et août ouvert 7j/7) "^^xsd:string;
+	ex:type1 	 "Château"^^xsd:string;
+	ex:geo 	 "Clisson et le Vignoble nantais"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:tarif1 	 "Adulte : de 5 à 8"^^xsd:string;
+	ex:coordinate 	 "[ 47.2165813 , -1.5503202]"^^xsd:string.
+
+<http://projet.com/10/PLANETARIUM>	 ex:nom 	 "PLANETARIUM"^^xsd:string;
+	ex:id	 "95"^^xsd:integer ;
+	ex:adresse1 	 "8 rue des Acadiens"^^xsd:string;
+	ex:codePostal	 "44100"^^xsd:integer ;
+	ex:ville 	 "NANTES"^^xsd:string;
+	ex:telephone1 	 "02 40 73 99 23"^^xsd:string;
+	ex:telephone2 	 "02 40 73 90 40"^^xsd:string;
+	ex:mail1 	 "jacquelinedebray@mairie-nantes.fr"^^xsd:string;
+	ex:website 	 "www.nantes.fr/culture/musees/le-planetarium"^^xsd:string;
+	ex:horaire 	 "Ouvert toute l'année / Séances du lundi au vendredi à 10h30, 14h15 et 15h45  Dimanche à 15h et 16h30  Fermé le samedi "^^xsd:string;
+	ex:type1 	 "Château"^^xsd:string;
+	ex:geo 	 "Ancenis et les coteaux de la Loire"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:tarif1 	 "Adulte : de 2,50 à 5"^^xsd:string;
+	ex:coordinate 	 "[ 47.202082 , -1.5779757]"^^xsd:string.
+
+<http://projet.com/10/CHATEAU_DE_GILLES_DE_RAIS>	 ex:nom 	 "CHATEAU DE GILLES DE RAIS"^^xsd:string;
+	ex:id	 "96"^^xsd:integer ;
+	ex:adresse1 	 "Route de Nantes"^^xsd:string;
+	ex:codePostal	 "44270"^^xsd:integer ;
+	ex:ville 	 "MACHECOUL"^^xsd:string;
+	ex:telephone1 	 "06 86 94 02 27"^^xsd:string;
+	ex:telephone2 	 "02 40 78 50 42"^^xsd:string;
+	ex:mail1 	 "bbdegrandmaison@free.fr"^^xsd:string;
+	ex:horaire 	 "Ouvert du 1er juillet au 19 septembre 2011 / Tous les dimanches à 15h  Et toute l'année pour groupes à partir de 8 personnes et plus  sur demande  "^^xsd:string;
+	ex:type1 	 "Château"^^xsd:string;
+	ex:ohlalaqa 	 "oui"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 46.9922377 , -1.8129416]"^^xsd:string.
+
+<http://projet.com/10/CHATEAU_DE_RANROUET>	 ex:nom 	 "CHATEAU DE RANROUET"^^xsd:string;
+	ex:id	 "97"^^xsd:integer ;
+	ex:adresse1 	 "Rue de Ranrouët"^^xsd:string;
+	ex:codePostal	 "44410"^^xsd:integer ;
+	ex:ville 	 "HERBIGNAC"^^xsd:string;
+	ex:telephone1 	 "02 40 88 96 17"^^xsd:string;
+	ex:telephone2 	 "02 51 76 92 70"^^xsd:string;
+	ex:mail1 	 "chateauranrouet@cap-atlantique.fr"^^xsd:string;
+	ex:website 	 "www.cap-atlantique.fr/rubrique/ch%C3%A2teau-de-ranrou%C3%ABt"^^xsd:string;
+	ex:horaire 	 "Ouvert du 1er avril au 30 sepembre "^^xsd:string;
+	ex:type1 	 "Château"^^xsd:string;
+	ex:ohlalaqa 	 "oui"^^xsd:string;
+	ex:VD 	 "oui"^^xsd:string;
+	ex:geo 	 "Clisson et le Vignoble nantais"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:tarif1 	 "Adulte : de 4 à 5"^^xsd:string;
+	ex:tarif2 	 "Enfant : de 3 à 4"^^xsd:string;
+	ex:coordinate 	 "[ 47.4444694 , -2.3097564]"^^xsd:string.
+
+<http://projet.com/10/CHATEAU_DE_CAREIL>	 ex:nom 	 "CHATEAU DE CAREIL"^^xsd:string;
+	ex:id	 "98"^^xsd:integer ;
+	ex:adresse1 	 "33 rue du château de Careil"^^xsd:string;
+	ex:codePostal	 "44350"^^xsd:integer ;
+	ex:ville 	 "GUERANDE"^^xsd:string;
+	ex:telephone1 	 "02 40 60 22 99"^^xsd:string;
+	ex:telephone2 	 "06 10 82 12 96"^^xsd:string;
+	ex:mail1 	 "chateau@careil.com"^^xsd:string;
+	ex:website 	 "www.careil.com"^^xsd:string;
+	ex:horaire 	 "Ouvert du 1er juin au 31 août , Ouvert à l'année sur rendez-vous   Ouverture durant les vacances scolaires : www careil com"^^xsd:string;
+	ex:type1 	 "Château"^^xsd:string;
+	ex:type2 	 "Site et monument historiques"^^xsd:string;
+	ex:ohlalaqa 	 "oui"^^xsd:string;
+	ex:geo 	 "Châteaubriant et environs"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:tarif1 	 "Adulte : de 6 à 11"^^xsd:string;
+	ex:tarif2 	 "Enfant : de 5 à 6"^^xsd:string;
+	ex:coordinate 	 "[ 47.298006 , -2.4000615]"^^xsd:string.
+
+<http://projet.com/10/LE_CLOCHER_DE_SAINT_LYPHARD>	 ex:nom 	 "LE CLOCHER DE SAINT LYPHARD"^^xsd:string;
+	ex:id	 "99"^^xsd:integer ;
+	ex:adresse1 	 "Office de Tourisme"^^xsd:string;
+	ex:adresse2 	 "Place de l'Eglise"^^xsd:string;
+	ex:codePostal	 "44410"^^xsd:integer ;
+	ex:ville 	 "SAINT-LYPHARD"^^xsd:string;
+	ex:telephone1 	 "02 40 91 41 34"^^xsd:string;
+	ex:telephone2 	 "02 40 91 34 96"^^xsd:string;
+	ex:mail1 	 "contact@saint-lyphard.com"^^xsd:string;
+	ex:website 	 "www.saint-lyphard.com"^^xsd:string;
+	ex:horaire 	 "Ouvert du 1er avril au 30 septembre 2011 / Du lundi au samedi à 11h, 12h05, 14h, 15h, 16h, 17h et 17h30 - Sauf en juillet et août, se renseigner "^^xsd:string;
+	ex:type1 	 "Collégiale"^^xsd:string;
+	ex:label1 	 "Ville d'art et d'histoire"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:visite1 	 "oui"^^xsd:string;
+	ex:visite2	 "oui"^^xsd:string;
+	ex:visite3 	 "oui"^^xsd:string;
+	ex:visite4 	 "oui"^^xsd:string;
+	ex:coordinate 	 "[ 47.3982766 , -2.3056594]"^^xsd:string.

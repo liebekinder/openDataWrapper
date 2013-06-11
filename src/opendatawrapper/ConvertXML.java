@@ -33,8 +33,8 @@ public class ConvertXML {
 
 	final String proxyHost = "iproxy1.cg44.fr";
 	final String proxyPort = "3128";
-	final String authUser = "021806B";
-	final String authPassword = "HSi1eBSW44";
+	final String authUser = "";
+	final String authPassword = "";
 
 	/*
 	 * Constructeur

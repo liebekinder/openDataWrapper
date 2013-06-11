@@ -35,8 +35,11 @@ public class Principale {
 				System.out.println("################################\n"
 						+ "welcome in the openData Wrapper!\n"
 						+ " What do you want to do?\n"
-						+ "[1] List datasources\n" + "[2] Convert one data\n"
-						+ "[3] Convert all data\n" + "[4] Quit\n");
+						+ "[1] List datasources\n"
+						+ "[2] Convert one data into turtle\n"
+						+ "[3] Convert all data into turtle\n"
+						+ "[4] Convert one data into RDF/XML\n"
+						+ "[5] Convert all data into RDF/XML\n" + "[6] Quit\n");
 				result = in.nextInt();
 
 				switch (result) {
@@ -44,10 +47,16 @@ public class Principale {
 					listDatasources();
 					break;
 				case 2:
-					conversionOne();
+					conversionTtlOne();
 					break;
 				case 3:
-					conversionAll();
+					conversionTtlAll();
+					break;
+				case 4:
+					conversionXmlOne();
+					break;
+				case 5:
+					conversionXmlAll();
 					break;
 				default:
 					// on quitte
@@ -78,9 +87,10 @@ public class Principale {
 	 * 
 	 * @param DataSource dts, the DataSource ressource you want to convert
 	 */
-	private static void conversion(DataSource dts) {
+	private static void conversionTtl(DataSource dts) {
 		if (dts.getFormat().equals("XML")) {
-			ConvertXML cxml = new ConvertXML(dts.getXsltFile(), dts.getOutput());
+			ConvertXML cxml = new ConvertXML(dts.getXsltFile(),
+					dts.getOutputTtl());
 			if (dts.isApi()) {
 				cxml.convertFromApi(dts.getApiUrl());
 			} else {
@@ -89,7 +99,7 @@ public class Principale {
 		} else {
 			if (dts.getFormat().equals("CSV")) {
 				ConvertCSV ccsv = new ConvertCSV(dts.getXsltFile(),
-						dts.getOutput());
+						dts.getOutputTtl());
 				ccsv.convertfromFile(dts.getFilePath());
 			} else {
 				System.err.println("the format " + dts.getFormat()
@@ -101,15 +111,20 @@ public class Principale {
 	/*
 	 * Select the dataset to convert by asking the user
 	 */
-	private static void conversionOne() {
+	private static void conversionTtlOne() {
 		System.out.println("Which dataset?");
 		listDatasources();
 		Scanner in = new Scanner(System.in);
 		try {
 			int result = in.nextInt();
 			DataSource dts = listeDataSource.get(result);
-			conversion(dts);
-			System.out.println("conversion ok!");
+			if (dts.getFormat().equals("XML")) {
+				conversionTtl(dts);
+				System.out.println("conversion ok!");
+			} else {
+				System.err
+						.println("le format de fichier n'est pas supporté pour le moment!");
+			}
 		} catch (InputMismatchException e) {
 			System.err.println("la saisie effectué n'est pas un nombre!");
 		}
@@ -119,7 +134,7 @@ public class Principale {
 	 * Convert all dataset listed in listeDataSource accordingly to
 	 * dataSources.xml
 	 */
-	private static void conversionAll() {
+	private static void conversionTtlAll() {
 		Set<Integer> listeData = listeDataSource.keySet();
 
 		Iterator<Integer> it = listeData.iterator();
@@ -128,8 +143,50 @@ public class Principale {
 		while (it.hasNext()) {
 			courant = it.next();
 			dts = listeDataSource.get(courant);
-			conversion(dts);
+			if (dts.getFormat().equals("XML")) {
+				conversionTtl(dts);
+			}
 		}
 	}
 
+	private static void conversionXmlOne() {
+		System.out.println("Which dataset?");
+		listDatasources();
+		Scanner in = new Scanner(System.in);
+		try {
+			int result = in.nextInt();
+			DataSource dts = listeDataSource.get(result);
+			if (dts.getFormat().equals("XML")) {
+				conversionTtl(dts);
+				conversionXmlRdf(dts);
+				System.out.println("conversion ok!");
+			} else {
+				System.err
+						.println("le format de fichier n'est pas supporté pour le moment!");
+			}
+		} catch (InputMismatchException e) {
+			System.err.println("la saisie effectué n'est pas un nombre!");
+		}
+	}
+
+	private static void conversionXmlAll() {
+		Set<Integer> listeData = listeDataSource.keySet();
+
+		Iterator<Integer> it = listeData.iterator();
+		int courant;
+		DataSource dts = null;
+		while (it.hasNext()) {
+			courant = it.next();
+			dts = listeDataSource.get(courant);
+			if (dts.getFormat().equals("XML")) {
+				conversionTtl(dts);
+				conversionXmlRdf(dts);
+			}
+		}
+	}
+
+	private static void conversionXmlRdf(DataSource dts) {
+		ConvertTtl cttl = new ConvertTtl(dts.getOutputTtl(), dts.getOutputRdf());
+		cttl.convert();
+	}
 }

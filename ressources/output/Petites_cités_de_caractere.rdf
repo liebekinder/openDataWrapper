@@ -1,0 +1,339 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:proj="http://projet.com/2/"
+    xmlns:ex="http://example.org/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="http://projet.com/2/Saulges">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.405858</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.982125</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saulges</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53257</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Chênehutte-Trèves-Cunault">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.154208</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.307454</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chênehutte-Trèves-Cunault</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49094</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Vouvant">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.769141</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46.57139</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vouvant</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85305</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Croisic">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.510964</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.29288</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Croisic</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44049</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Blaison-Gohier">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.371931</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.399759</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blaison-Gohier</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49029</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Parcé-sur-Sarthe">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.202141</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.842759</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parcé-sur-Sarthe</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72228</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Montmirail">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dès AVAP</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.789874</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48.102073</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montmirail</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72208</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Mouchamps">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.062957</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46.780021</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mouchamps</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85153</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Chailland">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.873583</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48.223114</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chailland</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53048</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Montreuil-Bellay">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.153925</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.131057</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montreuil-Bellay</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49215</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Coudray-Macouard">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.119877</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.19389</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coudray-Macouard</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49112</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Foussais-Payré">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.684557</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46.529548</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Foussais-Payré</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85094</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Piriac-sur-Mer">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.546722</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.379696</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Piriac-sur-Mer</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44125</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Savennières">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.658652</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.382788</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Savennières</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49329</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Aubigné-sur-Layon">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dès AVAP</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.461467</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.211306</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aubigné-sur-Layon</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49012</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Saint-Florent-le-Vieil">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.016503</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.36126</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Florent-le-Vieil</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49276</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Denée">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.608063</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.378686</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Denée</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49120</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Turquant">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.026782</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.222122</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turquant</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49358</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Asnières-sur-Vègre">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.23508</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.887928</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asnières-sur-Vègre</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72010</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Grand-Lucé">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.46932</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.86443</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grand-Lucé</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72143</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Saint-Calais">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.74169</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.91974</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Calais</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72269</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Apremont">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.741126</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46.749728</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apremont</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85006</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Lassay-les-Châteaux">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.49732</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48.437013</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lassay-les-Châteaux</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53127</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Baugé">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.10408</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.542507</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baugé</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49018</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Mallièvre">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.863622</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46.910929</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mallièvre</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85134</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Brûlon">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.234921</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.967112</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brûlon</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72050</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Nieul-sur-l&apos;Autise">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.679956</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46.423429</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nieul-sur-l'Autise</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85162</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Béhuard">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.645167</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.378636</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Béhuard</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49028</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Puy-Notre-Dame">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.235393</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.124765</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Puy-Notre-Dame</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49253</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Faymoreau">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.628888</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46.537315</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Faymoreau</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85087</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Sainte-Suzanne">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.354074</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48.096699</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sainte-Suzanne</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53255</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Fresnay-sur-Sarthe">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.020576</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48.281009</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fresnay-sur-Sarthe</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72138</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Thoureil">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.267116</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.370665</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thoureil</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49346</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Luché-Pringé">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.075125</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.703603</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luché-Pringé</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72175</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Vivoin">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.154632</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48.2332</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vivoin</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72380</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Saint-Denis-d&apos;Anjou">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.441334</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.790513</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Denis-d'Anjou</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53210</ex:codeInsee>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/2/Montsoreau">
+    <ex:commentaire rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:commentaire>
+    <ex:labellisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</ex:labellisable>
+    <ex:labellisee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</ex:labellisee>
+    <ex:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.056087</ex:longitude>
+    <ex:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.216405</ex:latitude>
+    <ex:nomCommune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montsoreau</ex:nomCommune>
+    <ex:codeInsee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49219</ex:codeInsee>
+  </rdf:Description>
+</rdf:RDF>

@@ -10,7 +10,8 @@
 		<mappingFile>null</mappingFile>
 		<xsltFile>ressources/hotel/hotelSaxon.xslt</xsltFile>
 		<format>XML</format>
-		<outputFile>ressources/output/Hotel.n3</outputFile>
+		<outputTtlFile>ressources/output/Hotel.n3</outputTtlFile>
+		<outputXmlFile>ressources/output/Hotel.rdf</outputXmlFile>
 	</source>
 	<source>
 		<nom>Petites_cités_de_caractere</nom>
@@ -22,7 +23,8 @@
 		<mappingFile>null</mappingFile>
 		<xsltFile>ressources/cite/citeToTurtle.xsl</xsltFile>
 		<format>XML</format>
-		<outputFile>ressources/output/Petites_cités_de_caractere.n3</outputFile>
+		<outputTtlFile>ressources/output/Petites_cités_de_caractere.n3</outputTtlFile>
+		<outputXmlFile>ressources/output/Petites_cités_de_caractere.rdf</outputXmlFile>
 	</source>
 	<source>
 		<nom>Communes_geolocalises</nom>
@@ -34,7 +36,8 @@
 		<mappingFile>null</mappingFile>
 		<xsltFile>ressources/commune/communesGeoToTurtle.xsl</xsltFile>
 		<format>XML</format>
-		<outputFile>ressources/output/Communes_geolocalises.n3</outputFile>
+		<outputTtlFile>ressources/output/Communes_geolocalises.n3</outputTtlFile>
+		<outputXmlFile>ressources/output/Communes_geolocalises.rdf</outputXmlFile>
 	</source>
 	<source>
 		<nom>Librairies</nom>
@@ -46,7 +49,8 @@
 		<mappingFile>null</mappingFile>
 		<xsltFile>ressources/librairies/transfoLibrairies.xsl</xsltFile>
 		<format>XML</format>
-		<outputFile>ressources/output/Librairies.n3</outputFile>
+		<outputTtlFile>ressources/output/Librairies.n3</outputTtlFile>
+		<outputXmlFile>ressources/output/Librairies.rdf</outputXmlFile>
 	</source>
 	<source>
 		<nom>lieux_d_art</nom>
@@ -58,7 +62,8 @@
 		<mappingFile>null</mappingFile>
 		<xsltFile>ressources/lieuxArt/lieuxArtToTurtle.xsl</xsltFile>
 		<format>XML</format>
-		<outputFile>ressources/output/lieux_d_art.n3</outputFile>
+		<outputTtlFile>ressources/output/lieux_d_art.n3</outputTtlFile>
+		<outputXmlFile>ressources/output/lieux_d_art.rdf</outputXmlFile>
 	</source>
 	<source>
 		<nom>manifestations_sportives</nom>
@@ -71,7 +76,8 @@
 		<mappingFile>null</mappingFile>
 		<xsltFile>ressources/manifSport/manifSportToTurtle.xsl</xsltFile>
 		<format>XML</format>
-		<outputFile>ressources/output/manifestations_sportives.n3</outputFile>
+		<outputTtlFile>ressources/output/manifestations_sportives.n3</outputTtlFile>
+		<outputXmlFile>ressources/output/manifestations_sportives.rdf</outputXmlFile>
 	</source>
 	<source>
 		<nom>RDV_litteraires</nom>
@@ -83,7 +89,8 @@
 		<mappingFile>null</mappingFile>
 		<xsltFile>ressources/rdvLitteraire/rdvLitteraires.xsl</xsltFile>
 		<format>XML</format>
-		<outputFile>ressources/output/RDV_litteraires.n3</outputFile>
+		<outputTtlFile>ressources/output/RDV_litteraires.n3</outputTtlFile>
+		<outputXmlFile>ressources/output/RDV_litteraires.rdf</outputXmlFile>
 	</source>
 	<source>
 		<nom>patrimoine</nom>
@@ -95,7 +102,8 @@
 		<mappingFile>null</mappingFile>
 		<xsltFile>ressources/patrimoine/patrimoinePDLToTurtle.xsl</xsltFile>
 		<format>XML</format>
-		<outputFile>ressources/output/patrimoine.n3</outputFile>
+		<outputTtlFile>ressources/output/patrimoine.n3</outputTtlFile>
+		<outputXmlFile>ressources/output/patrimoine.rdf</outputXmlFile>
 	</source>
 	<source>
 		<nom>salle_cinema</nom>
@@ -107,7 +115,8 @@
 		<mappingFile>null</mappingFile>
 		<xsltFile>/openDataWrapper/ressources/cinema/cinema.xsl</xsltFile>
 		<format>CSV</format>
-		<outputFile>ressources/output/salle_cinema.n3</outputFile>
+		<outputTtlFile>ressources/output/salle_cinema.n3</outputTtlFile>
+		<outputXmlFile>ressources/output/salle_cinema.rdf</outputXmlFile>
 	</source>
 	<source>
 		<nom>chateau_monument</nom>
@@ -119,6 +128,7 @@
 		<mappingFile>null</mappingFile>
 		<xsltFile>ressources/chateau/chateau.xsl</xsltFile>
 		<format>XML</format>
-		<outputFile>ressources/output/chateau_monument.n3</outputFile>
+		<outputTtlFile>ressources/output/chateau_monument.n3</outputTtlFile>
+		<outputXmlFile>ressources/output/chateau_monument.rdf</outputXmlFile>
 	</source>
 </sources>

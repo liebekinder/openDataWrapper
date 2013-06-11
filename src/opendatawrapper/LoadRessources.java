@@ -63,11 +63,12 @@ public class LoadRessources {
 			String mappingFile = courant.getChild("mappingFile").getValue();
 			String xsltFile = courant.getChild("xsltFile").getValue();
 			String format = courant.getChild("format").getValue();
-			String output = courant.getChild("outputFile").getValue();
+			String outputTtl = courant.getChild("outputTtlFile").getValue();
+			String outputRdf = courant.getChild("outputXmlFile").getValue();
 
 			// chaque source est ajouté à la hashMap
 			listeDataSource.put(i, new DataSource(nom, api, apiUrl, file,
-					filePath, mappingFile, xsltFile, format, output));
+					filePath, mappingFile, xsltFile, format, outputTtl,outputRdf));
 			i++;
 		}
 

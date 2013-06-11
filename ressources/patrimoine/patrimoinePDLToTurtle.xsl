@@ -38,7 +38,7 @@
     </xsl:template>
     
     <xsl:template match="NOMFIC"> <xsl:text>&#010;</xsl:text> 
-        <xsl:value-of select="concat(concat('&lt;http://projet.com/7/',translate(translate(translate(../geo/name/text(),'  ',' '),' ','_'),'.','_')),'&gt;')"/>&#009; ex:id &#009; "<xsl:value-of select="."/>"^^xsd:string; 
+        <xsl:value-of select="concat(concat('&lt;http://projet.com/7/',translate(translate(translate(translate(../geo/name/text(),'  ',' '),'&quot;','_'),' ','_'),'.','_')),'&gt;')"/>&#009; ex:id &#009; "<xsl:value-of select="."/>"^^xsd:string; 
     </xsl:template>
     
     <xsl:template match="geo/name">&#009;ex:nom&#009;"<xsl:value-of select="translate(.,'&quot;','')"/>"^^xsd:string ;
