@@ -48,7 +48,7 @@ public class LoadRessources {
 		List<Element> listsources = racine.getChildren("source");
 		Iterator<Element> it = listsources.iterator();
 		// On parcours la liste grâce à un iterator
-		int i=1;
+		int i = 1;
 		while (it.hasNext()) {
 
 			Element courant = (Element) it.next();
@@ -63,13 +63,14 @@ public class LoadRessources {
 			String mappingFile = courant.getChild("mappingFile").getValue();
 			String xsltFile = courant.getChild("xsltFile").getValue();
 			String format = courant.getChild("format").getValue();
+			String output = courant.getChild("outputFile").getValue();
 
 			// chaque source est ajouté à la hashMap
 			listeDataSource.put(i, new DataSource(nom, api, apiUrl, file,
-					filePath, mappingFile, xsltFile, format));
+					filePath, mappingFile, xsltFile, format, output));
 			i++;
 		}
-		
+
 		return getListeDataSource();
 
 	}
