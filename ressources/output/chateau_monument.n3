@@ -1,0 +1,798 @@
+ 
+@prefix ex: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix proj: <http://projet.com/10/> . 
+ 
+        
+<http://projet.com/10/LA_MAISON_DES_VINS_>	 ex:nom 	 "LA MAISON DES VINS "^^xsd:string; 
+    	ex:id	 "1"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "28 place du Millénaire"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44150"^^xsd:integer ;
+    
+<http://projet.com/10/LA_MAISON_DES_PALUDIERS>	 ex:nom 	 "LA MAISON DES PALUDIERS"^^xsd:string; 
+    	ex:id	 "2"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Saillé"^^xsd:string;
+    
+ 	 ex:adresse2 	 "18 rue des Prés-Garniers"^^xsd:string;
+    	ex:codePostal	 "44350"^^xsd:integer ;
+    
+<http://projet.com/10/EDF_-_Unité_de_Production>	 ex:nom 	 "EDF - Unité de Production"^^xsd:string; 
+    	ex:id	 "3"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "BP 13"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44360"^^xsd:integer ;
+    
+<http://projet.com/10/LA_MAISON_DE_BONCHAMPS>	 ex:nom 	 "LA MAISON DE BONCHAMPS"^^xsd:string; 
+    	ex:id	 "4"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "61 rue de la Basse Meilleraie"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44370"^^xsd:integer ;
+    
+<http://projet.com/10/LA_VILLA_LEMOT>	 ex:nom 	 "LA VILLA LEMOT"^^xsd:string; 
+    	ex:id	 "5"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "null"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44190"^^xsd:integer ;
+    
+<http://projet.com/10/MUSEE_DE_LA_VIGNE_ET_DU_VIN>	 ex:nom 	 "MUSEE DE LA VIGNE ET DU VIN"^^xsd:string; 
+    	ex:id	 "6"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Abbaye de Sainte Radegonde"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44430"^^xsd:integer ;
+    
+<http://projet.com/10/CHATEAU_D'OUDON_-_LOIRE_EN_SCENE>	 ex:nom 	 "CHATEAU D'OUDON - LOIRE EN SCENE"^^xsd:string; 
+    	ex:id	 "7"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Loire en Scène"^^xsd:string;
+    
+ 	 ex:adresse2 	 "11 Rue du Pont Levis"^^xsd:string;
+    	ex:codePostal	 "44521"^^xsd:integer ;
+    
+<http://projet.com/10/ECOMUSEE_DES_FOURS_A_CHAUX>	 ex:nom 	 "ECOMUSEE DES FOURS A CHAUX"^^xsd:string; 
+    	ex:id	 "8"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Route de St Julien de Vouvantes"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44110"^^xsd:integer ;
+    
+<http://projet.com/10/ATELIER_ET_MEMOIRE_DU_PAPIER>	 ex:nom 	 "ATELIER ET MEMOIRE DU PAPIER"^^xsd:string; 
+    	ex:id	 "9"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Chapelle des Templiers"^^xsd:string;
+    
+ 	 ex:adresse2 	 "Impasse de la Commanderie"^^xsd:string;
+    	ex:codePostal	 "44190"^^xsd:integer ;
+    
+<http://projet.com/10/MUSEE_DU_VIGNOBLE_NANTAIS>	 ex:nom 	 "MUSEE DU VIGNOBLE NANTAIS"^^xsd:string; 
+    	ex:id	 "10"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "82 rue Pierre Abelard"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44330"^^xsd:integer ;
+    
+<http://projet.com/10/MAISON_DE__PAYS_MUSEE_DES_FORGES_>	 ex:nom 	 "MAISON DE  PAYS MUSEE DES FORGES "^^xsd:string; 
+    	ex:id	 "11"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "La Forge Neuve"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44520"^^xsd:integer ;
+    
+<http://projet.com/10/MUSEE_DE_LA_RESISTANCE>	 ex:nom 	 "MUSEE DE LA RESISTANCE"^^xsd:string; 
+    	ex:id	 "12"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Ferme de la Sablière"^^xsd:string;
+    
+ 	 ex:adresse2 	 "Route de Laval"^^xsd:string;
+    	ex:codePostal	 "44110"^^xsd:integer ;
+    
+<http://projet.com/10/LE_SITE_DE_LA_CANTRIE>	 ex:nom 	 "LE SITE DE LA CANTRIE"^^xsd:string; 
+    	ex:id	 "13"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Association des « Amis de St Fiacre »"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44690"^^xsd:integer ;
+    
+<http://projet.com/10/DEMEURE_RENE_GUY_CADOU>	 ex:nom 	 "DEMEURE RENE GUY CADOU"^^xsd:string; 
+    	ex:id	 "14"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "3 rue René Guy Cadou"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44110"^^xsd:integer ;
+    
+<http://projet.com/10/MUSEE_DE_LA_CHANSON_FRANCAISE>	 ex:nom 	 "MUSEE DE LA CHANSON FRANCAISE"^^xsd:string; 
+    	ex:id	 "15"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "8 rue Paul Joyau"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44140"^^xsd:integer ;
+    
+<http://projet.com/10/MUSEE_AGRI-RETRO>	 ex:nom 	 "MUSEE AGRI-RETRO"^^xsd:string; 
+    	ex:id	 "16"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Le Bas-Houx"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44170"^^xsd:integer ;
+    
+<http://projet.com/10/MUSEE_ERDRE_VIVANTE>	 ex:nom 	 "MUSEE ERDRE VIVANTE"^^xsd:string; 
+    	ex:id	 "17"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Site des Renaudières"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44470"^^xsd:integer ;
+    
+<http://projet.com/10/FRAC_DES_PAYS_DE_LA_LOIRE>	 ex:nom 	 "FRAC DES PAYS DE LA LOIRE"^^xsd:string; 
+    	ex:id	 "18"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Fonds Régional d'Art Contemporain"^^xsd:string;
+    
+ 	 ex:adresse2 	 "La Fleuriaye"^^xsd:string;
+    	ex:codePostal	 "44470"^^xsd:integer ;
+    
+<http://projet.com/10/MUSEE_DU_TEMPS_QUI_PASSE>	 ex:nom 	 "MUSEE DU TEMPS QUI PASSE"^^xsd:string; 
+    	ex:id	 "19"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Les Renaudières"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44470"^^xsd:integer ;
+    
+<http://projet.com/10/LES_FORGES_DE_LA_HUNAUDIERE>	 ex:nom 	 "LES FORGES DE LA HUNAUDIERE"^^xsd:string; 
+    	ex:id	 "20"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Association Les Amis des Forges de la Hunaudière"^^xsd:string;
+    
+ 	 ex:adresse2 	 "La Hunaudière"^^xsd:string;
+    	ex:codePostal	 "44590"^^xsd:integer ;
+    
+<http://projet.com/10/LE_MOULIN_DE_KERBROUE>	 ex:nom 	 "LE MOULIN DE KERBROUE"^^xsd:string; 
+    	ex:id	 "21"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Route de St Molf"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44420"^^xsd:integer ;
+    
+<http://projet.com/10/MUSEE_D'HISTOIRE_DE_NANTES>	 ex:nom 	 "MUSEE D'HISTOIRE DE NANTES"^^xsd:string; 
+    	ex:id	 "22"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "4 place Marc Elder"^^xsd:string;
+    
+ 	 ex:adresse2 	 "Château des Ducs de Bretagne"^^xsd:string;
+    	ex:codePostal	 "44000"^^xsd:integer ;
+    
+<http://projet.com/10/MUSEE_NAVAL_MAILLE_BREZE>	 ex:nom 	 "MUSEE NAVAL MAILLE BREZE"^^xsd:string; 
+    	ex:id	 "23"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "105 Quai de la Fosse"^^xsd:string;
+    
+ 	 ex:adresse2 	 "BP 68721"^^xsd:string;
+    	ex:codePostal	 "44187"^^xsd:integer ;
+    
+<http://projet.com/10/LA_MAISON_DES_VINS_DE_LOIRE>	 ex:nom 	 "LA MAISON DES VINS DE LOIRE"^^xsd:string; 
+    	ex:id	 "24"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "15 place du Commerce"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44000"^^xsd:integer ;
+    
+<http://projet.com/10/MUSEE_DE_L’IMPRIMERIE>	 ex:nom 	 "MUSEE DE L’IMPRIMERIE"^^xsd:string; 
+    	ex:id	 "25"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Pro Arte Graphica"^^xsd:string;
+    
+ 	 ex:adresse2 	 "24 quai de la Fosse"^^xsd:string;
+    	ex:codePostal	 "44000"^^xsd:integer ;
+    
+<http://projet.com/10/MUSEUM_D’HISTOIRE_NATURELLE>	 ex:nom 	 "MUSEUM D’HISTOIRE NATURELLE"^^xsd:string; 
+    	ex:id	 "26"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "12 rue Voltaire"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44000"^^xsd:integer ;
+    
+<http://projet.com/10/LA_MAISON_DES_HOMMES_ET_DES_TECHNIQUES>	 ex:nom 	 "LA MAISON DES HOMMES ET DES TECHNIQUES"^^xsd:string; 
+    	ex:id	 "27"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "2 bis bd Léon Bureau"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44200"^^xsd:integer ;
+    
+<http://projet.com/10/LA_MAISON_RADIEUSE_LE_CORBUSIER>	 ex:nom 	 "LA MAISON RADIEUSE LE CORBUSIER"^^xsd:string; 
+    	ex:id	 "28"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "rue Théodore Brosseaud"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44403"^^xsd:integer ;
+    
+<http://projet.com/10/MUSEE_JULES_VERNE>	 ex:nom 	 "MUSEE JULES VERNE"^^xsd:string; 
+    	ex:id	 "29"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "3 rue de l’Hermitage"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44000"^^xsd:integer ;
+    
+<http://projet.com/10/MUSEE_COMPAGNONNIQUE>	 ex:nom 	 "MUSEE COMPAGNONNIQUE"^^xsd:string; 
+    	ex:id	 "30"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Manoir de la Hautière"^^xsd:string;
+    
+ 	 ex:adresse2 	 "14 rue Guillon Verne"^^xsd:string;
+    	ex:codePostal	 "44100"^^xsd:integer ;
+    
+<http://projet.com/10/LE_MOULIN_DU_PONT>	 ex:nom 	 "LE MOULIN DU PONT"^^xsd:string; 
+    	ex:id	 "31"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Association de Sauvegarde du Moulin du Pont Godalin"^^xsd:string;
+    
+ 	 ex:adresse2 	 "Le Pont"^^xsd:string;
+    	ex:codePostal	 "44590"^^xsd:integer ;
+    
+<http://projet.com/10/LA_CARRIERE_DE_LA_PIERRE_BLEUE>	 ex:nom 	 "LA CARRIERE DE LA PIERRE BLEUE"^^xsd:string; 
+    	ex:id	 "32"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "25 rue du Vieux Bourg"^^xsd:string;
+    
+ 	 ex:adresse2 	 "Route de Rennes"^^xsd:string;
+    	ex:codePostal	 "44170"^^xsd:integer ;
+    
+<http://projet.com/10/OBSERVATOIRE_ORNITHOLOGIQUE_DU_LAC_DE_GRAND-LIEU>	 ex:nom 	 "OBSERVATOIRE ORNITHOLOGIQUE DU LAC DE GRAND-LIEU"^^xsd:string; 
+    	ex:id	 "33"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Maison des Pêcheurs"^^xsd:string;
+    
+ 	 ex:adresse2 	 "16 rue Yves Brisson"^^xsd:string;
+    	ex:codePostal	 "44118"^^xsd:integer ;
+    
+<http://projet.com/10/LA_MAISON_DU_PECHEUR_>	 ex:nom 	 "LA MAISON DU PECHEUR "^^xsd:string; 
+    	ex:id	 "34"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "16 rue Yves Brisson"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44118"^^xsd:integer ;
+    
+<http://projet.com/10/SITE_DE_L'ABBATIALE_-_DEAS>	 ex:nom 	 "SITE DE L'ABBATIALE - DEAS"^^xsd:string; 
+    	ex:id	 "35"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Place de l'Abbatiale"^^xsd:string;
+    
+ 	 ex:adresse2 	 "Le Prieuré"^^xsd:string;
+    	ex:codePostal	 "44310"^^xsd:integer ;
+    
+<http://projet.com/10/LA_MAISON_DE_LA_RESERVE_DU_LAC_DE_GRANDLIEU>	 ex:nom 	 "LA MAISON DE LA RESERVE DU LAC DE GRANDLIEU"^^xsd:string; 
+    	ex:id	 "36"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "20, rue de l’Acheneau"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44830"^^xsd:integer ;
+    
+<http://projet.com/10/ECOMUSEE_RURAL_DU_PAYS_NANTAIS>	 ex:nom 	 "ECOMUSEE RURAL DU PAYS NANTAIS"^^xsd:string; 
+    	ex:id	 "37"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "11 rue du Lavoir"^^xsd:string;
+    
+ 	 ex:adresse2 	 "81  rue Anne de Bretagne"^^xsd:string;
+    	ex:codePostal	 "44360"^^xsd:integer ;
+    
+<http://projet.com/10/MUSEE_BENOIST_-_MAISON_DE_LA_FORET_DU_GAVRE>	 ex:nom 	 "MUSEE BENOIST - MAISON DE LA FORET DU GAVRE"^^xsd:string; 
+    	ex:id	 "38"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Association Musée Benoist"^^xsd:string;
+    
+ 	 ex:adresse2 	 "2 route de Conquéreuil"^^xsd:string;
+    	ex:codePostal	 "44130"^^xsd:integer ;
+    
+<http://projet.com/10/CHATEAU_DE_BLAIN_-_MONUMENT_HISTORIQUE>	 ex:nom 	 "CHATEAU DE BLAIN - MONUMENT HISTORIQUE"^^xsd:string; 
+    	ex:id	 "39"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Château et Essor Blinois"^^xsd:string;
+    
+ 	 ex:adresse2 	 "6 allée Olivier de Clisson"^^xsd:string;
+    	ex:codePostal	 "44130"^^xsd:integer ;
+    
+<http://projet.com/10/MUSEE_DE_LA_FEVE,_CRECHES_ET_TRADITIONS_POPULAIRES>	 ex:nom 	 "MUSEE DE LA FEVE, CRECHES ET TRADITIONS POPULAIRES"^^xsd:string; 
+    	ex:id	 "40"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "2 place Jean Guihard"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44130"^^xsd:integer ;
+    
+<http://projet.com/10/MUSEE_MINES_ET_MINERAUX_-_LA_FERME_DE_L'ORME>	 ex:nom 	 "MUSEE MINES ET MINERAUX - LA FERME DE L'ORME"^^xsd:string; 
+    	ex:id	 "41"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "L'Orme"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44130"^^xsd:integer ;
+    
+<http://projet.com/10/ESPACE_MAQUETTES_DE_TRAIN>	 ex:nom 	 "ESPACE MAQUETTES DE TRAIN"^^xsd:string; 
+    	ex:id	 "42"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "10 boulevard des Acacias"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44260"^^xsd:integer ;
+    
+<http://projet.com/10/MUSEE_DU_PAYS_DE_RETZ>	 ex:nom 	 "MUSEE DU PAYS DE RETZ"^^xsd:string; 
+    	ex:id	 "43"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "6 rue des Moines - BP 14"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44580"^^xsd:integer ;
+    
+<http://projet.com/10/MARAIS_SALANT_« TENUE_DE_MAREIL »>	 ex:nom 	 "MARAIS SALANT « TENUE DE MAREIL »"^^xsd:string; 
+    	ex:id	 "44"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Association Patrimoine Marche de Bretagne Marais Breton"^^xsd:string;
+    
+ 	 ex:adresse2 	 "Domaine de Lyarne"^^xsd:string;
+    	ex:codePostal	 "44760"^^xsd:integer ;
+    
+<http://projet.com/10/MUSEE_DE_LA_MARINE_EN_BOIS_DU_BRIVET>	 ex:nom 	 "MUSEE DE LA MARINE EN BOIS DU BRIVET"^^xsd:string; 
+    	ex:id	 "45"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Espace Châteaubriant "^^xsd:string;
+    
+ 	 ex:adresse2 	 "6 rue de Châteaubriant"^^xsd:string;
+    	ex:codePostal	 "44550"^^xsd:integer ;
+    
+<http://projet.com/10/LA_MAISON_DE_L’ECLUSIER>	 ex:nom 	 "LA MAISON DE L’ECLUSIER"^^xsd:string; 
+    	ex:id	 "46"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Rozé"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44550"^^xsd:integer ;
+    
+<http://projet.com/10/LE_MULON_DE_PEN_BRON>	 ex:nom 	 "LE MULON DE PEN BRON"^^xsd:string; 
+    	ex:id	 "47"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Monsieur Philippe CONSTANT"^^xsd:string;
+    
+ 	 ex:adresse2 	 "Route de Pen Bron"^^xsd:string;
+    	ex:codePostal	 "44350"^^xsd:integer ;
+    
+<http://projet.com/10/SEMAPHORE_DE_LA_POINTE_ST_GILDAS>	 ex:nom 	 "SEMAPHORE DE LA POINTE ST GILDAS"^^xsd:string; 
+    	ex:id	 "48"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Pointe Saint-Gildas"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44770"^^xsd:integer ;
+    
+<http://projet.com/10/CHANTIERS_NAVALS_DE_SAINT-NAZAIRE>	 ex:nom 	 "CHANTIERS NAVALS DE SAINT-NAZAIRE"^^xsd:string; 
+    	ex:id	 "49"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Boulevard de la Légion d'Honneur"^^xsd:string;
+    
+ 	 ex:adresse2 	 "Base sous-marine / Ville Port"^^xsd:string;
+    	ex:codePostal	 "44600"^^xsd:integer ;
+    
+<http://projet.com/10/LA_CHAUMIERE_DES_MARIONNETTES>	 ex:nom 	 "LA CHAUMIERE DES MARIONNETTES"^^xsd:string; 
+    	ex:id	 "50"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "28 rue de la Herviais"^^xsd:string;
+    
+ 	 ex:adresse2 	 "Mayun"^^xsd:string;
+    	ex:codePostal	 "44410"^^xsd:integer ;
+    
+<http://projet.com/10/LA_CHAUMIERE_DU_PATRIMOINE>	 ex:nom 	 "LA CHAUMIERE DU PATRIMOINE"^^xsd:string; 
+    	ex:id	 "51"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "1, rue du Coilly"^^xsd:string;
+    
+ 	 ex:adresse2 	 "Mayun"^^xsd:string;
+    	ex:codePostal	 "44410"^^xsd:integer ;
+    
+<http://projet.com/10/LE_MOULIN_DE_LA_BICANE>	 ex:nom 	 "LE MOULIN DE LA BICANE"^^xsd:string; 
+    	ex:id	 "52"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "La Bicane"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44750"^^xsd:integer ;
+    
+<http://projet.com/10/LA_MAISON_DE_LA_MARIEE>	 ex:nom 	 "LA MAISON DE LA MARIEE"^^xsd:string; 
+    	ex:id	 "53"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Parc Naturel Régional de Brière"^^xsd:string;
+    
+ 	 ex:adresse2 	 "182 rue du Pouet"^^xsd:string;
+    	ex:codePostal	 "44720"^^xsd:integer ;
+    
+<http://projet.com/10/VILLAGE_DE_KERHINET>	 ex:nom 	 "VILLAGE DE KERHINET"^^xsd:string; 
+    	ex:id	 "54"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Parc Naturel Régional de Brière"^^xsd:string;
+    
+ 	 ex:adresse2 	 "Village de Kerhinet"^^xsd:string;
+    	ex:codePostal	 "44410"^^xsd:integer ;
+    
+<http://projet.com/10/BRASSERIE_DE_LA_BRIERE>	 ex:nom 	 "BRASSERIE DE LA BRIERE"^^xsd:string; 
+    	ex:id	 "55"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Le Nezyl"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44410"^^xsd:integer ;
+    
+<http://projet.com/10/LE_MOULIN_DE_LA_FEE>	 ex:nom 	 "LE MOULIN DE LA FEE"^^xsd:string; 
+    	ex:id	 "56"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "La Masse"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44410"^^xsd:integer ;
+    
+<http://projet.com/10/MUSEE_AERONAUTIQUE_DE_LA_PRESQU'ILE_COTE_D'AMOUR>	 ex:nom 	 "MUSEE AERONAUTIQUE DE LA PRESQU'ILE COTE D'AMOUR"^^xsd:string; 
+    	ex:id	 "57"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Aérodrome de La Baule-Escoublac"^^xsd:string;
+    
+ 	 ex:adresse2 	 "Rue Breton"^^xsd:string;
+    	ex:codePostal	 "44500"^^xsd:integer ;
+    
+<http://projet.com/10/MUSEE_DE_LA_POUPEE_ET_DU_JOUET_ANCIEN>	 ex:nom 	 "MUSEE DE LA POUPEE ET DU JOUET ANCIEN"^^xsd:string; 
+    	ex:id	 "58"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "23 rue de Saillé"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44350"^^xsd:integer ;
+    
+<http://projet.com/10/REMPARTS_DE_GUERANDE>	 ex:nom 	 "REMPARTS DE GUERANDE"^^xsd:string; 
+    	ex:id	 "59"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Porte St-Michel"^^xsd:string;
+    
+ 	 ex:adresse2 	 "BP 85139"^^xsd:string;
+    	ex:codePostal	 "44351"^^xsd:integer ;
+    
+<http://projet.com/10/LE_GRAND_BLOCKHAUS>	 ex:nom 	 "LE GRAND BLOCKHAUS"^^xsd:string; 
+    	ex:id	 "60"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Route de la Côte Sauvage"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44740"^^xsd:integer ;
+    
+<http://projet.com/10/LA_MAISON_DU_CANAL_>	 ex:nom 	 "LA MAISON DU CANAL "^^xsd:string; 
+    	ex:id	 "61"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "1 rue de Pont Miny"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44460"^^xsd:integer ;
+    
+<http://projet.com/10/LA_MAISON_DU_LAVOIR>	 ex:nom 	 "LA MAISON DU LAVOIR"^^xsd:string; 
+    	ex:id	 "62"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Rue de Pornic"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44320"^^xsd:integer ;
+    
+<http://projet.com/10/MUSEE_DES_MARAIS_SALANTS>	 ex:nom 	 "MUSEE DES MARAIS SALANTS"^^xsd:string; 
+    	ex:id	 "63"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "29 bis rue Pasteur"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44740"^^xsd:integer ;
+    
+<http://projet.com/10/LE_CONSERVATOIRE_DES_VIEUX_METIERS>	 ex:nom 	 "LE CONSERVATOIRE DES VIEUX METIERS"^^xsd:string; 
+    	ex:id	 "64"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Chemin de Sainte Opportune"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44320"^^xsd:integer ;
+    
+<http://projet.com/10/MUSEE_LA_MAISON_DE_LA_PECHE>	 ex:nom 	 "MUSEE LA MAISON DE LA PECHE"^^xsd:string; 
+    	ex:id	 "65"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Centre de marée"^^xsd:string;
+    
+ 	 ex:adresse2 	 "Port de La Turballe"^^xsd:string;
+    	ex:codePostal	 "44420"^^xsd:integer ;
+    
+<http://projet.com/10/LA_MAISON_DU_PATRIMOINE>	 ex:nom 	 "LA MAISON DU PATRIMOINE"^^xsd:string; 
+    	ex:id	 "66"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "3 Place Henri Vignioboul"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44420"^^xsd:integer ;
+    
+<http://projet.com/10/LA_FERME_DU_VIEUX_PORCHE>	 ex:nom 	 "LA FERME DU VIEUX PORCHE"^^xsd:string; 
+    	ex:id	 "67"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "La Grande Thibaudière"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44650"^^xsd:integer ;
+    
+<http://projet.com/10/SEL_DE_BOURGNEUF_EN_RETZ_LES_SALINES_NEUVES_-_D__ROBARD_PALUDIER>	 ex:nom 	 "SEL DE BOURGNEUF EN RETZ LES SALINES NEUVES - D  ROBARD PALUDIER"^^xsd:string; 
+    	ex:id	 "68"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Le Fresne"^^xsd:string;
+    
+ 	 ex:adresse2 	 "BP 2"^^xsd:string;
+    	ex:codePostal	 "44580"^^xsd:integer ;
+    
+<http://projet.com/10/SALINES_DE_MILLAC>	 ex:nom 	 "SALINES DE MILLAC"^^xsd:string; 
+    	ex:id	 "69"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "1 avenue Bocandé"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44760"^^xsd:integer ;
+    
+<http://projet.com/10/CAVEAU_DES_MUSCADETS>	 ex:nom 	 "CAVEAU DES MUSCADETS"^^xsd:string; 
+    	ex:id	 "70"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Office de Tourisme"^^xsd:string;
+    
+ 	 ex:adresse2 	 "Place du Minage"^^xsd:string;
+    	ex:codePostal	 "44190"^^xsd:integer ;
+    
+<http://projet.com/10/LA_BISCUITERIE_LE_PETIT_MOUZILLON>	 ex:nom 	 "LA BISCUITERIE LE PETIT MOUZILLON"^^xsd:string; 
+    	ex:id	 "71"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "ZA des quatre chemins"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44330"^^xsd:integer ;
+    
+<http://projet.com/10/LA_FERME_DES_ABEILLES>	 ex:nom 	 "LA FERME DES ABEILLES"^^xsd:string; 
+    	ex:id	 "72"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "57 La Granville"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44250"^^xsd:integer ;
+    
+<http://projet.com/10/MUSEE_DE_LA_MARINE>	 ex:nom 	 "MUSEE DE LA MARINE"^^xsd:string; 
+    	ex:id	 "73"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Place Bougainville"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44250"^^xsd:integer ;
+    
+<http://projet.com/10/LE_MOULIN_DE_LA_FALAISE>	 ex:nom 	 "LE MOULIN DE LA FALAISE"^^xsd:string; 
+    	ex:id	 "74"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Route du Croisic"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44740"^^xsd:integer ;
+    
+<http://projet.com/10/LE_NATURSEL_DE_GUERANDE>	 ex:nom 	 "LE NATURSEL DE GUERANDE"^^xsd:string; 
+    	ex:id	 "75"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Rue de Bretagne"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44740"^^xsd:integer ;
+    
+<http://projet.com/10/MUSEE_DU_TEMPS_DE_BAIGNEURS>	 ex:nom 	 "MUSEE DU TEMPS DE BAIGNEURS"^^xsd:string; 
+    	ex:id	 "76"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "8 rue de la gorge sèche"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44360"^^xsd:integer ;
+    
+<http://projet.com/10/BRASSERIE_DU_BOUFFAY>	 ex:nom 	 "BRASSERIE DU BOUFFAY"^^xsd:string; 
+    	ex:id	 "77"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "54 rue des Monceaux"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44470"^^xsd:integer ;
+    
+<http://projet.com/10/ILE_MOUCHET>	 ex:nom 	 "ILE MOUCHET"^^xsd:string; 
+    	ex:id	 "78"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Office de Tourisme d'Ancenis"^^xsd:string;
+    
+ 	 ex:adresse2 	 "27 rue du Château"^^xsd:string;
+    	ex:codePostal	 "44150"^^xsd:integer ;
+    
+<http://projet.com/10/GAEC_LES_CHAMPS_MARINS>	 ex:nom 	 "GAEC LES CHAMPS MARINS"^^xsd:string; 
+    	ex:id	 "79"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Pend Hué"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44350"^^xsd:integer ;
+    
+<http://projet.com/10/ATELIERS_LE_MAUFF>	 ex:nom 	 "ATELIERS LE MAUFF"^^xsd:string; 
+    	ex:id	 "80"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "La Harrois"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44160"^^xsd:integer ;
+    
+<http://projet.com/10/LA_FERME_MARINE_DE_PEN_BE>	 ex:nom 	 "LA FERME MARINE DE PEN BE"^^xsd:string; 
+    	ex:id	 "81"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Route de l'Estran"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44410"^^xsd:integer ;
+    
+<http://projet.com/10/LES_SALINES_DE_BEAUREGARD>	 ex:nom 	 "LES SALINES DE BEAUREGARD"^^xsd:string; 
+    	ex:id	 "82"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Ques Couic"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44410"^^xsd:integer ;
+    
+<http://projet.com/10/LA_MAISON_DU_PATRIMOINE>	 ex:nom 	 "LA MAISON DU PATRIMOINE"^^xsd:string; 
+    	ex:id	 "83"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Mairie"^^xsd:string;
+    
+ 	 ex:adresse2 	 "1 avenue de la Monneraye"^^xsd:string;
+    	ex:codePostal	 "44410"^^xsd:integer ;
+    
+<http://projet.com/10/PASSION_FAIENCE>	 ex:nom 	 "PASSION FAIENCE"^^xsd:string; 
+    	ex:id	 "84"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "1 rue de Nantes"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44590"^^xsd:integer ;
+    
+<http://projet.com/10/LA_CARRIERE_DES_FUSILLES>	 ex:nom 	 "LA CARRIERE DES FUSILLES"^^xsd:string; 
+    	ex:id	 "85"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "La Sablière"^^xsd:string;
+    
+ 	 ex:adresse2 	 "Route de Laval"^^xsd:string;
+    	ex:codePostal	 "44110"^^xsd:integer ;
+    
+<http://projet.com/10/L'ENCLOS_DU_VIEUX_BOURG>	 ex:nom 	 "L'ENCLOS DU VIEUX BOURG"^^xsd:string; 
+    	ex:id	 "86"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "25 rue du Vieux Bourg"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44170"^^xsd:integer ;
+    
+<http://projet.com/10/CHATEAU_D’ANCENIS>	 ex:nom 	 "CHATEAU D’ANCENIS"^^xsd:string; 
+    	ex:id	 "87"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "null"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44150"^^xsd:integer ;
+    
+<http://projet.com/10/CHATEAU_DE_LA_MOTTE_GLAIN>	 ex:nom 	 "CHATEAU DE LA MOTTE GLAIN"^^xsd:string; 
+    	ex:id	 "88"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "null"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44670"^^xsd:integer ;
+    
+<http://projet.com/10/SITE_ARCHEOLOGIQUE_DE_SAINT-LUPIEN>	 ex:nom 	 "SITE ARCHEOLOGIQUE DE SAINT-LUPIEN"^^xsd:string; 
+    	ex:id	 "89"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Mairie"^^xsd:string;
+    
+ 	 ex:adresse2 	 "Place Jean Baptiste Daviais"^^xsd:string;
+    	ex:codePostal	 "44403"^^xsd:integer ;
+    
+<http://projet.com/10/LA_MAISON_DU_JARDINIER>	 ex:nom 	 "LA MAISON DU JARDINIER"^^xsd:string; 
+    	ex:id	 "90"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Domaine Départemental de la Garenne Lemot"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44190"^^xsd:integer ;
+    
+<http://projet.com/10/CHATEAU_DEPARTEMENTAL_DE_CLISSON>	 ex:nom 	 "CHATEAU DEPARTEMENTAL DE CLISSON"^^xsd:string; 
+    	ex:id	 "91"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Rue du Château"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44190"^^xsd:integer ;
+    
+<http://projet.com/10/CHATEAU_DEPARTEMENTAL_DE_CHATEAUBRIANT>	 ex:nom 	 "CHATEAU DEPARTEMENTAL DE CHATEAUBRIANT"^^xsd:string; 
+    	ex:id	 "92"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Place du Général de Gaulle"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44110"^^xsd:integer ;
+    
+<http://projet.com/10/CHATEAU_DE_GOULAINE>	 ex:nom 	 "CHATEAU DE GOULAINE"^^xsd:string; 
+    	ex:id	 "93"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Allée du château"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44115"^^xsd:integer ;
+    
+<http://projet.com/10/CHATEAU_DES_DUCS_DE_BRETAGNE_>	 ex:nom 	 "CHATEAU DES DUCS DE BRETAGNE "^^xsd:string; 
+    	ex:id	 "94"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "4 place Marc Elder"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44000"^^xsd:integer ;
+    
+<http://projet.com/10/PLANETARIUM>	 ex:nom 	 "PLANETARIUM"^^xsd:string; 
+    	ex:id	 "95"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "8 rue des Acadiens"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44100"^^xsd:integer ;
+    
+<http://projet.com/10/CHATEAU_DE_GILLES_DE_RAIS>	 ex:nom 	 "CHATEAU DE GILLES DE RAIS"^^xsd:string; 
+    	ex:id	 "96"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Route de Nantes"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44270"^^xsd:integer ;
+    
+<http://projet.com/10/CHATEAU_DE_RANROUET>	 ex:nom 	 "CHATEAU DE RANROUET"^^xsd:string; 
+    	ex:id	 "97"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Rue de Ranrouët"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44410"^^xsd:integer ;
+    
+<http://projet.com/10/CHATEAU_DE_CAREIL>	 ex:nom 	 "CHATEAU DE CAREIL"^^xsd:string; 
+    	ex:id	 "98"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "33 rue du château de Careil"^^xsd:string;
+    
+ 	 ex:adresse2 	 "null"^^xsd:string;
+    	ex:codePostal	 "44350"^^xsd:integer ;
+    
+<http://projet.com/10/LE_CLOCHER_DE_SAINT_LYPHARD>	 ex:nom 	 "LE CLOCHER DE SAINT LYPHARD"^^xsd:string; 
+    	ex:id	 "99"^^xsd:integer ;
+    
+ 	 ex:adresse1 	 "Office de Tourisme"^^xsd:string;
+    
+ 	 ex:adresse2 	 "Place de l'Eglise"^^xsd:string;
+    	ex:codePostal	 "44410"^^xsd:integer ;
+    
