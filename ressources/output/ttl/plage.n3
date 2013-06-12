@@ -1,0 +1,735 @@
+
+@prefix ex: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix proj: <http://projet.com/10/> . 
+
+        
+<http://projet.com/10/PLAGE_DU_PRE_VINCENT>	 ex:nom 	 "PLAGE DU PRE VINCENT"^^xsd:string;
+	ex:id	 "1"^^xsd:integer ;
+	ex:adresse1 	 "Rue du Pré Vincent"^^xsd:string;
+	ex:codePostal	 "44760"^^xsd:integer ;
+	ex:ville 	 "LES MOUTIERS-EN-RETZ"^^xsd:string;
+	ex:telephone1 	 "02 40 82 74 00"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:label1 	 "Pavillon Bleu"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.0633869 , -2.0040863]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DES_CARRES>	 ex:nom 	 "PLAGE DES CARRES"^^xsd:string;
+	ex:id	 "2"^^xsd:integer ;
+	ex:adresse1 	 "Avenue Louis Gautier"^^xsd:string;
+	ex:codePostal	 "44760"^^xsd:integer ;
+	ex:ville 	 "LA BERNERIE-EN-RETZ"^^xsd:string;
+	ex:telephone1 	 "02 40 82 70 99"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.0749935 , -2.0323159]"^^xsd:string.
+
+<http://projet.com/10/GRANDE_PLAGE_DE_LA_BERNERIE-EN-RETZ>	 ex:nom 	 "GRANDE PLAGE DE LA BERNERIE-EN-RETZ"^^xsd:string;
+	ex:id	 "3"^^xsd:integer ;
+	ex:adresse1 	 "Rue de la Mer"^^xsd:string;
+	ex:codePostal	 "44760"^^xsd:integer ;
+	ex:ville 	 "LA BERNERIE-EN-RETZ"^^xsd:string;
+	ex:telephone1 	 "02 40 82 70 99"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.0798588 , -2.038124]"^^xsd:string.
+
+<http://projet.com/10/PLAN_D'EAU_SALEE>	 ex:nom 	 "PLAN D'EAU SALEE"^^xsd:string;
+	ex:id	 "4"^^xsd:integer ;
+	ex:adresse1 	 "Rue de la Mer"^^xsd:string;
+	ex:codePostal	 "44760"^^xsd:integer ;
+	ex:ville 	 "LA BERNERIE-EN-RETZ"^^xsd:string;
+	ex:telephone1 	 "02 40 82 70 99"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:label1 	 "Pavillon Bleu"^^xsd:string;
+	ex:handiplage 	 "oui"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.0798588 , -2.038124]"^^xsd:string.
+
+<http://projet.com/10/PLAN_D'EAU_SALEE>	 ex:nom 	 "PLAN D'EAU SALEE"^^xsd:string;
+	ex:id	 "5"^^xsd:integer ;
+	ex:adresse1 	 "Rue de la Mer"^^xsd:string;
+	ex:codePostal	 "44760"^^xsd:integer ;
+	ex:ville 	 "LA BERNERIE-EN-RETZ"^^xsd:string;
+	ex:telephone1 	 "02 40 82 70 99"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:label1 	 "Pavillon Bleu"^^xsd:string;
+	ex:handiplage 	 "oui"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.0798588 , -2.038124]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_ROCHE-MARIE>	 ex:nom 	 "PLAGE DE ROCHE-MARIE"^^xsd:string;
+	ex:id	 "6"^^xsd:integer ;
+	ex:adresse1 	 "Avenue du Docteur Richelot"^^xsd:string;
+	ex:codePostal	 "44760"^^xsd:integer ;
+	ex:ville 	 "LA BERNERIE-EN-RETZ"^^xsd:string;
+	ex:telephone1 	 "02 40 82 70 99"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.0878192 , -2.0485275]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_LA_BOUTINARDIERE>	 ex:nom 	 "PLAGE DE LA BOUTINARDIERE"^^xsd:string;
+	ex:id	 "7"^^xsd:integer ;
+	ex:adresse1 	 "Rue de la Boutinardière"^^xsd:string;
+	ex:codePostal	 "44210"^^xsd:integer ;
+	ex:ville 	 "PORNIC"^^xsd:string;
+	ex:telephone1 	 "02 40 82 04 40"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.0982626 , -2.0512257]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_LA_FONTAINE_AUX_BRETONS>	 ex:nom 	 "PLAGE DE LA FONTAINE AUX BRETONS"^^xsd:string;
+	ex:id	 "8"^^xsd:integer ;
+	ex:adresse1 	 "Rue des Noëlles"^^xsd:string;
+	ex:codePostal	 "44210"^^xsd:integer ;
+	ex:ville 	 "PORNIC"^^xsd:string;
+	ex:telephone1 	 "02 40 82 04 40"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.1021345 , -2.0675033]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_LA_JOSELIERE>	 ex:nom 	 "PLAGE DE LA JOSELIERE"^^xsd:string;
+	ex:id	 "9"^^xsd:integer ;
+	ex:adresse1 	 "Rue de la plage de la Joselière"^^xsd:string;
+	ex:codePostal	 "44210"^^xsd:integer ;
+	ex:ville 	 "PORNIC"^^xsd:string;
+	ex:telephone1 	 "02 40 82 04 40"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.1037836 , -2.0812744]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_LA_BIROCHERE>	 ex:nom 	 "PLAGE DE LA BIROCHERE"^^xsd:string;
+	ex:id	 "10"^^xsd:integer ;
+	ex:adresse1 	 "Rue de la plage de la Birochère"^^xsd:string;
+	ex:codePostal	 "44210"^^xsd:integer ;
+	ex:ville 	 "PORNIC"^^xsd:string;
+	ex:telephone1 	 "02 40 82 04 40"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:label1 	 "Pavillon Bleu"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.1064701 , -2.0909557]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_LA_SOURCE>	 ex:nom 	 "PLAGE DE LA SOURCE"^^xsd:string;
+	ex:id	 "11"^^xsd:integer ;
+	ex:adresse1 	 "Rue de la Source"^^xsd:string;
+	ex:codePostal	 "44210"^^xsd:integer ;
+	ex:ville 	 "PORNIC"^^xsd:string;
+	ex:telephone1 	 "02 40 82 04 40"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.1109863 , -2.0976598]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_LA_NOËVEILLARD>	 ex:nom 	 "PLAGE DE LA NOËVEILLARD"^^xsd:string;
+	ex:id	 "12"^^xsd:integer ;
+	ex:adresse1 	 "Avenue de la Noëveillard"^^xsd:string;
+	ex:codePostal	 "44210"^^xsd:integer ;
+	ex:ville 	 "PORNIC"^^xsd:string;
+	ex:telephone1 	 "02 40 82 04 40"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:label1 	 "Pavillon Bleu"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.1113004 , -2.1114398]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_LA_PIERRE_ATTELEE_(LA_ROUSSELLERIE)>	 ex:nom 	 "PLAGE DE LA PIERRE ATTELEE (LA ROUSSELLERIE)"^^xsd:string;
+	ex:id	 "13"^^xsd:integer ;
+	ex:adresse1 	 "Avenue des Pierres Couchées"^^xsd:string;
+	ex:codePostal	 "44250"^^xsd:integer ;
+	ex:ville 	 "SAINT-BREVIN"^^xsd:string;
+	ex:telephone1 	 "02 40 27 24 32"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.204964 , -2.153915]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_GOHAUD>	 ex:nom 	 "PLAGE DE GOHAUD"^^xsd:string;
+	ex:id	 "14"^^xsd:integer ;
+	ex:adresse1 	 "Route de Gohaud"^^xsd:string;
+	ex:codePostal	 "44730"^^xsd:integer ;
+	ex:ville 	 "SAINT-MICHEL-CHEF-CHEF"^^xsd:string;
+	ex:telephone1 	 "02 40 27 82 54"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:label1 	 "Pavillon Bleu"^^xsd:string;
+	ex:handiplage 	 "oui"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.1898258 , -2.1543899]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_L'ERMITAGE>	 ex:nom 	 "PLAGE DE L'ERMITAGE"^^xsd:string;
+	ex:id	 "15"^^xsd:integer ;
+	ex:adresse1 	 "Allée des Jasmins"^^xsd:string;
+	ex:codePostal	 "44250"^^xsd:integer ;
+	ex:ville 	 "SAINT-BREVIN"^^xsd:string;
+	ex:telephone1 	 "02 40 27 24 32"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:label1 	 "Pavillon Bleu"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.206649 , -2.1564229]"^^xsd:string.
+
+<http://projet.com/10/PLAGES_DU_CABONNAIS,_DU_LANNEGUY_ET_DU_TOUL-RU>	 ex:nom 	 "PLAGES DU CABONNAIS, DU LANNEGUY ET DU TOUL-RU"^^xsd:string;
+	ex:id	 "16"^^xsd:integer ;
+	ex:adresse1 	 "Impasse du Lannguy"^^xsd:string;
+	ex:codePostal	 "44420"^^xsd:integer ;
+	ex:ville 	 "MISSILLAC"^^xsd:string;
+	ex:telephone1 	 "02 40 42 64 37"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.4807054 , -2.1599405]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_SORLOCK>	 ex:nom 	 "PLAGE DE SORLOCK"^^xsd:string;
+	ex:id	 "17"^^xsd:integer ;
+	ex:adresse1 	 "Route de Merquel"^^xsd:string;
+	ex:codePostal	 "44420"^^xsd:integer ;
+	ex:ville 	 "MISSILLAC"^^xsd:string;
+	ex:telephone1 	 "02 40 42 64 37"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.4807054 , -2.1599405]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DES_ROCHELETS>	 ex:nom 	 "PLAGE DES ROCHELETS"^^xsd:string;
+	ex:id	 "18"^^xsd:integer ;
+	ex:adresse1 	 "Avenue Alexandre Bernard"^^xsd:string;
+	ex:codePostal	 "44250"^^xsd:integer ;
+	ex:ville 	 "SAINT-BREVIN"^^xsd:string;
+	ex:telephone1 	 "02 40 27 24 32"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.216925 , -2.1618678]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DU_PORTMAIN>	 ex:nom 	 "PLAGE DU PORTMAIN"^^xsd:string;
+	ex:id	 "19"^^xsd:integer ;
+	ex:adresse1 	 "Route de la plage du Portmain"^^xsd:string;
+	ex:codePostal	 "44210"^^xsd:integer ;
+	ex:ville 	 "PORNIC"^^xsd:string;
+	ex:telephone1 	 "02 40 82 04 40"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.1201807 , -2.163958]"^^xsd:string.
+
+<http://projet.com/10/PLAGES_DE_COMBERGE_ET_DU_REDOIS>	 ex:nom 	 "PLAGES DE COMBERGE ET DU REDOIS"^^xsd:string;
+	ex:id	 "20"^^xsd:integer ;
+	ex:adresse1 	 "Boulevard de l'Océan"^^xsd:string;
+	ex:codePostal	 "44730"^^xsd:integer ;
+	ex:ville 	 "SAINT-MICHEL-CHEF-CHEF"^^xsd:string;
+	ex:telephone1 	 "02 40 27 82 54"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.1707872 , -2.1653386]"^^xsd:string.
+
+<http://projet.com/10/GRANDE_PLAGE_DE_THARON>	 ex:nom 	 "GRANDE PLAGE DE THARON"^^xsd:string;
+	ex:id	 "21"^^xsd:integer ;
+	ex:adresse1 	 "Boulevard de l'Océan"^^xsd:string;
+	ex:codePostal	 "44730"^^xsd:integer ;
+	ex:ville 	 "SAINT-MICHEL-CHEF-CHEF"^^xsd:string;
+	ex:telephone1 	 "02 40 27 82 54"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:label1 	 "Pavillon Bleu"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.1707872 , -2.1653386]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DES_PINS>	 ex:nom 	 "PLAGE DES PINS"^^xsd:string;
+	ex:id	 "22"^^xsd:integer ;
+	ex:adresse1 	 "Boulevard Padioteau"^^xsd:string;
+	ex:codePostal	 "44250"^^xsd:integer ;
+	ex:ville 	 "SAINT-BREVIN"^^xsd:string;
+	ex:telephone1 	 "02 40 27 24 32"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.2468434 , -2.1695798]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_L'OCEAN>	 ex:nom 	 "PLAGE DE L'OCEAN"^^xsd:string;
+	ex:id	 "23"^^xsd:integer ;
+	ex:adresse1 	 "Boulevard de l'Océan"^^xsd:string;
+	ex:codePostal	 "44250"^^xsd:integer ;
+	ex:ville 	 "SAINT-BREVIN"^^xsd:string;
+	ex:telephone1 	 "02 40 27 24 32"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:label1 	 "Pavillon Bleu"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.226156 , -2.1720509]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DU_CORMIER>	 ex:nom 	 "PLAGE DU CORMIER"^^xsd:string;
+	ex:id	 "24"^^xsd:integer ;
+	ex:adresse1 	 "Boulevard de la Mer"^^xsd:string;
+	ex:codePostal	 "44770"^^xsd:integer ;
+	ex:ville 	 "LA PLAINE-SUR-MER"^^xsd:string;
+	ex:telephone1 	 "02 40 21 52 52"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.1586247 , -2.1742699]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_PORT_GIRAUD>	 ex:nom 	 "PLAGE DE PORT GIRAUD"^^xsd:string;
+	ex:id	 "25"^^xsd:integer ;
+	ex:adresse1 	 "Boulevard de Port Giraud"^^xsd:string;
+	ex:codePostal	 "44770"^^xsd:integer ;
+	ex:ville 	 "LA PLAINE-SUR-MER"^^xsd:string;
+	ex:telephone1 	 "02 40 21 52 52"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.1563877 , -2.1869565]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_PORT-MELEU>	 ex:nom 	 "PLAGE DE PORT-MELEU"^^xsd:string;
+	ex:id	 "26"^^xsd:integer ;
+	ex:adresse1 	 "Corniche de Port-Meleu"^^xsd:string;
+	ex:codePostal	 "44770"^^xsd:integer ;
+	ex:ville 	 "PREFAILLES"^^xsd:string;
+	ex:telephone1 	 "02 40 21 62 22"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:label1 	 "Pavillon Bleu"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.1247222 , -2.2017971]"^^xsd:string.
+
+<http://projet.com/10/BAIE_DE_SAINT-NAZAIRE>	 ex:nom 	 "BAIE DE SAINT-NAZAIRE"^^xsd:string;
+	ex:id	 "27"^^xsd:integer ;
+	ex:adresse1 	 "Boulevard de Verdun"^^xsd:string;
+	ex:codePostal	 "44600"^^xsd:integer ;
+	ex:ville 	 "SAINT-NAZAIRE"^^xsd:string;
+	ex:telephone1 	 "02 40 22 40 65"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Saint-Nazaire et l'Estuaire de la Loire"^^xsd:string;
+	ex:coordinate 	 "[ 47.2714423 , -2.2047027]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_JOALLAND_(LA_TARA)>	 ex:nom 	 "PLAGE DE JOALLAND (LA TARA)"^^xsd:string;
+	ex:id	 "28"^^xsd:integer ;
+	ex:adresse1 	 "Boulevard de la Tara"^^xsd:string;
+	ex:codePostal	 "44770"^^xsd:integer ;
+	ex:ville 	 "LA PLAINE-SUR-MER"^^xsd:string;
+	ex:telephone1 	 "02 40 21 52 52"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.1559112 , -2.2081226]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_MOUTON>	 ex:nom 	 "PLAGE DE MOUTON"^^xsd:string;
+	ex:id	 "29"^^xsd:integer ;
+	ex:adresse1 	 "Boulevard de la Tara"^^xsd:string;
+	ex:codePostal	 "44770"^^xsd:integer ;
+	ex:ville 	 "LA PLAINE-SUR-MER"^^xsd:string;
+	ex:telephone1 	 "02 40 21 52 52"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:handiplage 	 "oui"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.1559112 , -2.2081226]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_MARGARETH>	 ex:nom 	 "PLAGE DE MARGARETH"^^xsd:string;
+	ex:id	 "30"^^xsd:integer ;
+	ex:adresse1 	 "Corniche du Pilier"^^xsd:string;
+	ex:codePostal	 "44770"^^xsd:integer ;
+	ex:ville 	 "PREFAILLES"^^xsd:string;
+	ex:telephone1 	 "02 40 21 62 22"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.1253073 , -2.2185805]"^^xsd:string.
+
+<http://projet.com/10/GRANDE_PLAGE_DE_PREFAILLES>	 ex:nom 	 "GRANDE PLAGE DE PREFAILLES"^^xsd:string;
+	ex:id	 "31"^^xsd:integer ;
+	ex:adresse1 	 "Avenue de la plage Eric Tabarly"^^xsd:string;
+	ex:codePostal	 "44770"^^xsd:integer ;
+	ex:ville 	 "PREFAILLES"^^xsd:string;
+	ex:telephone1 	 "02 40 21 62 22"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:label1 	 "Pavillon Bleu"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.1284321 , -2.2198232]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_VILLES_MARTIN>	 ex:nom 	 "PLAGE DE VILLES MARTIN"^^xsd:string;
+	ex:id	 "32"^^xsd:integer ;
+	ex:adresse1 	 "Rue Ferdinand Buisson"^^xsd:string;
+	ex:codePostal	 "44600"^^xsd:integer ;
+	ex:ville 	 "SAINT-NAZAIRE"^^xsd:string;
+	ex:telephone1 	 "02 40 22 40 65"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:handiplage 	 "oui"^^xsd:string;
+	ex:geo 	 "Saint-Nazaire et l'Estuaire de la Loire"^^xsd:string;
+	ex:coordinate 	 "[ 47.2572481 , -2.2364205]"^^xsd:string.
+
+<http://projet.com/10/ANSE_DU_SUD>	 ex:nom 	 "ANSE DU SUD"^^xsd:string;
+	ex:id	 "33"^^xsd:integer ;
+	ex:adresse1 	 "Rue de l'Anse du Sud"^^xsd:string;
+	ex:codePostal	 "44770"^^xsd:integer ;
+	ex:ville 	 "PREFAILLES"^^xsd:string;
+	ex:telephone1 	 "02 40 21 62 22"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:label1 	 "Pavillon Bleu"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.1334909 , -2.2393705]"^^xsd:string.
+
+<http://projet.com/10/PLAGES_DE_BONNE_ANSE_ET_BELLE_FONTAINE>	 ex:nom 	 "PLAGES DE BONNE ANSE ET BELLE FONTAINE"^^xsd:string;
+	ex:id	 "34"^^xsd:integer ;
+	ex:adresse1 	 "Chemin du Rocher du Lion"^^xsd:string;
+	ex:codePostal	 "44600"^^xsd:integer ;
+	ex:ville 	 "SAINT-NAZAIRE"^^xsd:string;
+	ex:telephone1 	 "02 40 22 40 65"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Saint-Nazaire et l'Estuaire de la Loire"^^xsd:string;
+	ex:coordinate 	 "[ 47.2569073 , -2.2429227]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_PORCE>	 ex:nom 	 "PLAGE DE PORCE"^^xsd:string;
+	ex:id	 "35"^^xsd:integer ;
+	ex:adresse1 	 "Chemin de la plage"^^xsd:string;
+	ex:codePostal	 "44600"^^xsd:integer ;
+	ex:ville 	 "SAINT-NAZAIRE"^^xsd:string;
+	ex:telephone1 	 "02 40 22 40 65"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Saint-Nazaire et l'Estuaire de la Loire"^^xsd:string;
+	ex:coordinate 	 "[ 47.2548393 , -2.2538212]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_LA_COURANCE>	 ex:nom 	 "PLAGE DE LA COURANCE"^^xsd:string;
+	ex:id	 "36"^^xsd:integer ;
+	ex:adresse1 	 "Route du Fort de l'Eve"^^xsd:string;
+	ex:codePostal	 "44600"^^xsd:integer ;
+	ex:ville 	 "SAINT-NAZAIRE"^^xsd:string;
+	ex:telephone1 	 "02 40 22 40 65"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Saint-Nazaire et l'Estuaire de la Loire"^^xsd:string;
+	ex:coordinate 	 "[ 47.2410348 , -2.2719893]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_MONSIEUR_HULOT>	 ex:nom 	 "PLAGE DE MONSIEUR HULOT"^^xsd:string;
+	ex:id	 "37"^^xsd:integer ;
+	ex:adresse1 	 "Rue du Commandant Charcot"^^xsd:string;
+	ex:codePostal	 "44600"^^xsd:integer ;
+	ex:ville 	 "SAINT-NAZAIRE"^^xsd:string;
+	ex:telephone1 	 "02 40 22 40 65"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:handiplage 	 "oui"^^xsd:string;
+	ex:geo 	 "Saint-Nazaire et l'Estuaire de la Loire"^^xsd:string;
+	ex:coordinate 	 "[ 47.2389626 , -2.2813086]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DES_JAUNAIS>	 ex:nom 	 "PLAGE DES JAUNAIS"^^xsd:string;
+	ex:id	 "38"^^xsd:integer ;
+	ex:adresse1 	 "Route de l'Océan"^^xsd:string;
+	ex:codePostal	 "44600"^^xsd:integer ;
+	ex:ville 	 "SAINT-NAZAIRE"^^xsd:string;
+	ex:telephone1 	 "02 40 22 40 65"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Saint-Nazaire et l'Estuaire de la Loire"^^xsd:string;
+	ex:coordinate 	 "[ 47.2376874 , -2.2923337]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_SAINTE_MARGUERITE>	 ex:nom 	 "PLAGE DE SAINTE MARGUERITE"^^xsd:string;
+	ex:id	 "39"^^xsd:integer ;
+	ex:adresse1 	 "Boulevard de l'Océan"^^xsd:string;
+	ex:codePostal	 "44380"^^xsd:integer ;
+	ex:ville 	 "PORNICHET"^^xsd:string;
+	ex:telephone1 	 "02 40 61 33 33"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.2419478 , -2.3114243]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_BONNE_SOURCE>	 ex:nom 	 "PLAGE DE BONNE SOURCE"^^xsd:string;
+	ex:id	 "40"^^xsd:integer ;
+	ex:adresse1 	 "Avenue de Bonne Source"^^xsd:string;
+	ex:codePostal	 "44380"^^xsd:integer ;
+	ex:ville 	 "PORNICHET"^^xsd:string;
+	ex:telephone1 	 "02 40 61 33 33"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.2506587 , -2.329709]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DES_LIBRAIRES>	 ex:nom 	 "PLAGE DES LIBRAIRES"^^xsd:string;
+	ex:id	 "41"^^xsd:integer ;
+	ex:adresse1 	 "Boulevard des Océanides"^^xsd:string;
+	ex:codePostal	 "44380"^^xsd:integer ;
+	ex:ville 	 "PORNICHET"^^xsd:string;
+	ex:telephone1 	 "02 40 61 33 33"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:TH1 	 "oui"^^xsd:string;
+	ex:handiplage 	 "oui"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.2674867 , -2.3476494]"^^xsd:string.
+
+<http://projet.com/10/GRANDE_PLAGE_DE_LA_BAULE>	 ex:nom 	 "GRANDE PLAGE DE LA BAULE"^^xsd:string;
+	ex:id	 "42"^^xsd:integer ;
+	ex:adresse1 	 "Remblai de La Baule"^^xsd:string;
+	ex:codePostal	 "44500"^^xsd:integer ;
+	ex:ville 	 "LA BAULE"^^xsd:string;
+	ex:telephone1 	 "02 40 24 34 44"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.2869657 , -2.3914496]"^^xsd:string.
+
+<http://projet.com/10/ANSE_DE_TOULLAIN>	 ex:nom 	 "ANSE DE TOULLAIN"^^xsd:string;
+	ex:id	 "43"^^xsd:integer ;
+	ex:adresse1 	 "Rue François Bougouin"^^xsd:string;
+	ex:codePostal	 "44510"^^xsd:integer ;
+	ex:ville 	 "LE POULIGUEN"^^xsd:string;
+	ex:telephone1 	 "02 40 42 31 05"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.2640519 , -2.4200686]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DU_NAU>	 ex:nom 	 "PLAGE DU NAU"^^xsd:string;
+	ex:id	 "44"^^xsd:integer ;
+	ex:adresse1 	 "Rue de la Plage"^^xsd:string;
+	ex:codePostal	 "44510"^^xsd:integer ;
+	ex:ville 	 "LE POULIGUEN"^^xsd:string;
+	ex:telephone1 	 "02 40 42 31 05"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.2746796 , -2.4252871]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_PONT-MAHE>	 ex:nom 	 "PLAGE DE PONT-MAHE"^^xsd:string;
+	ex:id	 "45"^^xsd:integer ;
+	ex:adresse1 	 "Lotissement de Treiz Gwen"^^xsd:string;
+	ex:codePostal	 "44410"^^xsd:integer ;
+	ex:ville 	 "ASSERAC"^^xsd:string;
+	ex:telephone1 	 "02 40 01 76 16"^^xsd:string;
+	ex:website 	 "www.asserac.fr"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.4471107 , -2.4524123]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_LA_GOVELLE>	 ex:nom 	 "PLAGE DE LA GOVELLE"^^xsd:string;
+	ex:id	 "46"^^xsd:integer ;
+	ex:adresse1 	 "Route de la Govelle"^^xsd:string;
+	ex:codePostal	 "44740"^^xsd:integer ;
+	ex:ville 	 "BATZ-SUR-MER"^^xsd:string;
+	ex:telephone1 	 "02 40 23 92 36"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.2673414 , -2.4538222]"^^xsd:string.
+
+<http://projet.com/10/CRIQUES_DE_PEN_BE>	 ex:nom 	 "CRIQUES DE PEN BE"^^xsd:string;
+	ex:id	 "47"^^xsd:integer ;
+	ex:adresse1 	 "Pen Bé"^^xsd:string;
+	ex:codePostal	 "44410"^^xsd:integer ;
+	ex:ville 	 "ASSERAC"^^xsd:string;
+	ex:telephone1 	 "02 40 01 76 16"^^xsd:string;
+	ex:website 	 "www.asserac.fr"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.4256703 , -2.4563615]"^^xsd:string.
+
+<http://projet.com/10/CRIQUES_DE_PEN_BE>	 ex:nom 	 "CRIQUES DE PEN BE"^^xsd:string;
+	ex:id	 "48"^^xsd:integer ;
+	ex:adresse1 	 "Pen Bé"^^xsd:string;
+	ex:codePostal	 "44410"^^xsd:integer ;
+	ex:ville 	 "ASSERAC"^^xsd:string;
+	ex:telephone1 	 "02 40 01 76 16"^^xsd:string;
+	ex:website 	 "www.asserac.fr"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.4256703 , -2.4563615]"^^xsd:string.
+
+<http://projet.com/10/PORT_SAINT-MICHEL>	 ex:nom 	 "PORT SAINT-MICHEL"^^xsd:string;
+	ex:id	 "49"^^xsd:integer ;
+	ex:adresse1 	 "Rue de la Plage"^^xsd:string;
+	ex:codePostal	 "44740"^^xsd:integer ;
+	ex:ville 	 "BATZ-SUR-MER"^^xsd:string;
+	ex:telephone1 	 "02 40 23 92 36"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:type2 	 "Port de plaisance"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.2759002 , -2.4808573]"^^xsd:string.
+
+<http://projet.com/10/PORT_SAINT-MICHEL>	 ex:nom 	 "PORT SAINT-MICHEL"^^xsd:string;
+	ex:id	 "50"^^xsd:integer ;
+	ex:adresse1 	 "Rue de la Plage"^^xsd:string;
+	ex:codePostal	 "44740"^^xsd:integer ;
+	ex:ville 	 "BATZ-SUR-MER"^^xsd:string;
+	ex:telephone1 	 "02 40 23 92 36"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:type2 	 "Port de plaisance"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.2759002 , -2.4808573]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_LANSERIA>	 ex:nom 	 "PLAGE DE LANSERIA"^^xsd:string;
+	ex:id	 "51"^^xsd:integer ;
+	ex:adresse1 	 "Avenue de la plage"^^xsd:string;
+	ex:codePostal	 "44420"^^xsd:integer ;
+	ex:ville 	 "MESQUER"^^xsd:string;
+	ex:telephone1 	 "02 40 42 64 37"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.407064 , -2.4849774]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DES_GRANDES_VALLEES>	 ex:nom 	 "PLAGE DES GRANDES VALLEES"^^xsd:string;
+	ex:id	 "52"^^xsd:integer ;
+	ex:adresse1 	 "Boulevard de l'Océan"^^xsd:string;
+	ex:codePostal	 "44210"^^xsd:integer ;
+	ex:ville 	 "PORNIC"^^xsd:string;
+	ex:telephone1 	 "02 40 82 04 40"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.4084585 , -2.4879413]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_VALENTIN>	 ex:nom 	 "PLAGE VALENTIN"^^xsd:string;
+	ex:id	 "53"^^xsd:integer ;
+	ex:adresse1 	 "Rue René de Lespine"^^xsd:string;
+	ex:codePostal	 "44740"^^xsd:integer ;
+	ex:ville 	 "BATZ-SUR-MER"^^xsd:string;
+	ex:telephone1 	 "02 40 23 92 36"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.2805818 , -2.496146]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_VALENTIN>	 ex:nom 	 "PLAGE VALENTIN"^^xsd:string;
+	ex:id	 "54"^^xsd:integer ;
+	ex:adresse1 	 "Rue René de Lespine"^^xsd:string;
+	ex:codePostal	 "44740"^^xsd:integer ;
+	ex:ville 	 "BATZ-SUR-MER"^^xsd:string;
+	ex:telephone1 	 "02 40 23 92 36"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.2805818 , -2.496146]"^^xsd:string.
+
+<http://projet.com/10/PLAGES_DE_PEN_BRON_ET_DE_LA_GRANDE_FALAISE>	 ex:nom 	 "PLAGES DE PEN BRON ET DE LA GRANDE FALAISE"^^xsd:string;
+	ex:id	 "55"^^xsd:integer ;
+	ex:adresse1 	 "Boulevard de la Grande Falaise"^^xsd:string;
+	ex:codePostal	 "44420"^^xsd:integer ;
+	ex:ville 	 "LA TURBALLE"^^xsd:string;
+	ex:telephone1 	 "02 40 23 39 87"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:label1 	 "Pavillon Bleu"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.3286871 , -2.4964337]"^^xsd:string.
+
+<http://projet.com/10/PLAGES_DES_BRETONS_ET_DE_LA_CROIX_DE_L'ANSE>	 ex:nom 	 "PLAGES DES BRETONS ET DE LA CROIX DE L'ANSE"^^xsd:string;
+	ex:id	 "56"^^xsd:integer ;
+	ex:adresse1 	 "Avenue Cassard"^^xsd:string;
+	ex:codePostal	 "44420"^^xsd:integer ;
+	ex:ville 	 "LA TURBALLE"^^xsd:string;
+	ex:telephone1 	 "02 40 23 39 87"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:label1 	 "Pavillon Bleu"^^xsd:string;
+	ex:handiplage 	 "oui"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.3406206 , -2.5052642]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_PORT_LIN>	 ex:nom 	 "PLAGE DE PORT LIN"^^xsd:string;
+	ex:id	 "57"^^xsd:integer ;
+	ex:adresse1 	 "Avenue Henri Becquerel"^^xsd:string;
+	ex:codePostal	 "44490"^^xsd:integer ;
+	ex:ville 	 "LE CROISIC"^^xsd:string;
+	ex:telephone1 	 "02 40 23 00 70"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.2823251 , -2.508096]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_KER_ELISABETH>	 ex:nom 	 "PLAGE DE KER ELISABETH"^^xsd:string;
+	ex:id	 "58"^^xsd:integer ;
+	ex:adresse1 	 "Avenue Max du Colonel Max de Geloës"^^xsd:string;
+	ex:codePostal	 "44420"^^xsd:integer ;
+	ex:ville 	 "LA TURBALLE"^^xsd:string;
+	ex:telephone1 	 "02 40 23 39 87"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:label1 	 "Pavillon Bleu"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.3465315 , -2.5082169]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_TOULPORT>	 ex:nom 	 "PLAGE DE TOULPORT"^^xsd:string;
+	ex:id	 "59"^^xsd:integer ;
+	ex:adresse1 	 "Avenue du Général De Gaulle"^^xsd:string;
+	ex:codePostal	 "44420"^^xsd:integer ;
+	ex:ville 	 "PIRIAC-SUR-MER"^^xsd:string;
+	ex:telephone1 	 "02 40 23 51 42"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.3922236 , -2.5202627]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_PORS-ER-STER>	 ex:nom 	 "PLAGE DE PORS-ER-STER"^^xsd:string;
+	ex:id	 "60"^^xsd:integer ;
+	ex:adresse1 	 "Avenue du Général De Gaulle"^^xsd:string;
+	ex:codePostal	 "44420"^^xsd:integer ;
+	ex:ville 	 "PIRIAC-SUR-MER"^^xsd:string;
+	ex:telephone1 	 "02 40 23 51 42"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.3922236 , -2.5202627]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_PORT-AU-LOUP>	 ex:nom 	 "PLAGE DE PORT-AU-LOUP"^^xsd:string;
+	ex:id	 "61"^^xsd:integer ;
+	ex:adresse1 	 "Avenue du Général De Gaulle"^^xsd:string;
+	ex:codePostal	 "44420"^^xsd:integer ;
+	ex:ville 	 "PIRIAC-SUR-MER"^^xsd:string;
+	ex:telephone1 	 "02 40 23 51 42"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.3922236 , -2.5202627]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_SAINT-GOUSTAN>	 ex:nom 	 "PLAGE DE SAINT-GOUSTAN"^^xsd:string;
+	ex:id	 "62"^^xsd:integer ;
+	ex:adresse1 	 "Avenue de Saint-Goustan"^^xsd:string;
+	ex:codePostal	 "44490"^^xsd:integer ;
+	ex:ville 	 "LE CROISIC"^^xsd:string;
+	ex:telephone1 	 "02 40 23 00 70"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.3007505 , -2.5245331]"^^xsd:string.
+
+<http://projet.com/10/BAIE_DU_SABLE_MENU>	 ex:nom 	 "BAIE DU SABLE MENU"^^xsd:string;
+	ex:id	 "63"^^xsd:integer ;
+	ex:adresse1 	 "Avenue de la Pierre-Longue"^^xsd:string;
+	ex:codePostal	 "44490"^^xsd:integer ;
+	ex:ville 	 "LE CROISIC"^^xsd:string;
+	ex:telephone1 	 "02 40 23 00 70"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.2874681 , -2.5279244]"^^xsd:string.
+
+<http://projet.com/10/ANSE_DE_LERAT>	 ex:nom 	 "ANSE DE LERAT"^^xsd:string;
+	ex:id	 "64"^^xsd:integer ;
+	ex:adresse1 	 "Avenue Louis Clément"^^xsd:string;
+	ex:codePostal	 "44420"^^xsd:integer ;
+	ex:ville 	 "PIRIAC-SUR-MER"^^xsd:string;
+	ex:telephone1 	 "02 40 23 51 42"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.3676132 , -2.5381117]"^^xsd:string.
+
+<http://projet.com/10/BAIE_DE_CASTOUILLET>	 ex:nom 	 "BAIE DE CASTOUILLET"^^xsd:string;
+	ex:id	 "65"^^xsd:integer ;
+	ex:adresse1 	 "Avenue de Port Val"^^xsd:string;
+	ex:codePostal	 "44490"^^xsd:integer ;
+	ex:ville 	 "LE CROISIC"^^xsd:string;
+	ex:telephone1 	 "02 40 23 00 70"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.2982584 , -2.5391398]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_SAINT-MICHEL>	 ex:nom 	 "PLAGE SAINT-MICHEL"^^xsd:string;
+	ex:id	 "66"^^xsd:integer ;
+	ex:adresse1 	 "Place du Lehn"^^xsd:string;
+	ex:codePostal	 "44420"^^xsd:integer ;
+	ex:ville 	 "PIRIAC-SUR-MER"^^xsd:string;
+	ex:telephone1 	 "02 40 23 51 42"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Presqu'île de Guérande et la Brière"^^xsd:string;
+	ex:coordinate 	 "[ 47.3799028 , -2.5489993]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DES_SABLONS>	 ex:nom 	 "PLAGE DES SABLONS"^^xsd:string;
+	ex:id	 "67"^^xsd:integer ;
+	ex:adresse1 	 "Rue des Sablons"^^xsd:string;
+	ex:codePostal	 "44210"^^xsd:integer ;
+	ex:ville 	 "PORNIC"^^xsd:string;
+	ex:telephone1 	 "02 40 82 04 40"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.1126321 , -2.1346095]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_MONTBEAU>	 ex:nom 	 "PLAGE DE MONTBEAU"^^xsd:string;
+	ex:id	 "68"^^xsd:integer ;
+	ex:adresse1 	 "Allée François Renaud"^^xsd:string;
+	ex:codePostal	 "44210"^^xsd:integer ;
+	ex:ville 	 "PORNIC"^^xsd:string;
+	ex:telephone1 	 "02 40 82 04 40"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:handiplage 	 "oui"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.115491 , -2.104444]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DU_PORTEAU>	 ex:nom 	 "PLAGE DU PORTEAU"^^xsd:string;
+	ex:id	 "69"^^xsd:integer ;
+	ex:adresse1 	 "Rue Yves Ponceau"^^xsd:string;
+	ex:codePostal	 "44210"^^xsd:integer ;
+	ex:ville 	 "PORNIC"^^xsd:string;
+	ex:telephone1 	 "02 40 82 04 40"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.1172858 , -2.1487478]"^^xsd:string.
+
+<http://projet.com/10/PLAGE_DE_L'ETANG>	 ex:nom 	 "PLAGE DE L'ETANG"^^xsd:string;
+	ex:id	 "70"^^xsd:integer ;
+	ex:adresse1 	 "Les Fontenis - Les Poudreaux"^^xsd:string;
+	ex:codePostal	 "44210"^^xsd:integer ;
+	ex:ville 	 "PIRIAC-SUR-MER"^^xsd:string;
+	ex:telephone1 	 "02 40 82 04 40"^^xsd:string;
+	ex:type1 	 "Plage surveillée"^^xsd:string;
+	ex:geo 	 "Pornic et Pays de Retz"^^xsd:string;
+	ex:coordinate 	 "[ 47.380007 , -2.544721]"^^xsd:string.

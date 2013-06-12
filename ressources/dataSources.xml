@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sources>
+    <!--  
 	<source>
 		<nom>Hotel</nom>
 		<api>true</api>
@@ -12,7 +13,7 @@
 		<format>XML</format>
 		<outputTtlFile>ressources/output/ttl/Hotel.n3</outputTtlFile>
 		<outputXmlFile>ressources/output/rdf-xml/Hotel.rdf</outputXmlFile>
-	</source>
+	</source>-->
 	<source>
 		<nom>Petites_cités_de_caractere</nom>
 		<api>true</api>
@@ -130,5 +131,96 @@
 		<format>XML</format>
 		<outputTtlFile>ressources/output/ttl/chateau_monument.n3</outputTtlFile>
 		<outputXmlFile>ressources/output/rdf-xml/chateau_monument.rdf</outputXmlFile>
+	</source>
+	<source>
+		<nom>parc_animalier_theme</nom>
+		<api>true</api>
+		<apiurl>http://data.paysdelaloire.fr/api/publication/22440002800011_CG44_TOU_04809/parcs_animaliers_et_parcs_a_themes_STBL/content?format=xml
+		</apiurl>
+		<file>false</file>
+		<filepath>null</filepath>
+		<mappingFile>null</mappingFile>
+		<xsltFile>ressources/parc_animalier/parc_animalier.xsl</xsltFile>
+		<format>XML</format>
+		<outputTtlFile>ressources/output/ttl/parc_animalier.n3</outputTtlFile>
+		<outputXmlFile>ressources/output/rdf-xml/parc_animalier.rdf</outputXmlFile>
+	</source>
+	<source>
+		<nom>plage</nom>
+		<api>true</api>
+		<apiurl>http://data.paysdelaloire.fr/api/publication/22440002800011_CG44_TOU_04810/plages_STBL/content?format=xml
+		</apiurl>
+		<file>false</file>
+		<filepath>null</filepath>
+		<mappingFile>null</mappingFile>
+		<xsltFile>ressources/plage/plage.xsl</xsltFile>
+		<format>XML</format>
+		<outputTtlFile>ressources/output/ttl/plage.n3</outputTtlFile>
+		<outputXmlFile>ressources/output/rdf-xml/plage.rdf</outputXmlFile>
+	</source>
+	<source>
+		<nom>restaurant</nom>
+		<api>true</api>
+		<apiurl>http://data.paysdelaloire.fr/api/publication/22440002800011_CG44_TOU_04820/restaurants_STBL/content?format=xml
+		</apiurl>
+		<file>false</file>
+		<filepath>null</filepath>
+		<mappingFile>null</mappingFile>
+		<xsltFile>ressources/restaurant/restaurant.xsl</xsltFile>
+		<format>XML</format>
+		<outputTtlFile>ressources/output/ttl/restaurant.n3</outputTtlFile>
+		<outputXmlFile>ressources/output/rdf-xml/restaurant.rdf</outputXmlFile>
+	</source>
+	<source>
+		<nom>musique1</nom>
+		<api>true</api>
+		<apiurl>http://data.paysdelaloire.fr/api/publication/22440002800011_CG44_CLT_03801/Ecole_musique_asso_STBL/content?format=xml
+		</apiurl>
+		<file>false</file>
+		<filepath>null</filepath>
+		<mappingFile>null</mappingFile>
+		<xsltFile>ressources/musique/musique.xsl</xsltFile>
+		<format>XML</format>
+		<outputTtlFile>ressources/output/ttl/musique1.n3</outputTtlFile>
+		<outputXmlFile>ressources/output/rdf-xml/musique1.rdf</outputXmlFile>
+	</source>
+	<source>
+		<nom>musique2</nom>
+		<api>true</api>
+		<apiurl>http://data.paysdelaloire.fr/api/publication/22440002800011_CG44_CUL_03803/Ecole_musique_intercom_STBL/content?format=xml
+		</apiurl>
+		<file>false</file>
+		<filepath>null</filepath>
+		<mappingFile>null</mappingFile>
+		<xsltFile>ressources/musique/musique.xsl</xsltFile>
+		<format>XML</format>
+		<outputTtlFile>ressources/output/ttl/musique2.n3</outputTtlFile>
+		<outputXmlFile>ressources/output/rdf-xml/musique2.rdf</outputXmlFile>
+	</source>
+	<source>
+		<nom>musique3</nom>
+		<api>true</api>
+		<apiurl>http://data.paysdelaloire.fr/api/publication/22440002800011_CG44_CLT_03802/Ecole_musique_municipale_STBL/content?format=xml
+		</apiurl>
+		<file>false</file>
+		<filepath>null</filepath>
+		<mappingFile>null</mappingFile>
+		<xsltFile>ressources/musique/musique.xsl</xsltFile>
+		<format>XML</format>
+		<outputTtlFile>ressources/output/ttl/musique3.n3</outputTtlFile>
+		<outputXmlFile>ressources/output/rdf-xml/musique3.rdf</outputXmlFile>
+	</source>
+	<source>
+		<nom>equipement_culture</nom>
+		<api>true</api>
+		<apiurl>http://data.paysdelaloire.fr/api/publication/24440040400129_NM_NM_00019/LOC_EQUIPUB_CULTURE_NM_STBL/content?format=xml
+		</apiurl>
+		<file>false</file>
+		<filepath>null</filepath>
+		<mappingFile>null</mappingFile>
+		<xsltFile>ressources/equipement_culture/culture.xsl</xsltFile>
+		<format>XML</format>
+		<outputTtlFile>ressources/output/ttl/culture.n3</outputTtlFile>
+		<outputXmlFile>ressources/output/rdf-xml/culture.rdf</outputXmlFile>
 	</source>
 </sources>

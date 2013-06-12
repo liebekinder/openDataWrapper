@@ -1,0 +1,78 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:proj="http://projet.com/10/"
+    xmlns:ex="http://example.org/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="http://projet.com/10/POLYPHONIE_MUSIQUE_">
+    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[ 47.2708796 , -1.3324901]</ex:coordinate>
+    <ex:nature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ecole intercommunale</ex:nature>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA-CHAPELLE-BASSE-MER</ex:ville>
+    <ex:codePostal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44450</ex:codePostal>
+    <ex:adresse1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18 bd Pasteur</ex:adresse1>
+    <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ex:id>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POLYPHONIE MUSIQUE </ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/CONSERVATOIRE_A_RAYONNEMENT_INTERCOMMUNAL_DU_PAYS_DE_REDON">
+    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[ 47.6508631 , -2.0791795]</ex:coordinate>
+    <ex:nature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ecole intercommunale</ex:nature>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REDON</ex:ville>
+    <ex:codePostal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35600</ex:codePostal>
+    <ex:adresse1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 bd Bonne Nouvelle</ex:adresse1>
+    <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ex:id>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CONSERVATOIRE A RAYONNEMENT INTERCOMMUNAL DU PAYS DE REDON</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/ECOLE_INTERCOMMUNALE_DE_MUSIQUE_DE_PAIMBOEUF">
+    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[ 47.2867229 , -2.0255818]</ex:coordinate>
+    <ex:nature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ecole intercommunale</ex:nature>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PAIMBOEUF</ex:ville>
+    <ex:codePostal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44560</ex:codePostal>
+    <ex:adresse1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 boulevard Dumesnildot</ex:adresse1>
+    <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ex:id>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECOLE INTERCOMMUNALE DE MUSIQUE DE PAIMBOEUF</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/CONSERVATOIRE_INTERCOMMUNAL_DE_MUSIQUE,_DE_DANSE_ET_D&apos;ART_DRAMATIQUE_">
+    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[ 47.7226785 , -1.3761146]</ex:coordinate>
+    <ex:nature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ecole intercommunale</ex:nature>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHATEAUBRIANT</ex:ville>
+    <ex:codePostal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44110</ex:codePostal>
+    <ex:adresse1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 rue Guy Moquet</ex:adresse1>
+    <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ex:id>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CONSERVATOIRE INTERCOMMUNAL DE MUSIQUE, DE DANSE ET D'ART DRAMATIQUE </ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/ECOLE_DE_MUSIQUE_INTERCOMMUNALE_DE_PONT-CHATEAU_-_CENTRE_CULTUREL_JACQUES_DEMY">
+    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[ 47.4373972 , -2.0892248]</ex:coordinate>
+    <ex:nature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ecole intercommunale</ex:nature>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PONTCHATEAU</ex:ville>
+    <ex:codePostal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44160</ex:codePostal>
+    <ex:adresse1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 rue Toulifaut</ex:adresse1>
+    <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ex:id>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECOLE DE MUSIQUE INTERCOMMUNALE DE PONT-CHATEAU - CENTRE CULTUREL JACQUES DEMY</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/ECOLE_DE_MUSIQUE_ARPEGE">
+    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[ 47.3643462 , -1.1822959]</ex:coordinate>
+    <ex:nature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ecole intercommunale</ex:nature>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANCENIS</ex:ville>
+    <ex:codePostal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44150</ex:codePostal>
+    <ex:adresse1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">120 rue du Général Leclerc</ex:adresse1>
+    <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ex:id>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECOLE DE MUSIQUE ARPEGE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/SOL_EN_VIGNE">
+    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[ 47.1536334 , -1.3993796]</ex:coordinate>
+    <ex:nature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ecole intercommunale</ex:nature>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA-HAYE-FOUASSIERE</ex:ville>
+    <ex:codePostal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44690</ex:codePostal>
+    <ex:adresse1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 rue du Fief de l'Isle </ex:adresse1>
+    <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ex:id>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOL EN VIGNE</ex:nom>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/ECOLE_INTERCOMMUNALE_DE_MUSIQUE_">
+    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[ 47.2486231 , -2.1664463]</ex:coordinate>
+    <ex:nature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ecole intercommunale</ex:nature>
+    <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-BREVIN-LES-PINS</ex:ville>
+    <ex:codePostal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44250</ex:codePostal>
+    <ex:adresse1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">135 avenue du Maréchal Joffre</ex:adresse1>
+    <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ex:id>
+    <ex:nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECOLE INTERCOMMUNALE DE MUSIQUE </ex:nom>
+  </rdf:Description>
+</rdf:RDF>

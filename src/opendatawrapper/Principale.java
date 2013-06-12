@@ -28,10 +28,10 @@ public class Principale {
 		System.out.println("loading...");
 
 		Scanner in = new Scanner(System.in);
-		try {
-			int result = 0;
-			while (result >= 0) {
+		int result = 0;
+		while (result >= 0) {
 
+			try {
 				System.out.println("################################\n"
 						+ "welcome in the openData Wrapper!\n"
 						+ " What do you want to do?\n"
@@ -63,11 +63,13 @@ public class Principale {
 					result = -1;
 					break;
 				}
+			} catch (InputMismatchException e) {
+				System.out.println("la saisie effectué n'est pas un nombre!");
+				in.nextLine();
+				result = 0;
 			}
-			System.out.println("Exiting...");
-		} catch (InputMismatchException e) {
-			System.err.println("la saisie effectué n'est pas un nombre!");
 		}
+		System.out.println("Exiting...");
 	}
 
 	private static void listDatasources() {
