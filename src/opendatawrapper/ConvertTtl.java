@@ -22,7 +22,6 @@ public class ConvertTtl {
 	 * This function takes a ttl file, import it into Jena and produce a RDF/XML
 	 * All parameters are given by the dataSources.xml
 	 */
-	@SuppressWarnings("deprecation")
 	public void convert() {
 		Model model = FileManager.get().loadModel(source);
 		try {

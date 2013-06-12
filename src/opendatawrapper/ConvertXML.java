@@ -1,6 +1,7 @@
 package opendatawrapper;
 
 import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.Authenticator;
@@ -8,6 +9,7 @@ import java.net.MalformedURLException;
 import java.net.PasswordAuthentication;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.Properties;
 
 import javax.xml.transform.Result;
 import javax.xml.transform.Source;
@@ -24,6 +26,7 @@ import org.jdom2.output.DOMOutputter;
 
 /*
  * Cette classe gère la conversion d'un XML à l'aide d'une feuille de style XSL (XSLT)
+ * Les parametres de proxy sont à spécifier dans un fichier proxy.pwd à la racine de votre $HOME
  */
 public class ConvertXML {
 
@@ -31,10 +34,11 @@ public class ConvertXML {
 	public String XSLFile_;
 	public String outputFile;
 
-	final String proxyHost = "iproxy1.cg44.fr";
-	final String proxyPort = "3128";
-	final String authUser = "021806B";
-	final String authPassword = "HSi1eBSW44";
+	String proxyHost;
+	String proxyPort;
+	String authUser;
+	String authPassword;
+	final String PWD_File = System.getProperty("user.home") + "/proxy.pwd";
 
 	/*
 	 * Constructeur
@@ -48,6 +52,17 @@ public class ConvertXML {
 	public ConvertXML(String XSLin, String XMLout) {
 		XSLFile_ = XSLin;
 		outputFile = XMLout;
+
+		try {
+			Properties prop = new Properties();
+			prop.load(new FileReader(PWD_File));
+			proxyHost = prop.getProperty("proxyHost");
+			proxyPort = prop.getProperty("proxyPort");
+			authUser = prop.getProperty("authUser");
+			authPassword = prop.getProperty("authPassword");
+		} catch (Exception e) {
+		}
+
 	}
 
 	/*
@@ -115,18 +130,23 @@ public class ConvertXML {
 		URL url_;
 
 		try {
-			System.setProperty("proxySet", "true");
-			System.setProperty("http.proxyHost", proxyHost);
-			System.setProperty("http.proxyPort", proxyPort);
-			System.setProperty("http.auth.preference", "Basic");
-			Authenticator.setDefault(new Authenticator() {
-				protected PasswordAuthentication getPasswordAuthentication() {
+			if (proxyHost != null) {
+				//on ne charge le proxy que si besoin est => si un proxyhost a été défini
+				System.setProperty("proxySet", "true");
+				System.setProperty("http.proxyHost", proxyHost);
+				System.setProperty("http.proxyPort", proxyPort);
+				if (authUser != null) {
+					//le proxy est détecté comme sécurisé par identification si le authuser est défini
+					System.setProperty("http.auth.preference", "Basic");
+					Authenticator.setDefault(new Authenticator() {
+						protected PasswordAuthentication getPasswordAuthentication() {
 
-					return new PasswordAuthentication(authUser, authPassword
-							.toCharArray());
+							return new PasswordAuthentication(authUser,
+									authPassword.toCharArray());
+						}
+					});
 				}
-			});
-
+			}
 			System.out.println("connecting to " + url + "...");
 			url_ = new URL(url);
 			URLConnection connection = url_.openConnection();
