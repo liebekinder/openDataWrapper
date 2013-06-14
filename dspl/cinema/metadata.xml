@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+   <identifiant>22440002800011_CG44_TOU_04819</identifiant>
+   <titre>Les cinémas en Loire Atlantique</titre>
+   <description>Liste des cinémas présent en loire atlantique.</description>
+   <themes>
+      <theme>culture_tourisme</theme>
+   </themes>
+   <themeInspire/>
+   <motsCles>culture</motsCles>
+   <licence>odbl</licence>
+   <datePublication>15/06/2013</datePublication>
+   <dateCreation>31/10/2012</dateCreation>
+   <objetMaj>
+      <date>31/10/2012</date>
+      <modification>Création</modification>
+      <description>Création</description>
+   </objetMaj>
+   <frequenceMaj>Annuelle</frequenceMaj>
+   <proprietaire>lat</proprietaire>
+   <diffuseur>cg44</diffuseur>
+   <gestionnaire>lat</gestionnaire>
+   <couvertureSpatiale>Loire-Atlantique</couvertureSpatiale>
+   <couvertureTemporelle>Sans objet</couvertureTemporelle>
+   <langue>fr</langue>
+   <qualite/>
+   <granularite/>
+   <documentation><a external="1" title="Opens external link in new window" class="external-link-new-window" target="_blank" href="http://www.ohlaloireatlantique.com/">Pour plus d'information, cliquer ici</a></documentation>
+   <vocabulaire/>
+   <ressources>
+	    <ressource>
+         <format>dspl</format>
+         <description>Fichier de visualisation DSPL</description>
+         <encodage>UTF-8</encodage>
+         <nom>cinema_dspl.zip</nom>
+		 <vuePrincipale>cinema_STBL</vuePrincipale>
+      </ressource>
+   </ressources>
+</data> 

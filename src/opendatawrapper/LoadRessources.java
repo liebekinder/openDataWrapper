@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Properties;
 
 import org.jdom2.Document;
 import org.jdom2.Element;
@@ -17,6 +18,8 @@ public class LoadRessources {
 	public Document document;
 	public String DocumentPath = "ressources/dataSources.xml";
 	Map<Integer, DataSource> listeDataSource;
+	Properties mapping;
+	String mappingFile;
 
 	public LoadRessources() {
 		SAXBuilder sxb = new SAXBuilder();
@@ -44,6 +47,9 @@ public class LoadRessources {
 	public Map<Integer, DataSource> extractData() {
 		Element racine = document.getRootElement();
 
+		mappingFile = document.getRootElement().getChild("configuration")
+				.getChild("mappingFile").getValue();
+
 		// Dans un premier temps on liste tous les étudiants
 		List<Element> listsources = racine.getChildren("source");
 		Iterator<Element> it = listsources.iterator();
@@ -68,13 +74,15 @@ public class LoadRessources {
 
 			// chaque source est ajouté à la hashMap
 			listeDataSource.put(i, new DataSource(nom, api, apiUrl, file,
-					filePath, mappingFile, xsltFile, format, outputTtl,outputRdf));
+					filePath, mappingFile, xsltFile, format, outputTtl,
+					outputRdf));
 			i++;
 		}
 
 		return getListeDataSource();
 
 	}
+
 
 	public Map<Integer, DataSource> getListeDataSource() {
 		return listeDataSource;

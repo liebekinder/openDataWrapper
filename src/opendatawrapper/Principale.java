@@ -1,14 +1,20 @@
 package opendatawrapper;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.Properties;
 import java.util.Scanner;
 import java.util.Set;
 
 public class Principale {
 
 	public static Map<Integer, DataSource> listeDataSource;
+	public static Properties properties;
+	public static LoadRessources lr;
 
 	/**
 	 * @param args
@@ -23,8 +29,9 @@ public class Principale {
 		 * can contact the API or must use a file
 		 */
 
-		LoadRessources lr = new LoadRessources();
+		lr = new LoadRessources();
 		listeDataSource = lr.extractData();
+		properties = getMapping(lr.mappingFile);
 		System.out.println("loading...");
 
 		Scanner in = new Scanner(System.in);
@@ -92,21 +99,15 @@ public class Principale {
 	private static void conversionTtl(DataSource dts) {
 		if (dts.getFormat().equals("XML")) {
 			ConvertXML cxml = new ConvertXML(dts.getXsltFile(),
-					dts.getOutputTtl());
+					dts.getOutputTtl(), lr.mappingFile);
 			if (dts.isApi()) {
-				cxml.convertFromApi(dts.getApiUrl());
+				cxml.convertFromApi(dts.getApiUrl(), properties);
 			} else {
-				cxml.convertfromFile(dts.getFilePath());
+				cxml.convertfromFile(dts.getFilePath(), properties);
 			}
 		} else {
-			if (dts.getFormat().equals("CSV")) {
-				ConvertCSV ccsv = new ConvertCSV(dts.getXsltFile(),
-						dts.getOutputTtl());
-				ccsv.convertfromFile(dts.getFilePath());
-			} else {
-				System.err.println("the format " + dts.getFormat()
-						+ " is not supported yet!");
-			}
+			System.err.println("the format " + dts.getFormat()
+					+ " is not supported yet!");
 		}
 	}
 
@@ -190,5 +191,22 @@ public class Principale {
 	private static void conversionXmlRdf(DataSource dts) {
 		ConvertTtl cttl = new ConvertTtl(dts.getOutputTtl(), dts.getOutputRdf());
 		cttl.convert();
+	}
+	
+	public static Properties getMapping(String path) {
+		// TODO Auto-generated method stub
+		Properties p = new Properties();
+		try {
+			p.load(new FileReader(path));
+			return p;
+		} catch (FileNotFoundException e) {
+			System.err.println("Le fichier de mapping n'existe pas! "
+					+ e.getMessage());
+		} catch (IOException e) {
+			System.err
+					.println("Erreur de lecture du fichier de mapping. Vérifiez que vous avez les droits en lecture! "
+							+ e.getMessage());
+		}
+		return p;
 	}
 }

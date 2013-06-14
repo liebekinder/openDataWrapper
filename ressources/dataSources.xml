@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sources>
+    <configuration>
+        <mappingFile>ressources/mapping.properties</mappingFile>
+    </configuration>
     <!--  
 	<source>
 		<nom>Hotel</nom>

@@ -14,6 +14,8 @@ import java.util.Properties;
 import javax.xml.transform.Result;
 import javax.xml.transform.Source;
 import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerConfigurationException;
+import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
@@ -33,6 +35,7 @@ public class ConvertXML {
 	public String XMLFile_;
 	public String XSLFile_;
 	public String outputFile;
+	public String mappingPath;
 
 	String proxyHost;
 	String proxyPort;
@@ -49,9 +52,10 @@ public class ConvertXML {
 	 * 
 	 * @param XMLout le dossier qui contiendra le fichier converti
 	 */
-	public ConvertXML(String XSLin, String XMLout) {
+	public ConvertXML(String XSLin, String XMLout, String mappingPath) {
 		XSLFile_ = XSLin;
 		outputFile = XMLout;
+		this.mappingPath = mappingPath;
 
 		try {
 			Properties prop = new Properties();
@@ -68,14 +72,26 @@ public class ConvertXML {
 	/*
 	 * Convert the local XML file into Turtle
 	 */
-	public void convertfromFile(String XMLFile_) {
-		TransformerFactory tFactory = TransformerFactory.newInstance();
+	public void convertfromFile(String XMLFile_, Properties p) {
+		SAXBuilder sxb = new SAXBuilder();
 		try {
+			constructXSL(p, sxb.build(new File(XMLFile_)));
+			TransformerFactory tFactory = TransformerFactory.newInstance();
 			Transformer transformer = tFactory.newTransformer(new StreamSource(
 					new File(XSLFile_)));
 			transformer.transform(new StreamSource(new File(XMLFile_)),
 					new StreamResult(new File(outputFile)));
-		} catch (Exception e) {
+		} catch (TransformerConfigurationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (JDOMException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (TransformerException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
@@ -86,9 +102,10 @@ public class ConvertXML {
 	 * 
 	 * @param url, the URL of the remote API *
 	 */
-	public void convertFromApi(String url) {
+	public void convertFromApi(String url, Properties p) {
 		Document document = getRemoteXML(url);
 		if (document != null) {
+			constructXSL(p, document);
 			DOMOutputter domOutputter = new DOMOutputter();
 			org.w3c.dom.Document w3cDoc;
 
@@ -131,12 +148,14 @@ public class ConvertXML {
 
 		try {
 			if (proxyHost != null) {
-				//on ne charge le proxy que si besoin est => si un proxyhost a été défini
+				// on ne charge le proxy que si besoin est => si un proxyhost a
+				// été défini
 				System.setProperty("proxySet", "true");
 				System.setProperty("http.proxyHost", proxyHost);
 				System.setProperty("http.proxyPort", proxyPort);
 				if (authUser != null) {
-					//le proxy est détecté comme sécurisé par identification si le authuser est défini
+					// le proxy est détecté comme sécurisé par identification si
+					// le authuser est défini
 					System.setProperty("http.auth.preference", "Basic");
 					Authenticator.setDefault(new Authenticator() {
 						protected PasswordAuthentication getPasswordAuthentication() {
@@ -174,4 +193,9 @@ public class ConvertXML {
 		}
 	}
 
+	public void constructXSL(Properties p, Document document) {
+		XSLConstructor xslc = new XSLConstructor(XSLFile_, document, p);
+		xslc.construct(mappingPath);
+
+	}
 }
