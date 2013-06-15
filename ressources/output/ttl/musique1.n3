@@ -1,493 +1,563 @@
 
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix prop-fr: <http://fr.dbpedia.org/property/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix ex: <http://example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix proj: <http://projet.com/10/> . 
+@prefix dbpprop: <http://dbpedia.org/property/> .
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
+@prefix sc: <http://schema.org/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
-        
-<http://projet.com/10/GROUPEMENT_MUSICAL_AIGREFEUILLAIS>	 ex:nom 	 "GROUPEMENT MUSICAL AIGREFEUILLAIS"^^xsd:string;
-	ex:id	 "1"^^xsd:integer ;
-	ex:adresse1 	 "51 rue de la Sensive"^^xsd:string;
-	ex:codePostal	 "44140"^^xsd:integer ;
-	ex:ville 	 "AIGREFEUILLE-SUR-MAINE"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.075773 , -1.3981269]"^^xsd:string.
+<http://projet.com/10/GROUPEMENT_MUSICAL_AIGREFEUILLAIS>	 foaf:name 	 "GROUPEMENT MUSICAL AIGREFEUILLAIS"^^xsd:string ;
+	ex:adresse	 "51 rue de la Sensive"^^xsd:string ;
+	ex:coordinate	 "[ 47.075773 , -1.3981269]"^^xsd:decimal ;
+	ex:id	 "1"^^xsd:string ;
+	ex:ville	 "AIGREFEUILLE-SUR-MAINE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44140"^^xsd:integer ;
+	ex:tel	 "02.40.06.62.83"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/DOREMI>	 ex:nom 	 "DOREMI"^^xsd:string;
-	ex:id	 "2"^^xsd:integer ;
-	ex:adresse1 	 "111 rue des Mouettes"^^xsd:string;
-	ex:codePostal	 "44150"^^xsd:integer ;
-	ex:ville 	 "ANETZ"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.3784143 , -1.1102212]"^^xsd:string.
+<http://projet.com/10/DOREMI>	 foaf:name 	 "DOREMI"^^xsd:string ;
+	ex:adresse	 "111 rue des Mouettes"^^xsd:string ;
+	ex:coordinate	 "[ 47.3784143 , -1.1102212]"^^xsd:decimal ;
+	ex:id	 "2"^^xsd:string ;
+	ex:ville	 "ANETZ"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44150"^^xsd:integer ;
+	ex:tel	 "02.40.09.93.89"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/SIBEMOL_>	 ex:nom 	 "SIBEMOL "^^xsd:string;
-	ex:id	 "3"^^xsd:integer ;
-	ex:adresse1 	 "60 rue du Heurteau"^^xsd:string;
-	ex:codePostal	 "44150"^^xsd:integer ;
-	ex:ville 	 "ANETZ"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.3823946 , -1.1019609]"^^xsd:string.
+<http://projet.com/10/SIBEMOL_>	 foaf:name 	 "SIBEMOL "^^xsd:string ;
+	ex:adresse	 "60 rue du Heurteau"^^xsd:string ;
+	ex:coordinate	 "[ 47.3823946 , -1.1019609]"^^xsd:decimal ;
+	ex:id	 "3"^^xsd:string ;
+	ex:ville	 "ANETZ"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44150"^^xsd:integer ;
+	ex:tel	 "02.40.09.79.86"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ECOLE_DE_MUSIQUE>	 ex:nom 	 "ECOLE DE MUSIQUE"^^xsd:string;
-	ex:id	 "4"^^xsd:integer ;
-	ex:adresse1 	 "Square de Theley"^^xsd:string;
-	ex:codePostal	 "44115"^^xsd:integer ;
-	ex:ville 	 "BASSE-GOULAINE"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.2183 , -1.464068]"^^xsd:string.
+<http://projet.com/10/ECOLE_DE_MUSIQUE>	 foaf:name 	 "ECOLE DE MUSIQUE"^^xsd:string ;
+	ex:adresse	 "Square de Theley"^^xsd:string ;
+	ex:coordinate	 "[ 47.2183 , -1.464068]"^^xsd:decimal ;
+	ex:id	 "4"^^xsd:string ;
+	ex:ville	 "BASSE-GOULAINE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44115"^^xsd:integer ;
+	ex:tel	 "02.40.03.51.58"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ECOLE_DE_MUSIQUE_PRELUDE>	 ex:nom 	 "ECOLE DE MUSIQUE PRELUDE"^^xsd:string;
-	ex:id	 "5"^^xsd:integer ;
-	ex:adresse1 	 "225 rue du Capitaine Etienne"^^xsd:string;
-	ex:codePostal	 "44370"^^xsd:integer ;
-	ex:ville 	 "BELLIGNE"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.4684699 , -1.0238256]"^^xsd:string.
+<http://projet.com/10/ECOLE_DE_MUSIQUE_PRELUDE>	 foaf:name 	 "ECOLE DE MUSIQUE PRELUDE"^^xsd:string ;
+	ex:adresse	 "225 rue du Capitaine Etienne"^^xsd:string ;
+	ex:coordinate	 "[ 47.4684699 , -1.0238256]"^^xsd:decimal ;
+	ex:id	 "5"^^xsd:string ;
+	ex:ville	 "BELLIGNE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44370"^^xsd:integer ;
+	ex:tel	 "02.40.96.93.08"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ECOLE_DE_MUSIQUE_BLINOISE>	 ex:nom 	 "ECOLE DE MUSIQUE BLINOISE"^^xsd:string;
-	ex:id	 "6"^^xsd:integer ;
-	ex:adresse1 	 "1 chemin de la Prée"^^xsd:string;
-	ex:codePostal	 "44130"^^xsd:integer ;
-	ex:ville 	 "BLAIN"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.4769649 , -1.7635968]"^^xsd:string.
+<http://projet.com/10/ECOLE_DE_MUSIQUE_BLINOISE>	 foaf:name 	 "ECOLE DE MUSIQUE BLINOISE"^^xsd:string ;
+	ex:adresse	 "1 chemin de la Prée"^^xsd:string ;
+	ex:coordinate	 "[ 47.4769649 , -1.7635968]"^^xsd:decimal ;
+	ex:id	 "6"^^xsd:string ;
+	ex:ville	 "BLAIN"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44130"^^xsd:integer ;
+	ex:tel	 "02.40.79.00.71"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ECOLE_BOSCEENNE_DE_MUSIQUE_ET_DE_DANSE>	 ex:nom 	 "ECOLE BOSCEENNE DE MUSIQUE ET DE DANSE"^^xsd:string;
-	ex:id	 "7"^^xsd:integer ;
-	ex:adresse1 	 "2 rue du Stade"^^xsd:string;
-	ex:codePostal	 "44830"^^xsd:integer ;
-	ex:ville 	 "BOUAYE"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.1489208 , -1.6958586]"^^xsd:string.
+<http://projet.com/10/ECOLE_BOSCEENNE_DE_MUSIQUE_ET_DE_DANSE>	 foaf:name 	 "ECOLE BOSCEENNE DE MUSIQUE ET DE DANSE"^^xsd:string ;
+	ex:adresse	 "2 rue du Stade"^^xsd:string ;
+	ex:coordinate	 "[ 47.1489208 , -1.6958586]"^^xsd:decimal ;
+	ex:id	 "7"^^xsd:string ;
+	ex:ville	 "BOUAYE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44830"^^xsd:integer ;
+	ex:tel	 "02.51.70.52.70"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ECOLE_DE_MUSIQUE>	 ex:nom 	 "ECOLE DE MUSIQUE"^^xsd:string;
-	ex:id	 "8"^^xsd:integer ;
-	ex:adresse1 	 "Rue du 11 Novembre"^^xsd:string;
-	ex:codePostal	 "44190"^^xsd:integer ;
-	ex:ville 	 "BOUSSAY"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.0466784 , -1.1868293]"^^xsd:string.
+<http://projet.com/10/ECOLE_DE_MUSIQUE>	 foaf:name 	 "ECOLE DE MUSIQUE"^^xsd:string ;
+	ex:adresse	 "Rue du 11 Novembre"^^xsd:string ;
+	ex:coordinate	 "[ 47.0466784 , -1.1868293]"^^xsd:decimal ;
+	ex:id	 "8"^^xsd:string ;
+	ex:ville	 "BOUSSAY"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44190"^^xsd:integer ;
+	ex:tel	 "02.40.06.86.13"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/AMICALE_LAIQUE_-_SECTION_MUSIQUE_-_LAMINOTE>	 ex:nom 	 "AMICALE LAIQUE - SECTION MUSIQUE - LAMINOTE"^^xsd:string;
-	ex:id	 "9"^^xsd:integer ;
-	ex:adresse1 	 "22 rue Jean-Louis Maillard"^^xsd:string;
-	ex:codePostal	 "44130"^^xsd:integer ;
-	ex:ville 	 "BOUVRON"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.4144618 , -1.8488735]"^^xsd:string.
+<http://projet.com/10/AMICALE_LAIQUE_-_SECTION_MUSIQUE_-_LAMINOTE>	 foaf:name 	 "AMICALE LAIQUE - SECTION MUSIQUE - LAMINOTE"^^xsd:string ;
+	ex:adresse	 "22 rue Jean-Louis Maillard"^^xsd:string ;
+	ex:coordinate	 "[ 47.4144618 , -1.8488735]"^^xsd:decimal ;
+	ex:id	 "9"^^xsd:string ;
+	ex:ville	 "BOUVRON"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44130"^^xsd:integer ;
+	ex:tel	 "02.40.56.29.26"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ECOLE_DE_MUSIQUE_BRAINS_DE_MUSIQUE>	 ex:nom 	 "ECOLE DE MUSIQUE BRAINS DE MUSIQUE"^^xsd:string;
-	ex:id	 "10"^^xsd:integer ;
-	ex:adresse1 	 "13 la Joussinière"^^xsd:string;
-	ex:codePostal	 "44830"^^xsd:integer ;
-	ex:ville 	 "BRAINS"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.17152309 , -1.7476216]"^^xsd:string.
+<http://projet.com/10/ECOLE_DE_MUSIQUE_BRAINS_DE_MUSIQUE>	 foaf:name 	 "ECOLE DE MUSIQUE BRAINS DE MUSIQUE"^^xsd:string ;
+	ex:adresse	 "13 la Joussinière"^^xsd:string ;
+	ex:coordinate	 "[ 47.17152309 , -1.7476216]"^^xsd:decimal ;
+	ex:id	 "10"^^xsd:string ;
+	ex:ville	 "BRAINS"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44830"^^xsd:integer ;
+	ex:tel	 "02.40.65.51.30"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/PAUSE_MUSIQUE>	 ex:nom 	 "PAUSE MUSIQUE"^^xsd:string;
-	ex:id	 "11"^^xsd:integer ;
-	ex:adresse1 	 "Mairie"^^xsd:string;
-	ex:codePostal	 "44750"^^xsd:integer ;
-	ex:ville 	 "CAMPBON"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.41225 , -1.96763]"^^xsd:string.
+<http://projet.com/10/PAUSE_MUSIQUE>	 foaf:name 	 "PAUSE MUSIQUE"^^xsd:string ;
+	ex:adresse	 "Mairie"^^xsd:string ;
+	ex:coordinate	 "[ 47.41225 , -1.96763]"^^xsd:decimal ;
+	ex:id	 "11"^^xsd:string ;
+	ex:ville	 "CAMPBON"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44750"^^xsd:integer ;
+	ex:tel	 "02.40.56.73.60"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ECOLE_DE_MUSIQUE_LE_TRIOLET_DE_RETZ>	 ex:nom 	 "ECOLE DE MUSIQUE LE TRIOLET DE RETZ"^^xsd:string;
-	ex:id	 "12"^^xsd:integer ;
-	ex:adresse1 	 "10 bis rue de Pornic"^^xsd:string;
-	ex:codePostal	 "44680"^^xsd:integer ;
-	ex:ville 	 "CHEMERE"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.1198476 , -1.9218933]"^^xsd:string.
+<http://projet.com/10/ECOLE_DE_MUSIQUE_LE_TRIOLET_DE_RETZ>	 foaf:name 	 "ECOLE DE MUSIQUE LE TRIOLET DE RETZ"^^xsd:string ;
+	ex:adresse	 "10 bis rue de Pornic"^^xsd:string ;
+	ex:coordinate	 "[ 47.1198476 , -1.9218933]"^^xsd:decimal ;
+	ex:id	 "12"^^xsd:string ;
+	ex:ville	 "CHEMERE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44680"^^xsd:integer ;
+	ex:tel	 "02.40.64.89.15"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ARTISSIMO>	 ex:nom 	 "ARTISSIMO"^^xsd:string;
-	ex:id	 "13"^^xsd:integer ;
-	ex:adresse1 	 "26 rue de la Madeleine"^^xsd:string;
-	ex:codePostal	 "44190"^^xsd:integer ;
-	ex:ville 	 "CLISSON"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.0821643 , -1.2780474]"^^xsd:string.
+<http://projet.com/10/ARTISSIMO>	 foaf:name 	 "ARTISSIMO"^^xsd:string ;
+	ex:adresse	 "26 rue de la Madeleine"^^xsd:string ;
+	ex:coordinate	 "[ 47.0821643 , -1.2780474]"^^xsd:decimal ;
+	ex:id	 "13"^^xsd:string ;
+	ex:ville	 "CLISSON"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44190"^^xsd:integer ;
+	ex:tel	 "02.40.03.82.49"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ECOLE_DE_MUSIQUE>	 ex:nom 	 "ECOLE DE MUSIQUE"^^xsd:string;
-	ex:id	 "14"^^xsd:integer ;
-	ex:adresse1 	 "13 rue du Calvaire"^^xsd:string;
-	ex:codePostal	 "44360"^^xsd:integer ;
-	ex:ville 	 "CORDEMAIS"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.290107 , -1.8753817]"^^xsd:string.
+<http://projet.com/10/ECOLE_DE_MUSIQUE>	 foaf:name 	 "ECOLE DE MUSIQUE"^^xsd:string ;
+	ex:adresse	 "13 rue du Calvaire"^^xsd:string ;
+	ex:coordinate	 "[ 47.290107 , -1.8753817]"^^xsd:decimal ;
+	ex:id	 "14"^^xsd:string ;
+	ex:ville	 "CORDEMAIS"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44360"^^xsd:integer ;
+	ex:tel	 "02.40.57.78.09"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ECOLE_DE_MUSIQUE>	 ex:nom 	 "ECOLE DE MUSIQUE"^^xsd:string;
-	ex:id	 "15"^^xsd:integer ;
-	ex:adresse1 	 "Place des Cités"^^xsd:string;
-	ex:codePostal	 "44220"^^xsd:integer ;
-	ex:ville 	 "COUERON"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.2147054 , -1.6825397]"^^xsd:string.
+<http://projet.com/10/ECOLE_DE_MUSIQUE>	 foaf:name 	 "ECOLE DE MUSIQUE"^^xsd:string ;
+	ex:adresse	 "Place des Cités"^^xsd:string ;
+	ex:coordinate	 "[ 47.2147054 , -1.6825397]"^^xsd:decimal ;
+	ex:id	 "15"^^xsd:string ;
+	ex:ville	 "COUERON"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44220"^^xsd:integer ;
+	ex:tel	 "02.40.85.01.77"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/MUSIQUE_AUX_CHAMPS>	 ex:nom 	 "MUSIQUE AUX CHAMPS"^^xsd:string;
-	ex:id	 "16"^^xsd:integer ;
-	ex:adresse1 	 "La Borderie"^^xsd:string;
-	ex:codePostal	 "44590"^^xsd:integer ;
-	ex:ville 	 "DERVAL"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.6736873 , -1.6653423]"^^xsd:string.
+<http://projet.com/10/MUSIQUE_AUX_CHAMPS>	 foaf:name 	 "MUSIQUE AUX CHAMPS"^^xsd:string ;
+	ex:adresse	 "La Borderie"^^xsd:string ;
+	ex:coordinate	 "[ 47.6736873 , -1.6653423]"^^xsd:decimal ;
+	ex:id	 "16"^^xsd:string ;
+	ex:ville	 "DERVAL"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44590"^^xsd:integer ;
+	ex:tel	 "undefined"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ECOLE_DE_MUSIQUE_-_CALG>	 ex:nom 	 "ECOLE DE MUSIQUE - CALG"^^xsd:string;
-	ex:id	 "17"^^xsd:integer ;
-	ex:adresse1 	 "Maison des Jardins de la Cure"^^xsd:string;
-	ex:codePostal	 "44119"^^xsd:integer ;
-	ex:ville 	 "GRANDCHAMPS-DES-FONTAINES"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.364384 , -1.605706]"^^xsd:string.
+<http://projet.com/10/ECOLE_DE_MUSIQUE_-_CALG>	 foaf:name 	 "ECOLE DE MUSIQUE - CALG"^^xsd:string ;
+	ex:adresse	 "Maison des Jardins de la Cure"^^xsd:string ;
+	ex:coordinate	 "[ 47.364384 , -1.605706]"^^xsd:decimal ;
+	ex:id	 "17"^^xsd:string ;
+	ex:ville	 "GRANDCHAMPS-DES-FONTAINES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44119"^^xsd:integer ;
+	ex:tel	 "02.51.12.14.37"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/CLE_DE_SOL>	 ex:nom 	 "CLE DE SOL"^^xsd:string;
-	ex:id	 "18"^^xsd:integer ;
-	ex:adresse1 	 "Hôtel de Ville"^^xsd:string;
-	ex:codePostal	 "44290"^^xsd:integer ;
-	ex:ville 	 "GUEMENE-PENFAO"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.628671 , -1.834333]"^^xsd:string.
+<http://projet.com/10/CLE_DE_SOL>	 foaf:name 	 "CLE DE SOL"^^xsd:string ;
+	ex:adresse	 "Hôtel de Ville"^^xsd:string ;
+	ex:coordinate	 "[ 47.628671 , -1.834333]"^^xsd:decimal ;
+	ex:id	 "18"^^xsd:string ;
+	ex:ville	 "GUEMENE-PENFAO"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44290"^^xsd:integer ;
+	ex:tel	 "02.40.87.25.53"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/CRESCENDO_EDUCATION_MUSICALE>	 ex:nom 	 "CRESCENDO EDUCATION MUSICALE"^^xsd:string;
-	ex:id	 "19"^^xsd:integer ;
-	ex:adresse1 	 "Maison des Associations - Place du Général d'Argencé"^^xsd:string;
-	ex:codePostal	 "44410"^^xsd:integer ;
-	ex:ville 	 "HERBIGNAC"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.449734 , -2.317044]"^^xsd:string.
+<http://projet.com/10/CRESCENDO_EDUCATION_MUSICALE>	 foaf:name 	 "CRESCENDO EDUCATION MUSICALE"^^xsd:string ;
+	ex:adresse	 "Maison des Associations - Place du Général d'Argencé"^^xsd:string ;
+	ex:coordinate	 "[ 47.449734 , -2.317044]"^^xsd:decimal ;
+	ex:id	 "19"^^xsd:string ;
+	ex:ville	 "HERBIGNAC"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44410"^^xsd:integer ;
+	ex:tel	 "02.40.19.99.84"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ECOLE_DE_MUSIQUE>	 ex:nom 	 "ECOLE DE MUSIQUE"^^xsd:string;
-	ex:id	 "20"^^xsd:integer ;
-	ex:adresse1 	 "7 La Cour aux Cerfs"^^xsd:string;
-	ex:codePostal	 "44410"^^xsd:integer ;
-	ex:ville 	 "HERBIGNAC"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.449734 , -2.317044]"^^xsd:string.
+<http://projet.com/10/ECOLE_DE_MUSIQUE>	 foaf:name 	 "ECOLE DE MUSIQUE"^^xsd:string ;
+	ex:adresse	 "7 La Cour aux Cerfs"^^xsd:string ;
+	ex:coordinate	 "[ 47.449734 , -2.317044]"^^xsd:decimal ;
+	ex:id	 "20"^^xsd:string ;
+	ex:ville	 "HERBIGNAC"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44410"^^xsd:integer ;
+	ex:tel	 "02.40.88.94.85"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/HERIC_MUSIQUE>	 ex:nom 	 "HERIC MUSIQUE"^^xsd:string;
-	ex:id	 "21"^^xsd:integer ;
-	ex:adresse1 	 "Mairie"^^xsd:string;
-	ex:codePostal	 "44810"^^xsd:integer ;
-	ex:ville 	 "HERIC"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.414794 , -1.652556]"^^xsd:string.
+<http://projet.com/10/HERIC_MUSIQUE>	 foaf:name 	 "HERIC MUSIQUE"^^xsd:string ;
+	ex:adresse	 "Mairie"^^xsd:string ;
+	ex:coordinate	 "[ 47.414794 , -1.652556]"^^xsd:decimal ;
+	ex:id	 "21"^^xsd:string ;
+	ex:ville	 "HERIC"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44810"^^xsd:integer ;
+	ex:tel	 "02.40.57.93.08"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ECOLE_DE_MUSIQUE>	 ex:nom 	 "ECOLE DE MUSIQUE"^^xsd:string;
-	ex:id	 "22"^^xsd:integer ;
-	ex:adresse1 	 "Maison des Associations - Impasse Jean Mounès"^^xsd:string;
-	ex:codePostal	 "44760"^^xsd:integer ;
-	ex:ville 	 "LA-BERNERIE-EN-RETZ"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.081377 , -2.0381999]"^^xsd:string.
+<http://projet.com/10/ECOLE_DE_MUSIQUE>	 foaf:name 	 "ECOLE DE MUSIQUE"^^xsd:string ;
+	ex:adresse	 "Maison des Associations - Impasse Jean Mounès"^^xsd:string ;
+	ex:coordinate	 "[ 47.081377 , -2.0381999]"^^xsd:decimal ;
+	ex:id	 "22"^^xsd:string ;
+	ex:ville	 "LA-BERNERIE-EN-RETZ"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44760"^^xsd:integer ;
+	ex:tel	 "02.40.64.74.24"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/FASILAMUSIK_>	 ex:nom 	 "FASILAMUSIK "^^xsd:string;
-	ex:id	 "23"^^xsd:integer ;
-	ex:adresse1 	 "Mairie - 2 place de l'Eglise"^^xsd:string;
-	ex:codePostal	 "44260"^^xsd:integer ;
-	ex:ville 	 "LA-CHAPELLE-LAUNAY"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.37212659 , -1.9715046]"^^xsd:string.
+<http://projet.com/10/FASILAMUSIK_>	 foaf:name 	 "FASILAMUSIK "^^xsd:string ;
+	ex:adresse	 "Mairie - 2 place de l'Eglise"^^xsd:string ;
+	ex:coordinate	 "[ 47.37212659 , -1.9715046]"^^xsd:decimal ;
+	ex:id	 "23"^^xsd:string ;
+	ex:ville	 "LA-CHAPELLE-LAUNAY"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44260"^^xsd:integer ;
+	ex:tel	 "02.40.58.33.05"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ASSOCIATION_MUSICALE_DE_L'ERDRE_ET_DU_GESVRES_-_AMEG_>	 ex:nom 	 "ASSOCIATION MUSICALE DE L'ERDRE ET DU GESVRES - AMEG "^^xsd:string;
-	ex:id	 "24"^^xsd:integer ;
-	ex:adresse1 	 "Centre Culturel Capellia - Chemin de Roche Blanche"^^xsd:string;
-	ex:codePostal	 "44240"^^xsd:integer ;
-	ex:ville 	 "LA-CHAPELLE-SUR-ERDRE"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.2796767 , -1.5587935]"^^xsd:string.
+<http://projet.com/10/ASSOCIATION_MUSICALE_DE_L'ERDRE_ET_DU_GESVRES_-_AMEG_>	 foaf:name 	 "ASSOCIATION MUSICALE DE L'ERDRE ET DU GESVRES - AMEG "^^xsd:string ;
+	ex:adresse	 "Centre Culturel Capellia - Chemin de Roche Blanche"^^xsd:string ;
+	ex:coordinate	 "[ 47.2796767 , -1.5587935]"^^xsd:decimal ;
+	ex:id	 "24"^^xsd:string ;
+	ex:ville	 "LA-CHAPELLE-SUR-ERDRE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44240"^^xsd:integer ;
+	ex:tel	 "09.53.09.07.90"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ECOLE_MUNICIPALE_DE_MUSIQUE_DANSE_ET_THEATRE>	 ex:nom 	 "ECOLE MUNICIPALE DE MUSIQUE DANSE ET THEATRE"^^xsd:string;
-	ex:id	 "25"^^xsd:integer ;
-	ex:adresse1 	 "2 rue Alfred Lemaitre"^^xsd:string;
-	ex:codePostal	 "44118"^^xsd:integer ;
-	ex:ville 	 "LA-CHEVROLIERE"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.0920376 , -1.6103597]"^^xsd:string.
+<http://projet.com/10/ECOLE_MUNICIPALE_DE_MUSIQUE_DANSE_ET_THEATRE>	 foaf:name 	 "ECOLE MUNICIPALE DE MUSIQUE DANSE ET THEATRE"^^xsd:string ;
+	ex:adresse	 "2 rue Alfred Lemaitre"^^xsd:string ;
+	ex:coordinate	 "[ 47.0920376 , -1.6103597]"^^xsd:decimal ;
+	ex:id	 "25"^^xsd:string ;
+	ex:ville	 "LA-CHEVROLIERE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44118"^^xsd:integer ;
+	ex:tel	 "02.40.04.36.97"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/PRELUDE_-_A_F_R__>	 ex:nom 	 "PRELUDE - A.F.R. "^^xsd:string;
-	ex:id	 "26"^^xsd:integer ;
-	ex:adresse1 	 "8 rue Paul Joyau"^^xsd:string;
-	ex:codePostal	 "44140"^^xsd:integer ;
-	ex:ville 	 "LA-PLANCHE"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.0174003 , -1.4365823]"^^xsd:string.
+<http://projet.com/10/PRELUDE_-_A_F_R__>	 foaf:name 	 "PRELUDE - A.F.R. "^^xsd:string ;
+	ex:adresse	 "8 rue Paul Joyau"^^xsd:string ;
+	ex:coordinate	 "[ 47.0174003 , -1.4365823]"^^xsd:decimal ;
+	ex:id	 "26"^^xsd:string ;
+	ex:ville	 "LA-PLANCHE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44140"^^xsd:integer ;
+	ex:tel	 "02.40.31.96.82"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ASSOCIATION_MUSICALE_BIGNON_MONTBERT_GENESTON>	 ex:nom 	 "ASSOCIATION MUSICALE BIGNON MONTBERT GENESTON"^^xsd:string;
-	ex:id	 "27"^^xsd:integer ;
-	ex:adresse1 	 "6 rue de la Mairie"^^xsd:string;
-	ex:codePostal	 "44140"^^xsd:integer ;
-	ex:ville 	 "LE-BIGNON"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.0981647 , -1.4908035]"^^xsd:string.
+<http://projet.com/10/ASSOCIATION_MUSICALE_BIGNON_MONTBERT_GENESTON>	 foaf:name 	 "ASSOCIATION MUSICALE BIGNON MONTBERT GENESTON"^^xsd:string ;
+	ex:adresse	 "6 rue de la Mairie"^^xsd:string ;
+	ex:coordinate	 "[ 47.0981647 , -1.4908035]"^^xsd:decimal ;
+	ex:id	 "27"^^xsd:string ;
+	ex:ville	 "LE-BIGNON"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44140"^^xsd:integer ;
+	ex:tel	 "02.40.78.16.52"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ECOLE_DE_MUSIQUE_MARIS-STELLA>	 ex:nom 	 "ECOLE DE MUSIQUE MARIS-STELLA"^^xsd:string;
-	ex:id	 "28"^^xsd:integer ;
-	ex:adresse1 	 "15 rue Jean-Jacques Rousseau"^^xsd:string;
-	ex:codePostal	 "44490"^^xsd:integer ;
-	ex:ville 	 "LE-CROISIC"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.2931296 , -2.5128046]"^^xsd:string.
+<http://projet.com/10/ECOLE_DE_MUSIQUE_MARIS-STELLA>	 foaf:name 	 "ECOLE DE MUSIQUE MARIS-STELLA"^^xsd:string ;
+	ex:adresse	 "15 rue Jean-Jacques Rousseau"^^xsd:string ;
+	ex:coordinate	 "[ 47.2931296 , -2.5128046]"^^xsd:decimal ;
+	ex:id	 "28"^^xsd:string ;
+	ex:ville	 "LE-CROISIC"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44490"^^xsd:integer ;
+	ex:tel	 "02.40.15.78.60"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ECOLE_DE_MUSIQUE_ASSOCIATIVE_DU_CANTON_DE_LEGE_(E_M_A_C_A_L_)>	 ex:nom 	 "ECOLE DE MUSIQUE ASSOCIATIVE DU CANTON DE LEGE (E.M.A.C.A.L.)"^^xsd:string;
-	ex:id	 "29"^^xsd:integer ;
-	ex:adresse1 	 "Place Saint Antoine"^^xsd:string;
-	ex:codePostal	 "44650"^^xsd:integer ;
-	ex:ville 	 "LEGE"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 46.8847809 , -1.5990543]"^^xsd:string.
+<http://projet.com/10/ECOLE_DE_MUSIQUE_ASSOCIATIVE_DU_CANTON_DE_LEGE_(E_M_A_C_A_L_)>	 foaf:name 	 "ECOLE DE MUSIQUE ASSOCIATIVE DU CANTON DE LEGE (E.M.A.C.A.L.)"^^xsd:string ;
+	ex:adresse	 "Place Saint Antoine"^^xsd:string ;
+	ex:coordinate	 "[ 46.8847809 , -1.5990543]"^^xsd:decimal ;
+	ex:id	 "29"^^xsd:string ;
+	ex:ville	 "LEGE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44650"^^xsd:integer ;
+	ex:tel	 "09.60.15.27.14"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/CENTRE_D'ETUDE_MUSICALE_FORTISSIMO>	 ex:nom 	 "CENTRE D'ETUDE MUSICALE FORTISSIMO"^^xsd:string;
-	ex:id	 "30"^^xsd:integer ;
-	ex:adresse1 	 "Rue des Sports"^^xsd:string;
-	ex:codePostal	 "44330"^^xsd:integer ;
-	ex:ville 	 "LE-PALLET"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.142763 , -1.3385689]"^^xsd:string.
+<http://projet.com/10/CENTRE_D'ETUDE_MUSICALE_FORTISSIMO>	 foaf:name 	 "CENTRE D'ETUDE MUSICALE FORTISSIMO"^^xsd:string ;
+	ex:adresse	 "Rue des Sports"^^xsd:string ;
+	ex:coordinate	 "[ 47.142763 , -1.3385689]"^^xsd:decimal ;
+	ex:id	 "30"^^xsd:string ;
+	ex:ville	 "LE-PALLET"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44330"^^xsd:integer ;
+	ex:tel	 "undefined"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/AMICALE_LAIQUE_>	 ex:nom 	 "AMICALE LAIQUE "^^xsd:string;
-	ex:id	 "31"^^xsd:integer ;
-	ex:adresse1 	 "6 rue de l'Enclos"^^xsd:string;
-	ex:codePostal	 "44640"^^xsd:integer ;
-	ex:ville 	 "LE-PELLERIN"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.2001156 , -1.7528211]"^^xsd:string.
+<http://projet.com/10/AMICALE_LAIQUE_>	 foaf:name 	 "AMICALE LAIQUE "^^xsd:string ;
+	ex:adresse	 "6 rue de l'Enclos"^^xsd:string ;
+	ex:coordinate	 "[ 47.2001156 , -1.7528211]"^^xsd:decimal ;
+	ex:id	 "31"^^xsd:string ;
+	ex:ville	 "LE-PELLERIN"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44640"^^xsd:integer ;
+	ex:tel	 "02.40.05.69.10"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/FARANDOLE>	 ex:nom 	 "FARANDOLE"^^xsd:string;
-	ex:id	 "32"^^xsd:integer ;
-	ex:adresse1 	 "45 bd de l'Atlantique"^^xsd:string;
-	ex:codePostal	 "44510"^^xsd:integer ;
-	ex:ville 	 "LE-POULIGUEN"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.2637884 , -2.4491207]"^^xsd:string.
+<http://projet.com/10/FARANDOLE>	 foaf:name 	 "FARANDOLE"^^xsd:string ;
+	ex:adresse	 "45 bd de l'Atlantique"^^xsd:string ;
+	ex:coordinate	 "[ 47.2637884 , -2.4491207]"^^xsd:decimal ;
+	ex:id	 "32"^^xsd:string ;
+	ex:ville	 "LE-POULIGUEN"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44510"^^xsd:integer ;
+	ex:tel	 "undefined"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/NOTES_EN_STOCK>	 ex:nom 	 "NOTES EN STOCK"^^xsd:string;
-	ex:id	 "33"^^xsd:integer ;
-	ex:adresse1 	 "4 rue des Tamaris"^^xsd:string;
-	ex:codePostal	 "44840"^^xsd:integer ;
-	ex:ville 	 "LES-SORINIERES"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.1421813 , -1.5286873]"^^xsd:string.
+<http://projet.com/10/NOTES_EN_STOCK>	 foaf:name 	 "NOTES EN STOCK"^^xsd:string ;
+	ex:adresse	 "4 rue des Tamaris"^^xsd:string ;
+	ex:coordinate	 "[ 47.1421813 , -1.5286873]"^^xsd:decimal ;
+	ex:id	 "33"^^xsd:string ;
+	ex:ville	 "LES-SORINIERES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44840"^^xsd:integer ;
+	ex:tel	 "02.40.13.09.39"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/GILLES_DE_RETZ_MUSIQUE>	 ex:nom 	 "GILLES DE RETZ MUSIQUE"^^xsd:string;
-	ex:id	 "34"^^xsd:integer ;
-	ex:adresse1 	 "Boulevard des Régents"^^xsd:string;
-	ex:codePostal	 "44270"^^xsd:integer ;
-	ex:ville 	 "MACHECOUL"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 46.995296 , -1.8204733]"^^xsd:string.
+<http://projet.com/10/GILLES_DE_RETZ_MUSIQUE>	 foaf:name 	 "GILLES DE RETZ MUSIQUE"^^xsd:string ;
+	ex:adresse	 "Boulevard des Régents"^^xsd:string ;
+	ex:coordinate	 "[ 46.995296 , -1.8204733]"^^xsd:decimal ;
+	ex:id	 "34"^^xsd:string ;
+	ex:ville	 "MACHECOUL"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44270"^^xsd:integer ;
+	ex:tel	 "02.40.78.54.91"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/EUTERPE_-_ENSEMBLE_MUSICAL>	 ex:nom 	 "EUTERPE - ENSEMBLE MUSICAL"^^xsd:string;
-	ex:id	 "35"^^xsd:integer ;
-	ex:adresse1 	 "Rue de la Merlerie"^^xsd:string;
-	ex:codePostal	 "44260"^^xsd:integer ;
-	ex:ville 	 "MALVILLE"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.3547787 , -1.8620114]"^^xsd:string.
+<http://projet.com/10/EUTERPE_-_ENSEMBLE_MUSICAL>	 foaf:name 	 "EUTERPE - ENSEMBLE MUSICAL"^^xsd:string ;
+	ex:adresse	 "Rue de la Merlerie"^^xsd:string ;
+	ex:coordinate	 "[ 47.3547787 , -1.8620114]"^^xsd:decimal ;
+	ex:id	 "35"^^xsd:string ;
+	ex:ville	 "MALVILLE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44260"^^xsd:integer ;
+	ex:tel	 "undefined"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ASSOCIATION_MUSICAMAUVES>	 ex:nom 	 "ASSOCIATION MUSICAMAUVES"^^xsd:string;
-	ex:id	 "36"^^xsd:integer ;
-	ex:adresse1 	 "Place de l'Eglise"^^xsd:string;
-	ex:codePostal	 "44470"^^xsd:integer ;
-	ex:ville 	 "MAUVES-SUR-LOIRE"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.2952125 , -1.3936404]"^^xsd:string.
+<http://projet.com/10/ASSOCIATION_MUSICAMAUVES>	 foaf:name 	 "ASSOCIATION MUSICAMAUVES"^^xsd:string ;
+	ex:adresse	 "Place de l'Eglise"^^xsd:string ;
+	ex:coordinate	 "[ 47.2952125 , -1.3936404]"^^xsd:decimal ;
+	ex:id	 "36"^^xsd:string ;
+	ex:ville	 "MAUVES-SUR-LOIRE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44470"^^xsd:integer ;
+	ex:tel	 "02.40.25.55.52"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ECOLE_NANTAISE_DE_CUIVRES>	 ex:nom 	 "ECOLE NANTAISE DE CUIVRES"^^xsd:string;
-	ex:id	 "37"^^xsd:integer ;
-	ex:adresse1 	 "39 rue Félix Thomas"^^xsd:string;
-	ex:codePostal	 "44000"^^xsd:integer ;
-	ex:ville 	 "NANTES"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.2308047 , -1.5532971]"^^xsd:string.
+<http://projet.com/10/ECOLE_NANTAISE_DE_CUIVRES>	 foaf:name 	 "ECOLE NANTAISE DE CUIVRES"^^xsd:string ;
+	ex:adresse	 "39 rue Félix Thomas"^^xsd:string ;
+	ex:coordinate	 "[ 47.2308047 , -1.5532971]"^^xsd:decimal ;
+	ex:id	 "37"^^xsd:string ;
+	ex:ville	 "NANTES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
+	ex:tel	 "02.40.14.34.97"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ECOLE_DE_MUSIQUE_ASSOCIATIVE_OLIVIER_MESSIAEN>	 ex:nom 	 "ECOLE DE MUSIQUE ASSOCIATIVE OLIVIER MESSIAEN"^^xsd:string;
-	ex:id	 "38"^^xsd:integer ;
-	ex:adresse1 	 "Le Loquidy - 73 boulevard Michelet"^^xsd:string;
-	ex:codePostal	 "44322"^^xsd:integer ;
-	ex:ville 	 "NANTES"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative "^^xsd:string;
-	ex:coordinate 	 "[ 47.2356829 , -1.5565234]"^^xsd:string.
+<http://projet.com/10/ECOLE_DE_MUSIQUE_ASSOCIATIVE_OLIVIER_MESSIAEN>	 foaf:name 	 "ECOLE DE MUSIQUE ASSOCIATIVE OLIVIER MESSIAEN"^^xsd:string ;
+	ex:adresse	 "Le Loquidy - 73 boulevard Michelet"^^xsd:string ;
+	ex:coordinate	 "[ 47.2356829 , -1.5565234]"^^xsd:decimal ;
+	ex:id	 "38"^^xsd:string ;
+	ex:ville	 "NANTES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44322"^^xsd:integer ;
+	ex:tel	 "02.28.24.09.41"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative "^^xsd:string .
 
-<http://projet.com/10/ECOLE_DE_MUSIQUE_TOUTES_AIDES>	 ex:nom 	 "ECOLE DE MUSIQUE TOUTES AIDES"^^xsd:string;
-	ex:id	 "39"^^xsd:integer ;
-	ex:adresse1 	 "1 place Jules Bréchoir"^^xsd:string;
-	ex:codePostal	 "44300"^^xsd:integer ;
-	ex:ville 	 "NANTES"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.2253687 , -1.5230165]"^^xsd:string.
+<http://projet.com/10/ECOLE_DE_MUSIQUE_TOUTES_AIDES>	 foaf:name 	 "ECOLE DE MUSIQUE TOUTES AIDES"^^xsd:string ;
+	ex:adresse	 "1 place Jules Bréchoir"^^xsd:string ;
+	ex:coordinate	 "[ 47.2253687 , -1.5230165]"^^xsd:decimal ;
+	ex:id	 "39"^^xsd:string ;
+	ex:ville	 "NANTES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44300"^^xsd:integer ;
+	ex:tel	 "02.40.50.38.02"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ECOLE_DE_MUSIQUE>	 ex:nom 	 "ECOLE DE MUSIQUE"^^xsd:string;
-	ex:id	 "40"^^xsd:integer ;
-	ex:adresse1 	 "3 bd Paul Doumer"^^xsd:string;
-	ex:codePostal	 "44390"^^xsd:integer ;
-	ex:ville 	 "NORT-SUR-ERDRE"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.4379681 , -1.4991205]"^^xsd:string.
+<http://projet.com/10/ECOLE_DE_MUSIQUE>	 foaf:name 	 "ECOLE DE MUSIQUE"^^xsd:string ;
+	ex:adresse	 "3 bd Paul Doumer"^^xsd:string ;
+	ex:coordinate	 "[ 47.4379681 , -1.4991205]"^^xsd:decimal ;
+	ex:id	 "40"^^xsd:string ;
+	ex:ville	 "NORT-SUR-ERDRE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44390"^^xsd:integer ;
+	ex:tel	 "02.40.72.11.36"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/NOTRE-DAME_ANIMATION>	 ex:nom 	 "NOTRE-DAME ANIMATION"^^xsd:string;
-	ex:id	 "41"^^xsd:integer ;
-	ex:adresse1 	 "Mairie"^^xsd:string;
-	ex:codePostal	 "44130"^^xsd:integer ;
-	ex:ville 	 "NOTRE-DAME-DES-LANDES"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.381523 , -1.711269]"^^xsd:string.
+<http://projet.com/10/NOTRE-DAME_ANIMATION>	 foaf:name 	 "NOTRE-DAME ANIMATION"^^xsd:string ;
+	ex:adresse	 "Mairie"^^xsd:string ;
+	ex:coordinate	 "[ 47.381523 , -1.711269]"^^xsd:decimal ;
+	ex:id	 "41"^^xsd:string ;
+	ex:ville	 "NOTRE-DAME-DES-LANDES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44130"^^xsd:integer ;
+	ex:tel	 "02.40.57.24.81"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/LA_MANO_-_MAISON_DES_JEUNES_ET_MAISON_POUR_TOUS_SECTION_MUSIQUE>	 ex:nom 	 "LA MANO - MAISON DES JEUNES ET MAISON POUR TOUS SECTION MUSIQUE"^^xsd:string;
-	ex:id	 "42"^^xsd:integer ;
-	ex:adresse1 	 "Le Patis Jourdeau"^^xsd:string;
-	ex:codePostal	 "44170"^^xsd:integer ;
-	ex:ville 	 "NOZAY"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.564751 , -1.626916]"^^xsd:string.
+<http://projet.com/10/LA_MANO_-_MAISON_DES_JEUNES_ET_MAISON_POUR_TOUS_SECTION_MUSIQUE>	 foaf:name 	 "LA MANO - MAISON DES JEUNES ET MAISON POUR TOUS SECTION MUSIQUE"^^xsd:string ;
+	ex:adresse	 "Le Patis Jourdeau"^^xsd:string ;
+	ex:coordinate	 "[ 47.564751 , -1.626916]"^^xsd:decimal ;
+	ex:id	 "42"^^xsd:string ;
+	ex:ville	 "NOZAY"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44170"^^xsd:integer ;
+	ex:tel	 "02.40.79.35.04"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ECOLE_DE_L'ASSOCIATION_DES_HABITANTS_DE_LA_BUGALLIERE_-_UAHB>	 ex:nom 	 "ECOLE DE L'ASSOCIATION DES HABITANTS DE LA BUGALLIERE - UAHB"^^xsd:string;
-	ex:id	 "43"^^xsd:integer ;
-	ex:adresse1 	 "10 avenue du Pont Marchand"^^xsd:string;
-	ex:codePostal	 "44700"^^xsd:integer ;
-	ex:ville 	 "ORVAULT"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.2625007 , -1.6321249]"^^xsd:string.
+<http://projet.com/10/ECOLE_DE_L'ASSOCIATION_DES_HABITANTS_DE_LA_BUGALLIERE_-_UAHB>	 foaf:name 	 "ECOLE DE L'ASSOCIATION DES HABITANTS DE LA BUGALLIERE - UAHB"^^xsd:string ;
+	ex:adresse	 "10 avenue du Pont Marchand"^^xsd:string ;
+	ex:coordinate	 "[ 47.2625007 , -1.6321249]"^^xsd:decimal ;
+	ex:id	 "43"^^xsd:string ;
+	ex:ville	 "ORVAULT"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44700"^^xsd:integer ;
+	ex:tel	 "02.40.63.44.45"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ASSOCIATION_MUSIQUE_ET_DANSE_>	 ex:nom 	 "ASSOCIATION MUSIQUE ET DANSE "^^xsd:string;
-	ex:id	 "44"^^xsd:integer ;
-	ex:adresse1 	 "16 Route de Nantes"^^xsd:string;
-	ex:codePostal	 "44860"^^xsd:integer ;
-	ex:ville 	 "PONT-SAINT-MARTIN"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.1243361 , -1.5838871]"^^xsd:string.
+<http://projet.com/10/ASSOCIATION_MUSIQUE_ET_DANSE_>	 foaf:name 	 "ASSOCIATION MUSIQUE ET DANSE "^^xsd:string ;
+	ex:adresse	 "16 Route de Nantes"^^xsd:string ;
+	ex:coordinate	 "[ 47.1243361 , -1.5838871]"^^xsd:decimal ;
+	ex:id	 "44"^^xsd:string ;
+	ex:ville	 "PONT-SAINT-MARTIN"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44860"^^xsd:integer ;
+	ex:tel	 "02.40.02.91.61"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ECOLE_DE_MUSIQUE_POLY-SONS>	 ex:nom 	 "ECOLE DE MUSIQUE POLY-SONS"^^xsd:string;
-	ex:id	 "45"^^xsd:integer ;
-	ex:adresse1 	 "Rue du Cèdre"^^xsd:string;
-	ex:codePostal	 "44440"^^xsd:integer ;
-	ex:ville 	 "RIAILLE"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.5177517 , -1.2947001]"^^xsd:string.
+<http://projet.com/10/ECOLE_DE_MUSIQUE_POLY-SONS>	 foaf:name 	 "ECOLE DE MUSIQUE POLY-SONS"^^xsd:string ;
+	ex:adresse	 "Rue du Cèdre"^^xsd:string ;
+	ex:coordinate	 "[ 47.5177517 , -1.2947001]"^^xsd:decimal ;
+	ex:id	 "45"^^xsd:string ;
+	ex:ville	 "RIAILLE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44440"^^xsd:integer ;
+	ex:tel	 "02.40.97.80.74"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ECOLE_DE_MUSIQUE_ANDREANAISE_(EMA)>	 ex:nom 	 "ECOLE DE MUSIQUE ANDREANAISE (EMA)"^^xsd:string;
-	ex:id	 "46"^^xsd:integer ;
-	ex:adresse1 	 "Centre culturel Les Rosières - Rue Jules Ferry"^^xsd:string;
-	ex:codePostal	 "44117"^^xsd:integer ;
-	ex:ville 	 "SAINT-ANDRE-DES-EAUX"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.317115 , -2.3065284]"^^xsd:string.
+<http://projet.com/10/ECOLE_DE_MUSIQUE_ANDREANAISE_(EMA)>	 foaf:name 	 "ECOLE DE MUSIQUE ANDREANAISE (EMA)"^^xsd:string ;
+	ex:adresse	 "Centre culturel Les Rosières - Rue Jules Ferry"^^xsd:string ;
+	ex:coordinate	 "[ 47.317115 , -2.3065284]"^^xsd:decimal ;
+	ex:id	 "46"^^xsd:string ;
+	ex:ville	 "SAINT-ANDRE-DES-EAUX"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44117"^^xsd:integer ;
+	ex:tel	 "02.51.10.66.33"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ASSOCIATION_MUSICALE_LUCEENNE_-_A_M_L>	 ex:nom 	 "ASSOCIATION MUSICALE LUCEENNE - A.M.L"^^xsd:string;
-	ex:id	 "47"^^xsd:integer ;
-	ex:adresse1 	 "Batiment Sinfonia - Allée des Arts"^^xsd:string;
-	ex:codePostal	 "44980"^^xsd:integer ;
-	ex:ville 	 "SAINTE-LUCE-SUR-LOIRE"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.2469878 , -1.4854201]"^^xsd:string.
+<http://projet.com/10/ASSOCIATION_MUSICALE_LUCEENNE_-_A_M_L>	 foaf:name 	 "ASSOCIATION MUSICALE LUCEENNE - A.M.L"^^xsd:string ;
+	ex:adresse	 "Batiment Sinfonia - Allée des Arts"^^xsd:string ;
+	ex:coordinate	 "[ 47.2469878 , -1.4854201]"^^xsd:decimal ;
+	ex:id	 "47"^^xsd:string ;
+	ex:ville	 "SAINTE-LUCE-SUR-LOIRE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44980"^^xsd:integer ;
+	ex:tel	 "02.40.25.90.92"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/RYTHME_AU_MANOIR>	 ex:nom 	 "RYTHME AU MANOIR"^^xsd:string;
-	ex:id	 "48"^^xsd:integer ;
-	ex:adresse1 	 "Place de l'Hôtel de Ville"^^xsd:string;
-	ex:codePostal	 "44360"^^xsd:integer ;
-	ex:ville 	 "SAINT-ETIENNE-DE-MONTLUC"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.2764509 , -1.78059]"^^xsd:string.
+<http://projet.com/10/RYTHME_AU_MANOIR>	 foaf:name 	 "RYTHME AU MANOIR"^^xsd:string ;
+	ex:adresse	 "Place de l'Hôtel de Ville"^^xsd:string ;
+	ex:coordinate	 "[ 47.2764509 , -1.78059]"^^xsd:decimal ;
+	ex:id	 "48"^^xsd:string ;
+	ex:ville	 "SAINT-ETIENNE-DE-MONTLUC"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44360"^^xsd:integer ;
+	ex:tel	 "undefined"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/L'ESCALE_MUSICALE_-_Espace_Lampidic>	 ex:nom 	 "L'ESCALE MUSICALE - Espace Lampidic"^^xsd:string;
-	ex:id	 "49"^^xsd:integer ;
-	ex:adresse1 	 "17 rue des  Forges"^^xsd:string;
-	ex:codePostal	 "44530"^^xsd:integer ;
-	ex:ville 	 "SAINT-GILDAS-DES-BOIS"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.5124736 , -2.0389291]"^^xsd:string.
+<http://projet.com/10/L'ESCALE_MUSICALE_-_Espace_Lampidic>	 foaf:name 	 "L'ESCALE MUSICALE - Espace Lampidic"^^xsd:string ;
+	ex:adresse	 "17 rue des  Forges"^^xsd:string ;
+	ex:coordinate	 "[ 47.5124736 , -2.0389291]"^^xsd:decimal ;
+	ex:id	 "49"^^xsd:string ;
+	ex:ville	 "SAINT-GILDAS-DES-BOIS"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44530"^^xsd:integer ;
+	ex:tel	 "02.40.01.48.01"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/AMICALE_LAIQUE_-_SECTION_MUSIQUE>	 ex:nom 	 "AMICALE LAIQUE - SECTION MUSIQUE"^^xsd:string;
-	ex:id	 "50"^^xsd:integer ;
-	ex:adresse1 	 "La Clotais - Avenue Charles de Gaulle"^^xsd:string;
-	ex:codePostal	 "44640"^^xsd:integer ;
-	ex:ville 	 "SAINT-JEAN-DE-BOISEAU"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.1934159 , -1.7193152]"^^xsd:string.
+<http://projet.com/10/AMICALE_LAIQUE_-_SECTION_MUSIQUE>	 foaf:name 	 "AMICALE LAIQUE - SECTION MUSIQUE"^^xsd:string ;
+	ex:adresse	 "La Clotais - Avenue Charles de Gaulle"^^xsd:string ;
+	ex:coordinate	 "[ 47.1934159 , -1.7193152]"^^xsd:decimal ;
+	ex:id	 "50"^^xsd:string ;
+	ex:ville	 "SAINT-JEAN-DE-BOISEAU"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44640"^^xsd:integer ;
+	ex:tel	 "02.40.65.33.64"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/MUSIQUE_THEATRE_ET_COMPAGNIE>	 ex:nom 	 "MUSIQUE THEATRE ET COMPAGNIE"^^xsd:string;
-	ex:id	 "51"^^xsd:integer ;
-	ex:adresse1 	 "Mairie - Centre Culturel du Chai-Gallais"^^xsd:string;
-	ex:codePostal	 "44710"^^xsd:integer ;
-	ex:ville 	 "SAINT-LEGER-LES-VIGNES"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.135077 , -1.731736]"^^xsd:string.
+<http://projet.com/10/MUSIQUE_THEATRE_ET_COMPAGNIE>	 foaf:name 	 "MUSIQUE THEATRE ET COMPAGNIE"^^xsd:string ;
+	ex:adresse	 "Mairie - Centre Culturel du Chai-Gallais"^^xsd:string ;
+	ex:coordinate	 "[ 47.135077 , -1.731736]"^^xsd:decimal ;
+	ex:id	 "51"^^xsd:string ;
+	ex:ville	 "SAINT-LEGER-LES-VIGNES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44710"^^xsd:integer ;
+	ex:tel	 "02.40.31.50.32"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/J_A_S_C_M__-_MUSIQUE>	 ex:nom 	 "J.A.S.C.M. - MUSIQUE"^^xsd:string;
-	ex:id	 "52"^^xsd:integer ;
-	ex:adresse1 	 "1 place Jean Moulin"^^xsd:string;
-	ex:codePostal	 "44850"^^xsd:integer ;
-	ex:ville 	 "SAINT-MARS-DU-DESERT"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.367033 , -1.4051533]"^^xsd:string.
+<http://projet.com/10/J_A_S_C_M__-_MUSIQUE>	 foaf:name 	 "J.A.S.C.M. - MUSIQUE"^^xsd:string ;
+	ex:adresse	 "1 place Jean Moulin"^^xsd:string ;
+	ex:coordinate	 "[ 47.367033 , -1.4051533]"^^xsd:decimal ;
+	ex:id	 "52"^^xsd:string ;
+	ex:ville	 "SAINT-MARS-DU-DESERT"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44850"^^xsd:integer ;
+	ex:tel	 "02.40.77.44.09"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ECOLE_DE_MUSIQUE_INTERCOMMUNALE>	 ex:nom 	 "ECOLE DE MUSIQUE INTERCOMMUNALE"^^xsd:string;
-	ex:id	 "53"^^xsd:integer ;
-	ex:adresse1 	 "28 rue Saint François d'Assise"^^xsd:string;
-	ex:codePostal	 "44310"^^xsd:integer ;
-	ex:ville 	 "SAINT-PHILBERT-DE-GRAND-LIEU"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.035457 , -1.6432068]"^^xsd:string.
+<http://projet.com/10/ECOLE_DE_MUSIQUE_INTERCOMMUNALE>	 foaf:name 	 "ECOLE DE MUSIQUE INTERCOMMUNALE"^^xsd:string ;
+	ex:adresse	 "28 rue Saint François d'Assise"^^xsd:string ;
+	ex:coordinate	 "[ 47.035457 , -1.6432068]"^^xsd:decimal ;
+	ex:id	 "53"^^xsd:string ;
+	ex:ville	 "SAINT-PHILBERT-DE-GRAND-LIEU"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44310"^^xsd:integer ;
+	ex:tel	 "02.40.78.77.24"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ECOLE_DE_MUSIQUE>	 ex:nom 	 "ECOLE DE MUSIQUE"^^xsd:string;
-	ex:id	 "54"^^xsd:integer ;
-	ex:adresse1 	 "25 rue de la Forêt"^^xsd:string;
-	ex:codePostal	 "44880"^^xsd:integer ;
-	ex:ville 	 "SAUTRON"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.2655238 , -1.6801429]"^^xsd:string.
+<http://projet.com/10/ECOLE_DE_MUSIQUE>	 foaf:name 	 "ECOLE DE MUSIQUE"^^xsd:string ;
+	ex:adresse	 "25 rue de la Forêt"^^xsd:string ;
+	ex:coordinate	 "[ 47.2655238 , -1.6801429]"^^xsd:decimal ;
+	ex:id	 "54"^^xsd:string ;
+	ex:ville	 "SAUTRON"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44880"^^xsd:integer ;
+	ex:tel	 "02.40.63.60.61"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/LA_BOITE_A_MUSIQUE>	 ex:nom 	 "LA BOITE A MUSIQUE"^^xsd:string;
-	ex:id	 "55"^^xsd:integer ;
-	ex:adresse1 	 "2 route du Lac"^^xsd:string;
-	ex:codePostal	 "44260"^^xsd:integer ;
-	ex:ville 	 "SAVENAY"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.3579668 , -1.936655]"^^xsd:string.
+<http://projet.com/10/LA_BOITE_A_MUSIQUE>	 foaf:name 	 "LA BOITE A MUSIQUE"^^xsd:string ;
+	ex:adresse	 "2 route du Lac"^^xsd:string ;
+	ex:coordinate	 "[ 47.3579668 , -1.936655]"^^xsd:decimal ;
+	ex:id	 "55"^^xsd:string ;
+	ex:ville	 "SAVENAY"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44260"^^xsd:integer ;
+	ex:tel	 "02.40.56.89.39"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ECOLE_DE_MUSIQUE>	 ex:nom 	 "ECOLE DE MUSIQUE"^^xsd:string;
-	ex:id	 "56"^^xsd:integer ;
-	ex:adresse1 	 "Place Jean Monnet"^^xsd:string;
-	ex:codePostal	 "44240"^^xsd:integer ;
-	ex:ville 	 "SUCE-SUR-ERDRE"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.34059 , -1.52646]"^^xsd:string.
+<http://projet.com/10/ECOLE_DE_MUSIQUE>	 foaf:name 	 "ECOLE DE MUSIQUE"^^xsd:string ;
+	ex:adresse	 "Place Jean Monnet"^^xsd:string ;
+	ex:coordinate	 "[ 47.34059 , -1.52646]"^^xsd:decimal ;
+	ex:id	 "56"^^xsd:string ;
+	ex:ville	 "SUCE-SUR-ERDRE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44240"^^xsd:integer ;
+	ex:tel	 "02.40.77.98.63"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/THOUARE_MELODIE>	 ex:nom 	 "THOUARE MELODIE"^^xsd:string;
-	ex:id	 "57"^^xsd:integer ;
-	ex:adresse1 	 "Espace La Morvandière - 23 rue de Mauves"^^xsd:string;
-	ex:codePostal	 "44470"^^xsd:integer ;
-	ex:ville 	 "THOUARE-SUR-LOIRE"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.26841539 , -1.4379732]"^^xsd:string.
+<http://projet.com/10/THOUARE_MELODIE>	 foaf:name 	 "THOUARE MELODIE"^^xsd:string ;
+	ex:adresse	 "Espace La Morvandière - 23 rue de Mauves"^^xsd:string ;
+	ex:coordinate	 "[ 47.26841539 , -1.4379732]"^^xsd:decimal ;
+	ex:id	 "57"^^xsd:string ;
+	ex:ville	 "THOUARE-SUR-LOIRE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44470"^^xsd:integer ;
+	ex:tel	 "02.40.77.58.49"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/TREILLIERES_MUSIQUE>	 ex:nom 	 "TREILLIERES MUSIQUE"^^xsd:string;
-	ex:id	 "58"^^xsd:integer ;
-	ex:adresse1 	 "31 rue de la Mairie"^^xsd:string;
-	ex:codePostal	 "44119"^^xsd:integer ;
-	ex:ville 	 "TREILLIERES"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.3307511 , -1.6250183]"^^xsd:string.
+<http://projet.com/10/TREILLIERES_MUSIQUE>	 foaf:name 	 "TREILLIERES MUSIQUE"^^xsd:string ;
+	ex:adresse	 "31 rue de la Mairie"^^xsd:string ;
+	ex:coordinate	 "[ 47.3307511 , -1.6250183]"^^xsd:decimal ;
+	ex:id	 "58"^^xsd:string ;
+	ex:ville	 "TREILLIERES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44119"^^xsd:integer ;
+	ex:tel	 "02.51.77.03.22"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ECOLE_DE_MUSIQUE_ET_DE_DANSE>	 ex:nom 	 "ECOLE DE MUSIQUE ET DE DANSE"^^xsd:string;
-	ex:id	 "59"^^xsd:integer ;
-	ex:adresse1 	 "1 rue Henri Charpentier"^^xsd:string;
-	ex:codePostal	 "44120"^^xsd:integer ;
-	ex:ville 	 "VERTOU"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.1687639 , -1.470945]"^^xsd:string.
+<http://projet.com/10/ECOLE_DE_MUSIQUE_ET_DE_DANSE>	 foaf:name 	 "ECOLE DE MUSIQUE ET DE DANSE"^^xsd:string ;
+	ex:adresse	 "1 rue Henri Charpentier"^^xsd:string ;
+	ex:coordinate	 "[ 47.1687639 , -1.470945]"^^xsd:decimal ;
+	ex:id	 "59"^^xsd:string ;
+	ex:ville	 "VERTOU"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44120"^^xsd:integer ;
+	ex:tel	 "02.40.03.45.05"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/ASSOCIATION_MELODIE>	 ex:nom 	 "ASSOCIATION MELODIE"^^xsd:string;
-	ex:id	 "60"^^xsd:integer ;
-	ex:adresse1 	 "Centre Paul Claudel"^^xsd:string;
-	ex:codePostal	 "44116"^^xsd:integer ;
-	ex:ville 	 "VIEILLEVIGNE"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 46.971735 , -1.434897]"^^xsd:string.
+<http://projet.com/10/ASSOCIATION_MELODIE>	 foaf:name 	 "ASSOCIATION MELODIE"^^xsd:string ;
+	ex:adresse	 "Centre Paul Claudel"^^xsd:string ;
+	ex:coordinate	 "[ 46.971735 , -1.434897]"^^xsd:decimal ;
+	ex:id	 "60"^^xsd:string ;
+	ex:ville	 "VIEILLEVIGNE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44116"^^xsd:integer ;
+	ex:tel	 "02.40.26.50.63"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
 
-<http://projet.com/10/AMICALE_LAIQUE_-_SECTION_MUSICALE_ARPEGE>	 ex:nom 	 "AMICALE LAIQUE - SECTION MUSICALE ARPEGE"^^xsd:string;
-	ex:id	 "61"^^xsd:integer ;
-	ex:adresse1 	 "9 rue du Grand Calvaire"^^xsd:string;
-	ex:codePostal	 "44360"^^xsd:integer ;
-	ex:ville 	 "VIGNEUX-DE-BRETAGNE"^^xsd:string;
-	ex:nature 	 "Ecole de musique associative"^^xsd:string;
-	ex:coordinate 	 "[ 47.3251456 , -1.7368835]"^^xsd:string.
+<http://projet.com/10/AMICALE_LAIQUE_-_SECTION_MUSICALE_ARPEGE>	 foaf:name 	 "AMICALE LAIQUE - SECTION MUSICALE ARPEGE"^^xsd:string ;
+	ex:adresse	 "9 rue du Grand Calvaire"^^xsd:string ;
+	ex:coordinate	 "[ 47.3251456 , -1.7368835]"^^xsd:decimal ;
+	ex:id	 "61"^^xsd:string ;
+	ex:ville	 "VIGNEUX-DE-BRETAGNE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44360"^^xsd:integer ;
+	ex:tel	 "02.40.57.10.28"^^xsd:string ;
+	ex:nature	 "Ecole de musique associative"^^xsd:string .
+

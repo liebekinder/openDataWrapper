@@ -25,7 +25,7 @@
 		<file>false</file>
 		<filepath>null</filepath>
 		<mappingFile>null</mappingFile>
-		<xsltFile>ressources/cite/citeToTurtle.xsl</xsltFile>
+		<xsltFile>ressources/xsl/citeToTurtle.xsl</xsltFile>
 		<format>XML</format>
 		<outputTtlFile>ressources/output/ttl/Petites_cités_de_caractere.n3</outputTtlFile>
 		<outputXmlFile>ressources/output/rdf-xml/Petites_cités_de_caractere.rdf</outputXmlFile>
@@ -38,7 +38,7 @@
 		<file>false</file>
 		<filepath>null</filepath>
 		<mappingFile>null</mappingFile>
-		<xsltFile>ressources/commune/communesGeoToTurtle.xsl</xsltFile>
+		<xsltFile>ressources/xsl/communesGeoToTurtle.xsl</xsltFile>
 		<format>XML</format>
 		<outputTtlFile>ressources/output/ttl/Communes_geolocalises.n3</outputTtlFile>
 		<outputXmlFile>ressources/output/rdf-xml/Communes_geolocalises.rdf</outputXmlFile>
@@ -51,7 +51,7 @@
 		<file>false</file>
 		<filepath>null</filepath>
 		<mappingFile>null</mappingFile>
-		<xsltFile>ressources/librairies/transfoLibrairies.xsl</xsltFile>
+		<xsltFile>ressources/xsl/transfoLibrairies.xsl</xsltFile>
 		<format>XML</format>
 		<outputTtlFile>ressources/output/ttl/Librairies.n3</outputTtlFile>
 		<outputXmlFile>ressources/output/rdf-xml/Librairies.rdf</outputXmlFile>
@@ -64,7 +64,7 @@
 		<file>false</file>
 		<filepath>null</filepath>
 		<mappingFile>null</mappingFile>
-		<xsltFile>ressources/lieuxArt/lieuxArtToTurtle.xsl</xsltFile>
+		<xsltFile>ressources/xsl/lieuxArtToTurtle.xsl</xsltFile>
 		<format>XML</format>
 		<outputTtlFile>ressources/output/ttl/lieux_d_art.n3</outputTtlFile>
 		<outputXmlFile>ressources/output/rdf-xml/lieux_d_art.rdf</outputXmlFile>
@@ -78,7 +78,7 @@
 		<filepath>ressources/manifSport/manifestations_sportives.csv
 		</filepath>
 		<mappingFile>null</mappingFile>
-		<xsltFile>ressources/manifSport/manifSportToTurtle.xsl</xsltFile>
+		<xsltFile>ressources/xsl/manifSportToTurtle.xsl</xsltFile>
 		<format>XML</format>
 		<outputTtlFile>ressources/output/ttl/manifestations_sportives.n3</outputTtlFile>
 		<outputXmlFile>ressources/output/rdf-xml/manifestations_sportives.rdf</outputXmlFile>
@@ -91,7 +91,7 @@
 		<file>false</file>
 		<filepath>null</filepath>
 		<mappingFile>null</mappingFile>
-		<xsltFile>ressources/rdvLitteraire/rdvLitteraires.xsl</xsltFile>
+		<xsltFile>ressources/xsl/rdvLitteraires.xsl</xsltFile>
 		<format>XML</format>
 		<outputTtlFile>ressources/output/ttl/RDV_litteraires.n3</outputTtlFile>
 		<outputXmlFile>ressources/output/rdf-xml/RDV_litteraires.rdf</outputXmlFile>
@@ -104,7 +104,7 @@
 		<file>false</file>
 		<filepath>null</filepath>
 		<mappingFile>null</mappingFile>
-		<xsltFile>ressources/patrimoine/patrimoinePDLToTurtle.xsl</xsltFile>
+		<xsltFile>ressources/xsl/patrimoinePDLToTurtle.xsl</xsltFile>
 		<format>XML</format>
 		<outputTtlFile>ressources/output/ttl/patrimoine.n3</outputTtlFile>
 		<outputXmlFile>ressources/output/rdf-xml/patrimoine.rdf</outputXmlFile>
@@ -115,9 +115,9 @@
 		<apiurl>null
 		</apiurl>
 		<file>true</file>
-		<filepath>ressources/cinema/salles_de_cinema.csv</filepath>
+		<filepath>ressources/files/salles_de_cinema.csv</filepath>
 		<mappingFile>null</mappingFile>
-		<xsltFile>/openDataWrapper/ressources/cinema/cinema.xsl</xsltFile>
+		<xsltFile>/openDataWrapper/xsl/cinema.xsl</xsltFile>
 		<format>CSV</format>
 		<outputTtlFile>ressources/output/ttl/salle_cinema.n3</outputTtlFile>
 		<outputXmlFile>ressources/output/rdf-xml/salle_cinema.rdf</outputXmlFile>
@@ -130,7 +130,7 @@
 		<file>false</file>
 		<filepath>null</filepath>
 		<mappingFile>null</mappingFile>
-		<xsltFile>ressources/chateau/chateau.xsl</xsltFile>
+		<xsltFile>ressources/xsl/chateau.xsl</xsltFile>
 		<format>XML</format>
 		<outputTtlFile>ressources/output/ttl/chateau_monument.n3</outputTtlFile>
 		<outputXmlFile>ressources/output/rdf-xml/chateau_monument.rdf</outputXmlFile>
@@ -143,7 +143,7 @@
 		<file>false</file>
 		<filepath>null</filepath>
 		<mappingFile>null</mappingFile>
-		<xsltFile>ressources/parc_animalier/parc_animalier.xsl</xsltFile>
+		<xsltFile>ressources/xsl/parc_animalier.xsl</xsltFile>
 		<format>XML</format>
 		<outputTtlFile>ressources/output/ttl/parc_animalier.n3</outputTtlFile>
 		<outputXmlFile>ressources/output/rdf-xml/parc_animalier.rdf</outputXmlFile>
@@ -156,7 +156,7 @@
 		<file>false</file>
 		<filepath>null</filepath>
 		<mappingFile>null</mappingFile>
-		<xsltFile>ressources/plage/plage.xsl</xsltFile>
+		<xsltFile>ressources/xsl/plage.xsl</xsltFile>
 		<format>XML</format>
 		<outputTtlFile>ressources/output/ttl/plage.n3</outputTtlFile>
 		<outputXmlFile>ressources/output/rdf-xml/plage.rdf</outputXmlFile>
@@ -169,7 +169,7 @@
 		<file>false</file>
 		<filepath>null</filepath>
 		<mappingFile>null</mappingFile>
-		<xsltFile>ressources/restaurant/restaurant.xsl</xsltFile>
+		<xsltFile>ressources/xsl/restaurant.xsl</xsltFile>
 		<format>XML</format>
 		<outputTtlFile>ressources/output/ttl/restaurant.n3</outputTtlFile>
 		<outputXmlFile>ressources/output/rdf-xml/restaurant.rdf</outputXmlFile>
@@ -182,7 +182,7 @@
 		<file>false</file>
 		<filepath>null</filepath>
 		<mappingFile>null</mappingFile>
-		<xsltFile>ressources/musique/musique.xsl</xsltFile>
+		<xsltFile>ressources/xsl/musique.xsl</xsltFile>
 		<format>XML</format>
 		<outputTtlFile>ressources/output/ttl/musique1.n3</outputTtlFile>
 		<outputXmlFile>ressources/output/rdf-xml/musique1.rdf</outputXmlFile>
@@ -195,7 +195,7 @@
 		<file>false</file>
 		<filepath>null</filepath>
 		<mappingFile>null</mappingFile>
-		<xsltFile>ressources/musique/musique.xsl</xsltFile>
+		<xsltFile>ressources/xsl/musique.xsl</xsltFile>
 		<format>XML</format>
 		<outputTtlFile>ressources/output/ttl/musique2.n3</outputTtlFile>
 		<outputXmlFile>ressources/output/rdf-xml/musique2.rdf</outputXmlFile>
@@ -208,7 +208,7 @@
 		<file>false</file>
 		<filepath>null</filepath>
 		<mappingFile>null</mappingFile>
-		<xsltFile>ressources/musique/musique.xsl</xsltFile>
+		<xsltFile>ressources/xsl/musique.xsl</xsltFile>
 		<format>XML</format>
 		<outputTtlFile>ressources/output/ttl/musique3.n3</outputTtlFile>
 		<outputXmlFile>ressources/output/rdf-xml/musique3.rdf</outputXmlFile>
@@ -221,7 +221,7 @@
 		<file>false</file>
 		<filepath>null</filepath>
 		<mappingFile>null</mappingFile>
-		<xsltFile>ressources/equipement_culture/culture.xsl</xsltFile>
+		<xsltFile>ressources/xsl/culture.xsl</xsltFile>
 		<format>XML</format>
 		<outputTtlFile>ressources/output/ttl/culture.n3</outputTtlFile>
 		<outputXmlFile>ressources/output/rdf-xml/culture.rdf</outputXmlFile>

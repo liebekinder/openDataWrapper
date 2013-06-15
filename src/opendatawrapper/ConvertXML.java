@@ -105,35 +105,48 @@ public class ConvertXML {
 	public void convertFromApi(String url, Properties p) {
 		Document document = getRemoteXML(url);
 		if (document != null) {
-			constructXSL(p, document);
-			DOMOutputter domOutputter = new DOMOutputter();
-			org.w3c.dom.Document w3cDoc;
+			if (constructXSL(p, document)) {
+				DOMOutputter domOutputter = new DOMOutputter();
+				org.w3c.dom.Document w3cDoc;
 
-			try {
-				// on convertit le doc de jdom en doc de dom
-				w3cDoc = domOutputter.output(document);
+				try {
+					// on convertit le doc de jdom en doc de dom
+					w3cDoc = domOutputter.output(document);
 
-				// on prepare le transformer
-				TransformerFactory tFactory = TransformerFactory.newInstance();
-				Transformer transformer = tFactory
-						.newTransformer(new StreamSource(new File(XSLFile_)));
+					// on prepare le transformer
+					TransformerFactory tFactory = TransformerFactory
+							.newInstance();
+					Transformer transformer = tFactory
+							.newTransformer(new StreamSource(new File(XSLFile_)));
 
-				// on convertit la source et la sortie
-				Source source = new DOMSource(w3cDoc);
-				Result output = new StreamResult(outputFile);
+					// on convertit la source et la sortie
+					Source source = new DOMSource(w3cDoc);
+					Result output = new StreamResult(outputFile);
 
-				transformer.transform(source, output);
+					transformer.transform(source, output);
 
-			} catch (JDOMException e1) {
-				// TODO Auto-generated catch block
-				e1.printStackTrace();
-			} catch (Exception e) {
-				e.printStackTrace();
+				} catch (JDOMException e1) {
+					// TODO Auto-generated catch block
+					System.err
+							.println("Unable to parse the incoming XML file. It could be a network issue, or the file isn't an XML file. "
+									+ e1.getMessage());
+					return;
+				} catch (TransformerException e) {
+					// TODO Auto-generated catch block
+					System.err
+							.println("Erreur lors de la transformation du XML"
+									+ e.getMessageAndLocation());
+					return;
+				}
+			} else {
+				return;
 			}
 		} else {
 			System.err
-					.println("erreur lors de la récupération des données distantes.");
+					.println("erreur lors de la récupération des données distantes. Le fichier est nul");
+			return;
 		}
+
 	}
 
 	/*
@@ -174,7 +187,8 @@ public class ConvertXML {
 			return new SAXBuilder().build(stream);
 		} catch (MalformedURLException e) {
 			// TODO Auto-generated catch block
-			System.err.println("l'URL demandée n'est pas correcte! " + url);
+			System.err.println("l'URL demandée n'est pas correcte! "
+					+ e.getMessage());
 			return null;
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
@@ -193,9 +207,9 @@ public class ConvertXML {
 		}
 	}
 
-	public void constructXSL(Properties p, Document document) {
+	public boolean constructXSL(Properties p, Document document) {
 		XSLConstructor xslc = new XSLConstructor(XSLFile_, document, p);
-		xslc.construct(mappingPath);
+		return xslc.construct(mappingPath);
 
 	}
 }

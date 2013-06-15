@@ -1,133 +1,158 @@
 
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix prop-fr: <http://fr.dbpedia.org/property/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix ex: <http://example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix proj: <http://projet.com/10/> . 
+@prefix dbpprop: <http://dbpedia.org/property/> .
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
+@prefix sc: <http://schema.org/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
-        
-<http://projet.com/10/ECOLE_MUNICIPALE_DE_MUSIQUE>	 ex:nom 	 "ECOLE MUNICIPALE DE MUSIQUE"^^xsd:string;
-	ex:id	 "1"^^xsd:integer ;
-	ex:adresse1 	 "1 rue de la Commune de Paris"^^xsd:string;
-	ex:codePostal	 "44340"^^xsd:integer ;
-	ex:ville 	 "BOUGUENAIS"^^xsd:string;
-	ex:nature 	 "Ecole municipale"^^xsd:string;
-	ex:coordinate 	 "[ 47.1792251 , -1.6188798]"^^xsd:string.
+<http://projet.com/10/ECOLE_MUNICIPALE_DE_MUSIQUE>	 foaf:name 	 "ECOLE MUNICIPALE DE MUSIQUE"^^xsd:string ;
+	ex:adresse	 "1 rue de la Commune de Paris"^^xsd:string ;
+	ex:coordinate	 "[ 47.1792251 , -1.6188798]"^^xsd:decimal ;
+	ex:id	 "1"^^xsd:string ;
+	ex:ville	 "BOUGUENAIS"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44340"^^xsd:integer ;
+	ex:tel	 "02.40.65.24.57"^^xsd:string ;
+	ex:nature	 "Ecole municipale"^^xsd:string .
 
-<http://projet.com/10/ECOLE_MUNICIPALE_DE_MUSIQUE_>	 ex:nom 	 "ECOLE MUNICIPALE DE MUSIQUE "^^xsd:string;
-	ex:id	 "2"^^xsd:integer ;
-	ex:adresse1 	 "Les Renaudières"^^xsd:string;
-	ex:codePostal	 "44470"^^xsd:integer ;
-	ex:ville 	 "CARQUEFOU"^^xsd:string;
-	ex:nature 	 "Ecole municipale"^^xsd:string;
-	ex:coordinate 	 "[ 47.3008398 , -1.5121934]"^^xsd:string.
+<http://projet.com/10/ECOLE_MUNICIPALE_DE_MUSIQUE_>	 foaf:name 	 "ECOLE MUNICIPALE DE MUSIQUE "^^xsd:string ;
+	ex:adresse	 "Les Renaudières"^^xsd:string ;
+	ex:coordinate	 "[ 47.3008398 , -1.5121934]"^^xsd:decimal ;
+	ex:id	 "2"^^xsd:string ;
+	ex:ville	 "CARQUEFOU"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44470"^^xsd:integer ;
+	ex:tel	 "02.28.22.24.10"^^xsd:string ;
+	ex:nature	 "Ecole municipale"^^xsd:string .
 
-<http://projet.com/10/CONSERVATOIRE_A_RAYONNEMENT_COMMUNAL_-_ESPACE_MUSICAL_CHRISTOPHE_CARON>	 ex:nom 	 "CONSERVATOIRE A RAYONNEMENT COMMUNAL - ESPACE MUSICAL CHRISTOPHE CARON"^^xsd:string;
-	ex:id	 "3"^^xsd:integer ;
-	ex:adresse1 	 "Avenue Anne de Bretagne"^^xsd:string;
-	ex:codePostal	 "44352"^^xsd:integer ;
-	ex:ville 	 "GUERANDE"^^xsd:string;
-	ex:nature 	 "Ecole municipale"^^xsd:string;
-	ex:coordinate 	 "[ 47.3294246 , -2.4224185]"^^xsd:string.
+<http://projet.com/10/CONSERVATOIRE_A_RAYONNEMENT_COMMUNAL_-_ESPACE_MUSICAL_CHRISTOPHE_CARON>	 foaf:name 	 "CONSERVATOIRE A RAYONNEMENT COMMUNAL - ESPACE MUSICAL CHRISTOPHE CARON"^^xsd:string ;
+	ex:adresse	 "Avenue Anne de Bretagne"^^xsd:string ;
+	ex:coordinate	 "[ 47.3294246 , -2.4224185]"^^xsd:decimal ;
+	ex:id	 "3"^^xsd:string ;
+	ex:ville	 "GUERANDE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44352"^^xsd:integer ;
+	ex:tel	 "02.40.24.72.55"^^xsd:string ;
+	ex:nature	 "Ecole municipale"^^xsd:string .
 
-<http://projet.com/10/ECOLE_MUNICIPALE_DE_MUSIQUE>	 ex:nom 	 "ECOLE MUNICIPALE DE MUSIQUE"^^xsd:string;
-	ex:id	 "4"^^xsd:integer ;
-	ex:adresse1 	 "Avenue de la Loire"^^xsd:string;
-	ex:codePostal	 "44610"^^xsd:integer ;
-	ex:ville 	 "INDRE"^^xsd:string;
-	ex:nature 	 "Ecole municipale"^^xsd:string;
-	ex:coordinate 	 "[ 47.1998227 , -1.665491]"^^xsd:string.
+<http://projet.com/10/ECOLE_MUNICIPALE_DE_MUSIQUE>	 foaf:name 	 "ECOLE MUNICIPALE DE MUSIQUE"^^xsd:string ;
+	ex:adresse	 "Avenue de la Loire"^^xsd:string ;
+	ex:coordinate	 "[ 47.1998227 , -1.665491]"^^xsd:decimal ;
+	ex:id	 "4"^^xsd:string ;
+	ex:ville	 "INDRE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44610"^^xsd:integer ;
+	ex:tel	 "02.40.38.08.81"^^xsd:string ;
+	ex:nature	 "Ecole municipale"^^xsd:string .
 
-<http://projet.com/10/CONSERVATOIRE_MUNICIPAL_DE_MUSIQUE>	 ex:nom 	 "CONSERVATOIRE MUNICIPAL DE MUSIQUE"^^xsd:string;
-	ex:id	 "5"^^xsd:integer ;
-	ex:adresse1 	 "7 avenue Olivier Guichard"^^xsd:string;
-	ex:codePostal	 "44504"^^xsd:integer ;
-	ex:ville 	 "LA-BAULE-ESCOUBLAC"^^xsd:string;
-	ex:nature 	 "Ecole municipale"^^xsd:string;
-	ex:coordinate 	 "[ 47.283936 , -2.3939959]"^^xsd:string.
+<http://projet.com/10/CONSERVATOIRE_MUNICIPAL_DE_MUSIQUE>	 foaf:name 	 "CONSERVATOIRE MUNICIPAL DE MUSIQUE"^^xsd:string ;
+	ex:adresse	 "7 avenue Olivier Guichard"^^xsd:string ;
+	ex:coordinate	 "[ 47.283936 , -2.3939959]"^^xsd:decimal ;
+	ex:id	 "5"^^xsd:string ;
+	ex:ville	 "LA-BAULE-ESCOUBLAC"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44504"^^xsd:integer ;
+	ex:tel	 "02.51.75.76.80"^^xsd:string ;
+	ex:nature	 "Ecole municipale"^^xsd:string .
 
-<http://projet.com/10/ECOLE_MUNICIPALE_DE_MUSIQUE>	 ex:nom 	 "ECOLE MUNICIPALE DE MUSIQUE"^^xsd:string;
-	ex:id	 "6"^^xsd:integer ;
-	ex:adresse1 	 "92 rue Violin"^^xsd:string;
-	ex:codePostal	 "44620"^^xsd:integer ;
-	ex:ville 	 "LA-MONTAGNE"^^xsd:string;
-	ex:nature 	 "Ecole municipale"^^xsd:string;
-	ex:coordinate 	 "[ 47.1912747 , -1.684954]"^^xsd:string.
+<http://projet.com/10/ECOLE_MUNICIPALE_DE_MUSIQUE>	 foaf:name 	 "ECOLE MUNICIPALE DE MUSIQUE"^^xsd:string ;
+	ex:adresse	 "92 rue Violin"^^xsd:string ;
+	ex:coordinate	 "[ 47.1912747 , -1.684954]"^^xsd:decimal ;
+	ex:id	 "6"^^xsd:string ;
+	ex:ville	 "LA-MONTAGNE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44620"^^xsd:integer ;
+	ex:tel	 "02.40.65.64.68"^^xsd:string ;
+	ex:nature	 "Ecole municipale"^^xsd:string .
 
-<http://projet.com/10/CONSERVATOIRE_A_RAYONNEMENT_REGIONAL_-_(CRR)>	 ex:nom 	 "CONSERVATOIRE A RAYONNEMENT REGIONAL - (CRR)"^^xsd:string;
-	ex:id	 "7"^^xsd:integer ;
-	ex:adresse1 	 "4 rue Gaëtan Rondeau"^^xsd:string;
-	ex:codePostal	 "44200"^^xsd:integer ;
-	ex:ville 	 "NANTES"^^xsd:string;
-	ex:nature 	 "Ecole municipale"^^xsd:string;
-	ex:coordinate 	 "[ 47.2069999 , -1.5331214]"^^xsd:string.
+<http://projet.com/10/CONSERVATOIRE_A_RAYONNEMENT_REGIONAL_-_(CRR)>	 foaf:name 	 "CONSERVATOIRE A RAYONNEMENT REGIONAL - (CRR)"^^xsd:string ;
+	ex:adresse	 "4 rue Gaëtan Rondeau"^^xsd:string ;
+	ex:coordinate	 "[ 47.2069999 , -1.5331214]"^^xsd:decimal ;
+	ex:id	 "7"^^xsd:string ;
+	ex:ville	 "NANTES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44200"^^xsd:integer ;
+	ex:tel	 "02.51.25.00.20"^^xsd:string ;
+	ex:nature	 "Ecole municipale"^^xsd:string .
 
-<http://projet.com/10/ECOLE_MUNICIPALE_DE_MUSIQUE>	 ex:nom 	 "ECOLE MUNICIPALE DE MUSIQUE"^^xsd:string;
-	ex:id	 "8"^^xsd:integer ;
-	ex:adresse1 	 "37 avenue de la Ferrière - Parc Michel Baudry"^^xsd:string;
-	ex:codePostal	 "44700"^^xsd:integer ;
-	ex:ville 	 "ORVAULT"^^xsd:string;
-	ex:nature 	 "Ecole municipale"^^xsd:string;
-	ex:coordinate 	 "[ 47.24843569 , -1.5852695]"^^xsd:string.
+<http://projet.com/10/ECOLE_MUNICIPALE_DE_MUSIQUE>	 foaf:name 	 "ECOLE MUNICIPALE DE MUSIQUE"^^xsd:string ;
+	ex:adresse	 "37 avenue de la Ferrière - Parc Michel Baudry"^^xsd:string ;
+	ex:coordinate	 "[ 47.24843569 , -1.5852695]"^^xsd:decimal ;
+	ex:id	 "8"^^xsd:string ;
+	ex:ville	 "ORVAULT"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44700"^^xsd:integer ;
+	ex:tel	 "02.51.78.33.34"^^xsd:string ;
+	ex:nature	 "Ecole municipale"^^xsd:string .
 
-<http://projet.com/10/ECOLE_MUNICIPALE_DE_MUSIQUE>	 ex:nom 	 "ECOLE MUNICIPALE DE MUSIQUE"^^xsd:string;
-	ex:id	 "9"^^xsd:integer ;
-	ex:adresse1 	 "Place de Verdun"^^xsd:string;
-	ex:codePostal	 "44210"^^xsd:integer ;
-	ex:ville 	 "PORNIC"^^xsd:string;
-	ex:nature 	 "Ecole municipale"^^xsd:string;
-	ex:coordinate 	 "[ 47.1177857 , -2.1020077]"^^xsd:string.
+<http://projet.com/10/ECOLE_MUNICIPALE_DE_MUSIQUE>	 foaf:name 	 "ECOLE MUNICIPALE DE MUSIQUE"^^xsd:string ;
+	ex:adresse	 "Place de Verdun"^^xsd:string ;
+	ex:coordinate	 "[ 47.1177857 , -2.1020077]"^^xsd:decimal ;
+	ex:id	 "9"^^xsd:string ;
+	ex:ville	 "PORNIC"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44210"^^xsd:integer ;
+	ex:tel	 "02.40.82.47.64"^^xsd:string ;
+	ex:nature	 "Ecole municipale"^^xsd:string .
 
-<http://projet.com/10/ECOLE_MUNICIPALE_DE_MUSIQUE_ET_DE_DANSE_CENTRE_MUSICAL_DE_LA_BALINIERE>	 ex:nom 	 "ECOLE MUNICIPALE DE MUSIQUE ET DE DANSE CENTRE MUSICAL DE LA BALINIERE"^^xsd:string;
-	ex:id	 "10"^^xsd:integer ;
-	ex:adresse1 	 "24 rue de la Balinière"^^xsd:string;
-	ex:codePostal	 "44400"^^xsd:integer ;
-	ex:ville 	 "REZE"^^xsd:string;
-	ex:nature 	 "Ecole municipale"^^xsd:string;
-	ex:coordinate 	 "[ 47.18377 , -1.552774]"^^xsd:string.
+<http://projet.com/10/ECOLE_MUNICIPALE_DE_MUSIQUE_ET_DE_DANSE_CENTRE_MUSICAL_DE_LA_BALINIERE>	 foaf:name 	 "ECOLE MUNICIPALE DE MUSIQUE ET DE DANSE CENTRE MUSICAL DE LA BALINIERE"^^xsd:string ;
+	ex:adresse	 "24 rue de la Balinière"^^xsd:string ;
+	ex:coordinate	 "[ 47.18377 , -1.552774]"^^xsd:decimal ;
+	ex:id	 "10"^^xsd:string ;
+	ex:ville	 "REZE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44400"^^xsd:integer ;
+	ex:tel	 "02.51.70.78.20"^^xsd:string ;
+	ex:nature	 "Ecole municipale"^^xsd:string .
 
-<http://projet.com/10/ECOLE_DE_MUSIQUE_MUNICIPALE>	 ex:nom 	 "ECOLE DE MUSIQUE MUNICIPALE"^^xsd:string;
-	ex:id	 "11"^^xsd:integer ;
-	ex:adresse1 	 "41 rue des Frères Rousseau"^^xsd:string;
-	ex:codePostal	 "44860"^^xsd:integer ;
-	ex:ville 	 "SAINT-AIGNAN-GRANDLIEU"^^xsd:string;
-	ex:nature 	 "Ecole municipale"^^xsd:string;
-	ex:coordinate 	 "[ 47.1240117 , -1.6303897]"^^xsd:string.
+<http://projet.com/10/ECOLE_DE_MUSIQUE_MUNICIPALE>	 foaf:name 	 "ECOLE DE MUSIQUE MUNICIPALE"^^xsd:string ;
+	ex:adresse	 "41 rue des Frères Rousseau"^^xsd:string ;
+	ex:coordinate	 "[ 47.1240117 , -1.6303897]"^^xsd:decimal ;
+	ex:id	 "11"^^xsd:string ;
+	ex:ville	 "SAINT-AIGNAN-GRANDLIEU"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44860"^^xsd:integer ;
+	ex:tel	 "02.40.26.44.54"^^xsd:string ;
+	ex:nature	 "Ecole municipale"^^xsd:string .
 
-<http://projet.com/10/ECOLE_MUNICIPALE_DE_MUSIQUE_-_Centre_Musical_Henri_Pineau>	 ex:nom 	 "ECOLE MUNICIPALE DE MUSIQUE - Centre Musical Henri Pineau"^^xsd:string;
-	ex:id	 "12"^^xsd:integer ;
-	ex:adresse1 	 "50 rue de l'Auditoire"^^xsd:string;
-	ex:codePostal	 "44680"^^xsd:integer ;
-	ex:ville 	 "SAINTE-PAZANNE"^^xsd:string;
-	ex:nature 	 "Ecole municipale"^^xsd:string;
-	ex:coordinate 	 "[ 47.1032272 , -1.8033309]"^^xsd:string.
+<http://projet.com/10/ECOLE_MUNICIPALE_DE_MUSIQUE_-_Centre_Musical_Henri_Pineau>	 foaf:name 	 "ECOLE MUNICIPALE DE MUSIQUE - Centre Musical Henri Pineau"^^xsd:string ;
+	ex:adresse	 "50 rue de l'Auditoire"^^xsd:string ;
+	ex:coordinate	 "[ 47.1032272 , -1.8033309]"^^xsd:decimal ;
+	ex:id	 "12"^^xsd:string ;
+	ex:ville	 "SAINTE-PAZANNE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44680"^^xsd:integer ;
+	ex:tel	 "02.40.02.68.74"^^xsd:string ;
+	ex:nature	 "Ecole municipale"^^xsd:string .
 
-<http://projet.com/10/MAISON_DES_ARTS>	 ex:nom 	 "MAISON DES ARTS"^^xsd:string;
-	ex:id	 "13"^^xsd:integer ;
-	ex:adresse1 	 "26 rue de Saint Nazaire"^^xsd:string;
-	ex:codePostal	 "44800"^^xsd:integer ;
-	ex:ville 	 "SAINT-HERBLAIN"^^xsd:string;
-	ex:nature 	 "Ecole municipale"^^xsd:string;
-	ex:coordinate 	 "[ 47.21152 , -1.6146648]"^^xsd:string.
+<http://projet.com/10/MAISON_DES_ARTS>	 foaf:name 	 "MAISON DES ARTS"^^xsd:string ;
+	ex:adresse	 "26 rue de Saint Nazaire"^^xsd:string ;
+	ex:coordinate	 "[ 47.21152 , -1.6146648]"^^xsd:decimal ;
+	ex:id	 "13"^^xsd:string ;
+	ex:ville	 "SAINT-HERBLAIN"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44800"^^xsd:integer ;
+	ex:tel	 "02.28.25.25.80"^^xsd:string ;
+	ex:nature	 "Ecole municipale"^^xsd:string .
 
-<http://projet.com/10/CONSERVATOIRE_A_RAYONNEMENT_DEPARTEMENTAL_-_CRD_-_Centre_Boris_Vian>	 ex:nom 	 "CONSERVATOIRE A RAYONNEMENT DEPARTEMENTAL - CRD - Centre Boris Vian"^^xsd:string;
-	ex:id	 "14"^^xsd:integer ;
-	ex:adresse1 	 "24 rue du Commandant Gâté"^^xsd:string;
-	ex:codePostal	 "44600"^^xsd:integer ;
-	ex:ville 	 "SAINT-NAZAIRE"^^xsd:string;
-	ex:nature 	 "Ecole municipale"^^xsd:string;
-	ex:coordinate 	 "[ 47.2734979 , -2.213848]"^^xsd:string.
+<http://projet.com/10/CONSERVATOIRE_A_RAYONNEMENT_DEPARTEMENTAL_-_CRD_-_Centre_Boris_Vian>	 foaf:name 	 "CONSERVATOIRE A RAYONNEMENT DEPARTEMENTAL - CRD - Centre Boris Vian"^^xsd:string ;
+	ex:adresse	 "24 rue du Commandant Gâté"^^xsd:string ;
+	ex:coordinate	 "[ 47.2734979 , -2.213848]"^^xsd:decimal ;
+	ex:id	 "14"^^xsd:string ;
+	ex:ville	 "SAINT-NAZAIRE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44600"^^xsd:integer ;
+	ex:tel	 "02.44.73.43.40"^^xsd:string ;
+	ex:nature	 "Ecole municipale"^^xsd:string .
 
-<http://projet.com/10/ECOLE_MUNICIPALE_DE_MUSIQUE>	 ex:nom 	 "ECOLE MUNICIPALE DE MUSIQUE"^^xsd:string;
-	ex:id	 "15"^^xsd:integer ;
-	ex:adresse1 	 "130 boulevard des Pas enchantés"^^xsd:string;
-	ex:codePostal	 "44230"^^xsd:integer ;
-	ex:ville 	 "SAINT-SEBASTIEN-SUR-LOIRE"^^xsd:string;
-	ex:nature 	 "Ecole municipale"^^xsd:string;
-	ex:coordinate 	 "[ 47.2101926 , -1.5013971]"^^xsd:string.
+<http://projet.com/10/ECOLE_MUNICIPALE_DE_MUSIQUE>	 foaf:name 	 "ECOLE MUNICIPALE DE MUSIQUE"^^xsd:string ;
+	ex:adresse	 "130 boulevard des Pas enchantés"^^xsd:string ;
+	ex:coordinate	 "[ 47.2101926 , -1.5013971]"^^xsd:decimal ;
+	ex:id	 "15"^^xsd:string ;
+	ex:ville	 "SAINT-SEBASTIEN-SUR-LOIRE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44230"^^xsd:integer ;
+	ex:tel	 "02.51.79.04.71"^^xsd:string ;
+	ex:nature	 "Ecole municipale"^^xsd:string .
 
-<http://projet.com/10/ECOLE_MUNICIPALE_DE_MUSIQUE>	 ex:nom 	 "ECOLE MUNICIPALE DE MUSIQUE"^^xsd:string;
-	ex:id	 "16"^^xsd:integer ;
-	ex:adresse1 	 "16 rue Emile Gabory"^^xsd:string;
-	ex:codePostal	 "44330"^^xsd:integer ;
-	ex:ville 	 "VALLET"^^xsd:string;
-	ex:nature 	 "Ecole municipale"^^xsd:string;
-	ex:coordinate 	 "[ 47.1620093 , -1.2687585]"^^xsd:string.
+<http://projet.com/10/ECOLE_MUNICIPALE_DE_MUSIQUE>	 foaf:name 	 "ECOLE MUNICIPALE DE MUSIQUE"^^xsd:string ;
+	ex:adresse	 "16 rue Emile Gabory"^^xsd:string ;
+	ex:coordinate	 "[ 47.1620093 , -1.2687585]"^^xsd:decimal ;
+	ex:id	 "16"^^xsd:string ;
+	ex:ville	 "VALLET"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44330"^^xsd:integer ;
+	ex:tel	 "02.40.36.42.81"^^xsd:string ;
+	ex:nature	 "Ecole municipale"^^xsd:string .
+

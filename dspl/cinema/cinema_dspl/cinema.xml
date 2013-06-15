@@ -160,6 +160,58 @@
 				<value>false</value>
 			</attribute>
 		</concept>
+	  <concept id="LATITUDE" extends="dp:latitude">
+         <info>
+            <name>
+               <value>LATITUDE</value>
+            </name>
+            <totalName>
+               <value/>
+            </totalName>
+            <description>
+               <value>LATITUDE</value>
+            </description>
+         </info>
+         <type ref="float"/>
+         <attribute id="is_filterable">
+            <value>true</value>
+         </attribute>
+         <attribute id="is_displayed">
+            <value>true</value>
+         </attribute>
+         <attribute id="statistics">
+            <value>false</value>
+         </attribute>
+         <attribute id="is_percentage">
+            <value>false</value>
+         </attribute>
+      </concept>
+      <concept id="LONGITUDE" extends="dp:longitude">
+         <info>
+            <name>
+               <value>LONGITUDE</value>
+            </name>
+            <totalName>
+               <value/>
+            </totalName>
+            <description>
+               <value>LONGITUDE</value>
+            </description>
+         </info>
+         <type ref="float"/>
+         <attribute id="is_filterable">
+            <value>true</value>
+         </attribute>
+         <attribute id="is_displayed">
+            <value>true</value>
+         </attribute>
+         <attribute id="statistics">
+            <value>false</value>
+         </attribute>
+         <attribute id="is_percentage">
+            <value>false</value>
+         </attribute>
+      </concept>
 	</concepts>
 	<slices>
 		<slice id="vignobles_et_decouvertes_SLI">
@@ -168,6 +220,8 @@
 			<dimension concept="CP" />
 			<dimension concept="COMMUNE" />
 			<dimension concept="SITE_INTERNET" />
+			<dimension concept="LATITUDE" />
+			<dimension concept="LONGITUDE" />
 			<table ref="cinema_STBL" />
 		</slice>
 	</slices>
@@ -183,6 +237,8 @@
 			<column id="CP" type="string" />
 			<column id="COMMUNE" type="string" />
 			<column id="SITE_INTERNET" type="string" />
+			<column id="LATITUDE" type="float"/>
+			<column id="LONGITUDE" type="float"/>
 			<data>
 				<file encoding="UTF-8" format="csv">cinema.csv</file>
 			</data>

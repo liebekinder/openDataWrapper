@@ -10,6 +10,8 @@ import java.util.Properties;
 import java.util.Scanner;
 import java.util.Set;
 
+import org.jdom2.JDOMException;
+
 public class Principale {
 
 	public static Map<Integer, DataSource> listeDataSource;
@@ -29,7 +31,16 @@ public class Principale {
 		 * can contact the API or must use a file
 		 */
 
-		lr = new LoadRessources();
+		try {
+			lr = new LoadRessources();
+		} catch (JDOMException e1) {
+			// TODO Auto-generated catch block
+			System.err.println("The configuration file dataSource.xml is corrupted. Please check that this file is a valid XML file!");
+			return;
+		} catch (IOException e1) {
+			System.err.println("Unable to open the configuration file dataSources.xml");
+			return;
+		}
 		listeDataSource = lr.extractData();
 		properties = getMapping(lr.mappingFile);
 		System.out.println("loading...");

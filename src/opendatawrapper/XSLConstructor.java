@@ -22,13 +22,17 @@ public class XSLConstructor {
 
 	public final String URIBase = "http://projet.com/";
 
+	private final String intVide = "NaN";
+	private final String decVide = "NaN";
+	private final String stringVide = "undefined";
+
 	public XSLConstructor(String xSLFile_, Document document, Properties p) {
 		XSLFile = xSLFile_;
 		XMLFile = document;
 		properties = p;
 	}
 
-	public void construct(String mappingPath) {
+	public boolean construct(String mappingPath) {
 		Document document;
 		// chargement du XML
 		try {
@@ -73,14 +77,16 @@ public class XSLConstructor {
 			}
 			// here, everything is identified in map
 			System.out.println("done!");
-			generateXSL(map);
+			return generateXSL(map);
 
 		} catch (IOException e) {
-			e.printStackTrace();
+			System.err.println("Unable to open/write into the mapping file "
+					+ mappingPath + " " + e.getMessage());
+			return false;
 		}
 	}
 
-	private void generateXSL(Map<String, MappingUnit> map) {
+	private boolean generateXSL(Map<String, MappingUnit> map) {
 		try {
 			// Create file
 			System.out.println("XSL construction processing...");
@@ -122,41 +128,18 @@ public class XSLConstructor {
 			// Close the output stream
 			System.out.println("done!");
 			out.close();
+			return true;
 		} catch (Exception e) {// Catch exception if any
 			System.err.println("Error: " + e.getMessage());
+			return false;
 		}
 
 	}
 
 	private void templateWrite(Map<String, MappingUnit> map, BufferedWriter out)
 			throws IOException {
-		System.out.print("template write...");
 		Set<String> keys = map.keySet();
 		Iterator<String> it = keys.iterator();
-
-		// on trouve d'abord le foaf:name à afficher
-		// boolean trouve = false;
-		// String principal = "";
-		// while (it.hasNext() && !trouve) {
-		// String courant = it.next();
-		// // System.err.println(map.get(courant).vocabulaire);
-		// if (map.get(courant).vocabulaire.equals("foaf:name")) {
-		// out.write("<xsl:template match=\""
-		// + courant
-		// + "\"> <xsl:text>&#010;</xsl:text>\n"
-		// + "<xsl:value-of select=\"concat(concat('&lt;"
-		// + URIBase
-		// +
-		// "10/',translate(translate(translate(./text(),'  ',' '),' ','_'),'.','_')),'&gt;')\"/>&#009; "
-		// + map.get(courant).vocabulaire
-		// + " &#009; \"<xsl:value-of select=\".\"/>\"^^xsd:string ;\n"
-		// + "</xsl:template>");
-		// trouve = true;
-		// principal = courant;
-		// }
-		// }
-
-		// traitement normal
 		it = keys.iterator();
 		while (it.hasNext()) {
 			String courant = it.next();
@@ -164,48 +147,108 @@ public class XSLConstructor {
 			if (map.get(courant).vocabulaire.equals("foaf:name")) {
 				out.write("<xsl:template match=\""
 						+ courant
-						+ "\"> <xsl:text>&#010;</xsl:text>\n"
+						+ "\">"
+						+ "<xsl:choose>"
+						+ "<xsl:when test=\". = 'null'\"></xsl:when>\n"
+						+ "<xsl:otherwise>"
 						+ "<xsl:value-of select=\"concat(concat('&lt;"
 						+ URIBase
-						+ "10/',translate(translate(translate(./text(),'  ',' '),' ','_'),'.','_')),'&gt;')\"/>&#009; "
+						+ "10/',translate(translate(translate(translate(translate(translate(./text(),'&quot;',' '),'&gt;',' '),'&lt;',' '),'  ',' '),' ','_'),'.','_')),'&gt;')\"/>&#009; "
 						+ map.get(courant).vocabulaire
-						+ " &#009; \"<xsl:value-of select=\".\"/>\"^^xsd:string ");
+						+ " &#009; \"<xsl:value-of select=\"translate(., '&quot;','')\"/>\"^^xsd:string ;"
+						+ lastRetour(it)
+						+ "</xsl:otherwise></xsl:choose></xsl:template>\n\n");
 			} else {
 				if (map.get(courant).type.equals("integer")) {
 					out.write("<xsl:template match=\""
 							+ courant
-							+ "\">&#009;"
+							+ "\">"
+							+ "<xsl:choose>"
+							+ "<xsl:when test=\". = 'null'\">"
+							+ "&#009;"
 							+ map.get(courant).vocabulaire
-							+ "&#009; \"<xsl:value-of select=\".\"/>\"^^xsd:integer ");
+							+ "&#009; \""
+							+ intVide
+							+ "\"^^xsd:integer "
+							+ last(it)
+							+ lastRetour(it)
+							+ "</xsl:when>\n"
+							+ "<xsl:otherwise>"
+							+ "&#009;"
+							+ map.get(courant).vocabulaire
+							+ "&#009; \"<xsl:value-of select=\".\"/>\"^^xsd:integer "
+							+ last(it)
+							+ lastRetour(it)
+							+ "</xsl:otherwise></xsl:choose></xsl:template>\n\n");
 				} else {
 					if (map.get(courant).type.equals("decimal")) {
 						out.write("<xsl:template match=\""
 								+ courant
-								+ "\">&#009;"
+								+ "\">"
+								+ "<xsl:choose>"
+								+ "<xsl:when test=\". = 'null'\">"
+								+ "&#009;"
 								+ map.get(courant).vocabulaire
-								+ "&#009; \"<xsl:value-of select=\".\"/>\"^^xsd:decimal ");
+								+ "&#009; \""
+								+ decVide
+								+ "\"^^xsd:decimal "
+								+ last(it)
+								+ lastRetour(it)
+								+ "</xsl:when>\n"
+								+ "<xsl:otherwise>"
+								+ "&#009;"
+								+ map.get(courant).vocabulaire
+								+ "&#009; \"<xsl:value-of select=\".\"/>\"^^xsd:decimal "
+								+ last(it)
+								+ lastRetour(it)
+								+ "</xsl:otherwise></xsl:choose></xsl:template>\n\n");
 					} else {
 						// on suppose que le cas général est string
 						out.write("<xsl:template match=\""
 								+ courant
-								+ "\">&#009;"
+								+ "\">\n"
+								+ "<xsl:choose>"
+								+ "<xsl:when test=\". = 'null'\">"
+								+ "&#009;"
 								+ map.get(courant).vocabulaire
-								+ "&#009; \"<xsl:value-of select=\"translate(., '&quot;','')\"/>\"^^xsd:string ");
+								+ "&#009; \""
+								+ stringVide
+								+ "\"^^xsd:string "
+								+ last(it)
+								+ lastRetour(it)
+								+ "</xsl:when>\n"
+								+ "<xsl:otherwise>"
+								+ "&#009;"
+								+ map.get(courant).vocabulaire
+								+ "&#009; \""
+								+ "<xsl:value-of select=\"translate(., '&quot;','')\"/>\"^^xsd:string "
+								+ last(it)
+								+ lastRetour(it)
+								+ "</xsl:otherwise></xsl:choose></xsl:template>\n\n");
 					}
 				}
 			}
-			if (it.hasNext()) {
-				out.write(";\n" + "</xsl:template>");
-			} else {
-				out.write(".\n\n" + "</xsl:template>");
-			}
 		}
-		System.out.println("done!");
+	}
+
+	private String lastRetour(Iterator<String> it) {
+		// TODO Auto-generated method stub
+		if (it.hasNext())
+			return "\n";
+		else
+			return "\n\n";
+	}
+
+	private String last(Iterator<String> it) {
+		// TODO Auto-generated method stub
+		if (it.hasNext())
+			return ";";
+		else
+			return ".";
 	}
 
 	private void templateDef(Map<String, MappingUnit> map, BufferedWriter out)
 			throws IOException {
-		System.out.print("template definition...");
 		Set<String> keys = map.keySet();
 		Iterator<String> it = keys.iterator();
 		boolean trouve = false;
@@ -231,17 +274,14 @@ public class XSLConstructor {
 						+ "\"/>\n");
 			}
 		}
-		System.out.println("done!");
 	}
 
 	private void prefixes(BufferedWriter out) throws IOException {
-		System.out.print("adding prefixes...");
 		String prefixChaine = (String) properties.get("$$prefixes$$");
 		String[] prefixes = prefixChaine.split(",");
 		for (String value : prefixes) {
 			out.write("@prefix "
 					+ value.replace("<", "&lt;").replace(">", "&gt;") + " .\n");
 		}
-		System.out.println("done!");
 	}
 }

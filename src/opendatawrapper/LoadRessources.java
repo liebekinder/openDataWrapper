@@ -1,6 +1,7 @@
 package opendatawrapper;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -9,6 +10,7 @@ import java.util.Properties;
 
 import org.jdom2.Document;
 import org.jdom2.Element;
+import org.jdom2.JDOMException;
 import org.jdom2.input.SAXBuilder;
 import org.jdom2.output.Format;
 import org.jdom2.output.XMLOutputter;
@@ -21,15 +23,11 @@ public class LoadRessources {
 	Properties mapping;
 	String mappingFile;
 
-	public LoadRessources() {
+	public LoadRessources() throws JDOMException, IOException {
 		SAXBuilder sxb = new SAXBuilder();
-		try {
 			// On crée un nouveau document JDOM avec en argument le fichier XML
 			// Le parsing est terminé ;)
 			document = sxb.build(new File(DocumentPath));
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
 
 		listeDataSource = new HashMap<Integer, DataSource>();
 	}

@@ -1,4 +1,6 @@
 
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix prop-fr: <http://fr.dbpedia.org/property/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix ex: <http://example.org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -9,4 +11,300 @@
 @prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
 @prefix sc: <http://schema.org/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+<http://projet.com/10/Apremont>	 foaf:name 	 "Apremont"^^xsd:string ;
+	ex:insee	 "85006"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-1.741126"^^xsd:decimal ;
+	geo:lat	 "46.749728"^^xsd:decimal .
+
+<http://projet.com/10/Asnières-sur-Vègre>	 foaf:name 	 "Asnières-sur-Vègre"^^xsd:string ;
+	ex:insee	 "72010"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-0.23508"^^xsd:decimal ;
+	geo:lat	 "47.887928"^^xsd:decimal .
+
+<http://projet.com/10/Aubigné-sur-Layon>	 foaf:name 	 "Aubigné-sur-Layon"^^xsd:string ;
+	ex:insee	 "49012"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "Dès AVAP"^^xsd:string ;
+	geo:long	 "-0.461467"^^xsd:decimal ;
+	geo:lat	 "47.211306"^^xsd:decimal .
+
+<http://projet.com/10/Baugé>	 foaf:name 	 "Baugé"^^xsd:string ;
+	ex:insee	 "49018"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-0.10408"^^xsd:decimal ;
+	geo:lat	 "47.542507"^^xsd:decimal .
+
+<http://projet.com/10/Béhuard>	 foaf:name 	 "Béhuard"^^xsd:string ;
+	ex:insee	 "49028"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-0.645167"^^xsd:decimal ;
+	geo:lat	 "47.378636"^^xsd:decimal .
+
+<http://projet.com/10/Blaison-Gohier>	 foaf:name 	 "Blaison-Gohier"^^xsd:string ;
+	ex:insee	 "49029"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-0.371931"^^xsd:decimal ;
+	geo:lat	 "47.399759"^^xsd:decimal .
+
+<http://projet.com/10/Brûlon>	 foaf:name 	 "Brûlon"^^xsd:string ;
+	ex:insee	 "72050"^^xsd:string ;
+	ex:labelisee	 "undefined"^^xsd:string ;
+	ex:labelisable	 "OUI"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-0.234921"^^xsd:decimal ;
+	geo:lat	 "47.967112"^^xsd:decimal .
+
+<http://projet.com/10/Chailland>	 foaf:name 	 "Chailland"^^xsd:string ;
+	ex:insee	 "53048"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-0.873583"^^xsd:decimal ;
+	geo:lat	 "48.223114"^^xsd:decimal .
+
+<http://projet.com/10/Chênehutte-Trèves-Cunault>	 foaf:name 	 "Chênehutte-Trèves-Cunault"^^xsd:string ;
+	ex:insee	 "49094"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-0.154208"^^xsd:decimal ;
+	geo:lat	 "47.307454"^^xsd:decimal .
+
+<http://projet.com/10/Coudray-Macouard>	 foaf:name 	 "Coudray-Macouard"^^xsd:string ;
+	ex:insee	 "49112"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-0.119877"^^xsd:decimal ;
+	geo:lat	 "47.19389"^^xsd:decimal .
+
+<http://projet.com/10/Denée>	 foaf:name 	 "Denée"^^xsd:string ;
+	ex:insee	 "49120"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-0.608063"^^xsd:decimal ;
+	geo:lat	 "47.378686"^^xsd:decimal .
+
+<http://projet.com/10/Faymoreau>	 foaf:name 	 "Faymoreau"^^xsd:string ;
+	ex:insee	 "85087"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-0.628888"^^xsd:decimal ;
+	geo:lat	 "46.537315"^^xsd:decimal .
+
+<http://projet.com/10/Foussais-Payré>	 foaf:name 	 "Foussais-Payré"^^xsd:string ;
+	ex:insee	 "85094"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-0.684557"^^xsd:decimal ;
+	geo:lat	 "46.529548"^^xsd:decimal .
+
+<http://projet.com/10/Fresnay-sur-Sarthe>	 foaf:name 	 "Fresnay-sur-Sarthe"^^xsd:string ;
+	ex:insee	 "72138"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "0.020576"^^xsd:decimal ;
+	geo:lat	 "48.281009"^^xsd:decimal .
+
+<http://projet.com/10/Lassay-les-Châteaux>	 foaf:name 	 "Lassay-les-Châteaux"^^xsd:string ;
+	ex:insee	 "53127"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-0.49732"^^xsd:decimal ;
+	geo:lat	 "48.437013"^^xsd:decimal .
+
+<http://projet.com/10/Croisic>	 foaf:name 	 "Croisic"^^xsd:string ;
+	ex:insee	 "44049"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-2.510964"^^xsd:decimal ;
+	geo:lat	 "47.29288"^^xsd:decimal .
+
+<http://projet.com/10/Grand-Lucé>	 foaf:name 	 "Grand-Lucé"^^xsd:string ;
+	ex:insee	 "72143"^^xsd:string ;
+	ex:labelisee	 "undefined"^^xsd:string ;
+	ex:labelisable	 "OUI"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "0.46932"^^xsd:decimal ;
+	geo:lat	 "47.86443"^^xsd:decimal .
+
+<http://projet.com/10/Puy-Notre-Dame>	 foaf:name 	 "Puy-Notre-Dame"^^xsd:string ;
+	ex:insee	 "49253"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-0.235393"^^xsd:decimal ;
+	geo:lat	 "47.124765"^^xsd:decimal .
+
+<http://projet.com/10/Thoureil>	 foaf:name 	 "Thoureil"^^xsd:string ;
+	ex:insee	 "49346"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-0.267116"^^xsd:decimal ;
+	geo:lat	 "47.370665"^^xsd:decimal .
+
+<http://projet.com/10/Luché-Pringé>	 foaf:name 	 "Luché-Pringé"^^xsd:string ;
+	ex:insee	 "72175"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "0.075125"^^xsd:decimal ;
+	geo:lat	 "47.703603"^^xsd:decimal .
+
+<http://projet.com/10/Mallièvre>	 foaf:name 	 "Mallièvre"^^xsd:string ;
+	ex:insee	 "85134"^^xsd:string ;
+	ex:labelisee	 "undefined"^^xsd:string ;
+	ex:labelisable	 "OUI"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-0.863622"^^xsd:decimal ;
+	geo:lat	 "46.910929"^^xsd:decimal .
+
+<http://projet.com/10/Montmirail>	 foaf:name 	 "Montmirail"^^xsd:string ;
+	ex:insee	 "72208"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "Dès AVAP"^^xsd:string ;
+	geo:long	 "0.789874"^^xsd:decimal ;
+	geo:lat	 "48.102073"^^xsd:decimal .
+
+<http://projet.com/10/Montreuil-Bellay>	 foaf:name 	 "Montreuil-Bellay"^^xsd:string ;
+	ex:insee	 "49215"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-0.153925"^^xsd:decimal ;
+	geo:lat	 "47.131057"^^xsd:decimal .
+
+<http://projet.com/10/Montsoreau>	 foaf:name 	 "Montsoreau"^^xsd:string ;
+	ex:insee	 "49219"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "0.056087"^^xsd:decimal ;
+	geo:lat	 "47.216405"^^xsd:decimal .
+
+<http://projet.com/10/Mouchamps>	 foaf:name 	 "Mouchamps"^^xsd:string ;
+	ex:insee	 "85153"^^xsd:string ;
+	ex:labelisee	 "undefined"^^xsd:string ;
+	ex:labelisable	 "OUI"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-1.062957"^^xsd:decimal ;
+	geo:lat	 "46.780021"^^xsd:decimal .
+
+<http://projet.com/10/Nieul-sur-l'Autise>	 foaf:name 	 "Nieul-sur-l'Autise"^^xsd:string ;
+	ex:insee	 "85162"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-0.679956"^^xsd:decimal ;
+	geo:lat	 "46.423429"^^xsd:decimal .
+
+<http://projet.com/10/Parcé-sur-Sarthe>	 foaf:name 	 "Parcé-sur-Sarthe"^^xsd:string ;
+	ex:insee	 "72228"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-0.202141"^^xsd:decimal ;
+	geo:lat	 "47.842759"^^xsd:decimal .
+
+<http://projet.com/10/Piriac-sur-Mer>	 foaf:name 	 "Piriac-sur-Mer"^^xsd:string ;
+	ex:insee	 "44125"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-2.546722"^^xsd:decimal ;
+	geo:lat	 "47.379696"^^xsd:decimal .
+
+<http://projet.com/10/Saint-Calais>	 foaf:name 	 "Saint-Calais"^^xsd:string ;
+	ex:insee	 "72269"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "0.74169"^^xsd:decimal ;
+	geo:lat	 "47.91974"^^xsd:decimal .
+
+<http://projet.com/10/Saint-Denis-d'Anjou>	 foaf:name 	 "Saint-Denis-d'Anjou"^^xsd:string ;
+	ex:insee	 "53210"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-0.441334"^^xsd:decimal ;
+	geo:lat	 "47.790513"^^xsd:decimal .
+
+<http://projet.com/10/Sainte-Suzanne>	 foaf:name 	 "Sainte-Suzanne"^^xsd:string ;
+	ex:insee	 "53255"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-0.354074"^^xsd:decimal ;
+	geo:lat	 "48.096699"^^xsd:decimal .
+
+<http://projet.com/10/Saint-Florent-le-Vieil>	 foaf:name 	 "Saint-Florent-le-Vieil"^^xsd:string ;
+	ex:insee	 "49276"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-1.016503"^^xsd:decimal ;
+	geo:lat	 "47.36126"^^xsd:decimal .
+
+<http://projet.com/10/Saulges>	 foaf:name 	 "Saulges"^^xsd:string ;
+	ex:insee	 "53257"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-0.405858"^^xsd:decimal ;
+	geo:lat	 "47.982125"^^xsd:decimal .
+
+<http://projet.com/10/Savennières>	 foaf:name 	 "Savennières"^^xsd:string ;
+	ex:insee	 "49329"^^xsd:string ;
+	ex:labelisee	 "undefined"^^xsd:string ;
+	ex:labelisable	 "OUI"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-0.658652"^^xsd:decimal ;
+	geo:lat	 "47.382788"^^xsd:decimal .
+
+<http://projet.com/10/Turquant>	 foaf:name 	 "Turquant"^^xsd:string ;
+	ex:insee	 "49358"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "0.026782"^^xsd:decimal ;
+	geo:lat	 "47.222122"^^xsd:decimal .
+
+<http://projet.com/10/Vivoin>	 foaf:name 	 "Vivoin"^^xsd:string ;
+	ex:insee	 "72380"^^xsd:string ;
+	ex:labelisee	 "undefined"^^xsd:string ;
+	ex:labelisable	 "OUI"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "0.154632"^^xsd:decimal ;
+	geo:lat	 "48.2332"^^xsd:decimal .
+
+<http://projet.com/10/Vouvant>	 foaf:name 	 "Vouvant"^^xsd:string ;
+	ex:insee	 "85305"^^xsd:string ;
+	ex:labelisee	 "OUI"^^xsd:string ;
+	ex:labelisable	 "undefined"^^xsd:string ;
+	rdfs:comment	 "undefined"^^xsd:string ;
+	geo:long	 "-0.769141"^^xsd:decimal ;
+	geo:lat	 "46.57139"^^xsd:decimal .
 

@@ -1,69 +1,86 @@
 
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix prop-fr: <http://fr.dbpedia.org/property/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix ex: <http://example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix proj: <http://projet.com/10/> . 
+@prefix dbpprop: <http://dbpedia.org/property/> .
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
+@prefix sc: <http://schema.org/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
-        
-<http://projet.com/10/ECOLE_DE_MUSIQUE_ARPEGE>	 ex:nom 	 "ECOLE DE MUSIQUE ARPEGE"^^xsd:string;
-	ex:id	 "1"^^xsd:integer ;
-	ex:adresse1 	 "120 rue du Général Leclerc"^^xsd:string;
-	ex:codePostal	 "44150"^^xsd:integer ;
-	ex:ville 	 "ANCENIS"^^xsd:string;
-	ex:nature 	 "Ecole intercommunale"^^xsd:string;
-	ex:coordinate 	 "[ 47.3643462 , -1.1822959]"^^xsd:string.
+<http://projet.com/10/ECOLE_DE_MUSIQUE_ARPEGE>	 foaf:name 	 "ECOLE DE MUSIQUE ARPEGE"^^xsd:string ;
+	ex:adresse	 "120 rue du Général Leclerc"^^xsd:string ;
+	ex:coordinate	 "[ 47.3643462 , -1.1822959]"^^xsd:decimal ;
+	ex:id	 "1"^^xsd:string ;
+	ex:ville	 "ANCENIS"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44150"^^xsd:integer ;
+	ex:tel	 "02.40.83.13.68"^^xsd:string ;
+	ex:nature	 "Ecole intercommunale"^^xsd:string .
 
-<http://projet.com/10/CONSERVATOIRE_INTERCOMMUNAL_DE_MUSIQUE,_DE_DANSE_ET_D'ART_DRAMATIQUE_>	 ex:nom 	 "CONSERVATOIRE INTERCOMMUNAL DE MUSIQUE, DE DANSE ET D'ART DRAMATIQUE "^^xsd:string;
-	ex:id	 "2"^^xsd:integer ;
-	ex:adresse1 	 "6 rue Guy Moquet"^^xsd:string;
-	ex:codePostal	 "44110"^^xsd:integer ;
-	ex:ville 	 "CHATEAUBRIANT"^^xsd:string;
-	ex:nature 	 "Ecole intercommunale"^^xsd:string;
-	ex:coordinate 	 "[ 47.7226785 , -1.3761146]"^^xsd:string.
+<http://projet.com/10/CONSERVATOIRE_INTERCOMMUNAL_DE_MUSIQUE,_DE_DANSE_ET_D'ART_DRAMATIQUE_>	 foaf:name 	 "CONSERVATOIRE INTERCOMMUNAL DE MUSIQUE, DE DANSE ET D'ART DRAMATIQUE "^^xsd:string ;
+	ex:adresse	 "6 rue Guy Moquet"^^xsd:string ;
+	ex:coordinate	 "[ 47.7226785 , -1.3761146]"^^xsd:decimal ;
+	ex:id	 "2"^^xsd:string ;
+	ex:ville	 "CHATEAUBRIANT"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44110"^^xsd:integer ;
+	ex:tel	 "02.40.81.15.87"^^xsd:string ;
+	ex:nature	 "Ecole intercommunale"^^xsd:string .
 
-<http://projet.com/10/POLYPHONIE_MUSIQUE_>	 ex:nom 	 "POLYPHONIE MUSIQUE "^^xsd:string;
-	ex:id	 "3"^^xsd:integer ;
-	ex:adresse1 	 "18 bd Pasteur"^^xsd:string;
-	ex:codePostal	 "44450"^^xsd:integer ;
-	ex:ville 	 "LA-CHAPELLE-BASSE-MER"^^xsd:string;
-	ex:nature 	 "Ecole intercommunale"^^xsd:string;
-	ex:coordinate 	 "[ 47.2708796 , -1.3324901]"^^xsd:string.
+<http://projet.com/10/POLYPHONIE_MUSIQUE_>	 foaf:name 	 "POLYPHONIE MUSIQUE "^^xsd:string ;
+	ex:adresse	 "18 bd Pasteur"^^xsd:string ;
+	ex:coordinate	 "[ 47.2708796 , -1.3324901]"^^xsd:decimal ;
+	ex:id	 "3"^^xsd:string ;
+	ex:ville	 "LA-CHAPELLE-BASSE-MER"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44450"^^xsd:integer ;
+	ex:tel	 "02.40.36.88.32"^^xsd:string ;
+	ex:nature	 "Ecole intercommunale"^^xsd:string .
 
-<http://projet.com/10/SOL_EN_VIGNE>	 ex:nom 	 "SOL EN VIGNE"^^xsd:string;
-	ex:id	 "4"^^xsd:integer ;
-	ex:adresse1 	 "1 rue du Fief de l'Isle "^^xsd:string;
-	ex:codePostal	 "44690"^^xsd:integer ;
-	ex:ville 	 "LA-HAYE-FOUASSIERE"^^xsd:string;
-	ex:nature 	 "Ecole intercommunale"^^xsd:string;
-	ex:coordinate 	 "[ 47.1536334 , -1.3993796]"^^xsd:string.
+<http://projet.com/10/SOL_EN_VIGNE>	 foaf:name 	 "SOL EN VIGNE"^^xsd:string ;
+	ex:adresse	 "1 rue du Fief de l'Isle "^^xsd:string ;
+	ex:coordinate	 "[ 47.1536334 , -1.3993796]"^^xsd:decimal ;
+	ex:id	 "4"^^xsd:string ;
+	ex:ville	 "LA-HAYE-FOUASSIERE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44690"^^xsd:integer ;
+	ex:tel	 "02.40.54.86.66"^^xsd:string ;
+	ex:nature	 "Ecole intercommunale"^^xsd:string .
 
-<http://projet.com/10/ECOLE_INTERCOMMUNALE_DE_MUSIQUE_DE_PAIMBOEUF>	 ex:nom 	 "ECOLE INTERCOMMUNALE DE MUSIQUE DE PAIMBOEUF"^^xsd:string;
-	ex:id	 "5"^^xsd:integer ;
-	ex:adresse1 	 "6 boulevard Dumesnildot"^^xsd:string;
-	ex:codePostal	 "44560"^^xsd:integer ;
-	ex:ville 	 "PAIMBOEUF"^^xsd:string;
-	ex:nature 	 "Ecole intercommunale"^^xsd:string;
-	ex:coordinate 	 "[ 47.2867229 , -2.0255818]"^^xsd:string.
+<http://projet.com/10/ECOLE_INTERCOMMUNALE_DE_MUSIQUE_DE_PAIMBOEUF>	 foaf:name 	 "ECOLE INTERCOMMUNALE DE MUSIQUE DE PAIMBOEUF"^^xsd:string ;
+	ex:adresse	 "6 boulevard Dumesnildot"^^xsd:string ;
+	ex:coordinate	 "[ 47.2867229 , -2.0255818]"^^xsd:decimal ;
+	ex:id	 "5"^^xsd:string ;
+	ex:ville	 "PAIMBOEUF"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44560"^^xsd:integer ;
+	ex:tel	 "02.40.39.60.87"^^xsd:string ;
+	ex:nature	 "Ecole intercommunale"^^xsd:string .
 
-<http://projet.com/10/ECOLE_DE_MUSIQUE_INTERCOMMUNALE_DE_PONT-CHATEAU_-_CENTRE_CULTUREL_JACQUES_DEMY>	 ex:nom 	 "ECOLE DE MUSIQUE INTERCOMMUNALE DE PONT-CHATEAU - CENTRE CULTUREL JACQUES DEMY"^^xsd:string;
-	ex:id	 "6"^^xsd:integer ;
-	ex:adresse1 	 "10 rue Toulifaut"^^xsd:string;
-	ex:codePostal	 "44160"^^xsd:integer ;
-	ex:ville 	 "PONTCHATEAU"^^xsd:string;
-	ex:nature 	 "Ecole intercommunale"^^xsd:string;
-	ex:coordinate 	 "[ 47.4373972 , -2.0892248]"^^xsd:string.
+<http://projet.com/10/ECOLE_DE_MUSIQUE_INTERCOMMUNALE_DE_PONT-CHATEAU_-_CENTRE_CULTUREL_JACQUES_DEMY>	 foaf:name 	 "ECOLE DE MUSIQUE INTERCOMMUNALE DE PONT-CHATEAU - CENTRE CULTUREL JACQUES DEMY"^^xsd:string ;
+	ex:adresse	 "10 rue Toulifaut"^^xsd:string ;
+	ex:coordinate	 "[ 47.4373972 , -2.0892248]"^^xsd:decimal ;
+	ex:id	 "6"^^xsd:string ;
+	ex:ville	 "PONTCHATEAU"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44160"^^xsd:integer ;
+	ex:tel	 "02.40.88.07.06"^^xsd:string ;
+	ex:nature	 "Ecole intercommunale"^^xsd:string .
 
-<http://projet.com/10/CONSERVATOIRE_A_RAYONNEMENT_INTERCOMMUNAL_DU_PAYS_DE_REDON>	 ex:nom 	 "CONSERVATOIRE A RAYONNEMENT INTERCOMMUNAL DU PAYS DE REDON"^^xsd:string;
-	ex:id	 "7"^^xsd:integer ;
-	ex:adresse1 	 "7 bd Bonne Nouvelle"^^xsd:string;
-	ex:codePostal	 "35600"^^xsd:integer ;
-	ex:ville 	 "REDON"^^xsd:string;
-	ex:nature 	 "Ecole intercommunale"^^xsd:string;
-	ex:coordinate 	 "[ 47.6508631 , -2.0791795]"^^xsd:string.
+<http://projet.com/10/CONSERVATOIRE_A_RAYONNEMENT_INTERCOMMUNAL_DU_PAYS_DE_REDON>	 foaf:name 	 "CONSERVATOIRE A RAYONNEMENT INTERCOMMUNAL DU PAYS DE REDON"^^xsd:string ;
+	ex:adresse	 "7 bd Bonne Nouvelle"^^xsd:string ;
+	ex:coordinate	 "[ 47.6508631 , -2.0791795]"^^xsd:decimal ;
+	ex:id	 "7"^^xsd:string ;
+	ex:ville	 "REDON"^^xsd:string ;
+	dbpedia-owl:postalCode	 "35600"^^xsd:integer ;
+	ex:tel	 "02.99.71.11.99"^^xsd:string ;
+	ex:nature	 "Ecole intercommunale"^^xsd:string .
 
-<http://projet.com/10/ECOLE_INTERCOMMUNALE_DE_MUSIQUE_>	 ex:nom 	 "ECOLE INTERCOMMUNALE DE MUSIQUE "^^xsd:string;
-	ex:id	 "8"^^xsd:integer ;
-	ex:adresse1 	 "135 avenue du Maréchal Joffre"^^xsd:string;
-	ex:codePostal	 "44250"^^xsd:integer ;
-	ex:ville 	 "SAINT-BREVIN-LES-PINS"^^xsd:string;
-	ex:nature 	 "Ecole intercommunale"^^xsd:string;
-	ex:coordinate 	 "[ 47.2486231 , -2.1664463]"^^xsd:string.
+<http://projet.com/10/ECOLE_INTERCOMMUNALE_DE_MUSIQUE_>	 foaf:name 	 "ECOLE INTERCOMMUNALE DE MUSIQUE "^^xsd:string ;
+	ex:adresse	 "135 avenue du Maréchal Joffre"^^xsd:string ;
+	ex:coordinate	 "[ 47.2486231 , -2.1664463]"^^xsd:decimal ;
+	ex:id	 "8"^^xsd:string ;
+	ex:ville	 "SAINT-BREVIN-LES-PINS"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44250"^^xsd:integer ;
+	ex:tel	 "02.40.27.39.82"^^xsd:string ;
+	ex:nature	 "Ecole intercommunale"^^xsd:string .
+
