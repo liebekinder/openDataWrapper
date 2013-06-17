@@ -231,13 +231,39 @@ Pour ajouter une nouvelles source, il vous faut créer un nouveau n\oe{}ud
 
 Votre source est ainsi ajoutée à Open Data Wrapper.
 
-\subsubsection{Le fichier de transformation}
+\subsubsection{ajout alternatif de source}
+
+Si la modification du XML est fastidieuse ou que vous avez une grande liste de
+dataset à ajouter, vous pouvez utiliser la fonction d'ajout de source. Pour ce
+faire, créez un fichier nommé \textbf{import.odw} à la racine de votre compte
+personel (\$home). Dans ce fichier la syntaxe d'ajout est la suivante: 
+
+\begin{lstlisting}[caption=syntaxe import.odw, language=XML]
+nom_du_dataset = http://url_de_l_api.com
+\end{lstlisting}
+
+Les restrictions liées à cette fonction sont les suivantes:
+
+\begin{itemize}
+  \item impossible d'importer autre chose que des fichiers XML par API
+  \item le nom doit être composer uniquement de caractères alphanumériques et le
+  caractère \_
+  \item l'url de l'api ne comprend pas d'information de filtre ou de format
+\end{itemize}
+
+\subsubsection{mapping.properties}
 
 Pour les données contactée par API, le format du fichier récupéré est de l'XML.
-Sa transformation en RDF se fait à l'aide d'une feuille de transformation XSL ou
-XSLT. Vous devez écrire cette feuille. Un léger débogage sera apporté par Open
-Data Wrapper pour vous indiquer si le fichier XSL est correct (erreur de
-compilation du XSL) et si le fichier RDF généré est valide (conversion en
-RDF/XML à l'aide de Jena)
+Sa transformation en RDF se fait à l'aide d'une feuille de transformation XSL.
+Ce fichier est généré automatiquement par open Data Wrapper, en fonction du nom
+des balises XML. Attention, il faut que chaque nom de balise correspondent à une
+seule et uniquement une seule signification. De plus, le XML doit absolument
+avoir une balise dont le vocabulaire correspondant est traduit en
+\textbf{rdf:foaf}. Open Data Wrapper va prendre ses informations dans le
+fichier mapping.properties, lire le nom de la balise, trouver le correspondant
+RDF et génère un bloc de XSL. Si le nom de la balise n'est pas trouvé, un
+message s'affiche et le fichier mapping.properties est mis à jour avec une
+valeur par défaut. Vous devrez modifier cette valeur par la suite, pour lui
+attribuer un réel sens.
 
 \end{document}

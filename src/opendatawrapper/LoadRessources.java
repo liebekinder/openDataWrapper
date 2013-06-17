@@ -1,12 +1,17 @@
 package opendatawrapper;
 
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.FileReader;
 import java.io.IOException;
-import java.util.HashMap;
+import java.io.OutputStream;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
+import java.util.Set;
+import java.util.TreeMap;
 
 import org.jdom2.Document;
 import org.jdom2.Element;
@@ -25,11 +30,11 @@ public class LoadRessources {
 
 	public LoadRessources() throws JDOMException, IOException {
 		SAXBuilder sxb = new SAXBuilder();
-			// On crée un nouveau document JDOM avec en argument le fichier XML
-			// Le parsing est terminé ;)
-			document = sxb.build(new File(DocumentPath));
+		// On crée un nouveau document JDOM avec en argument le fichier XML
+		// Le parsing est terminé ;)
+		document = sxb.build(new File(DocumentPath));
 
-		listeDataSource = new HashMap<Integer, DataSource>();
+		listeDataSource = new TreeMap<Integer, DataSource>();
 	}
 
 	public void affiche() {
@@ -81,6 +86,113 @@ public class LoadRessources {
 
 	}
 
+	public void addDatasources() {
+		// le document a déjà été chargé
+		Properties p = new Properties();
+		try {
+			p.load(new FileReader(System.getProperty("user.home")
+					+ "/import.odw"));
+			Set<Object> cles = p.keySet();
+			Element racine = document.getRootElement();
+			boolean modified = false;
+			for (Object valeur : cles) {
+
+				boolean existing = false;
+				for (Element e : racine.getChildren("source")) {
+					if (e.getChild("nom").getText().equals((String) valeur)) {
+						existing = true;
+						System.err.println("the datasource " + (String) valeur
+								+ " already exist!");
+						break;
+					}
+				}
+				if (!existing) {
+					modified = true;
+					Element temp = new Element("source");
+
+					Element name = new Element("nom");
+					name.setText((String) valeur);
+					Element api = new Element("api");
+					api.setText("true");
+					Element apiurl = new Element("apiurl");
+					apiurl.setText((String) p.getProperty((String) valeur)
+							+ "?format=xml");
+					Element file = new Element("file");
+					file.setText("false");
+					Element filepath = new Element("filepath");
+					filepath.setText("null");
+					Element mappingFile = new Element("mappingFile");
+					mappingFile.setText("null");
+					Element xsltFile = new Element("xsltFile");
+					xsltFile.setText("ressources/xsl/" + (String) valeur
+							+ ".xsl");
+					Element format = new Element("format");
+					format.setText("XML");
+					Element outputTtlFile = new Element("outputTtlFile");
+					outputTtlFile.setText("ressources/output/ttl/" + (String) valeur
+							+ ".n3");
+					Element outputXmlFile = new Element("outputXmlFile");
+					outputXmlFile.setText("ressources/output/rdf-xml/"
+							+ (String) valeur + ".rdf");
+
+					temp.addContent(name);
+					temp.addContent(api);
+					temp.addContent(apiurl);
+					temp.addContent(file);
+					temp.addContent(filepath);
+					temp.addContent(mappingFile);
+					temp.addContent(xsltFile);
+					temp.addContent(format);
+					temp.addContent(outputTtlFile);
+					temp.addContent(outputXmlFile);
+
+					racine.addContent(temp);
+				}
+			}
+			if (modified) {
+				writeDocument();
+				eraseDocument();
+				System.out.print(" modification ");
+			}
+			else{
+				System.out.println(" no modification ");
+			}
+
+		} catch (FileNotFoundException e) {
+			System.err.println("import.odw doesn't exist! " + e.getMessage());
+		} catch (IOException e) {
+			System.err
+					.println("import.odw cannot be opened. Chack that you hav the right to open this file. "
+							+ e.getMessage());
+		}
+
+	}
+
+	private void eraseDocument() {
+		try {
+			OutputStream fos = new FileOutputStream(
+					System.getProperty("user.home") + "/import.odw");
+			fos.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	private void writeDocument() {
+		XMLOutputter xmlop = new XMLOutputter(Format.getPrettyFormat());
+		try {
+			xmlop.output(document, new FileOutputStream(
+					"ressources/dataSources.xml"));
+		} catch (FileNotFoundException e) {
+			System.err.println("ressources/dataSources.xml doesn't exist! "
+					+ e.getMessage());
+		} catch (IOException e) {
+			System.err
+					.println("ressources/dataSources.xml cannot be opened. Chack that you hav the right to open this file. "
+							+ e.getMessage());
+		}
+	}
 
 	public Map<Integer, DataSource> getListeDataSource() {
 		return listeDataSource;

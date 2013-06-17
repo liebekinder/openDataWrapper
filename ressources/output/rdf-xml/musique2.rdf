@@ -1,14 +1,15 @@
 <rdf:RDF
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:dbpprop="http://dbpedia.org/property/"
+    xmlns:dbpedia="http://dbpedia.org/resource/"
+    xmlns:sc="http://schema.org/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:foaf="http://xmlns.com/foaf/0.1/"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:ex="http://example.org/"
-    xmlns:dbpedia="http://dbpedia.org/resource/"
+    xmlns:TEMPORAIRE="http://temporaire.org/"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
     xmlns:prop-fr="http://fr.dbpedia.org/property/"
     xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
-    xmlns:sc="http://schema.org/"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" > 
   <rdf:Description rdf:about="http://projet.com/10/POLYPHONIE_MUSIQUE_">

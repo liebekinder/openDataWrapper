@@ -54,10 +54,13 @@ public class Principale {
 						+ "welcome in the openData Wrapper!\n"
 						+ " What do you want to do?\n"
 						+ "[1] List datasources\n"
-						+ "[2] Convert one data into turtle\n"
-						+ "[3] Convert all data into turtle\n"
-						+ "[4] Convert one data into RDF/XML\n"
-						+ "[5] Convert all data into RDF/XML\n" + "[6] Quit\n");
+						+ "[2] Add new datasources\n"
+						+ "[3] Convert one data into turtle\n"
+						+ "[4] Convert all data into turtle\n"
+						+ "[5] Convert one data into RDF/XML\n"
+						+ "[6] Convert all data into RDF/XML\n" 
+						+ "[7] Reload data\n" 
+						+ "[8] Quit\n");
 				result = in.nextInt();
 
 				switch (result) {
@@ -65,16 +68,22 @@ public class Principale {
 					listDatasources();
 					break;
 				case 2:
-					conversionTtlOne();
+					addDataSources();
 					break;
 				case 3:
-					conversionTtlAll();
+					conversionTtlOne();
 					break;
 				case 4:
-					conversionXmlOne();
+					conversionTtlAll();
 					break;
 				case 5:
+					conversionXmlOne();
+					break;
+				case 6:
 					conversionXmlAll();
+					break;
+				case 7:
+					reloadData();
 					break;
 				default:
 					// on quitte
@@ -90,8 +99,19 @@ public class Principale {
 		System.out.println("Exiting...");
 	}
 
+	private static void reloadData() {
+		listeDataSource = lr.extractData();
+		System.out.println("reload complete!");
+	}
+
+	private static void addDataSources() {
+		System.out.print("adding new sources...");
+		lr.addDatasources();
+		listeDataSource = lr.extractData();
+		System.out.println("done!");		
+	}
+
 	private static void listDatasources() {
-		// TODO Auto-generated method stub
 		Set<Integer> nomData = listeDataSource.keySet();
 		Iterator<Integer> it = nomData.iterator();
 		System.out.println("Liste des dataset:");
@@ -205,7 +225,6 @@ public class Principale {
 	}
 	
 	public static Properties getMapping(String path) {
-		// TODO Auto-generated method stub
 		Properties p = new Properties();
 		try {
 			p.load(new FileReader(path));

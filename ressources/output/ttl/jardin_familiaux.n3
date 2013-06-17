@@ -1,0 +1,197 @@
+
+@prefix TEMPORAIRE: <http://temporaire.org/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix prop-fr: <http://fr.dbpedia.org/property/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ex: <http://example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbpprop: <http://dbpedia.org/property/> .
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
+@prefix sc: <http://schema.org/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+<http://projet.com/10/_BATIGNOLLES>	 foaf:name 	 " BATIGNOLLES"^^xsd:string ;
+	ex:nb_parcelles	 "39"^^xsd:string ;
+	ex:coordinate	 "[ 47.2540385280162 , -1.52402318387499]"^^xsd:decimal ;
+	ex:surfaceTotale	 "7283.64"^^xsd:string ;
+	dbpprop:location	 "BD DES BATIGNOLLES"^^xsd:string ;
+	ex:association	 "Asso.Jardins Familiaux Nantais"^^xsd:string .
+
+<http://projet.com/10/TERRE_PROMISE>	 foaf:name 	 "TERRE PROMISE"^^xsd:string ;
+	ex:nb_parcelles	 "86"^^xsd:string ;
+	ex:coordinate	 "[ 47.2205751821284 , -1.50911365979517]"^^xsd:decimal ;
+	ex:surfaceTotale	 "14600.15"^^xsd:string ;
+	dbpprop:location	 "CHEMIN DES BATELIERS"^^xsd:string ;
+	ex:association	 "Asso . Loire & Jardins"^^xsd:string .
+
+<http://projet.com/10/BOIS_DE_LA_MUSSE>	 foaf:name 	 "BOIS DE LA MUSSE"^^xsd:string ;
+	ex:nb_parcelles	 "67"^^xsd:string ;
+	ex:coordinate	 "[ 47.2037889595427 , -1.61293860413442]"^^xsd:decimal ;
+	ex:surfaceTotale	 "12293.24"^^xsd:string ;
+	dbpprop:location	 "RUE DU BOIS DE LA MUSSE"^^xsd:string ;
+	ex:association	 "Asso.Jardins Familiaux Nantais"^^xsd:string .
+
+<http://projet.com/10/_MOUTONNERIE>	 foaf:name 	 " MOUTONNERIE"^^xsd:string ;
+	ex:nb_parcelles	 "23"^^xsd:string ;
+	ex:coordinate	 "[ 47.2218094651243 , -1.53362118270376]"^^xsd:decimal ;
+	ex:surfaceTotale	 "2136.62"^^xsd:string ;
+	dbpprop:location	 "RUE FRANSCISCO FERRER"^^xsd:string ;
+	ex:association	 "Asso.Jardins Familiaux Nantais"^^xsd:string .
+
+<http://projet.com/10/VERTAIS>	 foaf:name 	 "VERTAIS"^^xsd:string ;
+	ex:nb_parcelles	 "10"^^xsd:string ;
+	ex:coordinate	 "[ 47.2020816053686 , -1.54694666084343]"^^xsd:decimal ;
+	ex:surfaceTotale	 "1117.92"^^xsd:string ;
+	dbpprop:location	 "RUE VERTAIS"^^xsd:string ;
+	ex:association	 "Asso.Jardins du Vertais"^^xsd:string .
+
+<http://projet.com/10/CHAUPIERES>	 foaf:name 	 "CHAUPIERES"^^xsd:string ;
+	ex:nb_parcelles	 "86"^^xsd:string ;
+	ex:coordinate	 "[ 47.2446375693427 , -1.49939897422361]"^^xsd:decimal ;
+	ex:surfaceTotale	 "15880.58"^^xsd:string ;
+	dbpprop:location	 "CHEMIN DES CHAUPIERES"^^xsd:string ;
+	ex:association	 "Asso.Jardins Familiaux Nantais"^^xsd:string .
+
+<http://projet.com/10/AMANDE>	 foaf:name 	 "AMANDE"^^xsd:string ;
+	ex:nb_parcelles	 "21"^^xsd:string ;
+	ex:coordinate	 "[ 47.2626386020172 , -1.57701678864409]"^^xsd:decimal ;
+	ex:surfaceTotale	 "4754.45"^^xsd:string ;
+	dbpprop:location	 "BD René Cassin"^^xsd:string ;
+	ex:association	 "Asso Les Jardins de l'Amande"^^xsd:string .
+
+<http://projet.com/10/EGLANTIERS>	 foaf:name 	 "EGLANTIERS"^^xsd:string ;
+	ex:nb_parcelles	 "92"^^xsd:string ;
+	ex:coordinate	 "[ 47.2664476306773 , -1.57356790329742]"^^xsd:decimal ;
+	ex:surfaceTotale	 "22999.12"^^xsd:string ;
+	dbpprop:location	 "RTE DE LA CHAPELLE SUR ERDRE"^^xsd:string ;
+	ex:association	 "Asso. Les Jardins des Eglantiers"^^xsd:string .
+
+<http://projet.com/10/PORT_BOYER>	 foaf:name 	 "PORT BOYER"^^xsd:string ;
+	ex:nb_parcelles	 "1"^^xsd:string ;
+	ex:coordinate	 "[ 47.2420619906882 , -1.53884422722736]"^^xsd:decimal ;
+	ex:surfaceTotale	 "137.08"^^xsd:string ;
+	dbpprop:location	 "rue du Port Boyer"^^xsd:string ;
+	ex:association	 "Asso  En cours de route"^^xsd:string .
+
+<http://projet.com/10/_LA_ROCHE>	 foaf:name 	 " LA ROCHE"^^xsd:string ;
+	ex:nb_parcelles	 "17"^^xsd:string ;
+	ex:coordinate	 "[ 47.2194390174894 , -1.52344149022095]"^^xsd:decimal ;
+	ex:surfaceTotale	 "4013.0"^^xsd:string ;
+	dbpprop:location	 "Chemin de la Roche"^^xsd:string ;
+	ex:association	 "Asso  Les jardins de la Roche"^^xsd:string .
+
+<http://projet.com/10/_CRESSONNIERE>	 foaf:name 	 " CRESSONNIERE"^^xsd:string ;
+	ex:nb_parcelles	 "10"^^xsd:string ;
+	ex:coordinate	 "[ 47.2565927290361 , -1.56309409770614]"^^xsd:decimal ;
+	ex:surfaceTotale	 "1176.76"^^xsd:string ;
+	dbpprop:location	 "rue des Renards"^^xsd:string ;
+	ex:association	 "Asso  Les jardins de la Cressonnière"^^xsd:string .
+
+<http://projet.com/10/LAIT_DE_MAI>	 foaf:name 	 "LAIT DE MAI"^^xsd:string ;
+	ex:nb_parcelles	 "1"^^xsd:string ;
+	ex:coordinate	 "[ 47.2121267611117 , -1.5481177365621]"^^xsd:decimal ;
+	ex:surfaceTotale	 "182.76"^^xsd:string ;
+	dbpprop:location	 "rue Emile Péhant"^^xsd:string ;
+	ex:association	 "Asso. Des petits jardins du Lait de Mai"^^xsd:string .
+
+<http://projet.com/10/BREIL_MALVILLE>	 foaf:name 	 "BREIL MALVILLE"^^xsd:string ;
+	ex:nb_parcelles	 "1"^^xsd:string ;
+	ex:coordinate	 "[ 47.2291489128523 , -1.58744980917114]"^^xsd:decimal ;
+	ex:surfaceTotale	 "67.99"^^xsd:string ;
+	dbpprop:location	 "Rue Suzanne Lenglen"^^xsd:string ;
+	ex:association	 "Confédération Syndicale des Familles"^^xsd:string .
+
+<http://projet.com/10/_BREIL/COUBERTIN>	 foaf:name 	 " BREIL/COUBERTIN"^^xsd:string ;
+	ex:nb_parcelles	 "14"^^xsd:string ;
+	ex:coordinate	 "[ 47.2281754211676 , -1.58576356458799]"^^xsd:decimal ;
+	ex:surfaceTotale	 "1743.14"^^xsd:string ;
+	dbpprop:location	 "Bd Pierre de Coubertin"^^xsd:string ;
+	ex:association	 "Asso.Jardins Familiaux Nantais"^^xsd:string .
+
+<http://projet.com/10/COLLINES>	 foaf:name 	 "COLLINES"^^xsd:string ;
+	ex:nb_parcelles	 "31"^^xsd:string ;
+	ex:coordinate	 "[ 47.2420588343492 , -1.51645836884369]"^^xsd:decimal ;
+	ex:surfaceTotale	 "7683.06"^^xsd:string ;
+	dbpprop:location	 "Chemin des Collines"^^xsd:string ;
+	ex:association	 "Asso les Jardins des Collnes"^^xsd:string .
+
+<http://projet.com/10/CROISSANT>	 foaf:name 	 "CROISSANT"^^xsd:string ;
+	ex:nb_parcelles	 "90"^^xsd:string ;
+	ex:coordinate	 "[ 47.2351474602204 , -1.52309170665746]"^^xsd:decimal ;
+	ex:surfaceTotale	 "15808.73"^^xsd:string ;
+	dbpprop:location	 "RUE DU CROISSANT"^^xsd:string ;
+	ex:association	 "Asso. Jardins de la Marrière "^^xsd:string .
+
+<http://projet.com/10/CRAPAUDINE>	 foaf:name 	 "CRAPAUDINE"^^xsd:string ;
+	ex:nb_parcelles	 "92"^^xsd:string ;
+	ex:coordinate	 "[ 47.1911183070505 , -1.52996452304157]"^^xsd:decimal ;
+	ex:surfaceTotale	 "23222.69"^^xsd:string ;
+	dbpprop:location	 "AVENUE DES GOBELETS"^^xsd:string ;
+	ex:association	 "Asso.la crapaudine"^^xsd:string .
+
+<http://projet.com/10/LE_JARDINET>	 foaf:name 	 "LE JARDINET"^^xsd:string ;
+	ex:nb_parcelles	 "1"^^xsd:string ;
+	ex:coordinate	 "[ 47.1957882470328 , -1.52862142777457]"^^xsd:decimal ;
+	ex:surfaceTotale	 "98.4"^^xsd:string ;
+	dbpprop:location	 "Rue d'Hendaye"^^xsd:string ;
+	ex:association	 "ECOS"^^xsd:string .
+
+<http://projet.com/10/HALVEQUE/BEAUJOIRE>	 foaf:name 	 "HALVEQUE/BEAUJOIRE"^^xsd:string ;
+	ex:nb_parcelles	 "12"^^xsd:string ;
+	ex:coordinate	 "[ 47.2556186549767 , -1.52052713916583]"^^xsd:decimal ;
+	ex:surfaceTotale	 "713.68"^^xsd:string ;
+	dbpprop:location	 "rue Léon Serpollet"^^xsd:string ;
+	ex:association	 "Asso.Jardins Familiaux Nantais"^^xsd:string .
+
+<http://projet.com/10/Le_GARDEN'KOFF>	 foaf:name 	 "Le GARDEN'KOFF"^^xsd:string ;
+	ex:nb_parcelles	 "1"^^xsd:string ;
+	ex:coordinate	 "[ 47.2160594773854 , -1.52440173609997]"^^xsd:decimal ;
+	ex:surfaceTotale	 "81.73"^^xsd:string ;
+	dbpprop:location	 "Square de Hongrie"^^xsd:string ;
+	ex:association	 "Les Idéelles"^^xsd:string .
+
+<http://projet.com/10/FOURNILIERE>	 foaf:name 	 "FOURNILIERE"^^xsd:string ;
+	ex:nb_parcelles	 "120"^^xsd:string ;
+	ex:coordinate	 "[ 47.212537479885 , -1.58895939752634]"^^xsd:decimal ;
+	ex:surfaceTotale	 "31604.69"^^xsd:string ;
+	dbpprop:location	 "RUE JULES PIEDELEU"^^xsd:string ;
+	ex:association	 "Asso. Jardins de la Fournilière"^^xsd:string .
+
+<http://projet.com/10/CONTRIE>	 foaf:name 	 "CONTRIE"^^xsd:string ;
+	ex:nb_parcelles	 "78"^^xsd:string ;
+	ex:coordinate	 "[ 47.2190308688269 , -1.60089228893563]"^^xsd:decimal ;
+	ex:surfaceTotale	 "15964.64"^^xsd:string ;
+	dbpprop:location	 "RUE DU CORPS DE GARDE"^^xsd:string ;
+	ex:association	 "Asso.Jardins Familiaux Nantais"^^xsd:string .
+
+<http://projet.com/10/BOUCARDIERE>	 foaf:name 	 "BOUCARDIERE"^^xsd:string ;
+	ex:nb_parcelles	 "10"^^xsd:string ;
+	ex:coordinate	 "[ 47.2021953533342 , -1.59877123488103]"^^xsd:decimal ;
+	ex:surfaceTotale	 "2030.87"^^xsd:string ;
+	dbpprop:location	 "RUE DE L'ABBAYE"^^xsd:string ;
+	ex:association	 "Asso.Jardins Familiaux Nantais"^^xsd:string .
+
+<http://projet.com/10/ANGLE_CHAILLOU>	 foaf:name 	 "ANGLE CHAILLOU"^^xsd:string ;
+	ex:nb_parcelles	 "58"^^xsd:string ;
+	ex:coordinate	 "[ 47.2717876097935 , -1.57164946642059]"^^xsd:decimal ;
+	ex:surfaceTotale	 "14469.12"^^xsd:string ;
+	dbpprop:location	 "CHEMIN ANGLE CHAILLOU"^^xsd:string ;
+	ex:association	 "Asso. Nature & Jardins Nantes Nord "^^xsd:string .
+
+<http://projet.com/10/EPINETTES>	 foaf:name 	 "EPINETTES"^^xsd:string ;
+	ex:nb_parcelles	 "12"^^xsd:string ;
+	ex:coordinate	 "[ 47.228702444088 , -1.52084080364442]"^^xsd:decimal ;
+	ex:surfaceTotale	 "1677.66"^^xsd:string ;
+	dbpprop:location	 "RUE DES EPINETTES"^^xsd:string ;
+	ex:association	 "Asso. Mille et un jardins"^^xsd:string .
+
+<http://projet.com/10/CHEZINE>	 foaf:name 	 "CHEZINE"^^xsd:string ;
+	ex:nb_parcelles	 "21"^^xsd:string ;
+	ex:coordinate	 "[ 47.2293984322158 , -1.59654089683538]"^^xsd:decimal ;
+	ex:surfaceTotale	 "3217.96"^^xsd:string ;
+	dbpprop:location	 "BD DU MASSACRE"^^xsd:string ;
+	ex:association	 "Asso.Jardins Familiaux Nantais"^^xsd:string .
+

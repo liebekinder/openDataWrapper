@@ -14,6 +14,7 @@
 
 <xsl:template match="data">
 	<xsl:text>
+@prefix TEMPORAIRE: &lt;http://temporaire.org/&gt; .
 @prefix dbpedia: &lt;http://dbpedia.org/resource/&gt; .
 @prefix prop-fr: &lt;http://fr.dbpedia.org/property/&gt; .
 @prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
