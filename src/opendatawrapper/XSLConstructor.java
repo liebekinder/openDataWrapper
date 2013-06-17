@@ -117,13 +117,16 @@ public class XSLConstructor {
 					+ "</xsl:template>\n" + "\n"
 					+ "<xsl:template match=\"element\">\n");
 
-			templateDef(map, out);
+			if (templateDef(map, out)) {
 
-			out.write("\n</xsl:template>\n\n");
+				out.write("\n</xsl:template>\n\n");
 
-			templateWrite(map, out);
+				templateWrite(map, out);
 
-			out.write("</xsl:stylesheet>");
+				out.write("</xsl:stylesheet>");
+			} else {
+				return false;
+			}
 
 			// Close the output stream
 			System.out.println("done!");
@@ -247,7 +250,7 @@ public class XSLConstructor {
 			return ".";
 	}
 
-	private void templateDef(Map<String, MappingUnit> map, BufferedWriter out)
+	private boolean templateDef(Map<String, MappingUnit> map, BufferedWriter out)
 			throws IOException {
 		Set<String> keys = map.keySet();
 		Iterator<String> it = keys.iterator();
@@ -264,7 +267,7 @@ public class XSLConstructor {
 		}
 		if (!trouve) {
 			System.err.println("id non trouvé!");
-			return;
+			return false;
 		}
 		it = keys.iterator();
 		while (it.hasNext()) {
@@ -274,6 +277,7 @@ public class XSLConstructor {
 						+ "\"/>\n");
 			}
 		}
+		return true;
 	}
 
 	private void prefixes(BufferedWriter out) throws IOException {
