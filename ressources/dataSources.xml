@@ -231,4 +231,16 @@
     <outputTtlFile>ressources/output/ttl/college_prive.n3</outputTtlFile>
     <outputXmlFile>ressources/output/rdf-xml/college_prive.rdf</outputXmlFile>
   </source>
+  <source>
+    <nom>bibliotheque_mediatheque</nom>
+    <api>true</api>
+    <apiurl>http://data.paysdelaloire.fr/api/publication/22440002800011_CG44_CLT_03805/bibliotheques_STBL/content?format=xml</apiurl>
+    <file>false</file>
+    <filepath>null</filepath>
+    <mappingFile>null</mappingFile>
+    <xsltFile>ressources/xsl/bibliotheque_mediatheque.xsl</xsltFile>
+    <format>XML</format>
+    <outputTtlFile>ressources/output/ttl/bibliotheque_mediatheque.n3</outputTtlFile>
+    <outputXmlFile>ressources/output/rdf-xml/bibliotheque_mediatheque.rdf</outputXmlFile>
+  </source>
 </sources>
