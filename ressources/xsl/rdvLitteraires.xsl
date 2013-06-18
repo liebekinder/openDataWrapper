@@ -15,6 +15,8 @@
 <xsl:template match="data">
 	<xsl:text>
 @prefix TEMPORAIRE: &lt;http://temporaire.org/&gt; .
+@prefix gr: &lt;http://purl.org/goodrelations/&gt; .
+@prefix pdll: &lt;http://data.paysdelaloire.fr/&gt; .
 @prefix dbpedia: &lt;http://dbpedia.org/resource/&gt; .
 @prefix prop-fr: &lt;http://fr.dbpedia.org/property/&gt; .
 @prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
@@ -45,10 +47,9 @@
 
 </xsl:template>
 
-<xsl:template match="COMMUNE_CODE_INSEE">
-<xsl:choose><xsl:when test=". = 'null'">&#009;ex:insee&#009; "undefined"^^xsd:string ;
+<xsl:template match="COMMUNE_CODE_INSEE"><xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:insee&#009; "NaN"^^xsd:integer ;
 </xsl:when>
-<xsl:otherwise>&#009;ex:insee&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;dbpprop:insee&#009; "<xsl:value-of select="."/>"^^xsd:integer ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="ORGANISATEUR">
@@ -76,9 +77,9 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="DATES">
-<xsl:choose><xsl:when test=". = 'null'">&#009;ex:date&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;sc:openingHours&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;ex:date&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;sc:openingHours&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="NOM"><xsl:choose><xsl:when test=". = 'null'"></xsl:when>
@@ -86,9 +87,9 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="VILLE">
-<xsl:choose><xsl:when test=". = 'null'">&#009;dbpedia-owl:location&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:town&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;dbpedia-owl:location&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;dbpprop:town&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="SITE_WEB">

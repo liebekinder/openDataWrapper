@@ -1,5 +1,7 @@
 
 @prefix TEMPORAIRE: <http://temporaire.org/> .
+@prefix gr: <http://purl.org/goodrelations/> .
+@prefix pdll: <http://data.paysdelaloire.fr/> .
 @prefix dbpedia: <http://dbpedia.org/resource/> .
 @prefix prop-fr: <http://fr.dbpedia.org/property/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -14,2372 +16,2372 @@
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE_LA_MINE_DU_LIVRE>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE LA MINE DU LIVRE"^^xsd:string ;
-	ex:adresse	 "8 rue des Ecoles"^^xsd:string ;
+	dbpprop:location	 "8 rue des Ecoles"^^xsd:string ;
 	geo:lat	"47.5522236 "^^xsd:decimal ;
 	geo:long	"-1.5323869"^^xsd:decimal  ;
-	ex:id	 "1"^^xsd:string ;
+	pdll:id	 "1"^^xsd:string ;
 	sc:email	 "bibliotheque.abbaretz@orange.fr"^^xsd:string ;
-	ex:ville	 "ABBARETZ"^^xsd:string ;
+	dbpprop:town	 "ABBARETZ"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44170"^^xsd:integer ;
-	ex:tel	 "02.40.87.21.84"^^xsd:string .
+	sc:telephone	 "02.40.87.21.84"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "Mairie  - 29 avenue Vendée"^^xsd:string ;
+	dbpprop:location	 "Mairie  - 29 avenue Vendée"^^xsd:string ;
 	geo:lat	"47.0758068 "^^xsd:decimal ;
 	geo:long	"-1.39824239"^^xsd:decimal  ;
-	ex:id	 "2"^^xsd:string ;
+	pdll:id	 "2"^^xsd:string ;
 	sc:email	 "biblio.aigrefeuille@gmail.com"^^xsd:string ;
-	ex:ville	 "AIGREFEUILLE-SUR-MAINE"^^xsd:string ;
+	dbpprop:town	 "AIGREFEUILLE-SUR-MAINE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44140"^^xsd:integer ;
-	ex:tel	 "02.40.06.69.54"^^xsd:string .
+	sc:telephone	 "02.40.06.69.54"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_LA_PLEIADE>	 foaf:name 	 "MEDIATHEQUE LA PLEIADE"^^xsd:string ;
-	ex:adresse	 "Place de la République"^^xsd:string ;
+	dbpprop:location	 "Place de la République"^^xsd:string ;
 	geo:lat	"47.3654647 "^^xsd:decimal ;
 	geo:long	"-1.18214549"^^xsd:decimal  ;
-	ex:id	 "3"^^xsd:string ;
+	pdll:id	 "3"^^xsd:string ;
 	sc:email	 "mediathequeancenis@yahoo.fr"^^xsd:string ;
-	ex:ville	 "ANCENIS"^^xsd:string ;
+	dbpprop:town	 "ANCENIS"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44150"^^xsd:integer ;
-	ex:tel	 "02.40.83.22.30"^^xsd:string .
+	sc:telephone	 "02.40.83.22.30"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MARCEL_ROUVREAU>	 foaf:name 	 "BIBLIOTHEQUE MARCEL ROUVREAU"^^xsd:string ;
-	ex:adresse	 "Impasse des Sports"^^xsd:string ;
+	dbpprop:location	 "Impasse des Sports"^^xsd:string ;
 	geo:lat	"47.381972 "^^xsd:decimal ;
 	geo:long	"-1.10328159"^^xsd:decimal  ;
-	ex:id	 "4"^^xsd:string ;
+	pdll:id	 "4"^^xsd:string ;
 	sc:email	 "bibliotheque.anetz@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "ANETZ"^^xsd:string ;
+	dbpprop:town	 "ANETZ"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44150"^^xsd:integer ;
-	ex:tel	 "02.40.83.31.95"^^xsd:string .
+	sc:telephone	 "02.40.83.31.95"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "Mairie  - 1 rue de Pornic"^^xsd:string ;
+	dbpprop:location	 "Mairie  - 1 rue de Pornic"^^xsd:string ;
 	geo:lat	"47.1160613 "^^xsd:decimal ;
 	geo:long	"-1.94179869"^^xsd:decimal  ;
-	ex:id	 "6"^^xsd:string ;
+	pdll:id	 "6"^^xsd:string ;
 	sc:email	 "mairie.arthon-en-retz@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "ARTHON-EN-RETZ"^^xsd:string ;
+	dbpprop:town	 "ARTHON-EN-RETZ"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44320"^^xsd:integer ;
-	ex:tel	 "02.40.64.16.06"^^xsd:string .
+	sc:telephone	 "02.40.64.16.06"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_LE_PRE_AUX_LIVRES_>	 foaf:name 	 "BIBLIOTHEQUE LE PRE AUX LIVRES "^^xsd:string ;
-	ex:adresse	 "Mairie - 15, rue de la Mairie"^^xsd:string ;
+	dbpprop:location	 "Mairie - 15, rue de la Mairie"^^xsd:string ;
 	geo:lat	"47.4293069 "^^xsd:decimal ;
 	geo:long	"-2.390605"^^xsd:decimal  ;
-	ex:id	 "7"^^xsd:string ;
+	pdll:id	 "7"^^xsd:string ;
 	sc:email	 "bibliotheque.asserac@orange.fr"^^xsd:string ;
-	ex:ville	 "ASSERAC"^^xsd:string ;
+	dbpprop:town	 "ASSERAC"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44410"^^xsd:integer ;
-	ex:tel	 "02.40.01.72.86"^^xsd:string .
+	sc:telephone	 "02.40.01.72.86"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "Mairie - 26 rue de Plessé"^^xsd:string ;
+	dbpprop:location	 "Mairie - 26 rue de Plessé"^^xsd:string ;
 	geo:lat	"47.65431 "^^xsd:decimal ;
 	geo:long	"-1.9886559"^^xsd:decimal  ;
-	ex:id	 "8"^^xsd:string ;
+	pdll:id	 "8"^^xsd:string ;
 	sc:email	 "bibliotheque.avessac@orange.fr"^^xsd:string ;
-	ex:ville	 "AVESSAC"^^xsd:string ;
+	dbpprop:town	 "AVESSAC"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44460"^^xsd:integer ;
-	ex:tel	 "02.99.91.00.97"^^xsd:string .
+	sc:telephone	 "02.99.91.00.97"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "Mairie - 1 rue du Vieux Moulin"^^xsd:string ;
+	dbpprop:location	 "Mairie - 1 rue du Vieux Moulin"^^xsd:string ;
 	geo:lat	"47.27944129 "^^xsd:decimal ;
 	geo:long	"-1.2865176"^^xsd:decimal  ;
-	ex:id	 "9"^^xsd:string ;
+	pdll:id	 "9"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "BARBECHAT"^^xsd:string ;
+	dbpprop:town	 "BARBECHAT"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44450"^^xsd:integer ;
-	ex:tel	 "02.51.79.74.08"^^xsd:string .
+	sc:telephone	 "02.51.79.74.08"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_RENE_GUY_CADOU_>	 foaf:name 	 "MEDIATHEQUE RENE GUY CADOU "^^xsd:string ;
-	ex:adresse	 "Place de la Chantrie"^^xsd:string ;
+	dbpprop:location	 "Place de la Chantrie"^^xsd:string ;
 	geo:lat	"47.2165068 "^^xsd:decimal ;
 	geo:long	"-1.46549549"^^xsd:decimal  ;
-	ex:id	 "10"^^xsd:string ;
+	pdll:id	 "10"^^xsd:string ;
 	sc:email	 "bibliotheque@basse-goulaine.fr"^^xsd:string ;
-	ex:ville	 "BASSE-GOULAINE"^^xsd:string ;
+	dbpprop:town	 "BASSE-GOULAINE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44115"^^xsd:integer ;
-	ex:tel	 "02.40.06.00.22"^^xsd:string .
+	sc:telephone	 "02.40.06.00.22"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE_DE_LA_COTE_SAUVAGE>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE DE LA COTE SAUVAGE"^^xsd:string ;
-	ex:adresse	 "11 rue de la Plage"^^xsd:string ;
+	dbpprop:location	 "11 rue de la Plage"^^xsd:string ;
 	geo:lat	"47.2749494 "^^xsd:decimal ;
 	geo:long	"-2.481139"^^xsd:decimal  ;
-	ex:id	 "11"^^xsd:string ;
+	pdll:id	 "11"^^xsd:string ;
 	sc:email	 "bicsbatz@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "BATZ-SUR-MER"^^xsd:string ;
+	dbpprop:town	 "BATZ-SUR-MER"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44740"^^xsd:integer ;
-	ex:tel	 "02.40.23.89.51"^^xsd:string .
+	sc:telephone	 "02.40.23.89.51"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_LES_BELLES_LIGNES>	 foaf:name 	 "BIBLIOTHEQUE LES BELLES LIGNES"^^xsd:string ;
-	ex:adresse	 "7 rue de l'Océane"^^xsd:string ;
+	dbpprop:location	 "7 rue de l'Océane"^^xsd:string ;
 	geo:lat	"47.465898 "^^xsd:decimal ;
 	geo:long	"-1.0328663"^^xsd:decimal  ;
-	ex:id	 "12"^^xsd:string ;
+	pdll:id	 "12"^^xsd:string ;
 	sc:email	 "biblio.belligne@orange.fr"^^xsd:string ;
-	ex:ville	 "BELLIGNE"^^xsd:string ;
+	dbpprop:town	 "BELLIGNE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44370"^^xsd:integer ;
-	ex:tel	 "02.40.96.90.70"^^xsd:string .
+	sc:telephone	 "02.40.96.90.70"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_GEORGES_SAND>	 foaf:name 	 "MEDIATHEQUE GEORGES SAND"^^xsd:string ;
-	ex:adresse	 "25 rue de la Mairie"^^xsd:string ;
+	dbpprop:location	 "25 rue de la Mairie"^^xsd:string ;
 	geo:lat	"47.39626819 "^^xsd:decimal ;
 	geo:long	"-2.09231929"^^xsd:decimal  ;
-	ex:id	 "13"^^xsd:string ;
+	pdll:id	 "13"^^xsd:string ;
 	sc:email	 "bibliotheque.besne@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "BESNE"^^xsd:string ;
+	dbpprop:town	 "BESNE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44160"^^xsd:integer ;
-	ex:tel	 "02.40.61.76.35"^^xsd:string .
+	sc:telephone	 "02.40.61.76.35"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_L'ENVOL_DES_LIVRES_>	 foaf:name 	 "BIBLIOTHEQUE L'ENVOL DES LIVRES "^^xsd:string ;
-	ex:adresse	 "12 rue Jean Garçon - Saint Emilien de Blain"^^xsd:string ;
+	dbpprop:location	 "12 rue Jean Garçon - Saint Emilien de Blain"^^xsd:string ;
 	geo:lat	"47.4353603 "^^xsd:decimal ;
 	geo:long	"-1.71162249"^^xsd:decimal  ;
-	ex:id	 "14"^^xsd:string ;
+	pdll:id	 "14"^^xsd:string ;
 	sc:email	 "lenvoldeslivres@gmail.fr"^^xsd:string ;
-	ex:ville	 "BLAIN"^^xsd:string ;
+	dbpprop:town	 "BLAIN"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44130"^^xsd:integer ;
-	ex:tel	 "02.72.94.56.28"^^xsd:string .
+	sc:telephone	 "02.72.94.56.28"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_LE_PUITS_AU_CHAT>	 foaf:name 	 "MEDIATHEQUE LE PUITS AU CHAT"^^xsd:string ;
-	ex:adresse	 "Passage Sophie Scholl"^^xsd:string ;
+	dbpprop:location	 "Passage Sophie Scholl"^^xsd:string ;
 	geo:lat	"47.4759863 "^^xsd:decimal ;
 	geo:long	"-1.7655388"^^xsd:decimal  ;
-	ex:id	 "15"^^xsd:string ;
+	pdll:id	 "15"^^xsd:string ;
 	sc:email	 "mediatheque@ville-blain.fr"^^xsd:string ;
-	ex:ville	 "BLAIN"^^xsd:string ;
+	dbpprop:town	 "BLAIN"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44130"^^xsd:integer ;
-	ex:tel	 "02.40.79.05.30"^^xsd:string .
+	sc:telephone	 "02.40.79.05.30"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_PORTE_PLUME>	 foaf:name 	 "BIBLIOTHEQUE PORTE PLUME"^^xsd:string ;
-	ex:adresse	 "MAIRIE - 4 rue de la Garenne"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - 4 rue de la Garenne"^^xsd:string ;
 	geo:lat	"47.5262379 "^^xsd:decimal ;
 	geo:long	"-1.24366689"^^xsd:decimal  ;
-	ex:id	 "16"^^xsd:string ;
+	pdll:id	 "16"^^xsd:string ;
 	sc:email	 "porteplume44@gmail.com"^^xsd:string ;
-	ex:ville	 "BONNOEUVRE"^^xsd:string ;
+	dbpprop:town	 "BONNOEUVRE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44540"^^xsd:integer ;
-	ex:tel	 "02.40.97.03.16"^^xsd:string .
+	sc:telephone	 "02.40.97.03.16"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "Place du Marché"^^xsd:string ;
+	dbpprop:location	 "Place du Marché"^^xsd:string ;
 	geo:lat	"47.143462 "^^xsd:decimal ;
 	geo:long	"-1.694164"^^xsd:decimal  ;
-	ex:id	 "17"^^xsd:string ;
+	pdll:id	 "17"^^xsd:string ;
 	sc:email	 "bibliotheque@mairie-bouaye.fr"^^xsd:string ;
-	ex:ville	 "BOUAYE"^^xsd:string ;
+	dbpprop:town	 "BOUAYE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44830"^^xsd:integer ;
-	ex:tel	 "02.40.32.63.03"^^xsd:string .
+	sc:telephone	 "02.40.32.63.03"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - Le Bourg"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - Le Bourg"^^xsd:string ;
 	geo:lat	"47.320376 "^^xsd:decimal ;
 	geo:long	"-1.9103159"^^xsd:decimal  ;
-	ex:id	 "18"^^xsd:string ;
+	pdll:id	 "18"^^xsd:string ;
 	sc:email	 "bibliotheque.bouee@orange.fr"^^xsd:string ;
-	ex:ville	 "BOUEE"^^xsd:string ;
+	dbpprop:town	 "BOUEE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44260"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_CONDORCET>	 foaf:name 	 "MEDIATHEQUE CONDORCET"^^xsd:string ;
-	ex:adresse	 "Square Pablo Neruda"^^xsd:string ;
+	dbpprop:location	 "Square Pablo Neruda"^^xsd:string ;
 	geo:lat	"47.16973 "^^xsd:decimal ;
 	geo:long	"-1.623866"^^xsd:decimal  ;
-	ex:id	 "19"^^xsd:string ;
+	pdll:id	 "19"^^xsd:string ;
 	sc:email	 "magalielemonnier@ville-bouguenais.fr"^^xsd:string ;
-	ex:ville	 "BOUGUENAIS"^^xsd:string ;
+	dbpprop:town	 "BOUGUENAIS"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44340"^^xsd:integer ;
-	ex:tel	 "02.40.32.04.54"^^xsd:string .
+	sc:telephone	 "02.40.32.04.54"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - Place de la Mairie"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - Place de la Mairie"^^xsd:string ;
 	geo:lat	"47.0433683 "^^xsd:decimal ;
 	geo:long	"-1.9521509"^^xsd:decimal  ;
-	ex:id	 "20"^^xsd:string ;
+	pdll:id	 "20"^^xsd:string ;
 	sc:email	 "bibliothequebourgneuf@gmail.com"^^xsd:string ;
-	ex:ville	 "BOURGNEUF-EN-RETZ"^^xsd:string ;
+	dbpprop:town	 "BOURGNEUF-EN-RETZ"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44580"^^xsd:integer ;
-	ex:tel	 "02.40.21.95.39"^^xsd:string .
+	sc:telephone	 "02.40.21.95.39"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE - 4 rue du Val de Sèvres"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - 4 rue du Val de Sèvres"^^xsd:string ;
 	geo:lat	"47.042708 "^^xsd:decimal ;
 	geo:long	"-1.1869639"^^xsd:decimal  ;
-	ex:id	 "21"^^xsd:string ;
+	pdll:id	 "21"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "BOUSSAY"^^xsd:string ;
+	dbpprop:town	 "BOUSSAY"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44190"^^xsd:integer ;
-	ex:tel	 "02.51.71.89.72"^^xsd:string .
+	sc:telephone	 "02.51.71.89.72"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - 12 rue Louis Guihot"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - 12 rue Louis Guihot"^^xsd:string ;
 	geo:lat	"47.4180563 "^^xsd:decimal ;
 	geo:long	"-1.8476904"^^xsd:decimal  ;
-	ex:id	 "22"^^xsd:string ;
+	pdll:id	 "22"^^xsd:string ;
 	sc:email	 "bibliotheque.bouvron@orange.fr"^^xsd:string ;
-	ex:ville	 "BOUVRON"^^xsd:string ;
+	dbpprop:town	 "BOUVRON"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44130"^^xsd:integer ;
-	ex:tel	 "02.28.01.20.54"^^xsd:string .
+	sc:telephone	 "02.28.01.20.54"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_DES_CLOS_MATS>	 foaf:name 	 "BIBLIOTHEQUE DES CLOS MATS"^^xsd:string ;
-	ex:adresse	 "Rue des Clos Mats"^^xsd:string ;
+	dbpprop:location	 "Rue des Clos Mats"^^xsd:string ;
 	geo:lat	"47.1678691 "^^xsd:decimal ;
 	geo:long	"-1.72102459"^^xsd:decimal  ;
-	ex:id	 "23"^^xsd:string ;
+	pdll:id	 "23"^^xsd:string ;
 	sc:email	 "bibliotheque.brains@orange.fr"^^xsd:string ;
-	ex:ville	 "BRAINS"^^xsd:string ;
+	dbpprop:town	 "BRAINS"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44830"^^xsd:integer ;
-	ex:tel	 "02.40.65.54.40"^^xsd:string .
+	sc:telephone	 "02.40.65.54.40"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "L'Arche - rue Saint-Victor"^^xsd:string ;
+	dbpprop:location	 "L'Arche - rue Saint-Victor"^^xsd:string ;
 	geo:lat	"47.411658 "^^xsd:decimal ;
 	geo:long	"-1.96546"^^xsd:decimal  ;
-	ex:id	 "24"^^xsd:string ;
+	pdll:id	 "24"^^xsd:string ;
 	sc:email	 "bibliotheque.campbon@orange.fr"^^xsd:string ;
-	ex:ville	 "CAMPBON"^^xsd:string ;
+	dbpprop:town	 "CAMPBON"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44750"^^xsd:integer ;
-	ex:tel	 "02.28.01.83.10"^^xsd:string .
+	sc:telephone	 "02.28.01.83.10"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_HELENE_CARRERE_D'ENCAUSSE>	 foaf:name 	 "MEDIATHEQUE HELENE CARRERE D'ENCAUSSE"^^xsd:string ;
-	ex:adresse	 "22 rue André Maurois"^^xsd:string ;
+	dbpprop:location	 "22 rue André Maurois"^^xsd:string ;
 	geo:lat	"47.2962692 "^^xsd:decimal ;
 	geo:long	"-1.4911892"^^xsd:decimal  ;
-	ex:id	 "25"^^xsd:string ;
+	pdll:id	 "25"^^xsd:string ;
 	sc:email	 "mediatheque @mairie-carquefou.fr"^^xsd:string ;
-	ex:ville	 "CARQUEFOU"^^xsd:string ;
+	dbpprop:town	 "CARQUEFOU"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44470"^^xsd:integer ;
-	ex:tel	 "02.28.22.24.00"^^xsd:string .
+	sc:telephone	 "02.28.22.24.00"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - 3 rue de la Mairie"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - 3 rue de la Mairie"^^xsd:string ;
 	geo:lat	"47.3872009 "^^xsd:decimal ;
 	geo:long	"-1.5572439"^^xsd:decimal  ;
-	ex:id	 "26"^^xsd:string ;
+	pdll:id	 "26"^^xsd:string ;
 	sc:email	 "bibliotheque@casson.fr"^^xsd:string ;
-	ex:ville	 "CASSON"^^xsd:string ;
+	dbpprop:town	 "CASSON"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44390"^^xsd:integer ;
-	ex:tel	 "02.40.77.63.23"^^xsd:string .
+	sc:telephone	 "02.40.77.63.23"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "Centre Culturel le Moulin Chupin"^^xsd:string ;
+	dbpprop:location	 "Centre Culturel le Moulin Chupin"^^xsd:string ;
 	geo:lat	"47.124398 "^^xsd:decimal ;
 	geo:long	"-1.4188279"^^xsd:decimal  ;
-	ex:id	 "27"^^xsd:string ;
+	pdll:id	 "27"^^xsd:string ;
 	sc:email	 "mairie.chateau-thebaud@orange.fr"^^xsd:string ;
-	ex:ville	 "CHATEAU-THEBAUD"^^xsd:string ;
+	dbpprop:town	 "CHATEAU-THEBAUD"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44690"^^xsd:integer ;
-	ex:tel	 "02.40.06.54.43"^^xsd:string .
+	sc:telephone	 "02.40.06.54.43"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_INTERCOMMUNALE>	 foaf:name 	 "MEDIATHEQUE INTERCOMMUNALE"^^xsd:string ;
-	ex:adresse	 "6 Place Saint Nicolas"^^xsd:string ;
+	dbpprop:location	 "6 Place Saint Nicolas"^^xsd:string ;
 	geo:lat	"47.7191469 "^^xsd:decimal ;
 	geo:long	"-1.37674979"^^xsd:decimal  ;
-	ex:id	 "28"^^xsd:string ;
+	pdll:id	 "28"^^xsd:string ;
 	sc:email	 "mediatheque.communication@orange.fr"^^xsd:string ;
-	ex:ville	 "CHATEAUBRIANT"^^xsd:string ;
+	dbpprop:town	 "CHATEAUBRIANT"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44110"^^xsd:integer ;
-	ex:tel	 "02.40.81.03.33"^^xsd:string .
+	sc:telephone	 "02.40.81.03.33"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "Allée du Théâtre"^^xsd:string ;
+	dbpprop:location	 "Allée du Théâtre"^^xsd:string ;
 	geo:lat	"47.1507389 "^^xsd:decimal ;
 	geo:long	"-1.987104"^^xsd:decimal  ;
-	ex:id	 "29"^^xsd:string ;
+	pdll:id	 "29"^^xsd:string ;
 	sc:email	 "bibliotheque-chauve@orange.fr"^^xsd:string ;
-	ex:ville	 "CHAUVE"^^xsd:string ;
+	dbpprop:town	 "CHAUVE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44320"^^xsd:integer ;
-	ex:tel	 "02.40.64.37.34"^^xsd:string .
+	sc:telephone	 "02.40.64.37.34"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_LE__MARQUE_PAGE>	 foaf:name 	 "BIBLIOTHEQUE LE  MARQUE PAGE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - 12 rue Pornic"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - 12 rue Pornic"^^xsd:string ;
 	geo:lat	"47.1217485 "^^xsd:decimal ;
 	geo:long	"-1.9163227"^^xsd:decimal  ;
-	ex:id	 "30"^^xsd:string ;
+	pdll:id	 "30"^^xsd:string ;
 	sc:email	 "bibliotheque.chemere@orange.fr"^^xsd:string ;
-	ex:ville	 "CHEMERE"^^xsd:string ;
+	dbpprop:town	 "CHEMERE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44680"^^xsd:integer ;
-	ex:tel	 "02.40.21.30.37"^^xsd:string .
+	sc:telephone	 "02.40.21.30.37"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "38 rue des halles"^^xsd:string ;
+	dbpprop:location	 "38 rue des halles"^^xsd:string ;
 	geo:lat	"47.086667 "^^xsd:decimal ;
 	geo:long	"-1.28230629"^^xsd:decimal  ;
-	ex:id	 "31"^^xsd:string ;
+	pdll:id	 "31"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "CLISSON"^^xsd:string ;
+	dbpprop:town	 "CLISSON"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44190"^^xsd:integer ;
-	ex:tel	 "06.52.89.23.45"^^xsd:string .
+	sc:telephone	 "06.52.89.23.45"^^xsd:string .
 
 <http://projet.com/10/BIBlIOTHEQUE>	 foaf:name 	 "BIBlIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "22 bis place de l'Eglise"^^xsd:string ;
+	dbpprop:location	 "22 bis place de l'Eglise"^^xsd:string ;
 	geo:lat	"47.624558 "^^xsd:decimal ;
 	geo:long	"-1.75093409"^^xsd:decimal  ;
-	ex:id	 "32"^^xsd:string ;
+	pdll:id	 "32"^^xsd:string ;
 	sc:email	 "jmpmairie.conquereuil@orange.fr"^^xsd:string ;
-	ex:ville	 "CONQUEREUIL"^^xsd:string ;
+	dbpprop:town	 "CONQUEREUIL"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44290"^^xsd:integer ;
-	ex:tel	 "02.40.87.33.81"^^xsd:string .
+	sc:telephone	 "02.40.87.33.81"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "5 place du Marché"^^xsd:string ;
+	dbpprop:location	 "5 place du Marché"^^xsd:string ;
 	geo:lat	"46.9635433 "^^xsd:decimal ;
 	geo:long	"-1.58224319"^^xsd:decimal  ;
-	ex:id	 "33"^^xsd:string ;
+	pdll:id	 "33"^^xsd:string ;
 	sc:email	 "bibliotheque44650corcoue@orange.fr"^^xsd:string ;
-	ex:ville	 "CORCOUE-SUR-LOGNE"^^xsd:string ;
+	dbpprop:town	 "CORCOUE-SUR-LOGNE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44650"^^xsd:integer ;
-	ex:tel	 "02.40.05.87.28"^^xsd:string .
+	sc:telephone	 "02.40.05.87.28"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_JACQUES_FERRAND>	 foaf:name 	 "MEDIATHEQUE JACQUES FERRAND"^^xsd:string ;
-	ex:adresse	 "avenue quatre vents"^^xsd:string ;
+	dbpprop:location	 "avenue quatre vents"^^xsd:string ;
 	geo:lat	"47.291126 "^^xsd:decimal ;
 	geo:long	"-1.877331"^^xsd:decimal  ;
-	ex:id	 "34"^^xsd:string ;
+	pdll:id	 "34"^^xsd:string ;
 	sc:email	 "mediatheque@cordemais.fr"^^xsd:string ;
-	ex:ville	 "CORDEMAIS"^^xsd:string ;
+	dbpprop:town	 "CORDEMAIS"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44360"^^xsd:integer ;
-	ex:tel	 "02.40.57.82.20"^^xsd:string .
+	sc:telephone	 "02.40.57.82.20"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE - 8 rue de la Mairie"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - 8 rue de la Mairie"^^xsd:string ;
 	geo:lat	"47.2788341 "^^xsd:decimal ;
 	geo:long	"-2.0576229"^^xsd:decimal  ;
-	ex:id	 "35"^^xsd:string ;
+	pdll:id	 "35"^^xsd:string ;
 	sc:email	 "bibliothequecorsept@orange.fr"^^xsd:string ;
-	ex:ville	 "CORSEPT"^^xsd:string ;
+	dbpprop:town	 "CORSEPT"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44560"^^xsd:integer ;
-	ex:tel	 "02.40.27.85.35"^^xsd:string .
+	sc:telephone	 "02.40.27.85.35"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_VICTOR_JARA>	 foaf:name 	 "BIBLIOTHEQUE VICTOR JARA"^^xsd:string ;
-	ex:adresse	 "13 bd Gambetta"^^xsd:string ;
+	dbpprop:location	 "13 bd Gambetta"^^xsd:string ;
 	geo:lat	"47.20941 "^^xsd:decimal ;
 	geo:long	"-1.72885889"^^xsd:decimal  ;
-	ex:id	 "36"^^xsd:string ;
+	pdll:id	 "36"^^xsd:string ;
 	sc:email	 "bibliotheque@mairie-coueron.fr"^^xsd:string ;
-	ex:ville	 "COUERON"^^xsd:string ;
+	dbpprop:town	 "COUERON"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44220"^^xsd:integer ;
-	ex:tel	 "02.40.38.38.38"^^xsd:string .
+	sc:telephone	 "02.40.38.38.38"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - 25 rue du Général Charette de la Contrie"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - 25 rue du Général Charette de la Contrie"^^xsd:string ;
 	geo:lat	"47.391716 "^^xsd:decimal ;
 	geo:long	"-1.2916239"^^xsd:decimal  ;
-	ex:id	 "37"^^xsd:string ;
+	pdll:id	 "37"^^xsd:string ;
 	sc:email	 "mairie@couffe.fr"^^xsd:string ;
-	ex:ville	 "COUFFE"^^xsd:string ;
+	dbpprop:town	 "COUFFE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44521"^^xsd:integer ;
-	ex:tel	 "02.40.96.37.28"^^xsd:string .
+	sc:telephone	 "02.40.96.37.28"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE"^^xsd:string ;
-	ex:adresse	 "Impasse des Petits Matelots"^^xsd:string ;
+	dbpprop:location	 "Impasse des Petits Matelots"^^xsd:string ;
 	geo:lat	"47.4119047 "^^xsd:decimal ;
 	geo:long	"-2.17185219"^^xsd:decimal  ;
-	ex:id	 "38"^^xsd:string ;
+	pdll:id	 "38"^^xsd:string ;
 	sc:email	 "bibliothequecrossac@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "CROSSAC"^^xsd:string ;
+	dbpprop:town	 "CROSSAC"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44160"^^xsd:integer ;
-	ex:tel	 "02.40.01.06.08"^^xsd:string .
+	sc:telephone	 "02.40.01.06.08"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE"^^xsd:string ;
-	ex:adresse	 "15 rue de la Tour Saint-Clair"^^xsd:string ;
+	dbpprop:location	 "15 rue de la Tour Saint-Clair"^^xsd:string ;
 	geo:lat	"47.6678134 "^^xsd:decimal ;
 	geo:long	"-1.6694571"^^xsd:decimal  ;
-	ex:id	 "39"^^xsd:string ;
+	pdll:id	 "39"^^xsd:string ;
 	sc:email	 "bibliotheque.derval@orange.fr"^^xsd:string ;
-	ex:ville	 "DERVAL"^^xsd:string ;
+	dbpprop:town	 "DERVAL"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44590"^^xsd:integer ;
-	ex:tel	 "02.40.28.03.96"^^xsd:string .
+	sc:telephone	 "02.40.28.03.96"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_JULES_VERNE>	 foaf:name 	 "MEDIATHEQUE JULES VERNE"^^xsd:string ;
-	ex:adresse	 "13 rue René Laënnec"^^xsd:string ;
+	dbpprop:location	 "13 rue René Laënnec"^^xsd:string ;
 	geo:lat	"47.318789 "^^xsd:decimal ;
 	geo:long	"-2.074694"^^xsd:decimal  ;
-	ex:id	 "40"^^xsd:string ;
+	pdll:id	 "40"^^xsd:string ;
 	sc:email	 "mediatheque@ville-donges.fr "^^xsd:string ;
-	ex:ville	 "DONGES"^^xsd:string ;
+	dbpprop:town	 "DONGES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44480"^^xsd:integer ;
-	ex:tel	 "02.40.91.01.31"^^xsd:string .
+	sc:telephone	 "02.40.91.01.31"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "Rue des Tilleuls"^^xsd:string ;
+	dbpprop:location	 "Rue des Tilleuls"^^xsd:string ;
 	geo:lat	"47.477213 "^^xsd:decimal ;
 	geo:long	"-2.055585"^^xsd:decimal  ;
-	ex:id	 "41"^^xsd:string ;
+	pdll:id	 "41"^^xsd:string ;
 	sc:email	 "bibliothequedreffeac@orange.fr"^^xsd:string ;
-	ex:ville	 "DREFFEAC"^^xsd:string ;
+	dbpprop:town	 "DREFFEAC"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44530"^^xsd:integer ;
-	ex:tel	 "02.40.17.60.54"^^xsd:string .
+	sc:telephone	 "02.40.17.60.54"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE"^^xsd:string ;
-	ex:adresse	 "4 place de la Mairie"^^xsd:string ;
+	dbpprop:location	 "4 place de la Mairie"^^xsd:string ;
 	geo:lat	"47.6546262 "^^xsd:decimal ;
 	geo:long	"-1.31733469"^^xsd:decimal  ;
-	ex:id	 "42"^^xsd:string ;
+	pdll:id	 "42"^^xsd:string ;
 	sc:email	 "bibliothequeerbray@orange.fr"^^xsd:string ;
-	ex:ville	 "ERBRAY"^^xsd:string ;
+	dbpprop:town	 "ERBRAY"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44110"^^xsd:integer ;
-	ex:tel	 "02.40.28.35.32"^^xsd:string .
+	sc:telephone	 "02.40.28.35.32"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_L'EVASION_FAYENNE>	 foaf:name 	 "BIBLIOTHEQUE L'EVASION FAYENNE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - 11 rue de la Mairie"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - 11 rue de la Mairie"^^xsd:string ;
 	geo:lat	"47.4134796 "^^xsd:decimal ;
 	geo:long	"-1.7905111"^^xsd:decimal  ;
-	ex:id	 "43"^^xsd:string ;
+	pdll:id	 "43"^^xsd:string ;
 	sc:email	 "nelly.bossard@faydebretagne.fr"^^xsd:string ;
-	ex:ville	 "FAY-DE-BRETAGNE"^^xsd:string ;
+	dbpprop:town	 "FAY-DE-BRETAGNE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44130"^^xsd:integer ;
-	ex:tel	 "02.40.87.49.18"^^xsd:string .
+	sc:telephone	 "02.40.87.49.18"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - 1 rue de la Mairie"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - 1 rue de la Mairie"^^xsd:string ;
 	geo:lat	"47.5858642 "^^xsd:decimal ;
 	geo:long	"-2.0430665"^^xsd:decimal  ;
-	ex:id	 "44"^^xsd:string ;
+	pdll:id	 "44"^^xsd:string ;
 	sc:email	 "bibliothequefegreac@voila.fr"^^xsd:string ;
-	ex:ville	 "FEGREAC"^^xsd:string ;
+	dbpprop:town	 "FEGREAC"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44460"^^xsd:integer ;
-	ex:tel	 "02.40.91.28.62"^^xsd:string .
+	sc:telephone	 "02.40.91.28.62"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE - 9 rue de la Mairie"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - 9 rue de la Mairie"^^xsd:string ;
 	geo:lat	"47.7956165 "^^xsd:decimal ;
 	geo:long	"-1.4159263"^^xsd:decimal  ;
-	ex:id	 "45"^^xsd:string ;
+	pdll:id	 "45"^^xsd:string ;
 	sc:email	 "mairie.ferce@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "FERCE"^^xsd:string ;
+	dbpprop:town	 "FERCE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44660"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_FRESNAY_LECTURE>	 foaf:name 	 "BIBLIOTHEQUE FRESNAY LECTURE"^^xsd:string ;
-	ex:adresse	 "allée des sports"^^xsd:string ;
+	dbpprop:location	 "allée des sports"^^xsd:string ;
 	geo:lat	"47.025672 "^^xsd:decimal ;
 	geo:long	"-1.877952"^^xsd:decimal  ;
-	ex:id	 "46"^^xsd:string ;
+	pdll:id	 "46"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "FRESNAY-EN-RETZ"^^xsd:string ;
+	dbpprop:town	 "FRESNAY-EN-RETZ"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44580"^^xsd:integer ;
-	ex:tel	 "02.51.74.50.27"^^xsd:string .
+	sc:telephone	 "02.51.74.50.27"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "Place du Calvaire"^^xsd:string ;
+	dbpprop:location	 "Place du Calvaire"^^xsd:string ;
 	geo:lat	"47.24400809 "^^xsd:decimal ;
 	geo:long	"-1.9327144"^^xsd:decimal  ;
-	ex:id	 "47"^^xsd:string ;
+	pdll:id	 "47"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "FROSSAY"^^xsd:string ;
+	dbpprop:town	 "FROSSAY"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44320"^^xsd:integer ;
-	ex:tel	 "02.40.39.72.72"^^xsd:string .
+	sc:telephone	 "02.40.39.72.72"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE - 37 rue Jean-Baptiste Legeay"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - 37 rue Jean-Baptiste Legeay"^^xsd:string ;
 	geo:lat	"47.0553281 "^^xsd:decimal ;
 	geo:long	"-1.51538729"^^xsd:decimal  ;
-	ex:id	 "48"^^xsd:string ;
+	pdll:id	 "48"^^xsd:string ;
 	sc:email	 "bibliothequedegeneston@tele2.fr"^^xsd:string ;
-	ex:ville	 "GENESTON"^^xsd:string ;
+	dbpprop:town	 "GENESTON"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44140"^^xsd:integer ;
-	ex:tel	 "02.40.26.18.83"^^xsd:string .
+	sc:telephone	 "02.40.26.18.83"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_DES_CH@NGES>	 foaf:name 	 "BIBLIOTHEQUE DES CH@NGES"^^xsd:string ;
-	ex:adresse	 "MAIRIE GETIGNE - Rue de Pont Jean-Vay"^^xsd:string ;
+	dbpprop:location	 "MAIRIE GETIGNE - Rue de Pont Jean-Vay"^^xsd:string ;
 	geo:lat	"47.077874 "^^xsd:decimal ;
 	geo:long	"-1.2492439"^^xsd:decimal  ;
-	ex:id	 "49"^^xsd:string ;
+	pdll:id	 "49"^^xsd:string ;
 	sc:email	 "bibliothequedeschanges@getigne.fr"^^xsd:string ;
-	ex:ville	 "GETIGNE"^^xsd:string ;
+	dbpprop:town	 "GETIGNE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44190"^^xsd:integer ;
-	ex:tel	 "02.40.36.13.96"^^xsd:string .
+	sc:telephone	 "02.40.36.13.96"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_AU_FIL_DES_MOTS>	 foaf:name 	 "MEDIATHEQUE AU FIL DES MOTS"^^xsd:string ;
-	ex:adresse	 "Rue Boisteau"^^xsd:string ;
+	dbpprop:location	 "Rue Boisteau"^^xsd:string ;
 	geo:lat	"47.1016044 "^^xsd:decimal ;
 	geo:long	"-1.30142069"^^xsd:decimal  ;
-	ex:id	 "50"^^xsd:string ;
+	pdll:id	 "50"^^xsd:string ;
 	sc:email	 "bibli.gorges@laposte.net"^^xsd:string ;
-	ex:ville	 "GORGES"^^xsd:string ;
+	dbpprop:town	 "GORGES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44190"^^xsd:integer ;
-	ex:tel	 "02.40.06.93.90"^^xsd:string .
+	sc:telephone	 "02.40.06.93.90"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE"^^xsd:string ;
-	ex:adresse	 "Place Saint Henri"^^xsd:string ;
+	dbpprop:location	 "Place Saint Henri"^^xsd:string ;
 	geo:lat	"47.5916916 "^^xsd:decimal ;
 	geo:long	"-1.33040219"^^xsd:decimal  ;
-	ex:id	 "51"^^xsd:string ;
+	pdll:id	 "51"^^xsd:string ;
 	sc:email	 "biblio.grandauverne.ccc@orange.fr"^^xsd:string ;
-	ex:ville	 "GRAND-AUVERNE"^^xsd:string ;
+	dbpprop:town	 "GRAND-AUVERNE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44520"^^xsd:integer ;
-	ex:tel	 "02.40.07.72.38"^^xsd:string .
+	sc:telephone	 "02.40.07.72.38"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "Rue des Cèdres"^^xsd:string ;
+	dbpprop:location	 "Rue des Cèdres"^^xsd:string ;
 	geo:lat	"47.3624719 "^^xsd:decimal ;
 	geo:long	"-1.607694"^^xsd:decimal  ;
-	ex:id	 "52"^^xsd:string ;
+	pdll:id	 "52"^^xsd:string ;
 	sc:email	 "bibliotheque@grandchampdesfontaines.fr"^^xsd:string ;
-	ex:ville	 "GRANDCHAMPS-DES-FONTAINES"^^xsd:string ;
+	dbpprop:town	 "GRANDCHAMPS-DES-FONTAINES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44119"^^xsd:integer ;
-	ex:tel	 "02.40.77.13.47"^^xsd:string .
+	sc:telephone	 "02.40.77.13.47"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_MARCELLE_MAURETTE>	 foaf:name 	 "MEDIATHEQUE MARCELLE MAURETTE"^^xsd:string ;
-	ex:adresse	 "5 rue Saint Jean"^^xsd:string ;
+	dbpprop:location	 "5 rue Saint Jean"^^xsd:string ;
 	geo:lat	"47.6277603 "^^xsd:decimal ;
 	geo:long	"-1.83351979"^^xsd:decimal  ;
-	ex:id	 "53"^^xsd:string ;
+	pdll:id	 "53"^^xsd:string ;
 	sc:email	 "mediathèque-guemene-penfao@orange.fr"^^xsd:string ;
-	ex:ville	 "GUEMENE-PENFAO"^^xsd:string ;
+	dbpprop:town	 "GUEMENE-PENFAO"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44290"^^xsd:integer ;
-	ex:tel	 "02.40.51.14.73"^^xsd:string .
+	sc:telephone	 "02.40.51.14.73"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "12 rue André Caux"^^xsd:string ;
+	dbpprop:location	 "12 rue André Caux"^^xsd:string ;
 	geo:lat	"47.5197602 "^^xsd:decimal ;
 	geo:long	"-1.95519779"^^xsd:decimal  ;
-	ex:id	 "54"^^xsd:string ;
+	pdll:id	 "54"^^xsd:string ;
 	sc:email	 "bibliotheque.guenrouet@orange.fr"^^xsd:string ;
-	ex:ville	 "GUENROUET"^^xsd:string ;
+	dbpprop:town	 "GUENROUET"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44530"^^xsd:integer ;
-	ex:tel	 "02.40.87.80.06"^^xsd:string .
+	sc:telephone	 "02.40.87.80.06"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_SAMUEL_BECKETT_-_CENTRE_CULTUREL_ATHANOR>	 foaf:name 	 "MEDIATHEQUE SAMUEL BECKETT - CENTRE CULTUREL ATHANOR"^^xsd:string ;
-	ex:adresse	 "Avenue Anne de Bretagne"^^xsd:string ;
+	dbpprop:location	 "Avenue Anne de Bretagne"^^xsd:string ;
 	geo:lat	"47.3294246 "^^xsd:decimal ;
 	geo:long	"-2.4224185"^^xsd:decimal  ;
-	ex:id	 "55"^^xsd:string ;
+	pdll:id	 "55"^^xsd:string ;
 	sc:email	 "mediatheque@athanor.ville-guerande.fr"^^xsd:string ;
-	ex:ville	 "GUERANDE"^^xsd:string ;
+	dbpprop:town	 "GUERANDE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44350"^^xsd:integer ;
-	ex:tel	 "02.40.24.75.91"^^xsd:string .
+	sc:telephone	 "02.40.24.75.91"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "2 place Beau Soleil"^^xsd:string ;
+	dbpprop:location	 "2 place Beau Soleil"^^xsd:string ;
 	geo:lat	"47.1997138 "^^xsd:decimal ;
 	geo:long	"-1.430643"^^xsd:decimal  ;
-	ex:id	 "56"^^xsd:string ;
+	pdll:id	 "56"^^xsd:string ;
 	sc:email	 "bibhautegoulaine@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "HAUTE-GOULAINE"^^xsd:string ;
+	dbpprop:town	 "HAUTE-GOULAINE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44115"^^xsd:integer ;
-	ex:tel	 "02.40.06.24.75"^^xsd:string .
+	sc:telephone	 "02.40.06.24.75"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_-_ESPACE_CULTUREL_FRANCOIS_MITTERAND>	 foaf:name 	 "BIBLIOTHEQUE - ESPACE CULTUREL FRANCOIS MITTERAND"^^xsd:string ;
-	ex:adresse	 "1 Place Fontaine Saint Jean"^^xsd:string ;
+	dbpprop:location	 "1 Place Fontaine Saint Jean"^^xsd:string ;
 	geo:lat	"47.4476447 "^^xsd:decimal ;
 	geo:long	"-2.32339"^^xsd:decimal  ;
-	ex:id	 "57"^^xsd:string ;
+	pdll:id	 "57"^^xsd:string ;
 	sc:email	 "bibliotheque@herbignac.com "^^xsd:string ;
-	ex:ville	 "HERBIGNAC"^^xsd:string ;
+	dbpprop:town	 "HERBIGNAC"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44410"^^xsd:integer ;
-	ex:tel	 "02.51.76.90.40"^^xsd:string .
+	sc:telephone	 "02.51.76.90.40"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_LA_RONDE_DES_LIVRES_>	 foaf:name 	 "BIBLIOTHEQUE LA RONDE DES LIVRES "^^xsd:string ;
-	ex:adresse	 "2 rue du Bon Secours"^^xsd:string ;
+	dbpprop:location	 "2 rue du Bon Secours"^^xsd:string ;
 	geo:lat	"47.414794 "^^xsd:decimal ;
 	geo:long	"-1.652556"^^xsd:decimal  ;
-	ex:id	 "58"^^xsd:string ;
+	pdll:id	 "58"^^xsd:string ;
 	sc:email	 "bibliotheque@heric.fr"^^xsd:string ;
-	ex:ville	 "HERIC"^^xsd:string ;
+	dbpprop:town	 "HERIC"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44810"^^xsd:integer ;
-	ex:tel	 "02.40.57.96.01"^^xsd:string .
+	sc:telephone	 "02.40.57.96.01"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "Maison des Associations - 2 rue du Stade"^^xsd:string ;
+	dbpprop:location	 "Maison des Associations - 2 rue du Stade"^^xsd:string ;
 	geo:lat	"47.2006732 "^^xsd:decimal ;
 	geo:long	"-1.67260929"^^xsd:decimal  ;
-	ex:id	 "59"^^xsd:string ;
+	pdll:id	 "59"^^xsd:string ;
 	sc:email	 "bibliotheque@indre44.fr"^^xsd:string ;
-	ex:ville	 "INDRE"^^xsd:string ;
+	dbpprop:town	 "INDRE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44610"^^xsd:integer ;
-	ex:tel	 "02.40.85.46.16"^^xsd:string .
+	sc:telephone	 "02.40.85.46.16"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE"^^xsd:string ;
-	ex:adresse	 "2 rue du Chêne Piraud"^^xsd:string ;
+	dbpprop:location	 "2 rue du Chêne Piraud"^^xsd:string ;
 	geo:lat	"47.6225541 "^^xsd:decimal ;
 	geo:long	"-1.4526968"^^xsd:decimal  ;
-	ex:id	 "60"^^xsd:string ;
+	pdll:id	 "60"^^xsd:string ;
 	sc:email	 "biblio.isse.ccc@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "ISSE"^^xsd:string ;
+	dbpprop:town	 "ISSE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44520"^^xsd:integer ;
-	ex:tel	 "02.40.55.17.56"^^xsd:string .
+	sc:telephone	 "02.40.55.17.56"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE - 8 place de l'Eglise"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - 8 place de l'Eglise"^^xsd:string ;
 	geo:lat	"47.6222301 "^^xsd:decimal ;
 	geo:long	"-1.6124058"^^xsd:decimal  ;
-	ex:id	 "61"^^xsd:string ;
+	pdll:id	 "61"^^xsd:string ;
 	sc:email	 "bibliothequedejans@orange.fr"^^xsd:string ;
-	ex:ville	 "JANS"^^xsd:string ;
+	dbpprop:town	 "JANS"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44170"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_DE_L'ESCAPADE>	 foaf:name 	 "BIBLIOTHEQUE DE L'ESCAPADE"^^xsd:string ;
-	ex:adresse	 "L'Escapade - 141, rue du Bocage "^^xsd:string ;
+	dbpprop:location	 "L'Escapade - 141, rue du Bocage "^^xsd:string ;
 	geo:lat	"47.4960162 "^^xsd:decimal ;
 	geo:long	"-1.41881"^^xsd:decimal  ;
-	ex:id	 "62"^^xsd:string ;
+	pdll:id	 "62"^^xsd:string ;
 	sc:email	 "bibliotheque.jouesurerdre@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "JOUE-SUR-ERDRE"^^xsd:string ;
+	dbpprop:town	 "JOUE-SUR-ERDRE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44440"^^xsd:integer ;
-	ex:tel	 "02.40.72.39.77"^^xsd:string .
+	sc:telephone	 "02.40.72.39.77"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE"^^xsd:string ;
-	ex:adresse	 "Impasse Arago"^^xsd:string ;
+	dbpprop:location	 "Impasse Arago"^^xsd:string ;
 	geo:lat	"47.679771 "^^xsd:decimal ;
 	geo:long	"-1.185869"^^xsd:decimal  ;
-	ex:id	 "63"^^xsd:string ;
+	pdll:id	 "63"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "JUIGNE-DES-MOUTIERS"^^xsd:string ;
+	dbpprop:town	 "JUIGNE-DES-MOUTIERS"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44670"^^xsd:integer ;
-	ex:tel	 "02.28.04.09.34"^^xsd:string .
+	sc:telephone	 "02.28.04.09.34"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE_HENRI_QUEFELLEC>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE HENRI QUEFELLEC"^^xsd:string ;
-	ex:adresse	 "181, avenue de Lattre de Tassigny"^^xsd:string ;
+	dbpprop:location	 "181, avenue de Lattre de Tassigny"^^xsd:string ;
 	geo:lat	"47.2842667 "^^xsd:decimal ;
 	geo:long	"-2.40268509"^^xsd:decimal  ;
-	ex:id	 "64"^^xsd:string ;
+	pdll:id	 "64"^^xsd:string ;
 	sc:email	 "bibliotheque@mairie-labaule.fr "^^xsd:string ;
-	ex:ville	 "LA-BAULE-ESCOUBLAC"^^xsd:string ;
+	dbpprop:town	 "LA-BAULE-ESCOUBLAC"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer ;
-	ex:tel	 "02.40.24.18.81"^^xsd:string .
+	sc:telephone	 "02.40.24.18.81"^^xsd:string .
 
 <http://projet.com/10/BIBLIOCLUB>	 foaf:name 	 "BIBLIOCLUB"^^xsd:string ;
-	ex:adresse	 "3 rue de la Chaussée"^^xsd:string ;
+	dbpprop:location	 "3 rue de la Chaussée"^^xsd:string ;
 	geo:lat	"47.081377 "^^xsd:decimal ;
 	geo:long	"-2.03819989"^^xsd:decimal  ;
-	ex:id	 "65"^^xsd:string ;
+	pdll:id	 "65"^^xsd:string ;
 	sc:email	 "biblio.club@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "LA-BERNERIE-EN-RETZ"^^xsd:string ;
+	dbpprop:town	 "LA-BERNERIE-EN-RETZ"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44760"^^xsd:integer ;
-	ex:tel	 "02.51.74.68.47"^^xsd:string .
+	sc:telephone	 "02.51.74.68.47"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_AUX_LETTRES_DU_MOULIN>	 foaf:name 	 "BIBLIOTHEQUE AUX LETTRES DU MOULIN"^^xsd:string ;
-	ex:adresse	 "MAIRIE - 8 place de la Mairie"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - 8 place de la Mairie"^^xsd:string ;
 	geo:lat	"47.2318426 "^^xsd:decimal ;
 	geo:long	"-1.2177752"^^xsd:decimal  ;
-	ex:id	 "66"^^xsd:string ;
+	pdll:id	 "66"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "LA-BOISSIERE-DU-DORE"^^xsd:string ;
+	dbpprop:town	 "LA-BOISSIERE-DU-DORE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44430"^^xsd:integer ;
-	ex:tel	 "02.40.97.51.42"^^xsd:string .
+	sc:telephone	 "02.40.97.51.42"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "Espace Jean Clareboudt - Rue du Calvaire"^^xsd:string ;
+	dbpprop:location	 "Espace Jean Clareboudt - Rue du Calvaire"^^xsd:string ;
 	geo:lat	"47.2711242 "^^xsd:decimal ;
 	geo:long	"-1.33923519"^^xsd:decimal  ;
-	ex:id	 "67"^^xsd:string ;
+	pdll:id	 "67"^^xsd:string ;
 	sc:email	 "bibliocbm@orange.fr"^^xsd:string ;
-	ex:ville	 "LA-CHAPELLE-BASSE-MER"^^xsd:string ;
+	dbpprop:town	 "LA-CHAPELLE-BASSE-MER"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44450"^^xsd:integer ;
-	ex:tel	 "02.40.33.37.93"^^xsd:string .
+	sc:telephone	 "02.40.33.37.93"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_MUNICIPALE_GASTON_LEROUX>	 foaf:name 	 "MEDIATHEQUE MUNICIPALE GASTON LEROUX"^^xsd:string ;
-	ex:adresse	 "Rue de Penlys"^^xsd:string ;
+	dbpprop:location	 "Rue de Penlys"^^xsd:string ;
 	geo:lat	"47.445473 "^^xsd:decimal ;
 	geo:long	"-2.2359079"^^xsd:decimal  ;
-	ex:id	 "68"^^xsd:string ;
+	pdll:id	 "68"^^xsd:string ;
 	sc:email	 "mediatheque@chapelledesmarais.fr"^^xsd:string ;
-	ex:ville	 "LA-CHAPELLE-DES-MARAIS"^^xsd:string ;
+	dbpprop:town	 "LA-CHAPELLE-DES-MARAIS"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44410"^^xsd:integer ;
-	ex:tel	 "02.40.42.42.00"^^xsd:string .
+	sc:telephone	 "02.40.42.42.00"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE - 5 rue du Flavier"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - 5 rue du Flavier"^^xsd:string ;
 	geo:lat	"47.6238136 "^^xsd:decimal ;
 	geo:long	"-1.19767939"^^xsd:decimal  ;
-	ex:id	 "69"^^xsd:string ;
+	pdll:id	 "69"^^xsd:string ;
 	sc:email	 "biblio.chapelle.ccc@orange.fr"^^xsd:string ;
-	ex:ville	 "LA-CHAPELLE-GLAIN"^^xsd:string ;
+	dbpprop:town	 "LA-CHAPELLE-GLAIN"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44670"^^xsd:integer ;
-	ex:tel	 "02.40.28.35.96"^^xsd:string .
+	sc:telephone	 "02.40.28.35.96"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_AU_PLAISIR_DE_LIRE>	 foaf:name 	 "BIBLIOTHEQUE AU PLAISIR DE LIRE"^^xsd:string ;
-	ex:adresse	 "22 Rue Georgette Drouet"^^xsd:string ;
+	dbpprop:location	 "22 Rue Georgette Drouet"^^xsd:string ;
 	geo:lat	"47.1743585 "^^xsd:decimal ;
 	geo:long	"-1.3387837"^^xsd:decimal  ;
-	ex:id	 "70"^^xsd:string ;
+	pdll:id	 "70"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "LA-CHAPELLE-HEULIN"^^xsd:string ;
+	dbpprop:town	 "LA-CHAPELLE-HEULIN"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44330"^^xsd:integer ;
-	ex:tel	 "02.28.21.60.27"^^xsd:string .
+	sc:telephone	 "02.28.21.60.27"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE - 2 place de l'Eglise"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - 2 place de l'Eglise"^^xsd:string ;
 	geo:lat	"47.3721272 "^^xsd:decimal ;
 	geo:long	"-1.97148719"^^xsd:decimal  ;
-	ex:id	 "71"^^xsd:string ;
+	pdll:id	 "71"^^xsd:string ;
 	sc:email	 "bibliotheque.lachapellelaunay@orange.fr"^^xsd:string ;
-	ex:ville	 "LA-CHAPELLE-LAUNAY"^^xsd:string ;
+	dbpprop:town	 "LA-CHAPELLE-LAUNAY"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44260"^^xsd:integer ;
-	ex:tel	 "09.61.57.01.01"^^xsd:string .
+	sc:telephone	 "09.61.57.01.01"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "Mairie"^^xsd:string ;
+	dbpprop:location	 "Mairie"^^xsd:string ;
 	geo:lat	"47.4406119 "^^xsd:decimal ;
 	geo:long	"-0.9856809"^^xsd:decimal  ;
-	ex:id	 "72"^^xsd:string ;
+	pdll:id	 "72"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "LA-CHAPELLE-SAINT-SAUVEUR"^^xsd:string ;
+	dbpprop:town	 "LA-CHAPELLE-SAINT-SAUVEUR"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44370"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "Place Dominique Savelli"^^xsd:string ;
+	dbpprop:location	 "Place Dominique Savelli"^^xsd:string ;
 	geo:lat	"47.2960332 "^^xsd:decimal ;
 	geo:long	"-1.550917"^^xsd:decimal  ;
-	ex:id	 "73"^^xsd:string ;
+	pdll:id	 "73"^^xsd:string ;
 	sc:email	 "bibliotheque@lachapellesurerdre.fr"^^xsd:string ;
-	ex:ville	 "LA-CHAPELLE-SUR-ERDRE"^^xsd:string ;
+	dbpprop:town	 "LA-CHAPELLE-SUR-ERDRE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44240"^^xsd:integer ;
-	ex:tel	 "02.40.77.89.91"^^xsd:string .
+	sc:telephone	 "02.40.77.89.91"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_LA__CHAPELAINE>	 foaf:name 	 "BIBLIOTHEQUE LA  CHAPELAINE"^^xsd:string ;
-	ex:adresse	 "6 rue de Sucé"^^xsd:string ;
+	dbpprop:location	 "6 rue de Sucé"^^xsd:string ;
 	geo:lat	"47.2995759 "^^xsd:decimal ;
 	geo:long	"-1.5506379"^^xsd:decimal  ;
-	ex:id	 "74"^^xsd:string ;
+	pdll:id	 "74"^^xsd:string ;
 	sc:email	 "contact@lachapelaine.org"^^xsd:string ;
-	ex:ville	 "LA-CHAPELLE-SUR-ERDRE"^^xsd:string ;
+	dbpprop:town	 "LA-CHAPELLE-SUR-ERDRE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44240"^^xsd:integer ;
-	ex:tel	 "02.40.72.57.70"^^xsd:string .
+	sc:telephone	 "02.40.72.57.70"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_AU_PLAISIR_DE_LIRE>	 foaf:name 	 "BIBLIOTHEQUE AU PLAISIR DE LIRE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - 14 place de l'Eglise"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - 14 place de l'Eglise"^^xsd:string ;
 	geo:lat	"47.4668472 "^^xsd:decimal ;
 	geo:long	"-1.6725618"^^xsd:decimal  ;
-	ex:id	 "75"^^xsd:string ;
+	pdll:id	 "75"^^xsd:string ;
 	sc:email	 "bibliotheque.auplaisirdelire@laposte.net"^^xsd:string ;
-	ex:ville	 "LA-CHEVALLERAIS"^^xsd:string ;
+	dbpprop:town	 "LA-CHEVALLERAIS"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44810"^^xsd:integer ;
-	ex:tel	 "02.40.51.76.46"^^xsd:string .
+	sc:telephone	 "02.40.51.76.46"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "3 place Saint Vincent"^^xsd:string ;
+	dbpprop:location	 "3 place Saint Vincent"^^xsd:string ;
 	geo:lat	"47.094201 "^^xsd:decimal ;
 	geo:long	"-1.6123519"^^xsd:decimal  ;
-	ex:id	 "76"^^xsd:string ;
+	pdll:id	 "76"^^xsd:string ;
 	sc:email	 "bibliotheque@mairie-lachevroliere.fr"^^xsd:string ;
-	ex:ville	 "LA-CHEVROLIERE"^^xsd:string ;
+	dbpprop:town	 "LA-CHEVROLIERE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44118"^^xsd:integer ;
-	ex:tel	 "02.40.31.32.58"^^xsd:string .
+	sc:telephone	 "02.40.31.32.58"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE_LE_CIRQUE_DES_PAGES>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE LE CIRQUE DES PAGES"^^xsd:string ;
-	ex:adresse	 "Mairie"^^xsd:string ;
+	dbpprop:location	 "Mairie"^^xsd:string ;
 	geo:lat	"47.526761 "^^xsd:decimal ;
 	geo:long	"-1.6668339"^^xsd:decimal  ;
-	ex:id	 "77"^^xsd:string ;
+	pdll:id	 "77"^^xsd:string ;
 	sc:email	 "biblio.lagrigonnais@orange.fr"^^xsd:string ;
-	ex:ville	 "LA-GRIGONNAIS"^^xsd:string ;
+	dbpprop:town	 "LA-GRIGONNAIS"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44170"^^xsd:integer ;
-	ex:tel	 "02.40.87.52.07"^^xsd:string .
+	sc:telephone	 "02.40.87.52.07"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "6 rue de la Gare"^^xsd:string ;
+	dbpprop:location	 "6 rue de la Gare"^^xsd:string ;
 	geo:lat	"47.1553574 "^^xsd:decimal ;
 	geo:long	"-1.3994543"^^xsd:decimal  ;
-	ex:id	 "78"^^xsd:string ;
+	pdll:id	 "78"^^xsd:string ;
 	sc:email	 "bibliotheque@la-haye-fouassiere.fr"^^xsd:string ;
-	ex:ville	 "LA-HAYE-FOUASSIERE"^^xsd:string ;
+	dbpprop:town	 "LA-HAYE-FOUASSIERE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44690"^^xsd:integer ;
-	ex:tel	 "02.40.54.80.23"^^xsd:string .
+	sc:telephone	 "02.40.54.80.23"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_ESPACE_JEAN_DE_LA_FONTAINE>	 foaf:name 	 "BIBLIOTHEQUE ESPACE JEAN DE LA FONTAINE"^^xsd:string ;
-	ex:adresse	 "Place Sainte Thérèse"^^xsd:string ;
+	dbpprop:location	 "Place Sainte Thérèse"^^xsd:string ;
 	geo:lat	"46.993419 "^^xsd:decimal ;
 	geo:long	"-1.59627"^^xsd:decimal  ;
-	ex:id	 "79"^^xsd:string ;
+	pdll:id	 "79"^^xsd:string ;
 	sc:email	 "biblio.limouziniere@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "LA-LIMOUZINIERE"^^xsd:string ;
+	dbpprop:town	 "LA-LIMOUZINIERE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44310"^^xsd:integer ;
-	ex:tel	 "02.40.05.99.19"^^xsd:string .
+	sc:telephone	 "02.40.05.99.19"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_LA_MARNE_CE_LIVRE>	 foaf:name 	 "BIBLIOTHEQUE LA MARNE CE LIVRE"^^xsd:string ;
-	ex:adresse	 "MAIRIE - 14 rue de la Mairie"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - 14 rue de la Mairie"^^xsd:string ;
 	geo:lat	"46.9948947 "^^xsd:decimal ;
 	geo:long	"-1.7417473"^^xsd:decimal  ;
-	ex:id	 "80"^^xsd:string ;
+	pdll:id	 "80"^^xsd:string ;
 	sc:email	 "celivre.communedelamarne@sfr.fr"^^xsd:string ;
-	ex:ville	 "LA-MARNE"^^xsd:string ;
+	dbpprop:town	 "LA-MARNE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44270"^^xsd:integer ;
-	ex:tel	 "02.40.26.29.32"^^xsd:string .
+	sc:telephone	 "02.40.26.29.32"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE"^^xsd:string ;
-	ex:adresse	 "72 rue des Frères Templé"^^xsd:string ;
+	dbpprop:location	 "72 rue des Frères Templé"^^xsd:string ;
 	geo:lat	"47.559508 "^^xsd:decimal ;
 	geo:long	"-1.401836"^^xsd:decimal  ;
-	ex:id	 "81"^^xsd:string ;
+	pdll:id	 "81"^^xsd:string ;
 	sc:email	 "bibliotheque.meilleraye@orange.fr"^^xsd:string ;
-	ex:ville	 "LA-MEILLERAYE-DE-BRETAGNE"^^xsd:string ;
+	dbpprop:town	 "LA-MEILLERAYE-DE-BRETAGNE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44520"^^xsd:integer ;
-	ex:tel	 "02.28.50.44.78"^^xsd:string .
+	sc:telephone	 "02.28.50.44.78"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_YVES_ET_RAYMOND_GAUDIN>	 foaf:name 	 "MEDIATHEQUE YVES ET RAYMOND GAUDIN"^^xsd:string ;
-	ex:adresse	 "92 rue Violin"^^xsd:string ;
+	dbpprop:location	 "92 rue Violin"^^xsd:string ;
 	geo:lat	"47.1912747 "^^xsd:decimal ;
 	geo:long	"-1.684954"^^xsd:decimal  ;
-	ex:id	 "82"^^xsd:string ;
+	pdll:id	 "82"^^xsd:string ;
 	sc:email	 "mediatheque@ville-lamontagne.fr"^^xsd:string ;
-	ex:ville	 "LA-MONTAGNE"^^xsd:string ;
+	dbpprop:town	 "LA-MONTAGNE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44620"^^xsd:integer ;
-	ex:tel	 "02.40.65.66.24"^^xsd:string .
+	sc:telephone	 "02.40.65.66.24"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_JOSEPH_ROUSSE>	 foaf:name 	 "BIBLIOTHEQUE JOSEPH ROUSSE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - Place Fort Gentil"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - Place Fort Gentil"^^xsd:string ;
 	geo:lat	"47.1378795 "^^xsd:decimal ;
 	geo:long	"-2.19089439"^^xsd:decimal  ;
-	ex:id	 "83"^^xsd:string ;
+	pdll:id	 "83"^^xsd:string ;
 	sc:email	 "bibliotheque.laplainesurmer@orange.fr"^^xsd:string ;
-	ex:ville	 "LA-PLAINE-SUR-MER"^^xsd:string ;
+	dbpprop:town	 "LA-PLAINE-SUR-MER"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44770"^^xsd:integer ;
-	ex:tel	 "02.51.74.81.92"^^xsd:string .
+	sc:telephone	 "02.51.74.81.92"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_LES_AMIS_DU_LIVRE>	 foaf:name 	 "BIBLIOTHEQUE LES AMIS DU LIVRE"^^xsd:string ;
-	ex:adresse	 "Centre Jacques Brel - Rue Paul Joyau"^^xsd:string ;
+	dbpprop:location	 "Centre Jacques Brel - Rue Paul Joyau"^^xsd:string ;
 	geo:lat	"47.0168222 "^^xsd:decimal ;
 	geo:long	"-1.43679369"^^xsd:decimal  ;
-	ex:id	 "84"^^xsd:string ;
+	pdll:id	 "84"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "LA-PLANCHE"^^xsd:string ;
+	dbpprop:town	 "LA-PLANCHE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44140"^^xsd:integer ;
-	ex:tel	 "02.40.31.90.22"^^xsd:string .
+	sc:telephone	 "02.40.31.90.22"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "Place du Prieuré"^^xsd:string ;
+	dbpprop:location	 "Place du Prieuré"^^xsd:string ;
 	geo:lat	"47.180511 "^^xsd:decimal ;
 	geo:long	"-1.175399"^^xsd:decimal  ;
-	ex:id	 "85"^^xsd:string ;
+	pdll:id	 "85"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "LA-REGRIPPIERE"^^xsd:string ;
+	dbpprop:town	 "LA-REGRIPPIERE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44330"^^xsd:integer ;
-	ex:tel	 "02.40.34.12.04"^^xsd:string .
+	sc:telephone	 "02.40.34.12.04"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE - 22 rue Olivier Clisson"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - 22 rue Olivier Clisson"^^xsd:string ;
 	geo:lat	"47.2365589 "^^xsd:decimal ;
 	geo:long	"-1.24414879"^^xsd:decimal  ;
-	ex:id	 "86"^^xsd:string ;
+	pdll:id	 "86"^^xsd:string ;
 	sc:email	 "bibliotheque.laremaudiere@orange.fr"^^xsd:string ;
-	ex:ville	 "LA-REMAUDIERE"^^xsd:string ;
+	dbpprop:town	 "LA-REMAUDIERE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44430"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_PLAISIR_DE_LIRE>	 foaf:name 	 "BIBLIOTHEQUE PLAISIR DE LIRE"^^xsd:string ;
-	ex:adresse	 "171 rue Saint-Michel "^^xsd:string ;
+	dbpprop:location	 "171 rue Saint-Michel "^^xsd:string ;
 	geo:lat	"47.4408702 "^^xsd:decimal ;
 	geo:long	"-1.13818219"^^xsd:decimal  ;
-	ex:id	 "87"^^xsd:string ;
+	pdll:id	 "87"^^xsd:string ;
 	sc:email	 "bibliorb44@yahoo.fr"^^xsd:string ;
-	ex:ville	 "LA-ROCHE-BLANCHE"^^xsd:string ;
+	dbpprop:town	 "LA-ROCHE-BLANCHE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44522"^^xsd:integer ;
-	ex:tel	 "02.40.98.49.41"^^xsd:string .
+	sc:telephone	 "02.40.98.49.41"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_LA_CRYPTOLIVRE_>	 foaf:name 	 "BIBLIOTHEQUE LA CRYPTOLIVRE "^^xsd:string ;
-	ex:adresse	 "MAIRIE - 48 place de l'Eglise"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - 48 place de l'Eglise"^^xsd:string ;
 	geo:lat	"47.44311769 "^^xsd:decimal ;
 	geo:long	"-1.0675909"^^xsd:decimal  ;
-	ex:id	 "88"^^xsd:string ;
+	pdll:id	 "88"^^xsd:string ;
 	sc:email	 "bibliotheque.larouxiere@orange.fr"^^xsd:string ;
-	ex:ville	 "LA-ROUXIERE"^^xsd:string ;
+	dbpprop:town	 "LA-ROUXIERE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44370"^^xsd:integer ;
-	ex:tel	 "02.40.96.88.26"^^xsd:string .
+	sc:telephone	 "02.40.96.88.26"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "Espace Garlahy"^^xsd:string ;
+	dbpprop:location	 "Espace Garlahy"^^xsd:string ;
 	geo:lat	"47.348472 "^^xsd:decimal ;
 	geo:long	"-2.5117589"^^xsd:decimal  ;
-	ex:id	 "89"^^xsd:string ;
+	pdll:id	 "89"^^xsd:string ;
 	sc:email	 "bibliotheque@mairielaturballe.fr"^^xsd:string ;
-	ex:ville	 "LA-TURBALLE"^^xsd:string ;
+	dbpprop:town	 "LA-TURBALLE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44420"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "1 bis rue de la Mairie"^^xsd:string ;
+	dbpprop:location	 "1 bis rue de la Mairie"^^xsd:string ;
 	geo:lat	"47.30760739 "^^xsd:decimal ;
 	geo:long	"-1.9668484"^^xsd:decimal  ;
-	ex:id	 "90"^^xsd:string ;
+	pdll:id	 "90"^^xsd:string ;
 	sc:email	 "bibliotheque-de-lavau@orange.fr"^^xsd:string ;
-	ex:ville	 "LAVAU-SUR-LOIRE"^^xsd:string ;
+	dbpprop:town	 "LAVAU-SUR-LOIRE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44260"^^xsd:integer ;
-	ex:tel	 "02.40.04.08.76"^^xsd:string .
+	sc:telephone	 "02.40.04.08.76"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_POINT_VIRGULE>	 foaf:name 	 "BIBLIOTHEQUE POINT VIRGULE"^^xsd:string ;
-	ex:adresse	 "MAIRIE - 12 rue des Mazères "^^xsd:string ;
+	dbpprop:location	 "MAIRIE - 12 rue des Mazères "^^xsd:string ;
 	geo:lat	"47.3179544 "^^xsd:decimal ;
 	geo:long	"-1.34698359"^^xsd:decimal  ;
-	ex:id	 "91"^^xsd:string ;
+	pdll:id	 "91"^^xsd:string ;
 	sc:email	 "lecellier.bibliotheque@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "LE-CELLIER"^^xsd:string ;
+	dbpprop:town	 "LE-CELLIER"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44850"^^xsd:integer ;
-	ex:tel	 "02.40.25.44.82"^^xsd:string .
+	sc:telephone	 "02.40.25.44.82"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE"^^xsd:string ;
-	ex:adresse	 "15 rue Jean-Jacques Rousseau"^^xsd:string ;
+	dbpprop:location	 "15 rue Jean-Jacques Rousseau"^^xsd:string ;
 	geo:lat	"47.2931257 "^^xsd:decimal ;
 	geo:long	"-2.51278809"^^xsd:decimal  ;
-	ex:id	 "92"^^xsd:string ;
+	pdll:id	 "92"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "LE CROISIC"^^xsd:string ;
+	dbpprop:town	 "LE CROISIC"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44490"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_DE_LA_FORET_AUX_LIVRES>	 foaf:name 	 "BIBLIOTHEQUE DE LA FORET AUX LIVRES"^^xsd:string ;
-	ex:adresse	 "Impasse du Muguet"^^xsd:string ;
+	dbpprop:location	 "Impasse du Muguet"^^xsd:string ;
 	geo:lat	"47.5202178 "^^xsd:decimal ;
 	geo:long	"-1.7478171"^^xsd:decimal  ;
-	ex:id	 "93"^^xsd:string ;
+	pdll:id	 "93"^^xsd:string ;
 	sc:email	 "biblio.legavre@orange.fr"^^xsd:string ;
-	ex:ville	 "LE-GAVRE"^^xsd:string ;
+	dbpprop:town	 "LE-GAVRE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44130"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE_COMME_UN_ROMAN>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE COMME UN ROMAN"^^xsd:string ;
-	ex:adresse	 "2 bis rue Saint Vincent"^^xsd:string ;
+	dbpprop:location	 "2 bis rue Saint Vincent"^^xsd:string ;
 	geo:lat	"47.20170359 "^^xsd:decimal ;
 	geo:long	"-1.3068329"^^xsd:decimal  ;
-	ex:id	 "94"^^xsd:string ;
+	pdll:id	 "94"^^xsd:string ;
 	sc:email	 "bibliothequelelandreau@orange.fr"^^xsd:string ;
-	ex:ville	 "LE-LANDREAU"^^xsd:string ;
+	dbpprop:town	 "LE-LANDREAU"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44430"^^xsd:integer ;
-	ex:tel	 "02.40.03.76.31"^^xsd:string .
+	sc:telephone	 "02.40.03.76.31"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_LES_QUATRE_VENTS>	 foaf:name 	 "MEDIATHEQUE LES QUATRE VENTS"^^xsd:string ;
-	ex:adresse	 "4 rue du Jeu de Paume"^^xsd:string ;
+	dbpprop:location	 "4 rue du Jeu de Paume"^^xsd:string ;
 	geo:lat	"47.23855529 "^^xsd:decimal ;
 	geo:long	"-1.3492727"^^xsd:decimal  ;
-	ex:id	 "95"^^xsd:string ;
+	pdll:id	 "95"^^xsd:string ;
 	sc:email	 "biblio@loroux-bottereau.fr"^^xsd:string ;
-	ex:ville	 "LE-LOROUX-BOTTEREAU"^^xsd:string ;
+	dbpprop:town	 "LE-LOROUX-BOTTEREAU"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44430"^^xsd:integer ;
-	ex:tel	 "02.40.33.82.76"^^xsd:string .
+	sc:telephone	 "02.40.33.82.76"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "15 place de l'Eglise"^^xsd:string ;
+	dbpprop:location	 "15 place de l'Eglise"^^xsd:string ;
 	geo:lat	"47.1381111 "^^xsd:decimal ;
 	geo:long	"-1.33440689"^^xsd:decimal  ;
-	ex:id	 "96"^^xsd:string ;
+	pdll:id	 "96"^^xsd:string ;
 	sc:email	 "ysilloray@cc-vallet.fr"^^xsd:string ;
-	ex:ville	 "LE-PALLET"^^xsd:string ;
+	dbpprop:town	 "LE-PALLET"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44330"^^xsd:integer ;
-	ex:tel	 "02.40.80.99.29"^^xsd:string .
+	sc:telephone	 "02.40.80.99.29"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_GEORGES_SAND>	 foaf:name 	 "MEDIATHEQUE GEORGES SAND"^^xsd:string ;
-	ex:adresse	 "Allée Georges Sand"^^xsd:string ;
+	dbpprop:location	 "Allée Georges Sand"^^xsd:string ;
 	geo:lat	"47.1989538 "^^xsd:decimal ;
 	geo:long	"-1.7545399"^^xsd:decimal  ;
-	ex:id	 "97"^^xsd:string ;
+	pdll:id	 "97"^^xsd:string ;
 	sc:email	 "martine.duchesne@mairie-lepellerin.fr"^^xsd:string ;
-	ex:ville	 "LE-PELLERIN"^^xsd:string ;
+	dbpprop:town	 "LE-PELLERIN"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44640"^^xsd:integer ;
-	ex:tel	 "02.51.79.81.90"^^xsd:string .
+	sc:telephone	 "02.51.79.81.90"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "11 rue du Sapin"^^xsd:string ;
+	dbpprop:location	 "11 rue du Sapin"^^xsd:string ;
 	geo:lat	"47.5890622 "^^xsd:decimal ;
 	geo:long	"-1.15355279"^^xsd:decimal  ;
-	ex:id	 "98"^^xsd:string ;
+	pdll:id	 "98"^^xsd:string ;
 	sc:email	 "bibliothequedupin@hotmail.fr"^^xsd:string ;
-	ex:ville	 "LE-PIN"^^xsd:string ;
+	dbpprop:town	 "LE-PIN"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44540"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - 24 rue Georges-Bonnet"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - 24 rue Georges-Bonnet"^^xsd:string ;
 	geo:lat	"47.3302473 "^^xsd:decimal ;
 	geo:long	"-1.79227349"^^xsd:decimal  ;
-	ex:id	 "99"^^xsd:string ;
+	pdll:id	 "99"^^xsd:string ;
 	sc:email	 "mediathequeletempledebretagne@orange.fr"^^xsd:string ;
-	ex:ville	 "LE-TEMPLE-DE-BRETAGNE"^^xsd:string ;
+	dbpprop:town	 "LE-TEMPLE-DE-BRETAGNE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44360"^^xsd:integer ;
-	ex:tel	 "02.40.57.07.23"^^xsd:string .
+	sc:telephone	 "02.40.57.07.23"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_ATOUT_LIRE>	 foaf:name 	 "BIBLIOTHEQUE ATOUT LIRE"^^xsd:string ;
-	ex:adresse	 "8 rue de la Chaussée"^^xsd:string ;
+	dbpprop:location	 "8 rue de la Chaussée"^^xsd:string ;
 	geo:lat	"46.8854941 "^^xsd:decimal ;
 	geo:long	"-1.59573039"^^xsd:decimal  ;
-	ex:id	 "100"^^xsd:string ;
+	pdll:id	 "100"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "LEGE"^^xsd:string ;
+	dbpprop:town	 "LEGE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44650"^^xsd:integer ;
-	ex:tel	 "02.40.26.35.00"^^xsd:string .
+	sc:telephone	 "02.40.26.35.00"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE_RAYMOND_DEVOS>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE RAYMOND DEVOS"^^xsd:string ;
-	ex:adresse	 "Quartier du Diable - Rue des Lutins"^^xsd:string ;
+	dbpprop:location	 "Quartier du Diable - Rue des Lutins"^^xsd:string ;
 	geo:lat	"47.063302 "^^xsd:decimal ;
 	geo:long	"-2.0002289"^^xsd:decimal  ;
-	ex:id	 "101"^^xsd:string ;
+	pdll:id	 "101"^^xsd:string ;
 	sc:email	 "bm.lesmoutiersenretz@orange.fr"^^xsd:string ;
-	ex:ville	 "LES MOUTIERS-EN-RETZ"^^xsd:string ;
+	dbpprop:town	 "LES MOUTIERS-EN-RETZ"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44760"^^xsd:integer ;
-	ex:tel	 "02.40.82.75.77"^^xsd:string .
+	sc:telephone	 "02.40.82.75.77"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "35 rue des Ecoles"^^xsd:string ;
+	dbpprop:location	 "35 rue des Ecoles"^^xsd:string ;
 	geo:lat	"47.1498354 "^^xsd:decimal ;
 	geo:long	"-1.52702479"^^xsd:decimal  ;
-	ex:id	 "102"^^xsd:string ;
+	pdll:id	 "102"^^xsd:string ;
 	sc:email	 "bibliotheque.lessorinières@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "LES-SORINIERES"^^xsd:string ;
+	dbpprop:town	 "LES-SORINIERES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44840"^^xsd:integer ;
-	ex:tel	 "02.40.04.48.92"^^xsd:string .
+	sc:telephone	 "02.40.04.48.92"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MILLE_ET_UNE_PAGES_>	 foaf:name 	 "BIBLIOTHEQUE MILLE ET UNE PAGES "^^xsd:string ;
-	ex:adresse	 "7 rue du Sacré Coeur"^^xsd:string ;
+	dbpprop:location	 "7 rue du Sacré Coeur"^^xsd:string ;
 	geo:lat	"47.442437 "^^xsd:decimal ;
 	geo:long	"-1.431491"^^xsd:decimal  ;
-	ex:id	 "103"^^xsd:string ;
+	pdll:id	 "103"^^xsd:string ;
 	sc:email	 "bibliotheque@lestouches.fr"^^xsd:string ;
-	ex:ville	 "LES-TOUCHES"^^xsd:string ;
+	dbpprop:town	 "LES-TOUCHES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44390"^^xsd:integer ;
-	ex:tel	 "02.40.72.43.96"^^xsd:string .
+	sc:telephone	 "02.40.72.43.96"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE_ANTOINE_SAINT_EXUPERY>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE ANTOINE SAINT EXUPERY"^^xsd:string ;
-	ex:adresse	 "40 rue de Vieillevigne"^^xsd:string ;
+	dbpprop:location	 "40 rue de Vieillevigne"^^xsd:string ;
 	geo:lat	"47.4103634 "^^xsd:decimal ;
 	geo:long	"-1.3746055"^^xsd:decimal  ;
-	ex:id	 "104"^^xsd:string ;
+	pdll:id	 "104"^^xsd:string ;
 	sc:email	 "biblio@ligne.fr"^^xsd:string ;
-	ex:ville	 "LIGNE"^^xsd:string ;
+	dbpprop:town	 "LIGNE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44850"^^xsd:integer ;
-	ex:tel	 "02.51.12.26.11"^^xsd:string .
+	sc:telephone	 "02.51.12.26.11"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE_LA_GRANGE_AUX_POETES>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE LA GRANGE AUX POETES"^^xsd:string ;
-	ex:adresse	 "3 rue de la Cure"^^xsd:string ;
+	dbpprop:location	 "3 rue de la Cure"^^xsd:string ;
 	geo:lat	"47.6742351 "^^xsd:decimal ;
 	geo:long	"-1.4335395"^^xsd:decimal  ;
-	ex:id	 "105"^^xsd:string ;
+	pdll:id	 "105"^^xsd:string ;
 	sc:email	 "biblio.louisfert.ccc@orange.fr"^^xsd:string ;
-	ex:ville	 "LOUISFERT"^^xsd:string ;
+	dbpprop:town	 "LOUISFERT"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44110"^^xsd:integer ;
-	ex:tel	 "02.40.81.20.45"^^xsd:string .
+	sc:telephone	 "02.40.81.20.45"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE_AU_FIL_DES_MOTS>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE AU FIL DES MOTS"^^xsd:string ;
-	ex:adresse	 "1 rue de la Gare"^^xsd:string ;
+	dbpprop:location	 "1 rue de la Gare"^^xsd:string ;
 	geo:lat	"47.6801502 "^^xsd:decimal ;
 	geo:long	"-1.58775239"^^xsd:decimal  ;
-	ex:id	 "106"^^xsd:string ;
+	pdll:id	 "106"^^xsd:string ;
 	sc:email	 "bibliothequedelusanger@orange.fr"^^xsd:string ;
-	ex:ville	 "LUSANGER"^^xsd:string ;
+	dbpprop:town	 "LUSANGER"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44590"^^xsd:integer ;
-	ex:tel	 "02.40.07.65.10"^^xsd:string .
+	sc:telephone	 "02.40.07.65.10"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "7 rue des Bouchers"^^xsd:string ;
+	dbpprop:location	 "7 rue des Bouchers"^^xsd:string ;
 	geo:lat	"46.9919842 "^^xsd:decimal ;
 	geo:long	"-1.8193002"^^xsd:decimal  ;
-	ex:id	 "107"^^xsd:string ;
+	pdll:id	 "107"^^xsd:string ;
 	sc:email	 "bibliotheque@machecoul.fr"^^xsd:string ;
-	ex:ville	 "MACHECOUL"^^xsd:string ;
+	dbpprop:town	 "MACHECOUL"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44270"^^xsd:integer ;
-	ex:tel	 "02.40.31.47.61"^^xsd:string .
+	sc:telephone	 "02.40.31.47.61"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_A_LIVRE_OUVERT>	 foaf:name 	 "BIBLIOTHEQUE A LIVRE OUVERT"^^xsd:string ;
-	ex:adresse	 "Maison des Associations - 19 rue de la Mairie"^^xsd:string ;
+	dbpprop:location	 "Maison des Associations - 19 rue de la Mairie"^^xsd:string ;
 	geo:lat	"47.0983864 "^^xsd:decimal ;
 	geo:long	"-1.38518469"^^xsd:decimal  ;
-	ex:id	 "108"^^xsd:string ;
+	pdll:id	 "108"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "MAISDON-SUR-SEVRE"^^xsd:string ;
+	dbpprop:town	 "MAISDON-SUR-SEVRE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44690"^^xsd:integer ;
-	ex:tel	 "02.40.05.98.61"^^xsd:string .
+	sc:telephone	 "02.40.05.98.61"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "Espace Thalweg - 8 place de l'Eglise"^^xsd:string ;
+	dbpprop:location	 "Espace Thalweg - 8 place de l'Eglise"^^xsd:string ;
 	geo:lat	"47.3609697 "^^xsd:decimal ;
 	geo:long	"-1.8640459"^^xsd:decimal  ;
-	ex:id	 "109"^^xsd:string ;
+	pdll:id	 "109"^^xsd:string ;
 	sc:email	 "communication-bibliotheque@malville.fr"^^xsd:string ;
-	ex:ville	 "MALVILLE"^^xsd:string ;
+	dbpprop:town	 "MALVILLE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44260"^^xsd:integer ;
-	ex:tel	 "02.40.56.02.24"^^xsd:string .
+	sc:telephone	 "02.40.56.02.24"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MILLE_ET_UNE_PAGES>	 foaf:name 	 "BIBLIOTHEQUE MILLE ET UNE PAGES"^^xsd:string ;
-	ex:adresse	 "MAIRIE - 1 rue Pierre Perchais"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - 1 rue Pierre Perchais"^^xsd:string ;
 	geo:lat	"47.5980773 "^^xsd:decimal ;
 	geo:long	"-1.6797023"^^xsd:decimal  ;
-	ex:id	 "110"^^xsd:string ;
+	pdll:id	 "110"^^xsd:string ;
 	sc:email	 "bibliothequedemarsac@orange.fr"^^xsd:string ;
-	ex:ville	 "MARSAC-SUR-DON"^^xsd:string ;
+	dbpprop:town	 "MARSAC-SUR-DON"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44170"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE - Route de la Gare"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - Route de la Gare"^^xsd:string ;
 	geo:lat	"47.6735009 "^^xsd:decimal ;
 	geo:long	"-1.915299"^^xsd:decimal  ;
-	ex:id	 "111"^^xsd:string ;
+	pdll:id	 "111"^^xsd:string ;
 	sc:email	 "mediatheque-masserac@orange.fr"^^xsd:string ;
-	ex:ville	 "MASSERAC"^^xsd:string ;
+	dbpprop:town	 "MASSERAC"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44290"^^xsd:integer ;
-	ex:tel	 "02.40.79.35.12"^^xsd:string .
+	sc:telephone	 "02.40.79.35.12"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "184 rue de la Mairie"^^xsd:string ;
+	dbpprop:location	 "184 rue de la Mairie"^^xsd:string ;
 	geo:lat	"47.481046 "^^xsd:decimal ;
 	geo:long	"-1.10685409"^^xsd:decimal  ;
-	ex:id	 "112"^^xsd:string ;
+	pdll:id	 "112"^^xsd:string ;
 	sc:email	 "mairie-maumusson44@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "MAUMUSSON"^^xsd:string ;
+	dbpprop:town	 "MAUMUSSON"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44540"^^xsd:integer ;
-	ex:tel	 "02.40.97.03.57"^^xsd:string .
+	sc:telephone	 "02.40.97.03.57"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_GEORGES_SAND>	 foaf:name 	 "BIBLIOTHEQUE GEORGES SAND"^^xsd:string ;
-	ex:adresse	 "15 rue du cellier"^^xsd:string ;
+	dbpprop:location	 "15 rue du cellier"^^xsd:string ;
 	geo:lat	"47.29703079 "^^xsd:decimal ;
 	geo:long	"-1.3924779"^^xsd:decimal  ;
-	ex:id	 "113"^^xsd:string ;
+	pdll:id	 "113"^^xsd:string ;
 	sc:email	 "biblio.mauves@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "MAUVES-SUR-LOIRE"^^xsd:string ;
+	dbpprop:town	 "MAUVES-SUR-LOIRE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44470"^^xsd:integer ;
-	ex:tel	 "02.40.25.05.63"^^xsd:string .
+	sc:telephone	 "02.40.25.05.63"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_LES_MILLE_ET_UNE_PAGE>	 foaf:name 	 "BIBLIOTHEQUE LES MILLE ET UNE PAGE"^^xsd:string ;
-	ex:adresse	 "Rue des Arts"^^xsd:string ;
+	dbpprop:location	 "Rue des Arts"^^xsd:string ;
 	geo:lat	"47.4362779 "^^xsd:decimal ;
 	geo:long	"-1.23251709"^^xsd:decimal  ;
-	ex:id	 "114"^^xsd:string ;
+	pdll:id	 "114"^^xsd:string ;
 	sc:email	 "bibliotheque@mairiemesanger.fr"^^xsd:string ;
-	ex:ville	 "MESANGER"^^xsd:string ;
+	dbpprop:town	 "MESANGER"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44522"^^xsd:integer ;
-	ex:tel	 "02.40.96.86.87"^^xsd:string .
+	sc:telephone	 "02.40.96.86.87"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_POUR_TOUS>	 foaf:name 	 "BIBLIOTHEQUE POUR TOUS"^^xsd:string ;
-	ex:adresse	 "50 rue du 8 Mai 1945"^^xsd:string ;
+	dbpprop:location	 "50 rue du 8 Mai 1945"^^xsd:string ;
 	geo:lat	"47.399615 "^^xsd:decimal ;
 	geo:long	"-2.460798"^^xsd:decimal  ;
-	ex:id	 "115"^^xsd:string ;
+	pdll:id	 "115"^^xsd:string ;
 	sc:email	 "a.morato@orange.fr"^^xsd:string ;
-	ex:ville	 "MESQUER"^^xsd:string ;
+	dbpprop:town	 "MESQUER"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44420"^^xsd:integer ;
-	ex:tel	 "02.40.42.54.92"^^xsd:string .
+	sc:telephone	 "02.40.42.54.92"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE"^^xsd:string ;
-	ex:adresse	 "4 rue de la Fontaine Saint-Jean"^^xsd:string ;
+	dbpprop:location	 "4 rue de la Fontaine Saint-Jean"^^xsd:string ;
 	geo:lat	"47.481845 "^^xsd:decimal ;
 	geo:long	"-2.1589148"^^xsd:decimal  ;
-	ex:id	 "116"^^xsd:string ;
+	pdll:id	 "116"^^xsd:string ;
 	sc:email	 "bibliothequemissillac@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "MISSILLAC"^^xsd:string ;
+	dbpprop:town	 "MISSILLAC"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44780"^^xsd:integer ;
-	ex:tel	 "02.40.19.32.31"^^xsd:string .
+	sc:telephone	 "02.40.19.32.31"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE"^^xsd:string ;
-	ex:adresse	 "3 place de l'Eglise"^^xsd:string ;
+	dbpprop:location	 "3 place de l'Eglise"^^xsd:string ;
 	geo:lat	"47.62160919 "^^xsd:decimal ;
 	geo:long	"-1.37261509"^^xsd:decimal  ;
-	ex:id	 "117"^^xsd:string ;
+	pdll:id	 "117"^^xsd:string ;
 	sc:email	 "biblio.moisdon.ccc@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "MOISDON-LA-RIVIERE"^^xsd:string ;
+	dbpprop:town	 "MOISDON-LA-RIVIERE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44520"^^xsd:integer ;
-	ex:tel	 "02.40.07.59.88"^^xsd:string .
+	sc:telephone	 "02.40.07.59.88"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_AU_PLAISIR_DE_LIRE>	 foaf:name 	 "BIBLIOTHEQUE AU PLAISIR DE LIRE"^^xsd:string ;
-	ex:adresse	 "Rue des Forges"^^xsd:string ;
+	dbpprop:location	 "Rue des Forges"^^xsd:string ;
 	geo:lat	"47.12951109 "^^xsd:decimal ;
 	geo:long	"-1.3572004"^^xsd:decimal  ;
-	ex:id	 "118"^^xsd:string ;
+	pdll:id	 "118"^^xsd:string ;
 	sc:email	 "mairie.monnieres@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "MONNIERES"^^xsd:string ;
+	dbpprop:town	 "MONNIERES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44690"^^xsd:integer ;
-	ex:tel	 "02.28.21.66.19"^^xsd:string .
+	sc:telephone	 "02.28.21.66.19"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE - Rue de la Mairie"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - Rue de la Mairie"^^xsd:string ;
 	geo:lat	"47.0576152 "^^xsd:decimal ;
 	geo:long	"-1.48783579"^^xsd:decimal  ;
-	ex:id	 "119"^^xsd:string ;
+	pdll:id	 "119"^^xsd:string ;
 	sc:email	 "mairiedemontbert@oceanet.fr"^^xsd:string ;
-	ex:ville	 "MONTBERT"^^xsd:string ;
+	dbpprop:town	 "MONTBERT"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44140"^^xsd:integer ;
-	ex:tel	 "02.40.26.71.52"^^xsd:string .
+	sc:telephone	 "02.40.26.71.52"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_MUNICIPALE_BARBARA>	 foaf:name 	 "MEDIATHEQUE MUNICIPALE BARBARA"^^xsd:string ;
-	ex:adresse	 "7 rue du Berry"^^xsd:string ;
+	dbpprop:location	 "7 rue du Berry"^^xsd:string ;
 	geo:lat	"47.3270519 "^^xsd:decimal ;
 	geo:long	"-2.150431"^^xsd:decimal  ;
-	ex:id	 "120"^^xsd:string ;
+	pdll:id	 "120"^^xsd:string ;
 	sc:email	 "mediatheque@montoirdebretagne.fr"^^xsd:string ;
-	ex:ville	 "MONTOIR-DE-BRETAGNE"^^xsd:string ;
+	dbpprop:town	 "MONTOIR-DE-BRETAGNE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44550"^^xsd:integer ;
-	ex:tel	 "02.40.70.11.51"^^xsd:string .
+	sc:telephone	 "02.40.70.11.51"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_LIRE_LIRE_LA>	 foaf:name 	 "BIBLIOTHEQUE LIRE LIRE LA"^^xsd:string ;
-	ex:adresse	 "MAIRIE - 5 rue de la Mairie"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - 5 rue de la Mairie"^^xsd:string ;
 	geo:lat	"47.69626539 "^^xsd:decimal ;
 	geo:long	"-1.64575919"^^xsd:decimal  ;
-	ex:id	 "121"^^xsd:string ;
+	pdll:id	 "121"^^xsd:string ;
 	sc:email	 "bibliothequedemouais@orange.fr"^^xsd:string ;
-	ex:ville	 "MOUAIS"^^xsd:string ;
+	dbpprop:town	 "MOUAIS"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44590"^^xsd:integer ;
-	ex:tel	 "02.40.83.45.41"^^xsd:string .
+	sc:telephone	 "02.40.83.45.41"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "5 rue du Bourg Drappé"^^xsd:string ;
+	dbpprop:location	 "5 rue du Bourg Drappé"^^xsd:string ;
 	geo:lat	"47.448287 "^^xsd:decimal ;
 	geo:long	"-1.3488019"^^xsd:decimal  ;
-	ex:id	 "122"^^xsd:string ;
+	pdll:id	 "122"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "MOUZEIL"^^xsd:string ;
+	dbpprop:town	 "MOUZEIL"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44850"^^xsd:integer ;
-	ex:tel	 "02.40.97.35.69"^^xsd:string .
+	sc:telephone	 "02.40.97.35.69"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_SOURCE_ET_REVERIE>	 foaf:name 	 "BIBLIOTHEQUE SOURCE ET REVERIE"^^xsd:string ;
-	ex:adresse	 "15 route d'Ancenis"^^xsd:string ;
+	dbpprop:location	 "15 route d'Ancenis"^^xsd:string ;
 	geo:lat	"47.1416937 "^^xsd:decimal ;
 	geo:long	"-1.28272379"^^xsd:decimal  ;
-	ex:id	 "123"^^xsd:string ;
+	pdll:id	 "123"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "MOUZILLON"^^xsd:string ;
+	dbpprop:town	 "MOUZILLON"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44330"^^xsd:integer ;
-	ex:tel	 "02.28.06.09.58"^^xsd:string .
+	sc:telephone	 "02.28.06.09.58"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_LUCE_COURVILLE>	 foaf:name 	 "MEDIATHEQUE LUCE COURVILLE"^^xsd:string ;
-	ex:adresse	 "1 rue Eugène Thomas"^^xsd:string ;
+	dbpprop:location	 "1 rue Eugène Thomas"^^xsd:string ;
 	geo:lat	"47.2615229 "^^xsd:decimal ;
 	geo:long	"-1.5724609"^^xsd:decimal  ;
-	ex:id	 "124"^^xsd:string ;
+	pdll:id	 "124"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44300"^^xsd:integer ;
-	ex:tel	 "02.40.16.05.50"^^xsd:string .
+	sc:telephone	 "02.40.16.05.50"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_JACQUES_DEMY>	 foaf:name 	 "MEDIATHEQUE JACQUES DEMY"^^xsd:string ;
-	ex:adresse	 "24 quai de la Fosse"^^xsd:string ;
+	dbpprop:location	 "24 quai de la Fosse"^^xsd:string ;
 	geo:lat	"47.2109266 "^^xsd:decimal ;
 	geo:long	"-1.561766"^^xsd:decimal  ;
-	ex:id	 "125"^^xsd:string ;
+	pdll:id	 "125"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
-	ex:tel	 "02.40.41.95.95"^^xsd:string .
+	sc:telephone	 "02.40.41.95.95"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_ECOLE_SUPERIEURE_DES_BEAUX_ARTS_-_ESBA_-_NANTES_METROPOLE>	 foaf:name 	 "BIBLIOTHEQUE ECOLE SUPERIEURE DES BEAUX ARTS - ESBA - NANTES METROPOLE"^^xsd:string ;
-	ex:adresse	 "Place Dulcie September / angle rue Fénelon "^^xsd:string ;
+	dbpprop:location	 "Place Dulcie September / angle rue Fénelon "^^xsd:string ;
 	geo:lat	"47.2171532 "^^xsd:decimal ;
 	geo:long	"-1.55389709"^^xsd:decimal  ;
-	ex:id	 "126"^^xsd:string ;
+	pdll:id	 "126"^^xsd:string ;
 	sc:email	 "gael.ropars@esba-nantes.fr"^^xsd:string ;
-	ex:ville	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44001"^^xsd:integer ;
-	ex:tel	 "02.40.35.90.29"^^xsd:string .
+	sc:telephone	 "02.40.35.90.29"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_BREIL_MALVILLE>	 foaf:name 	 "BIBLIOTHEQUE BREIL MALVILLE"^^xsd:string ;
-	ex:adresse	 "37 bis avenue des Plantes"^^xsd:string ;
+	dbpprop:location	 "37 bis avenue des Plantes"^^xsd:string ;
 	geo:lat	"47.2329826 "^^xsd:decimal ;
 	geo:long	"-1.58614579"^^xsd:decimal  ;
-	ex:id	 "127"^^xsd:string ;
+	pdll:id	 "127"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44100"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_CHANTENAY>	 foaf:name 	 "BIBLIOTHEQUE CHANTENAY"^^xsd:string ;
-	ex:adresse	 "8 rue de la Constitution"^^xsd:string ;
+	dbpprop:location	 "8 rue de la Constitution"^^xsd:string ;
 	geo:lat	"47.2061169 "^^xsd:decimal ;
 	geo:long	"-1.5891658"^^xsd:decimal  ;
-	ex:id	 "128"^^xsd:string ;
+	pdll:id	 "128"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44100"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_LA_HALVEQUE>	 foaf:name 	 "BIBLIOTHEQUE LA HALVEQUE"^^xsd:string ;
-	ex:adresse	 "23 rue Léon-Serpolet"^^xsd:string ;
+	dbpprop:location	 "23 rue Léon-Serpolet"^^xsd:string ;
 	geo:lat	"47.2336281 "^^xsd:decimal ;
 	geo:long	"-1.5088934"^^xsd:decimal  ;
-	ex:id	 "129"^^xsd:string ;
+	pdll:id	 "129"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44300"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MANUFACTURE>	 foaf:name 	 "BIBLIOTHEQUE MANUFACTURE"^^xsd:string ;
-	ex:adresse	 "6 cours Jules-Durand"^^xsd:string ;
+	dbpprop:location	 "6 cours Jules-Durand"^^xsd:string ;
 	geo:lat	"47.2197523 "^^xsd:decimal ;
 	geo:long	"-1.537009"^^xsd:decimal  ;
-	ex:id	 "130"^^xsd:string ;
+	pdll:id	 "130"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/CENTRE_VERNIEN>	 foaf:name 	 "CENTRE VERNIEN"^^xsd:string ;
-	ex:adresse	 "3 rue de l'Hermitage"^^xsd:string ;
+	dbpprop:location	 "3 rue de l'Hermitage"^^xsd:string ;
 	geo:lat	"47.2016499 "^^xsd:decimal ;
 	geo:long	"-1.57743019"^^xsd:decimal  ;
-	ex:id	 "131"^^xsd:string ;
+	pdll:id	 "131"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_BOUTIQUE_NANTES_-_Chateau_des_Ducs_de_Bretagne>	 foaf:name 	 "LIBRAIRIE BOUTIQUE NANTES - Chateau des Ducs de Bretagne"^^xsd:string ;
-	ex:adresse	 "4 place Marc Elder"^^xsd:string ;
+	dbpprop:location	 "4 place Marc Elder"^^xsd:string ;
 	geo:lat	"47.216216 "^^xsd:decimal ;
 	geo:long	"-1.54911519"^^xsd:decimal  ;
-	ex:id	 "132"^^xsd:string ;
+	pdll:id	 "132"^^xsd:string ;
 	sc:email	 "librairie.boutique@chateau-nantes.fr"^^xsd:string ;
-	ex:ville	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
-	ex:tel	 "02.51.17.48.80"^^xsd:string .
+	sc:telephone	 "02.51.17.48.80"^^xsd:string .
 
 <http://projet.com/10/MAISON_DES_CONFLUENCES>	 foaf:name 	 "MAISON DES CONFLUENCES"^^xsd:string ;
-	ex:adresse	 "4 place du Muguet Nantais"^^xsd:string ;
+	dbpprop:location	 "4 place du Muguet Nantais"^^xsd:string ;
 	geo:lat	"47.2550769 "^^xsd:decimal ;
 	geo:long	"-1.54014219"^^xsd:decimal  ;
-	ex:id	 "133"^^xsd:string ;
+	pdll:id	 "133"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44200"^^xsd:integer ;
-	ex:tel	 "02.40.41.59.65"^^xsd:string .
+	sc:telephone	 "02.40.41.59.65"^^xsd:string .
 
 <http://projet.com/10/ESPACE_LECTURE>	 foaf:name 	 "ESPACE LECTURE"^^xsd:string ;
-	ex:adresse	 "1 bis bd Berlin"^^xsd:string ;
+	dbpprop:location	 "1 bis bd Berlin"^^xsd:string ;
 	geo:lat	"47.2164192 "^^xsd:decimal ;
 	geo:long	"-1.53541089"^^xsd:decimal  ;
-	ex:id	 "134"^^xsd:string ;
+	pdll:id	 "134"^^xsd:string ;
 	sc:email	 "espace.lecture@orange.fr"^^xsd:string ;
-	ex:ville	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
-	ex:tel	 "02.40.48.67.93"^^xsd:string .
+	sc:telephone	 "02.40.48.67.93"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_POUR_TOUS>	 foaf:name 	 "BIBLIOTHEQUE POUR TOUS"^^xsd:string ;
-	ex:adresse	 "1 rue Mathelin-Rodier"^^xsd:string ;
+	dbpprop:location	 "1 rue Mathelin-Rodier"^^xsd:string ;
 	geo:lat	"47.2167648 "^^xsd:decimal ;
 	geo:long	"-1.55034139"^^xsd:decimal  ;
-	ex:id	 "135"^^xsd:string ;
+	pdll:id	 "135"^^xsd:string ;
 	sc:email	 "cbptn@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
-	ex:tel	 "02.40.47.71.80"^^xsd:string .
+	sc:telephone	 "02.40.47.71.80"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_EMILIENNE_LEROUX>	 foaf:name 	 "BIBLIOTHEQUE EMILIENNE LEROUX"^^xsd:string ;
-	ex:adresse	 "Centre Commercial Dervallières - Rue Charles Roger"^^xsd:string ;
+	dbpprop:location	 "Centre Commercial Dervallières - Rue Charles Roger"^^xsd:string ;
 	geo:lat	"47.222766 "^^xsd:decimal ;
 	geo:long	"-1.5966488"^^xsd:decimal  ;
-	ex:id	 "136"^^xsd:string ;
+	pdll:id	 "136"^^xsd:string ;
 	sc:email	 "asso.lire@gmail.com"^^xsd:string ;
-	ex:ville	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44100"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/1001_PAGES>	 foaf:name 	 "1001 PAGES"^^xsd:string ;
-	ex:adresse	 "Maison des Associations - 478 route de St Joseph"^^xsd:string ;
+	dbpprop:location	 "Maison des Associations - 478 route de St Joseph"^^xsd:string ;
 	geo:lat	"47.2336281 "^^xsd:decimal ;
 	geo:long	"-1.5088934"^^xsd:decimal  ;
-	ex:id	 "137"^^xsd:string ;
+	pdll:id	 "137"^^xsd:string ;
 	sc:email	 "alpac.1001pages@club-internet.fr"^^xsd:string ;
-	ex:ville	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44300"^^xsd:integer ;
-	ex:tel	 "06.88.33.61.98"^^xsd:string .
+	sc:telephone	 "06.88.33.61.98"^^xsd:string .
 
 <http://projet.com/10/EXPRESSION_LIVRE>	 foaf:name 	 "EXPRESSION LIVRE"^^xsd:string ;
-	ex:adresse	 "56 rue de la Ripossière"^^xsd:string ;
+	dbpprop:location	 "56 rue de la Ripossière"^^xsd:string ;
 	geo:lat	"47.1924376 "^^xsd:decimal ;
 	geo:long	"-1.5338477"^^xsd:decimal  ;
-	ex:id	 "138"^^xsd:string ;
+	pdll:id	 "138"^^xsd:string ;
 	sc:email	 "expression.livre@sfr.fr"^^xsd:string ;
-	ex:ville	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44200"^^xsd:integer ;
-	ex:tel	 "02.40.75.37.23"^^xsd:string .
+	sc:telephone	 "02.40.75.37.23"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_FLORESCA_GUEPIN>	 foaf:name 	 "MEDIATHEQUE FLORESCA GUEPIN"^^xsd:string ;
-	ex:adresse	 "15 rue de la Haluchère"^^xsd:string ;
+	dbpprop:location	 "15 rue de la Haluchère"^^xsd:string ;
 	geo:lat	"47.2411284 "^^xsd:decimal ;
 	geo:long	"-1.5121573"^^xsd:decimal  ;
-	ex:id	 "139"^^xsd:string ;
+	pdll:id	 "139"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44300"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_JULES_VERNE>	 foaf:name 	 "BIBLIOTHEQUE JULES VERNE"^^xsd:string ;
-	ex:adresse	 "13 rue des Moulins des Carmes"^^xsd:string ;
+	dbpprop:location	 "13 rue des Moulins des Carmes"^^xsd:string ;
 	geo:lat	"47.2336281 "^^xsd:decimal ;
 	geo:long	"-1.5088934"^^xsd:decimal  ;
-	ex:id	 "140"^^xsd:string ;
+	pdll:id	 "140"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44300"^^xsd:integer ;
-	ex:tel	 "06.75.97.32.35"^^xsd:string .
+	sc:telephone	 "06.75.97.32.35"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "Rue du Général Leclerc"^^xsd:string ;
+	dbpprop:location	 "Rue du Général Leclerc"^^xsd:string ;
 	geo:lat	"47.4389252 "^^xsd:decimal ;
 	geo:long	"-1.49932749"^^xsd:decimal  ;
-	ex:id	 "141"^^xsd:string ;
+	pdll:id	 "141"^^xsd:string ;
 	sc:email	 "bibliotheque@nort-sur-erdre.fr"^^xsd:string ;
-	ex:ville	 "NORT-SUR-ERDRE"^^xsd:string ;
+	dbpprop:town	 "NORT-SUR-ERDRE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44390"^^xsd:integer ;
-	ex:tel	 "02.40.29.51.90"^^xsd:string .
+	sc:telephone	 "02.40.29.51.90"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - 13 rue Pierre Clivel"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - 13 rue Pierre Clivel"^^xsd:string ;
 	geo:lat	"47.381523 "^^xsd:decimal ;
 	geo:long	"-1.711269"^^xsd:decimal  ;
-	ex:id	 "142"^^xsd:string ;
+	pdll:id	 "142"^^xsd:string ;
 	sc:email	 "bibnotredame@gmail.com"^^xsd:string ;
-	ex:ville	 "NOTRE-DAME-DES-LANDES"^^xsd:string ;
+	dbpprop:town	 "NOTRE-DAME-DES-LANDES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44130"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE"^^xsd:string ;
-	ex:adresse	 "5 rue des Troenes"^^xsd:string ;
+	dbpprop:location	 "5 rue des Troenes"^^xsd:string ;
 	geo:lat	"47.7753772 "^^xsd:decimal ;
 	geo:long	"-1.3446043"^^xsd:decimal  ;
-	ex:id	 "143"^^xsd:string ;
+	pdll:id	 "143"^^xsd:string ;
 	sc:email	 "biblio.noyal.ccc@orange.fr"^^xsd:string ;
-	ex:ville	 "NOYAL-SUR-BRUTZ"^^xsd:string ;
+	dbpprop:town	 "NOYAL-SUR-BRUTZ"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44110"^^xsd:integer ;
-	ex:tel	 "02.40.28.09.58"^^xsd:string .
+	sc:telephone	 "02.40.28.09.58"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE_TOURNEPAGE>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE TOURNEPAGE"^^xsd:string ;
-	ex:adresse	 "21 rue Alexis Letourneau"^^xsd:string ;
+	dbpprop:location	 "21 rue Alexis Letourneau"^^xsd:string ;
 	geo:lat	"47.5644609 "^^xsd:decimal ;
 	geo:long	"-1.626621"^^xsd:decimal  ;
-	ex:id	 "144"^^xsd:string ;
+	pdll:id	 "144"^^xsd:string ;
 	sc:email	 "tournepage2@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "NOZAY"^^xsd:string ;
+	dbpprop:town	 "NOZAY"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44170"^^xsd:integer ;
-	ex:tel	 "02.40.79.31.65"^^xsd:string .
+	sc:telephone	 "02.40.79.31.65"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_ASSOCIATIVE_GEORGE_SAND>	 foaf:name 	 "BIBLIOTHEQUE ASSOCIATIVE GEORGE SAND"^^xsd:string ;
-	ex:adresse	 "2 avenue de l'Ile - Plaisance"^^xsd:string ;
+	dbpprop:location	 "2 avenue de l'Ile - Plaisance"^^xsd:string ;
 	geo:lat	"47.2401701 "^^xsd:decimal ;
 	geo:long	"-1.5913238"^^xsd:decimal  ;
-	ex:id	 "145"^^xsd:string ;
+	pdll:id	 "145"^^xsd:string ;
 	sc:email	 "accueil@collectif-plaisance.com"^^xsd:string ;
-	ex:ville	 "ORVAULT"^^xsd:string ;
+	dbpprop:town	 "ORVAULT"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44700"^^xsd:integer ;
-	ex:tel	 "02.40.76.34.80"^^xsd:string .
+	sc:telephone	 "02.40.76.34.80"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE_DE_LA_BUGALLIERE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE DE LA BUGALLIERE"^^xsd:string ;
-	ex:adresse	 "15 rue du Pont-Marchand"^^xsd:string ;
+	dbpprop:location	 "15 rue du Pont-Marchand"^^xsd:string ;
 	geo:lat	"47.2607513 "^^xsd:decimal ;
 	geo:long	"-1.631835"^^xsd:decimal  ;
-	ex:id	 "146"^^xsd:string ;
+	pdll:id	 "146"^^xsd:string ;
 	sc:email	 "reseaubibliotheques@mairie-orvault.fr"^^xsd:string ;
-	ex:ville	 "ORVAULT"^^xsd:string ;
+	dbpprop:town	 "ORVAULT"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44700"^^xsd:integer ;
-	ex:tel	 "02.40.63.54.88"^^xsd:string .
+	sc:telephone	 "02.40.63.54.88"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE_PETIT_CHANTILLY>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE PETIT CHANTILLY"^^xsd:string ;
-	ex:adresse	 "46 avenue Alexandre Goupil"^^xsd:string ;
+	dbpprop:location	 "46 avenue Alexandre Goupil"^^xsd:string ;
 	geo:lat	"47.2536546 "^^xsd:decimal ;
 	geo:long	"-1.5973953"^^xsd:decimal  ;
-	ex:id	 "147"^^xsd:string ;
+	pdll:id	 "147"^^xsd:string ;
 	sc:email	 "reseaubibliotheques@mairie-orvault.fr"^^xsd:string ;
-	ex:ville	 "ORVAULT"^^xsd:string ;
+	dbpprop:town	 "ORVAULT"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44700"^^xsd:integer ;
-	ex:tel	 "02.40.63.97.95"^^xsd:string .
+	sc:telephone	 "02.40.63.97.95"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "72 rue Alphonse Fouschard"^^xsd:string ;
+	dbpprop:location	 "72 rue Alphonse Fouschard"^^xsd:string ;
 	geo:lat	"47.34599619 "^^xsd:decimal ;
 	geo:long	"-1.2869829"^^xsd:decimal  ;
-	ex:id	 "148"^^xsd:string ;
+	pdll:id	 "148"^^xsd:string ;
 	sc:email	 "bibliotheque@oudon.fr"^^xsd:string ;
-	ex:ville	 "OUDON"^^xsd:string ;
+	dbpprop:town	 "OUDON"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44521"^^xsd:integer ;
-	ex:tel	 "02.40.83.61.95"^^xsd:string .
+	sc:telephone	 "02.40.83.61.95"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_POUR_TOUS>	 foaf:name 	 "BIBLIOTHEQUE POUR TOUS"^^xsd:string ;
-	ex:adresse	 "66 rue du Général de Gaulle"^^xsd:string ;
+	dbpprop:location	 "66 rue du Général de Gaulle"^^xsd:string ;
 	geo:lat	"47.2896793 "^^xsd:decimal ;
 	geo:long	"-2.0307252"^^xsd:decimal  ;
-	ex:id	 "149"^^xsd:string ;
+	pdll:id	 "149"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "PAIMBOEUF"^^xsd:string ;
+	dbpprop:town	 "PAIMBOEUF"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44560"^^xsd:integer ;
-	ex:tel	 "02.40.39.62.01"^^xsd:string .
+	sc:telephone	 "02.40.39.62.01"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_BOUILLONS_DE_LECTURE>	 foaf:name 	 "BIBLIOTHEQUE BOUILLONS DE LECTURE"^^xsd:string ;
-	ex:adresse	 "235 rue du Stade"^^xsd:string ;
+	dbpprop:location	 "235 rue du Stade"^^xsd:string ;
 	geo:lat	"47.4902402 "^^xsd:decimal ;
 	geo:long	"-1.23114689"^^xsd:decimal  ;
-	ex:id	 "150"^^xsd:string ;
+	pdll:id	 "150"^^xsd:string ;
 	sc:email	 "bibliotheque.pannece@orange.fr"^^xsd:string ;
-	ex:ville	 "PANNECE"^^xsd:string ;
+	dbpprop:town	 "PANNECE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44440"^^xsd:integer ;
-	ex:tel	 "02.40.97.54.63"^^xsd:string .
+	sc:telephone	 "02.40.97.54.63"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_BIBLIO-REVE_>	 foaf:name 	 "BIBLIOTHEQUE BIBLIO-REVE "^^xsd:string ;
-	ex:adresse	 "9 rue du Pavillon"^^xsd:string ;
+	dbpprop:location	 "9 rue du Pavillon"^^xsd:string ;
 	geo:lat	"46.961182 "^^xsd:decimal ;
 	geo:long	"-1.75705019"^^xsd:decimal  ;
-	ex:id	 "151"^^xsd:string ;
+	pdll:id	 "151"^^xsd:string ;
 	sc:email	 "mairiedepaulx@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "PAULX"^^xsd:string ;
+	dbpprop:town	 "PAULX"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44270"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE - 8 rue de la Mairie"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - 8 rue de la Mairie"^^xsd:string ;
 	geo:lat	"47.6105454 "^^xsd:decimal ;
 	geo:long	"-1.2908875"^^xsd:decimal  ;
-	ex:id	 "152"^^xsd:string ;
+	pdll:id	 "152"^^xsd:string ;
 	sc:email	 "bib.petitauverne.ccc@orange.fr"^^xsd:string ;
-	ex:ville	 "PETIT-AUVERNE"^^xsd:string ;
+	dbpprop:town	 "PETIT-AUVERNE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44670"^^xsd:integer ;
-	ex:tel	 "02.40.07.79.76"^^xsd:string .
+	sc:telephone	 "02.40.07.79.76"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "Centre René Cassin - Route de Nort sur Erdre"^^xsd:string ;
+	dbpprop:location	 "Centre René Cassin - Route de Nort sur Erdre"^^xsd:string ;
 	geo:lat	"47.3997368 "^^xsd:decimal ;
 	geo:long	"-1.4554309"^^xsd:decimal  ;
-	ex:id	 "153"^^xsd:string ;
+	pdll:id	 "153"^^xsd:string ;
 	sc:email	 "bibliotheque@petitmars.fr"^^xsd:string ;
-	ex:ville	 "PETIT-MARS"^^xsd:string ;
+	dbpprop:town	 "PETIT-MARS"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44390"^^xsd:integer ;
-	ex:tel	 "02.51.12.67.96"^^xsd:string .
+	sc:telephone	 "02.51.12.67.96"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE - 1 place de la Mairie"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - 1 place de la Mairie"^^xsd:string ;
 	geo:lat	"47.6878557 "^^xsd:decimal ;
 	geo:long	"-1.7353564"^^xsd:decimal  ;
-	ex:id	 "154"^^xsd:string ;
+	pdll:id	 "154"^^xsd:string ;
 	sc:email	 "bibliotheque.pierric@orange.fr"^^xsd:string ;
-	ex:ville	 "PIERRIC"^^xsd:string ;
+	dbpprop:town	 "PIERRIC"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44290"^^xsd:integer ;
-	ex:tel	 "02.40.28.94.86"^^xsd:string .
+	sc:telephone	 "02.40.28.94.86"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_POUR_TOUS>	 foaf:name 	 "BIBLIOTHEQUE POUR TOUS"^^xsd:string ;
-	ex:adresse	 "9 rue de la Mairie"^^xsd:string ;
+	dbpprop:location	 "9 rue de la Mairie"^^xsd:string ;
 	geo:lat	"47.380007 "^^xsd:decimal ;
 	geo:long	"-2.5447209"^^xsd:decimal  ;
-	ex:id	 "155"^^xsd:string ;
+	pdll:id	 "155"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "PIRIAC-SUR-MER"^^xsd:string ;
+	dbpprop:town	 "PIRIAC-SUR-MER"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44420"^^xsd:integer ;
-	ex:tel	 "02.40.15.50.72"^^xsd:string .
+	sc:telephone	 "02.40.15.50.72"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_LES_FABLES_DE_LA_FONTAINE>	 foaf:name 	 "BIBLIOTHEQUE LES FABLES DE LA FONTAINE"^^xsd:string ;
-	ex:adresse	 "1 rue du calvaire - Le dresny"^^xsd:string ;
+	dbpprop:location	 "1 rue du calvaire - Le dresny"^^xsd:string ;
 	geo:lat	"47.56626809 "^^xsd:decimal ;
 	geo:long	"-1.9376409"^^xsd:decimal  ;
-	ex:id	 "156"^^xsd:string ;
+	pdll:id	 "156"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "PLESSE"^^xsd:string ;
+	dbpprop:town	 "PLESSE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44630"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_LE_JARDIN_DES_LIVRES>	 foaf:name 	 "BIBLIOTHEQUE LE JARDIN DES LIVRES"^^xsd:string ;
-	ex:adresse	 "Mairie Le Coudray"^^xsd:string ;
+	dbpprop:location	 "Mairie Le Coudray"^^xsd:string ;
 	geo:lat	"47.557796 "^^xsd:decimal ;
 	geo:long	"-1.8382839"^^xsd:decimal  ;
-	ex:id	 "157"^^xsd:string ;
+	pdll:id	 "157"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "PLESSE"^^xsd:string ;
+	dbpprop:town	 "PLESSE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44630"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MICHEL_MANOLL>	 foaf:name 	 "BIBLIOTHEQUE MICHEL MANOLL"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - 1 rue Jules Verne"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - 1 rue Jules Verne"^^xsd:string ;
 	geo:lat	"47.542374 "^^xsd:decimal ;
 	geo:long	"-1.884544"^^xsd:decimal  ;
-	ex:id	 "158"^^xsd:string ;
+	pdll:id	 "158"^^xsd:string ;
 	sc:email	 "bibliotheque.manoll@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "PLESSE"^^xsd:string ;
+	dbpprop:town	 "PLESSE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44630"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - Rue de la Mairie"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - Rue de la Mairie"^^xsd:string ;
 	geo:lat	"47.1239261 "^^xsd:decimal ;
 	geo:long	"-1.58325469"^^xsd:decimal  ;
-	ex:id	 "159"^^xsd:string ;
+	pdll:id	 "159"^^xsd:string ;
 	sc:email	 "bibliotheque@mairie-pontsaintmartin.fr"^^xsd:string ;
-	ex:ville	 "PONT-SAINT-MARTIN"^^xsd:string ;
+	dbpprop:town	 "PONT-SAINT-MARTIN"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44860"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE_-_Centre_Culturel>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE - Centre Culturel"^^xsd:string ;
-	ex:adresse	 "10 rue Toulifaut"^^xsd:string ;
+	dbpprop:location	 "10 rue Toulifaut"^^xsd:string ;
 	geo:lat	"47.4373854 "^^xsd:decimal ;
 	geo:long	"-2.0892237"^^xsd:decimal  ;
-	ex:id	 "160"^^xsd:string ;
+	pdll:id	 "160"^^xsd:string ;
 	sc:email	 "biblio.pontchateau@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "PONTCHATEAU"^^xsd:string ;
+	dbpprop:town	 "PONTCHATEAU"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44160"^^xsd:integer ;
-	ex:tel	 "02.40.01.67.17"^^xsd:string .
+	sc:telephone	 "02.40.01.67.17"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_ARMEL_DE_WISMES>	 foaf:name 	 "MEDIATHEQUE ARMEL DE WISMES"^^xsd:string ;
-	ex:adresse	 "35 rue Tartifume"^^xsd:string ;
+	dbpprop:location	 "35 rue Tartifume"^^xsd:string ;
 	geo:lat	"47.11656079 "^^xsd:decimal ;
 	geo:long	"-2.10131909"^^xsd:decimal  ;
-	ex:id	 "161"^^xsd:string ;
+	pdll:id	 "161"^^xsd:string ;
 	sc:email	 "contact@mediatheque-pornic.fr"^^xsd:string ;
-	ex:ville	 "PORNIC"^^xsd:string ;
+	dbpprop:town	 "PORNIC"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44210"^^xsd:integer ;
-	ex:tel	 "02.40.82.65.90"^^xsd:string .
+	sc:telephone	 "02.40.82.65.90"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE>	 foaf:name 	 "MEDIATHEQUE"^^xsd:string ;
-	ex:adresse	 "Place du Marché"^^xsd:string ;
+	dbpprop:location	 "Place du Marché"^^xsd:string ;
 	geo:lat	"47.263426 "^^xsd:decimal ;
 	geo:long	"-2.3405709"^^xsd:decimal  ;
-	ex:id	 "162"^^xsd:string ;
+	pdll:id	 "162"^^xsd:string ;
 	sc:email	 "mediatheque@mairie-pornichet.fr"^^xsd:string ;
-	ex:ville	 "PORNICHET"^^xsd:string ;
+	dbpprop:town	 "PORNICHET"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44380"^^xsd:integer ;
-	ex:tel	 "02.51.73.22.22"^^xsd:string .
+	sc:telephone	 "02.51.73.22.22"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "MAIRIE - 13 rue de Pornic"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - 13 rue de Pornic"^^xsd:string ;
 	geo:lat	"47.1334418 "^^xsd:decimal ;
 	geo:long	"-1.74936609"^^xsd:decimal  ;
-	ex:id	 "163"^^xsd:string ;
+	pdll:id	 "163"^^xsd:string ;
 	sc:email	 "bibliotheque@port-saint-pere.fr"^^xsd:string ;
-	ex:ville	 "PORT-SAINT-PERE"^^xsd:string ;
+	dbpprop:town	 "PORT-SAINT-PERE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44710"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "176 rue de la Mairie"^^xsd:string ;
+	dbpprop:location	 "176 rue de la Mairie"^^xsd:string ;
 	geo:lat	"47.4556512 "^^xsd:decimal ;
 	geo:long	"-1.1629305"^^xsd:decimal  ;
-	ex:id	 "164"^^xsd:string ;
+	pdll:id	 "164"^^xsd:string ;
 	sc:email	 "pouillelescoteaux.biblio@orange.fr"^^xsd:string ;
-	ex:ville	 "POUILLE-LES-COTEAUX"^^xsd:string ;
+	dbpprop:town	 "POUILLE-LES-COTEAUX"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44522"^^xsd:integer ;
-	ex:tel	 "02.40.32.79.27"^^xsd:string .
+	sc:telephone	 "02.40.32.79.27"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE - Rue de la Gagnerie"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - Rue de la Gagnerie"^^xsd:string ;
 	geo:lat	"47.36258249 "^^xsd:decimal ;
 	geo:long	"-2.01425169"^^xsd:decimal  ;
-	ex:id	 "165"^^xsd:string ;
+	pdll:id	 "165"^^xsd:string ;
 	sc:email	 "bibliotheque.prinquiau@orange.fr"^^xsd:string ;
-	ex:ville	 "PRINQUIAU"^^xsd:string ;
+	dbpprop:town	 "PRINQUIAU"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44260"^^xsd:integer ;
-	ex:tel	 "02.28.01.76.72"^^xsd:string .
+	sc:telephone	 "02.28.01.76.72"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE_AU_PUITS_DU_LIVRE>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE AU PUITS DU LIVRE"^^xsd:string ;
-	ex:adresse	 "Mairie"^^xsd:string ;
+	dbpprop:location	 "Mairie"^^xsd:string ;
 	geo:lat	"47.521447 "^^xsd:decimal ;
 	geo:long	"-1.6196069"^^xsd:decimal  ;
-	ex:id	 "166"^^xsd:string ;
+	pdll:id	 "166"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "PUCEUL"^^xsd:string ;
+	dbpprop:town	 "PUCEUL"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44390"^^xsd:integer ;
-	ex:tel	 "02.40.79.28.12"^^xsd:string .
+	sc:telephone	 "02.40.79.28.12"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - Le Bourg"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - Le Bourg"^^xsd:string ;
 	geo:lat	"47.460783 "^^xsd:decimal ;
 	geo:long	"-1.951495"^^xsd:decimal  ;
-	ex:id	 "167"^^xsd:string ;
+	pdll:id	 "167"^^xsd:string ;
 	sc:email	 "bibliothequedequilly@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "QUILLY"^^xsd:string ;
+	dbpprop:town	 "QUILLY"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44750"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_D'UN_LIVRE_A_L'AUTRE>	 foaf:name 	 "BIBLIOTHEQUE D'UN LIVRE A L'AUTRE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - 4 rue Gilles Delahaye"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - 4 rue Gilles Delahaye"^^xsd:string ;
 	geo:lat	"47.0567547 "^^xsd:decimal ;
 	geo:long	"-1.3775729"^^xsd:decimal  ;
-	ex:id	 "168"^^xsd:string ;
+	pdll:id	 "168"^^xsd:string ;
 	sc:email	 "bibliothequeremouille@orange.fr"^^xsd:string ;
-	ex:ville	 "REMOUILLE"^^xsd:string ;
+	dbpprop:town	 "REMOUILLE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44140"^^xsd:integer ;
-	ex:tel	 "02.40.34.46.57"^^xsd:string .
+	sc:telephone	 "02.40.34.46.57"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_ESPACE_DIDEROT>	 foaf:name 	 "MEDIATHEQUE ESPACE DIDEROT"^^xsd:string ;
-	ex:adresse	 "8 place Le Meut"^^xsd:string ;
+	dbpprop:location	 "8 place Le Meut"^^xsd:string ;
 	geo:lat	"47.18416149 "^^xsd:decimal ;
 	geo:long	"-1.5621639"^^xsd:decimal  ;
-	ex:id	 "169"^^xsd:string ;
+	pdll:id	 "169"^^xsd:string ;
 	sc:email	 "bibliotheques@mairie-reze.fr"^^xsd:string ;
-	ex:ville	 "REZE"^^xsd:string ;
+	dbpprop:town	 "REZE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44400"^^xsd:integer ;
-	ex:tel	 "02.40.04.05.37"^^xsd:string .
+	sc:telephone	 "02.40.04.05.37"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_NOELLE>	 foaf:name 	 "BIBLIOTHEQUE NOELLE"^^xsd:string ;
-	ex:adresse	 "6 square Emile Blandin"^^xsd:string ;
+	dbpprop:location	 "6 square Emile Blandin"^^xsd:string ;
 	geo:lat	"47.1765486 "^^xsd:decimal ;
 	geo:long	"-1.53484579"^^xsd:decimal  ;
-	ex:id	 "170"^^xsd:string ;
+	pdll:id	 "170"^^xsd:string ;
 	sc:email	 "bibliotheque@mairie-reze.fr"^^xsd:string ;
-	ex:ville	 "REZE"^^xsd:string ;
+	dbpprop:town	 "REZE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44400"^^xsd:integer ;
-	ex:tel	 "02.40.04.05.49"^^xsd:string .
+	sc:telephone	 "02.40.04.05.49"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_L'ORANGE_BLEUE>	 foaf:name 	 "BIBLIOTHEQUE L'ORANGE BLEUE"^^xsd:string ;
-	ex:adresse	 "Rue du Cèdre"^^xsd:string ;
+	dbpprop:location	 "Rue du Cèdre"^^xsd:string ;
 	geo:lat	"47.5177517 "^^xsd:decimal ;
 	geo:long	"-1.2947001"^^xsd:decimal  ;
-	ex:id	 "171"^^xsd:string ;
+	pdll:id	 "171"^^xsd:string ;
 	sc:email	 "bibliotheque.riaille@orange.fr"^^xsd:string ;
-	ex:ville	 "RIAILLE"^^xsd:string ;
+	dbpprop:town	 "RIAILLE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44440"^^xsd:integer ;
-	ex:tel	 "02.40.97.85.92"^^xsd:string .
+	sc:telephone	 "02.40.97.85.92"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - Place de la Poste"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - Place de la Poste"^^xsd:string ;
 	geo:lat	"47.1856708 "^^xsd:decimal ;
 	geo:long	"-1.858719"^^xsd:decimal  ;
-	ex:id	 "172"^^xsd:string ;
+	pdll:id	 "172"^^xsd:string ;
 	sc:email	 "rouans.bibliotheque@orange.fr"^^xsd:string ;
-	ex:ville	 "ROUANS"^^xsd:string ;
+	dbpprop:town	 "ROUANS"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44640"^^xsd:integer ;
-	ex:tel	 "02.40.64.28.42"^^xsd:string .
+	sc:telephone	 "02.40.64.28.42"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE"^^xsd:string ;
-	ex:adresse	 "Place du Révérend Père Barat"^^xsd:string ;
+	dbpprop:location	 "Place du Révérend Père Barat"^^xsd:string ;
 	geo:lat	"47.783956 "^^xsd:decimal ;
 	geo:long	"-1.4501259"^^xsd:decimal  ;
-	ex:id	 "173"^^xsd:string ;
+	pdll:id	 "173"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "ROUGE"^^xsd:string ;
+	dbpprop:town	 "ROUGE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44660"^^xsd:integer ;
-	ex:tel	 "02.40.28.70.30"^^xsd:string .
+	sc:telephone	 "02.40.28.70.30"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE"^^xsd:string ;
-	ex:adresse	 "8 rue des Jonquilles"^^xsd:string ;
+	dbpprop:location	 "8 rue des Jonquilles"^^xsd:string ;
 	geo:lat	"47.7567299 "^^xsd:decimal ;
 	geo:long	"-1.493418"^^xsd:decimal  ;
-	ex:id	 "174"^^xsd:string ;
+	pdll:id	 "174"^^xsd:string ;
 	sc:email	 "biblio.ruffigne.ccc@orange.fr"^^xsd:string ;
-	ex:ville	 "RUFFIGNE"^^xsd:string ;
+	dbpprop:town	 "RUFFIGNE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44660"^^xsd:integer ;
-	ex:tel	 "02.40.28.00.81"^^xsd:string .
+	sc:telephone	 "02.40.28.00.81"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE_SAFFRE-LIRE>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE SAFFRE-LIRE"^^xsd:string ;
-	ex:adresse	 "1 place du Séquoïa"^^xsd:string ;
+	dbpprop:location	 "1 place du Séquoïa"^^xsd:string ;
 	geo:lat	"47.50117 "^^xsd:decimal ;
 	geo:long	"-1.575718"^^xsd:decimal  ;
-	ex:id	 "175"^^xsd:string ;
+	pdll:id	 "175"^^xsd:string ;
 	sc:email	 "bibliotheque.saffre@orange.fr"^^xsd:string ;
-	ex:ville	 "SAFFRE"^^xsd:string ;
+	dbpprop:town	 "SAFFRE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44390"^^xsd:integer ;
-	ex:tel	 "02.51.81.56.62"^^xsd:string .
+	sc:telephone	 "02.51.81.56.62"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_LE_JARDIN_DE_LECTURE>	 foaf:name 	 "MEDIATHEQUE LE JARDIN DE LECTURE"^^xsd:string ;
-	ex:adresse	 "39 rue des Frères Rousseau"^^xsd:string ;
+	dbpprop:location	 "39 rue des Frères Rousseau"^^xsd:string ;
 	geo:lat	"47.1237111 "^^xsd:decimal ;
 	geo:long	"-1.63073259"^^xsd:decimal  ;
-	ex:id	 "176"^^xsd:string ;
+	pdll:id	 "176"^^xsd:string ;
 	sc:email	 "bibliotheque@mairie-st-aignan-grandlieu.fr"^^xsd:string ;
-	ex:ville	 "SAINT-AIGNAN-GRANDLIEU"^^xsd:string ;
+	dbpprop:town	 "SAINT-AIGNAN-GRANDLIEU"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44860"^^xsd:integer ;
-	ex:tel	 "02.40.26.44.55"^^xsd:string .
+	sc:telephone	 "02.40.26.44.55"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "MAIRIE - 5 place de la Mairie"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - 5 place de la Mairie"^^xsd:string ;
 	geo:lat	"47.3136241 "^^xsd:decimal ;
 	geo:long	"-2.31131279"^^xsd:decimal  ;
-	ex:id	 "177"^^xsd:string ;
+	pdll:id	 "177"^^xsd:string ;
 	sc:email	 "bibliotheque.standre@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "SAINT-ANDRE-DES-EAUX"^^xsd:string ;
+	dbpprop:town	 "SAINT-ANDRE-DES-EAUX"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44117"^^xsd:integer ;
-	ex:tel	 "02.51.10.62.64"^^xsd:string .
+	sc:telephone	 "02.51.10.62.64"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE"^^xsd:string ;
-	ex:adresse	 "2 place de l'Eglise"^^xsd:string ;
+	dbpprop:location	 "2 place de l'Eglise"^^xsd:string ;
 	geo:lat	"47.71916909 "^^xsd:decimal ;
 	geo:long	"-1.4853315"^^xsd:decimal  ;
-	ex:id	 "178"^^xsd:string ;
+	pdll:id	 "178"^^xsd:string ;
 	sc:email	 "biblio.aubin.ccc@orange.fr"^^xsd:string ;
-	ex:ville	 "SAINT-AUBIN-DES-CHATEAUX"^^xsd:string ;
+	dbpprop:town	 "SAINT-AUBIN-DES-CHATEAUX"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44110"^^xsd:integer ;
-	ex:tel	 "02.40.28.27.73"^^xsd:string .
+	sc:telephone	 "02.40.28.27.73"^^xsd:string .
 
 <http://projet.com/10/ESPACE_JULES_VERNE>	 foaf:name 	 "ESPACE JULES VERNE"^^xsd:string ;
-	ex:adresse	 "30 avenue Jules Verne"^^xsd:string ;
+	dbpprop:location	 "30 avenue Jules Verne"^^xsd:string ;
 	geo:lat	"47.246705 "^^xsd:decimal ;
 	geo:long	"-2.1685724"^^xsd:decimal  ;
-	ex:id	 "179"^^xsd:string ;
+	pdll:id	 "179"^^xsd:string ;
 	sc:email	 "mediathequesaintbrevin@orange.fr"^^xsd:string ;
-	ex:ville	 "SAINT-BREVIN-LES-PINS"^^xsd:string ;
+	dbpprop:town	 "SAINT-BREVIN-LES-PINS"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44250"^^xsd:integer ;
-	ex:tel	 "02.40.27.45.80"^^xsd:string .
+	sc:telephone	 "02.40.27.45.80"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_ST_CO_LECTURE>	 foaf:name 	 "BIBLIOTHEQUE ST CO LECTURE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - Rue de l'Hôtel de Ville"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - Rue de l'Hôtel de Ville"^^xsd:string ;
 	geo:lat	"47.010894 "^^xsd:decimal ;
 	geo:long	"-1.5825147"^^xsd:decimal  ;
-	ex:id	 "180"^^xsd:string ;
+	pdll:id	 "180"^^xsd:string ;
 	sc:email	 "saint_co_lecture@yahoo.fr"^^xsd:string ;
-	ex:ville	 "SAINT-COLOMBAN"^^xsd:string ;
+	dbpprop:town	 "SAINT-COLOMBAN"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44310"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - 6 rue de Nantes"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - 6 rue de Nantes"^^xsd:string ;
 	geo:lat	"46.9296589 "^^xsd:decimal ;
 	geo:long	"-1.7429127"^^xsd:decimal  ;
-	ex:id	 "181"^^xsd:string ;
+	pdll:id	 "181"^^xsd:string ;
 	sc:email	 "mairie-st-etienne-de-mer-morte@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "SAINT-ETIENNE-DE-MER-MORTE"^^xsd:string ;
+	dbpprop:town	 "SAINT-ETIENNE-DE-MER-MORTE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44270"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "3 rue de la Paix"^^xsd:string ;
+	dbpprop:location	 "3 rue de la Paix"^^xsd:string ;
 	geo:lat	"47.2747749 "^^xsd:decimal ;
 	geo:long	"-1.7812807"^^xsd:decimal  ;
-	ex:id	 "182"^^xsd:string ;
+	pdll:id	 "182"^^xsd:string ;
 	sc:email	 "bibliotheque.daniele.duthille@st-etienne-montluc.fr"^^xsd:string ;
-	ex:ville	 "SAINT-ETIENNE-DE-MONTLUC"^^xsd:string ;
+	dbpprop:town	 "SAINT-ETIENNE-DE-MONTLUC"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44360"^^xsd:integer ;
-	ex:tel	 "02.40.86.97.35"^^xsd:string .
+	sc:telephone	 "02.40.86.97.35"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE"^^xsd:string ;
-	ex:adresse	 "17 rue des Forges"^^xsd:string ;
+	dbpprop:location	 "17 rue des Forges"^^xsd:string ;
 	geo:lat	"47.51246889 "^^xsd:decimal ;
 	geo:long	"-2.03894509"^^xsd:decimal  ;
-	ex:id	 "183"^^xsd:string ;
+	pdll:id	 "183"^^xsd:string ;
 	sc:email	 "bibliotheque.stgildas@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "SAINT-GILDAS-DES-BOIS"^^xsd:string ;
+	dbpprop:town	 "SAINT-GILDAS-DES-BOIS"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44530"^^xsd:integer ;
-	ex:tel	 "02.40.66.74.64"^^xsd:string .
+	sc:telephone	 "02.40.66.74.64"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_HERMELAND>	 foaf:name 	 "MEDIATHEQUE HERMELAND"^^xsd:string ;
-	ex:adresse	 "Rue François Rabelais"^^xsd:string ;
+	dbpprop:location	 "Rue François Rabelais"^^xsd:string ;
 	geo:lat	"47.2306 "^^xsd:decimal ;
 	geo:long	"-1.61432049"^^xsd:decimal  ;
-	ex:id	 "184"^^xsd:string ;
+	pdll:id	 "184"^^xsd:string ;
 	sc:email	 "la-bibliotheque@saint-herblain.fr"^^xsd:string ;
-	ex:ville	 "SAINT-HERBLAIN"^^xsd:string ;
+	dbpprop:town	 "SAINT-HERBLAIN"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44800"^^xsd:integer ;
-	ex:tel	 "02.28.25.25.25"^^xsd:string .
+	sc:telephone	 "02.28.25.25.25"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE__MAISON_DES_ARTS>	 foaf:name 	 "BIBLIOTHEQUE  MAISON DES ARTS"^^xsd:string ;
-	ex:adresse	 "26 rue de Saint-Nazaire"^^xsd:string ;
+	dbpprop:location	 "26 rue de Saint-Nazaire"^^xsd:string ;
 	geo:lat	"47.2115318 "^^xsd:decimal ;
 	geo:long	"-1.6146638"^^xsd:decimal  ;
-	ex:id	 "185"^^xsd:string ;
+	pdll:id	 "185"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "SAINT-HERBLAIN"^^xsd:string ;
+	dbpprop:town	 "SAINT-HERBLAIN"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44800"^^xsd:integer ;
-	ex:tel	 "02.28.25.25.52"^^xsd:string .
+	sc:telephone	 "02.28.25.25.52"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_RECRE_A_LIRE>	 foaf:name 	 "BIBLIOTHEQUE RECRE A LIRE"^^xsd:string ;
-	ex:adresse	 "2 Impasse des Magnolias"^^xsd:string ;
+	dbpprop:location	 "2 Impasse des Magnolias"^^xsd:string ;
 	geo:lat	"47.408564 "^^xsd:decimal ;
 	geo:long	"-1.0978489"^^xsd:decimal  ;
-	ex:id	 "186"^^xsd:string ;
+	pdll:id	 "186"^^xsd:string ;
 	sc:email	 "bibliothequestherblon@orange.fr"^^xsd:string ;
-	ex:ville	 "SAINT-HERBLON"^^xsd:string ;
+	dbpprop:town	 "SAINT-HERBLON"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44150"^^xsd:integer ;
-	ex:tel	 "02.40.09.64.38"^^xsd:string .
+	sc:telephone	 "02.40.09.64.38"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "3 bis rue de la Bonne Fontaine"^^xsd:string ;
+	dbpprop:location	 "3 bis rue de la Bonne Fontaine"^^xsd:string ;
 	geo:lat	"47.1013189 "^^xsd:decimal ;
 	geo:long	"-1.865216"^^xsd:decimal  ;
-	ex:id	 "187"^^xsd:string ;
+	pdll:id	 "187"^^xsd:string ;
 	sc:email	 "bm@shc44.fr"^^xsd:string ;
-	ex:ville	 "SAINT-HILAIRE-DE-CHALEONS"^^xsd:string ;
+	dbpprop:town	 "SAINT-HILAIRE-DE-CHALEONS"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44680"^^xsd:integer ;
-	ex:tel	 "02.40.31.73.30"^^xsd:string .
+	sc:telephone	 "02.40.31.73.30"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "2 rue de la Vergnaie"^^xsd:string ;
+	dbpprop:location	 "2 rue de la Vergnaie"^^xsd:string ;
 	geo:lat	"47.063592 "^^xsd:decimal ;
 	geo:long	"-1.3053296"^^xsd:decimal  ;
-	ex:id	 "188"^^xsd:string ;
+	pdll:id	 "188"^^xsd:string ;
 	sc:email	 "mairie.biblio.hcl@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "SAINT-HILAIRE-DE-CLISSON"^^xsd:string ;
+	dbpprop:town	 "SAINT-HILAIRE-DE-CLISSON"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44190"^^xsd:integer ;
-	ex:tel	 "02.40.54.35.13"^^xsd:string .
+	sc:telephone	 "02.40.54.35.13"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - Avenue du 11 Novembre"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - Avenue du 11 Novembre"^^xsd:string ;
 	geo:lat	"47.194563 "^^xsd:decimal ;
 	geo:long	"-1.724828"^^xsd:decimal  ;
-	ex:id	 "189"^^xsd:string ;
+	pdll:id	 "189"^^xsd:string ;
 	sc:email	 "mediatheque@mairie-saint-jean-de-boiseau.fr"^^xsd:string ;
-	ex:ville	 "SAINT-JEAN-DE-BOISEAU"^^xsd:string ;
+	dbpprop:town	 "SAINT-JEAN-DE-BOISEAU"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44640"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_LOUISE_MICHEL>	 foaf:name 	 "BIBLIOTHEQUE LOUISE MICHEL"^^xsd:string ;
-	ex:adresse	 "77 rue Joliot Curie"^^xsd:string ;
+	dbpprop:location	 "77 rue Joliot Curie"^^xsd:string ;
 	geo:lat	"47.38444339 "^^xsd:decimal ;
 	geo:long	"-2.20228959"^^xsd:decimal  ;
-	ex:id	 "190"^^xsd:string ;
+	pdll:id	 "190"^^xsd:string ;
 	sc:email	 "bibliotheque@saint-joachim.fr"^^xsd:string ;
-	ex:ville	 "SAINT-JOACHIM"^^xsd:string ;
+	dbpprop:town	 "SAINT-JOACHIM"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44720"^^xsd:integer ;
-	ex:tel	 "02.40.61.69.22"^^xsd:string .
+	sc:telephone	 "02.40.61.69.22"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_LE_PASSE_MURAILLE>	 foaf:name 	 "MEDIATHEQUE LE PASSE MURAILLE"^^xsd:string ;
-	ex:adresse	 "5 rue des Heurthauds"^^xsd:string ;
+	dbpprop:location	 "5 rue des Heurthauds"^^xsd:string ;
 	geo:lat	"47.253071 "^^xsd:decimal ;
 	geo:long	"-1.3861996"^^xsd:decimal  ;
-	ex:id	 "191"^^xsd:string ;
+	pdll:id	 "191"^^xsd:string ;
 	sc:email	 "lepassemuraille.mediatheque@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "SAINT-JULIEN-DE-CONCELLES"^^xsd:string ;
+	dbpprop:town	 "SAINT-JULIEN-DE-CONCELLES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44450"^^xsd:integer ;
-	ex:tel	 "02.40.36.50.00"^^xsd:string .
+	sc:telephone	 "02.40.36.50.00"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - 48 rue de la Libération"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - 48 rue de la Libération"^^xsd:string ;
 	geo:lat	"47.6422701 "^^xsd:decimal ;
 	geo:long	"-1.24122239"^^xsd:decimal  ;
-	ex:id	 "192"^^xsd:string ;
+	pdll:id	 "192"^^xsd:string ;
 	sc:email	 "stjuliendevouvantes@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "SAINT-JULIEN-DE-VOUVANTES"^^xsd:string ;
+	dbpprop:town	 "SAINT-JULIEN-DE-VOUVANTES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44670"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - 4 rue de Nantes"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - 4 rue de Nantes"^^xsd:string ;
 	geo:lat	"47.1356876 "^^xsd:decimal ;
 	geo:long	"-1.730903"^^xsd:decimal  ;
-	ex:id	 "193"^^xsd:string ;
+	pdll:id	 "193"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "SAINT-LEGER-LES-VIGNES"^^xsd:string ;
+	dbpprop:town	 "SAINT-LEGER-LES-VIGNES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44710"^^xsd:integer ;
-	ex:tel	 "02.40.34.97.11"^^xsd:string .
+	sc:telephone	 "02.40.34.97.11"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - Route de Clisson"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - Route de Clisson"^^xsd:string ;
 	geo:lat	"47.0860498 "^^xsd:decimal ;
 	geo:long	"-1.33247319"^^xsd:decimal  ;
-	ex:id	 "194"^^xsd:string ;
+	pdll:id	 "194"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "SAINT-LUMINE-DE-CLISSON"^^xsd:string ;
+	dbpprop:town	 "SAINT-LUMINE-DE-CLISSON"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44190"^^xsd:integer ;
-	ex:tel	 "02.28.21.51.95"^^xsd:string .
+	sc:telephone	 "02.28.21.51.95"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_LE_POT_A_MOTS_>	 foaf:name 	 "BIBLIOTHEQUE LE POT A MOTS "^^xsd:string ;
-	ex:adresse	 "Place Notre Dame du Chatelier"^^xsd:string ;
+	dbpprop:location	 "Place Notre Dame du Chatelier"^^xsd:string ;
 	geo:lat	"47.055317 "^^xsd:decimal ;
 	geo:long	"-1.726531"^^xsd:decimal  ;
-	ex:id	 "195"^^xsd:string ;
+	pdll:id	 "195"^^xsd:string ;
 	sc:email	 "bibliotheque.stlumine@orange.fr"^^xsd:string ;
-	ex:ville	 "SAINT-LUMINE-DE-COUTAIS"^^xsd:string ;
+	dbpprop:town	 "SAINT-LUMINE-DE-COUTAIS"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44310"^^xsd:integer ;
-	ex:tel	 "02.40.02.94.56"^^xsd:string .
+	sc:telephone	 "02.40.02.94.56"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_POUR_TOUS>	 foaf:name 	 "BIBLIOTHEQUE POUR TOUS"^^xsd:string ;
-	ex:adresse	 "Espace Eugène Legal - 2 rue Kerio"^^xsd:string ;
+	dbpprop:location	 "Espace Eugène Legal - 2 rue Kerio"^^xsd:string ;
 	geo:lat	"47.3972996 "^^xsd:decimal ;
 	geo:long	"-2.3093562"^^xsd:decimal  ;
-	ex:id	 "196"^^xsd:string ;
+	pdll:id	 "196"^^xsd:string ;
 	sc:email	 "cbptstlyph@orange.fr"^^xsd:string ;
-	ex:ville	 "SAINT-LYPHARD"^^xsd:string ;
+	dbpprop:town	 "SAINT-LYPHARD"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44410"^^xsd:integer ;
-	ex:tel	 "02.40.15.32.94"^^xsd:string .
+	sc:telephone	 "02.40.15.32.94"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_COLETTE>	 foaf:name 	 "MEDIATHEQUE COLETTE"^^xsd:string ;
-	ex:adresse	 "MAIRIE - 49 rue Alfred Mahé"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - 49 rue Alfred Mahé"^^xsd:string ;
 	geo:lat	"47.3515157 "^^xsd:decimal ;
 	geo:long	"-2.17883849"^^xsd:decimal  ;
-	ex:id	 "197"^^xsd:string ;
+	pdll:id	 "197"^^xsd:string ;
 	sc:email	 "bibliotheque.stmalodeguersac@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "SAINT-MALO-DE-GUERSAC"^^xsd:string ;
+	dbpprop:town	 "SAINT-MALO-DE-GUERSAC"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44550"^^xsd:integer ;
-	ex:tel	 "02.40.91.10.21"^^xsd:string .
+	sc:telephone	 "02.40.91.10.21"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - 14 rue Saint Medard"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - 14 rue Saint Medard"^^xsd:string ;
 	geo:lat	"47.1124331 "^^xsd:decimal ;
 	geo:long	"-1.7341678"^^xsd:decimal  ;
-	ex:id	 "198"^^xsd:string ;
+	pdll:id	 "198"^^xsd:string ;
 	sc:email	 "bibliothequedestmars@free.fr"^^xsd:string ;
-	ex:ville	 "SAINT-MARS-DE-COUTAIS"^^xsd:string ;
+	dbpprop:town	 "SAINT-MARS-DE-COUTAIS"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44680"^^xsd:integer ;
-	ex:tel	 "02.40.31.64.52"^^xsd:string .
+	sc:telephone	 "02.40.31.64.52"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - 1 place jean Moulin"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - 1 place jean Moulin"^^xsd:string ;
 	geo:lat	"47.367033 "^^xsd:decimal ;
 	geo:long	"-1.40515329"^^xsd:decimal  ;
-	ex:id	 "199"^^xsd:string ;
+	pdll:id	 "199"^^xsd:string ;
 	sc:email	 "les-amis-du-livre@laposte.net"^^xsd:string ;
-	ex:ville	 "SAINT-MARS-DU-DESERT"^^xsd:string ;
+	dbpprop:town	 "SAINT-MARS-DU-DESERT"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44850"^^xsd:integer ;
-	ex:tel	 "02.40.29.62.09"^^xsd:string .
+	sc:telephone	 "02.40.29.62.09"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_LES_MOTS_PASSANT>	 foaf:name 	 "MEDIATHEQUE LES MOTS PASSANT"^^xsd:string ;
-	ex:adresse	 "18 avenue Charles de Cossé Brissac"^^xsd:string ;
+	dbpprop:location	 "18 avenue Charles de Cossé Brissac"^^xsd:string ;
 	geo:lat	"47.524938 "^^xsd:decimal ;
 	geo:long	"-1.1843969"^^xsd:decimal  ;
-	ex:id	 "200"^^xsd:string ;
+	pdll:id	 "200"^^xsd:string ;
 	sc:email	 "lesmotspassant@saint-mars-la-jaille.fr"^^xsd:string ;
-	ex:ville	 "SAINT-MARS-LA-JAILLE"^^xsd:string ;
+	dbpprop:town	 "SAINT-MARS-LA-JAILLE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44540"^^xsd:integer ;
-	ex:tel	 "02.40.34.46.64"^^xsd:string .
+	sc:telephone	 "02.40.34.46.64"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - Place de la Mairie"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - Place de la Mairie"^^xsd:string ;
 	geo:lat	"47.0202475 "^^xsd:decimal ;
 	geo:long	"-1.7940005"^^xsd:decimal  ;
-	ex:id	 "201"^^xsd:string ;
+	pdll:id	 "201"^^xsd:string ;
 	sc:email	 "mairie.st.memeletenu@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "SAINT-MEME-LE-TENU"^^xsd:string ;
+	dbpprop:town	 "SAINT-MEME-LE-TENU"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44270"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - 17 rue du Chevecier"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - 17 rue du Chevecier"^^xsd:string ;
 	geo:lat	"47.1822268 "^^xsd:decimal ;
 	geo:long	"-2.14769169"^^xsd:decimal  ;
-	ex:id	 "202"^^xsd:string ;
+	pdll:id	 "202"^^xsd:string ;
 	sc:email	 "mediatheque@stmichelchefchef.fr"^^xsd:string ;
-	ex:ville	 "SAINT-MICHEL-CHEF-CHEF"^^xsd:string ;
+	dbpprop:town	 "SAINT-MICHEL-CHEF-CHEF"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44730"^^xsd:integer ;
-	ex:tel	 "02.40.27.86.30"^^xsd:string .
+	sc:telephone	 "02.40.27.86.30"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_POUR_TOUS>	 foaf:name 	 "BIBLIOTHEQUE POUR TOUS"^^xsd:string ;
-	ex:adresse	 "9 rue Kernova"^^xsd:string ;
+	dbpprop:location	 "9 rue Kernova"^^xsd:string ;
 	geo:lat	"47.390932 "^^xsd:decimal ;
 	geo:long	"-2.4249549"^^xsd:decimal  ;
-	ex:id	 "203"^^xsd:string ;
+	pdll:id	 "203"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "SAINT-MOLF"^^xsd:string ;
+	dbpprop:town	 "SAINT-MOLF"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44350"^^xsd:integer ;
-	ex:tel	 "02.40.62.59.70"^^xsd:string .
+	sc:telephone	 "02.40.62.59.70"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_ETIENNE_CAUX>	 foaf:name 	 "MEDIATHEQUE ETIENNE CAUX"^^xsd:string ;
-	ex:adresse	 "6 rue Auguste Baptiste Lechat"^^xsd:string ;
+	dbpprop:location	 "6 rue Auguste Baptiste Lechat"^^xsd:string ;
 	geo:lat	"47.2794861 "^^xsd:decimal ;
 	geo:long	"-2.2176422"^^xsd:decimal  ;
-	ex:id	 "204"^^xsd:string ;
+	pdll:id	 "204"^^xsd:string ;
 	sc:email	 "mediatheque@mairie-saintnazaire.fr"^^xsd:string ;
-	ex:ville	 "SAINT-NAZAIRE"^^xsd:string ;
+	dbpprop:town	 "SAINT-NAZAIRE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44600"^^xsd:integer ;
-	ex:tel	 "02.44.73.45.61"^^xsd:string .
+	sc:telephone	 "02.44.73.45.61"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "2 place de Tabago"^^xsd:string ;
+	dbpprop:location	 "2 place de Tabago"^^xsd:string ;
 	geo:lat	"47.6442547 "^^xsd:decimal ;
 	geo:long	"-2.0709102"^^xsd:decimal  ;
-	ex:id	 "205"^^xsd:string ;
+	pdll:id	 "205"^^xsd:string ;
 	sc:email	 "bibliotheque.st-nicolas@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "SAINT-NICOLAS-DE-REDON"^^xsd:string ;
+	dbpprop:town	 "SAINT-NICOLAS-DE-REDON"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44460"^^xsd:integer ;
-	ex:tel	 "02.99.71.10.92"^^xsd:string .
+	sc:telephone	 "02.99.71.10.92"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_LIVRES_Y_MEDIAS>	 foaf:name 	 "BIBLIOTHEQUE LIVRES Y MEDIAS"^^xsd:string ;
-	ex:adresse	 "2 rue de la Gare"^^xsd:string ;
+	dbpprop:location	 "2 rue de la Gare"^^xsd:string ;
 	geo:lat	"47.2074394 "^^xsd:decimal ;
 	geo:long	"-2.0437887"^^xsd:decimal  ;
-	ex:id	 "206"^^xsd:string ;
+	pdll:id	 "206"^^xsd:string ;
 	sc:email	 "bibliothequestpereenretz@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "SAINT-PERE-EN-RETZ"^^xsd:string ;
+	dbpprop:town	 "SAINT-PERE-EN-RETZ"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44320"^^xsd:integer ;
-	ex:tel	 "02.40.21.70.29"^^xsd:string .
+	sc:telephone	 "02.40.21.70.29"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_ANDRE_MALRAUX>	 foaf:name 	 "BIBLIOTHEQUE ANDRE MALRAUX"^^xsd:string ;
-	ex:adresse	 "Rue de l'Hôtel de Ville"^^xsd:string ;
+	dbpprop:location	 "Rue de l'Hôtel de Ville"^^xsd:string ;
 	geo:lat	"47.0378712 "^^xsd:decimal ;
 	geo:long	"-1.6418572"^^xsd:decimal  ;
-	ex:id	 "207"^^xsd:string ;
+	pdll:id	 "207"^^xsd:string ;
 	sc:email	 "bibliotheque@stphilbert.fr"^^xsd:string ;
-	ex:ville	 "SAINT-PHILBERT-DE-GRAND-LIEU"^^xsd:string ;
+	dbpprop:town	 "SAINT-PHILBERT-DE-GRAND-LIEU"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44310"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_YVES_LAURENT>	 foaf:name 	 "MEDIATHEQUE YVES LAURENT"^^xsd:string ;
-	ex:adresse	 "10 rue Jean Macé"^^xsd:string ;
+	dbpprop:location	 "10 rue Jean Macé"^^xsd:string ;
 	geo:lat	"47.2057273 "^^xsd:decimal ;
 	geo:long	"-1.5058205"^^xsd:decimal  ;
-	ex:id	 "208"^^xsd:string ;
+	pdll:id	 "208"^^xsd:string ;
 	sc:email	 "mediatheque@saintsebastien.fr"^^xsd:string ;
-	ex:ville	 "SAINT-SEBASTIEN-SUR-LOIRE"^^xsd:string ;
+	dbpprop:town	 "SAINT-SEBASTIEN-SUR-LOIRE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44230"^^xsd:integer ;
-	ex:tel	 "02.40.80.86.20"^^xsd:string .
+	sc:telephone	 "02.40.80.86.20"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "2 place de la Mairie"^^xsd:string ;
+	dbpprop:location	 "2 place de la Mairie"^^xsd:string ;
 	geo:lat	"47.5740853 "^^xsd:decimal ;
 	geo:long	"-1.20607759"^^xsd:decimal  ;
-	ex:id	 "209"^^xsd:string ;
+	pdll:id	 "209"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "SAINT-SULPICE-DES-LANDES"^^xsd:string ;
+	dbpprop:town	 "SAINT-SULPICE-DES-LANDES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44540"^^xsd:integer ;
-	ex:tel	 "02.40.97.02.14"^^xsd:string .
+	sc:telephone	 "02.40.97.02.14"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "18 rue Faubourg Saint Jean"^^xsd:string ;
+	dbpprop:location	 "18 rue Faubourg Saint Jean"^^xsd:string ;
 	geo:lat	"47.2561135 "^^xsd:decimal ;
 	geo:long	"-2.01692239"^^xsd:decimal  ;
-	ex:id	 "210"^^xsd:string ;
+	pdll:id	 "210"^^xsd:string ;
 	sc:email	 "bibliotheque@saint-viaud.fr "^^xsd:string ;
-	ex:ville	 "SAINT-VIAUD"^^xsd:string ;
+	dbpprop:town	 "SAINT-VIAUD"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44320"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - 17 rue de la Mairie"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - 17 rue de la Mairie"^^xsd:string ;
 	geo:lat	"47.6553628 "^^xsd:decimal ;
 	geo:long	"-1.4977982"^^xsd:decimal  ;
-	ex:id	 "211"^^xsd:string ;
+	pdll:id	 "211"^^xsd:string ;
 	sc:email	 "bibliothequedesvdl@orange.fr"^^xsd:string ;
-	ex:ville	 "SAINT-VINCENT-DES-LANDES"^^xsd:string ;
+	dbpprop:town	 "SAINT-VINCENT-DES-LANDES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44590"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE"^^xsd:string ;
-	ex:adresse	 "2 rue du Mortier Plat"^^xsd:string ;
+	dbpprop:location	 "2 rue du Mortier Plat"^^xsd:string ;
 	geo:lat	"47.459419 "^^xsd:decimal ;
 	geo:long	"-2.0011541"^^xsd:decimal  ;
-	ex:id	 "212"^^xsd:string ;
+	pdll:id	 "212"^^xsd:string ;
 	sc:email	 "bibliosteanne@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "SAINTE-ANNE-SUR-BRIVET"^^xsd:string ;
+	dbpprop:town	 "SAINTE-ANNE-SUR-BRIVET"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44160"^^xsd:integer ;
-	ex:tel	 "02.40.91.84.88"^^xsd:string .
+	sc:telephone	 "02.40.91.84.88"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_RENE-GOSCINNY>	 foaf:name 	 "MEDIATHEQUE RENE-GOSCINNY"^^xsd:string ;
-	ex:adresse	 "Mail de l'Europe"^^xsd:string ;
+	dbpprop:location	 "Mail de l'Europe"^^xsd:string ;
 	geo:lat	"47.248603 "^^xsd:decimal ;
 	geo:long	"-1.483232"^^xsd:decimal  ;
-	ex:id	 "213"^^xsd:string ;
+	pdll:id	 "213"^^xsd:string ;
 	sc:email	 "mediatheque@sainte-luce-sur-loire.com"^^xsd:string ;
-	ex:ville	 "SAINTE-LUCE-SUR-LOIRE"^^xsd:string ;
+	dbpprop:town	 "SAINTE-LUCE-SUR-LOIRE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44980"^^xsd:integer ;
-	ex:tel	 "02.40.68.16.51"^^xsd:string .
+	sc:telephone	 "02.40.68.16.51"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE_A_LIVRE_OUVERT>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE A LIVRE OUVERT"^^xsd:string ;
-	ex:adresse	 "32 avenue de la Source"^^xsd:string ;
+	dbpprop:location	 "32 avenue de la Source"^^xsd:string ;
 	geo:lat	"47.1014078 "^^xsd:decimal ;
 	geo:long	"-1.8083368"^^xsd:decimal  ;
-	ex:id	 "214"^^xsd:string ;
+	pdll:id	 "214"^^xsd:string ;
 	sc:email	 "bibliotheque@sainte-pazanne.com"^^xsd:string ;
-	ex:ville	 "SAINTE-PAZANNE"^^xsd:string ;
+	dbpprop:town	 "SAINTE-PAZANNE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44680"^^xsd:integer ;
-	ex:tel	 "02.40.02.69.13"^^xsd:string .
+	sc:telephone	 "02.40.02.69.13"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE"^^xsd:string ;
-	ex:adresse	 "7 rue du Père de Montfort"^^xsd:string ;
+	dbpprop:location	 "7 rue du Père de Montfort"^^xsd:string ;
 	geo:lat	"47.4416416 "^^xsd:decimal ;
 	geo:long	"-2.19243259"^^xsd:decimal  ;
-	ex:id	 "215"^^xsd:string ;
+	pdll:id	 "215"^^xsd:string ;
 	sc:email	 "bibliotheque-saintereine@orange.fr"^^xsd:string ;
-	ex:ville	 "SAINTE-REINE-DE-BRETAGNE"^^xsd:string ;
+	dbpprop:town	 "SAINTE-REINE-DE-BRETAGNE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44160"^^xsd:integer ;
-	ex:tel	 "02.51.10.86.48"^^xsd:string .
+	sc:telephone	 "02.51.10.86.48"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - 14 rue de la Vallée"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - 14 rue de la Vallée"^^xsd:string ;
 	geo:lat	"47.2641469 "^^xsd:decimal ;
 	geo:long	"-1.67346059"^^xsd:decimal  ;
-	ex:id	 "216"^^xsd:string ;
+	pdll:id	 "216"^^xsd:string ;
 	sc:email	 "bibliotheque@sautron.fr"^^xsd:string ;
-	ex:ville	 "SAUTRON"^^xsd:string ;
+	dbpprop:town	 "SAUTRON"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44880"^^xsd:integer ;
-	ex:tel	 "02.40.63.52.21"^^xsd:string .
+	sc:telephone	 "02.40.63.52.21"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE>	 foaf:name 	 "MEDIATHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - Place de l'Hôtel de Ville"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - Place de l'Hôtel de Ville"^^xsd:string ;
 	geo:lat	"47.359278 "^^xsd:decimal ;
 	geo:long	"-1.9435869"^^xsd:decimal  ;
-	ex:id	 "217"^^xsd:string ;
+	pdll:id	 "217"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "SAVENAY"^^xsd:string ;
+	dbpprop:town	 "SAVENAY"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44260"^^xsd:integer ;
-	ex:tel	 "02.40.56.96.95"^^xsd:string .
+	sc:telephone	 "02.40.56.96.95"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE"^^xsd:string ;
-	ex:adresse	 "2 rue de la Gagnerie"^^xsd:string ;
+	dbpprop:location	 "2 rue de la Gagnerie"^^xsd:string ;
 	geo:lat	"47.5489362 "^^xsd:decimal ;
 	geo:long	"-2.07879179"^^xsd:decimal  ;
-	ex:id	 "218"^^xsd:string ;
+	pdll:id	 "218"^^xsd:string ;
 	sc:email	 "bibliotheque.de.severac@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "SEVERAC"^^xsd:string ;
+	dbpprop:town	 "SEVERAC"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44530"^^xsd:integer ;
-	ex:tel	 "02.40.88.73.23"^^xsd:string .
+	sc:telephone	 "02.40.88.73.23"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_LE_COEUR_A_LIRE>	 foaf:name 	 "BIBLIOTHEQUE LE COEUR A LIRE"^^xsd:string ;
-	ex:adresse	 "MAIRIE - 20 rue de Châteaubriant"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - 20 rue de Châteaubriant"^^xsd:string ;
 	geo:lat	"47.7343754 "^^xsd:decimal ;
 	geo:long	"-1.5892781"^^xsd:decimal  ;
-	ex:id	 "219"^^xsd:string ;
+	pdll:id	 "219"^^xsd:string ;
 	sc:email	 "bibliothequedesionlesmines@orange.fr"^^xsd:string ;
-	ex:ville	 "SION-LES-MINES"^^xsd:string ;
+	dbpprop:town	 "SION-LES-MINES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44590"^^xsd:integer ;
-	ex:tel	 "02.40.28.96.09"^^xsd:string .
+	sc:telephone	 "02.40.28.96.09"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - 3 place Jeanne d'Arc"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - 3 place Jeanne d'Arc"^^xsd:string ;
 	geo:lat	"47.7371541 "^^xsd:decimal ;
 	geo:long	"-1.3059768"^^xsd:decimal  ;
-	ex:id	 "220"^^xsd:string ;
+	pdll:id	 "220"^^xsd:string ;
 	sc:email	 "biblio.soudan@orange.fr"^^xsd:string ;
-	ex:ville	 "SOUDAN"^^xsd:string ;
+	dbpprop:town	 "SOUDAN"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44110"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE - 3 rue de la Mairie"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - 3 rue de la Mairie"^^xsd:string ;
 	geo:lat	"47.7955067 "^^xsd:decimal ;
 	geo:long	"-1.41553959"^^xsd:decimal  ;
-	ex:id	 "221"^^xsd:string ;
+	pdll:id	 "221"^^xsd:string ;
 	sc:email	 "biblio.soulvache.ccc@orange.fr"^^xsd:string ;
-	ex:ville	 "SOULVACHE"^^xsd:string ;
+	dbpprop:town	 "SOULVACHE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44660"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "101 rue de la Mairie"^^xsd:string ;
+	dbpprop:location	 "101 rue de la Mairie"^^xsd:string ;
 	geo:lat	"47.3403104 "^^xsd:decimal ;
 	geo:long	"-1.52630909"^^xsd:decimal  ;
-	ex:id	 "222"^^xsd:string ;
+	pdll:id	 "222"^^xsd:string ;
 	sc:email	 "bibliotheque@suce-sur-erdre.fr"^^xsd:string ;
-	ex:ville	 "SUCE-SUR-ERDRE"^^xsd:string ;
+	dbpprop:town	 "SUCE-SUR-ERDRE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44240"^^xsd:integer ;
-	ex:tel	 "02.40.77.95.21"^^xsd:string .
+	sc:telephone	 "02.40.77.95.21"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "Rue du Clos Olivier"^^xsd:string ;
+	dbpprop:location	 "Rue du Clos Olivier"^^xsd:string ;
 	geo:lat	"47.4626677 "^^xsd:decimal ;
 	geo:long	"-1.27870229"^^xsd:decimal  ;
-	ex:id	 "223"^^xsd:string ;
+	pdll:id	 "223"^^xsd:string ;
 	sc:email	 "bibliotheque.teille@orange.fr"^^xsd:string ;
-	ex:ville	 "TEILLE"^^xsd:string ;
+	dbpprop:town	 "TEILLE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44440"^^xsd:integer ;
-	ex:tel	 "02.40.97.27.37"^^xsd:string .
+	sc:telephone	 "02.40.97.27.37"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "23 bis rue de Mauves"^^xsd:string ;
+	dbpprop:location	 "23 bis rue de Mauves"^^xsd:string ;
 	geo:lat	"47.2735677 "^^xsd:decimal ;
 	geo:long	"-1.42986429"^^xsd:decimal  ;
-	ex:id	 "224"^^xsd:string ;
+	pdll:id	 "224"^^xsd:string ;
 	sc:email	 "nathalie.peignon@mairie-thouare.fr"^^xsd:string ;
-	ex:ville	 "THOUARE-SUR-LOIRE"^^xsd:string ;
+	dbpprop:town	 "THOUARE-SUR-LOIRE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44470"^^xsd:integer ;
-	ex:tel	 "02.51.85.90.57"^^xsd:string .
+	sc:telephone	 "02.51.85.90.57"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_LA_TOUVOISIENNE>	 foaf:name 	 "BIBLIOTHEQUE LA TOUVOISIENNE"^^xsd:string ;
-	ex:adresse	 "Rue de Nantes"^^xsd:string ;
+	dbpprop:location	 "Rue de Nantes"^^xsd:string ;
 	geo:lat	"46.9065923 "^^xsd:decimal ;
 	geo:long	"-1.6845685"^^xsd:decimal  ;
-	ex:id	 "225"^^xsd:string ;
+	pdll:id	 "225"^^xsd:string ;
 	sc:email	 "undefined"^^xsd:string ;
-	ex:ville	 "TOUVOIS"^^xsd:string ;
+	dbpprop:town	 "TOUVOIS"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44650"^^xsd:integer ;
-	ex:tel	 "02.40.31.64.05"^^xsd:string .
+	sc:telephone	 "02.40.31.64.05"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "Rue des Blés Noirs"^^xsd:string ;
+	dbpprop:location	 "Rue des Blés Noirs"^^xsd:string ;
 	geo:lat	"47.4752784 "^^xsd:decimal ;
 	geo:long	"-1.3748107"^^xsd:decimal  ;
-	ex:id	 "226"^^xsd:string ;
+	pdll:id	 "226"^^xsd:string ;
 	sc:email	 "bibli.trans@orange.fr"^^xsd:string ;
-	ex:ville	 "TRANS-SUR-ERDRE"^^xsd:string ;
+	dbpprop:town	 "TRANS-SUR-ERDRE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44440"^^xsd:integer ;
-	ex:tel	 "02.28.21.84.77"^^xsd:string .
+	sc:telephone	 "02.28.21.84.77"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE_L'ARBRE_AUX_LIVRES>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE L'ARBRE AUX LIVRES"^^xsd:string ;
-	ex:adresse	 "2 place Saint Grégoire"^^xsd:string ;
+	dbpprop:location	 "2 place Saint Grégoire"^^xsd:string ;
 	geo:lat	"47.6205728 "^^xsd:decimal ;
 	geo:long	"-1.53701479"^^xsd:decimal  ;
-	ex:id	 "227"^^xsd:string ;
+	pdll:id	 "227"^^xsd:string ;
 	sc:email	 "biblio.treffieux@orange.fr"^^xsd:string ;
-	ex:ville	 "TREFFIEUX"^^xsd:string ;
+	dbpprop:town	 "TREFFIEUX"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44170"^^xsd:integer ;
-	ex:tel	 "02.40.87.41.59"^^xsd:string .
+	sc:telephone	 "02.40.87.41.59"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE_A_TOUT_LIRE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE A TOUT LIRE"^^xsd:string ;
-	ex:adresse	 "12 place de la Liberté"^^xsd:string ;
+	dbpprop:location	 "12 place de la Liberté"^^xsd:string ;
 	geo:lat	"47.3308433 "^^xsd:decimal ;
 	geo:long	"-1.62325789"^^xsd:decimal  ;
-	ex:id	 "228"^^xsd:string ;
+	pdll:id	 "228"^^xsd:string ;
 	sc:email	 "bibliotheque@treillieres.fr"^^xsd:string ;
-	ex:ville	 "TREILLIERES"^^xsd:string ;
+	dbpprop:town	 "TREILLIERES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44119"^^xsd:integer ;
-	ex:tel	 "02.40.94.61.76"^^xsd:string .
+	sc:telephone	 "02.40.94.61.76"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "Rue Emile Combes"^^xsd:string ;
+	dbpprop:location	 "Rue Emile Combes"^^xsd:string ;
 	geo:lat	"47.3206084 "^^xsd:decimal ;
 	geo:long	"-2.1886818"^^xsd:decimal  ;
-	ex:id	 "229"^^xsd:string ;
+	pdll:id	 "229"^^xsd:string ;
 	sc:email	 "clhalgand@mairie-trignac.fr"^^xsd:string ;
-	ex:ville	 "TRIGNAC"^^xsd:string ;
+	dbpprop:town	 "TRIGNAC"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44570"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/MEDIATHEQUE_MILLE_ET_UNE_PAGES_>	 foaf:name 	 "MEDIATHEQUE MILLE ET UNE PAGES "^^xsd:string ;
-	ex:adresse	 "16 rue Emile Gabory"^^xsd:string ;
+	dbpprop:location	 "16 rue Emile Gabory"^^xsd:string ;
 	geo:lat	"47.1620095 "^^xsd:decimal ;
 	geo:long	"-1.2687409"^^xsd:decimal  ;
-	ex:id	 "230"^^xsd:string ;
+	pdll:id	 "230"^^xsd:string ;
 	sc:email	 "jallard@vallet.fr"^^xsd:string ;
-	ex:ville	 "VALLET"^^xsd:string ;
+	dbpprop:town	 "VALLET"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44330"^^xsd:integer ;
-	ex:tel	 "02.40.33.91.84"^^xsd:string .
+	sc:telephone	 "02.40.33.91.84"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE_VARADES_-_MONTRELAIS>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE VARADES - MONTRELAIS"^^xsd:string ;
-	ex:adresse	 "L'Ecole Buissonnière"^^xsd:string ;
+	dbpprop:location	 "L'Ecole Buissonnière"^^xsd:string ;
 	geo:lat	"47.385079 "^^xsd:decimal ;
 	geo:long	"-1.0299579"^^xsd:decimal  ;
-	ex:id	 "231"^^xsd:string ;
+	pdll:id	 "231"^^xsd:string ;
 	sc:email	 "bibliothequemunicipale@varades.fr"^^xsd:string ;
-	ex:ville	 "VARADES"^^xsd:string ;
+	dbpprop:town	 "VARADES"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44370"^^xsd:integer ;
-	ex:tel	 "02.40.98.33.89"^^xsd:string .
+	sc:telephone	 "02.40.98.33.89"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_INTERCOMMUNALE_LA_GRANGE_AUX_LIVRES>	 foaf:name 	 "BIBLIOTHEQUE INTERCOMMUNALE LA GRANGE AUX LIVRES"^^xsd:string ;
-	ex:adresse	 "Rue Principale"^^xsd:string ;
+	dbpprop:location	 "Rue Principale"^^xsd:string ;
 	geo:lat	"47.5544226 "^^xsd:decimal ;
 	geo:long	"-1.70219359"^^xsd:decimal  ;
-	ex:id	 "232"^^xsd:string ;
+	pdll:id	 "232"^^xsd:string ;
 	sc:email	 "bibliotheque.vay44@orange.fr"^^xsd:string ;
-	ex:ville	 "VAY"^^xsd:string ;
+	dbpprop:town	 "VAY"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44170"^^xsd:integer ;
-	ex:tel	 "02.40.79.56.46"^^xsd:string .
+	sc:telephone	 "02.40.79.56.46"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE_LIBRE_COUR>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE LIBRE COUR"^^xsd:string ;
-	ex:adresse	 "rue Henri Charpentier "^^xsd:string ;
+	dbpprop:location	 "rue Henri Charpentier "^^xsd:string ;
 	geo:lat	"47.1687639 "^^xsd:decimal ;
 	geo:long	"-1.470945"^^xsd:decimal  ;
-	ex:id	 "233"^^xsd:string ;
+	pdll:id	 "233"^^xsd:string ;
 	sc:email	 "librecour@mairie-vertou.fr"^^xsd:string ;
-	ex:ville	 "VERTOU"^^xsd:string ;
+	dbpprop:town	 "VERTOU"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44120"^^xsd:integer ;
-	ex:tel	 "02.40.34.88.87"^^xsd:string .
+	sc:telephone	 "02.40.34.88.87"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_LA_PETITE_B>	 foaf:name 	 "BIBLIOTHEQUE LA PETITE B"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - 1 place de la Mairie"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - 1 place de la Mairie"^^xsd:string ;
 	geo:lat	"46.9717213 "^^xsd:decimal ;
 	geo:long	"-1.4335978"^^xsd:decimal  ;
-	ex:id	 "234"^^xsd:string ;
+	pdll:id	 "234"^^xsd:string ;
 	sc:email	 "bibliotheque@vieillevigne44.com"^^xsd:string ;
-	ex:ville	 "VIEILLEVIGNE"^^xsd:string ;
+	dbpprop:town	 "VIEILLEVIGNE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44116"^^xsd:integer ;
-	ex:tel	 "02.40.32.57.56"^^xsd:string .
+	sc:telephone	 "02.40.32.57.56"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_MUNICIPALE>	 foaf:name 	 "BIBLIOTHEQUE MUNICIPALE"^^xsd:string ;
-	ex:adresse	 "8 rue Anne de Bretagne - La Paquelais"^^xsd:string ;
+	dbpprop:location	 "8 rue Anne de Bretagne - La Paquelais"^^xsd:string ;
 	geo:lat	"47.3298442 "^^xsd:decimal ;
 	geo:long	"-1.6969791"^^xsd:decimal  ;
-	ex:id	 "235"^^xsd:string ;
+	pdll:id	 "235"^^xsd:string ;
 	sc:email	 "bibliotheque@vigneuxdebretagne.fr"^^xsd:string ;
-	ex:ville	 "VIGNEUX-DE-BRETAGNE"^^xsd:string ;
+	dbpprop:town	 "VIGNEUX-DE-BRETAGNE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44360"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE - 18 place de l'Eglise"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - 18 place de l'Eglise"^^xsd:string ;
 	geo:lat	"47.7748254 "^^xsd:decimal ;
 	geo:long	"-1.2786214"^^xsd:decimal  ;
-	ex:id	 "236"^^xsd:string ;
+	pdll:id	 "236"^^xsd:string ;
 	sc:email	 "bibliovillepot@orange.fr"^^xsd:string ;
-	ex:ville	 "VILLEPOT"^^xsd:string ;
+	dbpprop:town	 "VILLEPOT"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44110"^^xsd:integer ;
-	ex:tel	 "02.40.28.10.39"^^xsd:string .
+	sc:telephone	 "02.40.28.10.39"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE>	 foaf:name 	 "BIBLIOTHEQUE"^^xsd:string ;
-	ex:adresse	 "MAIRIE  - Place de l'Eglise"^^xsd:string ;
+	dbpprop:location	 "MAIRIE  - Place de l'Eglise"^^xsd:string ;
 	geo:lat	"47.581686 "^^xsd:decimal ;
 	geo:long	"-1.070005"^^xsd:decimal  ;
-	ex:id	 "237"^^xsd:string ;
+	pdll:id	 "237"^^xsd:string ;
 	sc:email	 "compa@vritz.fr"^^xsd:string ;
-	ex:ville	 "VRITZ"^^xsd:string ;
+	dbpprop:town	 "VRITZ"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49440"^^xsd:integer ;
-	ex:tel	 "02.41.92.73.09"^^xsd:string .
+	sc:telephone	 "02.41.92.73.09"^^xsd:string .
 
 <http://projet.com/10/BIBLIOTHEQUE_LA_PAUSE_LECTURE>	 foaf:name 	 "BIBLIOTHEQUE LA PAUSE LECTURE"^^xsd:string ;
-	ex:adresse	 "MAIRIE - 21 route de Paimboeuf"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - 21 route de Paimboeuf"^^xsd:string ;
 	geo:lat	"47.1985081 "^^xsd:decimal ;
 	geo:long	"-1.88323749"^^xsd:decimal  ;
-	ex:id	 "238"^^xsd:string ;
+	pdll:id	 "238"^^xsd:string ;
 	sc:email	 "mairiedevue@wanadoo.fr"^^xsd:string ;
-	ex:ville	 "VUE"^^xsd:string ;
+	dbpprop:town	 "VUE"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44640"^^xsd:integer ;
-	ex:tel	 "undefined"^^xsd:string .
+	sc:telephone	 "undefined"^^xsd:string .
 

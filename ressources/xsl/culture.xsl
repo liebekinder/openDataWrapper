@@ -15,6 +15,8 @@
 <xsl:template match="data">
 	<xsl:text>
 @prefix TEMPORAIRE: &lt;http://temporaire.org/&gt; .
+@prefix gr: &lt;http://purl.org/goodrelations/&gt; .
+@prefix pdll: &lt;http://data.paysdelaloire.fr/&gt; .
 @prefix dbpedia: &lt;http://dbpedia.org/resource/&gt; .
 @prefix prop-fr: &lt;http://fr.dbpedia.org/property/&gt; .
 @prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
@@ -56,15 +58,15 @@
 </xsl:template>
 
 <xsl:template match="LIBTHEME">
-<xsl:choose><xsl:when test=". = 'null'">&#009;ex:libTheme&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:culturthemeLabel&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;ex:libTheme&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;pdll:culturthemeLabel&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="CODE_POSTAL">
-<xsl:choose><xsl:when test=". = 'null'">&#009;ex:cp&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;sc:postalCode&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;ex:cp&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;sc:postalCode&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="WEB">
@@ -74,21 +76,21 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="STATUT">
-<xsl:choose><xsl:when test=". = 'null'">&#009;ex:statut&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:statut&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;ex:statut&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;pdll:statut&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="TELEPHONE">
-<xsl:choose><xsl:when test=". = 'null'">&#009;ex:tel&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;sc:telephone&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;ex:tel&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;sc:telephone&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="THEME">
-<xsl:choose><xsl:when test=". = 'null'">&#009;ex:theme&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:culturTheme&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;ex:theme&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;pdll:culturTheme&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="COMMUNE">
@@ -102,9 +104,9 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="LIBCATEGORIE">
-<xsl:choose><xsl:when test=". = 'null'">&#009;ex:libCat&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:culturCategoryLabel&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;ex:libCat&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;pdll:culturCategoryLabel&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="ADRESSE">
@@ -114,28 +116,28 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="LIBTYPE">
-<xsl:choose><xsl:when test=". = 'null'">&#009;ex:libType&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:culturTypeLabel&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;ex:libType&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;pdll:culturTypeLabel&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="_IDOBJ">
-<xsl:choose><xsl:when test=". = 'null'">&#009;ex:id&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:id&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;ex:id&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;pdll:id&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="TYPE">
-<xsl:choose><xsl:when test=". = 'null'">&#009;rdf:type&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;TEMPORAIRE:TypeProblem&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;rdf:type&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;TEMPORAIRE:TypeProblem&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="CATEGORIE">
-<xsl:choose><xsl:when test=". = 'null'">&#009;ex:categorie&#009; "undefined"^^xsd:string .
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:culturCategory&#009; "undefined"^^xsd:string .
 
 </xsl:when>
-<xsl:otherwise>&#009;ex:categorie&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string .
+<xsl:otherwise>&#009;pdll:culturCategory&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string .
 
 </xsl:otherwise></xsl:choose></xsl:template>
 

@@ -1,5 +1,7 @@
 
 @prefix TEMPORAIRE: <http://temporaire.org/> .
+@prefix gr: <http://purl.org/goodrelations/> .
+@prefix pdll: <http://data.paysdelaloire.fr/> .
 @prefix dbpedia: <http://dbpedia.org/resource/> .
 @prefix prop-fr: <http://fr.dbpedia.org/property/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -14,299 +16,299 @@
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
 <http://projet.com/10/25éme_National_Pétanque_de_Cholet>	 foaf:name 	 "25éme National Pétanque de Cholet"^^xsd:string ;
-	ex:insee	 "49099"^^xsd:string ;
+	dbpprop:insee	 "49099"^^xsd:integer ;
 	sc:endDate	 "17/02/2013"^^xsd:string ;
 	dbpprop:town	 "Cholet"^^xsd:string ;
 	sc:startDate	 "14/02/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Maine et Loire"^^xsd:string ;
-	ex:discipline	 "Pétanque"^^xsd:string ;
-	rdf:type	 "Compétition fédérale qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "Pétanque"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Compétition fédérale qualificative"^^xsd:string .
 
 <http://projet.com/10/5e_édition_du_tournoi_mondial_par_année_d'âges_9/16_ans_OUATT_La_Baule_2013>	 foaf:name 	 "5e édition du tournoi mondial par année d'âges 9/16 ans OUATT La Baule 2013"^^xsd:string ;
-	ex:insee	 "44055"^^xsd:string ;
+	dbpprop:insee	 "44055"^^xsd:integer ;
 	sc:endDate	 "29/06/2013"^^xsd:string ;
 	dbpprop:town	 "Baule-Escoublac"^^xsd:string ;
 	sc:startDate	 "24/06/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Loire-Atlantique"^^xsd:string ;
-	ex:discipline	 "Tennis"^^xsd:string ;
-	rdf:type	 "Compétition fédérale qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "Tennis"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Compétition fédérale qualificative"^^xsd:string .
 
 <http://projet.com/10/Championnat_de_France_Elite_de_Rugby_Fauteuil>	 foaf:name 	 "Championnat de France Elite de Rugby Fauteuil"^^xsd:string ;
-	ex:insee	 "44026"^^xsd:string ;
+	dbpprop:insee	 "44026"^^xsd:integer ;
 	sc:endDate	 "13/01/2013"^^xsd:string ;
 	dbpprop:town	 "Carquefou"^^xsd:string ;
 	sc:startDate	 "12/01/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Loire-Atlantique"^^xsd:string ;
-	ex:discipline	 "Multi-disciplines Handisport"^^xsd:string ;
-	rdf:type	 "Compétition fédérale qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "Multi-disciplines Handisport"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Compétition fédérale qualificative"^^xsd:string .
 
 <http://projet.com/10/Championnat_Régional_Jeunes_de_Cross_Country>	 foaf:name 	 "Championnat Régional Jeunes de Cross Country"^^xsd:string ;
-	ex:insee	 "53185"^^xsd:string ;
+	dbpprop:insee	 "53185"^^xsd:integer ;
 	sc:endDate	 "10/02/2013"^^xsd:string ;
 	dbpprop:town	 "Pré-en-Pail"^^xsd:string ;
 	sc:startDate	 "10/02/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Mayenne"^^xsd:string ;
-	ex:discipline	 "undefined"^^xsd:string ;
-	rdf:type	 "Manifestation non qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "undefined"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Manifestation non qualificative"^^xsd:string .
 
 <http://projet.com/10/Championnats_Régionaux_de_Cross_Country_2013>	 foaf:name 	 "Championnats Régionaux de Cross Country 2013"^^xsd:string ;
-	ex:insee	 "72181"^^xsd:string ;
+	dbpprop:insee	 "72181"^^xsd:integer ;
 	sc:endDate	 "27/01/2013"^^xsd:string ;
 	dbpprop:town	 "Mans"^^xsd:string ;
 	sc:startDate	 "27/01/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Sarthe"^^xsd:string ;
-	ex:discipline	 "Athlétisme"^^xsd:string ;
-	rdf:type	 "Compétition fédérale qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "Athlétisme"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Compétition fédérale qualificative"^^xsd:string .
 
 <http://projet.com/10/Circuit_Cycliste_Sarthe_Pays_de_la_Loire>	 foaf:name 	 "Circuit Cycliste Sarthe Pays de la Loire"^^xsd:string ;
-	ex:insee	 "85092"^^xsd:string ;
+	dbpprop:insee	 "85092"^^xsd:integer ;
 	sc:endDate	 "05/04/2013"^^xsd:string ;
 	dbpprop:town	 "Fontenay-le-Comte"^^xsd:string ;
 	sc:startDate	 "02/04/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Vendée"^^xsd:string ;
-	ex:discipline	 "Cyclisme"^^xsd:string ;
-	rdf:type	 "Compétition fédérale qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "Cyclisme"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Compétition fédérale qualificative"^^xsd:string .
 
 <http://projet.com/10/Comité_Organisation_Classic_Loire_Atlantique>	 foaf:name 	 "Comité Organisation Classic Loire Atlantique"^^xsd:string ;
-	ex:insee	 "44070"^^xsd:string ;
+	dbpprop:insee	 "44070"^^xsd:integer ;
 	sc:endDate	 "16/03/2013"^^xsd:string ;
 	dbpprop:town	 "Haie-Fouassière"^^xsd:string ;
 	sc:startDate	 "16/03/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Loire-Atlantique"^^xsd:string ;
-	ex:discipline	 "Cyclisme"^^xsd:string ;
-	rdf:type	 "Compétition fédérale qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "Cyclisme"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Compétition fédérale qualificative"^^xsd:string .
 
 <http://projet.com/10/Concours_de_Voltige_International***_et_**>	 foaf:name 	 "Concours de Voltige International*** et **"^^xsd:string ;
-	ex:insee	 "49328"^^xsd:string ;
+	dbpprop:insee	 "49328"^^xsd:integer ;
 	sc:endDate	 "07/04/2013"^^xsd:string ;
 	dbpprop:town	 "Saumur"^^xsd:string ;
 	sc:startDate	 "05/04/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Maine et Loire"^^xsd:string ;
-	ex:discipline	 "Equitation"^^xsd:string ;
-	rdf:type	 "Compétition fédérale qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "Equitation"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Compétition fédérale qualificative"^^xsd:string .
 
 <http://projet.com/10/Congrès_National_de_la__Colombophilie>	 foaf:name 	 "Congrès National de la  Colombophilie"^^xsd:string ;
-	ex:insee	 "44026"^^xsd:string ;
+	dbpprop:insee	 "44026"^^xsd:integer ;
 	sc:endDate	 "24/02/2013"^^xsd:string ;
 	dbpprop:town	 "Carquefou"^^xsd:string ;
 	sc:startDate	 "22/02/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Loire-Atlantique"^^xsd:string ;
-	ex:discipline	 "Multi-disciplines Sport en milieu rural"^^xsd:string ;
-	rdf:type	 "Manifestation non qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "Multi-disciplines Sport en milieu rural"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Manifestation non qualificative"^^xsd:string .
 
 <http://projet.com/10/Coupe_de_l'Université_de_Nantes_2013_-_2013_Nantes_University_Sailing_Cup>	 foaf:name 	 "Coupe de l'Université de Nantes 2013 - 2013 Nantes University Sailing Cup"^^xsd:string ;
-	ex:insee	 "44026"^^xsd:string ;
+	dbpprop:insee	 "44026"^^xsd:integer ;
 	sc:endDate	 "07/04/2013"^^xsd:string ;
 	dbpprop:town	 "Carquefou"^^xsd:string ;
 	sc:startDate	 "04/04/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Loire-Atlantique"^^xsd:string ;
-	ex:discipline	 "Multi-disciplines Sport Universitaire"^^xsd:string ;
-	rdf:type	 "Compétition fédérale qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "Multi-disciplines Sport Universitaire"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Compétition fédérale qualificative"^^xsd:string .
 
 <http://projet.com/10/Coupe_du_Monde_de_baby-foot>	 foaf:name 	 "Coupe du Monde de baby-foot"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:endDate	 "06/01/2013"^^xsd:string ;
 	dbpprop:town	 "Nantes"^^xsd:string ;
 	sc:startDate	 "03/01/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Loire-Atlantique"^^xsd:string ;
-	ex:discipline	 "Football de Table"^^xsd:string ;
-	rdf:type	 "Compétition fédérale qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "Football de Table"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Compétition fédérale qualificative"^^xsd:string .
 
 <http://projet.com/10/Course_cycliste_-_Circuit_des_Plages_Vendéennes>	 foaf:name 	 "Course cycliste - Circuit des Plages Vendéennes"^^xsd:string ;
-	ex:insee	 "41314"^^xsd:string ;
+	dbpprop:insee	 "41314"^^xsd:integer ;
 	sc:endDate	 "17/02/2013"^^xsd:string ;
 	dbpprop:town	 "Saint-Hilaire-de-Riez"^^xsd:string ;
 	sc:startDate	 "09/02/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Vendée"^^xsd:string ;
-	ex:discipline	 "Cyclisme"^^xsd:string ;
-	rdf:type	 "Manifestation non qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "Cyclisme"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Manifestation non qualificative"^^xsd:string .
 
 <http://projet.com/10/Course_Cycliste_Cholet_Pays_de_Loire>	 foaf:name 	 "Course Cycliste Cholet Pays de Loire"^^xsd:string ;
-	ex:insee	 "49099"^^xsd:string ;
+	dbpprop:insee	 "49099"^^xsd:integer ;
 	sc:endDate	 "17/03/2013"^^xsd:string ;
 	dbpprop:town	 "Cholet"^^xsd:string ;
 	sc:startDate	 "16/03/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Maine et Loire"^^xsd:string ;
-	ex:discipline	 "Cyclisme"^^xsd:string ;
-	rdf:type	 "Manifestation non qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "Cyclisme"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Manifestation non qualificative"^^xsd:string .
 
 <http://projet.com/10/Critérium_Fédéral_National_1_Messieurs_Tour_3>	 foaf:name 	 "Critérium Fédéral National 1 Messieurs Tour 3"^^xsd:string ;
-	ex:insee	 "44169"^^xsd:string ;
+	dbpprop:insee	 "44169"^^xsd:integer ;
 	sc:endDate	 "13/01/2013"^^xsd:string ;
 	dbpprop:town	 "Saint-Julien-de-Concelles"^^xsd:string ;
 	sc:startDate	 "11/01/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Loire-Atlantique"^^xsd:string ;
-	ex:discipline	 "Tennis de Table"^^xsd:string ;
-	rdf:type	 "Compétition fédérale qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "Tennis de Table"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Compétition fédérale qualificative"^^xsd:string .
 
 <http://projet.com/10/Cross_Ouest-France_Pays_de_La_Loire>	 foaf:name 	 "Cross Ouest-France Pays de La Loire"^^xsd:string ;
-	ex:insee	 "72181"^^xsd:string ;
+	dbpprop:insee	 "72181"^^xsd:integer ;
 	sc:endDate	 "13/01/2013"^^xsd:string ;
 	dbpprop:town	 "Mans"^^xsd:string ;
 	sc:startDate	 "12/01/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Sarthe"^^xsd:string ;
-	ex:discipline	 "Athlétisme"^^xsd:string ;
-	rdf:type	 "Manifestation sportive de loisir pour tous"^^xsd:string .
+	dbpedia-owl:sport	 "Athlétisme"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Manifestation sportive de loisir pour tous"^^xsd:string .
 
 <http://projet.com/10/Gladiator_Contest_2013>	 foaf:name 	 "Gladiator Contest 2013"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:endDate	 "24/03/2013"^^xsd:string ;
 	dbpprop:town	 "Nantes"^^xsd:string ;
 	sc:startDate	 "23/03/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Loire-Atlantique"^^xsd:string ;
-	ex:discipline	 "Multi-disciplines UFOLEP"^^xsd:string ;
-	rdf:type	 "Manifestation sportive de loisir pour tous"^^xsd:string .
+	dbpedia-owl:sport	 "Multi-disciplines UFOLEP"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Manifestation sportive de loisir pour tous"^^xsd:string .
 
 <http://projet.com/10/Golden_League_Féminine>	 foaf:name 	 "Golden League Féminine"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:endDate	 "23/03/2013"^^xsd:string ;
 	dbpprop:town	 "Nantes"^^xsd:string ;
 	sc:startDate	 "20/03/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Loire-Atlantique"^^xsd:string ;
-	ex:discipline	 "Handball"^^xsd:string ;
-	rdf:type	 "Manifestation non qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "Handball"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Manifestation non qualificative"^^xsd:string .
 
 <http://projet.com/10/Grand_Prix_Char_à_voile_Classe_Promo>	 foaf:name 	 "Grand Prix Char à voile Classe Promo"^^xsd:string ;
-	ex:insee	 "85164"^^xsd:string ;
+	dbpprop:insee	 "85164"^^xsd:integer ;
 	sc:endDate	 "03/03/2013"^^xsd:string ;
 	dbpprop:town	 "Notre-Dame-de-Monts"^^xsd:string ;
 	sc:startDate	 "02/03/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Vendée"^^xsd:string ;
-	ex:discipline	 "undefined"^^xsd:string ;
-	rdf:type	 "Compétition fédérale qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "undefined"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Compétition fédérale qualificative"^^xsd:string .
 
 <http://projet.com/10/Grand_Prix_de_la_Ville_de_Coulaines>	 foaf:name 	 "Grand Prix de la Ville de Coulaines"^^xsd:string ;
-	ex:insee	 "72095"^^xsd:string ;
+	dbpprop:insee	 "72095"^^xsd:integer ;
 	sc:endDate	 "10/02/2013"^^xsd:string ;
 	dbpprop:town	 "Coulaines"^^xsd:string ;
 	sc:startDate	 "21/01/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Sarthe"^^xsd:string ;
-	ex:discipline	 "Tennis"^^xsd:string ;
-	rdf:type	 "Compétition fédérale qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "Tennis"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Compétition fédérale qualificative"^^xsd:string .
 
 <http://projet.com/10/Handi_Pro-Am__Golf_2013>	 foaf:name 	 "Handi Pro-Am  Golf 2013"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:endDate	 "20/05/2013"^^xsd:string ;
 	dbpprop:town	 "Nantes"^^xsd:string ;
 	sc:startDate	 "18/05/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Loire-Atlantique"^^xsd:string ;
-	ex:discipline	 "Golf"^^xsd:string ;
-	rdf:type	 "Manifestation non qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "Golf"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Manifestation non qualificative"^^xsd:string .
 
 <http://projet.com/10/Jumping_International_de_France_>	 foaf:name 	 "Jumping International de France "^^xsd:string ;
-	ex:insee	 "44055"^^xsd:string ;
+	dbpprop:insee	 "44055"^^xsd:integer ;
 	sc:endDate	 "19/05/2013"^^xsd:string ;
 	dbpprop:town	 "Baule-Escoublac"^^xsd:string ;
 	sc:startDate	 "16/05/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Loire-Atlantique"^^xsd:string ;
-	ex:discipline	 "Equitation"^^xsd:string ;
-	rdf:type	 "Compétition fédérale qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "Equitation"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Compétition fédérale qualificative"^^xsd:string .
 
 <http://projet.com/10/La_Bicentenaire_2013>	 foaf:name 	 "La Bicentenaire 2013"^^xsd:string ;
-	ex:insee	 "85191"^^xsd:string ;
+	dbpprop:insee	 "85191"^^xsd:integer ;
 	sc:endDate	 "17/03/2013"^^xsd:string ;
 	dbpprop:town	 "Roche-sur-Yon"^^xsd:string ;
 	sc:startDate	 "17/03/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Vendée"^^xsd:string ;
-	ex:discipline	 "undefined"^^xsd:string ;
-	rdf:type	 "Manifestation sportive de loisir pour tous"^^xsd:string .
+	dbpedia-owl:sport	 "undefined"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Manifestation sportive de loisir pour tous"^^xsd:string .
 
 <http://projet.com/10/Loire_Atlantique_Espoirs_-_Challenge_National__La_France_Cycliste_Espoirs>	 foaf:name 	 "Loire Atlantique Espoirs - Challenge National  La France Cycliste Espoirs"^^xsd:string ;
-	ex:insee	 "44129"^^xsd:string ;
+	dbpprop:insee	 "44129"^^xsd:integer ;
 	sc:endDate	 "12/05/2013"^^xsd:string ;
 	dbpprop:town	 "Pontchâteau"^^xsd:string ;
 	sc:startDate	 "11/05/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Loire-Atlantique"^^xsd:string ;
-	ex:discipline	 "Cyclisme"^^xsd:string ;
-	rdf:type	 "Compétition fédérale qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "Cyclisme"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Compétition fédérale qualificative"^^xsd:string .
 
 <http://projet.com/10/Mondial_Football_Montaigu>	 foaf:name 	 "Mondial Football Montaigu"^^xsd:string ;
-	ex:insee	 "85146"^^xsd:string ;
+	dbpprop:insee	 "85146"^^xsd:integer ;
 	sc:endDate	 "01/04/2013"^^xsd:string ;
 	dbpprop:town	 "Montaigu"^^xsd:string ;
 	sc:startDate	 "26/03/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Vendée"^^xsd:string ;
-	ex:discipline	 "Football"^^xsd:string ;
-	rdf:type	 "Manifestation non qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "Football"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Manifestation non qualificative"^^xsd:string .
 
 <http://projet.com/10/Open_de_Judo_de_Vendée_>	 foaf:name 	 "Open de Judo de Vendée "^^xsd:string ;
-	ex:insee	 "85155"^^xsd:string ;
+	dbpprop:insee	 "85155"^^xsd:integer ;
 	sc:endDate	 "20/04/2013"^^xsd:string ;
 	dbpprop:town	 "Mouilleron-le-Captif"^^xsd:string ;
 	sc:startDate	 "20/04/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Vendée"^^xsd:string ;
-	ex:discipline	 "Judo"^^xsd:string ;
-	rdf:type	 "Manifestation non qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "Judo"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Manifestation non qualificative"^^xsd:string .
 
 <http://projet.com/10/Open_Espace_Anjou_-_Tournoi_International_de_Tennis>	 foaf:name 	 "Open Espace Anjou - Tournoi International de Tennis"^^xsd:string ;
-	ex:insee	 "49007"^^xsd:string ;
+	dbpprop:insee	 "49007"^^xsd:integer ;
 	sc:endDate	 "14/04/2013"^^xsd:string ;
 	dbpprop:town	 "Angers"^^xsd:string ;
 	sc:startDate	 "06/04/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Maine et Loire"^^xsd:string ;
-	ex:discipline	 "Tennis"^^xsd:string ;
-	rdf:type	 "Compétition fédérale qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "Tennis"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Compétition fédérale qualificative"^^xsd:string .
 
 <http://projet.com/10/Pornichet_Select_6_50>	 foaf:name 	 "Pornichet Select 6.50"^^xsd:string ;
-	ex:insee	 "44132"^^xsd:string ;
+	dbpprop:insee	 "44132"^^xsd:integer ;
 	sc:endDate	 "24/04/2013"^^xsd:string ;
 	dbpprop:town	 "Pornichet"^^xsd:string ;
 	sc:startDate	 "17/04/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Loire-Atlantique"^^xsd:string ;
-	ex:discipline	 "Voile"^^xsd:string ;
-	rdf:type	 "Compétition fédérale qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "Voile"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Compétition fédérale qualificative"^^xsd:string .
 
 <http://projet.com/10/Tennis_European_Winter_Cup_2013>	 foaf:name 	 "Tennis European Winter Cup 2013"^^xsd:string ;
-	ex:insee	 "49099"^^xsd:string ;
+	dbpprop:insee	 "49099"^^xsd:integer ;
 	sc:endDate	 "03/02/2013"^^xsd:string ;
 	dbpprop:town	 "Cholet"^^xsd:string ;
 	sc:startDate	 "01/02/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Maine et Loire"^^xsd:string ;
-	ex:discipline	 "Tennis"^^xsd:string ;
-	rdf:type	 "Compétition fédérale qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "Tennis"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Compétition fédérale qualificative"^^xsd:string .
 
 <http://projet.com/10/Tournoi_International_basket_U16_garçons>	 foaf:name 	 "Tournoi International basket U16 garçons"^^xsd:string ;
-	ex:insee	 "85191"^^xsd:string ;
+	dbpprop:insee	 "85191"^^xsd:integer ;
 	sc:endDate	 "01/04/2013"^^xsd:string ;
 	dbpprop:town	 "Roche-sur-Yon"^^xsd:string ;
 	sc:startDate	 "29/03/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Vendée"^^xsd:string ;
-	ex:discipline	 "Basket ball"^^xsd:string ;
-	rdf:type	 "Manifestation non qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "Basket ball"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Manifestation non qualificative"^^xsd:string .
 
 <http://projet.com/10/Tournoi_International_de_Judo_de_la_Ville_de_Laval>	 foaf:name 	 "Tournoi International de Judo de la Ville de Laval"^^xsd:string ;
-	ex:insee	 "53130"^^xsd:string ;
+	dbpprop:insee	 "53130"^^xsd:integer ;
 	sc:endDate	 "17/02/2013"^^xsd:string ;
 	dbpprop:town	 "Laval"^^xsd:string ;
 	sc:startDate	 "16/02/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Mayenne"^^xsd:string ;
-	ex:discipline	 "Judo"^^xsd:string ;
-	rdf:type	 "Compétition fédérale qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "Judo"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Compétition fédérale qualificative"^^xsd:string .
 
 <http://projet.com/10/Tournoi_International_Foot_Rezé>	 foaf:name 	 "Tournoi International Foot Rezé"^^xsd:string ;
-	ex:insee	 "44143"^^xsd:string ;
+	dbpprop:insee	 "44143"^^xsd:integer ;
 	sc:endDate	 "31/03/2013"^^xsd:string ;
 	dbpprop:town	 "Rezé"^^xsd:string ;
 	sc:startDate	 "29/03/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Loire-Atlantique"^^xsd:string ;
-	ex:discipline	 "Football"^^xsd:string ;
-	rdf:type	 "Manifestation non qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "Football"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Manifestation non qualificative"^^xsd:string .
 
 <http://projet.com/10/Tournoi_Tennis_Open_de_Mayenne>	 foaf:name 	 "Tournoi Tennis Open de Mayenne"^^xsd:string ;
-	ex:insee	 "53147"^^xsd:string ;
+	dbpprop:insee	 "53147"^^xsd:integer ;
 	sc:endDate	 "03/03/2013"^^xsd:string ;
 	dbpprop:town	 "Mayenne"^^xsd:string ;
 	sc:startDate	 "15/02/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Mayenne"^^xsd:string ;
-	ex:discipline	 "Tennis"^^xsd:string ;
-	rdf:type	 "Compétition fédérale qualificative"^^xsd:string .
+	dbpedia-owl:sport	 "Tennis"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Compétition fédérale qualificative"^^xsd:string .
 
 <http://projet.com/10/Trophée_Neurocéan_Pays_de_la_Loire>	 foaf:name 	 "Trophée Neurocéan Pays de la Loire"^^xsd:string ;
-	ex:insee	 "49015"^^xsd:string ;
+	dbpprop:insee	 "49015"^^xsd:integer ;
 	sc:endDate	 "06/10/2013"^^xsd:string ;
 	dbpprop:town	 "Avrillé"^^xsd:string ;
 	sc:startDate	 "30/03/2013"^^xsd:string ;
 	dbpedia-owl:department	 "Maine et Loire"^^xsd:string ;
-	ex:discipline	 "Golf"^^xsd:string ;
-	rdf:type	 "Manifestation sportive de loisir pour tous"^^xsd:string .
+	dbpedia-owl:sport	 "Golf"^^xsd:string ;
+	TEMPORAIRE:TypeProblem	 "Manifestation sportive de loisir pour tous"^^xsd:string .
 

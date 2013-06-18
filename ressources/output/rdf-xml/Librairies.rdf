@@ -1,7 +1,9 @@
 <rdf:RDF
     xmlns:dbpprop="http://dbpedia.org/property/"
+    xmlns:gr="http://purl.org/goodrelations/"
     xmlns:dbpedia="http://dbpedia.org/resource/"
     xmlns:sc="http://schema.org/"
+    xmlns:pdll="http://data.paysdelaloire.fr/"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:foaf="http://xmlns.com/foaf/0.1/"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -17,9 +19,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44350</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 PLACE SAINT AUBIN</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GUERANDE</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GUERANDE</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 24 91 26 </sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44069</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44069</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE K'DO SAINT AUBIN</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_ARCADIE">
@@ -27,9 +29,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85400</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.arcadie-calipage.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 PLACE DU PETIT BOOTH</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUCON</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUCON</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 56 02 67</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85128</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85128</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE ARCADIE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_LA_DIFFERENCE">
@@ -37,9 +39,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35 CHAUSSEE DE LA MADELEINE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 82 86 68</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LA DIFFERENCE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_SILOE_44">
@@ -47,9 +49,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.siloe-librairies.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 RUE ANGE GUEPIN</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 89 11 18</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE SILOE 44</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_LEROY">
@@ -57,9 +59,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85200</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 PASSAGE DU COMMERCE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FONTENAY LE COMTE</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FONTENAY LE COMTE</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 69 86 85 </sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85092</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85092</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LEROY</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_CLE_DE_VIE">
@@ -67,9 +69,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.cledevie.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">71 RUE NATIONALE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 43 28 27 42</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72181</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72181</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE CLE DE VIE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_DU_CHÂTEAU_DES_DUCS_DE_BRETAGNE">
@@ -77,9 +79,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.chateau-nantes.fr</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 PLACE MARC ELDER</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 17 49 56</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE DU CHÂTEAU DES DUCS DE BRETAGNE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_LES_ENFANTS_TERRIBLES">
@@ -87,9 +89,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17 RUE VERDUN</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 82 02 15</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LES ENFANTS TERRIBLES</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_DES_PONTS">
@@ -97,9 +99,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49400</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27 AVENUE DU GENERAL DE GAULLE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAUMUR</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAUMUR</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 41 67 49 91 </sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49328</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49328</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE DES PONTS</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_AU_REPAIRE_DES_HEROS">
@@ -107,9 +109,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49100</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41 RUE BEAUREPAIRE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 41 34 83 06</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49007</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49007</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE AU REPAIRE DES HEROS</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_PAPYRUS_72">
@@ -117,9 +119,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72400</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairie-papyrus.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37 RUE D'HUISNE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA FERTE BERNARD</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA FERTE BERNARD</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 43 93 00 53</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72132</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72132</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE PAPYRUS 72</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_APOSTROPHES">
@@ -127,9 +129,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44260</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairie-apostrophes.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 PLACE DES HALLES</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAVENAY</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAVENAY</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 56 80 03 </sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44195</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44195</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE APOSTROPHES</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_L&apos;EQUIPAGE">
@@ -137,9 +139,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44830</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 RUE DE PORNIC</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOUAYE</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOUAYE</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 28 07 58 72 </sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44018</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44018</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE L'EQUIPAGE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_LA_PLUME">
@@ -147,9 +149,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44130</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 RUE ARISTIDE BRIAND</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BLAIN</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BLAIN</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 87 33 41</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44015</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44015</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LA PLUME</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_LIRE_ET_ECRIRE">
@@ -157,9 +159,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53400</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 RUE NEUVE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRAON</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRAON</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 43 06 29 02 </sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53084</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53084</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LIRE ET ECRIRE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_VENT_D&apos;OUEST_-_LIEU_UNIQUE">
@@ -167,9 +169,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairie-nantes.fr</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 RUE DE LA BISCUITERIE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 47 64 83</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE VENT D'OUEST - LIEU UNIQUE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_BLONDEAU">
@@ -177,9 +179,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72140</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26 RUE XAVIER BOUTET</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIBRAYE</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIBRAYE</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 43 93 60 23</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72373</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72373</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE BLONDEAU</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_SILOE_85">
@@ -187,9 +189,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.siloe-librairies.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">58 RUE DU MARECHAL JOFFRE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA ROCHE SUR YON</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA ROCHE SUR YON</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 37 38 81</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85191</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85191</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE SILOE 85</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_GWENLADENN">
@@ -197,9 +199,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44600</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gweladenn.free.fr</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOULEVARD DE LA LEGION D'HONNEUR</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT NAZAIRE</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT NAZAIRE</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 22 16 10</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44184</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44184</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE GWENLADENN</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_FRANKLIN">
@@ -207,9 +209,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18 RUE FRANKLIN</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 88 97 08 </sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE FRANKLIN</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_LE_YETI">
@@ -217,9 +219,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44300</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">le.yeti.pagesperso-orange.fr</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9 RUE TRAVERSIERE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHOLET</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHOLET</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 41 65 23 03</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49099</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49099</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LE YETI</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_COIFFARD">
@@ -227,9 +229,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 RUE DE LA FOSSE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 48 16 19</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE COIFFARD</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_JEUX_BOUQUINE">
@@ -237,9 +239,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 RUE VAL DE MAYENNE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LAVAL</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LAVAL</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 43 53 83 24</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53130</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53130</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE JEUX BOUQUINE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_QUILLET">
@@ -247,9 +249,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53600</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44 RUE FONTAINE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EVRON</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EVRON</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 43 01 61 74</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53097</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53097</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE QUILLET</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_L&apos;ILE_AUX_TRESOR">
@@ -257,9 +259,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49590</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.lileautresor.fr</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 PLACE DES PLANTAGENETS</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FONTEVRAUD</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FONTEVRAUD</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 41 51 65 65</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49140</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49140</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE L'ILE AUX TRESOR</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_SOULARD">
@@ -267,9 +269,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44190</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18 RUE DES HALLES</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLISSON</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLISSON</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 31 67 60 </sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44043</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44043</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE SOULARD</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_DOUCET">
@@ -277,9 +279,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wwww.librairiedoucet.fr</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">66 AVENUE DU GENERAL DE GAULLE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 43 24 43 20</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72181</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72181</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE DOUCET</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_ROMINI">
@@ -287,9 +289,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 RUE GAMBETTA</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FRESNAY SUR SARTHE</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FRESNAY SUR SARTHE</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 43 33 28 83 </sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72138</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72138</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE ROMINI</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_ITINERANCES">
@@ -297,9 +299,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">62 RUE BAUDRIERE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 41 77 36 47</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49007</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49007</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE ITINERANCES</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_L&apos;ATHANOR">
@@ -307,9 +309,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22 RUE MARCHANDE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 43 23 63 18 </sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72181</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72181</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE L'ATHANOR</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_PLUME_ET_FABULETTES">
@@ -317,9 +319,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44150</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8 RUE CLEMENCEAU</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANCENIS</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANCENIS</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">06 74 37 40 14</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44003</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44003</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE PLUME ET FABULETTES</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_KROKI">
@@ -327,9 +329,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49100</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kroki.over-blog.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16 RUE LOUIS DE ROMAIN</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 41 88 61 15</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49007</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49007</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE KROKI</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_STORY_BD">
@@ -337,9 +339,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.story-bd.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 RUE GUEPIN</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 35 69 50</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE STORY BD</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_OTAKU_NERA_DERA">
@@ -347,9 +349,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.otakunodera.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 RUE DES TROIS CROISSANTS </dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 35 25 83</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE OTAKU NERA DERA</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_LACROIX">
@@ -357,9 +359,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38 RUE CLEMENCEAU</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA ROCHE SUR YON</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA ROCHE SUR YON</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 37 30 77 </sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85191</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85191</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LACROIX</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_LE_PILIER_AUX_CLES">
@@ -367,9 +369,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.le-pilier-aux-cles.fr</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81-83 GRANDE RUE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 43 24 97 26</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72181</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72181</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LE PILIER AUX CLES</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_DU_GRAND_T">
@@ -377,9 +379,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.legrandt.fr</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84 RUE DU GENERAL BUAT</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 88 25 25</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE DU GRAND T</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_L&apos;OR_EN_LIVRE">
@@ -387,9 +389,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85290</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26 PLACE SAINT GABRIEL</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT LAURENT SUR SEVRE</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT LAURENT SUR SEVRE</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 67 88 23</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85238</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85238</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE L'OR EN LIVRE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_HELLIO_">
@@ -397,9 +399,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85330</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 GRANDE RUE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOIRMOUTIER</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOIRMOUTIER</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 39 00 68</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85163</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85163</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE HELLIO </foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_S_A_D_E_L_(SOCIETE_ANGEVINE_D&apos;EDITION_ET_LIBRAIRIE)_">
@@ -407,9 +409,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49124</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOULEVARD DE LA ROMANERIE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT BARTHELEMY D'ANJOU</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT BARTHELEMY D'ANJOU</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 41 21 14 62</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49267</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49267</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE S.A.D.E.L (SOCIETE ANGEVINE D'EDITION ET LIBRAIRIE) </foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_SILOE_53">
@@ -417,9 +419,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.siloe-librairies.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 RUE DU GENERAL DE GAULLE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LAVAL</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LAVAL</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 43 59 11 50</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53130</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53130</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE SILOE 53</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_L&apos;ODYSSEE">
@@ -427,9 +429,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44330</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairielodyssee-vallet.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44 RUE FRANCOIS LUNEAU</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VALLET</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VALLET</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 33 90 03</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44212</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44212</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE L'ODYSSEE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_LIVRES_COMME_L&apos;AIR">
@@ -437,9 +439,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 RUE COPERNIC</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 89 12 46 </sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LIVRES COMME L'AIR</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_LE_PASSAGE_A_L&apos;ACTE">
@@ -447,9 +449,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72610</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZONE COMMERCIALE LE POINT D'ALENCON</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARCONNAY</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARCONNAY</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 33 80 64 70</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72006</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72006</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LE PASSAGE A L'ACTE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_GRAFFITY&apos;S">
@@ -457,9 +459,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49310</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23 PLACE CHARLES DE GAULLE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIHIERS</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIHIERS</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 41 75 82 75</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49373</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49373</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE GRAFFITY'S</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_A_PLEIN_REVES">
@@ -467,9 +469,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.apleinreves.fr</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13 ALLEE PORT MAILLARD</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 38 22 37</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE A PLEIN REVES</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_LE_TRIANGLE_BLANC">
@@ -477,9 +479,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44490</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14 RUE DE LA MARINE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE CROISIC</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE CROISIC</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 15 74 16</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44049</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44049</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LE TRIANGLE BLANC</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_BOUQUINERIE_DU_CENTRE">
@@ -487,9 +489,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23 RUE NATIONALE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 43 87 02 79</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72181</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72181</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE BOUQUINERIE DU CENTRE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_HALL_DES_INFORMATIONS">
@@ -497,9 +499,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35 BOULEVARD DE L'OCEAN</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 60 04 30 </sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44055</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44055</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE HALL DES INFORMATIONS</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_LA_MYSTERIEUSE_LIBRAIRIE_NANTAISE">
@@ -507,9 +509,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.mysterieuselibrairienantaise.wordpress.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 RUE DE LA PAIX</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 72 18 89</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LA MYSTERIEUSE LIBRAIRIE NANTAISE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_MEDICALE_ET_SCIENTIFIQUE">
@@ -517,9 +519,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.lms-web.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 BIS ALLEE DE TURENNE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 47 06 66</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE MEDICALE ET SCIENTIFIQUE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_FRANCE_LOISIRS">
@@ -527,9 +529,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.franceloisirs.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 RUE JEAN JACQUES ROUSSEAU</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 48 64 95</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE FRANCE LOISIRS</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_ENGUEHARD">
@@ -537,9 +539,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72220</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 PLACE DE LA REPUBLIQUE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECOMMOY</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECOMMOY</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 43 42 10 45</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72124</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72124</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE ENGUEHARD</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_SILOE_72">
@@ -547,9 +549,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.siloe-librairies.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38 BIS PLACE DES COMTES DU MAINE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 43 87 53 16</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72181</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72181</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE SILOE 72</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_RECREALIVRES">
@@ -557,9 +559,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recrealivresque.free.fr </dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29 RUE DES PONTS NEUFS</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 43 43 87 21</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72181</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72181</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE RECREALIVRES</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_ATLANTIC_PAPETERIE">
@@ -567,9 +569,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85800</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13 RUE DU GENERAL DE GAULLE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT GILLES CROIX DE VIE</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT GILLES CROIX DE VIE</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 55 91 31</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85222</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85222</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE ATLANTIC PAPETERIE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_TRAIT_D&apos;UNION">
@@ -577,9 +579,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85330</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 BIS RUE DU GRAND FOUR</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOIRMOUTIER</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOIRMOUTIER</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 35 59 22</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85163</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85163</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE TRAIT D'UNION</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_CLIO">
@@ -587,9 +589,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85440</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11 AVENUE DU GENERAL DE GAULLE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AVRILLE</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AVRILLE</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 22 32 57</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85010</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85010</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE CLIO</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_POLYGLOT">
@@ -597,9 +599,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://polyglot.free.fr/</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 BOULEVARD PETIT PORT</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 14 07 04</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE POLYGLOT</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_BOUQUINERIE_DU_VIEUX_CHÂTEAU">
@@ -607,9 +609,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19 GRANDE RUE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LAVAL</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LAVAL</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 43 56 26 43</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53130</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53130</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE BOUQUINERIE DU VIEUX CHÂTEAU</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_VOYELLES_PONTCHATEAU">
@@ -617,9 +619,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44160</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25 RUE MAURICE SAMBRON</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PONTCHATEAU</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PONTCHATEAU</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 66 32 20</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44129</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44129</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE VOYELLES PONTCHATEAU</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_LA_LUCIOLE">
@@ -627,9 +629,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49100</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.laluciole.fr</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 RUE DES POELIERS</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 41 86 16 06</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49007</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49007</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LA LUCIOLE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_PROLOGUE">
@@ -637,9 +639,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49300</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairie-prologue.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">67 RUE DU COMMERCE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHOLET</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHOLET</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 41 58 55 97</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49099</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49099</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE PROLOGUE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_PAPYRUS_">
@@ -647,9 +649,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49420</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">185 RUE NATIONALE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMILLE</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMILLE</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 41 30 60 26</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49092</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49092</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE PAPYRUS </foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_BULLE">
@@ -657,9 +659,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairie-bulle.fr</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 RUE SAINT HONORE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 43 39 06 23</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72181</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72181</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE BULLE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_LA_NEF_DES_LIVRES">
@@ -667,9 +669,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44600</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairielanefdeslivres.fr</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26 AVENUE DE LA HAVANE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT NAZAIRE</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT NAZAIRE</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 70 01 71</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44184</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44184</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LA NEF DES LIVRES</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_L&apos;ESPRIT_LARGE_">
@@ -677,9 +679,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44350</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairielespritlarge.over-blog.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 RUE VANNETAISE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GUERANDE</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GUERANDE</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 23 44 44 </sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44069</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44069</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE L'ESPRIT LARGE </foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_CONTACT">
@@ -687,9 +689,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 RUE LENEPVEU</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 41 24 15 00</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49007</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49007</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE CONTACT</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_L&apos;ESPRIT_DU_TEMPS">
@@ -697,9 +699,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 RUE SIMON FOUCAULT</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 48 01 26</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE L'ESPRIT DU TEMPS</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_HUET">
@@ -707,9 +709,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53700</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 PLACE DES HALLES</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VILLAINES LA JUHEL</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VILLAINES LA JUHEL</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 43 03 30 86 </sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53272</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53272</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE HUET</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_GEOTHEQUE">
@@ -717,9 +719,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geotheque.over-blog.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 PLACE PILORI </dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 47 40 68 </sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE GEOTHEQUE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_DOBREE">
@@ -727,9 +729,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairiedobree.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14 RUE VOLTAIRE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 69 84 84 </sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE DOBREE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_LES_FABLES_D&apos;OLONNE">
@@ -737,9 +739,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85100</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.lesfablesdolonne.fr</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">56 PROMENADE GEORGES CLEMENCEAU</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LES SABLES D'OLONNES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LES SABLES D'OLONNES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 20 12 90</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85194</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85194</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LES FABLES D'OLONNE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_THUARD">
@@ -747,9 +749,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairiethuard.fr</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24 RUE DE L'ETOILE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 43 82 22 22</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72181</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72181</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE THUARD</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_LE_MOT_PASSANT">
@@ -757,9 +759,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49300</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 RUE PINEAU</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHOLET</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHOLET</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 41 62 44 30</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49099</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49099</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LE MOT PASSANT</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_TECHNIQUE">
@@ -767,26 +769,26 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49300</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairietechnique-cholet.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">54 RUE SAINT PIERRE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHOLET</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHOLET</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 41 46 02 40</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49099</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49099</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE TECHNIQUE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_FNAC">
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.fnac.com/Nantes</dbpprop:website>
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72000</dbpedia-owl:postalCode>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</dbpedia-owl:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</dbpprop:town>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.fnac.com/Le-Mans</dbpprop:website>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">08 92 35 04 05</sc:telephone>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13 RUE CLAUDE BLONDEAU</dbpprop:location>
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49007</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72181</dbpprop:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49007</dbpprop:insee>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</dbpprop:town>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.fnac.com/Angers</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLACE DU COMMERCE</dbpprop:location>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72181</ex:insee>
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49100</dbpedia-owl:postalCode>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25 RUE LENEPVEU</dbpprop:location>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE FNAC</foaf:name>
@@ -797,9 +799,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.letoilepolar.fr</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">58 RUE DE LA BASTILLE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">09 81 81 28 30</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE ETOILE POLAR</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_SAC_A_PAPIER">
@@ -807,9 +809,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44600</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38 RUE DU MAINE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT NAZAIRE</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT NAZAIRE</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 66 55 71</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44184</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44184</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE SAC A PAPIER</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_A_PLUS_D&apos;UN_TITRE">
@@ -817,9 +819,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72800</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15 RUE BŒUF</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE LUDE</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE LUDE</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 43 48 21 81</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72176</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72176</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE A PLUS D'UN TITRE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_L&apos;ATALANTE">
@@ -827,9 +829,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.l-atalante.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15 RUE DES VIEILLES DOUVES</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 47 54 77</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE L'ATALANTE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_LA_PARENTHESE">
@@ -837,9 +839,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49600</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairielaparenthese.fr</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 TER RUE SAINT GILLES</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BEAUPREAU</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BEAUPREAU</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 41 63 32 55</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49023</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49023</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LA PARENTHESE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_CENTRALE">
@@ -847,9 +849,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85108</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20 RUE DE L'HOTEL DE VILLE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LES SABLES D'OLONNES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LES SABLES D'OLONNES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 32 85 97</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85194</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85194</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE CENTRALE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_L&apos;AUTRE_RIVE">
@@ -857,9 +859,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.autrerive-librairie-nantes.fr</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21 RUE DE LA PAIX</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 89 30 76</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE L'AUTRE RIVE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_AGORA">
@@ -867,9 +869,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairie-agora.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11 RUE CLEMENCEAU</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA ROCHE SUR YON</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA ROCHE SUR YON</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 44 58 81</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85191</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85191</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE AGORA</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_L&apos;ART_EN_BULLES">
@@ -877,9 +879,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.lartenbulles-librairie-bd.fr</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 RUE JEAN JACQUES ROUSSEAU</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 81 02 20 66</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE L'ART EN BULLES</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_LUDIBULLE">
@@ -887,9 +889,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.ludibulle.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 RUE DES VIEILLES DOUVES</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 35 71 34</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LUDIBULLE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_LA_TRES_PETITE_LIBRAIRIE">
@@ -897,9 +899,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44190</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">58 BIS RUE DES HALLES</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLISSON</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLISSON</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 71 89 66</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44043</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44043</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LA TRES PETITE LIBRAIRIE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_SILOE_LIS">
@@ -907,9 +909,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.siloe-librairies.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 BIS RUE CLEMENCEAU</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 74 39 05</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE SILOE LIS</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_CHRYSALIDE">
@@ -917,9 +919,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairiechrysalide.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11 RUE DES DEUX HAIES</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 41 86 82 37</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49007</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49007</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE CHRYSALIDE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_LA_PRESSE_ET_LE_LIVRE">
@@ -927,9 +929,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">61 BOULEVARD FELIX GRAT</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LAVAL</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LAVAL</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 43 67 04 90</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53130</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53130</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LA PRESSE ET LE LIVRE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_PARCHEMINS">
@@ -937,9 +939,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49410</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairieparchemins.blogspot.fr</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 RUE CHARLES DE RENEVILLE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT FLORENT LE VIEL</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT FLORENT LE VIEL</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 41 42 92 14</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49276</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49276</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE PARCHEMINS</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_M&apos;LIRE">
@@ -947,9 +949,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairiemlire.hautetfort.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 RUE DE LA PAIX</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LAVAL</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LAVAL</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 43 53 04 11</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53130</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53130</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE M'LIRE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_ALADIN">
@@ -957,9 +959,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.canalbd.net</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8 RUE MERCOEUR</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 20 39 23</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE ALADIN</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_LHERIAU">
@@ -967,9 +969,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49100</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 PLACE DE LA VISITATION</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 41 87 75 87</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49007</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49007</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LHERIAU</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_85_000">
@@ -977,9 +979,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARREAU DES HALLES</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA ROCHE SUR YON</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA ROCHE SUR YON</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 37 27 93</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85191</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85191</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE 85 000</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_VENT_D&apos;OUEST">
@@ -987,9 +989,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairie-nantes.fr</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 PLACE DU BON PASTEUR</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 48 64 81</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE VENT D'OUEST</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_VOYELLES">
@@ -997,9 +999,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85100</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairie-voyelles.net</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">64 RUE NATIONALE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LES SABLES D'OLONNES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LES SABLES D'OLONNES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 23 71 77</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85194</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85194</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE VOYELLES</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_LE_LIVRE_A_VENIR">
@@ -1007,9 +1009,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49400</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21 RUE DE LA TONNELLE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAUMUR</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAUMUR</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 41 52 10 56</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49328</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49328</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LE LIVRE A VENIR</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_ARNOULD">
@@ -1017,9 +1019,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49300</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">67 RUE DU COMMERCE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHOLET</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHOLET</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">09 67 09 84 63</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49099</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49099</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE ARNOULD</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_PARENTHESE">
@@ -1027,9 +1029,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49600</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 TER RUE SAINT GILLES</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BEAUPREAU</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BEAUPREAU</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 41 63 32 55</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49023</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49023</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE PARENTHESE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_KARA_PASSE_EN_BULLE">
@@ -1037,9 +1039,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85500</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 BIS RUE DE LA BIENFAISANCE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LES HERBIERS</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LES HERBIERS</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 65 00 36</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE KARA PASSE EN BULLE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_DU_MARAIS">
@@ -1047,9 +1049,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53100</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairiedumarais.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLACE CLEMENCEAU</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAYENNE</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAYENNE</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 43 04 10 12</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53147</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53147</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE DU MARAIS</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_LA_LIGERIENNE">
@@ -1057,9 +1059,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49250</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE BELLENOUE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST MATHURIN SUR LOIRE</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST MATHURIN SUR LOIRE</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 41 57 00 50</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49307</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49307</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LA LIGERIENNE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_BULLE_D&apos;AIR">
@@ -1067,9 +1069,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49100</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41 RUE BRESSIGNY</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 41 88 83 33</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49007</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49007</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE BULLE D'AIR</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_DU_VAL_DE_LOIRE">
@@ -1077,9 +1079,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49400</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46 RUE D'ORLEANS</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAUMUR</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAUMUR</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 41 40 16 69</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49328</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49328</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE DU VAL DE LOIRE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_PAUSE_MANGA">
@@ -1087,9 +1089,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">56 RUE NATIONALE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE MANS</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 53 76 24 17</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72181</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72181</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE PAUSE MANGA</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_DURANCE">
@@ -1097,9 +1099,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairiedurance.fr</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 ALLEE D'ORLEANS</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 48 68 79</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE DURANCE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_DES_ANTILLES">
@@ -1107,9 +1109,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44470</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE DES ANTILLES</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARQUEFOU</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARQUEFOU</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 50 84 10</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44026</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44026</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE DES ANTILLES</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_DU_CASINO">
@@ -1117,9 +1119,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ESPLANADE FRANCOIS ANDRE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA BAULE</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 60 86 60 </sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44055</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44055</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE DU CASINO</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_RICHER">
@@ -1127,9 +1129,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49100</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairie-richer.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6-8 RUE CHAPERONNIERE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGERS</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 41 25 50 00</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49007</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49007</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE RICHER</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_LANDRON">
@@ -1137,9 +1139,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49170</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 RUE DE CHALONNES </dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST GEORGES SUR LOIRE</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST GEORGES SUR LOIRE</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 41 39 13 81</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49283</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49283</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LANDRON</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_PAYS_ET_TERROIRS">
@@ -1147,9 +1149,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49300</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">65 PLACE DU ROUGE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHOLET</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHOLET</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 41 62 68 94</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49099</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49099</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE PAYS ET TERROIRS</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_HACHETTE">
@@ -1157,9 +1159,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44980</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 RUE HELENE BOUCHER</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINTE LUCE SUR LOIRE</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINTE LUCE SUR LOIRE</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 85 09 11</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44172</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44172</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE HACHETTE</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_VOYELLES_HERBIGNAC">
@@ -1167,9 +1169,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44410</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13 PLACE DU GENERAL D'ARGENCE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HERBIGNAC</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HERBIGNAC</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 76 90 01</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44072</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44072</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE VOYELLES HERBIGNAC</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_LES_NUITS_BLANCHES">
@@ -1177,9 +1179,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.librairie-lesnuitsblanches.com</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 RUE DES HAUTS PAVES</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 83 28 90</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE LES NUITS BLANCHES</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_RIBARD">
@@ -1187,9 +1189,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44230</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20 RUE MAURICE DANIEL</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT SEBASTIEN SUR LOIRE</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT SEBASTIEN SUR LOIRE</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 80 54 92 </sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44190</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44190</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE RIBARD</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_DU_MUSEE_DES_BEAUX_ARTS">
@@ -1197,9 +1199,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.museedesbeauxarts.nantes.fr</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 RUE CLEMENCEAU</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 51 81 97 41 </sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44109</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE DU MUSEE DES BEAUX ARTS</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_CHAPITRE_COM_LAVAL">
@@ -1207,9 +1209,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53000</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 RUE DU GENERAL DE GAULLE</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LAVAL</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LAVAL</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 43 59 11 50</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53130</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53130</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE CHAPITRE.COM LAVAL</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_ALBUM">
@@ -1217,9 +1219,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44600</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">71 RUE JEAN JAURES</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT NAZAIRE</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT NAZAIRE</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 66 82 71 </sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44184</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44184</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE ALBUM</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/LIBRAIRIE_VENT_DE_GALERNE">
@@ -1227,9 +1229,9 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49290</dbpedia-owl:postalCode>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 RUE CARNOT</dbpprop:location>
-    <dbpedia-owl:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHALONNES SUR LOIRE</dbpedia-owl:location>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHALONNES SUR LOIRE</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 41 45 19 58</sc:telephone>
-    <ex:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#string">49063</ex:insee>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49063</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBRAIRIE VENT DE GALERNE</foaf:name>
   </rdf:Description>
 </rdf:RDF>

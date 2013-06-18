@@ -1,5 +1,7 @@
 
 @prefix TEMPORAIRE: <http://temporaire.org/> .
+@prefix gr: <http://purl.org/goodrelations/> .
+@prefix pdll: <http://data.paysdelaloire.fr/> .
 @prefix dbpedia: <http://dbpedia.org/resource/> .
 @prefix prop-fr: <http://fr.dbpedia.org/property/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -14,743 +16,743 @@
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
 <http://projet.com/10/Angreviers>	 foaf:name 	 "Angreviers"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.0989284598 "^^xsd:decimal ;
 	geo:long	"-1.30206944602"^^xsd:decimal  ;
-	ex:id	 "109"^^xsd:string ;
-	dbpedia-owl:location	 "GORGES"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "109"^^xsd:string ;
+	dbpprop:town	 "GORGES"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "Centre Scolaire d'Angreviers"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44190"^^xsd:integer ;
-	ex:tel	 "02 40 06 91 67"^^xsd:string ;
-	ex:fax	 "02 40 06 94 71"^^xsd:string .
+	sc:telephone	 "02 40 06 91 67"^^xsd:string ;
+	sc:faxNumber	 "02 40 06 94 71"^^xsd:string .
 
 <http://projet.com/10/Blanche_de_Castille>	 foaf:name 	 "Blanche de Castille"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.237335763 "^^xsd:decimal ;
 	geo:long	"-1.53416495279"^^xsd:decimal  ;
-	ex:id	 "12"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
-	ex:ulis	 "oui"^^xsd:string ;
+	pdll:id	 "12"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:hasUlisUnit	 "oui"^^xsd:string ;
 	dbpprop:location	 "45 bd Jules Verne"^^xsd:string ;
-	ex:bp	 "BP 61902"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "BP 61902"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44319"^^xsd:integer ;
-	ex:tel	 "02 40 52 54 60"^^xsd:string ;
-	ex:fax	 "02 40 52 54 64"^^xsd:string .
+	sc:telephone	 "02 40 52 54 60"^^xsd:string ;
+	sc:faxNumber	 "02 40 52 54 64"^^xsd:string .
 
 <http://projet.com/10/Cens>	 foaf:name 	 "Cens"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.2597143894 "^^xsd:decimal ;
 	geo:long	"-1.54336506896"^^xsd:decimal  ;
-	ex:id	 "14"^^xsd:string ;
-	dbpedia-owl:location	 "LA CHAPELLE SUR ERDRE"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "14"^^xsd:string ;
+	dbpprop:town	 "LA CHAPELLE SUR ERDRE"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "La Jonelière "^^xsd:string ;
-	ex:bp	 "BP 4405"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "BP 4405"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44240"^^xsd:integer ;
-	ex:tel	 "02 40 37 01 53 "^^xsd:string ;
-	ex:fax	 "02 40 37 02 15"^^xsd:string .
+	sc:telephone	 "02 40 37 01 53 "^^xsd:string ;
+	sc:faxNumber	 "02 40 37 02 15"^^xsd:string .
 
 <http://projet.com/10/Collège_de_Bretagne_>	 foaf:name 	 "Collège de Bretagne "^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.2326208252 "^^xsd:decimal ;
 	geo:long	"-1.52054492869"^^xsd:decimal  ;
-	ex:id	 "0"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "0"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "15 rue du Landreau"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44300"^^xsd:integer ;
-	ex:tel	 "02 40 49 21 57"^^xsd:string ;
-	ex:fax	 "02 40 49 05 47"^^xsd:string .
+	sc:telephone	 "02 40 49 21 57"^^xsd:string ;
+	sc:faxNumber	 "02 40 49 05 47"^^xsd:string .
 
 <http://projet.com/10/Externat_Enfants_Nantais>	 foaf:name 	 "Externat Enfants Nantais"^^xsd:string ;
-	ex:segpa	 "oui"^^xsd:string ;
+	pdll:isSEGPA	 "oui"^^xsd:string ;
 	geo:lat	"47.2189029947 "^^xsd:decimal ;
 	geo:long	"-1.57293345499"^^xsd:decimal  ;
-	ex:id	 "28"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "28"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "31 avenue Camus"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
-	ex:tel	 "02 40 20 61 54"^^xsd:string ;
-	ex:fax	 "02 40 20 61 50"^^xsd:string .
+	sc:telephone	 "02 40 20 61 54"^^xsd:string ;
+	sc:faxNumber	 "02 40 20 61 50"^^xsd:string .
 
 <http://projet.com/10/Françoise_d'Amboise>	 foaf:name 	 "Françoise d'Amboise"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.2175215326 "^^xsd:decimal ;
 	geo:long	"-1.56968550979"^^xsd:decimal  ;
-	ex:id	 "15"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "15"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "11 rue Mondésir"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
-	ex:tel	 "02 51 84 91 30"^^xsd:string ;
-	ex:fax	 "02 51 84 91 39"^^xsd:string .
+	sc:telephone	 "02 51 84 91 30"^^xsd:string ;
+	sc:faxNumber	 "02 51 84 91 39"^^xsd:string .
 
 <http://projet.com/10/Gabriel_Deshayes>	 foaf:name 	 "Gabriel Deshayes"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.517813584 "^^xsd:decimal ;
 	geo:long	"-2.03733414048"^^xsd:decimal  ;
-	ex:id	 "16"^^xsd:string ;
-	dbpedia-owl:location	 "ST GILDAS"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "16"^^xsd:string ;
+	dbpprop:town	 "ST GILDAS"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "4 route de Redon"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44530"^^xsd:integer ;
-	ex:tel	 "02 40 00 76 76"^^xsd:string ;
-	ex:fax	 "02 40 88 66 25"^^xsd:string .
+	sc:telephone	 "02 40 00 76 76"^^xsd:string ;
+	sc:faxNumber	 "02 40 88 66 25"^^xsd:string .
 
 <http://projet.com/10/Helder_Camara>	 foaf:name 	 "Helder Camara"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.3297245894 "^^xsd:decimal ;
 	geo:long	"-1.62032465794"^^xsd:decimal  ;
-	ex:id	 "126"^^xsd:string ;
-	dbpedia-owl:location	 "TREILLIERES"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "126"^^xsd:string ;
+	dbpprop:town	 "TREILLIERES"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "Rue Etienne Sebert"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44119"^^xsd:integer ;
-	ex:tel	 "02 51 77 07 33"^^xsd:string ;
-	ex:fax	 "02 51 77 07 42"^^xsd:string .
+	sc:telephone	 "02 51 77 07 33"^^xsd:string ;
+	sc:faxNumber	 "02 51 77 07 42"^^xsd:string .
 
 <http://projet.com/10/Immaculée_Conception>	 foaf:name 	 "Immaculée Conception"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.0920023227 "^^xsd:decimal ;
 	geo:long	"-1.28122114125"^^xsd:decimal  ;
-	ex:id	 "132"^^xsd:string ;
-	dbpedia-owl:location	 "CLISSON"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "132"^^xsd:string ;
+	dbpprop:town	 "CLISSON"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "65 rue du Docteur Boutin"^^xsd:string ;
-	ex:bp	 "BP 89115"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "BP 89115"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44191"^^xsd:integer ;
-	ex:tel	 "02 40 54 01 77"^^xsd:string ;
-	ex:fax	 "02 40 54 36 73"^^xsd:string .
+	sc:telephone	 "02 40 54 01 77"^^xsd:string ;
+	sc:faxNumber	 "02 40 54 36 73"^^xsd:string .
 
 <http://projet.com/10/La_Maine>	 foaf:name 	 "La Maine"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.0780341621 "^^xsd:decimal ;
 	geo:long	"-1.40515760077"^^xsd:decimal  ;
-	ex:id	 "98"^^xsd:string ;
-	dbpedia-owl:location	 "AIGREFEUILLE S/MAINE"^^xsd:string ;
-	ex:ulis	 "oui"^^xsd:string ;
+	pdll:id	 "98"^^xsd:string ;
+	dbpprop:town	 "AIGREFEUILLE S/MAINE"^^xsd:string ;
+	pdll:hasUlisUnit	 "oui"^^xsd:string ;
 	dbpprop:location	 "Rue des Acacias"^^xsd:string ;
-	ex:bp	 "BP 4"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "BP 4"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44140"^^xsd:integer ;
-	ex:tel	 "02 40 03 85 50"^^xsd:string ;
-	ex:fax	 "02 40 33 52 11"^^xsd:string .
+	sc:telephone	 "02 40 03 85 50"^^xsd:string ;
+	sc:faxNumber	 "02 40 33 52 11"^^xsd:string .
 
 <http://projet.com/10/La_Perverie>	 foaf:name 	 "La Perverie"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.2413220173 "^^xsd:decimal ;
 	geo:long	"-1.56273475369"^^xsd:decimal  ;
-	ex:id	 "104"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
-	ex:ulis	 "oui"^^xsd:string ;
+	pdll:id	 "104"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:hasUlisUnit	 "oui"^^xsd:string ;
 	dbpprop:location	 "63 rue de La Perverie"^^xsd:string ;
-	ex:bp	 "BP 42203"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "BP 42203"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44322"^^xsd:integer ;
-	ex:tel	 "02 40 14 53 70"^^xsd:string ;
-	ex:fax	 "02 40 14 53 79"^^xsd:string .
+	sc:telephone	 "02 40 14 53 70"^^xsd:string ;
+	sc:faxNumber	 "02 40 14 53 79"^^xsd:string .
 
 <http://projet.com/10/Lamoricière>	 foaf:name 	 "Lamoricière"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.0387215833 "^^xsd:decimal ;
 	geo:long	"-1.64522074452"^^xsd:decimal  ;
-	ex:id	 "23"^^xsd:string ;
-	dbpedia-owl:location	 "ST PHILBERT"^^xsd:string ;
-	ex:ulis	 "oui"^^xsd:string ;
+	pdll:id	 "23"^^xsd:string ;
+	dbpprop:town	 "ST PHILBERT"^^xsd:string ;
+	pdll:hasUlisUnit	 "oui"^^xsd:string ;
 	dbpprop:location	 "32 rue Félix Platel"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44310"^^xsd:integer ;
-	ex:tel	 "02 40 78 71 22"^^xsd:string ;
-	ex:fax	 "02 40 78 80 52"^^xsd:string .
+	sc:telephone	 "02 40 78 71 22"^^xsd:string ;
+	sc:faxNumber	 "02 40 78 80 52"^^xsd:string .
 
 <http://projet.com/10/Notre_Dame>	 foaf:name 	 "Notre Dame"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.1896966573 "^^xsd:decimal ;
 	geo:long	"-1.68723497699"^^xsd:decimal  ;
-	ex:id	 "124"^^xsd:string ;
-	dbpedia-owl:location	 "MONTAGNE (LA)"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "124"^^xsd:string ;
+	dbpprop:town	 "MONTAGNE (LA)"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "5 rue du Calvaire"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44620"^^xsd:integer ;
-	ex:tel	 "02 40 65 60 67"^^xsd:string ;
-	ex:fax	 "02 40 65 88 55"^^xsd:string .
+	sc:telephone	 "02 40 65 60 67"^^xsd:string ;
+	sc:faxNumber	 "02 40 65 88 55"^^xsd:string .
 
 <http://projet.com/10/Notre_Dame>	 foaf:name 	 "Notre Dame"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.2376227003 "^^xsd:decimal ;
 	geo:long	"-1.34888171533"^^xsd:decimal  ;
-	ex:id	 "129"^^xsd:string ;
-	dbpedia-owl:location	 "LOROUX BOTTEREAU (LE) "^^xsd:string ;
-	ex:ulis	 "oui"^^xsd:string ;
+	pdll:id	 "129"^^xsd:string ;
+	dbpprop:town	 "LOROUX BOTTEREAU (LE) "^^xsd:string ;
+	pdll:hasUlisUnit	 "oui"^^xsd:string ;
 	dbpprop:location	 "20 rue de la Loire"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44430"^^xsd:integer ;
-	ex:tel	 "02 40 33 81 25"^^xsd:string ;
-	ex:fax	 "02 40 33 88 18"^^xsd:string .
+	sc:telephone	 "02 40 33 81 25"^^xsd:string ;
+	sc:faxNumber	 "02 40 33 88 18"^^xsd:string .
 
 <http://projet.com/10/Notre_Dame_de_l'Abbaye>	 foaf:name 	 "Notre Dame de l'Abbaye"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.2005734348 "^^xsd:decimal ;
 	geo:long	"-1.59601136765"^^xsd:decimal  ;
-	ex:id	 "123"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "123"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "38 bis rue de l'Abbaye"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44100"^^xsd:integer ;
-	ex:tel	 "02 40 58 67 83"^^xsd:string ;
-	ex:fax	 "02 40 43 42 79"^^xsd:string .
+	sc:telephone	 "02 40 58 67 83"^^xsd:string ;
+	sc:faxNumber	 "02 40 43 42 79"^^xsd:string .
 
 <http://projet.com/10/Notre_Dame_de_Recouvrance>	 foaf:name 	 "Notre Dame de Recouvrance"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.1173261302 "^^xsd:decimal ;
 	geo:long	"-2.10263317248"^^xsd:decimal  ;
-	ex:id	 "112"^^xsd:string ;
-	dbpedia-owl:location	 "PORNIC"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "112"^^xsd:string ;
+	dbpprop:town	 "PORNIC"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "56 rue de Verdun"^^xsd:string ;
-	ex:bp	 "BP 1319"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "BP 1319"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44213"^^xsd:integer ;
-	ex:tel	 "02 40 82 01 11"^^xsd:string ;
-	ex:fax	 "02 40 82 85 10"^^xsd:string .
+	sc:telephone	 "02 40 82 01 11"^^xsd:string ;
+	sc:faxNumber	 "02 40 82 85 10"^^xsd:string .
 
 <http://projet.com/10/Notre_Dame_de_toutes_Aides>	 foaf:name 	 "Notre Dame de toutes Aides"^^xsd:string ;
-	ex:segpa	 "oui"^^xsd:string ;
+	pdll:isSEGPA	 "oui"^^xsd:string ;
 	geo:lat	"47.2273003437 "^^xsd:decimal ;
 	geo:long	"-1.51895687387"^^xsd:decimal  ;
-	ex:id	 "116"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "116"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "33 Bd Louis Millet"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44319"^^xsd:integer ;
-	ex:tel	 "02 40 49 37 93"^^xsd:string ;
-	ex:fax	 "02 40 49 10 14"^^xsd:string .
+	sc:telephone	 "02 40 49 37 93"^^xsd:string ;
+	sc:faxNumber	 "02 40 49 10 14"^^xsd:string .
 
 <http://projet.com/10/Notre_Dame_du_Bon_Conseil>	 foaf:name 	 "Notre Dame du Bon Conseil"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.2150451795 "^^xsd:decimal ;
 	geo:long	"-1.56176527827"^^xsd:decimal  ;
-	ex:id	 "29"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "29"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "17 rue du Chapeau Rouge"^^xsd:string ;
-	ex:bp	 "BP 82201"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "BP 82201"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44022"^^xsd:integer ;
-	ex:tel	 "02 40 48 25 36"^^xsd:string ;
-	ex:fax	 "02 51 82 24 75"^^xsd:string .
+	sc:telephone	 "02 40 48 25 36"^^xsd:string ;
+	sc:faxNumber	 "02 51 82 24 75"^^xsd:string .
 
 <http://projet.com/10/Sacré_Coeur>	 foaf:name 	 "Sacré Coeur"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.099264889 "^^xsd:decimal ;
 	geo:long	"-1.818068938"^^xsd:decimal  ;
-	ex:id	 "27"^^xsd:string ;
-	dbpedia-owl:location	 "STE PAZANNE"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "27"^^xsd:string ;
+	dbpprop:town	 "STE PAZANNE"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "74 rue du Ballon"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44680"^^xsd:integer ;
-	ex:tel	 "02 40 02 40 72"^^xsd:string ;
-	ex:fax	 "02 40 02 79 55"^^xsd:string .
+	sc:telephone	 "02 40 02 40 72"^^xsd:string ;
+	sc:faxNumber	 "02 40 02 79 55"^^xsd:string .
 
 <http://projet.com/10/Sacré_Coeur>	 foaf:name 	 "Sacré Coeur"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.2126728574 "^^xsd:decimal ;
 	geo:long	"-1.58467000034"^^xsd:decimal  ;
-	ex:id	 "33"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "33"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "13  rue Giton"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44100"^^xsd:integer ;
-	ex:tel	 "02 40 46 27 13"^^xsd:string ;
-	ex:fax	 "02 40 46 59 19"^^xsd:string .
+	sc:telephone	 "02 40 46 27 13"^^xsd:string ;
+	sc:faxNumber	 "02 40 46 59 19"^^xsd:string .
 
 <http://projet.com/10/Sacré_Coeur>	 foaf:name 	 "Sacré Coeur"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.2635342125 "^^xsd:decimal ;
 	geo:long	"-2.34236615639"^^xsd:decimal  ;
-	ex:id	 "24"^^xsd:string ;
-	dbpedia-owl:location	 "PORNICHET"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "24"^^xsd:string ;
+	dbpprop:town	 "PORNICHET"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "1 bis avenue de la Plage"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44380"^^xsd:integer ;
-	ex:tel	 "02 40 61 10 70"^^xsd:string ;
-	ex:fax	 "02 40 61 86 13"^^xsd:string .
+	sc:telephone	 "02 40 61 10 70"^^xsd:string ;
+	sc:faxNumber	 "02 40 61 86 13"^^xsd:string .
 
 <http://projet.com/10/Saint_Augustin>	 foaf:name 	 "Saint Augustin"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.5189312283 "^^xsd:decimal ;
 	geo:long	"-1.29216934509"^^xsd:decimal  ;
-	ex:id	 "131"^^xsd:string ;
-	dbpedia-owl:location	 "RIAILLE"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "131"^^xsd:string ;
+	dbpprop:town	 "RIAILLE"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "80 rue de la Mauvraie"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44440"^^xsd:integer ;
-	ex:tel	 "02 40 97 81 61"^^xsd:string ;
-	ex:fax	 "02 40 97 82 07"^^xsd:string .
+	sc:telephone	 "02 40 97 81 61"^^xsd:string ;
+	sc:faxNumber	 "02 40 97 82 07"^^xsd:string .
 
 <http://projet.com/10/Saint_Blaise>	 foaf:name 	 "Saint Blaise"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.1664252252 "^^xsd:decimal ;
 	geo:long	"-1.46890974092"^^xsd:decimal  ;
-	ex:id	 "79"^^xsd:string ;
-	dbpedia-owl:location	 "VERTOU"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "79"^^xsd:string ;
+	dbpprop:town	 "VERTOU"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "14 rue Général de Gaulle"^^xsd:string ;
-	ex:bp	 "BP 2315"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "BP 2315"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44123"^^xsd:integer ;
-	ex:tel	 "02 40 34 37 61"^^xsd:string ;
-	ex:fax	 "02 40 34 41 35"^^xsd:string .
+	sc:telephone	 "02 40 34 37 61"^^xsd:string ;
+	sc:faxNumber	 "02 40 34 41 35"^^xsd:string .
 
 <http://projet.com/10/Saint_Dominique>	 foaf:name 	 "Saint Dominique"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.2437753367 "^^xsd:decimal ;
 	geo:long	"-1.6048978219"^^xsd:decimal  ;
-	ex:id	 "42"^^xsd:string ;
-	dbpedia-owl:location	 "ST HERBLAIN"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "42"^^xsd:string ;
+	dbpprop:town	 "ST HERBLAIN"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "103 avenue de Cheverny"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44807"^^xsd:integer ;
-	ex:tel	 "02 28 01 72 72"^^xsd:string ;
-	ex:fax	 "02 40 63 02 79"^^xsd:string .
+	sc:telephone	 "02 28 01 72 72"^^xsd:string ;
+	sc:faxNumber	 "02 40 63 02 79"^^xsd:string .
 
 <http://projet.com/10/Saint_Félix>	 foaf:name 	 "Saint Félix"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.2314108888 "^^xsd:decimal ;
 	geo:long	"-1.56026616387"^^xsd:decimal  ;
-	ex:id	 "56"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "56"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "27 rue du Ballet"^^xsd:string ;
-	ex:bp	 "BP 60105"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "BP 60105"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44001"^^xsd:integer ;
-	ex:tel	 "02 40 14 50 50"^^xsd:string ;
-	ex:fax	 "02 40 74 76 35"^^xsd:string .
+	sc:telephone	 "02 40 14 50 50"^^xsd:string ;
+	sc:faxNumber	 "02 40 74 76 35"^^xsd:string .
 
 <http://projet.com/10/Saint_Gabriel>	 foaf:name 	 "Saint Gabriel"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.1986017346 "^^xsd:decimal ;
 	geo:long	"-1.44518449502"^^xsd:decimal  ;
-	ex:id	 "25"^^xsd:string ;
-	dbpedia-owl:location	 "HAUTE GOULAINE"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "25"^^xsd:string ;
+	dbpprop:town	 "HAUTE GOULAINE"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "16 rue de La Bourrelière"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44115"^^xsd:integer ;
-	ex:tel	 "02 40 54 91 14"^^xsd:string ;
-	ex:fax	 "02 40 06 18 84"^^xsd:string .
+	sc:telephone	 "02 40 54 91 14"^^xsd:string ;
+	sc:faxNumber	 "02 40 06 18 84"^^xsd:string .
 
 <http://projet.com/10/Saint_Hermeland>	 foaf:name 	 "Saint Hermeland"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.1442358688 "^^xsd:decimal ;
 	geo:long	"-1.69681609118"^^xsd:decimal  ;
-	ex:id	 "31"^^xsd:string ;
-	dbpedia-owl:location	 "BOUAYE"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "31"^^xsd:string ;
+	dbpprop:town	 "BOUAYE"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "8 rue Ancienne Eglise"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44830"^^xsd:integer ;
-	ex:tel	 "02 40 65 46 10"^^xsd:string ;
-	ex:fax	 "02 40 65 49 21"^^xsd:string .
+	sc:telephone	 "02 40 65 46 10"^^xsd:string ;
+	sc:faxNumber	 "02 40 65 49 21"^^xsd:string .
 
 <http://projet.com/10/Saint_Jacques_Compostelle>	 foaf:name 	 "Saint Jacques Compostelle"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.1958177227 "^^xsd:decimal ;
 	geo:long	"-1.53961799475"^^xsd:decimal  ;
-	ex:id	 "13"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "13"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "11 rue Gabriel Goudy"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44200"^^xsd:integer ;
-	ex:tel	 "02 40 75 58 72"^^xsd:string ;
-	ex:fax	 "02 51 70 16 75"^^xsd:string .
+	sc:telephone	 "02 40 75 58 72"^^xsd:string ;
+	sc:faxNumber	 "02 51 70 16 75"^^xsd:string .
 
 <http://projet.com/10/Saint_Jean_Baptiste>	 foaf:name 	 "Saint Jean Baptiste"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.2277745322 "^^xsd:decimal ;
 	geo:long	"-1.54249531209"^^xsd:decimal  ;
-	ex:id	 "63"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "63"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "136 rue du Général Buat"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
-	ex:tel	 "02 51 86 06 10"^^xsd:string ;
-	ex:fax	 "02 40 74 85 61"^^xsd:string .
+	sc:telephone	 "02 51 86 06 10"^^xsd:string ;
+	sc:faxNumber	 "02 40 74 85 61"^^xsd:string .
 
 <http://projet.com/10/Saint_Jean_Baptiste>	 foaf:name 	 "Saint Jean Baptiste"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.3259343768 "^^xsd:decimal ;
 	geo:long	"-2.42955470504"^^xsd:decimal  ;
-	ex:id	 "30"^^xsd:string ;
-	dbpedia-owl:location	 "GUERANDE"^^xsd:string ;
-	ex:ulis	 "oui"^^xsd:string ;
+	pdll:id	 "30"^^xsd:string ;
+	dbpprop:town	 "GUERANDE"^^xsd:string ;
+	pdll:hasUlisUnit	 "oui"^^xsd:string ;
 	dbpprop:location	 "16 bd du Midi"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44350"^^xsd:integer ;
-	ex:tel	 "02 40 24 90 55"^^xsd:string ;
-	ex:fax	 "02 51 73 00 69"^^xsd:string .
+	sc:telephone	 "02 40 24 90 55"^^xsd:string ;
+	sc:faxNumber	 "02 51 73 00 69"^^xsd:string .
 
 <http://projet.com/10/Saint_Joseph>	 foaf:name 	 "Saint Joseph"^^xsd:string ;
-	ex:segpa	 "oui"^^xsd:string ;
+	pdll:isSEGPA	 "oui"^^xsd:string ;
 	geo:lat	"46.9936500288 "^^xsd:decimal ;
 	geo:long	"-1.82369380909"^^xsd:decimal  ;
-	ex:id	 "111"^^xsd:string ;
-	dbpedia-owl:location	 "MACHECOUL"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "111"^^xsd:string ;
+	dbpprop:town	 "MACHECOUL"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "14 rue des Capucins"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44270"^^xsd:integer ;
-	ex:tel	 "02 40 78 50 18"^^xsd:string ;
-	ex:fax	 "02 40 78 56 34"^^xsd:string .
+	sc:telephone	 "02 40 78 50 18"^^xsd:string ;
+	sc:faxNumber	 "02 40 78 56 34"^^xsd:string .
 
 <http://projet.com/10/Saint_Joseph>	 foaf:name 	 "Saint Joseph"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.1656636569 "^^xsd:decimal ;
 	geo:long	"-1.26838218727"^^xsd:decimal  ;
-	ex:id	 "102"^^xsd:string ;
-	dbpedia-owl:location	 "VALLET"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "102"^^xsd:string ;
+	dbpprop:town	 "VALLET"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "16 rue François Luneau"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44330"^^xsd:integer ;
-	ex:tel	 "02 40 33 93 82"^^xsd:string ;
-	ex:fax	 "02 40 36 38 60"^^xsd:string .
+	sc:telephone	 "02 40 33 93 82"^^xsd:string ;
+	sc:faxNumber	 "02 40 36 38 60"^^xsd:string .
 
 <http://projet.com/10/Saint_Joseph>	 foaf:name 	 "Saint Joseph"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.2446742467 "^^xsd:decimal ;
 	geo:long	"-2.16656924156"^^xsd:decimal  ;
-	ex:id	 "100"^^xsd:string ;
-	dbpedia-owl:location	 "ST BREVIN"^^xsd:string ;
-	ex:ulis	 "oui"^^xsd:string ;
+	pdll:id	 "100"^^xsd:string ;
+	dbpprop:town	 "ST BREVIN"^^xsd:string ;
+	pdll:hasUlisUnit	 "oui"^^xsd:string ;
 	dbpprop:location	 "Avenue Gustave Eiffel"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44250"^^xsd:integer ;
-	ex:tel	 "02 40 27 21 41"^^xsd:string ;
-	ex:fax	 "02 40 64 48 76"^^xsd:string .
+	sc:telephone	 "02 40 27 21 41"^^xsd:string ;
+	sc:faxNumber	 "02 40 64 48 76"^^xsd:string .
 
 <http://projet.com/10/Saint_Joseph>	 foaf:name 	 "Saint Joseph"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.3583233616 "^^xsd:decimal ;
 	geo:long	"-1.94020115863"^^xsd:decimal  ;
-	ex:id	 "110"^^xsd:string ;
-	dbpedia-owl:location	 "SAVENAY"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "110"^^xsd:string ;
+	dbpprop:town	 "SAVENAY"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "10 rue du Général De Gaulle"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44260"^^xsd:integer ;
-	ex:tel	 "02 40 56 91 32"^^xsd:string ;
-	ex:fax	 "02 40 56 92 26"^^xsd:string .
+	sc:telephone	 "02 40 56 91 32"^^xsd:string ;
+	sc:faxNumber	 "02 40 56 92 26"^^xsd:string .
 
 <http://projet.com/10/Saint_Joseph>	 foaf:name 	 "Saint Joseph"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.370380831 "^^xsd:decimal ;
 	geo:long	"-1.17887706977"^^xsd:decimal  ;
-	ex:id	 "41"^^xsd:string ;
-	dbpedia-owl:location	 "ANCENIS"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "41"^^xsd:string ;
+	dbpprop:town	 "ANCENIS"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "66 rue du Collège"^^xsd:string ;
-	ex:bp	 "BP 90109"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "BP 90109"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44153"^^xsd:integer ;
-	ex:tel	 "02 40 96 03 16"^^xsd:string ;
-	ex:fax	 "02 40 83 21 92"^^xsd:string .
+	sc:telephone	 "02 40 96 03 16"^^xsd:string ;
+	sc:faxNumber	 "02 40 83 21 92"^^xsd:string .
 
 <http://projet.com/10/Saint_Joseph>	 foaf:name 	 "Saint Joseph"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.410046539 "^^xsd:decimal ;
 	geo:long	"-1.37547613435"^^xsd:decimal  ;
-	ex:id	 "18"^^xsd:string ;
-	dbpedia-owl:location	 "LIGNE"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "18"^^xsd:string ;
+	dbpprop:town	 "LIGNE"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "188 rue de Vieillevigne"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44850"^^xsd:integer ;
-	ex:tel	 "02 40 77 04 40"^^xsd:string ;
-	ex:fax	 "02 40 77 09 28"^^xsd:string .
+	sc:telephone	 "02 40 77 04 40"^^xsd:string ;
+	sc:faxNumber	 "02 40 77 09 28"^^xsd:string .
 
 <http://projet.com/10/Saint_Joseph>	 foaf:name 	 "Saint Joseph"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.4508834045 "^^xsd:decimal ;
 	geo:long	"-2.31955886685"^^xsd:decimal  ;
-	ex:id	 "48"^^xsd:string ;
-	dbpedia-owl:location	 "HERBIGNAC"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "48"^^xsd:string ;
+	dbpprop:town	 "HERBIGNAC"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "Place J.M de la Mennais"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44410"^^xsd:integer ;
-	ex:tel	 "02 51 76 99 10"^^xsd:string ;
-	ex:fax	 "02 51 76 99 11"^^xsd:string .
+	sc:telephone	 "02 51 76 99 10"^^xsd:string ;
+	sc:faxNumber	 "02 51 76 99 11"^^xsd:string .
 
 <http://projet.com/10/Saint_Joseph>	 foaf:name 	 "Saint Joseph"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.5646486254 "^^xsd:decimal ;
 	geo:long	"-1.62728424196"^^xsd:decimal  ;
-	ex:id	 "106"^^xsd:string ;
-	dbpedia-owl:location	 "NOZAY"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "106"^^xsd:string ;
+	dbpprop:town	 "NOZAY"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "2 Bd A. Briand"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44170"^^xsd:integer ;
-	ex:tel	 "02 40 79 43 06"^^xsd:string ;
-	ex:fax	 "02 40 79 30 19"^^xsd:string .
+	sc:telephone	 "02 40 79 43 06"^^xsd:string ;
+	sc:faxNumber	 "02 40 79 30 19"^^xsd:string .
 
 <http://projet.com/10/Saint_Joseph>	 foaf:name 	 "Saint Joseph"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.6664335947 "^^xsd:decimal ;
 	geo:long	"-1.67219277494"^^xsd:decimal  ;
-	ex:id	 "36"^^xsd:string ;
-	dbpedia-owl:location	 "DERVAL"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "36"^^xsd:string ;
+	dbpprop:town	 "DERVAL"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "19 rue de Rennes"^^xsd:string ;
-	ex:bp	 "BP 16"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "BP 16"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44590"^^xsd:integer ;
-	ex:tel	 "02 40 07 71 47"^^xsd:string ;
-	ex:fax	 "02 40 07 08 30"^^xsd:string .
+	sc:telephone	 "02 40 07 71 47"^^xsd:string ;
+	sc:faxNumber	 "02 40 07 08 30"^^xsd:string .
 
 <http://projet.com/10/Saint_Joseph>	 foaf:name 	 "Saint Joseph"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.7167576628 "^^xsd:decimal ;
 	geo:long	"-1.37692885377"^^xsd:decimal  ;
-	ex:id	 "26"^^xsd:string ;
-	dbpedia-owl:location	 "CHATEAUBRIANT"^^xsd:string ;
-	ex:ulis	 "oui"^^xsd:string ;
+	pdll:id	 "26"^^xsd:string ;
+	dbpprop:town	 "CHATEAUBRIANT"^^xsd:string ;
+	pdll:hasUlisUnit	 "oui"^^xsd:string ;
 	dbpprop:location	 "40 rue Michel Grimault"^^xsd:string ;
-	ex:bp	 "BP 39"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "BP 39"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44141"^^xsd:integer ;
-	ex:tel	 "02 40 28 15 25"^^xsd:string ;
-	ex:fax	 "02 40 28 17 47"^^xsd:string .
+	sc:telephone	 "02 40 28 15 25"^^xsd:string ;
+	sc:faxNumber	 "02 40 28 17 47"^^xsd:string .
 
 <http://projet.com/10/Saint_Joseph_du_Loquidy>	 foaf:name 	 "Saint Joseph du Loquidy"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.2366388222 "^^xsd:decimal ;
 	geo:long	"-1.55721447091"^^xsd:decimal  ;
-	ex:id	 "107"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "107"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "73 bd Michelet"^^xsd:string ;
-	ex:bp	 "BP 32202"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "BP 32202"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44322"^^xsd:integer ;
-	ex:tel	 "02 40 74 03 12"^^xsd:string ;
-	ex:fax	 "02 40 29 19 77"^^xsd:string .
+	sc:telephone	 "02 40 74 03 12"^^xsd:string ;
+	sc:faxNumber	 "02 40 29 19 77"^^xsd:string .
 
 <http://projet.com/10/Saint_Laurent>	 foaf:name 	 "Saint Laurent"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.4752767593 "^^xsd:decimal ;
 	geo:long	"-1.7650748569"^^xsd:decimal  ;
-	ex:id	 "114"^^xsd:string ;
-	dbpedia-owl:location	 "BLAIN"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "114"^^xsd:string ;
+	dbpprop:town	 "BLAIN"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "3 rue Jean XXIII"^^xsd:string ;
-	ex:bp	 "BP 37"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "BP 37"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44130"^^xsd:integer ;
-	ex:tel	 "02 40 79 01 17"^^xsd:string ;
-	ex:fax	 "02 40 79 87 97"^^xsd:string .
+	sc:telephone	 "02 40 79 01 17"^^xsd:string ;
+	sc:faxNumber	 "02 40 79 87 97"^^xsd:string .
 
 <http://projet.com/10/Saint_Louis>	 foaf:name 	 "Saint Louis"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.2684307662 "^^xsd:decimal ;
 	geo:long	"-2.21959980659"^^xsd:decimal  ;
-	ex:id	 "115"^^xsd:string ;
-	dbpedia-owl:location	 "ST NAZAIRE"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "115"^^xsd:string ;
+	dbpprop:town	 "ST NAZAIRE"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "10 bd Albert 1er"^^xsd:string ;
-	ex:bp	 "BP 284"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "BP 284"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44616"^^xsd:integer ;
-	ex:tel	 "02 51 76 60 20"^^xsd:string ;
-	ex:fax	 "02 40 53 69 75"^^xsd:string .
+	sc:telephone	 "02 51 76 60 20"^^xsd:string ;
+	sc:faxNumber	 "02 40 53 69 75"^^xsd:string .
 
 <http://projet.com/10/Saint_Martin>	 foaf:name 	 "Saint Martin"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.4350361756 "^^xsd:decimal ;
 	geo:long	"-2.09166255577"^^xsd:decimal  ;
-	ex:id	 "117"^^xsd:string ;
-	dbpedia-owl:location	 "PONCHATEAU"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "117"^^xsd:string ;
+	dbpprop:town	 "PONCHATEAU"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "12 rue Chère Sœur St Colomban"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44160"^^xsd:integer ;
-	ex:tel	 "02 40 01 62 38"^^xsd:string ;
-	ex:fax	 "02 40 01 63 98"^^xsd:string .
+	sc:telephone	 "02 40 01 62 38"^^xsd:string ;
+	sc:faxNumber	 "02 40 01 63 98"^^xsd:string .
 
 <http://projet.com/10/Saint_Michel>	 foaf:name 	 "Saint Michel"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.4395687829 "^^xsd:decimal ;
 	geo:long	"-1.49951667599"^^xsd:decimal  ;
-	ex:id	 "122"^^xsd:string ;
-	dbpedia-owl:location	 "NORT SUR ERDRE"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "122"^^xsd:string ;
+	dbpprop:town	 "NORT SUR ERDRE"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "22 Bd de la Gare"^^xsd:string ;
-	ex:bp	 "BP 30"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "BP 30"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44390"^^xsd:integer ;
-	ex:tel	 "02 51 12 00 51"^^xsd:string ;
-	ex:fax	 "02 40 29 51 44"^^xsd:string .
+	sc:telephone	 "02 51 12 00 51"^^xsd:string ;
+	sc:faxNumber	 "02 40 29 51 44"^^xsd:string .
 
 <http://projet.com/10/Saint_Michel>	 foaf:name 	 "Saint Michel"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.6284556676 "^^xsd:decimal ;
 	geo:long	"-1.83407777988"^^xsd:decimal  ;
-	ex:id	 "119"^^xsd:string ;
-	dbpedia-owl:location	 "GUEMENE PENFAO"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "119"^^xsd:string ;
+	dbpprop:town	 "GUEMENE PENFAO"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "15 rue des Porteaux"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44290"^^xsd:integer ;
-	ex:tel	 "02 40 79 22 57"^^xsd:string ;
-	ex:fax	 "02 40 51 13 95"^^xsd:string .
+	sc:telephone	 "02 40 79 22 57"^^xsd:string ;
+	sc:faxNumber	 "02 40 51 13 95"^^xsd:string .
 
 <http://projet.com/10/Saint_Paul>	 foaf:name 	 "Saint Paul"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.1864244045 "^^xsd:decimal ;
 	geo:long	"-1.54708814561"^^xsd:decimal  ;
-	ex:id	 "125"^^xsd:string ;
-	dbpedia-owl:location	 "REZE"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "125"^^xsd:string ;
+	dbpprop:town	 "REZE"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "66-68  rue Jean Jaurès"^^xsd:string ;
-	ex:bp	 "BP 29"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "BP 29"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44401"^^xsd:integer ;
-	ex:tel	 "02 51 11 01 01"^^xsd:string ;
-	ex:fax	 "02 40 75 20 94"^^xsd:string .
+	sc:telephone	 "02 51 11 01 01"^^xsd:string ;
+	sc:faxNumber	 "02 40 75 20 94"^^xsd:string .
 
 <http://projet.com/10/Saint_Roch>	 foaf:name 	 "Saint Roch"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.2055604575 "^^xsd:decimal ;
 	geo:long	"-2.04232012122"^^xsd:decimal  ;
-	ex:id	 "130"^^xsd:string ;
-	dbpedia-owl:location	 "ST PERE EN RETZ"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "130"^^xsd:string ;
+	dbpprop:town	 "ST PERE EN RETZ"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "13 rue Abbé Perrin"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44320"^^xsd:integer ;
-	ex:tel	 "02 40 21 71 14"^^xsd:string ;
-	ex:fax	 "02 40 21 77 64"^^xsd:string .
+	sc:telephone	 "02 40 21 71 14"^^xsd:string ;
+	sc:faxNumber	 "02 40 21 77 64"^^xsd:string .
 
 <http://projet.com/10/Saint_Stanislas>	 foaf:name 	 "Saint Stanislas"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.222853733 "^^xsd:decimal ;
 	geo:long	"-1.55552866842"^^xsd:decimal  ;
-	ex:id	 "101"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "101"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "2 rue St Stanislas"^^xsd:string ;
-	ex:bp	 "BP 40905"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "BP 40905"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44009"^^xsd:integer ;
-	ex:tel	 "02 40 20 17 50"^^xsd:string ;
-	ex:fax	 "02 40 48 12 30"^^xsd:string .
+	sc:telephone	 "02 40 20 17 50"^^xsd:string ;
+	sc:faxNumber	 "02 40 48 12 30"^^xsd:string .
 
 <http://projet.com/10/Sainte_Anne>	 foaf:name 	 "Sainte Anne"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"46.8852508284 "^^xsd:decimal ;
 	geo:long	"-1.60028767396"^^xsd:decimal  ;
-	ex:id	 "103"^^xsd:string ;
-	dbpedia-owl:location	 "LEGE"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "103"^^xsd:string ;
+	dbpprop:town	 "LEGE"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "3 rue Ste Anne"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44650"^^xsd:integer ;
-	ex:tel	 "02 40 26 32 32"^^xsd:string ;
-	ex:fax	 "02 40 26 30 47"^^xsd:string .
+	sc:telephone	 "02 40 26 32 32"^^xsd:string ;
+	sc:faxNumber	 "02 40 26 30 47"^^xsd:string .
 
 <http://projet.com/10/Sainte_Anne>	 foaf:name 	 "Sainte Anne"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.1917598554 "^^xsd:decimal ;
 	geo:long	"-1.56765538275"^^xsd:decimal  ;
-	ex:id	 "120"^^xsd:string ;
-	dbpedia-owl:location	 "REZE"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "120"^^xsd:string ;
+	dbpprop:town	 "REZE"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "11 rue St Lupien"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44400"^^xsd:integer ;
-	ex:tel	 "02 40 75 42 71"^^xsd:string ;
-	ex:fax	 "02 40 04 23 12"^^xsd:string .
+	sc:telephone	 "02 40 75 42 71"^^xsd:string ;
+	sc:faxNumber	 "02 40 04 23 12"^^xsd:string .
 
 <http://projet.com/10/Sainte_Anne>	 foaf:name 	 "Sainte Anne"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.2946968169 "^^xsd:decimal ;
 	geo:long	"-1.49336302382"^^xsd:decimal  ;
-	ex:id	 "121"^^xsd:string ;
-	dbpedia-owl:location	 "CARQUEFOU"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "121"^^xsd:string ;
+	dbpprop:town	 "CARQUEFOU"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "7 bis rue Jean XXIII"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44470"^^xsd:integer ;
-	ex:tel	 "02 40 50 90 93"^^xsd:string ;
-	ex:fax	 "02 40 50 90 16"^^xsd:string .
+	sc:telephone	 "02 40 50 90 93"^^xsd:string ;
+	sc:faxNumber	 "02 40 50 90 16"^^xsd:string .
 
 <http://projet.com/10/Sainte_Anne>	 foaf:name 	 "Sainte Anne"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.3851162367 "^^xsd:decimal ;
 	geo:long	"-1.02886972774"^^xsd:decimal  ;
-	ex:id	 "128"^^xsd:string ;
-	dbpedia-owl:location	 "VARADES"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "128"^^xsd:string ;
+	dbpprop:town	 "VARADES"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "170 route d’Anjou "^^xsd:string ;
-	ex:bp	 "BP 38"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "BP 38"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44370"^^xsd:integer ;
-	ex:tel	 "02 40 09 70 90"^^xsd:string ;
-	ex:fax	 "02 40 83 49 48"^^xsd:string .
+	sc:telephone	 "02 40 09 70 90"^^xsd:string ;
+	sc:faxNumber	 "02 40 83 49 48"^^xsd:string .
 
 <http://projet.com/10/Sainte_Madeleine>	 foaf:name 	 "Sainte Madeleine"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.2058995749 "^^xsd:decimal ;
 	geo:long	"-1.55151832758"^^xsd:decimal  ;
-	ex:id	 "113"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "113"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "10 quai Hoche"^^xsd:string ;
-	ex:bp	 "BP 96522"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "BP 96522"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44265"^^xsd:integer ;
-	ex:tel	 "02 51 25 06 80"^^xsd:string ;
-	ex:fax	 "02 40 12 04 18"^^xsd:string .
+	sc:telephone	 "02 51 25 06 80"^^xsd:string ;
+	sc:faxNumber	 "02 40 12 04 18"^^xsd:string .
 
 <http://projet.com/10/Sainte_Philomène>	 foaf:name 	 "Sainte Philomène"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.2123221022 "^^xsd:decimal ;
 	geo:long	"-1.72478079109"^^xsd:decimal  ;
-	ex:id	 "118"^^xsd:string ;
-	dbpedia-owl:location	 "COUERON"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "118"^^xsd:string ;
+	dbpprop:town	 "COUERON"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "31 rue Jean Jaurès"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44220"^^xsd:integer ;
-	ex:tel	 "02 40 86 18 34"^^xsd:string ;
-	ex:fax	 "02 40 86 20 53"^^xsd:string .
+	sc:telephone	 "02 40 86 18 34"^^xsd:string ;
+	sc:faxNumber	 "02 40 86 20 53"^^xsd:string .
 
 <http://projet.com/10/Sainte_Thérèse>	 foaf:name 	 "Sainte Thérèse"^^xsd:string ;
-	ex:segpa	 "oui"^^xsd:string ;
+	pdll:isSEGPA	 "oui"^^xsd:string ;
 	geo:lat	"47.2796636437 "^^xsd:decimal ;
 	geo:long	"-2.20904911003"^^xsd:decimal  ;
-	ex:id	 "0"^^xsd:string ;
-	dbpedia-owl:location	 "ST NAZAIRE"^^xsd:string ;
-	ex:ulis	 "undefined"^^xsd:string ;
+	pdll:id	 "0"^^xsd:string ;
+	dbpprop:town	 "ST NAZAIRE"^^xsd:string ;
+	pdll:hasUlisUnit	 "undefined"^^xsd:string ;
 	dbpprop:location	 "80 rue d'Anjou"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44600"^^xsd:integer ;
-	ex:tel	 "02 40 22 52 87"^^xsd:string ;
-	ex:fax	 "02 40 22 95 65"^^xsd:string .
+	sc:telephone	 "02 40 22 52 87"^^xsd:string ;
+	sc:faxNumber	 "02 40 22 95 65"^^xsd:string .
 
 <http://projet.com/10/Théophane_Vénard>	 foaf:name 	 "Théophane Vénard"^^xsd:string ;
-	ex:segpa	 "undefined"^^xsd:string ;
+	pdll:isSEGPA	 "undefined"^^xsd:string ;
 	geo:lat	"47.2323642748 "^^xsd:decimal ;
 	geo:long	"-1.57885947592"^^xsd:decimal  ;
-	ex:id	 "108"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
-	ex:ulis	 "oui"^^xsd:string ;
+	pdll:id	 "108"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	pdll:hasUlisUnit	 "oui"^^xsd:string ;
 	dbpprop:location	 "55 rue du Chanoine Larose"^^xsd:string ;
-	ex:bp	 "undefined"^^xsd:string ;
+	sc:postOfficeBoxNumber	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44100"^^xsd:integer ;
-	ex:tel	 "02 51 83 65 55"^^xsd:string ;
-	ex:fax	 "02 40 40 26 06"^^xsd:string .
+	sc:telephone	 "02 51 83 65 55"^^xsd:string ;
+	sc:faxNumber	 "02 40 40 26 06"^^xsd:string .
 

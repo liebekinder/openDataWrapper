@@ -1,5 +1,7 @@
 
 @prefix TEMPORAIRE: <http://temporaire.org/> .
+@prefix gr: <http://purl.org/goodrelations/> .
+@prefix pdll: <http://data.paysdelaloire.fr/> .
 @prefix dbpedia: <http://dbpedia.org/resource/> .
 @prefix prop-fr: <http://fr.dbpedia.org/property/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -14,1107 +16,1107 @@
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
 <http://projet.com/10/LIBRAIRIE_PLUME_ET_FABULETTES>	 foaf:name 	 "LIBRAIRIE PLUME ET FABULETTES"^^xsd:string ;
-	ex:insee	 "44003"^^xsd:string ;
+	dbpprop:insee	 "44003"^^xsd:integer ;
 	sc:telephone	 "06 74 37 40 14"^^xsd:string ;
-	dbpedia-owl:location	 "ANCENIS"^^xsd:string ;
+	dbpprop:town	 "ANCENIS"^^xsd:string ;
 	dbpprop:location	 "8 RUE CLEMENCEAU"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44150"^^xsd:integer ;
 	sc:email	 "plumeeetfabulettes@gmail.com"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_AU_REPAIRE_DES_HEROS>	 foaf:name 	 "LIBRAIRIE AU REPAIRE DES HEROS"^^xsd:string ;
-	ex:insee	 "49007"^^xsd:string ;
+	dbpprop:insee	 "49007"^^xsd:integer ;
 	sc:telephone	 "02 41 34 83 06"^^xsd:string ;
-	dbpedia-owl:location	 "ANGERS"^^xsd:string ;
+	dbpprop:town	 "ANGERS"^^xsd:string ;
 	dbpprop:location	 "41 RUE BEAUREPAIRE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49100"^^xsd:integer ;
 	sc:email	 "aurepairedesheros@orange.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_BULLE_D'AIR>	 foaf:name 	 "LIBRAIRIE BULLE D'AIR"^^xsd:string ;
-	ex:insee	 "49007"^^xsd:string ;
+	dbpprop:insee	 "49007"^^xsd:integer ;
 	sc:telephone	 "02 41 88 83 33"^^xsd:string ;
-	dbpedia-owl:location	 "ANGERS"^^xsd:string ;
+	dbpprop:town	 "ANGERS"^^xsd:string ;
 	dbpprop:location	 "41 RUE BRESSIGNY"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49100"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_CHRYSALIDE>	 foaf:name 	 "LIBRAIRIE CHRYSALIDE"^^xsd:string ;
-	ex:insee	 "49007"^^xsd:string ;
+	dbpprop:insee	 "49007"^^xsd:integer ;
 	sc:telephone	 "02 41 86 82 37"^^xsd:string ;
-	dbpedia-owl:location	 "ANGERS"^^xsd:string ;
+	dbpprop:town	 "ANGERS"^^xsd:string ;
 	dbpprop:location	 "11 RUE DES DEUX HAIES"^^xsd:string ;
 	dbpprop:website	 "www.librairiechrysalide.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49000"^^xsd:integer ;
 	sc:email	 "info@librairiechrysalide.com"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_CONTACT>	 foaf:name 	 "LIBRAIRIE CONTACT"^^xsd:string ;
-	ex:insee	 "49007"^^xsd:string ;
+	dbpprop:insee	 "49007"^^xsd:integer ;
 	sc:telephone	 "02 41 24 15 00"^^xsd:string ;
-	dbpedia-owl:location	 "ANGERS"^^xsd:string ;
+	dbpprop:town	 "ANGERS"^^xsd:string ;
 	dbpprop:location	 "3 RUE LENEPVEU"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49000"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_FNAC>	 foaf:name 	 "LIBRAIRIE FNAC"^^xsd:string ;
-	ex:insee	 "49007"^^xsd:string ;
+	dbpprop:insee	 "49007"^^xsd:integer ;
 	sc:telephone	 "08 92 35 04 05"^^xsd:string ;
-	dbpedia-owl:location	 "ANGERS"^^xsd:string ;
+	dbpprop:town	 "ANGERS"^^xsd:string ;
 	dbpprop:location	 "25 RUE LENEPVEU"^^xsd:string ;
 	dbpprop:website	 "www.fnac.com/Angers"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49100"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_ITINERANCES>	 foaf:name 	 "LIBRAIRIE ITINERANCES"^^xsd:string ;
-	ex:insee	 "49007"^^xsd:string ;
+	dbpprop:insee	 "49007"^^xsd:integer ;
 	sc:telephone	 "02 41 77 36 47"^^xsd:string ;
-	dbpedia-owl:location	 "ANGERS"^^xsd:string ;
+	dbpprop:town	 "ANGERS"^^xsd:string ;
 	dbpprop:location	 "62 RUE BAUDRIERE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49000"^^xsd:integer ;
 	sc:email	 "contact@librairie-itinérances.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_KROKI>	 foaf:name 	 "LIBRAIRIE KROKI"^^xsd:string ;
-	ex:insee	 "49007"^^xsd:string ;
+	dbpprop:insee	 "49007"^^xsd:integer ;
 	sc:telephone	 "02 41 88 61 15"^^xsd:string ;
-	dbpedia-owl:location	 "ANGERS"^^xsd:string ;
+	dbpprop:town	 "ANGERS"^^xsd:string ;
 	dbpprop:location	 "16 RUE LOUIS DE ROMAIN"^^xsd:string ;
 	dbpprop:website	 "kroki.over-blog.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49100"^^xsd:integer ;
 	sc:email	 "kroki.bd@orange.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_LA_LUCIOLE>	 foaf:name 	 "LIBRAIRIE LA LUCIOLE"^^xsd:string ;
-	ex:insee	 "49007"^^xsd:string ;
+	dbpprop:insee	 "49007"^^xsd:integer ;
 	sc:telephone	 "02 41 86 16 06"^^xsd:string ;
-	dbpedia-owl:location	 "ANGERS"^^xsd:string ;
+	dbpprop:town	 "ANGERS"^^xsd:string ;
 	dbpprop:location	 "4 RUE DES POELIERS"^^xsd:string ;
 	dbpprop:website	 "www.laluciole.fr"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49100"^^xsd:integer ;
 	sc:email	 "laluciole@citrouille.net"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_LHERIAU>	 foaf:name 	 "LIBRAIRIE LHERIAU"^^xsd:string ;
-	ex:insee	 "49007"^^xsd:string ;
+	dbpprop:insee	 "49007"^^xsd:integer ;
 	sc:telephone	 "02 41 87 75 87"^^xsd:string ;
-	dbpedia-owl:location	 "ANGERS"^^xsd:string ;
+	dbpprop:town	 "ANGERS"^^xsd:string ;
 	dbpprop:location	 "10 PLACE DE LA VISITATION"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49100"^^xsd:integer ;
 	sc:email	 "librairie.lheriau@wanadoo.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_RICHER>	 foaf:name 	 "LIBRAIRIE RICHER"^^xsd:string ;
-	ex:insee	 "49007"^^xsd:string ;
+	dbpprop:insee	 "49007"^^xsd:integer ;
 	sc:telephone	 "02 41 25 50 00"^^xsd:string ;
-	dbpedia-owl:location	 "ANGERS"^^xsd:string ;
+	dbpprop:town	 "ANGERS"^^xsd:string ;
 	dbpprop:location	 "6-8 RUE CHAPERONNIERE"^^xsd:string ;
 	dbpprop:website	 "www.librairie-richer.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49100"^^xsd:integer ;
 	sc:email	 "accueil@librairie-richer.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_LE_PASSAGE_A_L'ACTE>	 foaf:name 	 "LIBRAIRIE LE PASSAGE A L'ACTE"^^xsd:string ;
-	ex:insee	 "72006"^^xsd:string ;
+	dbpprop:insee	 "72006"^^xsd:integer ;
 	sc:telephone	 "02 33 80 64 70"^^xsd:string ;
-	dbpedia-owl:location	 "ARCONNAY"^^xsd:string ;
+	dbpprop:town	 "ARCONNAY"^^xsd:string ;
 	dbpprop:location	 "ZONE COMMERCIALE LE POINT D'ALENCON"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "72610"^^xsd:integer ;
 	sc:email	 "lepassagealacte@orange.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_CLIO>	 foaf:name 	 "LIBRAIRIE CLIO"^^xsd:string ;
-	ex:insee	 "85010"^^xsd:string ;
+	dbpprop:insee	 "85010"^^xsd:integer ;
 	sc:telephone	 "02 51 22 32 57"^^xsd:string ;
-	dbpedia-owl:location	 "AVRILLE"^^xsd:string ;
+	dbpprop:town	 "AVRILLE"^^xsd:string ;
 	dbpprop:location	 "11 AVENUE DU GENERAL DE GAULLE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "85440"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_LA_PARENTHESE>	 foaf:name 	 "LIBRAIRIE LA PARENTHESE"^^xsd:string ;
-	ex:insee	 "49023"^^xsd:string ;
+	dbpprop:insee	 "49023"^^xsd:integer ;
 	sc:telephone	 "02 41 63 32 55"^^xsd:string ;
-	dbpedia-owl:location	 "BEAUPREAU"^^xsd:string ;
+	dbpprop:town	 "BEAUPREAU"^^xsd:string ;
 	dbpprop:location	 "1 TER RUE SAINT GILLES"^^xsd:string ;
 	dbpprop:website	 "www.librairielaparenthese.fr"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49600"^^xsd:integer ;
 	sc:email	 "contact@librairielaparenthese.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_PARENTHESE>	 foaf:name 	 "LIBRAIRIE PARENTHESE"^^xsd:string ;
-	ex:insee	 "49023"^^xsd:string ;
+	dbpprop:insee	 "49023"^^xsd:integer ;
 	sc:telephone	 "02 41 63 32 55"^^xsd:string ;
-	dbpedia-owl:location	 "BEAUPREAU"^^xsd:string ;
+	dbpprop:town	 "BEAUPREAU"^^xsd:string ;
 	dbpprop:location	 "1 TER RUE SAINT GILLES"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49600"^^xsd:integer ;
 	sc:email	 "parenthesebeaupreau@wanadoo.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_LA_PLUME>	 foaf:name 	 "LIBRAIRIE LA PLUME"^^xsd:string ;
-	ex:insee	 "44015"^^xsd:string ;
+	dbpprop:insee	 "44015"^^xsd:integer ;
 	sc:telephone	 "02 40 87 33 41"^^xsd:string ;
-	dbpedia-owl:location	 "BLAIN"^^xsd:string ;
+	dbpprop:town	 "BLAIN"^^xsd:string ;
 	dbpprop:location	 "4 RUE ARISTIDE BRIAND"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44130"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_L'EQUIPAGE>	 foaf:name 	 "LIBRAIRIE L'EQUIPAGE"^^xsd:string ;
-	ex:insee	 "44018"^^xsd:string ;
+	dbpprop:insee	 "44018"^^xsd:integer ;
 	sc:telephone	 "02 28 07 58 72 "^^xsd:string ;
-	dbpedia-owl:location	 "BOUAYE"^^xsd:string ;
+	dbpprop:town	 "BOUAYE"^^xsd:string ;
 	dbpprop:location	 "2 RUE DE PORNIC"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44830"^^xsd:integer ;
 	sc:email	 "lequipage@yahoo.fr "^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_DES_ANTILLES>	 foaf:name 	 "LIBRAIRIE DES ANTILLES"^^xsd:string ;
-	ex:insee	 "44026"^^xsd:string ;
+	dbpprop:insee	 "44026"^^xsd:integer ;
 	sc:telephone	 "02 40 50 84 10"^^xsd:string ;
-	dbpedia-owl:location	 "CARQUEFOU"^^xsd:string ;
+	dbpprop:town	 "CARQUEFOU"^^xsd:string ;
 	dbpprop:location	 "RUE DES ANTILLES"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44470"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_VENT_DE_GALERNE>	 foaf:name 	 "LIBRAIRIE VENT DE GALERNE"^^xsd:string ;
-	ex:insee	 "49063"^^xsd:string ;
+	dbpprop:insee	 "49063"^^xsd:integer ;
 	sc:telephone	 "02 41 45 19 58"^^xsd:string ;
-	dbpedia-owl:location	 "CHALONNES SUR LOIRE"^^xsd:string ;
+	dbpprop:town	 "CHALONNES SUR LOIRE"^^xsd:string ;
 	dbpprop:location	 "10 RUE CARNOT"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49290"^^xsd:integer ;
 	sc:email	 "ventdegalerne@orange.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_PAPYRUS_>	 foaf:name 	 "LIBRAIRIE PAPYRUS "^^xsd:string ;
-	ex:insee	 "49092"^^xsd:string ;
+	dbpprop:insee	 "49092"^^xsd:integer ;
 	sc:telephone	 "02 41 30 60 26"^^xsd:string ;
-	dbpedia-owl:location	 "CHEMILLE"^^xsd:string ;
+	dbpprop:town	 "CHEMILLE"^^xsd:string ;
 	dbpprop:location	 "185 RUE NATIONALE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49420"^^xsd:integer ;
 	sc:email	 "lib.pap.chemille@wanadoo.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_ARNOULD>	 foaf:name 	 "LIBRAIRIE ARNOULD"^^xsd:string ;
-	ex:insee	 "49099"^^xsd:string ;
+	dbpprop:insee	 "49099"^^xsd:integer ;
 	sc:telephone	 "09 67 09 84 63"^^xsd:string ;
-	dbpedia-owl:location	 "CHOLET"^^xsd:string ;
+	dbpprop:town	 "CHOLET"^^xsd:string ;
 	dbpprop:location	 "67 RUE DU COMMERCE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49300"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_LE_MOT_PASSANT>	 foaf:name 	 "LIBRAIRIE LE MOT PASSANT"^^xsd:string ;
-	ex:insee	 "49099"^^xsd:string ;
+	dbpprop:insee	 "49099"^^xsd:integer ;
 	sc:telephone	 "02 41 62 44 30"^^xsd:string ;
-	dbpedia-owl:location	 "CHOLET"^^xsd:string ;
+	dbpprop:town	 "CHOLET"^^xsd:string ;
 	dbpprop:location	 "5 RUE PINEAU"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49300"^^xsd:integer ;
 	sc:email	 "librairielemotpassant@orange.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_LE_YETI>	 foaf:name 	 "LIBRAIRIE LE YETI"^^xsd:string ;
-	ex:insee	 "49099"^^xsd:string ;
+	dbpprop:insee	 "49099"^^xsd:integer ;
 	sc:telephone	 "02 41 65 23 03"^^xsd:string ;
-	dbpedia-owl:location	 "CHOLET"^^xsd:string ;
+	dbpprop:town	 "CHOLET"^^xsd:string ;
 	dbpprop:location	 "9 RUE TRAVERSIERE"^^xsd:string ;
 	dbpprop:website	 "le.yeti.pagesperso-orange.fr"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44300"^^xsd:integer ;
 	sc:email	 "leyetiweb@wanadoo.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_PAYS_ET_TERROIRS>	 foaf:name 	 "LIBRAIRIE PAYS ET TERROIRS"^^xsd:string ;
-	ex:insee	 "49099"^^xsd:string ;
+	dbpprop:insee	 "49099"^^xsd:integer ;
 	sc:telephone	 "02 41 62 68 94"^^xsd:string ;
-	dbpedia-owl:location	 "CHOLET"^^xsd:string ;
+	dbpprop:town	 "CHOLET"^^xsd:string ;
 	dbpprop:location	 "65 PLACE DU ROUGE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49300"^^xsd:integer ;
 	sc:email	 "pays.et.terroirs@wanadoo.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_PROLOGUE>	 foaf:name 	 "LIBRAIRIE PROLOGUE"^^xsd:string ;
-	ex:insee	 "49099"^^xsd:string ;
+	dbpprop:insee	 "49099"^^xsd:integer ;
 	sc:telephone	 "02 41 58 55 97"^^xsd:string ;
-	dbpedia-owl:location	 "CHOLET"^^xsd:string ;
+	dbpprop:town	 "CHOLET"^^xsd:string ;
 	dbpprop:location	 "67 RUE DU COMMERCE"^^xsd:string ;
 	dbpprop:website	 "www.librairie-prologue.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49300"^^xsd:integer ;
 	sc:email	 "librairie-prologue@wanadoo.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_TECHNIQUE>	 foaf:name 	 "LIBRAIRIE TECHNIQUE"^^xsd:string ;
-	ex:insee	 "49099"^^xsd:string ;
+	dbpprop:insee	 "49099"^^xsd:integer ;
 	sc:telephone	 "02 41 46 02 40"^^xsd:string ;
-	dbpedia-owl:location	 "CHOLET"^^xsd:string ;
+	dbpprop:town	 "CHOLET"^^xsd:string ;
 	dbpprop:location	 "54 RUE SAINT PIERRE"^^xsd:string ;
 	dbpprop:website	 "www.librairietechnique-cholet.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49300"^^xsd:integer ;
 	sc:email	 "librairie.technique@wanadoo.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_LA_TRES_PETITE_LIBRAIRIE>	 foaf:name 	 "LIBRAIRIE LA TRES PETITE LIBRAIRIE"^^xsd:string ;
-	ex:insee	 "44043"^^xsd:string ;
+	dbpprop:insee	 "44043"^^xsd:integer ;
 	sc:telephone	 "02 51 71 89 66"^^xsd:string ;
-	dbpedia-owl:location	 "CLISSON"^^xsd:string ;
+	dbpprop:town	 "CLISSON"^^xsd:string ;
 	dbpprop:location	 "58 BIS RUE DES HALLES"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44190"^^xsd:integer ;
 	sc:email	 "latrespetitelibrairie@laposte.net"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_SOULARD>	 foaf:name 	 "LIBRAIRIE SOULARD"^^xsd:string ;
-	ex:insee	 "44043"^^xsd:string ;
+	dbpprop:insee	 "44043"^^xsd:integer ;
 	sc:telephone	 "02 40 31 67 60 "^^xsd:string ;
-	dbpedia-owl:location	 "CLISSON"^^xsd:string ;
+	dbpprop:town	 "CLISSON"^^xsd:string ;
 	dbpprop:location	 "18 RUE DES HALLES"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44190"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_LIRE_ET_ECRIRE>	 foaf:name 	 "LIBRAIRIE LIRE ET ECRIRE"^^xsd:string ;
-	ex:insee	 "53084"^^xsd:string ;
+	dbpprop:insee	 "53084"^^xsd:integer ;
 	sc:telephone	 "02 43 06 29 02 "^^xsd:string ;
-	dbpedia-owl:location	 "CRAON"^^xsd:string ;
+	dbpprop:town	 "CRAON"^^xsd:string ;
 	dbpprop:location	 "3 RUE NEUVE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "53400"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_ENGUEHARD>	 foaf:name 	 "LIBRAIRIE ENGUEHARD"^^xsd:string ;
-	ex:insee	 "72124"^^xsd:string ;
+	dbpprop:insee	 "72124"^^xsd:integer ;
 	sc:telephone	 "02 43 42 10 45"^^xsd:string ;
-	dbpedia-owl:location	 "ECOMMOY"^^xsd:string ;
+	dbpprop:town	 "ECOMMOY"^^xsd:string ;
 	dbpprop:location	 "5 PLACE DE LA REPUBLIQUE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "72220"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_QUILLET>	 foaf:name 	 "LIBRAIRIE QUILLET"^^xsd:string ;
-	ex:insee	 "53097"^^xsd:string ;
+	dbpprop:insee	 "53097"^^xsd:integer ;
 	sc:telephone	 "02 43 01 61 74"^^xsd:string ;
-	dbpedia-owl:location	 "EVRON"^^xsd:string ;
+	dbpprop:town	 "EVRON"^^xsd:string ;
 	dbpprop:location	 "44 RUE FONTAINE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "53600"^^xsd:integer ;
 	sc:email	 "librairiequillet@voila.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_LEROY>	 foaf:name 	 "LIBRAIRIE LEROY"^^xsd:string ;
-	ex:insee	 "85092"^^xsd:string ;
+	dbpprop:insee	 "85092"^^xsd:integer ;
 	sc:telephone	 "02 51 69 86 85 "^^xsd:string ;
-	dbpedia-owl:location	 "FONTENAY LE COMTE"^^xsd:string ;
+	dbpprop:town	 "FONTENAY LE COMTE"^^xsd:string ;
 	dbpprop:location	 "7 PASSAGE DU COMMERCE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "85200"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_L'ILE_AUX_TRESOR>	 foaf:name 	 "LIBRAIRIE L'ILE AUX TRESOR"^^xsd:string ;
-	ex:insee	 "49140"^^xsd:string ;
+	dbpprop:insee	 "49140"^^xsd:integer ;
 	sc:telephone	 "02 41 51 65 65"^^xsd:string ;
-	dbpedia-owl:location	 "FONTEVRAUD"^^xsd:string ;
+	dbpprop:town	 "FONTEVRAUD"^^xsd:string ;
 	dbpprop:location	 "2 PLACE DES PLANTAGENETS"^^xsd:string ;
 	dbpprop:website	 "www.lileautresor.fr"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49590"^^xsd:integer ;
 	sc:email	 "librairie@lileautresor.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_ROMINI>	 foaf:name 	 "LIBRAIRIE ROMINI"^^xsd:string ;
-	ex:insee	 "72138"^^xsd:string ;
+	dbpprop:insee	 "72138"^^xsd:integer ;
 	sc:telephone	 "02 43 33 28 83 "^^xsd:string ;
-	dbpedia-owl:location	 "FRESNAY SUR SARTHE"^^xsd:string ;
+	dbpprop:town	 "FRESNAY SUR SARTHE"^^xsd:string ;
 	dbpprop:location	 "5 RUE GAMBETTA"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "72000"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_K'DO_SAINT_AUBIN>	 foaf:name 	 "LIBRAIRIE K'DO SAINT AUBIN"^^xsd:string ;
-	ex:insee	 "44069"^^xsd:string ;
+	dbpprop:insee	 "44069"^^xsd:integer ;
 	sc:telephone	 "02 40 24 91 26 "^^xsd:string ;
-	dbpedia-owl:location	 "GUERANDE"^^xsd:string ;
+	dbpprop:town	 "GUERANDE"^^xsd:string ;
 	dbpprop:location	 "3 PLACE SAINT AUBIN"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44350"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_L'ESPRIT_LARGE_>	 foaf:name 	 "LIBRAIRIE L'ESPRIT LARGE "^^xsd:string ;
-	ex:insee	 "44069"^^xsd:string ;
+	dbpprop:insee	 "44069"^^xsd:integer ;
 	sc:telephone	 "02 40 23 44 44 "^^xsd:string ;
-	dbpedia-owl:location	 "GUERANDE"^^xsd:string ;
+	dbpprop:town	 "GUERANDE"^^xsd:string ;
 	dbpprop:location	 "12 RUE VANNETAISE"^^xsd:string ;
 	dbpprop:website	 "www.librairielespritlarge.over-blog.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44350"^^xsd:integer ;
 	sc:email	 "librairie@esprit-large.com"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_VOYELLES_HERBIGNAC>	 foaf:name 	 "LIBRAIRIE VOYELLES HERBIGNAC"^^xsd:string ;
-	ex:insee	 "44072"^^xsd:string ;
+	dbpprop:insee	 "44072"^^xsd:integer ;
 	sc:telephone	 "02 51 76 90 01"^^xsd:string ;
-	dbpedia-owl:location	 "HERBIGNAC"^^xsd:string ;
+	dbpprop:town	 "HERBIGNAC"^^xsd:string ;
 	dbpprop:location	 "13 PLACE DU GENERAL D'ARGENCE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44410"^^xsd:integer ;
 	sc:email	 "voyelles@aliceadsl.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_DU_CASINO>	 foaf:name 	 "LIBRAIRIE DU CASINO"^^xsd:string ;
-	ex:insee	 "44055"^^xsd:string ;
+	dbpprop:insee	 "44055"^^xsd:integer ;
 	sc:telephone	 "02 40 60 86 60 "^^xsd:string ;
-	dbpedia-owl:location	 "LA BAULE"^^xsd:string ;
+	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpprop:location	 "ESPLANADE FRANCOIS ANDRE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_HALL_DES_INFORMATIONS>	 foaf:name 	 "LIBRAIRIE HALL DES INFORMATIONS"^^xsd:string ;
-	ex:insee	 "44055"^^xsd:string ;
+	dbpprop:insee	 "44055"^^xsd:integer ;
 	sc:telephone	 "02 40 60 04 30 "^^xsd:string ;
-	dbpedia-owl:location	 "LA BAULE"^^xsd:string ;
+	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpprop:location	 "35 BOULEVARD DE L'OCEAN"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_PAPYRUS_72>	 foaf:name 	 "LIBRAIRIE PAPYRUS 72"^^xsd:string ;
-	ex:insee	 "72132"^^xsd:string ;
+	dbpprop:insee	 "72132"^^xsd:integer ;
 	sc:telephone	 "02 43 93 00 53"^^xsd:string ;
-	dbpedia-owl:location	 "LA FERTE BERNARD"^^xsd:string ;
+	dbpprop:town	 "LA FERTE BERNARD"^^xsd:string ;
 	dbpprop:location	 "37 RUE D'HUISNE"^^xsd:string ;
 	dbpprop:website	 "www.librairie-papyrus.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "72400"^^xsd:integer ;
 	sc:email	 "papyruslp@wanadoo.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_AGORA>	 foaf:name 	 "LIBRAIRIE AGORA"^^xsd:string ;
-	ex:insee	 "85191"^^xsd:string ;
+	dbpprop:insee	 "85191"^^xsd:integer ;
 	sc:telephone	 "02 51 44 58 81"^^xsd:string ;
-	dbpedia-owl:location	 "LA ROCHE SUR YON"^^xsd:string ;
+	dbpprop:town	 "LA ROCHE SUR YON"^^xsd:string ;
 	dbpprop:location	 "11 RUE CLEMENCEAU"^^xsd:string ;
 	dbpprop:website	 "www.librairie-agora.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "85000"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_LACROIX>	 foaf:name 	 "LIBRAIRIE LACROIX"^^xsd:string ;
-	ex:insee	 "85191"^^xsd:string ;
+	dbpprop:insee	 "85191"^^xsd:integer ;
 	sc:telephone	 "02 51 37 30 77 "^^xsd:string ;
-	dbpedia-owl:location	 "LA ROCHE SUR YON"^^xsd:string ;
+	dbpprop:town	 "LA ROCHE SUR YON"^^xsd:string ;
 	dbpprop:location	 "38 RUE CLEMENCEAU"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "85000"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_SILOE_85>	 foaf:name 	 "LIBRAIRIE SILOE 85"^^xsd:string ;
-	ex:insee	 "85191"^^xsd:string ;
+	dbpprop:insee	 "85191"^^xsd:integer ;
 	sc:telephone	 "02 51 37 38 81"^^xsd:string ;
-	dbpedia-owl:location	 "LA ROCHE SUR YON"^^xsd:string ;
+	dbpprop:town	 "LA ROCHE SUR YON"^^xsd:string ;
 	dbpprop:location	 "58 RUE DU MARECHAL JOFFRE"^^xsd:string ;
 	dbpprop:website	 "www.siloe-librairies.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "85000"^^xsd:integer ;
 	sc:email	 "la-roche-sur-yon@siloe-librairies.com"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_85_000>	 foaf:name 	 "LIBRAIRIE 85 000"^^xsd:string ;
-	ex:insee	 "85191"^^xsd:string ;
+	dbpprop:insee	 "85191"^^xsd:integer ;
 	sc:telephone	 "02 51 37 27 93"^^xsd:string ;
-	dbpedia-owl:location	 "LA ROCHE SUR YON"^^xsd:string ;
+	dbpprop:town	 "LA ROCHE SUR YON"^^xsd:string ;
 	dbpprop:location	 "CARREAU DES HALLES"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "85000"^^xsd:integer ;
 	sc:email	 "librairie85000@gmail.com"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_BOUQUINERIE_DU_VIEUX_CHÂTEAU>	 foaf:name 	 "LIBRAIRIE BOUQUINERIE DU VIEUX CHÂTEAU"^^xsd:string ;
-	ex:insee	 "53130"^^xsd:string ;
+	dbpprop:insee	 "53130"^^xsd:integer ;
 	sc:telephone	 "02 43 56 26 43"^^xsd:string ;
-	dbpedia-owl:location	 "LAVAL"^^xsd:string ;
+	dbpprop:town	 "LAVAL"^^xsd:string ;
 	dbpprop:location	 "19 GRANDE RUE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "53000"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_CHAPITRE_COM_LAVAL>	 foaf:name 	 "LIBRAIRIE CHAPITRE.COM LAVAL"^^xsd:string ;
-	ex:insee	 "53130"^^xsd:string ;
+	dbpprop:insee	 "53130"^^xsd:integer ;
 	sc:telephone	 "02 43 59 11 50"^^xsd:string ;
-	dbpedia-owl:location	 "LAVAL"^^xsd:string ;
+	dbpprop:town	 "LAVAL"^^xsd:string ;
 	dbpprop:location	 "5 RUE DU GENERAL DE GAULLE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "53000"^^xsd:integer ;
 	sc:email	 "laval@siloe-librairie.com"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_JEUX_BOUQUINE>	 foaf:name 	 "LIBRAIRIE JEUX BOUQUINE"^^xsd:string ;
-	ex:insee	 "53130"^^xsd:string ;
+	dbpprop:insee	 "53130"^^xsd:integer ;
 	sc:telephone	 "02 43 53 83 24"^^xsd:string ;
-	dbpedia-owl:location	 "LAVAL"^^xsd:string ;
+	dbpprop:town	 "LAVAL"^^xsd:string ;
 	dbpprop:location	 "10 RUE VAL DE MAYENNE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "53000"^^xsd:integer ;
 	sc:email	 "jeuxbouquine@orange.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_LA_PRESSE_ET_LE_LIVRE>	 foaf:name 	 "LIBRAIRIE LA PRESSE ET LE LIVRE"^^xsd:string ;
-	ex:insee	 "53130"^^xsd:string ;
+	dbpprop:insee	 "53130"^^xsd:integer ;
 	sc:telephone	 "02 43 67 04 90"^^xsd:string ;
-	dbpedia-owl:location	 "LAVAL"^^xsd:string ;
+	dbpprop:town	 "LAVAL"^^xsd:string ;
 	dbpprop:location	 "61 BOULEVARD FELIX GRAT"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "53000"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_M'LIRE>	 foaf:name 	 "LIBRAIRIE M'LIRE"^^xsd:string ;
-	ex:insee	 "53130"^^xsd:string ;
+	dbpprop:insee	 "53130"^^xsd:integer ;
 	sc:telephone	 "02 43 53 04 11"^^xsd:string ;
-	dbpedia-owl:location	 "LAVAL"^^xsd:string ;
+	dbpprop:town	 "LAVAL"^^xsd:string ;
 	dbpprop:location	 "3 RUE DE LA PAIX"^^xsd:string ;
 	dbpprop:website	 "www.librairiemlire.hautetfort.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "53000"^^xsd:integer ;
 	sc:email	 "librairiemlire@gmail.com"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_SILOE_53>	 foaf:name 	 "LIBRAIRIE SILOE 53"^^xsd:string ;
-	ex:insee	 "53130"^^xsd:string ;
+	dbpprop:insee	 "53130"^^xsd:integer ;
 	sc:telephone	 "02 43 59 11 50"^^xsd:string ;
-	dbpedia-owl:location	 "LAVAL"^^xsd:string ;
+	dbpprop:town	 "LAVAL"^^xsd:string ;
 	dbpprop:location	 "5 RUE DU GENERAL DE GAULLE"^^xsd:string ;
 	dbpprop:website	 "www.siloe-librairies.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "53000"^^xsd:integer ;
 	sc:email	 "laval@siloe-librairies.com"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_LE_TRIANGLE_BLANC>	 foaf:name 	 "LIBRAIRIE LE TRIANGLE BLANC"^^xsd:string ;
-	ex:insee	 "44049"^^xsd:string ;
+	dbpprop:insee	 "44049"^^xsd:integer ;
 	sc:telephone	 "02 40 15 74 16"^^xsd:string ;
-	dbpedia-owl:location	 "LE CROISIC"^^xsd:string ;
+	dbpprop:town	 "LE CROISIC"^^xsd:string ;
 	dbpprop:location	 "14 RUE DE LA MARINE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44490"^^xsd:integer ;
 	sc:email	 "letriangleblanc@wanadoo.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_A_PLUS_D'UN_TITRE>	 foaf:name 	 "LIBRAIRIE A PLUS D'UN TITRE"^^xsd:string ;
-	ex:insee	 "72176"^^xsd:string ;
+	dbpprop:insee	 "72176"^^xsd:integer ;
 	sc:telephone	 "02 43 48 21 81"^^xsd:string ;
-	dbpedia-owl:location	 "LE LUDE"^^xsd:string ;
+	dbpprop:town	 "LE LUDE"^^xsd:string ;
 	dbpprop:location	 "15 RUE BŒUF"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "72800"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_BOUQUINERIE_DU_CENTRE>	 foaf:name 	 "LIBRAIRIE BOUQUINERIE DU CENTRE"^^xsd:string ;
-	ex:insee	 "72181"^^xsd:string ;
+	dbpprop:insee	 "72181"^^xsd:integer ;
 	sc:telephone	 "02 43 87 02 79"^^xsd:string ;
-	dbpedia-owl:location	 "LE MANS"^^xsd:string ;
+	dbpprop:town	 "LE MANS"^^xsd:string ;
 	dbpprop:location	 "23 RUE NATIONALE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "72000"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_BULLE>	 foaf:name 	 "LIBRAIRIE BULLE"^^xsd:string ;
-	ex:insee	 "72181"^^xsd:string ;
+	dbpprop:insee	 "72181"^^xsd:integer ;
 	sc:telephone	 "02 43 39 06 23"^^xsd:string ;
-	dbpedia-owl:location	 "LE MANS"^^xsd:string ;
+	dbpprop:town	 "LE MANS"^^xsd:string ;
 	dbpprop:location	 "6 RUE SAINT HONORE"^^xsd:string ;
 	dbpprop:website	 "www.librairie-bulle.fr"^^xsd:string ;
 	dbpedia-owl:postalCode	 "72000"^^xsd:integer ;
 	sc:email	 "lib.bulle@wanadoo.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_CLE_DE_VIE>	 foaf:name 	 "LIBRAIRIE CLE DE VIE"^^xsd:string ;
-	ex:insee	 "72181"^^xsd:string ;
+	dbpprop:insee	 "72181"^^xsd:integer ;
 	sc:telephone	 "02 43 28 27 42"^^xsd:string ;
-	dbpedia-owl:location	 "LE MANS"^^xsd:string ;
+	dbpprop:town	 "LE MANS"^^xsd:string ;
 	dbpprop:location	 "71 RUE NATIONALE"^^xsd:string ;
 	dbpprop:website	 "www.cledevie.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "72000"^^xsd:integer ;
 	sc:email	 "cle-de-vie@wanadoo.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_DOUCET>	 foaf:name 	 "LIBRAIRIE DOUCET"^^xsd:string ;
-	ex:insee	 "72181"^^xsd:string ;
+	dbpprop:insee	 "72181"^^xsd:integer ;
 	sc:telephone	 "02 43 24 43 20"^^xsd:string ;
-	dbpedia-owl:location	 "LE MANS"^^xsd:string ;
+	dbpprop:town	 "LE MANS"^^xsd:string ;
 	dbpprop:location	 "66 AVENUE DU GENERAL DE GAULLE"^^xsd:string ;
 	dbpprop:website	 "wwww.librairiedoucet.fr"^^xsd:string ;
 	dbpedia-owl:postalCode	 "72000"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_FNAC>	 foaf:name 	 "LIBRAIRIE FNAC"^^xsd:string ;
-	ex:insee	 "72181"^^xsd:string ;
+	dbpprop:insee	 "72181"^^xsd:integer ;
 	sc:telephone	 "08 92 35 04 05"^^xsd:string ;
-	dbpedia-owl:location	 "LE MANS"^^xsd:string ;
+	dbpprop:town	 "LE MANS"^^xsd:string ;
 	dbpprop:location	 "13 RUE CLAUDE BLONDEAU"^^xsd:string ;
 	dbpprop:website	 "www.fnac.com/Le-Mans"^^xsd:string ;
 	dbpedia-owl:postalCode	 "72000"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_LE_PILIER_AUX_CLES>	 foaf:name 	 "LIBRAIRIE LE PILIER AUX CLES"^^xsd:string ;
-	ex:insee	 "72181"^^xsd:string ;
+	dbpprop:insee	 "72181"^^xsd:integer ;
 	sc:telephone	 "02 43 24 97 26"^^xsd:string ;
-	dbpedia-owl:location	 "LE MANS"^^xsd:string ;
+	dbpprop:town	 "LE MANS"^^xsd:string ;
 	dbpprop:location	 "81-83 GRANDE RUE"^^xsd:string ;
 	dbpprop:website	 "www.le-pilier-aux-cles.fr"^^xsd:string ;
 	dbpedia-owl:postalCode	 "72000"^^xsd:integer ;
 	sc:email	 "infos@le-pilier-aux-cles.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_L'ATHANOR>	 foaf:name 	 "LIBRAIRIE L'ATHANOR"^^xsd:string ;
-	ex:insee	 "72181"^^xsd:string ;
+	dbpprop:insee	 "72181"^^xsd:integer ;
 	sc:telephone	 "02 43 23 63 18 "^^xsd:string ;
-	dbpedia-owl:location	 "LE MANS"^^xsd:string ;
+	dbpprop:town	 "LE MANS"^^xsd:string ;
 	dbpprop:location	 "22 RUE MARCHANDE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "72000"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_PAUSE_MANGA>	 foaf:name 	 "LIBRAIRIE PAUSE MANGA"^^xsd:string ;
-	ex:insee	 "72181"^^xsd:string ;
+	dbpprop:insee	 "72181"^^xsd:integer ;
 	sc:telephone	 "02 53 76 24 17"^^xsd:string ;
-	dbpedia-owl:location	 "LE MANS"^^xsd:string ;
+	dbpprop:town	 "LE MANS"^^xsd:string ;
 	dbpprop:location	 "56 RUE NATIONALE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "72000"^^xsd:integer ;
 	sc:email	 "pausemanga@free.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_RECREALIVRES>	 foaf:name 	 "LIBRAIRIE RECREALIVRES"^^xsd:string ;
-	ex:insee	 "72181"^^xsd:string ;
+	dbpprop:insee	 "72181"^^xsd:integer ;
 	sc:telephone	 "02 43 43 87 21"^^xsd:string ;
-	dbpedia-owl:location	 "LE MANS"^^xsd:string ;
+	dbpprop:town	 "LE MANS"^^xsd:string ;
 	dbpprop:location	 "29 RUE DES PONTS NEUFS"^^xsd:string ;
 	dbpprop:website	 "recrealivresque.free.fr "^^xsd:string ;
 	dbpedia-owl:postalCode	 "72000"^^xsd:integer ;
 	sc:email	 "recrealivres@hotmail.com"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_SILOE_72>	 foaf:name 	 "LIBRAIRIE SILOE 72"^^xsd:string ;
-	ex:insee	 "72181"^^xsd:string ;
+	dbpprop:insee	 "72181"^^xsd:integer ;
 	sc:telephone	 "02 43 87 53 16"^^xsd:string ;
-	dbpedia-owl:location	 "LE MANS"^^xsd:string ;
+	dbpprop:town	 "LE MANS"^^xsd:string ;
 	dbpprop:location	 "38 BIS PLACE DES COMTES DU MAINE"^^xsd:string ;
 	dbpprop:website	 "www.siloe-librairies.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "72000"^^xsd:integer ;
 	sc:email	 "le-mans@siloe-librairies.com"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_THUARD>	 foaf:name 	 "LIBRAIRIE THUARD"^^xsd:string ;
-	ex:insee	 "72181"^^xsd:string ;
+	dbpprop:insee	 "72181"^^xsd:integer ;
 	sc:telephone	 "02 43 82 22 22"^^xsd:string ;
-	dbpedia-owl:location	 "LE MANS"^^xsd:string ;
+	dbpprop:town	 "LE MANS"^^xsd:string ;
 	dbpprop:location	 "24 RUE DE L'ETOILE"^^xsd:string ;
 	dbpprop:website	 "www.librairiethuard.fr"^^xsd:string ;
 	dbpedia-owl:postalCode	 "72000"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_KARA_PASSE_EN_BULLE>	 foaf:name 	 "LIBRAIRIE KARA PASSE EN BULLE"^^xsd:string ;
-	ex:insee	 "85109"^^xsd:string ;
+	dbpprop:insee	 "85109"^^xsd:integer ;
 	sc:telephone	 "02 51 65 00 36"^^xsd:string ;
-	dbpedia-owl:location	 "LES HERBIERS"^^xsd:string ;
+	dbpprop:town	 "LES HERBIERS"^^xsd:string ;
 	dbpprop:location	 "6 BIS RUE DE LA BIENFAISANCE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "85500"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_CENTRALE>	 foaf:name 	 "LIBRAIRIE CENTRALE"^^xsd:string ;
-	ex:insee	 "85194"^^xsd:string ;
+	dbpprop:insee	 "85194"^^xsd:integer ;
 	sc:telephone	 "02 51 32 85 97"^^xsd:string ;
-	dbpedia-owl:location	 "LES SABLES D'OLONNES"^^xsd:string ;
+	dbpprop:town	 "LES SABLES D'OLONNES"^^xsd:string ;
 	dbpprop:location	 "20 RUE DE L'HOTEL DE VILLE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "85108"^^xsd:integer ;
 	sc:email	 "lib.cent.ls@wanadoo.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_LES_FABLES_D'OLONNE>	 foaf:name 	 "LIBRAIRIE LES FABLES D'OLONNE"^^xsd:string ;
-	ex:insee	 "85194"^^xsd:string ;
+	dbpprop:insee	 "85194"^^xsd:integer ;
 	sc:telephone	 "02 51 20 12 90"^^xsd:string ;
-	dbpedia-owl:location	 "LES SABLES D'OLONNES"^^xsd:string ;
+	dbpprop:town	 "LES SABLES D'OLONNES"^^xsd:string ;
 	dbpprop:location	 "56 PROMENADE GEORGES CLEMENCEAU"^^xsd:string ;
 	dbpprop:website	 "www.lesfablesdolonne.fr"^^xsd:string ;
 	dbpedia-owl:postalCode	 "85100"^^xsd:integer ;
 	sc:email	 "lesfablesdolonne@gmail.com"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_VOYELLES>	 foaf:name 	 "LIBRAIRIE VOYELLES"^^xsd:string ;
-	ex:insee	 "85194"^^xsd:string ;
+	dbpprop:insee	 "85194"^^xsd:integer ;
 	sc:telephone	 "02 51 23 71 77"^^xsd:string ;
-	dbpedia-owl:location	 "LES SABLES D'OLONNES"^^xsd:string ;
+	dbpprop:town	 "LES SABLES D'OLONNES"^^xsd:string ;
 	dbpprop:location	 "64 RUE NATIONALE"^^xsd:string ;
 	dbpprop:website	 "www.librairie-voyelles.net"^^xsd:string ;
 	dbpedia-owl:postalCode	 "85100"^^xsd:integer ;
 	sc:email	 "gto.voyelles@wanadoo.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_ARCADIE>	 foaf:name 	 "LIBRAIRIE ARCADIE"^^xsd:string ;
-	ex:insee	 "85128"^^xsd:string ;
+	dbpprop:insee	 "85128"^^xsd:integer ;
 	sc:telephone	 "02 51 56 02 67"^^xsd:string ;
-	dbpedia-owl:location	 "LUCON"^^xsd:string ;
+	dbpprop:town	 "LUCON"^^xsd:string ;
 	dbpprop:location	 "2 PLACE DU PETIT BOOTH"^^xsd:string ;
 	dbpprop:website	 "www.arcadie-calipage.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "85400"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_DU_MARAIS>	 foaf:name 	 "LIBRAIRIE DU MARAIS"^^xsd:string ;
-	ex:insee	 "53147"^^xsd:string ;
+	dbpprop:insee	 "53147"^^xsd:integer ;
 	sc:telephone	 "02 43 04 10 12"^^xsd:string ;
-	dbpedia-owl:location	 "MAYENNE"^^xsd:string ;
+	dbpprop:town	 "MAYENNE"^^xsd:string ;
 	dbpprop:location	 "PLACE CLEMENCEAU"^^xsd:string ;
 	dbpprop:website	 "www.librairiedumarais.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "53100"^^xsd:integer ;
 	sc:email	 "libdumarais@orange.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_A_PLEIN_REVES>	 foaf:name 	 "LIBRAIRIE A PLEIN REVES"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 40 38 22 37"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "13 ALLEE PORT MAILLARD"^^xsd:string ;
 	dbpprop:website	 "www.apleinreves.fr"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "contact@comics-apleinreves.com"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_ALADIN>	 foaf:name 	 "LIBRAIRIE ALADIN"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 40 20 39 23"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "8 RUE MERCOEUR"^^xsd:string ;
 	dbpprop:website	 "www.canalbd.net"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "aladinlib@canalbd.net"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_COIFFARD>	 foaf:name 	 "LIBRAIRIE COIFFARD"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 40 48 16 19"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "7 RUE DE LA FOSSE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_DOBREE>	 foaf:name 	 "LIBRAIRIE DOBREE"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 40 69 84 84 "^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "14 RUE VOLTAIRE"^^xsd:string ;
 	dbpprop:website	 "www.librairiedobree.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "info@librairiedobree.com"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_DU_CHÂTEAU_DES_DUCS_DE_BRETAGNE>	 foaf:name 	 "LIBRAIRIE DU CHÂTEAU DES DUCS DE BRETAGNE"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 51 17 49 56"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "4 PLACE MARC ELDER"^^xsd:string ;
 	dbpprop:website	 "www.chateau-nantes.fr"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_DU_GRAND_T>	 foaf:name 	 "LIBRAIRIE DU GRAND T"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 51 88 25 25"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "84 RUE DU GENERAL BUAT"^^xsd:string ;
 	dbpprop:website	 "www.legrandt.fr"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_DU_MUSEE_DES_BEAUX_ARTS>	 foaf:name 	 "LIBRAIRIE DU MUSEE DES BEAUX ARTS"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 51 81 97 41 "^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "10 RUE CLEMENCEAU"^^xsd:string ;
 	dbpprop:website	 "www.museedesbeauxarts.nantes.fr"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_DURANCE>	 foaf:name 	 "LIBRAIRIE DURANCE"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 40 48 68 79"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "4 ALLEE D'ORLEANS"^^xsd:string ;
 	dbpprop:website	 "www.librairiedurance.fr"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_ETOILE_POLAR>	 foaf:name 	 "LIBRAIRIE ETOILE POLAR"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "09 81 81 28 30"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "58 RUE DE LA BASTILLE"^^xsd:string ;
 	dbpprop:website	 "www.letoilepolar.fr"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "lelibraire@etoilepolar.com"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_FNAC>	 foaf:name 	 "LIBRAIRIE FNAC"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "08 92 35 04 05"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "PLACE DU COMMERCE"^^xsd:string ;
 	dbpprop:website	 "www.fnac.com/Nantes"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_FRANCE_LOISIRS>	 foaf:name 	 "LIBRAIRIE FRANCE LOISIRS"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 40 48 64 95"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "7 RUE JEAN JACQUES ROUSSEAU"^^xsd:string ;
 	dbpprop:website	 "www.franceloisirs.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_FRANKLIN>	 foaf:name 	 "LIBRAIRIE FRANKLIN"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 51 88 97 08 "^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "18 RUE FRANKLIN"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "librairie.franklin44@orange.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_GEOTHEQUE>	 foaf:name 	 "LIBRAIRIE GEOTHEQUE"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 40 47 40 68 "^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "10 PLACE PILORI "^^xsd:string ;
 	dbpprop:website	 "geotheque.over-blog.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "mtageotheque@free.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_LA_DIFFERENCE>	 foaf:name 	 "LIBRAIRIE LA DIFFERENCE"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 51 82 86 68"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "35 CHAUSSEE DE LA MADELEINE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "differences@hotmail.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_LA_MYSTERIEUSE_LIBRAIRIE_NANTAISE>	 foaf:name 	 "LIBRAIRIE LA MYSTERIEUSE LIBRAIRIE NANTAISE"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 51 72 18 89"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "2 RUE DE LA PAIX"^^xsd:string ;
 	dbpprop:website	 "www.mysterieuselibrairienantaise.wordpress.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "mysterieuselibrairienantaise@gmail.com"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_LES_ENFANTS_TERRIBLES>	 foaf:name 	 "LIBRAIRIE LES ENFANTS TERRIBLES"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 51 82 02 15"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "17 RUE VERDUN"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "lesenfantsterribles@wanadoo.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_LES_NUITS_BLANCHES>	 foaf:name 	 "LIBRAIRIE LES NUITS BLANCHES"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 51 83 28 90"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "4 RUE DES HAUTS PAVES"^^xsd:string ;
 	dbpprop:website	 "www.librairie-lesnuitsblanches.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "librairielesnuitsblanches@orange.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_L'ART_EN_BULLES>	 foaf:name 	 "LIBRAIRIE L'ART EN BULLES"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 81 02 20 66"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "5 RUE JEAN JACQUES ROUSSEAU"^^xsd:string ;
 	dbpprop:website	 "www.lartenbulles-librairie-bd.fr"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "artenbulles@laposte.net"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_L'ATALANTE>	 foaf:name 	 "LIBRAIRIE L'ATALANTE"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 40 47 54 77"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "15 RUE DES VIEILLES DOUVES"^^xsd:string ;
 	dbpprop:website	 "www.l-atalante.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "lib.atalante@wanadoo.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_L'AUTRE_RIVE>	 foaf:name 	 "LIBRAIRIE L'AUTRE RIVE"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 40 89 30 76"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "21 RUE DE LA PAIX"^^xsd:string ;
 	dbpprop:website	 "www.autrerive-librairie-nantes.fr"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "autrerive.nantes@wanadoo.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_L'ESPRIT_DU_TEMPS>	 foaf:name 	 "LIBRAIRIE L'ESPRIT DU TEMPS"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 40 48 01 26"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "3 RUE SIMON FOUCAULT"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_LIVRES_COMME_L'AIR>	 foaf:name 	 "LIBRAIRIE LIVRES COMME L'AIR"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 40 89 12 46 "^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "2 RUE COPERNIC"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_LUDIBULLE>	 foaf:name 	 "LIBRAIRIE LUDIBULLE"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 40 35 71 34"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "5 RUE DES VIEILLES DOUVES"^^xsd:string ;
 	dbpprop:website	 "www.ludibulle.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "ludibulle@aliceadsl.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_MEDICALE_ET_SCIENTIFIQUE>	 foaf:name 	 "LIBRAIRIE MEDICALE ET SCIENTIFIQUE"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 40 47 06 66"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "10 BIS ALLEE DE TURENNE"^^xsd:string ;
 	dbpprop:website	 "www.lms-web.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_OTAKU_NERA_DERA>	 foaf:name 	 "LIBRAIRIE OTAKU NERA DERA"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 40 35 25 83"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "6 RUE DES TROIS CROISSANTS "^^xsd:string ;
 	dbpprop:website	 "www.otakunodera.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "contact@otakunodera.com "^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_POLYGLOT>	 foaf:name 	 "LIBRAIRIE POLYGLOT"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 40 14 07 04"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "1 BOULEVARD PETIT PORT"^^xsd:string ;
 	dbpprop:website	 "http://polyglot.free.fr/"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "librairie.polyglot@wanadoo.fr "^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_SILOE_LIS>	 foaf:name 	 "LIBRAIRIE SILOE LIS"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 40 74 39 05"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "2 BIS RUE CLEMENCEAU"^^xsd:string ;
 	dbpprop:website	 "www.siloe-librairies.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "nantes@siloe-librairies.com"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_SILOE_44>	 foaf:name 	 "LIBRAIRIE SILOE 44"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 40 89 11 18"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "7 RUE ANGE GUEPIN"^^xsd:string ;
 	dbpprop:website	 "www.siloe-librairies.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "nantes@siloe-librairies.com"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_STORY_BD>	 foaf:name 	 "LIBRAIRIE STORY BD"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 40 35 69 50"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "6 RUE GUEPIN"^^xsd:string ;
 	dbpprop:website	 "www.story-bd.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "story-bd@wanadoo.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_VENT_D'OUEST>	 foaf:name 	 "LIBRAIRIE VENT D'OUEST"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 40 48 64 81"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "5 PLACE DU BON PASTEUR"^^xsd:string ;
 	dbpprop:website	 "www.librairie-nantes.fr"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "librairie@ventdouest.org"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_VENT_D'OUEST_-_LIEU_UNIQUE>	 foaf:name 	 "LIBRAIRIE VENT D'OUEST - LIEU UNIQUE"^^xsd:string ;
-	ex:insee	 "44109"^^xsd:string ;
+	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:telephone	 "02 40 47 64 83"^^xsd:string ;
-	dbpedia-owl:location	 "NANTES"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpprop:location	 "2 RUE DE LA BISCUITERIE"^^xsd:string ;
 	dbpprop:website	 "www.librairie-nantes.fr"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	sc:email	 "ventdouestaulieuunique@yahoo.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_HELLIO_>	 foaf:name 	 "LIBRAIRIE HELLIO "^^xsd:string ;
-	ex:insee	 "85163"^^xsd:string ;
+	dbpprop:insee	 "85163"^^xsd:integer ;
 	sc:telephone	 "02 51 39 00 68"^^xsd:string ;
-	dbpedia-owl:location	 "NOIRMOUTIER"^^xsd:string ;
+	dbpprop:town	 "NOIRMOUTIER"^^xsd:string ;
 	dbpprop:location	 "2 GRANDE RUE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "85330"^^xsd:integer ;
 	sc:email	 "encre.bleue85@orange.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_TRAIT_D'UNION>	 foaf:name 	 "LIBRAIRIE TRAIT D'UNION"^^xsd:string ;
-	ex:insee	 "85163"^^xsd:string ;
+	dbpprop:insee	 "85163"^^xsd:integer ;
 	sc:telephone	 "02 51 35 59 22"^^xsd:string ;
-	dbpedia-owl:location	 "NOIRMOUTIER"^^xsd:string ;
+	dbpprop:town	 "NOIRMOUTIER"^^xsd:string ;
 	dbpprop:location	 "1 BIS RUE DU GRAND FOUR"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "85330"^^xsd:integer ;
 	sc:email	 "librairie.noirmoutier@orange.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_VOYELLES_PONTCHATEAU>	 foaf:name 	 "LIBRAIRIE VOYELLES PONTCHATEAU"^^xsd:string ;
-	ex:insee	 "44129"^^xsd:string ;
+	dbpprop:insee	 "44129"^^xsd:integer ;
 	sc:telephone	 "02 40 66 32 20"^^xsd:string ;
-	dbpedia-owl:location	 "PONTCHATEAU"^^xsd:string ;
+	dbpprop:town	 "PONTCHATEAU"^^xsd:string ;
 	dbpprop:location	 "25 RUE MAURICE SAMBRON"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44160"^^xsd:integer ;
 	sc:email	 "voyelles@aliceadsl.fr "^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_S_A_D_E_L_(SOCIETE_ANGEVINE_D'EDITION_ET_LIBRAIRIE)_>	 foaf:name 	 "LIBRAIRIE S.A.D.E.L (SOCIETE ANGEVINE D'EDITION ET LIBRAIRIE) "^^xsd:string ;
-	ex:insee	 "49267"^^xsd:string ;
+	dbpprop:insee	 "49267"^^xsd:integer ;
 	sc:telephone	 "02 41 21 14 62"^^xsd:string ;
-	dbpedia-owl:location	 "SAINT BARTHELEMY D'ANJOU"^^xsd:string ;
+	dbpprop:town	 "SAINT BARTHELEMY D'ANJOU"^^xsd:string ;
 	dbpprop:location	 "BOULEVARD DE LA ROMANERIE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49124"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_PARCHEMINS>	 foaf:name 	 "LIBRAIRIE PARCHEMINS"^^xsd:string ;
-	ex:insee	 "49276"^^xsd:string ;
+	dbpprop:insee	 "49276"^^xsd:integer ;
 	sc:telephone	 "02 41 42 92 14"^^xsd:string ;
-	dbpedia-owl:location	 "SAINT FLORENT LE VIEL"^^xsd:string ;
+	dbpprop:town	 "SAINT FLORENT LE VIEL"^^xsd:string ;
 	dbpprop:location	 "1 RUE CHARLES DE RENEVILLE"^^xsd:string ;
 	dbpprop:website	 "www.librairieparchemins.blogspot.fr"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49410"^^xsd:integer ;
 	sc:email	 "librairieparchemins@orange.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_ATLANTIC_PAPETERIE>	 foaf:name 	 "LIBRAIRIE ATLANTIC PAPETERIE"^^xsd:string ;
-	ex:insee	 "85222"^^xsd:string ;
+	dbpprop:insee	 "85222"^^xsd:integer ;
 	sc:telephone	 "02 51 55 91 31"^^xsd:string ;
-	dbpedia-owl:location	 "SAINT GILLES CROIX DE VIE"^^xsd:string ;
+	dbpprop:town	 "SAINT GILLES CROIX DE VIE"^^xsd:string ;
 	dbpprop:location	 "13 RUE DU GENERAL DE GAULLE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "85800"^^xsd:integer ;
 	sc:email	 "atlantic.papeterie@wanadoo.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_L'OR_EN_LIVRE>	 foaf:name 	 "LIBRAIRIE L'OR EN LIVRE"^^xsd:string ;
-	ex:insee	 "85238"^^xsd:string ;
+	dbpprop:insee	 "85238"^^xsd:integer ;
 	sc:telephone	 "02 51 67 88 23"^^xsd:string ;
-	dbpedia-owl:location	 "SAINT LAURENT SUR SEVRE"^^xsd:string ;
+	dbpprop:town	 "SAINT LAURENT SUR SEVRE"^^xsd:string ;
 	dbpprop:location	 "26 PLACE SAINT GABRIEL"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "85290"^^xsd:integer ;
 	sc:email	 "lorenlivre@orange.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_ALBUM>	 foaf:name 	 "LIBRAIRIE ALBUM"^^xsd:string ;
-	ex:insee	 "44184"^^xsd:string ;
+	dbpprop:insee	 "44184"^^xsd:integer ;
 	sc:telephone	 "02 40 66 82 71 "^^xsd:string ;
-	dbpedia-owl:location	 "SAINT NAZAIRE"^^xsd:string ;
+	dbpprop:town	 "SAINT NAZAIRE"^^xsd:string ;
 	dbpprop:location	 "71 RUE JEAN JAURES"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44600"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_LA_NEF_DES_LIVRES>	 foaf:name 	 "LIBRAIRIE LA NEF DES LIVRES"^^xsd:string ;
-	ex:insee	 "44184"^^xsd:string ;
+	dbpprop:insee	 "44184"^^xsd:integer ;
 	sc:telephone	 "02 40 70 01 71"^^xsd:string ;
-	dbpedia-owl:location	 "SAINT NAZAIRE"^^xsd:string ;
+	dbpprop:town	 "SAINT NAZAIRE"^^xsd:string ;
 	dbpprop:location	 "26 AVENUE DE LA HAVANE"^^xsd:string ;
 	dbpprop:website	 "www.librairielanefdeslivres.fr"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44600"^^xsd:integer ;
 	sc:email	 "lanefdeslivres@orange.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_SAC_A_PAPIER>	 foaf:name 	 "LIBRAIRIE SAC A PAPIER"^^xsd:string ;
-	ex:insee	 "44184"^^xsd:string ;
+	dbpprop:insee	 "44184"^^xsd:integer ;
 	sc:telephone	 "02 40 66 55 71"^^xsd:string ;
-	dbpedia-owl:location	 "SAINT NAZAIRE"^^xsd:string ;
+	dbpprop:town	 "SAINT NAZAIRE"^^xsd:string ;
 	dbpprop:location	 "38 RUE DU MAINE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44600"^^xsd:integer ;
 	sc:email	 "sacapapier@sfr.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_RIBARD>	 foaf:name 	 "LIBRAIRIE RIBARD"^^xsd:string ;
-	ex:insee	 "44190"^^xsd:string ;
+	dbpprop:insee	 "44190"^^xsd:integer ;
 	sc:telephone	 "02 40 80 54 92 "^^xsd:string ;
-	dbpedia-owl:location	 "SAINT SEBASTIEN SUR LOIRE"^^xsd:string ;
+	dbpprop:town	 "SAINT SEBASTIEN SUR LOIRE"^^xsd:string ;
 	dbpprop:location	 "20 RUE MAURICE DANIEL"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44230"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_HACHETTE>	 foaf:name 	 "LIBRAIRIE HACHETTE"^^xsd:string ;
-	ex:insee	 "44172"^^xsd:string ;
+	dbpprop:insee	 "44172"^^xsd:integer ;
 	sc:telephone	 "02 51 85 09 11"^^xsd:string ;
-	dbpedia-owl:location	 "SAINTE LUCE SUR LOIRE"^^xsd:string ;
+	dbpprop:town	 "SAINTE LUCE SUR LOIRE"^^xsd:string ;
 	dbpprop:location	 "3 RUE HELENE BOUCHER"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44980"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_GWENLADENN>	 foaf:name 	 "LIBRAIRIE GWENLADENN"^^xsd:string ;
-	ex:insee	 "44184"^^xsd:string ;
+	dbpprop:insee	 "44184"^^xsd:integer ;
 	sc:telephone	 "02 40 22 16 10"^^xsd:string ;
-	dbpedia-owl:location	 "SAINT NAZAIRE"^^xsd:string ;
+	dbpprop:town	 "SAINT NAZAIRE"^^xsd:string ;
 	dbpprop:location	 "BOULEVARD DE LA LEGION D'HONNEUR"^^xsd:string ;
 	dbpprop:website	 "gweladenn.free.fr"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44600"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_DES_PONTS>	 foaf:name 	 "LIBRAIRIE DES PONTS"^^xsd:string ;
-	ex:insee	 "49328"^^xsd:string ;
+	dbpprop:insee	 "49328"^^xsd:integer ;
 	sc:telephone	 "02 41 67 49 91 "^^xsd:string ;
-	dbpedia-owl:location	 "SAUMUR"^^xsd:string ;
+	dbpprop:town	 "SAUMUR"^^xsd:string ;
 	dbpprop:location	 "27 AVENUE DU GENERAL DE GAULLE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49400"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_DU_VAL_DE_LOIRE>	 foaf:name 	 "LIBRAIRIE DU VAL DE LOIRE"^^xsd:string ;
-	ex:insee	 "49328"^^xsd:string ;
+	dbpprop:insee	 "49328"^^xsd:integer ;
 	sc:telephone	 "02 41 40 16 69"^^xsd:string ;
-	dbpedia-owl:location	 "SAUMUR"^^xsd:string ;
+	dbpprop:town	 "SAUMUR"^^xsd:string ;
 	dbpprop:location	 "46 RUE D'ORLEANS"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49400"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_LE_LIVRE_A_VENIR>	 foaf:name 	 "LIBRAIRIE LE LIVRE A VENIR"^^xsd:string ;
-	ex:insee	 "49328"^^xsd:string ;
+	dbpprop:insee	 "49328"^^xsd:integer ;
 	sc:telephone	 "02 41 52 10 56"^^xsd:string ;
-	dbpedia-owl:location	 "SAUMUR"^^xsd:string ;
+	dbpprop:town	 "SAUMUR"^^xsd:string ;
 	dbpprop:location	 "21 RUE DE LA TONNELLE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49400"^^xsd:integer ;
 	sc:email	 "lelivreavenir@gmail.com"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_APOSTROPHES>	 foaf:name 	 "LIBRAIRIE APOSTROPHES"^^xsd:string ;
-	ex:insee	 "44195"^^xsd:string ;
+	dbpprop:insee	 "44195"^^xsd:integer ;
 	sc:telephone	 "02 40 56 80 03 "^^xsd:string ;
-	dbpedia-owl:location	 "SAVENAY"^^xsd:string ;
+	dbpprop:town	 "SAVENAY"^^xsd:string ;
 	dbpprop:location	 "1 PLACE DES HALLES"^^xsd:string ;
 	dbpprop:website	 "www.librairie-apostrophes.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44260"^^xsd:integer ;
 	sc:email	 "apostrophes.savenay@wanadoo.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_LANDRON>	 foaf:name 	 "LIBRAIRIE LANDRON"^^xsd:string ;
-	ex:insee	 "49283"^^xsd:string ;
+	dbpprop:insee	 "49283"^^xsd:integer ;
 	sc:telephone	 "02 41 39 13 81"^^xsd:string ;
-	dbpedia-owl:location	 "ST GEORGES SUR LOIRE"^^xsd:string ;
+	dbpprop:town	 "ST GEORGES SUR LOIRE"^^xsd:string ;
 	dbpprop:location	 "3 RUE DE CHALONNES "^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49170"^^xsd:integer ;
 	sc:email	 "undefined"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_LA_LIGERIENNE>	 foaf:name 	 "LIBRAIRIE LA LIGERIENNE"^^xsd:string ;
-	ex:insee	 "49307"^^xsd:string ;
+	dbpprop:insee	 "49307"^^xsd:integer ;
 	sc:telephone	 "02 41 57 00 50"^^xsd:string ;
-	dbpedia-owl:location	 "ST MATHURIN SUR LOIRE"^^xsd:string ;
+	dbpprop:town	 "ST MATHURIN SUR LOIRE"^^xsd:string ;
 	dbpprop:location	 "RUE BELLENOUE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49250"^^xsd:integer ;
 	sc:email	 "contact@la-ligerienne.fr "^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_L'ODYSSEE>	 foaf:name 	 "LIBRAIRIE L'ODYSSEE"^^xsd:string ;
-	ex:insee	 "44212"^^xsd:string ;
+	dbpprop:insee	 "44212"^^xsd:integer ;
 	sc:telephone	 "02 40 33 90 03"^^xsd:string ;
-	dbpedia-owl:location	 "VALLET"^^xsd:string ;
+	dbpprop:town	 "VALLET"^^xsd:string ;
 	dbpprop:location	 "44 RUE FRANCOIS LUNEAU"^^xsd:string ;
 	dbpprop:website	 "www.librairielodyssee-vallet.com"^^xsd:string ;
 	dbpedia-owl:postalCode	 "44330"^^xsd:integer ;
 	sc:email	 "odyssee.vallet@aliceadsl.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_BLONDEAU>	 foaf:name 	 "LIBRAIRIE BLONDEAU"^^xsd:string ;
-	ex:insee	 "72373"^^xsd:string ;
+	dbpprop:insee	 "72373"^^xsd:integer ;
 	sc:telephone	 "02 43 93 60 23"^^xsd:string ;
-	dbpedia-owl:location	 "VIBRAYE"^^xsd:string ;
+	dbpprop:town	 "VIBRAYE"^^xsd:string ;
 	dbpprop:location	 "26 RUE XAVIER BOUTET"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "72140"^^xsd:integer ;
 	sc:email	 "blondeau.vibraye@wanadoo.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_GRAFFITY'S>	 foaf:name 	 "LIBRAIRIE GRAFFITY'S"^^xsd:string ;
-	ex:insee	 "49373"^^xsd:string ;
+	dbpprop:insee	 "49373"^^xsd:integer ;
 	sc:telephone	 "02 41 75 82 75"^^xsd:string ;
-	dbpedia-owl:location	 "VIHIERS"^^xsd:string ;
+	dbpprop:town	 "VIHIERS"^^xsd:string ;
 	dbpprop:location	 "23 PLACE CHARLES DE GAULLE"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "49310"^^xsd:integer ;
 	sc:email	 "graffitys2@wanadoo.fr"^^xsd:string .
 
 <http://projet.com/10/LIBRAIRIE_HUET>	 foaf:name 	 "LIBRAIRIE HUET"^^xsd:string ;
-	ex:insee	 "53272"^^xsd:string ;
+	dbpprop:insee	 "53272"^^xsd:integer ;
 	sc:telephone	 "02 43 03 30 86 "^^xsd:string ;
-	dbpedia-owl:location	 "VILLAINES LA JUHEL"^^xsd:string ;
+	dbpprop:town	 "VILLAINES LA JUHEL"^^xsd:string ;
 	dbpprop:location	 "2 PLACE DES HALLES"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string ;
 	dbpedia-owl:postalCode	 "53700"^^xsd:integer ;
