@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
-   <identifiant>22440002800011_CG44_TOU_04819</identifiant>
-   <titre>Les cinémas en Loire Atlantique</titre>
-   <description>Liste des cinémas présent en loire atlantique.</description>
+   <identifiant>22440002800011_CG44_CLT_03001</identifiant>
+   <titre>Salles de cinéma en Loire-Atlantique</titre>
+   <description>Liste des salles de cinéma en Loire-Atlantique</description>
    <themes>
       <theme>culture_tourisme</theme>
    </themes>
    <themeInspire/>
-   <motsCles>culture</motsCles>
+   <motsCles>art dramatique, art et essai, court métrage, dessin animé</motsCles>
    <licence>odbl</licence>
    <datePublication>17/06/2013</datePublication>
    <dateCreation>15/06/2013</dateCreation>
@@ -16,16 +16,16 @@
       <modification>Création</modification>
       <description>Création</description>
    </objetMaj>
-   <frequenceMaj>Annuelle</frequenceMaj>
-   <proprietaire>lat</proprietaire>
+   <frequenceMaj>Lorsque nécessaire</frequenceMaj>
+   <proprietaire>cg44</proprietaire>
    <diffuseur>cg44</diffuseur>
-   <gestionnaire>lat</gestionnaire>
+   <gestionnaire>cg44</gestionnaire>
    <couvertureSpatiale>Loire-Atlantique</couvertureSpatiale>
    <couvertureTemporelle>Sans objet</couvertureTemporelle>
    <langue>fr</langue>
    <qualite/>
    <granularite/>
-   <documentation><a external="1" title="Opens external link in new window" class="external-link-new-window" target="_blank" href="http://www.ohlaloireatlantique.com/">Pour plus d'information, cliquer ici</a></documentation>
+   <documentation><a external="1" title="Opens external link in new window" class="external-link-new-window" target="_blank" href="http://www.loire-atlantique.fr/jcms/cg_7506/cinema">Pour plus d'information, cliquer ici</a></documentation>
    <vocabulaire/>
    <ressources>
 	    <ressource>

@@ -61,7 +61,7 @@ public class XSLConstructor {
 					// la propriété n'existe pas, il faut la créer
 					properties.setProperty(name, "TEMPORAIRE:" + name
 							+ ",string");
-					System.err.println("WARNING: new property added");
+					System.err.println("WARNING: new property added: " + name);
 					modification = true;
 					map.put(name,
 							new MappingUnit((String) properties.get(name)));
@@ -89,7 +89,7 @@ public class XSLConstructor {
 	private boolean generateXSL(Map<String, MappingUnit> map) {
 		try {
 			// Create file
-			System.out.println("XSL construction processing...");
+			System.out.print("XSL construction processing...");
 			FileWriter fstream = new FileWriter(XSLFile);
 			BufferedWriter out = new BufferedWriter(fstream);
 
@@ -139,16 +139,10 @@ public class XSLConstructor {
 
 	}
 
-	private void templateWrite(Map<String, MappingUnit> map, BufferedWriter out)
-			throws IOException {
-		Set<String> keys = map.keySet();
-		Iterator<String> it = keys.iterator();
-		it = keys.iterator();
-		while (it.hasNext()) {
-			String courant = it.next();
-			// System.err.println(map.get(courant).vocabulaire);
-			if (map.get(courant).vocabulaire.equals("foaf:name")) {
-				out.write("<xsl:template match=\""
+	private String templateName(String courant, Iterator<String> it,
+			Map<String, MappingUnit> map) {
+		String s = new String(
+				"<xsl:template match=\""
 						+ courant
 						+ "\">"
 						+ "<xsl:choose>"
@@ -161,73 +155,104 @@ public class XSLConstructor {
 						+ " &#009; \"<xsl:value-of select=\"translate(., '&quot;','')\"/>\"^^xsd:string ;"
 						+ lastRetour(it)
 						+ "</xsl:otherwise></xsl:choose></xsl:template>\n\n");
+		return s;
+	}
+
+	private String templateInt(String courant, Iterator<String> it,
+			Map<String, MappingUnit> map) {
+		String s = new String("<xsl:template match=\"" + courant + "\">"
+				+ "<xsl:choose>" + "<xsl:when test=\". = 'null'\">" + "&#009;"
+				+ map.get(courant).vocabulaire + "&#009; \"" + intVide
+				+ "\"^^xsd:integer " + last(it) + lastRetour(it)
+				+ "</xsl:when>\n" + "<xsl:otherwise>" + "&#009;"
+				+ map.get(courant).vocabulaire
+				+ "&#009; \"<xsl:value-of select=\".\"/>\"^^xsd:integer "
+				+ last(it) + lastRetour(it)
+				+ "</xsl:otherwise></xsl:choose></xsl:template>\n\n");
+		return s;
+	}
+
+	private String templateFloat(String courant, Iterator<String> it,
+			Map<String, MappingUnit> map) {
+		String s = new String("<xsl:template match=\"" + courant + "\">"
+				+ "<xsl:choose>" + "<xsl:when test=\". = 'null'\">" + "&#009;"
+				+ map.get(courant).vocabulaire + "&#009; \"" + decVide
+				+ "\"^^xsd:decimal " + last(it) + lastRetour(it)
+				+ "</xsl:when>\n" + "<xsl:otherwise>" + "&#009;"
+				+ map.get(courant).vocabulaire
+				+ "&#009; \"<xsl:value-of select=\".\"/>\"^^xsd:decimal "
+				+ last(it) + lastRetour(it)
+				+ "</xsl:otherwise></xsl:choose></xsl:template>\n\n");
+		return s;
+	}
+
+	private String templateString(String courant, Iterator<String> it,
+			Map<String, MappingUnit> map) {
+		String s = new String(
+				"<xsl:template match=\""
+						+ courant
+						+ "\">\n"
+						+ "<xsl:choose>"
+						+ "<xsl:when test=\". = 'null'\">"
+						+ "&#009;"
+						+ map.get(courant).vocabulaire
+						+ "&#009; \""
+						+ stringVide
+						+ "\"^^xsd:string "
+						+ last(it)
+						+ lastRetour(it)
+						+ "</xsl:when>\n"
+						+ "<xsl:otherwise>"
+						+ "&#009;"
+						+ map.get(courant).vocabulaire
+						+ "&#009; \""
+						+ "<xsl:value-of select=\"translate(., '&quot;','')\"/>\"^^xsd:string "
+						+ last(it) + lastRetour(it)
+						+ "</xsl:otherwise></xsl:choose></xsl:template>\n\n");
+		return s;
+	}
+
+	private String templateCoord(String courant, Iterator<String> it,
+			Map<String, MappingUnit> map) {
+		String s = new String(
+				"<xsl:template match=\""
+						+ courant
+						+ "\">"
+						+ "&#009;"
+						+ "geo:lat"
+						+ "&#009;\""
+						+ "<xsl:value-of select=\"substring-after(substring-before(.,','),'[ ')\"/>\"^^xsd:decimal ;\n"
+						+ "&#009;"
+						+ "geo:long"
+						+ "&#009;\""
+						+ "<xsl:value-of select=\"substring-before(substring-after(.,', '),']')\"/>\"^^xsd:decimal  "
+						+ last(it) + lastRetour(it)
+						+ "</xsl:template>\n\n");
+		return s;
+	}
+
+	private void templateWrite(Map<String, MappingUnit> map, BufferedWriter out)
+			throws IOException {
+		Set<String> keys = map.keySet();
+		Iterator<String> it = keys.iterator();
+		it = keys.iterator();
+		while (it.hasNext()) {
+			String courant = it.next();
+			if (map.get(courant).vocabulaire.equals("foaf:name")) {
+				out.write(templateName(courant, it, map));
 			} else {
-				if (map.get(courant).type.equals("integer")) {
-					out.write("<xsl:template match=\""
-							+ courant
-							+ "\">"
-							+ "<xsl:choose>"
-							+ "<xsl:when test=\". = 'null'\">"
-							+ "&#009;"
-							+ map.get(courant).vocabulaire
-							+ "&#009; \""
-							+ intVide
-							+ "\"^^xsd:integer "
-							+ last(it)
-							+ lastRetour(it)
-							+ "</xsl:when>\n"
-							+ "<xsl:otherwise>"
-							+ "&#009;"
-							+ map.get(courant).vocabulaire
-							+ "&#009; \"<xsl:value-of select=\".\"/>\"^^xsd:integer "
-							+ last(it)
-							+ lastRetour(it)
-							+ "</xsl:otherwise></xsl:choose></xsl:template>\n\n");
+				if (courant=="_l") {
+					out.write(templateCoord(courant, it, map));
 				} else {
 					if (map.get(courant).type.equals("decimal")) {
-						out.write("<xsl:template match=\""
-								+ courant
-								+ "\">"
-								+ "<xsl:choose>"
-								+ "<xsl:when test=\". = 'null'\">"
-								+ "&#009;"
-								+ map.get(courant).vocabulaire
-								+ "&#009; \""
-								+ decVide
-								+ "\"^^xsd:decimal "
-								+ last(it)
-								+ lastRetour(it)
-								+ "</xsl:when>\n"
-								+ "<xsl:otherwise>"
-								+ "&#009;"
-								+ map.get(courant).vocabulaire
-								+ "&#009; \"<xsl:value-of select=\".\"/>\"^^xsd:decimal "
-								+ last(it)
-								+ lastRetour(it)
-								+ "</xsl:otherwise></xsl:choose></xsl:template>\n\n");
+						out.write(templateFloat(courant, it, map));
 					} else {
-						// on suppose que le cas général est string
-						out.write("<xsl:template match=\""
-								+ courant
-								+ "\">\n"
-								+ "<xsl:choose>"
-								+ "<xsl:when test=\". = 'null'\">"
-								+ "&#009;"
-								+ map.get(courant).vocabulaire
-								+ "&#009; \""
-								+ stringVide
-								+ "\"^^xsd:string "
-								+ last(it)
-								+ lastRetour(it)
-								+ "</xsl:when>\n"
-								+ "<xsl:otherwise>"
-								+ "&#009;"
-								+ map.get(courant).vocabulaire
-								+ "&#009; \""
-								+ "<xsl:value-of select=\"translate(., '&quot;','')\"/>\"^^xsd:string "
-								+ last(it)
-								+ lastRetour(it)
-								+ "</xsl:otherwise></xsl:choose></xsl:template>\n\n");
+						if (map.get(courant).type.equals("integer")) {
+							out.write(templateInt(courant, it, map));
+						} else {
+							// on suppose que le cas général est string
+							out.write(templateString(courant, it, map));
+						}
 					}
 				}
 			}

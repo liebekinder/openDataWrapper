@@ -18,7 +18,8 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44680</dbpedia-owl:postalCode>
     <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINTE-PAZANNE</ex:ville>
     <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</ex:id>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.1032272 , -1.8033309]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.8033309</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1032272 </geo:lat>
     <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50 rue de l'Auditoire</ex:adresse>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECOLE MUNICIPALE DE MUSIQUE - Centre Musical Henri Pineau</foaf:name>
   </rdf:Description>
@@ -28,7 +29,8 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44400</dbpedia-owl:postalCode>
     <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REZE</ex:ville>
     <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</ex:id>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.18377 , -1.552774]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.552774</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.18377 </geo:lat>
     <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24 rue de la Balinière</ex:adresse>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECOLE MUNICIPALE DE MUSIQUE ET DE DANSE CENTRE MUSICAL DE LA BALINIERE</foaf:name>
   </rdf:Description>
@@ -38,7 +40,8 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44800</dbpedia-owl:postalCode>
     <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-HERBLAIN</ex:ville>
     <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13</ex:id>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.21152 , -1.6146648]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.6146648</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.21152 </geo:lat>
     <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26 rue de Saint Nazaire</ex:adresse>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAISON DES ARTS</foaf:name>
   </rdf:Description>
@@ -48,31 +51,37 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44200</dbpedia-owl:postalCode>
     <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</ex:ville>
     <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</ex:id>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2069999 , -1.5331214]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.5331214</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2069999 </geo:lat>
     <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 rue Gaëtan Rondeau</ex:adresse>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CONSERVATOIRE A RAYONNEMENT REGIONAL - (CRR)</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://projet.com/10/ECOLE_MUNICIPALE_DE_MUSIQUE">
     <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.40.65.64.68</ex:tel>
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44610</dbpedia-owl:postalCode>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1998227 </geo:lat>
     <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA-MONTAGNE</ex:ville>
     <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</ex:id>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.1177857 , -2.1020077]</ex:coordinate>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2101926 </geo:lat>
     <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.40.36.42.81</ex:tel>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2101926 , -1.5013971]</ex:coordinate>
     <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16</ex:id>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.24843569 </geo:lat>
     <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">92 rue Violin</ex:adresse>
     <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 rue de la Commune de Paris</ex:adresse>
     <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-SEBASTIEN-SUR-LOIRE</ex:ville>
     <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ex:id>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1620093 </geo:lat>
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44700</dbpedia-owl:postalCode>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.684954</geo:long>
     <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.40.38.08.81</ex:tel>
     <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Place de Verdun</ex:adresse>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.24843569 , -1.5852695]</ex:coordinate>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.1912747 , -1.684954]</ex:coordinate>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1912747 </geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.5852695</geo:long>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECOLE MUNICIPALE DE MUSIQUE</foaf:name>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.2687585</geo:long>
     <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</ex:id>
     <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.51.79.04.71</ex:tel>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.665491</geo:long>
     <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.51.78.33.34</ex:tel>
     <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37 avenue de la Ferrière - Parc Michel Baudry</ex:adresse>
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44230</dbpedia-owl:postalCode>
@@ -81,20 +90,22 @@
     <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16 rue Emile Gabory</ex:adresse>
     <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">130 boulevard des Pas enchantés</ex:adresse>
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44620</dbpedia-owl:postalCode>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.1792251 , -1.6188798]</ex:coordinate>
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44330</dbpedia-owl:postalCode>
     <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PORNIC</ex:ville>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1177857 </geo:lat>
     <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOUGUENAIS</ex:ville>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1792251 </geo:lat>
     <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.40.82.47.64</ex:tel>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.5013971</geo:long>
     <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INDRE</ex:ville>
     <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORVAULT</ex:ville>
     <ex:nature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ecole municipale</ex:nature>
     <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15</ex:id>
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44340</dbpedia-owl:postalCode>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.1998227 , -1.665491]</ex:coordinate>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.1620093 , -1.2687585]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.1020077</geo:long>
     <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</ex:id>
     <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenue de la Loire</ex:adresse>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.6188798</geo:long>
     <ex:tel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02.40.65.24.57</ex:tel>
     <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VALLET</ex:ville>
   </rdf:Description>
@@ -104,7 +115,8 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44470</dbpedia-owl:postalCode>
     <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARQUEFOU</ex:ville>
     <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ex:id>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.3008398 , -1.5121934]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.5121934</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.3008398 </geo:lat>
     <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Les Renaudières</ex:adresse>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECOLE MUNICIPALE DE MUSIQUE </foaf:name>
   </rdf:Description>
@@ -114,7 +126,8 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44860</dbpedia-owl:postalCode>
     <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-AIGNAN-GRANDLIEU</ex:ville>
     <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</ex:id>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.1240117 , -1.6303897]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.6303897</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1240117 </geo:lat>
     <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41 rue des Frères Rousseau</ex:adresse>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECOLE DE MUSIQUE MUNICIPALE</foaf:name>
   </rdf:Description>
@@ -124,7 +137,8 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44600</dbpedia-owl:postalCode>
     <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-NAZAIRE</ex:ville>
     <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14</ex:id>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2734979 , -2.213848]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.213848</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2734979 </geo:lat>
     <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24 rue du Commandant Gâté</ex:adresse>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CONSERVATOIRE A RAYONNEMENT DEPARTEMENTAL - CRD - Centre Boris Vian</foaf:name>
   </rdf:Description>
@@ -134,7 +148,8 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44504</dbpedia-owl:postalCode>
     <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA-BAULE-ESCOUBLAC</ex:ville>
     <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</ex:id>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.283936 , -2.3939959]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.3939959</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.283936 </geo:lat>
     <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 avenue Olivier Guichard</ex:adresse>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CONSERVATOIRE MUNICIPAL DE MUSIQUE</foaf:name>
   </rdf:Description>
@@ -144,7 +159,8 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44352</dbpedia-owl:postalCode>
     <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GUERANDE</ex:ville>
     <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</ex:id>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.3294246 , -2.4224185]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.4224185</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.3294246 </geo:lat>
     <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenue Anne de Bretagne</ex:adresse>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CONSERVATOIRE A RAYONNEMENT COMMUNAL - ESPACE MUSICAL CHRISTOPHE CARON</foaf:name>
   </rdf:Description>

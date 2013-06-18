@@ -18,7 +18,8 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44450</dbpedia-owl:postalCode>
     <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA-CHAPELLE-BASSE-MER</ex:ville>
     <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</ex:id>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2708796 , -1.3324901]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.3324901</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2708796 </geo:lat>
     <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18 bd Pasteur</ex:adresse>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POLYPHONIE MUSIQUE </foaf:name>
   </rdf:Description>
@@ -28,7 +29,8 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35600</dbpedia-owl:postalCode>
     <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REDON</ex:ville>
     <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</ex:id>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.6508631 , -2.0791795]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.0791795</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.6508631 </geo:lat>
     <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 bd Bonne Nouvelle</ex:adresse>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CONSERVATOIRE A RAYONNEMENT INTERCOMMUNAL DU PAYS DE REDON</foaf:name>
   </rdf:Description>
@@ -38,7 +40,8 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44560</dbpedia-owl:postalCode>
     <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PAIMBOEUF</ex:ville>
     <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</ex:id>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2867229 , -2.0255818]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.0255818</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2867229 </geo:lat>
     <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 boulevard Dumesnildot</ex:adresse>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECOLE INTERCOMMUNALE DE MUSIQUE DE PAIMBOEUF</foaf:name>
   </rdf:Description>
@@ -48,7 +51,8 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44110</dbpedia-owl:postalCode>
     <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHATEAUBRIANT</ex:ville>
     <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ex:id>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.7226785 , -1.3761146]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.3761146</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.7226785 </geo:lat>
     <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 rue Guy Moquet</ex:adresse>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CONSERVATOIRE INTERCOMMUNAL DE MUSIQUE, DE DANSE ET D'ART DRAMATIQUE </foaf:name>
   </rdf:Description>
@@ -58,7 +62,8 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44160</dbpedia-owl:postalCode>
     <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PONTCHATEAU</ex:ville>
     <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</ex:id>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.4373972 , -2.0892248]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.0892248</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.4373972 </geo:lat>
     <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 rue Toulifaut</ex:adresse>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECOLE DE MUSIQUE INTERCOMMUNALE DE PONT-CHATEAU - CENTRE CULTUREL JACQUES DEMY</foaf:name>
   </rdf:Description>
@@ -68,7 +73,8 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44150</dbpedia-owl:postalCode>
     <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANCENIS</ex:ville>
     <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ex:id>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.3643462 , -1.1822959]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.1822959</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.3643462 </geo:lat>
     <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">120 rue du Général Leclerc</ex:adresse>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECOLE DE MUSIQUE ARPEGE</foaf:name>
   </rdf:Description>
@@ -78,7 +84,8 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44690</dbpedia-owl:postalCode>
     <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA-HAYE-FOUASSIERE</ex:ville>
     <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</ex:id>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.1536334 , -1.3993796]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.3993796</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1536334 </geo:lat>
     <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 rue du Fief de l'Isle </ex:adresse>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOL EN VIGNE</foaf:name>
   </rdf:Description>
@@ -88,7 +95,8 @@
     <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44250</dbpedia-owl:postalCode>
     <ex:ville rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINT-BREVIN-LES-PINS</ex:ville>
     <ex:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</ex:id>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2486231 , -2.1664463]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.1664463</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2486231 </geo:lat>
     <ex:adresse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">135 avenue du Maréchal Joffre</ex:adresse>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECOLE INTERCOMMUNALE DE MUSIQUE </foaf:name>
   </rdf:Description>

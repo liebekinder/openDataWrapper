@@ -14,10 +14,11 @@
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
 <http://projet.com/10/Site_Gallo_Romain_Saint_Lupien>	 foaf:name 	 "Site Gallo Romain Saint Lupien"^^xsd:string ;
-	ex:coordinate	 "[ 47.1916056918013 , -1.56495187026781]"^^xsd:decimal ;
+	geo:lat	"47.1916056918013 "^^xsd:decimal ;
+	geo:long	"-1.56495187026781"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44400"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -30,10 +31,11 @@
 	ex:categorie	 "104"^^xsd:string .
 
 <http://projet.com/10/Médiathèque_Espace_Diderot>	 foaf:name 	 "Médiathèque Espace Diderot"^^xsd:string ;
-	ex:coordinate	 "[ 47.1837730676806 , -1.56260850295799]"^^xsd:decimal ;
+	geo:lat	"47.1837730676806 "^^xsd:decimal ;
+	geo:long	"-1.56260850295799"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44400"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 04 05 37"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -46,10 +48,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Théatre_Municipal_Rezé>	 foaf:name 	 "Théatre Municipal Rezé"^^xsd:string ;
-	ex:coordinate	 "[ 47.1866058457477 , -1.5453304732532]"^^xsd:decimal ;
+	geo:lat	"47.1866058457477 "^^xsd:decimal ;
+	geo:long	"-1.5453304732532"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44400"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 75 44 68"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -62,10 +65,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Château_de_La_Sénaigerie>	 foaf:name 	 "Château de La Sénaigerie"^^xsd:string ;
-	ex:coordinate	 "[ 47.1357846424645 , -1.67959714167262]"^^xsd:decimal ;
+	geo:lat	"47.1357846424645 "^^xsd:decimal ;
+	geo:long	"-1.67959714167262"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44830"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 65 53 55"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -78,10 +82,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Municipale_Charles_Perrault_La_Bugallière>	 foaf:name 	 "Bibliothèque Municipale Charles Perrault La Bugallière"^^xsd:string ;
-	ex:coordinate	 "[ 47.2612822573967 , -1.63249680344468]"^^xsd:decimal ;
+	geo:lat	"47.2612822573967 "^^xsd:decimal ;
+	geo:long	"-1.63249680344468"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44700"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "Public"^^xsd:string ;
 	ex:tel	 "02 40 63 54 88"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -94,10 +99,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Bibliotheque_Georges_Sand>	 foaf:name 	 "Bibliotheque Georges Sand"^^xsd:string ;
-	ex:coordinate	 "[ 47.2402111334464 , -1.59012705545412]"^^xsd:decimal ;
+	geo:lat	"47.2402111334464 "^^xsd:decimal ;
+	geo:long	"-1.59012705545412"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44700"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "Public"^^xsd:string ;
 	ex:tel	 "02 40 76 94 47"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -110,10 +116,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Salle_d'Expositions_de_l'ESBANM>	 foaf:name 	 "Salle d'Expositions de l'ESBANM"^^xsd:string ;
-	ex:coordinate	 "[ 47.2170094184269 , -1.55421703194788]"^^xsd:decimal ;
+	geo:lat	"47.2170094184269 "^^xsd:decimal ;
+	geo:long	"-1.55421703194788"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "www.erba-nantes.fr"^^xsd:string ;
+	dbpprop:website	 "www.erba-nantes.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -126,10 +133,11 @@
 	ex:categorie	 "106"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_de_l'ESBANM>	 foaf:name 	 "Bibliothèque de l'ESBANM"^^xsd:string ;
-	ex:coordinate	 "[ 47.2168399568227 , -1.55377534419123]"^^xsd:decimal ;
+	geo:lat	"47.2168399568227 "^^xsd:decimal ;
+	geo:long	"-1.55377534419123"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 35 90 20"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -142,10 +150,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Halle_de_La_Trocardière>	 foaf:name 	 "Halle de La Trocardière"^^xsd:string ;
-	ex:coordinate	 "[ 47.1814882110892 , -1.57240928495203]"^^xsd:decimal ;
+	geo:lat	"47.1814882110892 "^^xsd:decimal ;
+	geo:long	"-1.57240928495203"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44400"^^xsd:string ;
-	ex:siteWeb	 "http://www.nge-nantes.fr/"^^xsd:string ;
+	dbpprop:website	 "http://www.nge-nantes.fr/"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 70 30 40"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -158,10 +167,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Espace_Culturel_ONYX>	 foaf:name 	 "Espace Culturel ONYX"^^xsd:string ;
-	ex:coordinate	 "[ 47.2237998454043 , -1.62929419147205]"^^xsd:decimal ;
+	geo:lat	"47.2237998454043 "^^xsd:decimal ;
+	geo:long	"-1.62929419147205"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44800"^^xsd:string ;
-	ex:siteWeb	 "www.naoweb.com/partenaires/onyx"^^xsd:string ;
+	dbpprop:website	 "www.naoweb.com/partenaires/onyx"^^xsd:string ;
 	ex:statut	 "Public"^^xsd:string ;
 	ex:tel	 "02 40 92 24 00"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -174,10 +184,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Salle_Polyvalente_Escall>	 foaf:name 	 "Salle Polyvalente Escall"^^xsd:string ;
-	ex:coordinate	 "[ 47.2000377854141 , -1.50352169080196]"^^xsd:decimal ;
+	geo:lat	"47.2000377854141 "^^xsd:decimal ;
+	geo:long	"-1.50352169080196"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44230"^^xsd:string ;
-	ex:siteWeb	 "www.naoweb.com/partenaires/escall"^^xsd:string ;
+	dbpprop:website	 "www.naoweb.com/partenaires/escall"^^xsd:string ;
 	ex:statut	 "Public"^^xsd:string ;
 	ex:tel	 "02 40 03 34 11"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -190,10 +201,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_de_la_Bernardière_La_Biludo>	 foaf:name 	 "Bibliothèque de la Bernardière La Biludo"^^xsd:string ;
-	ex:coordinate	 "[ 47.2066340456988 , -1.61559812345961]"^^xsd:decimal ;
+	geo:lat	"47.2066340456988 "^^xsd:decimal ;
+	geo:long	"-1.61559812345961"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44800"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "Public"^^xsd:string ;
 	ex:tel	 "02 40 95 13 49"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -206,10 +218,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Ecole_de_Musique_Saint_Herblain>	 foaf:name 	 "Ecole de Musique Saint Herblain"^^xsd:string ;
-	ex:coordinate	 "[ 47.2119689624009 , -1.61371235952818]"^^xsd:decimal ;
+	geo:lat	"47.2119689624009 "^^xsd:decimal ;
+	geo:long	"-1.61371235952818"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44800"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 43 30 56"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -222,10 +235,11 @@
 	ex:categorie	 "105"^^xsd:string .
 
 <http://projet.com/10/Studio_Théâtre_Louis_Jouvet>	 foaf:name 	 "Studio Théâtre Louis Jouvet"^^xsd:string ;
-	ex:coordinate	 "[ 47.259443004217 , -1.63447797065687]"^^xsd:decimal ;
+	geo:lat	"47.259443004217 "^^xsd:decimal ;
+	geo:long	"-1.63447797065687"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44700"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -238,10 +252,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Hermeland>	 foaf:name 	 "Bibliothèque Hermeland"^^xsd:string ;
-	ex:coordinate	 "[ 47.2310356290076 , -1.61642299205559]"^^xsd:decimal ;
+	geo:lat	"47.2310356290076 "^^xsd:decimal ;
+	geo:long	"-1.61642299205559"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44800"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "Public"^^xsd:string ;
 	ex:tel	 "02 40 95 27 50"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -254,10 +269,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Bibliotheque_de_Bellevue>	 foaf:name 	 "Bibliotheque de Bellevue"^^xsd:string ;
-	ex:coordinate	 "[ 47.213303161475 , -1.61009801027032]"^^xsd:decimal ;
+	geo:lat	"47.213303161475 "^^xsd:decimal ;
+	geo:long	"-1.61009801027032"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44800"^^xsd:string ;
-	ex:siteWeb	 "www.nantes.fr/mairie/services/responsabilites/dgc/biblios"^^xsd:string ;
+	dbpprop:website	 "www.nantes.fr/mairie/services/responsabilites/dgc/biblios"^^xsd:string ;
 	ex:statut	 "Public"^^xsd:string ;
 	ex:tel	 "02 51 80 60 37"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -270,10 +286,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Cinéma_UGC_Ciné_Cité_Atlantis>	 foaf:name 	 "Cinéma UGC Ciné Cité Atlantis"^^xsd:string ;
-	ex:coordinate	 "[ 47.2237355946591 , -1.6274592800264]"^^xsd:decimal ;
+	geo:lat	"47.2237355946591 "^^xsd:decimal ;
+	geo:long	"-1.6274592800264"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44800"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "Privé"^^xsd:string ;
 	ex:tel	 "08 36 68 68 58"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -286,10 +303,11 @@
 	ex:categorie	 "108"^^xsd:string .
 
 <http://projet.com/10/Le_Lieu_Unique_Nantes>	 foaf:name 	 "Le Lieu Unique Nantes"^^xsd:string ;
-	ex:coordinate	 "[ 47.2152661553546 , -1.54566621075059]"^^xsd:decimal ;
+	geo:lat	"47.2152661553546 "^^xsd:decimal ;
+	geo:long	"-1.54566621075059"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "www.lelieuunique.com"^^xsd:string ;
+	dbpprop:website	 "www.lelieuunique.com"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 12 14 34"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -302,10 +320,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Salle_Renault-_Barrault>	 foaf:name 	 "Salle Renault- Barrault"^^xsd:string ;
-	ex:coordinate	 "[ 47.1792057990308 , -1.58688371245975]"^^xsd:decimal ;
+	geo:lat	"47.1792057990308 "^^xsd:decimal ;
+	geo:long	"-1.58688371245975"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44340"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "Public"^^xsd:string ;
 	ex:tel	 "02 40 26 91 53"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -318,10 +337,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Bibliotheque_annexe_des_Couëts>	 foaf:name 	 "Bibliotheque annexe des Couëts"^^xsd:string ;
-	ex:coordinate	 "[ 47.1813581216667 , -1.58874790072668]"^^xsd:decimal ;
+	geo:lat	"47.1813581216667 "^^xsd:decimal ;
+	geo:long	"-1.58874790072668"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44340"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "Public"^^xsd:string ;
 	ex:tel	 "02 40 32 02 22"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -334,10 +354,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Pont_Métallique_de_Mauves_sur_Loire>	 foaf:name 	 "Pont Métallique de Mauves sur Loire"^^xsd:string ;
-	ex:coordinate	 "[ 47.2932919321391 , -1.38194096478965]"^^xsd:decimal ;
+	geo:lat	"47.2932919321391 "^^xsd:decimal ;
+	geo:long	"-1.38194096478965"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44470"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -350,10 +371,11 @@
 	ex:categorie	 "104"^^xsd:string .
 
 <http://projet.com/10/Salle_l'Odyssée>	 foaf:name 	 "Salle l'Odyssée"^^xsd:string ;
-	ex:coordinate	 "[ 47.2613100312124 , -1.62262235276121]"^^xsd:decimal ;
+	geo:lat	"47.2613100312124 "^^xsd:decimal ;
+	geo:long	"-1.62262235276121"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44700"^^xsd:string ;
-	ex:siteWeb	 "www.odyssee.orvault.fr"^^xsd:string ;
+	dbpprop:website	 "www.odyssee.orvault.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 78 37 50"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -366,10 +388,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Médiathèque_George_Sand>	 foaf:name 	 "Médiathèque George Sand"^^xsd:string ;
-	ex:coordinate	 "[ 47.1990897992826 , -1.75459964241302]"^^xsd:decimal ;
+	geo:lat	"47.1990897992826 "^^xsd:decimal ;
+	geo:long	"-1.75459964241302"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44640"^^xsd:string ;
-	ex:siteWeb	 "http://90.80.21.181/opacweb/"^^xsd:string ;
+	dbpprop:website	 "http://90.80.21.181/opacweb/"^^xsd:string ;
 	ex:statut	 "Public"^^xsd:string ;
 	ex:tel	 "02 51 79 81 90"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -382,10 +405,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Ecole_de_Musique_Bouaye>	 foaf:name 	 "Ecole de Musique Bouaye"^^xsd:string ;
-	ex:coordinate	 "[ 47.1487223276549 , -1.69639798489684]"^^xsd:decimal ;
+	geo:lat	"47.1487223276549 "^^xsd:decimal ;
+	geo:long	"-1.69639798489684"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44830"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 70 52 70"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -398,10 +422,11 @@
 	ex:categorie	 "105"^^xsd:string .
 
 <http://projet.com/10/Théâtre_Boris_Vian>	 foaf:name 	 "Théâtre Boris Vian"^^xsd:string ;
-	ex:coordinate	 "[ 47.2160486641888 , -1.73080571399242]"^^xsd:decimal ;
+	geo:lat	"47.2160486641888 "^^xsd:decimal ;
+	geo:long	"-1.73080571399242"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44220"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 28 25 85 35"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -414,10 +439,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Sorinières>	 foaf:name 	 "Bibliothèque Sorinières"^^xsd:string ;
-	ex:coordinate	 "[ 47.1498501471191 , -1.52713237454125]"^^xsd:decimal ;
+	geo:lat	"47.1498501471191 "^^xsd:decimal ;
+	geo:long	"-1.52713237454125"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44840"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 04 48 92"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -430,10 +456,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Médiathèque_Est_Floresca_Guépin>	 foaf:name 	 "Médiathèque Est Floresca Guépin"^^xsd:string ;
-	ex:coordinate	 "[ 47.2408309711793 , -1.51280146183948]"^^xsd:decimal ;
+	geo:lat	"47.2408309711793 "^^xsd:decimal ;
+	geo:long	"-1.51280146183948"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44300"^^xsd:string ;
-	ex:siteWeb	 "www.bm.nantes.fr"^^xsd:string ;
+	dbpprop:website	 "www.bm.nantes.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 93 41 60"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -446,10 +473,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Château_de_La_Chantrerie>	 foaf:name 	 "Château de La Chantrerie"^^xsd:string ;
-	ex:coordinate	 "[ 47.2875479874774 , -1.52604103317562]"^^xsd:decimal ;
+	geo:lat	"47.2875479874774 "^^xsd:decimal ;
+	geo:long	"-1.52604103317562"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44300"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -462,10 +490,11 @@
 	ex:categorie	 "104"^^xsd:string .
 
 <http://projet.com/10/Cinéma_Bonne_Garde>	 foaf:name 	 "Cinéma Bonne Garde"^^xsd:string ;
-	ex:coordinate	 "[ 47.1952432679388 , -1.53855887533553]"^^xsd:decimal ;
+	geo:lat	"47.1952432679388 "^^xsd:decimal ;
+	geo:long	"-1.53855887533553"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44200"^^xsd:string ;
-	ex:siteWeb	 "www.cinefil.com"^^xsd:string ;
+	dbpprop:website	 "www.cinefil.com"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 84 18 84"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -478,10 +507,11 @@
 	ex:categorie	 "108"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Maison_Enfance_Bellevue>	 foaf:name 	 "Bibliothèque Maison Enfance Bellevue"^^xsd:string ;
-	ex:coordinate	 "[ 47.2035647244328 , -1.60743349009795]"^^xsd:decimal ;
+	geo:lat	"47.2035647244328 "^^xsd:decimal ;
+	geo:long	"-1.60743349009795"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44100"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 48 56 56"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -494,10 +524,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Médiathèque_Nord_Luce_Courville>	 foaf:name 	 "Médiathèque Nord Luce Courville"^^xsd:string ;
-	ex:coordinate	 "[ 47.2619113578198 , -1.57421098702047]"^^xsd:decimal ;
+	geo:lat	"47.2619113578198 "^^xsd:decimal ;
+	geo:long	"-1.57421098702047"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44300"^^xsd:string ;
-	ex:siteWeb	 "www.bm.nantes.fr"^^xsd:string ;
+	dbpprop:website	 "www.bm.nantes.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 16 05 50"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -510,10 +541,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Espace_Culturel_Chai_Gallais>	 foaf:name 	 "Espace Culturel Chai Gallais"^^xsd:string ;
-	ex:coordinate	 "[ 47.1367184702108 , -1.7212406129133]"^^xsd:decimal ;
+	geo:lat	"47.1367184702108 "^^xsd:decimal ;
+	geo:long	"-1.7212406129133"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44710"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 04 88 81"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -526,10 +558,11 @@
 	ex:categorie	 "106"^^xsd:string .
 
 <http://projet.com/10/Ecole_Municipale_de_Musique_-_Centre_Ville_Saint_Sébastien>	 foaf:name 	 "Ecole Municipale de Musique - Centre Ville Saint Sébastien"^^xsd:string ;
-	ex:coordinate	 "[ 47.2078641428163 , -1.50196968308841]"^^xsd:decimal ;
+	geo:lat	"47.2078641428163 "^^xsd:decimal ;
+	geo:long	"-1.50196968308841"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44230"^^xsd:string ;
-	ex:siteWeb	 "www.nantes.fr/detente/culture"^^xsd:string ;
+	dbpprop:website	 "www.nantes.fr/detente/culture"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 79 04 71"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -542,10 +575,11 @@
 	ex:categorie	 "105"^^xsd:string .
 
 <http://projet.com/10/Espace_Lecture_Malakoff>	 foaf:name 	 "Espace Lecture Malakoff"^^xsd:string ;
-	ex:coordinate	 "[ 47.2140929788499 , -1.53034663465183]"^^xsd:decimal ;
+	geo:lat	"47.2140929788499 "^^xsd:decimal ;
+	geo:long	"-1.53034663465183"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "http://www.nantes.fr"^^xsd:string ;
+	dbpprop:website	 "http://www.nantes.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 48 67 93"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -558,10 +592,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Pigeonnier_Nantes>	 foaf:name 	 "Pigeonnier Nantes"^^xsd:string ;
-	ex:coordinate	 "[ 47.221942231682 , -1.59276495064138]"^^xsd:decimal ;
+	geo:lat	"47.221942231682 "^^xsd:decimal ;
+	geo:long	"-1.59276495064138"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44100"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -574,10 +609,11 @@
 	ex:categorie	 "104"^^xsd:string .
 
 <http://projet.com/10/Salle_Paul_Fort_Nantes>	 foaf:name 	 "Salle Paul Fort Nantes"^^xsd:string ;
-	ex:coordinate	 "[ 47.2208841720473 , -1.558278353816]"^^xsd:decimal ;
+	geo:lat	"47.2208841720473 "^^xsd:decimal ;
+	geo:long	"-1.558278353816"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 72 10 10"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -590,10 +626,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Salle_Pannonica>	 foaf:name 	 "Salle Pannonica"^^xsd:string ;
-	ex:coordinate	 "[ 47.2208026531753 , -1.55841718455808]"^^xsd:decimal ;
+	geo:lat	"47.2208026531753 "^^xsd:decimal ;
+	geo:long	"-1.55841718455808"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "www.pannonica.com"^^xsd:string ;
+	dbpprop:website	 "www.pannonica.com"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 72 10 10"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -606,10 +643,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Amicale_Laïque_St_Joseph>	 foaf:name 	 "Bibliothèque Amicale Laïque St Joseph"^^xsd:string ;
-	ex:coordinate	 "[ 47.2691807209141 , -1.51941657072043]"^^xsd:decimal ;
+	geo:lat	"47.2691807209141 "^^xsd:decimal ;
+	geo:long	"-1.51941657072043"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44300"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 30 03 31"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -622,10 +660,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Le_Labo_188>	 foaf:name 	 "Le Labo 188"^^xsd:string ;
-	ex:coordinate	 "[ 47.2367179606841 , -1.51439561097811]"^^xsd:decimal ;
+	geo:lat	"47.2367179606841 "^^xsd:decimal ;
+	geo:long	"-1.51439561097811"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44300"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 93 80 19"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -638,10 +677,11 @@
 	ex:categorie	 "105"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Ecole_Paul_Gauguin_Bout_des_Pavés>	 foaf:name 	 "Bibliothèque Ecole Paul Gauguin Bout des Pavés"^^xsd:string ;
-	ex:coordinate	 "[ 47.2605074986667 , -1.57696157823035]"^^xsd:decimal ;
+	geo:lat	"47.2605074986667 "^^xsd:decimal ;
+	geo:long	"-1.57696157823035"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44300"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -654,10 +694,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Studio_Théâtre>	 foaf:name 	 "Studio Théâtre"^^xsd:string ;
-	ex:coordinate	 "[ 47.2310612015399 , -1.55792726362705]"^^xsd:decimal ;
+	geo:lat	"47.2310612015399 "^^xsd:decimal ;
+	geo:long	"-1.55792726362705"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 29 07 61"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -670,10 +711,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Musée_de_la_Machine_à_Coudre>	 foaf:name 	 "Musée de la Machine à Coudre"^^xsd:string ;
-	ex:coordinate	 "[ 47.2200923439032 , -1.5467944767141]"^^xsd:decimal ;
+	geo:lat	"47.2200923439032 "^^xsd:decimal ;
+	geo:long	"-1.5467944767141"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 93 31 35"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -686,10 +728,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Galerie_RDV>	 foaf:name 	 "Galerie RDV"^^xsd:string ;
-	ex:coordinate	 "[ 47.2171629425987 , -1.5458010335672]"^^xsd:decimal ;
+	geo:lat	"47.2171629425987 "^^xsd:decimal ;
+	geo:long	"-1.5458010335672"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "galerierdv.com"^^xsd:string ;
+	dbpprop:website	 "galerierdv.com"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 69 62 35"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -702,10 +745,11 @@
 	ex:categorie	 "106"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Municipale_Sautron>	 foaf:name 	 "Bibliothèque Municipale Sautron"^^xsd:string ;
-	ex:coordinate	 "[ 47.264527459986 , -1.67337676858548]"^^xsd:decimal ;
+	geo:lat	"47.264527459986 "^^xsd:decimal ;
+	geo:long	"-1.67337676858548"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44880"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 63 52 21"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -718,10 +762,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Centre_Socioculturel_Bottière>	 foaf:name 	 "Bibliothèque Centre Socioculturel Bottière"^^xsd:string ;
-	ex:coordinate	 "[ 47.2379999031726 , -1.51921890482344]"^^xsd:decimal ;
+	geo:lat	"47.2379999031726 "^^xsd:decimal ;
+	geo:long	"-1.51921890482344"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44300"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 49 62 20"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -734,10 +779,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_pour_Tous_Joffre>	 foaf:name 	 "Bibliothèque pour Tous Joffre"^^xsd:string ;
-	ex:coordinate	 "[ 47.2218328040666 , -1.54745767216851]"^^xsd:decimal ;
+	geo:lat	"47.2218328040666 "^^xsd:decimal ;
+	geo:long	"-1.54745767216851"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -750,10 +796,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/TNT_-_Terrain_Neutre_Théâtre>	 foaf:name 	 "TNT - Terrain Neutre Théâtre"^^xsd:string ;
-	ex:coordinate	 "[ 47.2124437577047 , -1.55213845210025]"^^xsd:decimal ;
+	geo:lat	"47.2124437577047 "^^xsd:decimal ;
+	geo:long	"-1.55213845210025"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "http://www.tntheatre.com"^^xsd:string ;
+	dbpprop:website	 "http://www.tntheatre.com"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 12 12 28"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -766,10 +813,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_de_La_Halvêque>	 foaf:name 	 "Bibliothèque de La Halvêque"^^xsd:string ;
-	ex:coordinate	 "[ 47.2541505546046 , -1.51899981108424]"^^xsd:decimal ;
+	geo:lat	"47.2541505546046 "^^xsd:decimal ;
+	geo:long	"-1.51899981108424"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44300"^^xsd:string ;
-	ex:siteWeb	 "www.bm.nantes.fr"^^xsd:string ;
+	dbpprop:website	 "www.bm.nantes.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 50 62 64"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -782,10 +830,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_de_la_Manufacture>	 foaf:name 	 "Bibliothèque de la Manufacture"^^xsd:string ;
-	ex:coordinate	 "[ 47.2199674721399 , -1.53621501258436]"^^xsd:decimal ;
+	geo:lat	"47.2199674721399 "^^xsd:decimal ;
+	geo:long	"-1.53621501258436"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "www.bm.nantes.fr"^^xsd:string ;
+	dbpprop:website	 "www.bm.nantes.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 41 95 65"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -798,10 +847,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_pour_Tous_Beaulieu>	 foaf:name 	 "Bibliothèque pour Tous Beaulieu"^^xsd:string ;
-	ex:coordinate	 "[ 47.2034477919426 , -1.54172393393277]"^^xsd:decimal ;
+	geo:lat	"47.2034477919426 "^^xsd:decimal ;
+	geo:long	"-1.54172393393277"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44200"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 35 50 63"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -814,10 +864,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Le_Cabanier>	 foaf:name 	 "Le Cabanier"^^xsd:string ;
-	ex:coordinate	 "[ 47.2288539745307 , -1.55831454133765]"^^xsd:decimal ;
+	geo:lat	"47.2288539745307 "^^xsd:decimal ;
+	geo:long	"-1.55831454133765"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 81 92 08"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -830,10 +881,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Maison_de_la_Musique_La_Montagne>	 foaf:name 	 "Maison de la Musique La Montagne"^^xsd:string ;
-	ex:coordinate	 "[ 47.1913361642607 , -1.6850016507647]"^^xsd:decimal ;
+	geo:lat	"47.1913361642607 "^^xsd:decimal ;
+	geo:long	"-1.6850016507647"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44620"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 65 65 63"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -846,10 +898,11 @@
 	ex:categorie	 "105"^^xsd:string .
 
 <http://projet.com/10/Médiathèque_Yves_et_Raymond_Gaudin>	 foaf:name 	 "Médiathèque Yves et Raymond Gaudin"^^xsd:string ;
-	ex:coordinate	 "[ 47.191590534329 , -1.68511273365434]"^^xsd:decimal ;
+	geo:lat	"47.191590534329 "^^xsd:decimal ;
+	geo:long	"-1.68511273365434"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44620"^^xsd:string ;
-	ex:siteWeb	 "www.ville-lamontagne.fr"^^xsd:string ;
+	dbpprop:website	 "www.ville-lamontagne.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 65 66 24"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -862,10 +915,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Cité_internationale_des_Congrès_Nantes>	 foaf:name 	 "Cité internationale des Congrès Nantes"^^xsd:string ;
-	ex:coordinate	 "[ 47.2127669420381 , -1.54361241181679]"^^xsd:decimal ;
+	geo:lat	"47.2127669420381 "^^xsd:decimal ;
+	geo:long	"-1.54361241181679"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "www.congres-nantes.fr"^^xsd:string ;
+	dbpprop:website	 "www.congres-nantes.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 88 20 00"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -878,10 +932,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Municipale_La_Chapelle_sur_Erdre>	 foaf:name 	 "Bibliothèque Municipale La Chapelle sur Erdre"^^xsd:string ;
-	ex:coordinate	 "[ 47.2960423062916 , -1.55031059640464]"^^xsd:decimal ;
+	geo:lat	"47.2960423062916 "^^xsd:decimal ;
+	geo:long	"-1.55031059640464"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44240"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 77 89 91"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -894,10 +949,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Château_des_Ducs_de_Bretagne>	 foaf:name 	 "Château des Ducs de Bretagne"^^xsd:string ;
-	ex:coordinate	 "[ 47.2163485862643 , -1.54960343720158]"^^xsd:decimal ;
+	geo:lat	"47.2163485862643 "^^xsd:decimal ;
+	geo:long	"-1.54960343720158"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "www.chateau-nantes.fr"^^xsd:string ;
+	dbpprop:website	 "www.chateau-nantes.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "08 11 46 46 44"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -910,10 +966,11 @@
 	ex:categorie	 "104"^^xsd:string .
 
 <http://projet.com/10/Musée_d'Histoire_de_Nantes>	 foaf:name 	 "Musée d'Histoire de Nantes"^^xsd:string ;
-	ex:coordinate	 "[ 47.216240073289 , -1.549918107433]"^^xsd:decimal ;
+	geo:lat	"47.216240073289 "^^xsd:decimal ;
+	geo:long	"-1.549918107433"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "www.chateau-nantes.fr"^^xsd:string ;
+	dbpprop:website	 "www.chateau-nantes.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "08 11 46 46 44"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -926,10 +983,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Zoo_Galerie>	 foaf:name 	 "Zoo Galerie"^^xsd:string ;
-	ex:coordinate	 "[ 47.2092851976542 , -1.5500678989833]"^^xsd:decimal ;
+	geo:lat	"47.2092851976542 "^^xsd:decimal ;
+	geo:long	"-1.5500678989833"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "www.zoogalerie.fr"^^xsd:string ;
+	dbpprop:website	 "www.zoogalerie.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 35 41 55"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -942,10 +1000,11 @@
 	ex:categorie	 "106"^^xsd:string .
 
 <http://projet.com/10/La_Fabrique_Chantenay-Bellevue>	 foaf:name 	 "La Fabrique Chantenay-Bellevue"^^xsd:string ;
-	ex:coordinate	 "[ 47.1996251925819 , -1.58882873634081]"^^xsd:decimal ;
+	geo:lat	"47.1996251925819 "^^xsd:decimal ;
+	geo:long	"-1.58882873634081"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44100"^^xsd:string ;
-	ex:siteWeb	 "www.lafabrique.nantes.fr"^^xsd:string ;
+	dbpprop:website	 "www.lafabrique.nantes.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 80 60 80"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -958,10 +1017,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/La_Fabrique_Stéréolux>	 foaf:name 	 "La Fabrique Stéréolux"^^xsd:string ;
-	ex:coordinate	 "[ 47.2050849888918 , -1.56339767096501]"^^xsd:decimal ;
+	geo:lat	"47.2050849888918 "^^xsd:decimal ;
+	geo:long	"-1.56339767096501"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44200"^^xsd:string ;
-	ex:siteWeb	 "stereolux.org"^^xsd:string ;
+	dbpprop:website	 "stereolux.org"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 43 20 43"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -974,10 +1034,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/La_Fabrique_Trempolino>	 foaf:name 	 "La Fabrique Trempolino"^^xsd:string ;
-	ex:coordinate	 "[ 47.2046121617153 , -1.56292020485735]"^^xsd:decimal ;
+	geo:lat	"47.2046121617153 "^^xsd:decimal ;
+	geo:long	"-1.56292020485735"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44200"^^xsd:string ;
-	ex:siteWeb	 "www.trempo.com"^^xsd:string ;
+	dbpprop:website	 "www.trempo.com"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 46 66 33"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -990,10 +1051,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Centre_Interculturel_Documentation>	 foaf:name 	 "Bibliothèque Centre Interculturel Documentation"^^xsd:string ;
-	ex:coordinate	 "[ 47.2059712817432 , -1.56533705597733]"^^xsd:decimal ;
+	geo:lat	"47.2059712817432 "^^xsd:decimal ;
+	geo:long	"-1.56533705597733"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44200"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 47 88 36"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1006,10 +1068,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Maison_des_Hommes_et_des_Techniques>	 foaf:name 	 "Maison des Hommes et des Techniques"^^xsd:string ;
-	ex:coordinate	 "[ 47.205757930039 , -1.56575937676873]"^^xsd:decimal ;
+	geo:lat	"47.205757930039 "^^xsd:decimal ;
+	geo:long	"-1.56575937676873"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44200"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 08 20 22"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1022,10 +1085,11 @@
 	ex:categorie	 "106"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_René_Guy_Cadou>	 foaf:name 	 "Bibliothèque René Guy Cadou"^^xsd:string ;
-	ex:coordinate	 "[ 47.2339570273724 , -1.6321981686442]"^^xsd:decimal ;
+	geo:lat	"47.2339570273724 "^^xsd:decimal ;
+	geo:long	"-1.6321981686442"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44800"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "Public"^^xsd:string ;
 	ex:tel	 "02 40 63 19 46"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1038,10 +1102,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Municipale_Victor_Jara>	 foaf:name 	 "Bibliothèque Municipale Victor Jara"^^xsd:string ;
-	ex:coordinate	 "[ 47.2096877201832 , -1.72869180152585]"^^xsd:decimal ;
+	geo:lat	"47.2096877201832 "^^xsd:decimal ;
+	geo:long	"-1.72869180152585"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44220"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 38 38 38"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1054,10 +1119,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Emilienne_Leroux>	 foaf:name 	 "Bibliothèque Emilienne Leroux"^^xsd:string ;
-	ex:coordinate	 "[ 47.2230965289039 , -1.59760423329973]"^^xsd:decimal ;
+	geo:lat	"47.2230965289039 "^^xsd:decimal ;
+	geo:long	"-1.59760423329973"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44100"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 43 31 51"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1070,10 +1136,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Ecole_Municipale_de_Musique_Saint_Sébastien>	 foaf:name 	 "Ecole Municipale de Musique Saint Sébastien"^^xsd:string ;
-	ex:coordinate	 "[ 47.1910786423084 , -1.51950064837858]"^^xsd:decimal ;
+	geo:lat	"47.1910786423084 "^^xsd:decimal ;
+	geo:long	"-1.51950064837858"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44230"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 33 19 03"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1086,10 +1153,11 @@
 	ex:categorie	 "105"^^xsd:string .
 
 <http://projet.com/10/Espace_Culturel_Bréchoir>	 foaf:name 	 "Espace Culturel Bréchoir"^^xsd:string ;
-	ex:coordinate	 "[ 47.2252983383409 , -1.5229962386996]"^^xsd:decimal ;
+	geo:lat	"47.2252983383409 "^^xsd:decimal ;
+	geo:long	"-1.5229962386996"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1102,10 +1170,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Ludothèque_Boissière>	 foaf:name 	 "Ludothèque Boissière"^^xsd:string ;
-	ex:coordinate	 "[ 47.2543883028455 , -1.56724049631036]"^^xsd:decimal ;
+	geo:lat	"47.2543883028455 "^^xsd:decimal ;
+	geo:long	"-1.56724049631036"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44300"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 76 96 85"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1118,10 +1187,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Centre_Socioculturel_Boissière>	 foaf:name 	 "Bibliothèque Centre Socioculturel Boissière"^^xsd:string ;
-	ex:coordinate	 "[ 47.2544241858466 , -1.56744168014674]"^^xsd:decimal ;
+	geo:lat	"47.2544241858466 "^^xsd:decimal ;
+	geo:long	"-1.56744168014674"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44300"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 76 96 85"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1134,10 +1204,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Salle_d'Expositions_Espace_Delrue>	 foaf:name 	 "Salle d'Expositions Espace Delrue"^^xsd:string ;
-	ex:coordinate	 "[ 47.2094849922051 , -1.54981078535814]"^^xsd:decimal ;
+	geo:lat	"47.2094849922051 "^^xsd:decimal ;
+	geo:long	"-1.54981078535814"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1150,10 +1221,11 @@
 	ex:categorie	 "106"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Nationale_de_Bretagne_Ker_Arvor>	 foaf:name 	 "Bibliothèque Nationale de Bretagne Ker Arvor"^^xsd:string ;
-	ex:coordinate	 "[ 47.2249564556057 , -1.54750790399443]"^^xsd:decimal ;
+	geo:lat	"47.2249564556057 "^^xsd:decimal ;
+	geo:long	"-1.54750790399443"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 29 01 91"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1166,10 +1238,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Maison_de_la_Poésie_Nantes>	 foaf:name 	 "Maison de la Poésie Nantes"^^xsd:string ;
-	ex:coordinate	 "[ 47.2158407860167 , -1.55493738500246]"^^xsd:decimal ;
+	geo:lat	"47.2158407860167 "^^xsd:decimal ;
+	geo:long	"-1.55493738500246"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 69 22 32"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1182,10 +1255,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/La_Compagnie_du_Café_Théâtre>	 foaf:name 	 "La Compagnie du Café Théâtre"^^xsd:string ;
-	ex:coordinate	 "[ 47.2165298072222 , -1.55137146374203]"^^xsd:decimal ;
+	geo:lat	"47.2165298072222 "^^xsd:decimal ;
+	geo:long	"-1.55137146374203"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "www.lacompagnieducafetheatre.fr"^^xsd:string ;
+	dbpprop:website	 "www.lacompagnieducafetheatre.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 89 65 01"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1198,10 +1272,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Cinéma_le_Cinématographe>	 foaf:name 	 "Cinéma le Cinématographe"^^xsd:string ;
-	ex:coordinate	 "[ 47.2169075156747 , -1.55147134651711]"^^xsd:decimal ;
+	geo:lat	"47.2169075156747 "^^xsd:decimal ;
+	geo:long	"-1.55147134651711"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "www.cinefil.com"^^xsd:string ;
+	dbpprop:website	 "www.cinefil.com"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 35 22 73"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1214,10 +1289,11 @@
 	ex:categorie	 "108"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_pour_Tous_Cacault>	 foaf:name 	 "Bibliothèque pour Tous Cacault"^^xsd:string ;
-	ex:coordinate	 "[ 47.2166287910994 , -1.557756352266]"^^xsd:decimal ;
+	geo:lat	"47.2166287910994 "^^xsd:decimal ;
+	geo:long	"-1.557756352266"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 20 46 76"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1230,10 +1306,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Doulon>	 foaf:name 	 "Bibliothèque Doulon"^^xsd:string ;
-	ex:coordinate	 "[ 47.2370383094713 , -1.50933600146099]"^^xsd:decimal ;
+	geo:lat	"47.2370383094713 "^^xsd:decimal ;
+	geo:long	"-1.50933600146099"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44300"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 93 25 16"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1246,10 +1323,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/La_Scène_Michelet>	 foaf:name 	 "La Scène Michelet"^^xsd:string ;
-	ex:coordinate	 "[ 47.2328598146144 , -1.55689373716458]"^^xsd:decimal ;
+	geo:lat	"47.2328598146144 "^^xsd:decimal ;
+	geo:long	"-1.55689373716458"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "www.scenemichelet.com"^^xsd:string ;
+	dbpprop:website	 "www.scenemichelet.com"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1262,10 +1340,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Planétarium_Nantes>	 foaf:name 	 "Planétarium Nantes"^^xsd:string ;
-	ex:coordinate	 "[ 47.2022240576511 , -1.57746408897429]"^^xsd:decimal ;
+	geo:lat	"47.2022240576511 "^^xsd:decimal ;
+	geo:long	"-1.57746408897429"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44100"^^xsd:string ;
-	ex:siteWeb	 "www.nantes.fr/mairie/services/responsabilites/dgc/musees"^^xsd:string ;
+	dbpprop:website	 "www.nantes.fr/mairie/services/responsabilites/dgc/musees"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 73 99 23"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1278,10 +1357,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Musée_des_Beaux_Arts>	 foaf:name 	 "Musée des Beaux Arts"^^xsd:string ;
-	ex:coordinate	 "[ 47.2195914348402 , -1.54738925275446]"^^xsd:decimal ;
+	geo:lat	"47.2195914348402 "^^xsd:decimal ;
+	geo:long	"-1.54738925275446"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "www.nantes.fr/mairie/services/responsabilites/dgc/musees"^^xsd:string ;
+	dbpprop:website	 "www.nantes.fr/mairie/services/responsabilites/dgc/musees"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 17 45 00"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1294,10 +1374,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Musée__de_l'Imprimerie>	 foaf:name 	 "Musée  de l'Imprimerie"^^xsd:string ;
-	ex:coordinate	 "[ 47.2109357704198 , -1.56214635427804]"^^xsd:decimal ;
+	geo:lat	"47.2109357704198 "^^xsd:decimal ;
+	geo:long	"-1.56214635427804"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "musee-imprimerie.com"^^xsd:string ;
+	dbpprop:website	 "musee-imprimerie.com"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 73 26 55"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1310,10 +1391,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Médiathèque_Espace_Jacques_Demy>	 foaf:name 	 "Médiathèque Espace Jacques Demy"^^xsd:string ;
-	ex:coordinate	 "[ 47.2111500141088 , -1.56215521908497]"^^xsd:decimal ;
+	geo:lat	"47.2111500141088 "^^xsd:decimal ;
+	geo:long	"-1.56215521908497"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "www.nantes.fr/mairie/services/responsabilites/dgc/biblios"^^xsd:string ;
+	dbpprop:website	 "www.nantes.fr/mairie/services/responsabilites/dgc/biblios"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 41 95 95"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1326,10 +1408,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Sonore>	 foaf:name 	 "Bibliothèque Sonore"^^xsd:string ;
-	ex:coordinate	 "[ 47.2112867070039 , -1.56223602543876]"^^xsd:decimal ;
+	geo:lat	"47.2112867070039 "^^xsd:decimal ;
+	geo:long	"-1.56223602543876"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 73 48 44"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1342,10 +1425,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Salle_La_Bouche_d'Air>	 foaf:name 	 "Salle La Bouche d'Air"^^xsd:string ;
-	ex:coordinate	 "[ 47.2109876432402 , -1.56240748866587]"^^xsd:decimal ;
+	geo:lat	"47.2109876432402 "^^xsd:decimal ;
+	geo:long	"-1.56240748866587"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 73 40 20"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1358,10 +1442,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Centre_Bermond-Boquié>	 foaf:name 	 "Centre Bermond-Boquié"^^xsd:string ;
-	ex:coordinate	 "[ 47.2110834573608 , -1.56236278570735]"^^xsd:decimal ;
+	geo:lat	"47.2110834573608 "^^xsd:decimal ;
+	geo:long	"-1.56236278570735"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "www.bm.nantes.fr"^^xsd:string ;
+	dbpprop:website	 "www.bm.nantes.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 41 42 62"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1374,10 +1459,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Municipale_L'Expression_Plurielle>	 foaf:name 	 "Bibliothèque Municipale L'Expression Plurielle"^^xsd:string ;
-	ex:coordinate	 "[ 47.2691010877196 , -1.43793333570146]"^^xsd:decimal ;
+	geo:lat	"47.2691010877196 "^^xsd:decimal ;
+	geo:long	"-1.43793333570146"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44470"^^xsd:string ;
-	ex:siteWeb	 "www.thouare.fr"^^xsd:string ;
+	dbpprop:website	 "www.thouare.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 85 90 60"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1390,10 +1476,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Saint_Léger_les_Vignes>	 foaf:name 	 "Bibliothèque Saint Léger les Vignes"^^xsd:string ;
-	ex:coordinate	 "[ 47.13597774906 , -1.73004509323872]"^^xsd:decimal ;
+	geo:lat	"47.13597774906 "^^xsd:decimal ;
+	geo:long	"-1.73004509323872"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44710"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1406,10 +1493,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Le_Haut_Moulin_Saint_léger_les_Vignes>	 foaf:name 	 "Le Haut Moulin Saint léger les Vignes"^^xsd:string ;
-	ex:coordinate	 "[ 47.136073734015 , -1.72701145324576]"^^xsd:decimal ;
+	geo:lat	"47.136073734015 "^^xsd:decimal ;
+	geo:long	"-1.72701145324576"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44710"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 31 50 32"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1422,10 +1510,11 @@
 	ex:categorie	 "104"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_La_Chapelaine>	 foaf:name 	 "Bibliothèque La Chapelaine"^^xsd:string ;
-	ex:coordinate	 "[ 47.3012762047978 , -1.54838382543362]"^^xsd:decimal ;
+	geo:lat	"47.3012762047978 "^^xsd:decimal ;
+	geo:long	"-1.54838382543362"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44240"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 72 57 70"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1438,10 +1527,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Salle_d'Expositions_Manu>	 foaf:name 	 "Salle d'Expositions Manu"^^xsd:string ;
-	ex:coordinate	 "[ 47.2197586108985 , -1.53606743270468]"^^xsd:decimal ;
+	geo:lat	"47.2197586108985 "^^xsd:decimal ;
+	geo:long	"-1.53606743270468"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1454,10 +1544,11 @@
 	ex:categorie	 "106"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Nantes>	 foaf:name 	 "Bibliothèque Nantes"^^xsd:string ;
-	ex:coordinate	 "[ 47.2383482515292 , -1.57013489322421]"^^xsd:decimal ;
+	geo:lat	"47.2383482515292 "^^xsd:decimal ;
+	geo:long	"-1.57013489322421"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44300"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 76 80 90"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1470,10 +1561,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Lavoir_Orvault>	 foaf:name 	 "Lavoir Orvault"^^xsd:string ;
-	ex:coordinate	 "[ 47.2720919785921 , -1.622024280234]"^^xsd:decimal ;
+	geo:lat	"47.2720919785921 "^^xsd:decimal ;
+	geo:long	"-1.622024280234"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44700"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 78 31 01"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1486,10 +1578,11 @@
 	ex:categorie	 "104"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_de_Beautour>	 foaf:name 	 "Bibliothèque de Beautour"^^xsd:string ;
-	ex:coordinate	 "[ 47.184250076249 , -1.50517367827984]"^^xsd:decimal ;
+	geo:lat	"47.184250076249 "^^xsd:decimal ;
+	geo:long	"-1.50517367827984"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44120"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1502,10 +1595,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Ecole_de_Musique_Carquefou>	 foaf:name 	 "Ecole de Musique Carquefou"^^xsd:string ;
-	ex:coordinate	 "[ 47.2961902209331 , -1.49599642897514]"^^xsd:decimal ;
+	geo:lat	"47.2961902209331 "^^xsd:decimal ;
+	geo:long	"-1.49599642897514"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44470"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 52 62 17"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1518,10 +1612,11 @@
 	ex:categorie	 "105"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Vidéothèque_Municipale_Saint_Aignan_de_Grand_Lieu>	 foaf:name 	 "Bibliothèque Vidéothèque Municipale Saint Aignan de Grand Lieu"^^xsd:string ;
-	ex:coordinate	 "[ 47.1236451598321 , -1.63024260612185]"^^xsd:decimal ;
+	geo:lat	"47.1236451598321 "^^xsd:decimal ;
+	geo:long	"-1.63024260612185"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44860"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 26 44 55"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1534,10 +1629,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Municipale_Arthur_Rimbault_Le_Petit_Chantilly>	 foaf:name 	 "Bibliothèque Municipale Arthur Rimbault Le Petit Chantilly"^^xsd:string ;
-	ex:coordinate	 "[ 47.2527035827894 , -1.59558288312922]"^^xsd:decimal ;
+	geo:lat	"47.2527035827894 "^^xsd:decimal ;
+	geo:long	"-1.59558288312922"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44700"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "Public"^^xsd:string ;
 	ex:tel	 "02 40 63 97 95"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1550,10 +1646,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Petit_Chantilly>	 foaf:name 	 "Bibliothèque Petit Chantilly"^^xsd:string ;
-	ex:coordinate	 "[ 47.2543247249528 , -1.59913792663684]"^^xsd:decimal ;
+	geo:lat	"47.2543247249528 "^^xsd:decimal ;
+	geo:long	"-1.59913792663684"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44700"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1566,10 +1663,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Château_de_La_Gournerie>	 foaf:name 	 "Château de La Gournerie"^^xsd:string ;
-	ex:coordinate	 "[ 47.2459605067508 , -1.63770656446967]"^^xsd:decimal ;
+	geo:lat	"47.2459605067508 "^^xsd:decimal ;
+	geo:long	"-1.63770656446967"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44800"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 63 28 86"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1582,10 +1680,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Maison_des_Jeunes_et_de_la_Culture_Barakason>	 foaf:name 	 "Maison des Jeunes et de la Culture Barakason"^^xsd:string ;
-	ex:coordinate	 "[ 47.1861759064261 , -1.55760575280661]"^^xsd:decimal ;
+	geo:lat	"47.1861759064261 "^^xsd:decimal ;
+	geo:long	"-1.55760575280661"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44400"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 75 57 28"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1598,10 +1697,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Salle_Balavoine>	 foaf:name 	 "Salle Balavoine"^^xsd:string ;
-	ex:coordinate	 "[ 47.306218683618 , -1.55433823970525]"^^xsd:decimal ;
+	geo:lat	"47.306218683618 "^^xsd:decimal ;
+	geo:long	"-1.55433823970525"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44240"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1614,10 +1714,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Salle_Piano'cktail>	 foaf:name 	 "Salle Piano'cktail"^^xsd:string ;
-	ex:coordinate	 "[ 47.1739079850385 , -1.60671855464069]"^^xsd:decimal ;
+	geo:lat	"47.1739079850385 "^^xsd:decimal ;
+	geo:long	"-1.60671855464069"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44340"^^xsd:string ;
-	ex:siteWeb	 "www.pianocktail-bouguenais.fr"^^xsd:string ;
+	dbpprop:website	 "www.pianocktail-bouguenais.fr"^^xsd:string ;
 	ex:statut	 "Public"^^xsd:string ;
 	ex:tel	 "02 40 65 05 25"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1630,10 +1731,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Maison_Richy_Ludothèque>	 foaf:name 	 "Maison Richy Ludothèque"^^xsd:string ;
-	ex:coordinate	 "[ 47.1844152819879 , -1.59398169130441]"^^xsd:decimal ;
+	geo:lat	"47.1844152819879 "^^xsd:decimal ;
+	geo:long	"-1.59398169130441"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44340"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "Public"^^xsd:string ;
 	ex:tel	 "02 40 65 05 98"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1646,10 +1748,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Ecluse_sur_l'Acheneau_Bouaye>	 foaf:name 	 "Ecluse sur l'Acheneau Bouaye"^^xsd:string ;
-	ex:coordinate	 "[ 47.1325149415749 , -1.69837255040031]"^^xsd:decimal ;
+	geo:lat	"47.1325149415749 "^^xsd:decimal ;
+	geo:long	"-1.69837255040031"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44830"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 65 53 55"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1662,10 +1765,11 @@
 	ex:categorie	 "104"^^xsd:string .
 
 <http://projet.com/10/Maison_Guerlain>	 foaf:name 	 "Maison Guerlain"^^xsd:string ;
-	ex:coordinate	 "[ 47.1321265238039 , -1.6940489026354]"^^xsd:decimal ;
+	geo:lat	"47.1321265238039 "^^xsd:decimal ;
+	geo:long	"-1.6940489026354"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44830"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1678,10 +1782,11 @@
 	ex:categorie	 "104"^^xsd:string .
 
 <http://projet.com/10/Ecole_de_Musique_Basse_Goulaine>	 foaf:name 	 "Ecole de Musique Basse Goulaine"^^xsd:string ;
-	ex:coordinate	 "[ 47.2184994297615 , -1.46403959517509]"^^xsd:decimal ;
+	geo:lat	"47.2184994297615 "^^xsd:decimal ;
+	geo:long	"-1.46403959517509"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44115"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 03 51 58"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1694,10 +1799,11 @@
 	ex:categorie	 "105"^^xsd:string .
 
 <http://projet.com/10/Calvaire_de_la_Croix_du_Bignon>	 foaf:name 	 "Calvaire de la Croix du Bignon"^^xsd:string ;
-	ex:coordinate	 "[ 47.1761932658965 , -1.73464549565828]"^^xsd:decimal ;
+	geo:lat	"47.1761932658965 "^^xsd:decimal ;
+	geo:long	"-1.73464549565828"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44830"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 65 53 55"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1710,10 +1816,11 @@
 	ex:categorie	 "104"^^xsd:string .
 
 <http://projet.com/10/Tour_de_l'Ancienne_Usine_Lu>	 foaf:name 	 "Tour de l'Ancienne Usine Lu"^^xsd:string ;
-	ex:coordinate	 "[ 47.2154470156904 , -1.54619553374149]"^^xsd:decimal ;
+	geo:lat	"47.2154470156904 "^^xsd:decimal ;
+	geo:long	"-1.54619553374149"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1726,10 +1833,11 @@
 	ex:categorie	 "104"^^xsd:string .
 
 <http://projet.com/10/Maison_de_la_Musique_Sinfonia>	 foaf:name 	 "Maison de la Musique Sinfonia"^^xsd:string ;
-	ex:coordinate	 "[ 47.2470474609297 , -1.48455170216345]"^^xsd:decimal ;
+	geo:lat	"47.2470474609297 "^^xsd:decimal ;
+	geo:long	"-1.48455170216345"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44980"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 25 90 92"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1742,10 +1850,11 @@
 	ex:categorie	 "105"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Adèle'H>	 foaf:name 	 "Bibliothèque Adèle'H"^^xsd:string ;
-	ex:coordinate	 "[ 47.2193168750814 , -1.60976309046206]"^^xsd:decimal ;
+	geo:lat	"47.2193168750814 "^^xsd:decimal ;
+	geo:long	"-1.60976309046206"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44800"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "Public"^^xsd:string ;
 	ex:tel	 "02 40 46 75 45"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1758,10 +1867,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Ludothèque_Soleil_Levant>	 foaf:name 	 "Ludothèque Soleil Levant"^^xsd:string ;
-	ex:coordinate	 "[ 47.2194692605078 , -1.60961092227103]"^^xsd:decimal ;
+	geo:lat	"47.2194692605078 "^^xsd:decimal ;
+	geo:long	"-1.60961092227103"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44800"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 28 03 57 86"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1774,10 +1884,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Maison_de_la_Marionnette_Nantes>	 foaf:name 	 "Maison de la Marionnette Nantes"^^xsd:string ;
-	ex:coordinate	 "[ 47.2045546396696 , -1.53669959717981]"^^xsd:decimal ;
+	geo:lat	"47.2045546396696 "^^xsd:decimal ;
+	geo:long	"-1.53669959717981"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44200"^^xsd:string ;
-	ex:siteWeb	 "www.maison-marionnette-nantes.com"^^xsd:string ;
+	dbpprop:website	 "www.maison-marionnette-nantes.com"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 48 70 19"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1790,10 +1901,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Libre_Cour>	 foaf:name 	 "Bibliothèque Libre Cour"^^xsd:string ;
-	ex:coordinate	 "[ 47.1689731390713 , -1.47170385431833]"^^xsd:decimal ;
+	geo:lat	"47.1689731390713 "^^xsd:decimal ;
+	geo:long	"-1.47170385431833"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44120"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 34 41 72"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1806,10 +1918,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Ecole_de_Musique_Vertou>	 foaf:name 	 "Ecole de Musique Vertou"^^xsd:string ;
-	ex:coordinate	 "[ 47.1686804490679 , -1.47268913567518]"^^xsd:decimal ;
+	geo:lat	"47.1686804490679 "^^xsd:decimal ;
+	geo:long	"-1.47268913567518"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44120"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "Public"^^xsd:string ;
 	ex:tel	 "02 40 03 45 05"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1822,10 +1935,11 @@
 	ex:categorie	 "105"^^xsd:string .
 
 <http://projet.com/10/Médiathèque_Condorcet>	 foaf:name 	 "Médiathèque Condorcet"^^xsd:string ;
-	ex:coordinate	 "[ 47.1704056799218 , -1.62227289753155]"^^xsd:decimal ;
+	geo:lat	"47.1704056799218 "^^xsd:decimal ;
+	geo:long	"-1.62227289753155"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44340"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "Public"^^xsd:string ;
 	ex:tel	 "02 40 32 04 54"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1838,10 +1952,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Ecole_de_Danse_Vertou>	 foaf:name 	 "Ecole de Danse Vertou"^^xsd:string ;
-	ex:coordinate	 "[ 47.1696238019548 , -1.47538377442246]"^^xsd:decimal ;
+	geo:lat	"47.1696238019548 "^^xsd:decimal ;
+	geo:long	"-1.47538377442246"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44120"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "Public"^^xsd:string ;
 	ex:tel	 "02 40 03 45 05"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1854,10 +1969,11 @@
 	ex:categorie	 "105"^^xsd:string .
 
 <http://projet.com/10/Ecole_de_Musique_La_Chapelle_sur_Erdre>	 foaf:name 	 "Ecole de Musique La Chapelle sur Erdre"^^xsd:string ;
-	ex:coordinate	 "[ 47.2973079105011 , -1.55573662718025]"^^xsd:decimal ;
+	geo:lat	"47.2973079105011 "^^xsd:decimal ;
+	geo:long	"-1.55573662718025"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44240"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 29 72 94"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1870,10 +1986,11 @@
 	ex:categorie	 "105"^^xsd:string .
 
 <http://projet.com/10/Château_de_l'Epinay>	 foaf:name 	 "Château de l'Epinay"^^xsd:string ;
-	ex:coordinate	 "[ 47.2879595920885 , -1.4903764868039]"^^xsd:decimal ;
+	geo:lat	"47.2879595920885 "^^xsd:decimal ;
+	geo:long	"-1.4903764868039"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44470"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 68 49 49"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1886,10 +2003,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Ecluse_Barrage_de_Buray>	 foaf:name 	 "Ecluse Barrage de Buray"^^xsd:string ;
-	ex:coordinate	 "[ 47.2102559254532 , -1.82703331875962]"^^xsd:decimal ;
+	geo:lat	"47.2102559254532 "^^xsd:decimal ;
+	geo:long	"-1.82703331875962"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44640"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1902,10 +2020,11 @@
 	ex:categorie	 "104"^^xsd:string .
 
 <http://projet.com/10/Cinéma_Cinéville_Saint-Sébastien>	 foaf:name 	 "Cinéma Cinéville Saint-Sébastien"^^xsd:string ;
-	ex:coordinate	 "[ 47.1897127297122 , -1.48829071723686]"^^xsd:decimal ;
+	geo:lat	"47.1897127297122 "^^xsd:decimal ;
+	geo:long	"-1.48829071723686"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44230"^^xsd:string ;
-	ex:siteWeb	 "saint-sebastien.cineville.fr"^^xsd:string ;
+	dbpprop:website	 "saint-sebastien.cineville.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1918,10 +2037,11 @@
 	ex:categorie	 "108"^^xsd:string .
 
 <http://projet.com/10/Château_de_La_Gaudinière>	 foaf:name 	 "Château de La Gaudinière"^^xsd:string ;
-	ex:coordinate	 "[ 47.2434588929702 , -1.57828117455308]"^^xsd:decimal ;
+	geo:lat	"47.2434588929702 "^^xsd:decimal ;
+	geo:long	"-1.57828117455308"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44300"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1934,10 +2054,11 @@
 	ex:categorie	 "104"^^xsd:string .
 
 <http://projet.com/10/Théâtre_Universitaire_Nantes>	 foaf:name 	 "Théâtre Universitaire Nantes"^^xsd:string ;
-	ex:coordinate	 "[ 47.2456250069954 , -1.55350936538644]"^^xsd:decimal ;
+	geo:lat	"47.2456250069954 "^^xsd:decimal ;
+	geo:long	"-1.55350936538644"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44300"^^xsd:string ;
-	ex:siteWeb	 "www.tunantes.fr"^^xsd:string ;
+	dbpprop:website	 "www.tunantes.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 14 55 14"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1950,10 +2071,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Mauves_sur_Loire>	 foaf:name 	 "Bibliothèque Mauves sur Loire"^^xsd:string ;
-	ex:coordinate	 "[ 47.2970772754026 , -1.39258766768554]"^^xsd:decimal ;
+	geo:lat	"47.2970772754026 "^^xsd:decimal ;
+	geo:long	"-1.39258766768554"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44470"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 25 05 63"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1966,10 +2088,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Théâtre_Bel_Air>	 foaf:name 	 "Théâtre Bel Air"^^xsd:string ;
-	ex:coordinate	 "[ 47.2227208647256 , -1.55902139239237]"^^xsd:decimal ;
+	geo:lat	"47.2227208647256 "^^xsd:decimal ;
+	geo:long	"-1.55902139239237"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1982,10 +2105,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Monument_des_Fusillés>	 foaf:name 	 "Monument des Fusillés"^^xsd:string ;
-	ex:coordinate	 "[ 47.2605733716795 , -1.51246735098118]"^^xsd:decimal ;
+	geo:lat	"47.2605733716795 "^^xsd:decimal ;
+	geo:long	"-1.51246735098118"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44300"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -1998,10 +2122,11 @@
 	ex:categorie	 "104"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Breil_Malville>	 foaf:name 	 "Bibliothèque Breil Malville"^^xsd:string ;
-	ex:coordinate	 "[ 47.2330348517548 , -1.58610757121275]"^^xsd:decimal ;
+	geo:lat	"47.2330348517548 "^^xsd:decimal ;
+	geo:long	"-1.58610757121275"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44100"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 76 06 56"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2014,10 +2139,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Centre_Socioculturel_Bellevue>	 foaf:name 	 "Bibliothèque Centre Socioculturel Bellevue"^^xsd:string ;
-	ex:coordinate	 "[ 47.2078546426425 , -1.60546676709616]"^^xsd:decimal ;
+	geo:lat	"47.2078546426425 "^^xsd:decimal ;
+	geo:long	"-1.60546676709616"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44100"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 46 44 22"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2030,10 +2156,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Musée_Jules_Verne>	 foaf:name 	 "Musée Jules Verne"^^xsd:string ;
-	ex:coordinate	 "[ 47.201601357171 , -1.57737270098168]"^^xsd:decimal ;
+	geo:lat	"47.201601357171 "^^xsd:decimal ;
+	geo:long	"-1.57737270098168"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44100"^^xsd:string ;
-	ex:siteWeb	 "www.nantes.fr/mairie/services/responsabilites/dgc/musees"^^xsd:string ;
+	dbpprop:website	 "www.nantes.fr/mairie/services/responsabilites/dgc/musees"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 69 72 52"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2046,10 +2173,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Ludothèque_Clos_Toreau>	 foaf:name 	 "Ludothèque Clos Toreau"^^xsd:string ;
-	ex:coordinate	 "[ 47.1949950115069 , -1.52815729492207]"^^xsd:decimal ;
+	geo:lat	"47.1949950115069 "^^xsd:decimal ;
+	geo:long	"-1.52815729492207"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44200"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 03 19 55"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2062,10 +2190,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Cinéma_Saint_Paul>	 foaf:name 	 "Cinéma Saint Paul"^^xsd:string ;
-	ex:coordinate	 "[ 47.1839198510737 , -1.54454649816709]"^^xsd:decimal ;
+	geo:lat	"47.1839198510737 "^^xsd:decimal ;
+	geo:long	"-1.54454649816709"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44400"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2078,10 +2207,11 @@
 	ex:categorie	 "108"^^xsd:string .
 
 <http://projet.com/10/Cinéma_Lutétia>	 foaf:name 	 "Cinéma Lutétia"^^xsd:string ;
-	ex:coordinate	 "[ 47.2140921362234 , -1.64975701773931]"^^xsd:decimal ;
+	geo:lat	"47.2140921362234 "^^xsd:decimal ;
+	geo:long	"-1.64975701773931"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44800"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "Public"^^xsd:string ;
 	ex:tel	 "02 51 80 03 54"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2094,10 +2224,11 @@
 	ex:categorie	 "108"^^xsd:string .
 
 <http://projet.com/10/Théâtre_Graslin>	 foaf:name 	 "Théâtre Graslin"^^xsd:string ;
-	ex:coordinate	 "[ 47.2134383314212 , -1.56222079050172]"^^xsd:decimal ;
+	geo:lat	"47.2134383314212 "^^xsd:decimal ;
+	geo:long	"-1.56222079050172"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "www.angers-nantes-opera.com"^^xsd:string ;
+	dbpprop:website	 "www.angers-nantes-opera.com"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 69 77 18"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2110,10 +2241,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Ludothèque_Perray>	 foaf:name 	 "Ludothèque Perray"^^xsd:string ;
-	ex:coordinate	 "[ 47.2471820573203 , -1.51258942059508]"^^xsd:decimal ;
+	geo:lat	"47.2471820573203 "^^xsd:decimal ;
+	geo:long	"-1.51258942059508"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44300"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 49 74 69"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2126,10 +2258,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Centre_Socioculturel_Perray>	 foaf:name 	 "Bibliothèque Centre Socioculturel Perray"^^xsd:string ;
-	ex:coordinate	 "[ 47.2472293104102 , -1.51265511845767]"^^xsd:decimal ;
+	geo:lat	"47.2472293104102 "^^xsd:decimal ;
+	geo:long	"-1.51265511845767"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44300"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 49 74 69"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2142,10 +2275,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Cinéma_Katorza>	 foaf:name 	 "Cinéma Katorza"^^xsd:string ;
-	ex:coordinate	 "[ 47.213635180752 , -1.56269593518909]"^^xsd:decimal ;
+	geo:lat	"47.213635180752 "^^xsd:decimal ;
+	geo:long	"-1.56269593518909"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "www.ifrance.com/cinekatorza"^^xsd:string ;
+	dbpprop:website	 "www.ifrance.com/cinekatorza"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 84 90 60"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2158,10 +2292,11 @@
 	ex:categorie	 "108"^^xsd:string .
 
 <http://projet.com/10/Salle_Francine_Vasse>	 foaf:name 	 "Salle Francine Vasse"^^xsd:string ;
-	ex:coordinate	 "[ 47.2156279865699 , -1.56893612558743]"^^xsd:decimal ;
+	geo:lat	"47.2156279865699 "^^xsd:decimal ;
+	geo:long	"-1.56893612558743"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "http://www.sallevasse.fr/"^^xsd:string ;
+	dbpprop:website	 "http://www.sallevasse.fr/"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 73 12 60"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2174,10 +2309,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Manoir_de_La_Hautière>	 foaf:name 	 "Manoir de La Hautière"^^xsd:string ;
-	ex:coordinate	 "[ 47.2029654450222 , -1.58279541240163]"^^xsd:decimal ;
+	geo:lat	"47.2029654450222 "^^xsd:decimal ;
+	geo:long	"-1.58279541240163"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44100"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 69 30 55"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2190,10 +2326,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Musée_Compagnonique>	 foaf:name 	 "Musée Compagnonique"^^xsd:string ;
-	ex:coordinate	 "[ 47.2027828929462 , -1.58281336906524]"^^xsd:decimal ;
+	geo:lat	"47.2027828929462 "^^xsd:decimal ;
+	geo:long	"-1.58281336906524"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44100"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 69 30 55"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2206,10 +2343,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Paul_Eluard>	 foaf:name 	 "Bibliothèque Paul Eluard"^^xsd:string ;
-	ex:coordinate	 "[ 47.2341388753086 , -1.58560851669432]"^^xsd:decimal ;
+	geo:lat	"47.2341388753086 "^^xsd:decimal ;
+	geo:long	"-1.58560851669432"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44800"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "Public"^^xsd:string ;
 	ex:tel	 "02 40 40 51 41"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2222,10 +2360,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Théâtre_Beaulieu>	 foaf:name 	 "Théâtre Beaulieu"^^xsd:string ;
-	ex:coordinate	 "[ 47.2061385530074 , -1.54279476302659]"^^xsd:decimal ;
+	geo:lat	"47.2061385530074 "^^xsd:decimal ;
+	geo:long	"-1.54279476302659"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44200"^^xsd:string ;
-	ex:siteWeb	 "www.theatrebeaulieu.fr"^^xsd:string ;
+	dbpprop:website	 "www.theatrebeaulieu.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 49 10 63 10"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2238,10 +2377,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Ludothèque_Centre_Socioculturel_Port_Boyer>	 foaf:name 	 "Ludothèque Centre Socioculturel Port Boyer"^^xsd:string ;
-	ex:coordinate	 "[ 47.2412474745432 , -1.54125046934578]"^^xsd:decimal ;
+	geo:lat	"47.2412474745432 "^^xsd:decimal ;
+	geo:long	"-1.54125046934578"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44300"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 49 21 81"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2254,10 +2394,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Port_Boyer>	 foaf:name 	 "Bibliothèque Port Boyer"^^xsd:string ;
-	ex:coordinate	 "[ 47.2413386038884 , -1.54140903517677]"^^xsd:decimal ;
+	geo:lat	"47.2413386038884 "^^xsd:decimal ;
+	geo:long	"-1.54140903517677"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44300"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 49 21 81"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2270,10 +2411,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Municipale_Carquefou>	 foaf:name 	 "Bibliothèque Municipale Carquefou"^^xsd:string ;
-	ex:coordinate	 "[ 47.2956142243852 , -1.49094600055566]"^^xsd:decimal ;
+	geo:lat	"47.2956142243852 "^^xsd:decimal ;
+	geo:long	"-1.49094600055566"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44470"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 68 85 84"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2286,10 +2428,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Chapelle_de_l'Oratoire>	 foaf:name 	 "Chapelle de l'Oratoire"^^xsd:string ;
-	ex:coordinate	 "[ 47.2190680846713 , -1.54846808966722]"^^xsd:decimal ;
+	geo:lat	"47.2190680846713 "^^xsd:decimal ;
+	geo:long	"-1.54846808966722"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 41 65 60"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2302,10 +2445,11 @@
 	ex:categorie	 "106"^^xsd:string .
 
 <http://projet.com/10/Musée_des_Beaux_Arts_,_Chapelle_de_l'Oratoire>	 foaf:name 	 "Musée des Beaux Arts , Chapelle de l'Oratoire"^^xsd:string ;
-	ex:coordinate	 "[ 47.219189959226 , -1.54840356668365]"^^xsd:decimal ;
+	geo:lat	"47.219189959226 "^^xsd:decimal ;
+	geo:long	"-1.54840356668365"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 41 65 60"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2318,10 +2462,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Brains>	 foaf:name 	 "Bibliothèque Brains"^^xsd:string ;
-	ex:coordinate	 "[ 47.1682494589477 , -1.72057628677274]"^^xsd:decimal ;
+	geo:lat	"47.1682494589477 "^^xsd:decimal ;
+	geo:long	"-1.72057628677274"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44830"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 65 54 40"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2334,10 +2479,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Société_Académique_Nantes>	 foaf:name 	 "Bibliothèque Société Académique Nantes"^^xsd:string ;
-	ex:coordinate	 "[ 47.2189938408806 , -1.55468004357272]"^^xsd:decimal ;
+	geo:lat	"47.2189938408806 "^^xsd:decimal ;
+	geo:long	"-1.55468004357272"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2350,10 +2496,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Conservatoire_de_Nantes>	 foaf:name 	 "Conservatoire de Nantes"^^xsd:string ;
-	ex:coordinate	 "[ 47.2075413501197 , -1.53268602054133]"^^xsd:decimal ;
+	geo:lat	"47.2075413501197 "^^xsd:decimal ;
+	geo:long	"-1.53268602054133"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44200"^^xsd:string ;
-	ex:siteWeb	 "www.conservatoire.nantes.fr"^^xsd:string ;
+	dbpprop:website	 "www.conservatoire.nantes.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 25 00 20"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2366,10 +2513,11 @@
 	ex:categorie	 "105"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_du_Conservatoire>	 foaf:name 	 "Bibliothèque du Conservatoire"^^xsd:string ;
-	ex:coordinate	 "[ 47.2080385829694 , -1.53266539551316]"^^xsd:decimal ;
+	geo:lat	"47.2080385829694 "^^xsd:decimal ;
+	geo:long	"-1.53266539551316"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44200"^^xsd:string ;
-	ex:siteWeb	 "www.bm.nantes.fr"^^xsd:string ;
+	dbpprop:website	 "www.bm.nantes.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 25 00 20"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2382,10 +2530,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Sillon_de_Bretagne>	 foaf:name 	 "Bibliothèque Sillon de Bretagne"^^xsd:string ;
-	ex:coordinate	 "[ 47.2437123929916 , -1.60757603898577]"^^xsd:decimal ;
+	geo:lat	"47.2437123929916 "^^xsd:decimal ;
+	geo:long	"-1.60757603898577"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44800"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "Public"^^xsd:string ;
 	ex:tel	 "02 40 63 67 02"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2398,10 +2547,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Pôle_de_compétences_culturelles_POL'N>	 foaf:name 	 "Pôle de compétences culturelles POL'N"^^xsd:string ;
-	ex:coordinate	 "[ 47.2121745148621 , -1.54996298985586]"^^xsd:decimal ;
+	geo:lat	"47.2121745148621 "^^xsd:decimal ;
+	geo:long	"-1.54996298985586"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "pol-n.org"^^xsd:string ;
+	dbpprop:website	 "pol-n.org"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 82 36 71"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2414,10 +2564,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Centre_Musical_de_La_Balinière>	 foaf:name 	 "Centre Musical de La Balinière"^^xsd:string ;
-	ex:coordinate	 "[ 47.1832100143525 , -1.55266822482743]"^^xsd:decimal ;
+	geo:lat	"47.1832100143525 "^^xsd:decimal ;
+	geo:long	"-1.55266822482743"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44400"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 70 78 10"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2430,10 +2581,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Espace_Cosmopolis_Nantes>	 foaf:name 	 "Espace Cosmopolis Nantes"^^xsd:string ;
-	ex:coordinate	 "[ 47.2144380596107 , -1.56269838251326]"^^xsd:decimal ;
+	geo:lat	"47.2144380596107 "^^xsd:decimal ;
+	geo:long	"-1.56269838251326"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 84 36 70"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2446,10 +2598,11 @@
 	ex:categorie	 "106"^^xsd:string .
 
 <http://projet.com/10/Théâtre_de_Poche_Nantes>	 foaf:name 	 "Théâtre de Poche Nantes"^^xsd:string ;
-	ex:coordinate	 "[ 47.2144961643548 , -1.56295099975056]"^^xsd:decimal ;
+	geo:lat	"47.2144961643548 "^^xsd:decimal ;
+	geo:long	"-1.56295099975056"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 47 34 44"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2462,10 +2615,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Centre_Socioculturel_Pilotière>	 foaf:name 	 "Bibliothèque Centre Socioculturel Pilotière"^^xsd:string ;
-	ex:coordinate	 "[ 47.2448690657194 , -1.52412551040272]"^^xsd:decimal ;
+	geo:lat	"47.2448690657194 "^^xsd:decimal ;
+	geo:long	"-1.52412551040272"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44300"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 50 32 44"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2478,10 +2632,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Cinéma_Le_Beaulieu>	 foaf:name 	 "Cinéma Le Beaulieu"^^xsd:string ;
-	ex:coordinate	 "[ 47.1784208628279 , -1.62520551865685]"^^xsd:decimal ;
+	geo:lat	"47.1784208628279 "^^xsd:decimal ;
+	geo:long	"-1.62520551865685"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44340"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "Public"^^xsd:string ;
 	ex:tel	 "02 40 32 05 58"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2494,10 +2649,11 @@
 	ex:categorie	 "108"^^xsd:string .
 
 <http://projet.com/10/Porte_Saint_Pierre>	 foaf:name 	 "Porte Saint Pierre"^^xsd:string ;
-	ex:coordinate	 "[ 47.2188776569657 , -1.55028297462458]"^^xsd:decimal ;
+	geo:lat	"47.2188776569657 "^^xsd:decimal ;
+	geo:long	"-1.55028297462458"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2510,10 +2666,11 @@
 	ex:categorie	 "104"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_pour_tous>	 foaf:name 	 "Bibliothèque pour tous"^^xsd:string ;
-	ex:coordinate	 "[ 47.2148277125186 , -1.58560800433743]"^^xsd:decimal ;
+	geo:lat	"47.2148277125186 "^^xsd:decimal ;
+	geo:long	"-1.58560800433743"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44100"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 43 57 55"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2526,10 +2683,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Ludothèque_Sillon>	 foaf:name 	 "Ludothèque Sillon"^^xsd:string ;
-	ex:coordinate	 "[ 47.2446547722393 , -1.60891965415961]"^^xsd:decimal ;
+	geo:lat	"47.2446547722393 "^^xsd:decimal ;
+	geo:long	"-1.60891965415961"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44800"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 63 43 52"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2542,10 +2700,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Chantenay>	 foaf:name 	 "Bibliothèque Chantenay"^^xsd:string ;
-	ex:coordinate	 "[ 47.2064963595484 , -1.58979457477487]"^^xsd:decimal ;
+	geo:lat	"47.2064963595484 "^^xsd:decimal ;
+	geo:long	"-1.58979457477487"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44100"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 46 26 96"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2558,10 +2717,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Musée_Dobrée>	 foaf:name 	 "Musée Dobrée"^^xsd:string ;
-	ex:coordinate	 "[ 47.2126357902393 , -1.56657545527101]"^^xsd:decimal ;
+	geo:lat	"47.2126357902393 "^^xsd:decimal ;
+	geo:long	"-1.56657545527101"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "www.cg44.fr/cg44/Special/Dobree/index.html"^^xsd:string ;
+	dbpprop:website	 "www.cg44.fr/cg44/Special/Dobree/index.html"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 71 03 50"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2574,10 +2734,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Muséum_d'Histoire_Naturelle>	 foaf:name 	 "Muséum d'Histoire Naturelle"^^xsd:string ;
-	ex:coordinate	 "[ 47.2126627103977 , -1.56483323576428]"^^xsd:decimal ;
+	geo:lat	"47.2126627103977 "^^xsd:decimal ;
+	geo:long	"-1.56483323576428"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "www.museum.nantes.fr"^^xsd:string ;
+	dbpprop:website	 "www.museum.nantes.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 99 26 20"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2590,10 +2751,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Galerie_Confluence>	 foaf:name 	 "Galerie Confluence"^^xsd:string ;
-	ex:coordinate	 "[ 47.2221468809965 , -1.55354230142311]"^^xsd:decimal ;
+	geo:lat	"47.2221468809965 "^^xsd:decimal ;
+	geo:long	"-1.55354230142311"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "www.galerie-confluence.fr"^^xsd:string ;
+	dbpprop:website	 "www.galerie-confluence.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 28 44 98 91"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2606,10 +2768,11 @@
 	ex:categorie	 "106"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_pour_Tous_Viarme>	 foaf:name 	 "Bibliothèque pour Tous Viarme"^^xsd:string ;
-	ex:coordinate	 "[ 47.2207621869366 , -1.56103744209922]"^^xsd:decimal ;
+	geo:lat	"47.2207621869366 "^^xsd:decimal ;
+	geo:long	"-1.56103744209922"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2622,10 +2785,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Maison_Jeunes_Géraudière>	 foaf:name 	 "Bibliothèque Maison Jeunes Géraudière"^^xsd:string ;
-	ex:coordinate	 "[ 47.2582336457038 , -1.56822794987611]"^^xsd:decimal ;
+	geo:lat	"47.2582336457038 "^^xsd:decimal ;
+	geo:long	"-1.56822794987611"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44300"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 76 75 28"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2638,10 +2802,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Théâtre_du_Sphinx>	 foaf:name 	 "Théâtre du Sphinx"^^xsd:string ;
-	ex:coordinate	 "[ 47.2136054959909 , -1.54791689937586]"^^xsd:decimal ;
+	geo:lat	"47.2136054959909 "^^xsd:decimal ;
+	geo:long	"-1.54791689937586"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 89 19 09"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2654,10 +2819,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Espace_Culturel_Sud_Loire>	 foaf:name 	 "Espace Culturel Sud Loire"^^xsd:string ;
-	ex:coordinate	 "[ 47.1927011015964 , -1.53489101010816]"^^xsd:decimal ;
+	geo:lat	"47.1927011015964 "^^xsd:decimal ;
+	geo:long	"-1.53489101010816"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44200"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 75 37 23"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2670,10 +2836,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Salle_d'Expositions_Temple_du_Goût>	 foaf:name 	 "Salle d'Expositions Temple du Goût"^^xsd:string ;
-	ex:coordinate	 "[ 47.2124516306806 , -1.55668905017722]"^^xsd:decimal ;
+	geo:lat	"47.2124516306806 "^^xsd:decimal ;
+	geo:long	"-1.55668905017722"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 47 46 44"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2686,10 +2853,11 @@
 	ex:categorie	 "106"^^xsd:string .
 
 <http://projet.com/10/Centre_Culturel__Européen>	 foaf:name 	 "Centre Culturel  Européen"^^xsd:string ;
-	ex:coordinate	 "[ 47.212361658854 , -1.5571074758487]"^^xsd:decimal ;
+	geo:lat	"47.212361658854 "^^xsd:decimal ;
+	geo:long	"-1.5571074758487"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 35 39 43"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2702,10 +2870,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Ludothèque_Planète_Jouets_Bottière>	 foaf:name 	 "Ludothèque Planète Jouets Bottière"^^xsd:string ;
-	ex:coordinate	 "[ 47.2398617937679 , -1.51749026302222]"^^xsd:decimal ;
+	geo:lat	"47.2398617937679 "^^xsd:decimal ;
+	geo:long	"-1.51749026302222"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44300"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 49 63 12"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2718,10 +2887,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Pôle_Régional_des_Musiques_Actuelles>	 foaf:name 	 "Pôle Régional des Musiques Actuelles"^^xsd:string ;
-	ex:coordinate	 "[ 47.2005094247013 , -1.57188530991997]"^^xsd:decimal ;
+	geo:lat	"47.2005094247013 "^^xsd:decimal ;
+	geo:long	"-1.57188530991997"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44200"^^xsd:string ;
-	ex:siteWeb	 "www.lepole.asso.fr"^^xsd:string ;
+	dbpprop:website	 "www.lepole.asso.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 46 66 33"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2734,10 +2904,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Ludothèque_Bout_des_Landes>	 foaf:name 	 "Ludothèque Bout des Landes"^^xsd:string ;
-	ex:coordinate	 "[ 47.2660853380379 , -1.57811320967866]"^^xsd:decimal ;
+	geo:lat	"47.2660853380379 "^^xsd:decimal ;
+	geo:long	"-1.57811320967866"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44300"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 76 15 52"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2750,10 +2921,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Centre_Socioculturel_Bout_des_Landes>	 foaf:name 	 "Bibliothèque Centre Socioculturel Bout des Landes"^^xsd:string ;
-	ex:coordinate	 "[ 47.2658948173154 , -1.57831573156643]"^^xsd:decimal ;
+	geo:lat	"47.2658948173154 "^^xsd:decimal ;
+	geo:long	"-1.57831573156643"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44300"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 76 15 52"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2766,10 +2938,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Cinéma_Gaumont>	 foaf:name 	 "Cinéma Gaumont"^^xsd:string ;
-	ex:coordinate	 "[ 47.2134049938951 , -1.55826228453643]"^^xsd:decimal ;
+	geo:lat	"47.2134049938951 "^^xsd:decimal ;
+	geo:long	"-1.55826228453643"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "www.gaumont.fr"^^xsd:string ;
+	dbpprop:website	 "www.gaumont.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 72 08 09"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2782,10 +2955,11 @@
 	ex:categorie	 "108"^^xsd:string .
 
 <http://projet.com/10/Ludothèque_Amicale_Laïque_Sainte_Luce_sur_Loire>	 foaf:name 	 "Ludothèque Amicale Laïque Sainte Luce sur Loire"^^xsd:string ;
-	ex:coordinate	 "[ 47.2511808590391 , -1.48666286156406]"^^xsd:decimal ;
+	geo:lat	"47.2511808590391 "^^xsd:decimal ;
+	geo:long	"-1.48666286156406"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44980"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 13 71 17"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2798,10 +2972,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Municipale_Saint_Herblain_Bourg>	 foaf:name 	 "Bibliothèque Municipale Saint Herblain Bourg"^^xsd:string ;
-	ex:coordinate	 "[ 47.2131452766502 , -1.64892903098575]"^^xsd:decimal ;
+	geo:lat	"47.2131452766502 "^^xsd:decimal ;
+	geo:long	"-1.64892903098575"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44800"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "Public"^^xsd:string ;
 	ex:tel	 "02 40 38 39 14"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2814,10 +2989,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Ecluse_de_la_Martinière>	 foaf:name 	 "Ecluse de la Martinière"^^xsd:string ;
-	ex:coordinate	 "[ 47.207493149713 , -1.78413520764683]"^^xsd:decimal ;
+	geo:lat	"47.207493149713 "^^xsd:decimal ;
+	geo:long	"-1.78413520764683"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44640"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 04 65 21"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2830,10 +3006,11 @@
 	ex:categorie	 "104"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Bouaye>	 foaf:name 	 "Bibliothèque Bouaye"^^xsd:string ;
-	ex:coordinate	 "[ 47.1417578195531 , -1.68829059823159]"^^xsd:decimal ;
+	geo:lat	"47.1417578195531 "^^xsd:decimal ;
+	geo:long	"-1.68829059823159"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44830"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 32 63 03"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2846,10 +3023,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Château_de_La_Tour>	 foaf:name 	 "Château de La Tour"^^xsd:string ;
-	ex:coordinate	 "[ 47.2880752596272 , -1.62592948592067]"^^xsd:decimal ;
+	geo:lat	"47.2880752596272 "^^xsd:decimal ;
+	geo:long	"-1.62592948592067"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44700"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 78 31 00"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2862,10 +3040,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Tour_à_Plomb_Ex_site_Tréfimétaux>	 foaf:name 	 "Tour à Plomb Ex site Tréfimétaux"^^xsd:string ;
-	ex:coordinate	 "[ 47.209278884473 , -1.72005813923609]"^^xsd:decimal ;
+	geo:lat	"47.209278884473 "^^xsd:decimal ;
+	geo:long	"-1.72005813923609"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44220"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2878,10 +3057,11 @@
 	ex:categorie	 "104"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Municipale_Indre>	 foaf:name 	 "Bibliothèque Municipale Indre"^^xsd:string ;
-	ex:coordinate	 "[ 47.2003927651291 , -1.67201379150322]"^^xsd:decimal ;
+	geo:lat	"47.2003927651291 "^^xsd:decimal ;
+	geo:long	"-1.67201379150322"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44610"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 85 46 16"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2894,10 +3074,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Château_Thouaré_sur_Loire>	 foaf:name 	 "Château Thouaré sur Loire"^^xsd:string ;
-	ex:coordinate	 "[ 47.2611023102717 , -1.44370015757434]"^^xsd:decimal ;
+	geo:lat	"47.2611023102717 "^^xsd:decimal ;
+	geo:long	"-1.44370015757434"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44470"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 77 30 02"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2910,10 +3091,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Pigeonnier_Château_Thouaré_sur_Loire>	 foaf:name 	 "Pigeonnier Château Thouaré sur Loire"^^xsd:string ;
-	ex:coordinate	 "[ 47.2614313361829 , -1.44366891300319]"^^xsd:decimal ;
+	geo:lat	"47.2614313361829 "^^xsd:decimal ;
+	geo:long	"-1.44366891300319"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44470"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2926,10 +3108,11 @@
 	ex:categorie	 "104"^^xsd:string .
 
 <http://projet.com/10/Château_du_Parc_du_Grand_Blottereau>	 foaf:name 	 "Château du Parc du Grand Blottereau"^^xsd:string ;
-	ex:coordinate	 "[ 47.2261904412571 , -1.51067077954986]"^^xsd:decimal ;
+	geo:lat	"47.2261904412571 "^^xsd:decimal ;
+	geo:long	"-1.51067077954986"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44300"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 49 39 98"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2942,10 +3125,11 @@
 	ex:categorie	 "104"^^xsd:string .
 
 <http://projet.com/10/Espace_Saltéra>	 foaf:name 	 "Espace Saltéra"^^xsd:string ;
-	ex:coordinate	 "[ 47.2654913119042 , -1.68013763699535]"^^xsd:decimal ;
+	geo:lat	"47.2654913119042 "^^xsd:decimal ;
+	geo:long	"-1.68013763699535"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44880"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 63 89 62"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2958,10 +3142,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/La_Maison_Radieuse_Le_Corbusier>	 foaf:name 	 "La Maison Radieuse Le Corbusier"^^xsd:string ;
-	ex:coordinate	 "[ 47.1888248587605 , -1.56830802491117]"^^xsd:decimal ;
+	geo:lat	"47.1888248587605 "^^xsd:decimal ;
+	geo:long	"-1.56830802491117"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44400"^^xsd:string ;
-	ex:siteWeb	 "www.mairie-reze.fr"^^xsd:string ;
+	dbpprop:website	 "www.mairie-reze.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 84 43 00"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2974,10 +3159,11 @@
 	ex:categorie	 "104"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Municipale_Saint_Jean_de_Boiseau>	 foaf:name 	 "Bibliothèque Municipale Saint Jean de Boiseau"^^xsd:string ;
-	ex:coordinate	 "[ 47.1962294178643 , -1.72351354271487]"^^xsd:decimal ;
+	geo:lat	"47.1962294178643 "^^xsd:decimal ;
+	geo:long	"-1.72351354271487"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44640"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 32 97 31"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -2990,10 +3176,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Centre_d'Expression_et_de_Créativité_du_Moulin_Gautron>	 foaf:name 	 "Centre d'Expression et de Créativité du Moulin Gautron"^^xsd:string ;
-	ex:coordinate	 "[ 47.1665040773234 , -1.48214945800434]"^^xsd:decimal ;
+	geo:lat	"47.1665040773234 "^^xsd:decimal ;
+	geo:long	"-1.48214945800434"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44120"^^xsd:string ;
-	ex:siteWeb	 "http"^^xsd:string ;
+	dbpprop:website	 "http"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 33 09 00"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3006,10 +3193,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Château_de_La_Plinguetière>	 foaf:name 	 "Château de La Plinguetière"^^xsd:string ;
-	ex:coordinate	 "[ 47.1316557621675 , -1.61348221507459]"^^xsd:decimal ;
+	geo:lat	"47.1316557621675 "^^xsd:decimal ;
+	geo:long	"-1.61348221507459"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44860"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 26 44 44"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3022,10 +3210,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_René_Guy_Cadou>	 foaf:name 	 "Bibliothèque René Guy Cadou"^^xsd:string ;
-	ex:coordinate	 "[ 47.2162824752022 , -1.46586532428602]"^^xsd:decimal ;
+	geo:lat	"47.2162824752022 "^^xsd:decimal ;
+	geo:long	"-1.46586532428602"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44115"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 06 00 22"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3038,10 +3227,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Médiathèque_Ormédo>	 foaf:name 	 "Médiathèque Ormédo"^^xsd:string ;
-	ex:coordinate	 "[ 47.2723921863066 , -1.62560861221778]"^^xsd:decimal ;
+	geo:lat	"47.2723921863066 "^^xsd:decimal ;
+	geo:long	"-1.62560861221778"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44700"^^xsd:string ;
-	ex:siteWeb	 "ville.orvault.fr"^^xsd:string ;
+	dbpprop:website	 "ville.orvault.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 78 33 20"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3054,10 +3244,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Espace_Culturel_et_de_Loisirs_de_La_Fleuriaye>	 foaf:name 	 "Espace Culturel et de Loisirs de La Fleuriaye"^^xsd:string ;
-	ex:coordinate	 "[ 47.2997932177101 , -1.50124665131724]"^^xsd:decimal ;
+	geo:lat	"47.2997932177101 "^^xsd:decimal ;
+	geo:long	"-1.50124665131724"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44470"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 68 72 72"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3070,10 +3261,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Zénith_de_Nantes_Métropole>	 foaf:name 	 "Zénith de Nantes Métropole"^^xsd:string ;
-	ex:coordinate	 "[ 47.2288969947086 , -1.62788834263075]"^^xsd:decimal ;
+	geo:lat	"47.2288969947086 "^^xsd:decimal ;
+	geo:long	"-1.62788834263075"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44800"^^xsd:string ;
-	ex:siteWeb	 "www.zenith-nantesmetropole.com"^^xsd:string ;
+	dbpprop:website	 "www.zenith-nantesmetropole.com"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3086,10 +3278,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Musée_Naval_Maillé_Brézé>	 foaf:name 	 "Musée Naval Maillé Brézé"^^xsd:string ;
-	ex:coordinate	 "[ 47.2071208442903 , -1.57114521146042]"^^xsd:decimal ;
+	geo:lat	"47.2071208442903 "^^xsd:decimal ;
+	geo:long	"-1.57114521146042"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44100"^^xsd:string ;
-	ex:siteWeb	 "www.nwt.fr/escorteur-maille-breze"^^xsd:string ;
+	dbpprop:website	 "www.nwt.fr/escorteur-maille-breze"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 69 56 82"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3102,10 +3295,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Château_du_Chassay>	 foaf:name 	 "Château du Chassay"^^xsd:string ;
-	ex:coordinate	 "[ 47.2478994966595 , -1.48325368919541]"^^xsd:decimal ;
+	geo:lat	"47.2478994966595 "^^xsd:decimal ;
+	geo:long	"-1.48325368919541"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44980"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3118,10 +3312,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Médiathèque,Ludothèque_René_Goscinny>	 foaf:name 	 "Médiathèque,Ludothèque René Goscinny"^^xsd:string ;
-	ex:coordinate	 "[ 47.2480435709883 , -1.48246033846402]"^^xsd:decimal ;
+	geo:lat	"47.2480435709883 "^^xsd:decimal ;
+	geo:long	"-1.48246033846402"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44980"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3134,10 +3329,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Centre_Culturel_E__Bertreux>	 foaf:name 	 "Centre Culturel E. Bertreux"^^xsd:string ;
-	ex:coordinate	 "[ 47.196416526428 , -1.72367667531811]"^^xsd:decimal ;
+	geo:lat	"47.196416526428 "^^xsd:decimal ;
+	geo:long	"-1.72367667531811"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44640"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3150,10 +3346,11 @@
 	ex:categorie	 "106"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Espace_Vittoria_Clos_Toreau>	 foaf:name 	 "Bibliothèque Espace Vittoria Clos Toreau"^^xsd:string ;
-	ex:coordinate	 "[ 47.1952950728629 , -1.52789538883653]"^^xsd:decimal ;
+	geo:lat	"47.1952950728629 "^^xsd:decimal ;
+	geo:long	"-1.52789538883653"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44200"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3166,10 +3363,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Château_de_La_Fleuriaye>	 foaf:name 	 "Château de La Fleuriaye"^^xsd:string ;
-	ex:coordinate	 "[ 47.3012481661298 , -1.50526815231197]"^^xsd:decimal ;
+	geo:lat	"47.3012481661298 "^^xsd:decimal ;
+	geo:long	"-1.50526815231197"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44470"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 68 49 49"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3182,10 +3380,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Fonds_Régional_d'Art_Contemporain_des_Pays_de_la_Loire>	 foaf:name 	 "Fonds Régional d'Art Contemporain des Pays de la Loire"^^xsd:string ;
-	ex:coordinate	 "[ 47.3003926346916 , -1.50420241835899]"^^xsd:decimal ;
+	geo:lat	"47.3003926346916 "^^xsd:decimal ;
+	geo:long	"-1.50420241835899"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44470"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 28 01 50 00"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3198,10 +3397,11 @@
 	ex:categorie	 "106"^^xsd:string .
 
 <http://projet.com/10/Château_de_Maubreuil>	 foaf:name 	 "Château de Maubreuil"^^xsd:string ;
-	ex:coordinate	 "[ 47.2972725999773 , -1.46521759864494]"^^xsd:decimal ;
+	geo:lat	"47.2972725999773 "^^xsd:decimal ;
+	geo:long	"-1.46521759864494"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44470"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3214,10 +3414,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Cinéma_Pathé_Atlantis>	 foaf:name 	 "Cinéma Pathé Atlantis"^^xsd:string ;
-	ex:coordinate	 "[ 47.2224263352114 , -1.62882299364379]"^^xsd:decimal ;
+	geo:lat	"47.2224263352114 "^^xsd:decimal ;
+	geo:long	"-1.62882299364379"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44800"^^xsd:string ;
-	ex:siteWeb	 "www.cinemasgaumontpathe.com"^^xsd:string ;
+	dbpprop:website	 "www.cinemasgaumontpathe.com"^^xsd:string ;
 	ex:statut	 "Privé"^^xsd:string ;
 	ex:tel	 "08 36 68 20 22"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3230,10 +3431,11 @@
 	ex:categorie	 "108"^^xsd:string .
 
 <http://projet.com/10/Manoir_de_La_Bégraisière>	 foaf:name 	 "Manoir de La Bégraisière"^^xsd:string ;
-	ex:coordinate	 "[ 47.2317274139793 , -1.61445367434168]"^^xsd:decimal ;
+	geo:lat	"47.2317274139793 "^^xsd:decimal ;
+	geo:long	"-1.61445367434168"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44800"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3246,10 +3448,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Le_Grand_Calvaire_Orvaulr>	 foaf:name 	 "Le Grand Calvaire Orvaulr"^^xsd:string ;
-	ex:coordinate	 "[ 47.2719783532671 , -1.62034778030377]"^^xsd:decimal ;
+	geo:lat	"47.2719783532671 "^^xsd:decimal ;
+	geo:long	"-1.62034778030377"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44700"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 78 31 01"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3262,10 +3465,11 @@
 	ex:categorie	 "104"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Ferme_Poisson>	 foaf:name 	 "Bibliothèque Ferme Poisson"^^xsd:string ;
-	ex:coordinate	 "[ 47.2685985358588 , -1.59911947006688]"^^xsd:decimal ;
+	geo:lat	"47.2685985358588 "^^xsd:decimal ;
+	geo:long	"-1.59911947006688"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44700"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 94 93 91"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3278,10 +3482,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Les_Machines_de_l'Île>	 foaf:name 	 "Les Machines de l'Île"^^xsd:string ;
-	ex:coordinate	 "[ 47.2061466344994 , -1.56450197404816]"^^xsd:decimal ;
+	geo:lat	"47.2061466344994 "^^xsd:decimal ;
+	geo:long	"-1.56450197404816"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44200"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3294,10 +3499,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Municipale_La_Noëlle>	 foaf:name 	 "Bibliothèque Municipale La Noëlle"^^xsd:string ;
-	ex:coordinate	 "[ 47.1765051398139 , -1.53444508100221]"^^xsd:decimal ;
+	geo:lat	"47.1765051398139 "^^xsd:decimal ;
+	geo:long	"-1.53444508100221"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44400"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 04 05 49"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3310,10 +3516,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Château_de_La_Gobinière>	 foaf:name 	 "Château de La Gobinière"^^xsd:string ;
-	ex:coordinate	 "[ 47.2492858925267 , -1.5846704573378]"^^xsd:decimal ;
+	geo:lat	"47.2492858925267 "^^xsd:decimal ;
+	geo:long	"-1.5846704573378"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44700"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "Public"^^xsd:string ;
 	ex:tel	 "02 51 78 33 33"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3326,10 +3533,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Ecole_Municipale_de_Musique_Orvault>	 foaf:name 	 "Ecole Municipale de Musique Orvault"^^xsd:string ;
-	ex:coordinate	 "[ 47.2492764179777 , -1.58560866433022]"^^xsd:decimal ;
+	geo:lat	"47.2492764179777 "^^xsd:decimal ;
+	geo:long	"-1.58560866433022"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44700"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 78 33 34"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3342,10 +3550,11 @@
 	ex:categorie	 "105"^^xsd:string .
 
 <http://projet.com/10/Centre_Culturel_de_la_Gobinière>	 foaf:name 	 "Centre Culturel de la Gobinière"^^xsd:string ;
-	ex:coordinate	 "[ 47.248538885371 , -1.58509095505027]"^^xsd:decimal ;
+	geo:lat	"47.248538885371 "^^xsd:decimal ;
+	geo:long	"-1.58509095505027"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44700"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 78 33 33"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3358,10 +3567,11 @@
 	ex:categorie	 "106"^^xsd:string .
 
 <http://projet.com/10/Salle_Capellia>	 foaf:name 	 "Salle Capellia"^^xsd:string ;
-	ex:coordinate	 "[ 47.2792596003889 , -1.5579643133774]"^^xsd:decimal ;
+	geo:lat	"47.2792596003889 "^^xsd:decimal ;
+	geo:long	"-1.5579643133774"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44240"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 72 09 01"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3374,10 +3584,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Ecluse_de_la_Chaussée_Vertou>	 foaf:name 	 "Ecluse de la Chaussée Vertou"^^xsd:string ;
-	ex:coordinate	 "[ 47.1681517646949 , -1.48087164867207]"^^xsd:decimal ;
+	geo:lat	"47.1681517646949 "^^xsd:decimal ;
+	geo:long	"-1.48087164867207"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44120"^^xsd:string ;
-	ex:siteWeb	 "http"^^xsd:string ;
+	dbpprop:website	 "http"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 34 93 64"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3390,10 +3601,11 @@
 	ex:categorie	 "104"^^xsd:string .
 
 <http://projet.com/10/Cinéma_Le_Montagnard>	 foaf:name 	 "Cinéma Le Montagnard"^^xsd:string ;
-	ex:coordinate	 "[ 47.1878008216791 , -1.68306971608791]"^^xsd:decimal ;
+	geo:lat	"47.1878008216791 "^^xsd:decimal ;
+	geo:long	"-1.68306971608791"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44620"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 65 70 02"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3406,10 +3618,11 @@
 	ex:categorie	 "108"^^xsd:string .
 
 <http://projet.com/10/Ludothèque_Carquefou>	 foaf:name 	 "Ludothèque Carquefou"^^xsd:string ;
-	ex:coordinate	 "[ 47.2975748121882 , -1.48477962344076]"^^xsd:decimal ;
+	geo:lat	"47.2975748121882 "^^xsd:decimal ;
+	geo:long	"-1.48477962344076"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44470"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 52 75 21"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3422,10 +3635,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Château_de_La_Cartière>	 foaf:name 	 "Château de La Cartière"^^xsd:string ;
-	ex:coordinate	 "[ 47.285736248829 , -1.417145516468]"^^xsd:decimal ;
+	geo:lat	"47.285736248829 "^^xsd:decimal ;
+	geo:long	"-1.417145516468"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44470"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 72 64 24"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3438,10 +3652,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Château_de_La_Hillière>	 foaf:name 	 "Château de La Hillière"^^xsd:string ;
-	ex:coordinate	 "[ 47.287449040044 , -1.42541504140761]"^^xsd:decimal ;
+	geo:lat	"47.287449040044 "^^xsd:decimal ;
+	geo:long	"-1.42541504140761"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44470"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 77 30 04"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3454,10 +3669,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Musée_Le_Temps_qui_Passe>	 foaf:name 	 "Musée Le Temps qui Passe"^^xsd:string ;
-	ex:coordinate	 "[ 47.2974770289248 , -1.49485169137904]"^^xsd:decimal ;
+	geo:lat	"47.2974770289248 "^^xsd:decimal ;
+	geo:long	"-1.49485169137904"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44470"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 68 82 75"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3470,10 +3686,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Château_de_La_Gascherie>	 foaf:name 	 "Château de La Gascherie"^^xsd:string ;
-	ex:coordinate	 "[ 47.2978113901198 , -1.53489659610485]"^^xsd:decimal ;
+	geo:lat	"47.2978113901198 "^^xsd:decimal ;
+	geo:long	"-1.53489659610485"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44240"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3486,10 +3703,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Château_de_La_Poterie>	 foaf:name 	 "Château de La Poterie"^^xsd:string ;
-	ex:coordinate	 "[ 47.2839278615961 , -1.52983008491081]"^^xsd:decimal ;
+	geo:lat	"47.2839278615961 "^^xsd:decimal ;
+	geo:long	"-1.52983008491081"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44240"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 72 57 57"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3502,10 +3720,11 @@
 	ex:categorie	 "101"^^xsd:string .
 
 <http://projet.com/10/Ludothèque_l'Ile_aux_Jeux>	 foaf:name 	 "Ludothèque l'Ile aux Jeux"^^xsd:string ;
-	ex:coordinate	 "[ 47.2062604079343 , -1.54967089838391]"^^xsd:decimal ;
+	geo:lat	"47.2062604079343 "^^xsd:decimal ;
+	geo:long	"-1.54967089838391"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44200"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3518,10 +3737,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_Centre_Socioculturel_des_Ponts>	 foaf:name 	 "Bibliothèque Centre Socioculturel des Ponts"^^xsd:string ;
-	ex:coordinate	 "[ 47.2062504071364 , -1.54984727743735]"^^xsd:decimal ;
+	geo:lat	"47.2062504071364 "^^xsd:decimal ;
+	geo:long	"-1.54984727743735"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44200"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 48 61 01"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3534,10 +3754,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Bibliothèque_pour_Tous_Siège_Social_Nantes>	 foaf:name 	 "Bibliothèque pour Tous Siège Social Nantes"^^xsd:string ;
-	ex:coordinate	 "[ 47.2166731773127 , -1.55045863819617]"^^xsd:decimal ;
+	geo:lat	"47.2166731773127 "^^xsd:decimal ;
+	geo:long	"-1.55045863819617"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 47 71 80"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3550,10 +3771,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Centre_Chorégraphique_National_de_Nantes,J__Garnier>	 foaf:name 	 "Centre Chorégraphique National de Nantes,J. Garnier"^^xsd:string ;
-	ex:coordinate	 "[ 47.2259393407459 , -1.56268265508309]"^^xsd:decimal ;
+	geo:lat	"47.2259393407459 "^^xsd:decimal ;
+	geo:long	"-1.56268265508309"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "www.nantes.fr/detente/culture"^^xsd:string ;
+	dbpprop:website	 "www.nantes.fr/detente/culture"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 93 30 97"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3566,10 +3788,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Médiathèque_Saint_Sébastien>	 foaf:name 	 "Médiathèque Saint Sébastien"^^xsd:string ;
-	ex:coordinate	 "[ 47.2056228923034 , -1.50579049134169]"^^xsd:decimal ;
+	geo:lat	"47.2056228923034 "^^xsd:decimal ;
+	geo:long	"-1.50579049134169"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44230"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "Public"^^xsd:string ;
 	ex:tel	 "02 40 80 86 20"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3582,10 +3805,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Ludothèque_de_la_Fontaine>	 foaf:name 	 "Ludothèque de la Fontaine"^^xsd:string ;
-	ex:coordinate	 "[ 47.2038394244849 , -1.48794365210351]"^^xsd:decimal ;
+	geo:lat	"47.2038394244849 "^^xsd:decimal ;
+	geo:long	"-1.48794365210351"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44230"^^xsd:string ;
-	ex:siteWeb	 "http://www.saintseb.fr"^^xsd:string ;
+	dbpprop:website	 "http://www.saintseb.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 34 34 14"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3598,10 +3822,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Le_Grand_T>	 foaf:name 	 "Le Grand T"^^xsd:string ;
-	ex:coordinate	 "[ 47.2306510453369 , -1.54063900428847]"^^xsd:decimal ;
+	geo:lat	"47.2306510453369 "^^xsd:decimal ;
+	geo:long	"-1.54063900428847"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "www.legrandt.fr"^^xsd:string ;
+	dbpprop:website	 "www.legrandt.fr"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 88 25 25"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3614,10 +3839,11 @@
 	ex:categorie	 "107"^^xsd:string .
 
 <http://projet.com/10/Cinéma_Concorde>	 foaf:name 	 "Cinéma Concorde"^^xsd:string ;
-	ex:coordinate	 "[ 47.2111830980786 , -1.58680498628311]"^^xsd:decimal ;
+	geo:lat	"47.2111830980786 "^^xsd:decimal ;
+	geo:long	"-1.58680498628311"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44100"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 46 25 29"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3630,10 +3856,11 @@
 	ex:categorie	 "108"^^xsd:string .
 
 <http://projet.com/10/Ludothèque_Bout_des_Pavés>	 foaf:name 	 "Ludothèque Bout des Pavés"^^xsd:string ;
-	ex:coordinate	 "[ 47.2596195188335 , -1.57728807126018]"^^xsd:decimal ;
+	geo:lat	"47.2596195188335 "^^xsd:decimal ;
+	geo:long	"-1.57728807126018"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44300"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 40 19 16"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3646,10 +3873,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Château_de_Procé>	 foaf:name 	 "Château de Procé"^^xsd:string ;
-	ex:coordinate	 "[ 47.223238903416 , -1.5809131410435]"^^xsd:decimal ;
+	geo:lat	"47.223238903416 "^^xsd:decimal ;
+	geo:long	"-1.5809131410435"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3662,10 +3890,11 @@
 	ex:categorie	 "104"^^xsd:string .
 
 <http://projet.com/10/Salle_d'Expositions_Château_de_Procé>	 foaf:name 	 "Salle d'Expositions Château de Procé"^^xsd:string ;
-	ex:coordinate	 "[ 47.2232961347797 , -1.58125394417763]"^^xsd:decimal ;
+	geo:lat	"47.2232961347797 "^^xsd:decimal ;
+	geo:long	"-1.58125394417763"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "undefined"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3678,10 +3907,11 @@
 	ex:categorie	 "106"^^xsd:string .
 
 <http://projet.com/10/Salle_Municipale_Louis_Dagorne>	 foaf:name 	 "Salle Municipale Louis Dagorne"^^xsd:string ;
-	ex:coordinate	 "[ 47.250249376764 , -1.48569405747892]"^^xsd:decimal ;
+	geo:lat	"47.250249376764 "^^xsd:decimal ;
+	geo:long	"-1.48569405747892"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44980"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 85 06 98"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3694,10 +3924,11 @@
 	ex:categorie	 "103"^^xsd:string .
 
 <http://projet.com/10/Galerie_le_Rayon_Vert>	 foaf:name 	 "Galerie le Rayon Vert"^^xsd:string ;
-	ex:coordinate	 "[ 47.2026719142269 , -1.57979618267744]"^^xsd:decimal ;
+	geo:lat	"47.2026719142269 "^^xsd:decimal ;
+	geo:long	"-1.57979618267744"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44100"^^xsd:string ;
-	ex:siteWeb	 "www.rayonvert.com"^^xsd:string ;
+	dbpprop:website	 "www.rayonvert.com"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 40 71 88 27"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;
@@ -3710,10 +3941,11 @@
 	ex:categorie	 "106"^^xsd:string .
 
 <http://projet.com/10/Musée_de_la_Poste>	 foaf:name 	 "Musée de la Poste"^^xsd:string ;
-	ex:coordinate	 "[ 47.2182559926331 , -1.55932815234466]"^^xsd:decimal ;
+	geo:lat	"47.2182559926331 "^^xsd:decimal ;
+	geo:long	"-1.55932815234466"^^xsd:decimal  ;
 	ex:libTheme	 "CULTURE"^^xsd:string ;
 	ex:cp	 "44000"^^xsd:string ;
-	ex:siteWeb	 "undefined"^^xsd:string ;
+	dbpprop:website	 "undefined"^^xsd:string ;
 	ex:statut	 "undefined"^^xsd:string ;
 	ex:tel	 "02 51 83 37 12"^^xsd:string ;
 	ex:theme	 "1"^^xsd:string ;

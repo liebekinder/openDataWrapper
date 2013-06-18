@@ -98,10 +98,9 @@
 <xsl:otherwise>&#009;ex:ville&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
-<xsl:template match="_l"><xsl:choose><xsl:when test=". = 'null'">&#009;ex:coordinate&#009; "NaN"^^xsd:decimal ;
-</xsl:when>
-<xsl:otherwise>&#009;ex:coordinate&#009; "<xsl:value-of select="."/>"^^xsd:decimal ;
-</xsl:otherwise></xsl:choose></xsl:template>
+<xsl:template match="_l">&#009;geo:lat&#009;"<xsl:value-of select="substring-after(substring-before(.,','),'[ ')"/>"^^xsd:decimal ;
+&#009;geo:long&#009;"<xsl:value-of select="substring-before(substring-after(.,', '),']')"/>"^^xsd:decimal  ;
+</xsl:template>
 
 <xsl:template match="DESCRIPTION_DESCRIPTIF_OUVERTURES">
 <xsl:choose><xsl:when test=". = 'null'">&#009;ex:ouverture&#009; "undefined"^^xsd:string ;
@@ -140,9 +139,9 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="WEB_1">
-<xsl:choose><xsl:when test=". = 'null'">&#009;ex:web&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:website&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;ex:web&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;dbpprop:website&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="DESCRIPTION_DESCRIPTIF_CAPACITE">
@@ -152,9 +151,9 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="MEL_1">
-<xsl:choose><xsl:when test=". = 'null'">&#009;ex:mail&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;sc:email&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;ex:mail&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;sc:email&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="TARIF1_2">

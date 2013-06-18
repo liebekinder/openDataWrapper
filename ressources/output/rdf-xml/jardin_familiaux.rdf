@@ -16,7 +16,8 @@
     <ex:association rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asso  Les jardins de la Cressonnière</ex:association>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rue des Renards</dbpprop:location>
     <ex:surfaceTotale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1176.76</ex:surfaceTotale>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2565927290361 , -1.56309409770614]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.56309409770614</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2565927290361 </geo:lat>
     <ex:nb_parcelles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</ex:nb_parcelles>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> CRESSONNIERE</foaf:name>
   </rdf:Description>
@@ -24,7 +25,8 @@
     <ex:association rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECOS</ex:association>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue d'Hendaye</dbpprop:location>
     <ex:surfaceTotale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">98.4</ex:surfaceTotale>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.1957882470328 , -1.52862142777457]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.52862142777457</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1957882470328 </geo:lat>
     <ex:nb_parcelles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ex:nb_parcelles>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LE JARDINET</foaf:name>
   </rdf:Description>
@@ -32,7 +34,8 @@
     <ex:association rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asso.Jardins Familiaux Nantais</ex:association>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE DE L'ABBAYE</dbpprop:location>
     <ex:surfaceTotale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2030.87</ex:surfaceTotale>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2021953533342 , -1.59877123488103]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.59877123488103</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2021953533342 </geo:lat>
     <ex:nb_parcelles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</ex:nb_parcelles>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOUCARDIERE</foaf:name>
   </rdf:Description>
@@ -40,7 +43,8 @@
     <ex:association rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asso. Jardins de la Marrière </ex:association>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE DU CROISSANT</dbpprop:location>
     <ex:surfaceTotale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15808.73</ex:surfaceTotale>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2351474602204 , -1.52309170665746]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.52309170665746</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2351474602204 </geo:lat>
     <ex:nb_parcelles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90</ex:nb_parcelles>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CROISSANT</foaf:name>
   </rdf:Description>
@@ -48,7 +52,8 @@
     <ex:association rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asso.Jardins Familiaux Nantais</ex:association>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMIN DES CHAUPIERES</dbpprop:location>
     <ex:surfaceTotale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15880.58</ex:surfaceTotale>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2446375693427 , -1.49939897422361]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.49939897422361</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2446375693427 </geo:lat>
     <ex:nb_parcelles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">86</ex:nb_parcelles>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHAUPIERES</foaf:name>
   </rdf:Description>
@@ -56,7 +61,8 @@
     <ex:association rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asso. Jardins de la Fournilière</ex:association>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE JULES PIEDELEU</dbpprop:location>
     <ex:surfaceTotale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31604.69</ex:surfaceTotale>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.212537479885 , -1.58895939752634]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.58895939752634</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.212537479885 </geo:lat>
     <ex:nb_parcelles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">120</ex:nb_parcelles>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FOURNILIERE</foaf:name>
   </rdf:Description>
@@ -64,7 +70,8 @@
     <ex:association rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asso.Jardins Familiaux Nantais</ex:association>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE DU BOIS DE LA MUSSE</dbpprop:location>
     <ex:surfaceTotale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12293.24</ex:surfaceTotale>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2037889595427 , -1.61293860413442]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.61293860413442</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2037889595427 </geo:lat>
     <ex:nb_parcelles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">67</ex:nb_parcelles>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOIS DE LA MUSSE</foaf:name>
   </rdf:Description>
@@ -72,7 +79,8 @@
     <ex:association rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Confédération Syndicale des Familles</ex:association>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue Suzanne Lenglen</dbpprop:location>
     <ex:surfaceTotale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">67.99</ex:surfaceTotale>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2291489128523 , -1.58744980917114]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.58744980917114</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2291489128523 </geo:lat>
     <ex:nb_parcelles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ex:nb_parcelles>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BREIL MALVILLE</foaf:name>
   </rdf:Description>
@@ -80,7 +88,8 @@
     <ex:association rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asso.la crapaudine</ex:association>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AVENUE DES GOBELETS</dbpprop:location>
     <ex:surfaceTotale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23222.69</ex:surfaceTotale>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.1911183070505 , -1.52996452304157]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.52996452304157</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1911183070505 </geo:lat>
     <ex:nb_parcelles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">92</ex:nb_parcelles>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRAPAUDINE</foaf:name>
   </rdf:Description>
@@ -88,7 +97,8 @@
     <ex:association rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asso.Jardins Familiaux Nantais</ex:association>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE DU CORPS DE GARDE</dbpprop:location>
     <ex:surfaceTotale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15964.64</ex:surfaceTotale>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2190308688269 , -1.60089228893563]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.60089228893563</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2190308688269 </geo:lat>
     <ex:nb_parcelles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">78</ex:nb_parcelles>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CONTRIE</foaf:name>
   </rdf:Description>
@@ -96,7 +106,8 @@
     <ex:association rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asso.Jardins Familiaux Nantais</ex:association>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rue Léon Serpollet</dbpprop:location>
     <ex:surfaceTotale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">713.68</ex:surfaceTotale>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2556186549767 , -1.52052713916583]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.52052713916583</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2556186549767 </geo:lat>
     <ex:nb_parcelles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</ex:nb_parcelles>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HALVEQUE/BEAUJOIRE</foaf:name>
   </rdf:Description>
@@ -104,7 +115,8 @@
     <ex:association rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asso.Jardins Familiaux Nantais</ex:association>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BD DU MASSACRE</dbpprop:location>
     <ex:surfaceTotale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3217.96</ex:surfaceTotale>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2293984322158 , -1.59654089683538]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.59654089683538</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2293984322158 </geo:lat>
     <ex:nb_parcelles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21</ex:nb_parcelles>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEZINE</foaf:name>
   </rdf:Description>
@@ -112,7 +124,8 @@
     <ex:association rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asso . Loire &amp; Jardins</ex:association>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMIN DES BATELIERS</dbpprop:location>
     <ex:surfaceTotale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14600.15</ex:surfaceTotale>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2205751821284 , -1.50911365979517]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.50911365979517</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2205751821284 </geo:lat>
     <ex:nb_parcelles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">86</ex:nb_parcelles>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TERRE PROMISE</foaf:name>
   </rdf:Description>
@@ -120,7 +133,8 @@
     <ex:association rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asso.Jardins du Vertais</ex:association>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE VERTAIS</dbpprop:location>
     <ex:surfaceTotale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1117.92</ex:surfaceTotale>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2020816053686 , -1.54694666084343]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.54694666084343</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2020816053686 </geo:lat>
     <ex:nb_parcelles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</ex:nb_parcelles>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VERTAIS</foaf:name>
   </rdf:Description>
@@ -128,7 +142,8 @@
     <ex:association rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asso.Jardins Familiaux Nantais</ex:association>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE FRANSCISCO FERRER</dbpprop:location>
     <ex:surfaceTotale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2136.62</ex:surfaceTotale>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2218094651243 , -1.53362118270376]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.53362118270376</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2218094651243 </geo:lat>
     <ex:nb_parcelles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23</ex:nb_parcelles>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> MOUTONNERIE</foaf:name>
   </rdf:Description>
@@ -136,7 +151,8 @@
     <ex:association rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asso Les Jardins de l'Amande</ex:association>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BD René Cassin</dbpprop:location>
     <ex:surfaceTotale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4754.45</ex:surfaceTotale>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2626386020172 , -1.57701678864409]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.57701678864409</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2626386020172 </geo:lat>
     <ex:nb_parcelles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21</ex:nb_parcelles>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMANDE</foaf:name>
   </rdf:Description>
@@ -144,7 +160,8 @@
     <ex:association rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asso. Des petits jardins du Lait de Mai</ex:association>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rue Emile Péhant</dbpprop:location>
     <ex:surfaceTotale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">182.76</ex:surfaceTotale>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2121267611117 , -1.5481177365621]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.5481177365621</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2121267611117 </geo:lat>
     <ex:nb_parcelles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ex:nb_parcelles>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LAIT DE MAI</foaf:name>
   </rdf:Description>
@@ -152,7 +169,8 @@
     <ex:association rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Les Idéelles</ex:association>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Square de Hongrie</dbpprop:location>
     <ex:surfaceTotale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81.73</ex:surfaceTotale>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2160594773854 , -1.52440173609997]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.52440173609997</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2160594773854 </geo:lat>
     <ex:nb_parcelles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ex:nb_parcelles>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Le GARDEN'KOFF</foaf:name>
   </rdf:Description>
@@ -160,7 +178,8 @@
     <ex:association rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asso  Les jardins de la Roche</ex:association>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemin de la Roche</dbpprop:location>
     <ex:surfaceTotale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4013.0</ex:surfaceTotale>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2194390174894 , -1.52344149022095]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.52344149022095</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2194390174894 </geo:lat>
     <ex:nb_parcelles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17</ex:nb_parcelles>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> LA ROCHE</foaf:name>
   </rdf:Description>
@@ -168,7 +187,8 @@
     <ex:association rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asso  En cours de route</ex:association>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rue du Port Boyer</dbpprop:location>
     <ex:surfaceTotale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">137.08</ex:surfaceTotale>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2420619906882 , -1.53884422722736]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.53884422722736</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2420619906882 </geo:lat>
     <ex:nb_parcelles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ex:nb_parcelles>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PORT BOYER</foaf:name>
   </rdf:Description>
@@ -176,7 +196,8 @@
     <ex:association rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asso.Jardins Familiaux Nantais</ex:association>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bd Pierre de Coubertin</dbpprop:location>
     <ex:surfaceTotale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1743.14</ex:surfaceTotale>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2281754211676 , -1.58576356458799]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.58576356458799</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2281754211676 </geo:lat>
     <ex:nb_parcelles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14</ex:nb_parcelles>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> BREIL/COUBERTIN</foaf:name>
   </rdf:Description>
@@ -184,7 +205,8 @@
     <ex:association rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asso. Les Jardins des Eglantiers</ex:association>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RTE DE LA CHAPELLE SUR ERDRE</dbpprop:location>
     <ex:surfaceTotale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22999.12</ex:surfaceTotale>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2664476306773 , -1.57356790329742]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.57356790329742</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2664476306773 </geo:lat>
     <ex:nb_parcelles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">92</ex:nb_parcelles>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EGLANTIERS</foaf:name>
   </rdf:Description>
@@ -192,7 +214,8 @@
     <ex:association rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asso. Nature &amp; Jardins Nantes Nord </ex:association>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEMIN ANGLE CHAILLOU</dbpprop:location>
     <ex:surfaceTotale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14469.12</ex:surfaceTotale>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2717876097935 , -1.57164946642059]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.57164946642059</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2717876097935 </geo:lat>
     <ex:nb_parcelles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">58</ex:nb_parcelles>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANGLE CHAILLOU</foaf:name>
   </rdf:Description>
@@ -200,7 +223,8 @@
     <ex:association rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asso. Mille et un jardins</ex:association>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE DES EPINETTES</dbpprop:location>
     <ex:surfaceTotale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1677.66</ex:surfaceTotale>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.228702444088 , -1.52084080364442]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.52084080364442</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.228702444088 </geo:lat>
     <ex:nb_parcelles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</ex:nb_parcelles>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPINETTES</foaf:name>
   </rdf:Description>
@@ -208,7 +232,8 @@
     <ex:association rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asso les Jardins des Collnes</ex:association>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemin des Collines</dbpprop:location>
     <ex:surfaceTotale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7683.06</ex:surfaceTotale>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2420588343492 , -1.51645836884369]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.51645836884369</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2420588343492 </geo:lat>
     <ex:nb_parcelles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31</ex:nb_parcelles>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COLLINES</foaf:name>
   </rdf:Description>
@@ -216,7 +241,8 @@
     <ex:association rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asso.Jardins Familiaux Nantais</ex:association>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BD DES BATIGNOLLES</dbpprop:location>
     <ex:surfaceTotale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7283.64</ex:surfaceTotale>
-    <ex:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">[ 47.2540385280162 , -1.52402318387499]</ex:coordinate>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.52402318387499</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2540385280162 </geo:lat>
     <ex:nb_parcelles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">39</ex:nb_parcelles>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> BATIGNOLLES</foaf:name>
   </rdf:Description>
