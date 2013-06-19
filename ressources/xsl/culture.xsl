@@ -58,9 +58,9 @@
 </xsl:template>
 
 <xsl:template match="LIBTHEME">
-<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:culturthemeLabel&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:themeLabel&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;pdll:culturthemeLabel&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;pdll:themeLabel&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="CODE_POSTAL">
@@ -88,9 +88,9 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="THEME">
-<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:culturTheme&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:Theme&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;pdll:culturTheme&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;pdll:Theme&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="COMMUNE">
@@ -104,9 +104,9 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="LIBCATEGORIE">
-<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:culturCategoryLabel&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:CategoryLabel&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;pdll:culturCategoryLabel&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;pdll:CategoryLabel&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="ADRESSE">
@@ -116,9 +116,9 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="LIBTYPE">
-<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:culturTypeLabel&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:TypeLabel&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;pdll:culturTypeLabel&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;pdll:TypeLabel&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="_IDOBJ">
@@ -134,10 +134,10 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="CATEGORIE">
-<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:culturCategory&#009; "undefined"^^xsd:string .
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:Category&#009; "undefined"^^xsd:string .
 
 </xsl:when>
-<xsl:otherwise>&#009;pdll:culturCategory&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string .
+<xsl:otherwise>&#009;pdll:Category&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string .
 
 </xsl:otherwise></xsl:choose></xsl:template>
 

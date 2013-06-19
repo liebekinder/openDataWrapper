@@ -5,6 +5,7 @@ import java.io.FileOutputStream;
 import java.io.OutputStream;
 
 import com.hp.hpl.jena.rdf.model.Model;
+import com.hp.hpl.jena.shared.NotFoundException;
 import com.hp.hpl.jena.util.FileManager;
 
 public class ConvertTtl {
@@ -23,13 +24,13 @@ public class ConvertTtl {
 	 * All parameters are given by the dataSources.xml
 	 */
 	public void convert() {
-		Model model = FileManager.get().loadModel(source);
 		try {
+			Model model = FileManager.get().loadModel(source);
 			OutputStream out = new FileOutputStream(target);
 			model.write(out, "RDF/XML");
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			System.err.println("Le fichier n3 n'existe pas, il y a eu une erreur plus tôt!");
 		}
 
 	}
