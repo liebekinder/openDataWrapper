@@ -2,6 +2,7 @@
 <sources>
   <configuration>
     <mappingFile>ressources/mapping.properties</mappingFile>
+    <queryFolder>queries</queryFolder>
   </configuration>
   <source>
     <nom>Hotel</nom>
@@ -98,18 +99,6 @@
     <format>XML</format>
     <outputTtlFile>ressources/output/ttl/patrimoine.n3</outputTtlFile>
     <outputXmlFile>ressources/output/rdf-xml/patrimoine.rdf</outputXmlFile>
-  </source>
-  <source>
-    <nom>salle_cinema</nom>
-    <api>false</api>
-    <apiurl>null</apiurl>
-    <file>true</file>
-    <filepath>ressources/files/salles_de_cinema.csv</filepath>
-    <mappingFile>null</mappingFile>
-    <xsltFile>/openDataWrapper/xsl/cinema.xsl</xsltFile>
-    <format>CSV</format>
-    <outputTtlFile>ressources/output/ttl/salle_cinema.n3</outputTtlFile>
-    <outputXmlFile>ressources/output/rdf-xml/salle_cinema.rdf</outputXmlFile>
   </source>
   <source>
     <nom>chateau_monument</nom>

@@ -17,7 +17,9 @@ public class Principale {
 	public static Map<Integer, DataSource> listeDataSource;
 	public static Properties properties;
 	public static LoadRessources lr;
-
+	public static Map<Integer, String> queries;
+	public static String queryFolder;
+	
 	/**
 	 * @param args
 	 */
@@ -43,6 +45,8 @@ public class Principale {
 		}
 		listeDataSource = lr.extractData();
 		properties = getMapping(lr.mappingFile);
+		queryFolder = lr.getQueryFolder();
+		queries = lr.getQueries();
 		System.out.println("loading...");
 
 		Scanner in = new Scanner(System.in);
@@ -59,8 +63,9 @@ public class Principale {
 						+ "[4] Convert all data into turtle\n"
 						+ "[5] Convert one data into RDF/XML\n"
 						+ "[6] Convert all data into RDF/XML\n" 
-						+ "[7] Reload data\n" 
-						+ "[8] Quit\n");
+						+ "[7] Query over converted data\n" 
+						+ "[8] Reload data\n" 
+						+ "[0] Quit\n");
 				result = in.nextInt();
 
 				switch (result) {
@@ -83,6 +88,9 @@ public class Principale {
 					conversionXmlAll();
 					break;
 				case 7:
+					queryOverData();
+					break;
+				case 8:
 					reloadData();
 					break;
 				default:
@@ -97,6 +105,12 @@ public class Principale {
 			}
 		}
 		System.out.println("Exiting...");
+	}
+
+	private static void queryOverData() {
+		System.out.println("Query management system");
+		QueryManager qm = new QueryManager(queries, listeDataSource);
+		qm.run();		
 	}
 
 	private static void reloadData() {

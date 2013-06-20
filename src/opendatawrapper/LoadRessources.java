@@ -20,13 +20,23 @@ import org.jdom2.input.SAXBuilder;
 import org.jdom2.output.Format;
 import org.jdom2.output.XMLOutputter;
 
+/**
+ * @author seb
+ *
+ */
 public class LoadRessources {
 
 	public Document document;
 	public String DocumentPath = "ressources/dataSources.xml";
-	Map<Integer, DataSource> listeDataSource;
-	Properties mapping;
-	String mappingFile;
+	public Map<Integer, DataSource> listeDataSource;
+	public Properties mapping;
+	public String mappingFile;
+	public String queryFolder;
+	public Map<Integer,String> queryList;
+
+	public Map<Integer, String> getQueries() {
+		return queryList;
+	}
 
 	public LoadRessources() throws JDOMException, IOException {
 		SAXBuilder sxb = new SAXBuilder();
@@ -52,6 +62,9 @@ public class LoadRessources {
 
 		mappingFile = document.getRootElement().getChild("configuration")
 				.getChild("mappingFile").getValue();
+		queryFolder = System.getProperty("user.home")+"/.openDataWrapper/"+document.getRootElement().getChild("configuration")
+				.getChild("queryFolder").getValue();
+		queryList = findQueries(queryFolder);
 
 		// Dans un premier temps on liste tous les étudiants
 		List<Element> listsources = racine.getChildren("source");
@@ -85,13 +98,39 @@ public class LoadRessources {
 		return getListeDataSource();
 
 	}
+	
+	/**
+	 * @param queryFolder2, the folder that contains all .sparql query files
+	 * @return a TreeMap with the file name and the absolute path
+	 */
+	private Map<Integer,String> findQueries(String queryFolder2) {
+		Map<Integer,String> m = new TreeMap<Integer,String>();
+		String files;
+		File folder = new File(queryFolder2);
+		File[] listOfFiles = folder.listFiles();
+		int cpt = 1;
+		for (int i = 0; i < listOfFiles.length; i++) {
+			if (listOfFiles[i].isFile()) {
+				files = listOfFiles[i].getName();
+				if (files.endsWith(".sparql") || files.endsWith(".SPARQL")) {
+					m.put(cpt,files+":"+listOfFiles[i].getAbsolutePath());
+					cpt++;
+				}
+			}
+		}
+		return m;
+	}
+
+	public String getQueryFolder() {
+		return queryFolder;
+	}
 
 	public void addDatasources() {
 		// le document a déjà été chargé
 		Properties p = new Properties();
 		try {
 			p.load(new FileReader(System.getProperty("user.home")
-					+ "/import.odw"));
+					+ "/.openDataWrapper/import.odw"));
 			Set<Object> cles = p.keySet();
 			Element racine = document.getRootElement();
 			boolean modified = false;
@@ -129,8 +168,8 @@ public class LoadRessources {
 					Element format = new Element("format");
 					format.setText("XML");
 					Element outputTtlFile = new Element("outputTtlFile");
-					outputTtlFile.setText("ressources/output/ttl/" + (String) valeur
-							+ ".n3");
+					outputTtlFile.setText("ressources/output/ttl/"
+							+ (String) valeur + ".n3");
 					Element outputXmlFile = new Element("outputXmlFile");
 					outputXmlFile.setText("ressources/output/rdf-xml/"
 							+ (String) valeur + ".rdf");
@@ -153,8 +192,7 @@ public class LoadRessources {
 				writeDocument();
 				eraseDocument();
 				System.out.print(" modification ");
-			}
-			else{
+			} else {
 				System.out.println(" no modification ");
 			}
 
@@ -171,10 +209,10 @@ public class LoadRessources {
 	private void eraseDocument() {
 		try {
 			OutputStream fos = new FileOutputStream(
-					System.getProperty("user.home") + "/import.odw");
+					System.getProperty("user.home") + "/.openDataWrapper/import.odw");
 			fos.close();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			System.err.println("import.owd can't be opened! Please check that the file exists and is writable!");
 			e.printStackTrace();
 		}
 	}

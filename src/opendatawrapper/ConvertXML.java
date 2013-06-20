@@ -41,7 +41,7 @@ public class ConvertXML {
 	String proxyPort;
 	String authUser;
 	String authPassword;
-	final String PWD_File = System.getProperty("user.home") + "/proxy.pwd";
+	final String PWD_File = System.getProperty("user.home") + "/.openDataWrapper/proxy.pwd";
 
 	/*
 	 * Constructeur
@@ -206,7 +206,13 @@ public class ConvertXML {
 			return null;
 		}
 	}
-
+	
+	/**
+	 * This function create an XSL file from an XML sheet and a mapping file
+	 * @param p, the mapping between XML tag and the RDF vocabulary
+	 * @param document ,the parsed XML
+	 * @return true if the construction got well, false else
+	 */
 	public boolean constructXSL(Properties p, Document document) {
 		XSLConstructor xslc = new XSLConstructor(XSLFile_, document, p);
 		return xslc.construct(mappingPath);
