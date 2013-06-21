@@ -1,0 +1,424 @@
+<rdf:RDF
+    xmlns:dbpprop="http://dbpedia.org/property/"
+    xmlns:gr="http://purl.org/goodrelations/"
+    xmlns:dbpedia="http://dbpedia.org/resource/"
+    xmlns:sc="http://schema.org/"
+    xmlns:pdll="http://data.paysdelaloire.fr/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:ex="http://example.org/"
+    xmlns:TEMPORAIRE="http://temporaire.org/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:prop-fr="http://fr.dbpedia.org/property/"
+    xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" > 
+  <rdf:Description rdf:about="http://projet.com/10/Ciné_Presqu&apos;île">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44350</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3, avenue Anne de Bretagne</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.4281512</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.3316132 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guérande</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciné Presqu'île</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Le_Nozek">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44170</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue de la gare</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.nozay44.com/lenozek</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.5253859</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.5548136 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nozay</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Le Nozek</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Cinémachecoul">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44270</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23, rue des Capucins</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.8235064</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46.993228 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Machecoul</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinémachecoul</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Cinéma_Eden">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44150</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">67, rue Saint-Fiacre</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.cineeden.com</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.1841246</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.3656875 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ancenis</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinéma Eden</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Cinéville">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2750611 </geo:lat>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue Marie Curie</dbpprop:location>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5, boulevard de la Légion d'Honneur - BP 408</dbpprop:location>
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44230</dbpedia-owl:postalCode>
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44600</dbpedia-owl:postalCode>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.cineville.fr</dbpprop:website>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinéville</foaf:name>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.4851055</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1896137 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Sébastien sur Loire</dbpprop:town>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.203853</geo:long>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Nazaire</dbpprop:town>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Cinéma_Saint-Gilles">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44210</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">54, rue de Verdun</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.1010742</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1193374 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pornic</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinéma Saint-Gilles</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Ciné_Loroux">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44430</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue de la Liotterie</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://pagesperso-orange.fr/cineloroux</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.3487288</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2363295 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Le Loroux-Bottereau</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciné Loroux</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Espace_Renaissance">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44480</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1, rue Laënnec</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.ville-donges.fr</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.5040451</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.3469263 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Donges</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Espace Renaissance</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Cinéma_Concorde">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44100</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">79, boulevard Egalité</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.leconcorde.fr</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.5868273</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2111544 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinéma Concorde</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Cinéma_Le_Beaulieu">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44340</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26, rue de Beaulieu</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.cinemalebeaulieu.com</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.6248557</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1782903 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bouguenais</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinéma Le Beaulieu</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Saint-Joseph">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44210</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14, rue Notre-Dame</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.1279528</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1142605999 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sainte-Marie-sur-Mer</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Joseph</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/L&apos;Odéon">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44290</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7, place de l'Eglise</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.8326347</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.6302765 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guémené-Penfao</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L'Odéon</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Cinéjade">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44250</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc d'activité de la Guerche</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.saint-brevin.fr/tourisme/cinema-cinejade.html</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.165807</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.246659 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Brévin-les-Pins</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinéjade</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Cinéma_Pax">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44510</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5, rue Maréchal Joffre</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.reperages.biz</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.429844</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2760547 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Le Pouliguen</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinéma Pax</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Cinéma_Saint-Michel">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44730</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20, rue du Redois</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.1500492</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1809564 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Michel Chef Chef</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinéma Saint-Michel</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Cinéma_Le_Gen&apos;eric">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44810</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue de l'océan - BP 6</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.cinema-generic.com/</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.6577089</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.415069 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Héric</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinéma Le Gen'eric</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Gulf_Stream">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44500</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">52, avenue du Général De Gaulle</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.3918934</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2837292 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Baule</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gulf Stream</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/UGC_Ciné_Cité_Atlantis">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44812</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Place Jean Bart</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.ugc.fr</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.625475</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2242998 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Herblain</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UGC Ciné Cité Atlantis</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Cinéma_Le_Montagnard">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44620</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Place Similien Guérin</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lemontagnard.cine.allocine.fr/</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.6836739</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1884883 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Montagne</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinéma Le Montagnard</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Pathé_Atlantis">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44800</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allée de la Pérouse</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.cinemasgaumontpathe.com</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.6262387</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2225519 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Herblain</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathé Atlantis</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Cinéma_Saint-Laurent">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44130</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9, rue du 11 novembre</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.cineblain.fr</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.7639012</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.4763785 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blain</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinéma Saint-Laurent</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Salle_Jacques_Tati">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44603</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33, boulevard Victor Hugo</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.letheatre-saintnazaire.fr</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.2163867</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2807248 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Nazaire</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salle Jacques Tati</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Cinéma_Jacques_Demy">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44450</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11, rue du stade</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.cinema-la-chapelle-basse-mer.fr</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.3351477</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2700112 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Chapelle-Basse-Mer</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinéma Jacques Demy</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Espace_Culturel">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44530</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue Gabriel Deshayes</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.0404892</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.5153946 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Gildas des Bois</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Espace Culturel</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/La_Bobine">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44160</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6, place de la gare</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.0885025</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.4359066 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pontchâteau</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Bobine</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Cinéma_Victoria">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44750</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue Saint-Victor</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.cinema-victoria44.ici.st/</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.96546</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.411658 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campbon</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinéma Victoria</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Cinéma_Le_Connétable">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44190</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 cours des Marches de Bretagne</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.cinema-leconnetable.fr/</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.280468</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.0864509 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clisson</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinéma Le Connétable</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Cinéma_Le_Cep">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44330</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8, boulevard Evariste Dejoie</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.cinemalecep.fr</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.264214</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1624427 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vallet</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinéma Le Cep</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Cinéma_Atlantic">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44420</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Place des anciens combattants</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.reperages.biz</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.511759</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.348472 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Turballe</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinéma Atlantic</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Cinéma_Paradiso">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44390</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24, boulevard de la gare - BP 14</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.cinema-paradiso.asso.fr/</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.5029358</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.4411312 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nort-sur-Erdre</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinéma Paradiso</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Cinéma_Bonne-Garde">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44200</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20, rue du frère Louis</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.cinebonnegarde.ift.fr</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.5383884</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1952762 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinéma Bonne-Garde</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Ciné_Vaillant">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44120</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12, rue du Général De Gaulle</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.cinevaillant.com</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.4696791999</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1675021 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertou</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciné Vaillant</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Katorza">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3, rue Corneille</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.katorza.fr</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.5625501</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2136078 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Katorza</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Le_Hublot">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44490</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Place Dinan</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.cinemahublot.com</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.5095419</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2930097 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Le Croisic</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Le Hublot</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Lutétia">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44800</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18, rue des calvaires</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.6493339</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2140196 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Herblain</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lutétia</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Gaumont_Nantes">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44000</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12, place du commerce</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.cinemasgaumontpathe.com</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.5574897</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2133267 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gaumont Nantes</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Cinéma_Saint-Paul">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44400</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38, rue Julien Douillard</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cinesaintpaul.free.fr</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.5439873</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1839593 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rezé</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinéma Saint-Paul</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Cinéma_Jeanne_d&apos;Arc">
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15, rue de la mer</dbpprop:location>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.5236939 </geo:lat>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17, boulevard de la Ferronnays</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cinema.jeannedarc.free.fr/</dbpprop:website>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Mars-la-Jaille</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Bernerie en Retz</dbpprop:town>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.1875681</geo:long>
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44540</dbpedia-owl:postalCode>
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44760</dbpedia-owl:postalCode>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.0796364 </geo:lat>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinéma Jeanne d'Arc</foaf:name>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.0391846</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Montluc_Cinéma">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44360</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue Chauvin de la Musse</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.montluc-cinema.weebly.com</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.7795501</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2757012 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Etienne-de-Montluc</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montluc Cinéma</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Ciné_Phil">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44310</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue de la cure</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.cinephil.fr</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.6420699</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.034876 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Philbert-de-Grandlieu</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciné Phil</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Ciné_Malouine">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44550</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue Aristide Briand</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.cinemalouine.a3w.fr</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.1754478</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.353027999 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Malô-de-Guersac</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciné Malouine</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Atlantic_Ciné">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44110</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21, rue de la vernisserie</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.atlanticcine.com</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.3772438</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.7225637 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Châteaubriant</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atlantic Ciné</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Ciné_Pole_Sud">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44115</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Route de Clisson</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.cinepolesud.fr</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.4483186</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1851988 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basse-Goulaine</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciné Pole Sud</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://projet.com/10/Cinéma_Atlantique">
+    <dbpedia-owl:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44770</dbpedia-owl:postalCode>
+    <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grande rue</dbpprop:location>
+    <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpprop:website>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.2164049</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1285262 </geo:lat>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Préfailles</dbpprop:town>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinéma Atlantique</foaf:name>
+  </rdf:Description>
+</rdf:RDF>
