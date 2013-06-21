@@ -61,31 +61,29 @@
 </xsl:template>
 
 <xsl:template match="SERVICE_VELO">
-<xsl:choose><xsl:when test=". = 'null'">&#009;TEMPORAIRE:SERVICE_VELO&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:hasBikeFeature&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;TEMPORAIRE:SERVICE_VELO&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;pdll:hasBikeFeature&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="CAPACITE_VOITURE">
-<xsl:choose><xsl:when test=". = 'null'">&#009;TEMPORAIRE:CAPACITE_VOITURE&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:carCapacity&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;TEMPORAIRE:CAPACITE_VOITURE&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;pdll:carCapacity&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="_l">&#009;geo:lat&#009;"<xsl:value-of select="substring-after(substring-before(.,','),'[ ')"/>"^^xsd:decimal ;
 &#009;geo:long&#009;"<xsl:value-of select="substring-before(substring-after(.,', '),']')"/>"^^xsd:decimal  ;
 </xsl:template>
 
-<xsl:template match="CODCOMMUNE">
-<xsl:choose><xsl:when test=". = 'null'">&#009;TEMPORAIRE:CODCOMMUNE&#009; "undefined"^^xsd:string ;
+<xsl:template match="CODCOMMUNE"><xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:insee&#009; "NaN"^^xsd:integer ;
 </xsl:when>
-<xsl:otherwise>&#009;TEMPORAIRE:CODCOMMUNE&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;dbpprop:insee&#009; "<xsl:value-of select="."/>"^^xsd:integer ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
-<xsl:template match="CAPACITE_VEHICULE_ELECTRIQUE">
-<xsl:choose><xsl:when test=". = 'null'">&#009;TEMPORAIRE:CAPACITE_VEHICULE_ELECTRIQUE&#009; "undefined"^^xsd:string ;
+<xsl:template match="CAPACITE_VEHICULE_ELECTRIQUE"><xsl:choose><xsl:when test=". = 'null'">&#009;pdll:electricBikeCapacity&#009; "NaN"^^xsd:integer ;
 </xsl:when>
-<xsl:otherwise>&#009;TEMPORAIRE:CAPACITE_VEHICULE_ELECTRIQUE&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;pdll:electricBikeCapacity&#009; "<xsl:value-of select="."/>"^^xsd:integer ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="CODE_POSTAL">
@@ -101,21 +99,21 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="MOYEN_PAIEMENT">
-<xsl:choose><xsl:when test=". = 'null'">&#009;TEMPORAIRE:MOYEN_PAIEMENT&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;gr:acceptedPaymentMethod&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;TEMPORAIRE:MOYEN_PAIEMENT&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;gr:acceptedPaymentMethod&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="AUTRES_SERVICE_MOB_PROX">
-<xsl:choose><xsl:when test=". = 'null'">&#009;TEMPORAIRE:AUTRES_SERVICE_MOB_PROX&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:featuresDescription&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;TEMPORAIRE:AUTRES_SERVICE_MOB_PROX&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;pdll:featuresDescription&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="CONDITIONS_D_ACCES">
-<xsl:choose><xsl:when test=". = 'null'">&#009;TEMPORAIRE:CONDITIONS_D_ACCES&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;sc:price&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;TEMPORAIRE:CONDITIONS_D_ACCES&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;sc:price&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="COMMUNE">
@@ -129,15 +127,15 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="SERVICES">
-<xsl:choose><xsl:when test=". = 'null'">&#009;TEMPORAIRE:SERVICES&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:features&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;TEMPORAIRE:SERVICES&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;pdll:features&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="CAPACITE_VELO">
-<xsl:choose><xsl:when test=". = 'null'">&#009;TEMPORAIRE:CAPACITE_VELO&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:bikeCapacity&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;TEMPORAIRE:CAPACITE_VELO&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;pdll:bikeCapacity&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="PRESENTATION">
@@ -153,9 +151,9 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="CAPACITE_PMR">
-<xsl:choose><xsl:when test=". = 'null'">&#009;TEMPORAIRE:CAPACITE_PMR&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:carCapacityForDisable&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;TEMPORAIRE:CAPACITE_PMR&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;pdll:carCapacityForDisable&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="ADRESSE">
@@ -171,9 +169,9 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="EXPLOITANT">
-<xsl:choose><xsl:when test=". = 'null'">&#009;TEMPORAIRE:EXPLOITANT&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:owner&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;TEMPORAIRE:EXPLOITANT&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;dbpprop:owner&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="LIBTYPE">

@@ -1,0 +1,1200 @@
+
+@prefix TEMPORAIRE: <http://temporaire.org/> .
+@prefix gr: <http://purl.org/goodrelations/> .
+@prefix pdll: <http://data.paysdelaloire.fr/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix prop-fr: <http://fr.dbpedia.org/property/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ex: <http://example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbpprop: <http://dbpedia.org/property/> .
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
+@prefix sc: <http://schema.org/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+<http://projet.com/10/THEATRE_QUARTIER_LIBRE_>	 foaf:name 	 "THEATRE QUARTIER LIBRE "^^xsd:string ;
+	dbpprop:location	 "Quartier Rohan"^^xsd:string ;
+	dbpprop:capacity	 "490"^^xsd:string ;
+	geo:lat	"47.365464 "^^xsd:decimal ;
+	geo:long	"-1.177491"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "DAHERON Dominique"^^xsd:string ;
+	pdll:id	 "1"^^xsd:string ;
+	sc:email	 "reservation@theatre-ancenis.com"^^xsd:string ;
+	dbpprop:town	 "ANCENIS"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44150"^^xsd:integer ;
+	sc:telephone	 "02.51.14.17.17"^^xsd:string .
+
+<http://projet.com/10/SALLE_PAUL_BOUIN_>	 foaf:name 	 "SALLE PAUL BOUIN "^^xsd:string ;
+	dbpprop:location	 "Square de Theley"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.21763230000001 "^^xsd:decimal ;
+	geo:long	"-1.4649073"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "BURGAUD Daniel"^^xsd:string ;
+	pdll:id	 "2"^^xsd:string ;
+	sc:email	 "communication@basse-goulaine.fr"^^xsd:string ;
+	dbpprop:town	 "BASSE-GOULAINE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44115"^^xsd:integer ;
+	sc:telephone	 "02.40.03.55.56"^^xsd:string .
+
+<http://projet.com/10/CENTRE_CULTUREL_PIANO'CKTAIL>	 foaf:name 	 "CENTRE CULTUREL PIANO'CKTAIL"^^xsd:string ;
+	dbpprop:location	 "Rue Ginsheim Gustavsburg"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.176385 "^^xsd:decimal ;
+	geo:long	"-1.619656"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "RAUCK Sandrine"^^xsd:string ;
+	pdll:id	 "3"^^xsd:string ;
+	sc:email	 "pianocktail@ville-bouguenais.fr"^^xsd:string ;
+	dbpprop:town	 "BOUGUENAIS"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44340"^^xsd:integer ;
+	sc:telephone	 "02.40.65.05.25"^^xsd:string .
+
+<http://projet.com/10/LE_NOUVEAU_PAVILLON>	 foaf:name 	 "LE NOUVEAU PAVILLON"^^xsd:string ;
+	dbpprop:location	 "rue Ginsheim-Gustavburg"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.176385 "^^xsd:decimal ;
+	geo:long	"-1.619656"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "undefined"^^xsd:string ;
+	pdll:id	 "4"^^xsd:string ;
+	sc:email	 "info@lenouveaupavillon.com"^^xsd:string ;
+	dbpprop:town	 "BOUGUENAIS"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44340"^^xsd:integer ;
+	sc:telephone	 "02.40.02.35.16"^^xsd:string .
+
+<http://projet.com/10/HORIZINC>	 foaf:name 	 "HORIZINC"^^xsd:string ;
+	dbpprop:location	 "12 rue Louis Guihot"^^xsd:string ;
+	dbpprop:capacity	 "450"^^xsd:string ;
+	geo:lat	"47.4178864 "^^xsd:decimal ;
+	geo:long	"-1.8473786"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "undefined"^^xsd:string ;
+	pdll:id	 "5"^^xsd:string ;
+	sc:email	 "mairie.bouvron@wanadoo.fr"^^xsd:string ;
+	dbpprop:town	 "BOUVRON"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44130"^^xsd:integer ;
+	sc:telephone	 "02.40.56.32.18"^^xsd:string .
+
+<http://projet.com/10/THEATRE_DE_LA_FLEURIAYE>	 foaf:name 	 "THEATRE DE LA FLEURIAYE"^^xsd:string ;
+	dbpprop:location	 "30 Bd Ampère"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.301957599 "^^xsd:decimal ;
+	geo:long	"-1.5030189"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "NADAL Michel"^^xsd:string ;
+	pdll:id	 "6"^^xsd:string ;
+	sc:email	 "congres@mairie-carquefou.fr"^^xsd:string ;
+	dbpprop:town	 "CARQUEFOU"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44470"^^xsd:integer ;
+	sc:telephone	 "02.28.22.24.24"^^xsd:string .
+
+<http://projet.com/10/LA_HALLE_DE_BERE>	 foaf:name 	 "LA HALLE DE BERE"^^xsd:string ;
+	dbpprop:location	 "Rue Briand Premier"^^xsd:string ;
+	dbpprop:capacity	 "2000"^^xsd:string ;
+	geo:lat	"47.720948 "^^xsd:decimal ;
+	geo:long	"-1.3762239"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "+ 1200 places"^^xsd:string ;
+	dbpprop:owner	 "LOPARD François"^^xsd:string ;
+	pdll:id	 "7"^^xsd:string ;
+	sc:email	 "undefined"^^xsd:string ;
+	dbpprop:town	 "CHATEAUBRIANT"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44110"^^xsd:integer ;
+	sc:telephone	 "02.40.81.57.39"^^xsd:string .
+
+<http://projet.com/10/THEATRE_DE_VERRE_>	 foaf:name 	 "THEATRE DE VERRE "^^xsd:string ;
+	dbpprop:location	 "27 place Charles de Gaulle"^^xsd:string ;
+	dbpprop:capacity	 "496"^^xsd:string ;
+	geo:lat	"47.7187233 "^^xsd:decimal ;
+	geo:long	"-1.373814"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "PITHOIS Frédéric"^^xsd:string ;
+	pdll:id	 "8"^^xsd:string ;
+	sc:email	 "tdv.billeterie@wanadoo.fr"^^xsd:string ;
+	dbpprop:town	 "CHATEAUBRIANT"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44110"^^xsd:integer ;
+	sc:telephone	 "02.40.81.16.19"^^xsd:string .
+
+<http://projet.com/10/THEATRE_CHEMERE>	 foaf:name 	 "THEATRE CHEMERE"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - 6 rue de Nantes"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.1224587 "^^xsd:decimal ;
+	geo:long	"-1.9138762"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "GUILBAUD Gérard"^^xsd:string ;
+	pdll:id	 "9"^^xsd:string ;
+	sc:email	 "undefined"^^xsd:string ;
+	dbpprop:town	 "CHEMERE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44680"^^xsd:integer ;
+	sc:telephone	 "02.40.21.30.22"^^xsd:string .
+
+<http://projet.com/10/ESPACE_SAINT_JACQUES>	 foaf:name 	 "ESPACE SAINT JACQUES"^^xsd:string ;
+	dbpprop:location	 "Route du Docteur Duboueix"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.0886 "^^xsd:decimal ;
+	geo:long	"-1.284006"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "CESBRON Claude"^^xsd:string ;
+	pdll:id	 "10"^^xsd:string ;
+	sc:email	 "contact@mairie-clisson.fr"^^xsd:string ;
+	dbpprop:town	 "CLISSON"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44191"^^xsd:integer ;
+	sc:telephone	 "02.40.80.17.80"^^xsd:string .
+
+<http://projet.com/10/THEATRE_BORIS_VIAN>	 foaf:name 	 "THEATRE BORIS VIAN"^^xsd:string ;
+	dbpprop:location	 "Rue Edmond Rostand"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.210999 "^^xsd:decimal ;
+	geo:long	"-1.72885"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "DAGORNE Murielle"^^xsd:string ;
+	pdll:id	 "11"^^xsd:string ;
+	sc:email	 "culture@mairie-coueron.fr"^^xsd:string ;
+	dbpprop:town	 "COUERON"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44220"^^xsd:integer ;
+	sc:telephone	 "02.28.25.85.35"^^xsd:string .
+
+<http://projet.com/10/ESPACE_CULTUREL_RENAISSANCE_>	 foaf:name 	 "ESPACE CULTUREL RENAISSANCE "^^xsd:string ;
+	dbpprop:location	 "Rue Laënnec"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.318789 "^^xsd:decimal ;
+	geo:long	"-2.074694"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "JOSSO Jean-Pierre"^^xsd:string ;
+	pdll:id	 "12"^^xsd:string ;
+	sc:email	 "mairie@ville-donges.fr"^^xsd:string ;
+	dbpprop:town	 "DONGES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44480"^^xsd:integer ;
+	sc:telephone	 "02.40.91.00.06"^^xsd:string .
+
+<http://projet.com/10/SALLE_DE_SPECTACLES_DENISE_GREY_>	 foaf:name 	 "SALLE DE SPECTACLES DENISE GREY "^^xsd:string ;
+	dbpprop:location	 "11 rue de la Mairie"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.4134769 "^^xsd:decimal ;
+	geo:long	"-1.7905281"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "TOBIE Michel"^^xsd:string ;
+	pdll:id	 "13"^^xsd:string ;
+	sc:email	 "mairie@faydebretagne.fr"^^xsd:string ;
+	dbpprop:town	 "FAY-DE-BRETAGNE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44130"^^xsd:integer ;
+	sc:telephone	 "02.40.87.42.18"^^xsd:string .
+
+<http://projet.com/10/ESPACE_BELLEVUE_>	 foaf:name 	 "ESPACE BELLEVUE "^^xsd:string ;
+	dbpprop:location	 "Rue de Pont Jean-Vay"^^xsd:string ;
+	dbpprop:capacity	 "491"^^xsd:string ;
+	geo:lat	"47.077874 "^^xsd:decimal ;
+	geo:long	"-1.249244"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "DAVASE Frédérique"^^xsd:string ;
+	pdll:id	 "14"^^xsd:string ;
+	sc:email	 "undefined"^^xsd:string ;
+	dbpprop:town	 "GETIGNE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44190"^^xsd:integer ;
+	sc:telephone	 "02.40.54.31.26"^^xsd:string .
+
+<http://projet.com/10/ESPACE_ATHANOR_>	 foaf:name 	 "ESPACE ATHANOR "^^xsd:string ;
+	dbpprop:location	 "Avenue Anne de Bretagne "^^xsd:string ;
+	dbpprop:capacity	 "330"^^xsd:string ;
+	geo:lat	"47.3294246 "^^xsd:decimal ;
+	geo:long	"-2.4224185"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "undefined"^^xsd:string ;
+	pdll:id	 "15"^^xsd:string ;
+	sc:email	 "athanor@ville-guerande.fr"^^xsd:string ;
+	dbpprop:town	 "GUERANDE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44350"^^xsd:integer ;
+	sc:telephone	 "02.40.24.73.73"^^xsd:string .
+
+<http://projet.com/10/LE_QUATRAIN>	 foaf:name 	 "LE QUATRAIN"^^xsd:string ;
+	dbpprop:location	 "Rue de la Basse Lande"^^xsd:string ;
+	dbpprop:capacity	 "400"^^xsd:string ;
+	geo:lat	"47.1928135 "^^xsd:decimal ;
+	geo:long	"-1.4419259"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "CHEVALIER Aurore"^^xsd:string ;
+	pdll:id	 "16"^^xsd:string ;
+	sc:email	 "direction@lequatrain.fr"^^xsd:string ;
+	dbpprop:town	 "HAUTE-GOULAINE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44115"^^xsd:integer ;
+	sc:telephone	 "02.40.80.66.03"^^xsd:string .
+
+<http://projet.com/10/CENTRE_CULTUREL_ET_DES_CONGRES_ATLANTIA_>	 foaf:name 	 "CENTRE CULTUREL ET DES CONGRES ATLANTIA "^^xsd:string ;
+	dbpprop:location	 "121 avenue de Lattre de Tassigny"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.2824238 "^^xsd:decimal ;
+	geo:long	"-2.4096394"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "RAEDERSTOERFFER Paule"^^xsd:string ;
+	pdll:id	 "17"^^xsd:string ;
+	sc:email	 "culturel@atlantia.tm.fr"^^xsd:string ;
+	dbpprop:town	 "LA-BAULE-ESCOUBLAC"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44500"^^xsd:integer ;
+	sc:telephone	 "02.40.11.51.51"^^xsd:string .
+
+<http://projet.com/10/SALLE_DE_SPECTACLES_MAURICE_ET_KATIA_KRAFFT_>	 foaf:name 	 "SALLE DE SPECTACLES MAURICE ET KATIA KRAFFT "^^xsd:string ;
+	dbpprop:location	 "16 rue de la Brière"^^xsd:string ;
+	dbpprop:capacity	 "430"^^xsd:string ;
+	geo:lat	"47.44664299 "^^xsd:decimal ;
+	geo:long	"-2.2429565"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "undefined"^^xsd:string ;
+	pdll:id	 "18"^^xsd:string ;
+	sc:email	 "serviceculturel@chapelledesmarais.fr"^^xsd:string ;
+	dbpprop:town	 "LA-CHAPELLE-DES-MARAIS"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44410"^^xsd:integer ;
+	sc:telephone	 "02.40.53.26.34"^^xsd:string .
+
+<http://projet.com/10/ESPACE_CULTUREL_CAPELLIA_>	 foaf:name 	 "ESPACE CULTUREL CAPELLIA "^^xsd:string ;
+	dbpprop:location	 "Chemin Roche Blance"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.29957599 "^^xsd:decimal ;
+	geo:long	"-1.550638"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "undefined"^^xsd:string ;
+	dbpprop:owner	 "PINARD Michel"^^xsd:string ;
+	pdll:id	 "19"^^xsd:string ;
+	sc:email	 "capellia@lachapellesurerdre.fr"^^xsd:string ;
+	dbpprop:town	 "LA-CHAPELLE-SUR-ERDRE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44240"^^xsd:integer ;
+	sc:telephone	 "02.40.72.09.01"^^xsd:string .
+
+<http://projet.com/10/LE_JAM>	 foaf:name 	 "LE JAM"^^xsd:string ;
+	dbpprop:location	 "Espace Familles Pierre de Rosa - 15 rue Jean Jaurès"^^xsd:string ;
+	dbpprop:capacity	 "200"^^xsd:string ;
+	geo:lat	"47.3011428 "^^xsd:decimal ;
+	geo:long	"-1.5504289"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "TELLIER Gweltaz"^^xsd:string ;
+	pdll:id	 "20"^^xsd:string ;
+	sc:email	 "lejam@lachapellesurerdre.fr"^^xsd:string ;
+	dbpprop:town	 "LA-CHAPELLE-SUR-ERDRE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44240"^^xsd:integer ;
+	sc:telephone	 "02.51.81.87.23"^^xsd:string .
+
+<http://projet.com/10/LE_GRAND_LIEU>	 foaf:name 	 "LE GRAND LIEU"^^xsd:string ;
+	dbpprop:location	 "place Saint Martin"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.0938963 "^^xsd:decimal ;
+	geo:long	"-1.6117689"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "LEFRANCOIS Christophe"^^xsd:string ;
+	pdll:id	 "21"^^xsd:string ;
+	sc:email	 "commune@mairie-lachevroliere.fr"^^xsd:string ;
+	dbpprop:town	 "LA-CHEVROLIERE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44118"^^xsd:integer ;
+	sc:telephone	 "02.40.13.30.00"^^xsd:string .
+
+<http://projet.com/10/ESPACE_CULTUREL_LE_MIL'LIEU_>	 foaf:name 	 "ESPACE CULTUREL LE MIL'LIEU "^^xsd:string ;
+	dbpprop:location	 "3 rue de l'Abbé Merel"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.52642609 "^^xsd:decimal ;
+	geo:long	"-1.6675501"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "LEGER Bruno"^^xsd:string ;
+	pdll:id	 "22"^^xsd:string ;
+	sc:email	 "mairie@lagrigonnais.fr"^^xsd:string ;
+	dbpprop:town	 "LA-GRIGONNAIS"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44170"^^xsd:integer ;
+	sc:telephone	 "02.40.51.36.61"^^xsd:string .
+
+<http://projet.com/10/SALLE_DE_L'ANCIENNE_CRIEE_>	 foaf:name 	 "SALLE DE L'ANCIENNE CRIEE "^^xsd:string ;
+	dbpprop:location	 "Place Boston"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.29493309 "^^xsd:decimal ;
+	geo:long	"-2.5114229"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "undefined"^^xsd:string ;
+	pdll:id	 "23"^^xsd:string ;
+	sc:email	 "undefined"^^xsd:string ;
+	dbpprop:town	 "LE-CROISIC"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44490"^^xsd:integer ;
+	sc:telephone	 "02.40.62.99.99"^^xsd:string .
+
+<http://projet.com/10/ESPACE_RENE_CASSIN_>	 foaf:name 	 "ESPACE RENE CASSIN "^^xsd:string ;
+	dbpprop:location	 "Rue de la Jouardais"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.19585989 "^^xsd:decimal ;
+	geo:long	"-1.7590545"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "NICOU Flore"^^xsd:string ;
+	pdll:id	 "24"^^xsd:string ;
+	sc:email	 "undefined"^^xsd:string ;
+	dbpprop:town	 "LE-PELLERIN"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44640"^^xsd:integer ;
+	sc:telephone	 "02.40.04.56.00"^^xsd:string .
+
+<http://projet.com/10/ESPACE_CULTUREL_SAINT_MICHEL>	 foaf:name 	 "ESPACE CULTUREL SAINT MICHEL"^^xsd:string ;
+	dbpprop:location	 "11 rue de la Chaussée"^^xsd:string ;
+	dbpprop:capacity	 "210"^^xsd:string ;
+	geo:lat	"46.8852102 "^^xsd:decimal ;
+	geo:long	"-1.5961492"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "BONNEAU Jean-Luc"^^xsd:string ;
+	pdll:id	 "25"^^xsd:string ;
+	sc:email	 "mairie@ville-lege44.fr"^^xsd:string ;
+	dbpprop:town	 "LEGE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44650"^^xsd:integer ;
+	sc:telephone	 "02.40.26.35.00"^^xsd:string .
+
+<http://projet.com/10/ESPACE_CULTUREL_LE_PREAMBULE_>	 foaf:name 	 "ESPACE CULTUREL LE PREAMBULE "^^xsd:string ;
+	dbpprop:location	 "Place de Presteigne"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.412023 "^^xsd:decimal ;
+	geo:long	"-1.3767259"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "ROUILLON Catherine"^^xsd:string ;
+	pdll:id	 "26"^^xsd:string ;
+	sc:email	 "espace.culturel@ligne.fr"^^xsd:string ;
+	dbpprop:town	 "LIGNE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44850"^^xsd:integer ;
+	sc:telephone	 "02.40.77.00.08"^^xsd:string .
+
+<http://projet.com/10/THEATRE_DE_L'ESPACE_DE_RETZ>	 foaf:name 	 "THEATRE DE L'ESPACE DE RETZ"^^xsd:string ;
+	dbpprop:location	 "Place du Champ de Foire"^^xsd:string ;
+	dbpprop:capacity	 "444"^^xsd:string ;
+	geo:lat	"46.9936804 "^^xsd:decimal ;
+	geo:long	"-1.8255148"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "MADIOT Claire"^^xsd:string ;
+	pdll:id	 "27"^^xsd:string ;
+	sc:email	 "undefined"^^xsd:string ;
+	dbpprop:town	 "MACHECOUL"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44270"^^xsd:integer ;
+	sc:telephone	 "02.40.02.25.45"^^xsd:string .
+
+<http://projet.com/10/LE_VALLON_>	 foaf:name 	 "LE VALLON "^^xsd:string ;
+	dbpprop:location	 "7 rue du Carteron"^^xsd:string ;
+	dbpprop:capacity	 "224"^^xsd:string ;
+	geo:lat	"47.2973565 "^^xsd:decimal ;
+	geo:long	"-1.3934769"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "undefined"^^xsd:string ;
+	dbpprop:owner	 "HORDAX "^^xsd:string ;
+	pdll:id	 "28"^^xsd:string ;
+	sc:email	 "mairie.mauves@mauvessurloire.fr"^^xsd:string ;
+	dbpprop:town	 "MAUVES-SUR-LOIRE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44470"^^xsd:integer ;
+	sc:telephone	 "02.40.25.50.36"^^xsd:string .
+
+<http://projet.com/10/ESPACE_CULTUREL_LE_CLAIR_OBSCUR>	 foaf:name 	 "ESPACE CULTUREL LE CLAIR OBSCUR"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - 230 rue de la Vieille Cour"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.4314979 "^^xsd:decimal ;
+	geo:long	"-1.2286188"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "CLOUET Jean-Yves"^^xsd:string ;
+	pdll:id	 "29"^^xsd:string ;
+	sc:email	 "mairie.mesanger@wanadoo.fr"^^xsd:string ;
+	dbpprop:town	 "MESANGER"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44522"^^xsd:integer ;
+	sc:telephone	 "02.40.96.75.22"^^xsd:string .
+
+<http://projet.com/10/ESPACE_LA_GARENNE_>	 foaf:name 	 "ESPACE LA GARENNE "^^xsd:string ;
+	dbpprop:location	 "9 rue Saint Charles"^^xsd:string ;
+	dbpprop:capacity	 "200"^^xsd:string ;
+	geo:lat	"47.481369 "^^xsd:decimal ;
+	geo:long	"-2.1596165"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "VERGER Sylvain - Animateur Culturel"^^xsd:string ;
+	pdll:id	 "30"^^xsd:string ;
+	sc:email	 "culture@missillac.fr"^^xsd:string ;
+	dbpprop:town	 "MISSILLAC"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44780"^^xsd:integer ;
+	sc:telephone	 "06.82.44.49.03"^^xsd:string .
+
+<http://projet.com/10/SALLE_POLYVALENTE>	 foaf:name 	 "SALLE POLYVALENTE"^^xsd:string ;
+	dbpprop:location	 "65 rue Jean Jaurès"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.3268145 "^^xsd:decimal ;
+	geo:long	"-2.1505459"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "DELUGRE Marcelle"^^xsd:string ;
+	pdll:id	 "31"^^xsd:string ;
+	sc:email	 "undefined"^^xsd:string ;
+	dbpprop:town	 "MONTOIR-DE-BRETAGNE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44550"^^xsd:integer ;
+	sc:telephone	 "02.40.45.45.00"^^xsd:string .
+
+<http://projet.com/10/AUDITORIUM_DU_CONSERVATOIRE_REGIONAL>	 foaf:name 	 "AUDITORIUM DU CONSERVATOIRE REGIONAL"^^xsd:string ;
+	dbpprop:location	 "4 rue Gaëtan Rondeau"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.2069999 "^^xsd:decimal ;
+	geo:long	"-1.5331214"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "undefined"^^xsd:string ;
+	pdll:id	 "32"^^xsd:string ;
+	sc:email	 "undefined"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44200"^^xsd:integer ;
+	sc:telephone	 "02.51.25.00.20"^^xsd:string .
+
+<http://projet.com/10/LE_CABANIER_>	 foaf:name 	 "LE CABANIER "^^xsd:string ;
+	dbpprop:location	 "6 rue Ameline"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.2288299 "^^xsd:decimal ;
+	geo:long	"-1.5582414"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "GAUDEFROY Daphné"^^xsd:string ;
+	pdll:id	 "33"^^xsd:string ;
+	sc:email	 "lecabanier@voila.fr"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
+	sc:telephone	 "02.51.81.92.08"^^xsd:string .
+
+<http://projet.com/10/PANNONICA_>	 foaf:name 	 "PANNONICA "^^xsd:string ;
+	dbpprop:location	 "9 rue Basse Porte"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.2185047 "^^xsd:decimal ;
+	geo:long	"-1.5446583"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "GOHAUD Cyrille"^^xsd:string ;
+	pdll:id	 "34"^^xsd:string ;
+	sc:email	 "info@pannonica.com"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
+	sc:telephone	 "02.51.72.10.10"^^xsd:string .
+
+<http://projet.com/10/LA_CITE_NANTES_EVENTS_CENTER>	 foaf:name 	 "LA CITE NANTES EVENTS CENTER"^^xsd:string ;
+	dbpprop:location	 "5 rue de Valmy"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.2137215 "^^xsd:decimal ;
+	geo:long	"-1.5440966"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "+ 1200 places"^^xsd:string ;
+	dbpprop:owner	 "BILLAUDEAU Paul"^^xsd:string ;
+	pdll:id	 "35"^^xsd:string ;
+	sc:email	 "contact@lacite-nantes.fr"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44041"^^xsd:integer ;
+	sc:telephone	 "02.51.88.20.00"^^xsd:string .
+
+<http://projet.com/10/LE_GRAND_T>	 foaf:name 	 "LE GRAND T"^^xsd:string ;
+	dbpprop:location	 "84 rue du Général Buat"^^xsd:string ;
+	dbpprop:capacity	 "879"^^xsd:string ;
+	geo:lat	"47.2336281 "^^xsd:decimal ;
+	geo:long	"-1.5088934"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "BLONDEAU Catherine"^^xsd:string ;
+	pdll:id	 "36"^^xsd:string ;
+	sc:email	 "contact@legrandT.fr"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44300"^^xsd:integer ;
+	sc:telephone	 "02.51.88.25.20"^^xsd:string .
+
+<http://projet.com/10/LE_LIEU_UNIQUE_-_LU>	 foaf:name 	 "LE LIEU UNIQUE - LU"^^xsd:string ;
+	dbpprop:location	 "2 rue de la Biscuiterie"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.2150789 "^^xsd:decimal ;
+	geo:long	"-1.5454276"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "GYGER Patrick"^^xsd:string ;
+	pdll:id	 "37"^^xsd:string ;
+	sc:email	 "info@lelieuunique.com"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44013"^^xsd:integer ;
+	sc:telephone	 "02.51.82.15.00"^^xsd:string .
+
+<http://projet.com/10/CHAPITEAU_MADAME_SUZIE_-_MADAME_SUZIE_PRODUCTION_>	 foaf:name 	 "CHAPITEAU MADAME SUZIE - MADAME SUZIE PRODUCTION "^^xsd:string ;
+	dbpprop:location	 "11 rue Olivettes"^^xsd:string ;
+	dbpprop:capacity	 "200"^^xsd:string ;
+	geo:lat	"47.21204849 "^^xsd:decimal ;
+	geo:long	"-1.5499826"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "undefined"^^xsd:string ;
+	pdll:id	 "38"^^xsd:string ;
+	sc:email	 "undefined"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
+	sc:telephone	 "02.40.48.63.32"^^xsd:string .
+
+<http://projet.com/10/SALLE_DE_LA_MAISON_DE_QUARTIER_DES_DERVALLIERES_>	 foaf:name 	 "SALLE DE LA MAISON DE QUARTIER DES DERVALLIERES "^^xsd:string ;
+	dbpprop:location	 "5 rue Auguste Renoir"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.22350489 "^^xsd:decimal ;
+	geo:long	"-1.5926353"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "GAUTIER Jean"^^xsd:string ;
+	pdll:id	 "39"^^xsd:string ;
+	sc:email	 "dervallieres@accord.fr"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44100"^^xsd:integer ;
+	sc:telephone	 "02.40.46.02.17"^^xsd:string .
+
+<http://projet.com/10/SALLE_MJC_DOULON_-_MAISON_DE_QUARTIER_DE_DOULON_-_ACCOORD>	 foaf:name 	 "SALLE MJC DOULON - MAISON DE QUARTIER DE DOULON - ACCOORD"^^xsd:string ;
+	dbpprop:location	 "1 rue de la Basse Chesnaie"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.2336281 "^^xsd:decimal ;
+	geo:long	"-1.5088934"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "PASSELANDE Marie-Thérèse"^^xsd:string ;
+	pdll:id	 "40"^^xsd:string ;
+	sc:email	 "doulon@accoord.fr"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44300"^^xsd:integer ;
+	sc:telephone	 "02.40.50.60.40"^^xsd:string .
+
+<http://projet.com/10/STEREOLUX>	 foaf:name 	 "STEREOLUX"^^xsd:string ;
+	dbpprop:location	 "4 Bd Léon Bureau"^^xsd:string ;
+	dbpprop:capacity	 "800"^^xsd:string ;
+	geo:lat	"47.20146769 "^^xsd:decimal ;
+	geo:long	"-1.5411258"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "DUPAS Jean-Michel"^^xsd:string ;
+	pdll:id	 "41"^^xsd:string ;
+	sc:email	 "accueil@stereolux.org"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44200"^^xsd:integer ;
+	sc:telephone	 "02.40.43.20.43"^^xsd:string .
+
+<http://projet.com/10/SALLE_PAUL_FORT_>	 foaf:name 	 "SALLE PAUL FORT "^^xsd:string ;
+	dbpprop:location	 "9 rue Basse Porte"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.2209247 "^^xsd:decimal ;
+	geo:long	"-1.5581908"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "undefined"^^xsd:string ;
+	pdll:id	 "42"^^xsd:string ;
+	sc:email	 "accueil@labouchedair.com"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
+	sc:telephone	 "02.51.72.10.10"^^xsd:string .
+
+<http://projet.com/10/TERRAIN_NEUTRE_THEATRE_-_TNT>	 foaf:name 	 "TERRAIN NEUTRE THEATRE - TNT"^^xsd:string ;
+	dbpprop:location	 "11 allée de la Maison Rouge"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.2125645 "^^xsd:decimal ;
+	geo:long	"-1.5520397"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "BOURIEL Sophie"^^xsd:string ;
+	pdll:id	 "43"^^xsd:string ;
+	sc:email	 "contact@tntheatre.com"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
+	sc:telephone	 "02.40.12.12.28"^^xsd:string .
+
+<http://projet.com/10/THEATRE_UNIVERSITAIRE_-_TU>	 foaf:name 	 "THEATRE UNIVERSITAIRE - TU"^^xsd:string ;
+	dbpprop:location	 "Chemin Sensive du Tertre"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.245821 "^^xsd:decimal ;
+	geo:long	"-1.5519558"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "undefined"^^xsd:string ;
+	pdll:id	 "44"^^xsd:string ;
+	sc:email	 "contact@tunantes.fr"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
+	sc:telephone	 "02.40.14.33.34"^^xsd:string .
+
+<http://projet.com/10/SALLE_VASSE>	 foaf:name 	 "SALLE VASSE"^^xsd:string ;
+	dbpprop:location	 "18 rue Colbert"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.2144676 "^^xsd:decimal ;
+	geo:long	"-1.568682"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "VALMER Michel"^^xsd:string ;
+	pdll:id	 "45"^^xsd:string ;
+	sc:email	 "info@sallevasse.fr"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
+	sc:telephone	 "02.40.73.12.60"^^xsd:string .
+
+<http://projet.com/10/LE_SEMAPHORE>	 foaf:name 	 "LE SEMAPHORE"^^xsd:string ;
+	dbpprop:location	 "9 bd Vincent Gâche"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.2062464 "^^xsd:decimal ;
+	geo:long	"-1.542676"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "LEMORVAN Valérie"^^xsd:string ;
+	pdll:id	 "46"^^xsd:string ;
+	sc:email	 "undefined"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44200"^^xsd:integer ;
+	sc:telephone	 "02.40.12.24.03"^^xsd:string .
+
+<http://projet.com/10/STUDIO_THEATRE_>	 foaf:name 	 "STUDIO THEATRE "^^xsd:string ;
+	dbpprop:location	 "5 rue du Ballet"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.2316447 "^^xsd:decimal ;
+	geo:long	"-1.5585123"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "undefined"^^xsd:string ;
+	pdll:id	 "47"^^xsd:string ;
+	sc:email	 "undefined"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
+	sc:telephone	 "02.51.86.13.06"^^xsd:string .
+
+<http://projet.com/10/THEATRE_GRASLIN_-_ANGERS_NANTES_OPERA>	 foaf:name 	 "THEATRE GRASLIN - ANGERS NANTES OPERA"^^xsd:string ;
+	dbpprop:location	 "1 rue Molière"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.2132685 "^^xsd:decimal ;
+	geo:long	"-1.5619567"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "DAVOIS Jean-Paul"^^xsd:string ;
+	pdll:id	 "48"^^xsd:string ;
+	sc:email	 "comopera@mairie-nantes.fr"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44009"^^xsd:integer ;
+	sc:telephone	 "02.40.89.84.00"^^xsd:string .
+
+<http://projet.com/10/THEATRE_P'TIT_ARCHIPEL_>	 foaf:name 	 "THEATRE P'TIT ARCHIPEL "^^xsd:string ;
+	dbpprop:location	 "5 rue du Ballet"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.2316447 "^^xsd:decimal ;
+	geo:long	"-1.5585123"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "undefined"^^xsd:string ;
+	pdll:id	 "49"^^xsd:string ;
+	sc:email	 "undefined"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
+	sc:telephone	 "06.87.41.90.52"^^xsd:string .
+
+<http://projet.com/10/LA_COMPAGNIE_DU_CAFE-THEATRE_>	 foaf:name 	 "LA COMPAGNIE DU CAFE-THEATRE "^^xsd:string ;
+	dbpprop:location	 "6 rue des Carmélites"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.217321 "^^xsd:decimal ;
+	geo:long	"-1.5515763"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "undefined"^^xsd:string ;
+	dbpprop:owner	 "MOREAU Mathilde"^^xsd:string ;
+	pdll:id	 "50"^^xsd:string ;
+	sc:email	 "lacieducafetheatre@gmail.com"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
+	sc:telephone	 "02.40.89.65.01"^^xsd:string .
+
+<http://projet.com/10/BLOCKHAUS_DY_10_>	 foaf:name 	 "BLOCKHAUS DY 10 "^^xsd:string ;
+	dbpprop:location	 "5 bis rue Léon Bureau"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.2082369 "^^xsd:decimal ;
+	geo:long	"-1.5658048"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "undefined"^^xsd:string ;
+	dbpprop:owner	 "undefined"^^xsd:string ;
+	pdll:id	 "51"^^xsd:string ;
+	sc:email	 "undefined"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
+	sc:telephone	 "02.40.89.45.72"^^xsd:string .
+
+<http://projet.com/10/LA_CHAPELLE_DU_GRAND_T>	 foaf:name 	 "LA CHAPELLE DU GRAND T"^^xsd:string ;
+	dbpprop:location	 "84 rue du Général Buat"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.2336281 "^^xsd:decimal ;
+	geo:long	"-1.5088934"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "undefined"^^xsd:string ;
+	dbpprop:owner	 "undefined"^^xsd:string ;
+	pdll:id	 "52"^^xsd:string ;
+	sc:email	 "contact@legrandT.fr"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44300"^^xsd:integer ;
+	sc:telephone	 "02.51.88.25.25"^^xsd:string .
+
+<http://projet.com/10/LINEXAA_ATELIERS_DE_BITCHE>	 foaf:name 	 "LINEXAA ATELIERS DE BITCHE"^^xsd:string ;
+	dbpprop:location	 "3 rue de Bitche"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.2118545 "^^xsd:decimal ;
+	geo:long	"-1.5418949"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "undefined"^^xsd:string ;
+	dbpprop:owner	 "undefined"^^xsd:string ;
+	pdll:id	 "53"^^xsd:string ;
+	sc:email	 "undefined"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
+	sc:telephone	 "undefined"^^xsd:string .
+
+<http://projet.com/10/LE_GRAND_T>	 foaf:name 	 "LE GRAND T"^^xsd:string ;
+	dbpprop:location	 "84 rue du Général Buat"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.2336281 "^^xsd:decimal ;
+	geo:long	"-1.5088934"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "undefined"^^xsd:string ;
+	dbpprop:owner	 "undefined"^^xsd:string ;
+	pdll:id	 "54"^^xsd:string ;
+	sc:email	 "contact@legrandT.fr"^^xsd:string ;
+	dbpprop:town	 "NANTES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44300"^^xsd:integer ;
+	sc:telephone	 "02.51.88.25.25"^^xsd:string .
+
+<http://projet.com/10/CAP_NORT_>	 foaf:name 	 "CAP NORT "^^xsd:string ;
+	dbpprop:location	 "route d'Héric"^^xsd:string ;
+	dbpprop:capacity	 "850"^^xsd:string ;
+	geo:lat	"47.43524 "^^xsd:decimal ;
+	geo:long	"-1.510318"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "ALLAERT François"^^xsd:string ;
+	pdll:id	 "55"^^xsd:string ;
+	sc:email	 "accueil.capnort@nort-sur-erdre.fr"^^xsd:string ;
+	dbpprop:town	 "NORT-SUR-ERDRE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44390"^^xsd:integer ;
+	sc:telephone	 "02.51.12.01.45"^^xsd:string .
+
+<http://projet.com/10/L'ODYSSEE>	 foaf:name 	 "L'ODYSSEE"^^xsd:string ;
+	dbpprop:location	 "Bois Cesbron"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.260578 "^^xsd:decimal ;
+	geo:long	"-1.62213"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "OLIVIER Yann"^^xsd:string ;
+	pdll:id	 "56"^^xsd:string ;
+	sc:email	 "odyssee@mairie-orvault.fr"^^xsd:string ;
+	dbpprop:town	 "ORVAULT"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44700"^^xsd:integer ;
+	sc:telephone	 "02.51.78.33.33"^^xsd:string .
+
+<http://projet.com/10/THEATRE_DE_LA_GOBINIERE_>	 foaf:name 	 "THEATRE DE LA GOBINIERE "^^xsd:string ;
+	dbpprop:location	 "37 avenue de la Ferrière"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.2482614 "^^xsd:decimal ;
+	geo:long	"-1.5877191"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "OLIVIER Yann"^^xsd:string ;
+	pdll:id	 "57"^^xsd:string ;
+	sc:email	 "contact@mairie-orvault.fr"^^xsd:string ;
+	dbpprop:town	 "ORVAULT"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44700"^^xsd:integer ;
+	sc:telephone	 "02.51.78.33.33"^^xsd:string .
+
+<http://projet.com/10/LE_CARRE_D'ARGENT>	 foaf:name 	 "LE CARRE D'ARGENT"^^xsd:string ;
+	dbpprop:location	 "MAIRIE - Rue du Port du Four"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.437744 "^^xsd:decimal ;
+	geo:long	"-2.090642"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "undefined"^^xsd:string ;
+	dbpprop:owner	 "DUBEAU Christine"^^xsd:string ;
+	pdll:id	 "58"^^xsd:string ;
+	sc:email	 "culture@pontchateau.fr"^^xsd:string ;
+	dbpprop:town	 "PONTCHATEAU"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44160"^^xsd:integer ;
+	sc:telephone	 "02.40.01.63.00"^^xsd:string .
+
+<http://projet.com/10/SALLE_LA_SCENE_>	 foaf:name 	 "SALLE LA SCENE "^^xsd:string ;
+	dbpprop:location	 "Les Fausses Dreux"^^xsd:string ;
+	dbpprop:capacity	 "620"^^xsd:string ;
+	geo:lat	"47.436929 "^^xsd:decimal ;
+	geo:long	"-2.089536"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "undefined"^^xsd:string ;
+	pdll:id	 "59"^^xsd:string ;
+	sc:email	 "musikland@orange.fr"^^xsd:string ;
+	dbpprop:town	 "PONTCHATEAU"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44160"^^xsd:integer ;
+	sc:telephone	 "02.40.53.60.45"^^xsd:string .
+
+<http://projet.com/10/AMPHITHEATRE_CULTUREL>	 foaf:name 	 "AMPHITHEATRE CULTUREL"^^xsd:string ;
+	dbpprop:location	 "rue  Loukianoff"^^xsd:string ;
+	dbpprop:capacity	 "230"^^xsd:string ;
+	geo:lat	"47.117628 "^^xsd:decimal ;
+	geo:long	"-2.0926203"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "undefined"^^xsd:string ;
+	pdll:id	 "60"^^xsd:string ;
+	sc:email	 "amphitheatre@ccpornic.fr"^^xsd:string ;
+	dbpprop:town	 "PORNIC"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44210"^^xsd:integer ;
+	sc:telephone	 "02.40.39.63.49"^^xsd:string .
+
+<http://projet.com/10/ESPACE_VAL_SAINT_MARTIN>	 foaf:name 	 "ESPACE VAL SAINT MARTIN"^^xsd:string ;
+	dbpprop:location	 "Val Saint Martin"^^xsd:string ;
+	dbpprop:capacity	 "600"^^xsd:string ;
+	geo:lat	"47.115491 "^^xsd:decimal ;
+	geo:long	"-2.104444"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "undefined"^^xsd:string ;
+	pdll:id	 "61"^^xsd:string ;
+	sc:email	 "a.v.f.pornic@wanadoo.fr"^^xsd:string ;
+	dbpprop:town	 "PORNIC"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44210"^^xsd:integer ;
+	sc:telephone	 "02.40.82.94.53"^^xsd:string .
+
+<http://projet.com/10/QUAI_DES_ARTS_>	 foaf:name 	 "QUAI DES ARTS "^^xsd:string ;
+	dbpprop:location	 "2 Avenue Camille Flammarion"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.26544819 "^^xsd:decimal ;
+	geo:long	"-2.33491209"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "BOUCARD Gérard"^^xsd:string ;
+	pdll:id	 "62"^^xsd:string ;
+	sc:email	 "quaidesarts@mairie-pornichet.fr"^^xsd:string ;
+	dbpprop:town	 "PORNICHET"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44380"^^xsd:integer ;
+	sc:telephone	 "02.28.54.96.96"^^xsd:string .
+
+<http://projet.com/10/ESPACE_CULTUREL_>	 foaf:name 	 "ESPACE CULTUREL "^^xsd:string ;
+	dbpprop:location	 "Office de Tourisme - 17 Grande Rue"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.1287532 "^^xsd:decimal ;
+	geo:long	"-2.21712"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "DE LEPINAY EDWIGE"^^xsd:string ;
+	pdll:id	 "63"^^xsd:string ;
+	sc:email	 "tourisme@perfailles.fr"^^xsd:string ;
+	dbpprop:town	 "PREFAILLES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44770"^^xsd:integer ;
+	sc:telephone	 "02.40.21.62.22"^^xsd:string .
+
+<http://projet.com/10/LA_BARAKASON_>	 foaf:name 	 "LA BARAKASON "^^xsd:string ;
+	dbpprop:location	 "1 allée du Dauphiné"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.1858552 "^^xsd:decimal ;
+	geo:long	"-1.55822729"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "undefined"^^xsd:string ;
+	pdll:id	 "64"^^xsd:string ;
+	sc:email	 "barakason@mairie-reze.fr"^^xsd:string ;
+	dbpprop:town	 "REZE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44400"^^xsd:integer ;
+	sc:telephone	 "02.51.70.75.75"^^xsd:string .
+
+<http://projet.com/10/THEATRE_MUNICIPAL_>	 foaf:name 	 "THEATRE MUNICIPAL "^^xsd:string ;
+	dbpprop:location	 "Rue Guy Lelan"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.1745467 "^^xsd:decimal ;
+	geo:long	"-1.5475003"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "BEZIAU-RAVARD Stéphanie"^^xsd:string ;
+	pdll:id	 "65"^^xsd:string ;
+	sc:email	 "com.arc@mairie-reze.fr"^^xsd:string ;
+	dbpprop:town	 "REZE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44400"^^xsd:integer ;
+	sc:telephone	 "02.40.84.53.80"^^xsd:string .
+
+<http://projet.com/10/LA_HALLE_DE_LA_TROCARDIERE_>	 foaf:name 	 "LA HALLE DE LA TROCARDIERE "^^xsd:string ;
+	dbpprop:location	 "101 rue de la Trocardière"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.1792816 "^^xsd:decimal ;
+	geo:long	"-1.5706725"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "+ 1200 places"^^xsd:string ;
+	dbpprop:owner	 "FLOCK Olivier"^^xsd:string ;
+	pdll:id	 "66"^^xsd:string ;
+	sc:email	 "halle-trocardiere@nge-nantes.fr"^^xsd:string ;
+	dbpprop:town	 "REZE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44401"^^xsd:integer ;
+	sc:telephone	 "02.51.70.31.58"^^xsd:string .
+
+<http://projet.com/10/LE_TDM_-_TEMPS_D'UN_MOMENT>	 foaf:name 	 "LE TDM - TEMPS D'UN MOMENT"^^xsd:string ;
+	dbpprop:location	 "342 rue de l'Erdre"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.5145656 "^^xsd:decimal ;
+	geo:long	"-1.2907975"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "undefined"^^xsd:string ;
+	dbpprop:owner	 "undefined"^^xsd:string ;
+	pdll:id	 "67"^^xsd:string ;
+	sc:email	 "letdm@orange.fr"^^xsd:string ;
+	dbpprop:town	 "RIAILLE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44440"^^xsd:integer ;
+	sc:telephone	 "06.84.11.45.15"^^xsd:string .
+
+<http://projet.com/10/ESPACE_CULTUREL_COEUR_EN_SCENE>	 foaf:name 	 "ESPACE CULTUREL COEUR EN SCENE"^^xsd:string ;
+	dbpprop:location	 "1 allée de la Cure"^^xsd:string ;
+	dbpprop:capacity	 "220"^^xsd:string ;
+	geo:lat	"47.184729 "^^xsd:decimal ;
+	geo:long	"-1.8594364"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "undefined"^^xsd:string ;
+	pdll:id	 "68"^^xsd:string ;
+	sc:email	 "spectacles.rouans@wanadoo.fr"^^xsd:string ;
+	dbpprop:town	 "ROUANS"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44640"^^xsd:integer ;
+	sc:telephone	 "02.40.64.11.01"^^xsd:string .
+
+<http://projet.com/10/ETOILE_DE_JADE_>	 foaf:name 	 "ETOILE DE JADE "^^xsd:string ;
+	dbpprop:location	 "parc d'activités de la Guerche"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.246659 "^^xsd:decimal ;
+	geo:long	"-2.1658069"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "BRIAND Pierrick"^^xsd:string ;
+	pdll:id	 "69"^^xsd:string ;
+	sc:email	 "ot-stbrevin@wanadoo.fr"^^xsd:string ;
+	dbpprop:town	 "SAINT-BREVIN-LES-PINS"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44250"^^xsd:integer ;
+	sc:telephone	 "02.40.64.12.41"^^xsd:string .
+
+<http://projet.com/10/ESPACE_CULTUREL_>	 foaf:name 	 "ESPACE CULTUREL "^^xsd:string ;
+	dbpprop:location	 "Rue Gabriel Deshayes"^^xsd:string ;
+	dbpprop:capacity	 "220"^^xsd:string ;
+	geo:lat	"47.5153946 "^^xsd:decimal ;
+	geo:long	"-2.0404892"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "SIMON Géraldine"^^xsd:string ;
+	pdll:id	 "70"^^xsd:string ;
+	sc:email	 "undefined"^^xsd:string ;
+	dbpprop:town	 "SAINT-GILDAS-DES-BOIS"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44530"^^xsd:integer ;
+	sc:telephone	 "02.40.01.40.40"^^xsd:string .
+
+<http://projet.com/10/ONYX>	 foaf:name 	 "ONYX"^^xsd:string ;
+	dbpprop:location	 "1 place Océane "^^xsd:string ;
+	dbpprop:capacity	 "950"^^xsd:string ;
+	geo:lat	"47.2254932 "^^xsd:decimal ;
+	geo:long	"-1.62885579"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "LECA Stéphane"^^xsd:string ;
+	pdll:id	 "71"^^xsd:string ;
+	sc:email	 "accueil@onyx-culturel.org"^^xsd:string ;
+	dbpprop:town	 "SAINT-HERBLAIN"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44815"^^xsd:integer ;
+	sc:telephone	 "02.28.25.25.00"^^xsd:string .
+
+<http://projet.com/10/MAISON_DES_ARTS>	 foaf:name 	 "MAISON DES ARTS"^^xsd:string ;
+	dbpprop:location	 "26 rue de Saint-Nazaire"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.21152 "^^xsd:decimal ;
+	geo:long	"-1.6146648"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "undefined"^^xsd:string ;
+	dbpprop:owner	 "undefined"^^xsd:string ;
+	pdll:id	 "72"^^xsd:string ;
+	sc:email	 "undefined"^^xsd:string ;
+	dbpprop:town	 "SAINT-HERBLAIN"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44800"^^xsd:integer ;
+	sc:telephone	 "02.28.25.25.80"^^xsd:string .
+
+<http://projet.com/10/LE_RUE'PTURE_>	 foaf:name 	 "LE RUE'PTURE "^^xsd:string ;
+	dbpprop:location	 "Centre Socioculturel - ASEC Bourg - 126 bd François Mitterrand"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.2167667 "^^xsd:decimal ;
+	geo:long	"-1.6453506"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "DARGOUGE Bernard"^^xsd:string ;
+	pdll:id	 "73"^^xsd:string ;
+	sc:email	 "bourgcsc@wanadoo.fr"^^xsd:string ;
+	dbpprop:town	 "SAINT-HERBLAIN"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44800"^^xsd:integer ;
+	sc:telephone	 "02.40.86.05.88"^^xsd:string .
+
+<http://projet.com/10/ZENITH_NANTES_METROPOLE>	 foaf:name 	 "ZENITH NANTES METROPOLE"^^xsd:string ;
+	dbpprop:location	 "bd du Zenith "^^xsd:string ;
+	dbpprop:capacity	 "8500"^^xsd:string ;
+	geo:lat	"47.2308272 "^^xsd:decimal ;
+	geo:long	"-1.6286602"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "+ 1200 places"^^xsd:string ;
+	dbpprop:owner	 "COLLING Daniel"^^xsd:string ;
+	pdll:id	 "74"^^xsd:string ;
+	sc:email	 "undefined"^^xsd:string ;
+	dbpprop:town	 "SAINT-HERBLAIN"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44800"^^xsd:integer ;
+	sc:telephone	 "08.92.68.03.60"^^xsd:string .
+
+<http://projet.com/10/LA_CARRIERE_>	 foaf:name 	 "LA CARRIERE "^^xsd:string ;
+	dbpprop:location	 "Rue du Docteur Boubée "^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.2097043 "^^xsd:decimal ;
+	geo:long	"-1.64260809"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "undefined"^^xsd:string ;
+	dbpprop:owner	 "LECA Stéphane"^^xsd:string ;
+	pdll:id	 "75"^^xsd:string ;
+	sc:email	 "undefined"^^xsd:string ;
+	dbpprop:town	 "SAINT-HERBLAIN"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44800"^^xsd:integer ;
+	sc:telephone	 "02.28.25.25.00"^^xsd:string .
+
+<http://projet.com/10/SALLE_LA_QUINTAINE>	 foaf:name 	 "SALLE LA QUINTAINE"^^xsd:string ;
+	dbpprop:location	 "Mairie - 4 rue des Heurthauds"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.2530829 "^^xsd:decimal ;
+	geo:long	"-1.38622159"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "AGASSE Arlette"^^xsd:string ;
+	pdll:id	 "76"^^xsd:string ;
+	sc:email	 "accueil@st-julien-de-concelles.fr"^^xsd:string ;
+	dbpprop:town	 "SAINT-JULIEN-DE-CONCELLES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44450"^^xsd:integer ;
+	sc:telephone	 "02.40.54.10.40"^^xsd:string .
+
+<http://projet.com/10/ESPACE_CULTUREL_SAINTE_ANNE_>	 foaf:name 	 "ESPACE CULTUREL SAINTE ANNE "^^xsd:string ;
+	dbpprop:location	 "Rue de Bretagne"^^xsd:string ;
+	dbpprop:capacity	 "196"^^xsd:string ;
+	geo:lat	"47.4014872 "^^xsd:decimal ;
+	geo:long	"-2.30583839"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "GOURET Anne-Cécile"^^xsd:string ;
+	pdll:id	 "77"^^xsd:string ;
+	sc:email	 "service.culturel@mairie-saint-lyphard.fr"^^xsd:string ;
+	dbpprop:town	 "SAINT-LYPHARD"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44410"^^xsd:integer ;
+	sc:telephone	 "02.40.91.49.67"^^xsd:string .
+
+<http://projet.com/10/ESPACE_MALRAUX_>	 foaf:name 	 "ESPACE MALRAUX "^^xsd:string ;
+	dbpprop:location	 "Place André Malraux"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.366056 "^^xsd:decimal ;
+	geo:long	"-1.4040039"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "TESSIER Gilles"^^xsd:string ;
+	pdll:id	 "78"^^xsd:string ;
+	sc:email	 "mairie@saintmarsdudesert.fr"^^xsd:string ;
+	dbpprop:town	 "SAINT-MARS-DU-DESERT"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44850"^^xsd:integer ;
+	sc:telephone	 "02.40.77.44.09"^^xsd:string .
+
+<http://projet.com/10/ESPACE_CULTUREL_PAUL_GUIMARD_>	 foaf:name 	 "ESPACE CULTUREL PAUL GUIMARD "^^xsd:string ;
+	dbpprop:location	 "Bd Jules Ferry"^^xsd:string ;
+	dbpprop:capacity	 "559"^^xsd:string ;
+	geo:lat	"47.5273401 "^^xsd:decimal ;
+	geo:long	"-1.1825364"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "LEPICIER Marieke"^^xsd:string ;
+	pdll:id	 "79"^^xsd:string ;
+	sc:email	 "espace.guimard@wanadoo.fr"^^xsd:string ;
+	dbpprop:town	 "SAINT-MARS-LA-JAILLE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44540"^^xsd:integer ;
+	sc:telephone	 "02.40.97.07.91"^^xsd:string .
+
+<http://projet.com/10/LE_THEATRE_-_SCENE_NATIONALE>	 foaf:name 	 "LE THEATRE - SCENE NATIONALE"^^xsd:string ;
+	dbpprop:location	 "Rue des Frères Pereire"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.2770708 "^^xsd:decimal ;
+	geo:long	"-2.2037261"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "VAROUTSIKOS-PEREZ Nadine"^^xsd:string ;
+	pdll:id	 "80"^^xsd:string ;
+	sc:email	 "undefined"^^xsd:string ;
+	dbpprop:town	 "SAINT-NAZAIRE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44600"^^xsd:integer ;
+	sc:telephone	 "02.40.22.91.36"^^xsd:string .
+
+<http://projet.com/10/LE_VIP>	 foaf:name 	 "LE VIP"^^xsd:string ;
+	dbpprop:location	 "24 rue d'Anjou"^^xsd:string ;
+	dbpprop:capacity	 "500"^^xsd:string ;
+	geo:lat	"47.2787133 "^^xsd:decimal ;
+	geo:long	"-2.2096549"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "undefined"^^xsd:string ;
+	pdll:id	 "81"^^xsd:string ;
+	sc:email	 "contact@les-escales.com"^^xsd:string ;
+	dbpprop:town	 "SAINT-NAZAIRE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44613"^^xsd:integer ;
+	sc:telephone	 "02.51.10.00.00"^^xsd:string .
+
+<http://projet.com/10/CENTRE_DE_CULTURE_POPULAIRE>	 foaf:name 	 "CENTRE DE CULTURE POPULAIRE"^^xsd:string ;
+	dbpprop:location	 "C.E D'ENTREPRISE DES CHANTIERS NAVALS - 19 allée de l'Ancolie"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.26575219 "^^xsd:decimal ;
+	geo:long	"-2.2512868"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "undefined"^^xsd:string ;
+	dbpprop:owner	 "PATILLON Jean-François"^^xsd:string ;
+	pdll:id	 "82"^^xsd:string ;
+	sc:email	 "undefined"^^xsd:string ;
+	dbpprop:town	 "SAINT-NAZAIRE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44600"^^xsd:integer ;
+	sc:telephone	 "02.40.53.42.97"^^xsd:string .
+
+<http://projet.com/10/SALLE_DE_L'ABBATIALE>	 foaf:name 	 "SALLE DE L'ABBATIALE"^^xsd:string ;
+	dbpprop:location	 "Place de l’Abbatiale"^^xsd:string ;
+	dbpprop:capacity	 "280"^^xsd:string ;
+	geo:lat	"47.0386795 "^^xsd:decimal ;
+	geo:long	"-1.6409926"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "CLAVIER Nicole"^^xsd:string ;
+	pdll:id	 "83"^^xsd:string ;
+	sc:email	 "contact@stphilbert.fr"^^xsd:string ;
+	dbpprop:town	 "SAINT-PHILBERT-DE-GRAND-LIEU"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44310"^^xsd:integer ;
+	sc:telephone	 "02.40.78.73.88"^^xsd:string .
+
+<http://projet.com/10/SALLE_DU_MARAIS>	 foaf:name 	 "SALLE DU MARAIS"^^xsd:string ;
+	dbpprop:location	 "allée Chevrets"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.0421573 "^^xsd:decimal ;
+	geo:long	"-1.64542159"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "CLAVIER Nicole"^^xsd:string ;
+	pdll:id	 "84"^^xsd:string ;
+	sc:email	 "contact@stphilbert.fr"^^xsd:string ;
+	dbpprop:town	 "SAINT-PHILBERT-DE-GRAND-LIEU"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44310"^^xsd:integer ;
+	sc:telephone	 "02.40.78.98.08"^^xsd:string .
+
+<http://projet.com/10/LA_CHAPELLE_SAINT_FRANCOIS>	 foaf:name 	 "LA CHAPELLE SAINT FRANCOIS"^^xsd:string ;
+	dbpprop:location	 "28 rue Saint François d'Assise "^^xsd:string ;
+	dbpprop:capacity	 "150"^^xsd:string ;
+	geo:lat	"47.035457 "^^xsd:decimal ;
+	geo:long	"-1.6432068"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "- 400 places"^^xsd:string ;
+	dbpprop:owner	 "undefined"^^xsd:string ;
+	pdll:id	 "85"^^xsd:string ;
+	sc:email	 "contact@stphilbert.fr"^^xsd:string ;
+	dbpprop:town	 "SAINT-PHILBERT-DE-GRAND-LIEU"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44310"^^xsd:integer ;
+	sc:telephone	 "02.40.78.09.11"^^xsd:string .
+
+<http://projet.com/10/L'EMBARCADERE>	 foaf:name 	 "L'EMBARCADERE"^^xsd:string ;
+	dbpprop:location	 "Mairie rue Marie Curie"^^xsd:string ;
+	dbpprop:capacity	 "483"^^xsd:string ;
+	geo:lat	"47.1896137 "^^xsd:decimal ;
+	geo:long	"-1.4851055"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "FRASLIN Pascal"^^xsd:string ;
+	pdll:id	 "86"^^xsd:string ;
+	sc:email	 "undefined"^^xsd:string ;
+	dbpprop:town	 "SAINT-SEBASTIEN-SUR-LOIRE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44230"^^xsd:integer ;
+	sc:telephone	 "02.40.80.86.05"^^xsd:string .
+
+<http://projet.com/10/L'ESCALL_>	 foaf:name 	 "L'ESCALL "^^xsd:string ;
+	dbpprop:location	 "rue des Berlaguts"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.2005658 "^^xsd:decimal ;
+	geo:long	"-1.5046254"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "FRASLIN Pascal"^^xsd:string ;
+	pdll:id	 "87"^^xsd:string ;
+	sc:email	 "undefined"^^xsd:string ;
+	dbpprop:town	 "SAINT-SEBASTIEN-SUR-LOIRE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44230"^^xsd:integer ;
+	sc:telephone	 "02.40.80.85.85"^^xsd:string .
+
+<http://projet.com/10/LIGERIA_-_ESPACE_CULTUREL>	 foaf:name 	 "LIGERIA - ESPACE CULTUREL"^^xsd:string ;
+	dbpprop:location	 "Hôtel de Ville"^^xsd:string ;
+	dbpprop:capacity	 "485"^^xsd:string ;
+	geo:lat	"47.249491 "^^xsd:decimal ;
+	geo:long	"-1.487331"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "BRICARD Philippe"^^xsd:string ;
+	pdll:id	 "88"^^xsd:string ;
+	sc:email	 "artistique.ligeria@sainte-luce-loire.com"^^xsd:string ;
+	dbpprop:town	 "SAINTE-LUCE-SUR-LOIRE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44981"^^xsd:integer ;
+	sc:telephone	 "02.40.68.16.39"^^xsd:string .
+
+<http://projet.com/10/NOUVEAU_THEATRE_DE_TEILLE>	 foaf:name 	 "NOUVEAU THEATRE DE TEILLE"^^xsd:string ;
+	dbpprop:location	 "Route de la Halte"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.4611122 "^^xsd:decimal ;
+	geo:long	"-1.28304009"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "undefined"^^xsd:string ;
+	dbpprop:owner	 "undefined"^^xsd:string ;
+	pdll:id	 "89"^^xsd:string ;
+	sc:email	 "mairiedeteille@wanadoo.fr"^^xsd:string ;
+	dbpprop:town	 "TEILLE"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44440"^^xsd:integer ;
+	sc:telephone	 "02.40.97.23.15"^^xsd:string .
+
+<http://projet.com/10/LE_CHAMPILAMBART>	 foaf:name 	 "LE CHAMPILAMBART"^^xsd:string ;
+	dbpprop:location	 "13 route des Dorices"^^xsd:string ;
+	dbpprop:capacity	 "500"^^xsd:string ;
+	geo:lat	"47.1655016 "^^xsd:decimal ;
+	geo:long	"-1.265351"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "DRIGUEZ Isabelle"^^xsd:string ;
+	pdll:id	 "90"^^xsd:string ;
+	sc:email	 "champilambart@vallet.fr"^^xsd:string ;
+	dbpprop:town	 "VALLET"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44330"^^xsd:integer ;
+	sc:telephone	 "02.40.36.20.30"^^xsd:string .
+
+<http://projet.com/10/ESPACE_ALEXANDRE_GAUTIER_>	 foaf:name 	 "ESPACE ALEXANDRE GAUTIER "^^xsd:string ;
+	dbpprop:location	 "rue Patronage"^^xsd:string ;
+	dbpprop:capacity	 "undefined"^^xsd:string ;
+	geo:lat	"47.3879181 "^^xsd:decimal ;
+	geo:long	"-1.0314203"^^xsd:decimal  ;
+	dbpprop:seatingCapacity	 "400 à 1200 places"^^xsd:string ;
+	dbpprop:owner	 "undefined"^^xsd:string ;
+	pdll:id	 "91"^^xsd:string ;
+	sc:email	 "undefined"^^xsd:string ;
+	dbpprop:town	 "VARADES"^^xsd:string ;
+	dbpedia-owl:postalCode	 "44370"^^xsd:integer ;
+	sc:telephone	 "02.40.09.72.33"^^xsd:string .
+

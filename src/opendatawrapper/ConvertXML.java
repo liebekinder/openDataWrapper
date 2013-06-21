@@ -1,6 +1,8 @@
 package opendatawrapper;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -9,6 +11,8 @@ import java.net.MalformedURLException;
 import java.net.PasswordAuthentication;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Properties;
 
 import javax.xml.transform.Result;
@@ -41,7 +45,8 @@ public class ConvertXML {
 	String proxyPort;
 	String authUser;
 	String authPassword;
-	final String PWD_File = System.getProperty("user.home") + "/.openDataWrapper/proxy.pwd";
+	final String PWD_File = System.getProperty("user.home")
+			+ "/.openDataWrapper/proxy.pwd";
 
 	/*
 	 * Constructeur
@@ -125,6 +130,8 @@ public class ConvertXML {
 
 					transformer.transform(source, output);
 
+					verifyFile();
+
 				} catch (JDOMException e1) {
 					// TODO Auto-generated catch block
 					System.err
@@ -137,6 +144,12 @@ public class ConvertXML {
 							.println("Erreur lors de la transformation du XML"
 									+ e.getMessageAndLocation());
 					return;
+				} catch (FileNotFoundException e) {
+					System.err.println("The turtle file wasn't found. "
+							+ e.getMessage());
+				} catch (IOException e) {
+					System.err.println("The turtle file cannot be opened. "
+							+ e.getMessage());
 				}
 			} else {
 				return;
@@ -147,6 +160,52 @@ public class ConvertXML {
 			return;
 		}
 
+	}
+
+	/**
+	 * This method is supposed to check if the URI within this graph are unique.
+	 * If not, it change the URI to add a number, and make it unique.
+	 * 
+	 * @throws IOException
+	 */
+	private void verifyFile() throws IOException {
+		List<String> listeURI = new ArrayList<String>();
+		BufferedReader reader = new BufferedReader(new FileReader(outputFile));
+		String line = null;
+		StringBuilder stringBuilder = new StringBuilder();
+		String ls = System.getProperty("line.separator");
+		String temp;
+		int cpt = 1;
+		while ((line = reader.readLine()) != null) {
+			if (line.length() > 1) {
+				if (line.trim().charAt(0) == '<') {
+					// nous sommes dans la déclaration d'un URI
+					temp = line.split("\t")[0];
+					if (!listeURI.contains(temp)) {
+						// si l'URI n'existe pas encore
+						listeURI.add(temp);
+						stringBuilder.append(line);
+						stringBuilder.append(ls);
+					} else {
+						// probleme d'unicité
+						String lineTemp = line.split("\t")[0];
+						System.out.println(lineTemp);
+						lineTemp = lineTemp.trim()
+								.substring(0, lineTemp.length() - 1)
+								.concat(cpt + ">");
+						line = lineTemp.concat(line.split("\t")[1]).concat(
+								line.split("\t")[2]);
+						System.out.println(line);
+						cpt++;
+						stringBuilder.append(line);
+						stringBuilder.append(ls);
+					}
+				}
+				stringBuilder.append(line);
+				stringBuilder.append(ls);
+			}
+		}
+		reader.close();
 	}
 
 	/*
@@ -206,11 +265,14 @@ public class ConvertXML {
 			return null;
 		}
 	}
-	
+
 	/**
 	 * This function create an XSL file from an XML sheet and a mapping file
-	 * @param p, the mapping between XML tag and the RDF vocabulary
-	 * @param document ,the parsed XML
+	 * 
+	 * @param p
+	 *            , the mapping between XML tag and the RDF vocabulary
+	 * @param document
+	 *            ,the parsed XML
 	 * @return true if the construction got well, false else
 	 */
 	public boolean constructXSL(Properties p, Document document) {

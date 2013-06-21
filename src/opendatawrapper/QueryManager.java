@@ -1,8 +1,6 @@
 package opendatawrapper;
 
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.InputMismatchException;
@@ -113,7 +111,8 @@ public class QueryManager {
 			Query jenaQuery = QueryFactory.create(queryString);
 			QueryExecution qe = QueryExecutionFactory.create(jenaQuery, masterModel);
 			ResultSet results = qe.execSelect();
-			ResultSetFormatter.outputAsCSV(new FileOutputStream(new File(query+".result.csv"), false), results) ;
+			ResultSetFormatter.out(System.out, results);
+			//ResultSetFormatter.outputAsCSV(new FileOutputStream(new File(query+".result.csv"), false), results) ;
 			System.out.println("Result ok! See the "+query+".result.csv file !");
 		} catch (IOException e) {
 			System.err.println("The query cannot be opened. Check that the file exists and that it readable.");
@@ -127,12 +126,11 @@ public class QueryManager {
 		String line = null;
 		StringBuilder stringBuilder = new StringBuilder();
 		String ls = System.getProperty("line.separator");
-
 		while ((line = reader.readLine()) != null) {
 			stringBuilder.append(line);
 			stringBuilder.append(ls);
 		}
-
+		reader.close();
 		return stringBuilder.toString();
 	}
 

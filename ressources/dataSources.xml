@@ -376,4 +376,16 @@
     <outputTtlFile>ressources/output/ttl/action_sociale.n3</outputTtlFile>
     <outputXmlFile>ressources/output/rdf-xml/action_sociale.rdf</outputXmlFile>
   </source>
+  <source>
+    <nom>salle_spectacle</nom>
+    <api>true</api>
+    <apiurl>http://data.paysdelaloire.fr/api/publication/22440002800011_CG44_CUL_03804/Salle_de_spectacles_STBL/content?format=xml</apiurl>
+    <file>false</file>
+    <filepath>null</filepath>
+    <mappingFile>null</mappingFile>
+    <xsltFile>ressources/xsl/salle_spectacle.xsl</xsltFile>
+    <format>XML</format>
+    <outputTtlFile>ressources/output/ttl/salle_spectacle.n3</outputTtlFile>
+    <outputXmlFile>ressources/output/rdf-xml/salle_spectacle.rdf</outputXmlFile>
+  </source>
 </sources>
