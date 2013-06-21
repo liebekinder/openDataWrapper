@@ -159,6 +159,7 @@ demande ce que vous souhaitez faire. Les propositions sont:
 \item convertir toutes les sources de donnée au format N3
 \item convertir une source de donnée au format XML/RDF
 \item convertir toutes les sources de donnée au format XML/RDF
+\item faire des requêtes sur vos données.
 \item quitter
 \end{itemize}
 
@@ -266,5 +267,7 @@ RDF et génère un bloc de XSL. Si le nom de la balise n'est pas trouvé, un
 message s'affiche et le fichier mapping.properties est mis à jour avec une
 valeur par défaut. Vous devrez modifier cette valeur par la suite, pour lui
 attribuer un réel sens.
+
+\subsubsection{mapping.properties}
 
 \end{document}
