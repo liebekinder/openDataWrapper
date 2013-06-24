@@ -15,8 +15,8 @@
 @prefix sc: <http://schema.org/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
-<http://projet.com/10/Eglise_de_Thouaré_sur_Loire>	 foaf:name 	 "Eglise de Thouaré sur Loire"^^xsd:string ;
-	geo:lat	"47.2671265665458 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_de_Thouaré_sur_Loire>	 foaf:name 	 "Eglise de Thouaré sur Loire"^^xsd:string ;
+	geo:lat	"47.2671265665458"^^xsd:decimal ;
 	geo:long	"-1.4408047515336"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44470"^^xsd:string ;
@@ -32,8 +32,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Chapelle_Saint_Lupien>	 foaf:name 	 "Chapelle Saint Lupien"^^xsd:string ;
-	geo:lat	"47.1920034945033 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Chapelle_Saint_Lupien>	 foaf:name 	 "Chapelle Saint Lupien"^^xsd:string ;
+	geo:lat	"47.1920034945033"^^xsd:decimal ;
 	geo:long	"-1.56561510846483"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -49,8 +49,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_de_Saint_Léger_les_Vignes>	 foaf:name 	 "Eglise de Saint Léger les Vignes"^^xsd:string ;
-	geo:lat	"47.134908045044 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_de_Saint_Léger_les_Vignes>	 foaf:name 	 "Eglise de Saint Léger les Vignes"^^xsd:string ;
+	geo:lat	"47.134908045044"^^xsd:decimal ;
 	geo:long	"-1.73239491385642"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44710"^^xsd:string ;
@@ -66,8 +66,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Martin_de_Chantenay>	 foaf:name 	 "Eglise Saint Martin de Chantenay"^^xsd:string ;
-	geo:lat	"47.1992578742703 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Martin_de_Chantenay>	 foaf:name 	 "Eglise Saint Martin de Chantenay"^^xsd:string ;
+	geo:lat	"47.1992578742703"^^xsd:decimal ;
 	geo:long	"-1.59288298329616"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -83,8 +83,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Chapelle_Notre_Dame_des_Anges>	 foaf:name 	 "Chapelle Notre Dame des Anges"^^xsd:string ;
-	geo:lat	"47.2750874049268 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Chapelle_Notre_Dame_des_Anges>	 foaf:name 	 "Chapelle Notre Dame des Anges"^^xsd:string ;
+	geo:lat	"47.2750874049268"^^xsd:decimal ;
 	geo:long	"-1.63674460317085"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44700"^^xsd:string ;
@@ -100,8 +100,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_du_Pellerin>	 foaf:name 	 "Eglise du Pellerin"^^xsd:string ;
-	geo:lat	"47.199702178621 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_du_Pellerin>	 foaf:name 	 "Eglise du Pellerin"^^xsd:string ;
+	geo:lat	"47.199702178621"^^xsd:decimal ;
 	geo:long	"-1.7515459722722"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44640"^^xsd:string ;
@@ -117,8 +117,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Séminaire>	 foaf:name 	 "Séminaire"^^xsd:string ;
-	geo:lat	"47.2334594075897 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Séminaire>	 foaf:name 	 "Séminaire"^^xsd:string ;
+	geo:lat	"47.2334594075897"^^xsd:decimal ;
 	geo:long	"-1.5713554820074"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -134,8 +134,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Protestante_Baptiste>	 foaf:name 	 "Eglise Protestante Baptiste"^^xsd:string ;
-	geo:lat	"47.2078800842789 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Protestante_Baptiste>	 foaf:name 	 "Eglise Protestante Baptiste"^^xsd:string ;
+	geo:lat	"47.2078800842789"^^xsd:decimal ;
 	geo:long	"-1.49981648966679"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44230"^^xsd:string ;
@@ -151,8 +151,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "204"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_François_d'Assise>	 foaf:name 	 "Eglise Saint François d'Assise"^^xsd:string ;
-	geo:lat	"47.2532652090112 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_François_d'Assise>	 foaf:name 	 "Eglise Saint François d'Assise"^^xsd:string ;
+	geo:lat	"47.2532652090112"^^xsd:decimal ;
 	geo:long	"-1.55679585176621"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -168,8 +168,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Notre_Dame_de_Toutes_Joies>	 foaf:name 	 "Eglise Notre Dame de Toutes Joies"^^xsd:string ;
-	geo:lat	"47.221234592001 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Notre_Dame_de_Toutes_Joies>	 foaf:name 	 "Eglise Notre Dame de Toutes Joies"^^xsd:string ;
+	geo:lat	"47.221234592001"^^xsd:decimal ;
 	geo:long	"-1.57329366590374"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -185,8 +185,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Luc>	 foaf:name 	 "Eglise Saint Luc"^^xsd:string ;
-	geo:lat	"47.2280979823766 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Luc>	 foaf:name 	 "Eglise Saint Luc"^^xsd:string ;
+	geo:lat	"47.2280979823766"^^xsd:decimal ;
 	geo:long	"-1.58623420386211"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -202,8 +202,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Basilique_Saint_Nicolas>	 foaf:name 	 "Basilique Saint Nicolas"^^xsd:string ;
-	geo:lat	"47.2152737377637 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Basilique_Saint_Nicolas>	 foaf:name 	 "Basilique Saint Nicolas"^^xsd:string ;
+	geo:lat	"47.2152737377637"^^xsd:decimal ;
 	geo:long	"-1.5578596056084"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -219,8 +219,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Temple>	 foaf:name 	 "Temple"^^xsd:string ;
-	geo:lat	"47.2531004150102 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Temple>	 foaf:name 	 "Temple"^^xsd:string ;
+	geo:lat	"47.2531004150102"^^xsd:decimal ;
 	geo:long	"-1.52571329774243"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -236,8 +236,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "204"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Jean_Bosco>	 foaf:name 	 "Eglise Saint Jean Bosco"^^xsd:string ;
-	geo:lat	"47.2383258394792 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Jean_Bosco>	 foaf:name 	 "Eglise Saint Jean Bosco"^^xsd:string ;
+	geo:lat	"47.2383258394792"^^xsd:decimal ;
 	geo:long	"-1.53400570779692"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -253,8 +253,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Bernard>	 foaf:name 	 "Eglise Saint Bernard"^^xsd:string ;
-	geo:lat	"47.2464337593868 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Bernard>	 foaf:name 	 "Eglise Saint Bernard"^^xsd:string ;
+	geo:lat	"47.2464337593868"^^xsd:decimal ;
 	geo:long	"-1.53264840158859"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -270,8 +270,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Chapelle_des_Pères_Jésuites>	 foaf:name 	 "Chapelle des Pères Jésuites"^^xsd:string ;
-	geo:lat	"47.2157814290148 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Chapelle_des_Pères_Jésuites>	 foaf:name 	 "Chapelle des Pères Jésuites"^^xsd:string ;
+	geo:lat	"47.2157814290148"^^xsd:decimal ;
 	geo:long	"-1.56343593920306"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -287,8 +287,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Sainte_Famille>	 foaf:name 	 "Eglise Sainte Famille"^^xsd:string ;
-	geo:lat	"47.1851998398849 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Sainte_Famille>	 foaf:name 	 "Eglise Sainte Famille"^^xsd:string ;
+	geo:lat	"47.1851998398849"^^xsd:decimal ;
 	geo:long	"-1.50350098568316"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44120"^^xsd:string ;
@@ -304,8 +304,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Jacques>	 foaf:name 	 "Eglise Saint Jacques"^^xsd:string ;
-	geo:lat	"47.1964625887609 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Jacques>	 foaf:name 	 "Eglise Saint Jacques"^^xsd:string ;
+	geo:lat	"47.1964625887609"^^xsd:decimal ;
 	geo:long	"-1.53843347568101"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -321,8 +321,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Notre_Dame_des_Lumières>	 foaf:name 	 "Eglise Notre Dame des Lumières"^^xsd:string ;
-	geo:lat	"47.2104465842381 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Notre_Dame_des_Lumières>	 foaf:name 	 "Eglise Notre Dame des Lumières"^^xsd:string ;
+	geo:lat	"47.2104465842381"^^xsd:decimal ;
 	geo:long	"-1.52290429234205"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -338,8 +338,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Sébastien_sur_Loire>	 foaf:name 	 "Eglise Saint Sébastien sur Loire"^^xsd:string ;
-	geo:lat	"47.2086238484181 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Sébastien_sur_Loire>	 foaf:name 	 "Eglise Saint Sébastien sur Loire"^^xsd:string ;
+	geo:lat	"47.2086238484181"^^xsd:decimal ;
 	geo:long	"-1.50310254072993"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44230"^^xsd:string ;
@@ -355,8 +355,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Chapelle_Saint_René>	 foaf:name 	 "Chapelle Saint René"^^xsd:string ;
-	geo:lat	"47.2690171151682 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Chapelle_Saint_René>	 foaf:name 	 "Chapelle Saint René"^^xsd:string ;
+	geo:lat	"47.2690171151682"^^xsd:decimal ;
 	geo:long	"-1.59706388813633"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44700"^^xsd:string ;
@@ -372,8 +372,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Hermeland>	 foaf:name 	 "Eglise Saint Hermeland"^^xsd:string ;
-	geo:lat	"47.2103191153087 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Hermeland>	 foaf:name 	 "Eglise Saint Hermeland"^^xsd:string ;
+	geo:lat	"47.2103191153087"^^xsd:decimal ;
 	geo:long	"-1.65153085197828"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -389,8 +389,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Pierre>	 foaf:name 	 "Eglise Saint Pierre"^^xsd:string ;
-	geo:lat	"47.1788070691501 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Pierre>	 foaf:name 	 "Eglise Saint Pierre"^^xsd:string ;
+	geo:lat	"47.1788070691501"^^xsd:decimal ;
 	geo:long	"-1.62354300508086"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44340"^^xsd:string ;
@@ -406,8 +406,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Paul>	 foaf:name 	 "Eglise Saint Paul"^^xsd:string ;
-	geo:lat	"47.1847229935584 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Paul>	 foaf:name 	 "Eglise Saint Paul"^^xsd:string ;
+	geo:lat	"47.1847229935584"^^xsd:decimal ;
 	geo:long	"-1.5473739746211"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -423,8 +423,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Léger>	 foaf:name 	 "Eglise Saint Léger"^^xsd:string ;
-	geo:lat	"47.2707111711139 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Léger>	 foaf:name 	 "Eglise Saint Léger"^^xsd:string ;
+	geo:lat	"47.2707111711139"^^xsd:decimal ;
 	geo:long	"-1.62362621692616"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44700"^^xsd:string ;
@@ -440,8 +440,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Notre_Dame_du_Rosaire>	 foaf:name 	 "Eglise Notre Dame du Rosaire"^^xsd:string ;
-	geo:lat	"47.1926135344276 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Notre_Dame_du_Rosaire>	 foaf:name 	 "Eglise Notre Dame du Rosaire"^^xsd:string ;
+	geo:lat	"47.1926135344276"^^xsd:decimal ;
 	geo:long	"-1.5465132299997"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -457,8 +457,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Jean_l'Evangéliste>	 foaf:name 	 "Eglise Saint Jean l'Evangéliste"^^xsd:string ;
-	geo:lat	"47.1919012132069 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Jean_l'Evangéliste>	 foaf:name 	 "Eglise Saint Jean l'Evangéliste"^^xsd:string ;
+	geo:lat	"47.1919012132069"^^xsd:decimal ;
 	geo:long	"-1.52406792351513"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44230"^^xsd:string ;
@@ -474,8 +474,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Orthodoxe>	 foaf:name 	 "Eglise Orthodoxe"^^xsd:string ;
-	geo:lat	"47.2581315442846 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Orthodoxe>	 foaf:name 	 "Eglise Orthodoxe"^^xsd:string ;
+	geo:lat	"47.2581315442846"^^xsd:decimal ;
 	geo:long	"-1.52239838623559"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -491,8 +491,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "205"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Aignan_de_Grand_Lieu>	 foaf:name 	 "Eglise Saint Aignan de Grand Lieu"^^xsd:string ;
-	geo:lat	"47.1229161860939 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Aignan_de_Grand_Lieu>	 foaf:name 	 "Eglise Saint Aignan de Grand Lieu"^^xsd:string ;
+	geo:lat	"47.1229161860939"^^xsd:decimal ;
 	geo:long	"-1.63295380293511"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44860"^^xsd:string ;
@@ -508,8 +508,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_de_Bouaye>	 foaf:name 	 "Eglise de Bouaye"^^xsd:string ;
-	geo:lat	"47.1444240534838 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_de_Bouaye>	 foaf:name 	 "Eglise de Bouaye"^^xsd:string ;
+	geo:lat	"47.1444240534838"^^xsd:decimal ;
 	geo:long	"-1.69362649593802"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44830"^^xsd:string ;
@@ -525,8 +525,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_de_Sainte_Luce_sur_Loire>	 foaf:name 	 "Eglise de Sainte Luce sur Loire"^^xsd:string ;
-	geo:lat	"47.2493997247658 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_de_Sainte_Luce_sur_Loire>	 foaf:name 	 "Eglise de Sainte Luce sur Loire"^^xsd:string ;
+	geo:lat	"47.2493997247658"^^xsd:decimal ;
 	geo:long	"-1.48772621839281"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44980"^^xsd:string ;
@@ -542,8 +542,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_de_Couëron>	 foaf:name 	 "Eglise de Couëron"^^xsd:string ;
-	geo:lat	"47.2101447545309 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_de_Couëron>	 foaf:name 	 "Eglise de Couëron"^^xsd:string ;
+	geo:lat	"47.2101447545309"^^xsd:decimal ;
 	geo:long	"-1.72895031069819"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44220"^^xsd:string ;
@@ -559,8 +559,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_de_Basse_Goulaine>	 foaf:name 	 "Eglise de Basse Goulaine"^^xsd:string ;
-	geo:lat	"47.2152122967564 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_de_Basse_Goulaine>	 foaf:name 	 "Eglise de Basse Goulaine"^^xsd:string ;
+	geo:lat	"47.2152122967564"^^xsd:decimal ;
 	geo:long	"-1.46533696189201"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44115"^^xsd:string ;
@@ -576,8 +576,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Michel>	 foaf:name 	 "Eglise Saint Michel"^^xsd:string ;
-	geo:lat	"47.2091592583823 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Michel>	 foaf:name 	 "Eglise Saint Michel"^^xsd:string ;
+	geo:lat	"47.2091592583823"^^xsd:decimal ;
 	geo:long	"-1.59517198184298"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -593,8 +593,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Cathédrale_Saint_Pierre_et_Saint_Paul_de_Nantes>	 foaf:name 	 "Cathédrale Saint Pierre et Saint Paul de Nantes"^^xsd:string ;
-	geo:lat	"47.2182899995309 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Cathédrale_Saint_Pierre_et_Saint_Paul_de_Nantes>	 foaf:name 	 "Cathédrale Saint Pierre et Saint Paul de Nantes"^^xsd:string ;
+	geo:lat	"47.2182899995309"^^xsd:decimal ;
 	geo:long	"-1.55076538183669"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -610,8 +610,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Félix>	 foaf:name 	 "Eglise Saint Félix"^^xsd:string ;
-	geo:lat	"47.2311190456812 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Félix>	 foaf:name 	 "Eglise Saint Félix"^^xsd:string ;
+	geo:lat	"47.2311190456812"^^xsd:decimal ;
 	geo:long	"-1.55573950039638"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -627,8 +627,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Notre_Dame_de_Lourdes>	 foaf:name 	 "Eglise Notre Dame de Lourdes"^^xsd:string ;
-	geo:lat	"47.2488391210941 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Notre_Dame_de_Lourdes>	 foaf:name 	 "Eglise Notre Dame de Lourdes"^^xsd:string ;
+	geo:lat	"47.2488391210941"^^xsd:decimal ;
 	geo:long	"-1.57684852829234"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -644,8 +644,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Similien>	 foaf:name 	 "Eglise Saint Similien"^^xsd:string ;
-	geo:lat	"47.220254031264 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Similien>	 foaf:name 	 "Eglise Saint Similien"^^xsd:string ;
+	geo:lat	"47.220254031264"^^xsd:decimal ;
 	geo:long	"-1.55938252631596"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -661,8 +661,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Georges>	 foaf:name 	 "Eglise Saint Georges"^^xsd:string ;
-	geo:lat	"47.258455876183 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Georges>	 foaf:name 	 "Eglise Saint Georges"^^xsd:string ;
+	geo:lat	"47.258455876183"^^xsd:decimal ;
 	geo:long	"-1.52291776323092"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -678,8 +678,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Evangélique>	 foaf:name 	 "Eglise Evangélique"^^xsd:string ;
-	geo:lat	"47.1800496638667 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Evangélique>	 foaf:name 	 "Eglise Evangélique"^^xsd:string ;
+	geo:lat	"47.1800496638667"^^xsd:decimal ;
 	geo:long	"-1.55776601032678"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -695,8 +695,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "204"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Vincent_de_Paul>	 foaf:name 	 "Eglise Saint Vincent de Paul"^^xsd:string ;
-	geo:lat	"47.1675173026313 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Vincent_de_Paul>	 foaf:name 	 "Eglise Saint Vincent de Paul"^^xsd:string ;
+	geo:lat	"47.1675173026313"^^xsd:decimal ;
 	geo:long	"-1.54331356438971"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -712,8 +712,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_François_de_Sales>	 foaf:name 	 "Eglise Saint François de Sales"^^xsd:string ;
-	geo:lat	"47.2292628581813 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_François_de_Sales>	 foaf:name 	 "Eglise Saint François de Sales"^^xsd:string ;
+	geo:lat	"47.2292628581813"^^xsd:decimal ;
 	geo:long	"-1.53065972695811"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -729,8 +729,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Chapelle_Notre_Dame_des_Apôtres_des_Couêts>	 foaf:name 	 "Chapelle Notre Dame des Apôtres des Couêts"^^xsd:string ;
-	geo:lat	"47.1810750615002 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Chapelle_Notre_Dame_des_Apôtres_des_Couêts>	 foaf:name 	 "Chapelle Notre Dame des Apôtres des Couêts"^^xsd:string ;
+	geo:lat	"47.1810750615002"^^xsd:decimal ;
 	geo:long	"-1.58677986000661"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44340"^^xsd:string ;
@@ -746,8 +746,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Clément>	 foaf:name 	 "Eglise Saint Clément"^^xsd:string ;
-	geo:lat	"47.2213660008308 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Clément>	 foaf:name 	 "Eglise Saint Clément"^^xsd:string ;
+	geo:lat	"47.2213660008308"^^xsd:decimal ;
 	geo:long	"-1.54710160687075"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -763,8 +763,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Joseph_de_Porterie>	 foaf:name 	 "Eglise Saint Joseph de Porterie"^^xsd:string ;
-	geo:lat	"47.2697218507896 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Joseph_de_Porterie>	 foaf:name 	 "Eglise Saint Joseph de Porterie"^^xsd:string ;
+	geo:lat	"47.2697218507896"^^xsd:decimal ;
 	geo:long	"-1.51869633704499"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -780,8 +780,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Synagogue>	 foaf:name 	 "Synagogue"^^xsd:string ;
-	geo:lat	"47.2154445331258 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Synagogue>	 foaf:name 	 "Synagogue"^^xsd:string ;
+	geo:lat	"47.2154445331258"^^xsd:decimal ;
 	geo:long	"-1.56590135508542"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -797,8 +797,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "203"^^xsd:string .
 
-<http://projet.com/10/Evéché>	 foaf:name 	 "Evéché"^^xsd:string ;
-	geo:lat	"47.2327606151159 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Evéché>	 foaf:name 	 "Evéché"^^xsd:string ;
+	geo:lat	"47.2327606151159"^^xsd:decimal ;
 	geo:long	"-1.57202895537563"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -814,8 +814,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Mosquée_Arrahma>	 foaf:name 	 "Mosquée Arrahma"^^xsd:string ;
-	geo:lat	"47.2637699946969 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Mosquée_Arrahma>	 foaf:name 	 "Mosquée Arrahma"^^xsd:string ;
+	geo:lat	"47.2637699946969"^^xsd:decimal ;
 	geo:long	"-1.57535871694578"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -831,8 +831,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "202"^^xsd:string .
 
-<http://projet.com/10/Eglise_Sainte_Anne>	 foaf:name 	 "Eglise Sainte Anne"^^xsd:string ;
-	geo:lat	"47.2029270646617 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Sainte_Anne>	 foaf:name 	 "Eglise Sainte Anne"^^xsd:string ;
+	geo:lat	"47.2029270646617"^^xsd:decimal ;
 	geo:long	"-1.57981524610534"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -848,8 +848,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Clair>	 foaf:name 	 "Eglise Saint Clair"^^xsd:string ;
-	geo:lat	"47.2126487172273 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Clair>	 foaf:name 	 "Eglise Saint Clair"^^xsd:string ;
+	geo:lat	"47.2126487172273"^^xsd:decimal ;
 	geo:long	"-1.58345098169868"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -865,8 +865,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Centre_Spirituel_Diocésain_des_Naudières>	 foaf:name 	 "Centre Spirituel Diocésain des Naudières"^^xsd:string ;
-	geo:lat	"47.1762451018279 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Centre_Spirituel_Diocésain_des_Naudières>	 foaf:name 	 "Centre Spirituel Diocésain des Naudières"^^xsd:string ;
+	geo:lat	"47.1762451018279"^^xsd:decimal ;
 	geo:long	"-1.53877940321655"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -882,8 +882,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Marc>	 foaf:name 	 "Eglise Saint Marc"^^xsd:string ;
-	geo:lat	"47.2139938598891 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Marc>	 foaf:name 	 "Eglise Saint Marc"^^xsd:string ;
+	geo:lat	"47.2139938598891"^^xsd:decimal ;
 	geo:long	"-1.52779397967144"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -899,8 +899,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Médard>	 foaf:name 	 "Eglise Saint Médard"^^xsd:string ;
-	geo:lat	"47.2362697712849 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Médard>	 foaf:name 	 "Eglise Saint Médard"^^xsd:string ;
+	geo:lat	"47.2362697712849"^^xsd:decimal ;
 	geo:long	"-1.50303923444128"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -916,8 +916,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Sainte_Madeleine>	 foaf:name 	 "Eglise Sainte Madeleine"^^xsd:string ;
-	geo:lat	"47.2051055425771 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Sainte_Madeleine>	 foaf:name 	 "Eglise Sainte Madeleine"^^xsd:string ;
+	geo:lat	"47.2051055425771"^^xsd:decimal ;
 	geo:long	"-1.54945488841703"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -933,8 +933,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Orthodoxe_Saint_Basile_de_Césarée>	 foaf:name 	 "Eglise Orthodoxe Saint Basile de Césarée"^^xsd:string ;
-	geo:lat	"47.2242782369793 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Orthodoxe_Saint_Basile_de_Césarée>	 foaf:name 	 "Eglise Orthodoxe Saint Basile de Césarée"^^xsd:string ;
+	geo:lat	"47.2242782369793"^^xsd:decimal ;
 	geo:long	"-1.5422381517003"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -950,8 +950,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "205"^^xsd:string .
 
-<http://projet.com/10/Eglise_Protestante_Evangéliste_Nantes-Ouest>	 foaf:name 	 "Eglise Protestante Evangéliste Nantes-Ouest"^^xsd:string ;
-	geo:lat	"47.2178401989156 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Protestante_Evangéliste_Nantes-Ouest>	 foaf:name 	 "Eglise Protestante Evangéliste Nantes-Ouest"^^xsd:string ;
+	geo:lat	"47.2178401989156"^^xsd:decimal ;
 	geo:long	"-1.6022595516947"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -967,8 +967,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "204"^^xsd:string .
 
-<http://projet.com/10/Chapelle_des_Franciscains>	 foaf:name 	 "Chapelle des Franciscains"^^xsd:string ;
-	geo:lat	"47.215013149689 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Chapelle_des_Franciscains>	 foaf:name 	 "Chapelle des Franciscains"^^xsd:string ;
+	geo:lat	"47.215013149689"^^xsd:decimal ;
 	geo:long	"-1.57486829346834"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -984,8 +984,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Pasquier>	 foaf:name 	 "Eglise Saint Pasquier"^^xsd:string ;
-	geo:lat	"47.2283310344671 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Pasquier>	 foaf:name 	 "Eglise Saint Pasquier"^^xsd:string ;
+	geo:lat	"47.2283310344671"^^xsd:decimal ;
 	geo:long	"-1.5658445444596"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1001,8 +1001,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Orthodoxe_La_Trinité_Saint_Clair>	 foaf:name 	 "Eglise Orthodoxe La Trinité Saint Clair"^^xsd:string ;
-	geo:lat	"47.260443083105 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Orthodoxe_La_Trinité_Saint_Clair>	 foaf:name 	 "Eglise Orthodoxe La Trinité Saint Clair"^^xsd:string ;
+	geo:lat	"47.260443083105"^^xsd:decimal ;
 	geo:long	"-1.57045745469617"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -1018,8 +1018,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "205"^^xsd:string .
 
-<http://projet.com/10/Eglise_Sainte_Croix>	 foaf:name 	 "Eglise Sainte Croix"^^xsd:string ;
-	geo:lat	"47.2153088781586 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Sainte_Croix>	 foaf:name 	 "Eglise Sainte Croix"^^xsd:string ;
+	geo:lat	"47.2153088781586"^^xsd:decimal ;
 	geo:long	"-1.5541546065547"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1035,8 +1035,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Protestante_Baptiste>	 foaf:name 	 "Eglise Protestante Baptiste"^^xsd:string ;
-	geo:lat	"47.1894649073978 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Protestante_Baptiste1> foaf:name  "Eglise Protestante Baptiste"^^xsd:string ;
+	geo:lat	"47.1894649073978"^^xsd:decimal ;
 	geo:long	"-1.51227654568943"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44230"^^xsd:string ;
@@ -1052,8 +1052,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "204"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Dominique>	 foaf:name 	 "Eglise Saint Dominique"^^xsd:string ;
-	geo:lat	"47.2565516807428 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Dominique>	 foaf:name 	 "Eglise Saint Dominique"^^xsd:string ;
+	geo:lat	"47.2565516807428"^^xsd:decimal ;
 	geo:long	"-1.56553030991633"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -1069,8 +1069,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Protestante_Baptiste_Libre>	 foaf:name 	 "Eglise Protestante Baptiste Libre"^^xsd:string ;
-	geo:lat	"47.2551172403549 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Protestante_Baptiste_Libre>	 foaf:name 	 "Eglise Protestante Baptiste Libre"^^xsd:string ;
+	geo:lat	"47.2551172403549"^^xsd:decimal ;
 	geo:long	"-1.56552036338582"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -1086,8 +1086,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "204"^^xsd:string .
 
-<http://projet.com/10/Basilique_Saint_Donatien>	 foaf:name 	 "Basilique Saint Donatien"^^xsd:string ;
-	geo:lat	"47.2291424937948 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Basilique_Saint_Donatien>	 foaf:name 	 "Basilique Saint Donatien"^^xsd:string ;
+	geo:lat	"47.2291424937948"^^xsd:decimal ;
 	geo:long	"-1.54266919742757"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1103,8 +1103,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Notre_Dame_de_Bon_Port>	 foaf:name 	 "Eglise Notre Dame de Bon Port"^^xsd:string ;
-	geo:lat	"47.2103364677438 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Notre_Dame_de_Bon_Port>	 foaf:name 	 "Eglise Notre Dame de Bon Port"^^xsd:string ;
+	geo:lat	"47.2103364677438"^^xsd:decimal ;
 	geo:long	"-1.569014889138"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -1120,8 +1120,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Chapelle_de_l'Hôtel_Dieu>	 foaf:name 	 "Chapelle de l'Hôtel Dieu"^^xsd:string ;
-	geo:lat	"47.2104728878188 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Chapelle_de_l'Hôtel_Dieu>	 foaf:name 	 "Chapelle de l'Hôtel Dieu"^^xsd:string ;
+	geo:lat	"47.2104728878188"^^xsd:decimal ;
 	geo:long	"-1.55500443963914"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1137,8 +1137,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Laurent>	 foaf:name 	 "Eglise Saint Laurent"^^xsd:string ;
-	geo:lat	"47.2237342639281 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Laurent>	 foaf:name 	 "Eglise Saint Laurent"^^xsd:string ;
+	geo:lat	"47.2237342639281"^^xsd:decimal ;
 	geo:long	"-1.5985214927098"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -1154,8 +1154,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Pagode_Bouddhiste_Van_Hanh>	 foaf:name 	 "Pagode Bouddhiste Van Hanh"^^xsd:string ;
-	geo:lat	"47.210347157357 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Pagode_Bouddhiste_Van_Hanh>	 foaf:name 	 "Pagode Bouddhiste Van Hanh"^^xsd:string ;
+	geo:lat	"47.210347157357"^^xsd:decimal ;
 	geo:long	"-1.62805235816357"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -1171,8 +1171,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "206"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Louis_de_Monfort>	 foaf:name 	 "Eglise Saint Louis de Monfort"^^xsd:string ;
-	geo:lat	"47.2373934315162 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Louis_de_Monfort>	 foaf:name 	 "Eglise Saint Louis de Monfort"^^xsd:string ;
+	geo:lat	"47.2373934315162"^^xsd:decimal ;
 	geo:long	"-1.5952567150259"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -1188,8 +1188,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Chapelle_du_Château_de_la_Tour>	 foaf:name 	 "Chapelle du Château de la Tour"^^xsd:string ;
-	geo:lat	"47.2876192022202 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Chapelle_du_Château_de_la_Tour>	 foaf:name 	 "Chapelle du Château de la Tour"^^xsd:string ;
+	geo:lat	"47.2876192022202"^^xsd:decimal ;
 	geo:long	"-1.62559465498803"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44700"^^xsd:string ;
@@ -1205,8 +1205,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_de_Brains>	 foaf:name 	 "Eglise de Brains"^^xsd:string ;
-	geo:lat	"47.1686070820294 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_de_Brains>	 foaf:name 	 "Eglise de Brains"^^xsd:string ;
+	geo:lat	"47.1686070820294"^^xsd:decimal ;
 	geo:long	"-1.72045068903083"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44830"^^xsd:string ;
@@ -1222,8 +1222,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Pierre>	 foaf:name 	 "Eglise Saint Pierre"^^xsd:string ;
-	geo:lat	"47.1909777672593 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Pierre2> foaf:name  "Eglise Saint Pierre"^^xsd:string ;
+	geo:lat	"47.1909777672593"^^xsd:decimal ;
 	geo:long	"-1.57013931780589"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -1239,8 +1239,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Notre_Dame_des_Victoires>	 foaf:name 	 "Eglise Notre Dame des Victoires"^^xsd:string ;
-	geo:lat	"47.1804355218392 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Notre_Dame_des_Victoires>	 foaf:name 	 "Eglise Notre Dame des Victoires"^^xsd:string ;
+	geo:lat	"47.1804355218392"^^xsd:decimal ;
 	geo:long	"-1.50955640553516"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44120"^^xsd:string ;
@@ -1256,8 +1256,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Chapelle_Rue_Mondésir>	 foaf:name 	 "Chapelle Rue Mondésir"^^xsd:string ;
-	geo:lat	"47.2165736614692 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Chapelle_Rue_Mondésir>	 foaf:name 	 "Chapelle Rue Mondésir"^^xsd:string ;
+	geo:lat	"47.2165736614692"^^xsd:decimal ;
 	geo:long	"-1.56904122706108"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1273,8 +1273,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Chapelle_Bethléem>	 foaf:name 	 "Chapelle Bethléem"^^xsd:string ;
-	geo:lat	"47.1954996212628 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Chapelle_Bethléem>	 foaf:name 	 "Chapelle Bethléem"^^xsd:string ;
+	geo:lat	"47.1954996212628"^^xsd:decimal ;
 	geo:long	"-1.73169253048406"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44640"^^xsd:string ;
@@ -1290,8 +1290,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_André>	 foaf:name 	 "Eglise Saint André"^^xsd:string ;
-	geo:lat	"47.1821629058559 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_André>	 foaf:name 	 "Eglise Saint André"^^xsd:string ;
+	geo:lat	"47.1821629058559"^^xsd:decimal ;
 	geo:long	"-1.56393057300785"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -1307,8 +1307,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Chapelle_Notre_Dame_de_Bon_Garand>	 foaf:name 	 "Chapelle Notre Dame de Bon Garand"^^xsd:string ;
-	geo:lat	"47.2781900091513 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Chapelle_Notre_Dame_de_Bon_Garand>	 foaf:name 	 "Chapelle Notre Dame de Bon Garand"^^xsd:string ;
+	geo:lat	"47.2781900091513"^^xsd:decimal ;
 	geo:long	"-1.69652812695704"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44880"^^xsd:string ;
@@ -1324,8 +1324,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_de_La_Montagne>	 foaf:name 	 "Eglise de La Montagne"^^xsd:string ;
-	geo:lat	"47.1900052471503 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_de_La_Montagne>	 foaf:name 	 "Eglise de La Montagne"^^xsd:string ;
+	geo:lat	"47.1900052471503"^^xsd:decimal ;
 	geo:long	"-1.68414357769833"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44620"^^xsd:string ;
@@ -1341,8 +1341,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_de_Carquefou>	 foaf:name 	 "Eglise de Carquefou"^^xsd:string ;
-	geo:lat	"47.2965530235961 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_de_Carquefou>	 foaf:name 	 "Eglise de Carquefou"^^xsd:string ;
+	geo:lat	"47.2965530235961"^^xsd:decimal ;
 	geo:long	"-1.49231790381251"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44470"^^xsd:string ;
@@ -1358,8 +1358,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Martin>	 foaf:name 	 "Eglise Saint Martin"^^xsd:string ;
-	geo:lat	"47.1683655252145 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Martin>	 foaf:name 	 "Eglise Saint Martin"^^xsd:string ;
+	geo:lat	"47.1683655252145"^^xsd:decimal ;
 	geo:long	"-1.47295226606828"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44120"^^xsd:string ;
@@ -1375,8 +1375,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_des_Sorinnières>	 foaf:name 	 "Eglise des Sorinnières"^^xsd:string ;
-	geo:lat	"47.1482585075926 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_des_Sorinnières>	 foaf:name 	 "Eglise des Sorinnières"^^xsd:string ;
+	geo:lat	"47.1482585075926"^^xsd:decimal ;
 	geo:long	"-1.52982994740326"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44840"^^xsd:string ;
@@ -1392,8 +1392,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_de_Saint_Jean_de_Boiseau>	 foaf:name 	 "Eglise de Saint Jean de Boiseau"^^xsd:string ;
-	geo:lat	"47.1959637495178 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_de_Saint_Jean_de_Boiseau>	 foaf:name 	 "Eglise de Saint Jean de Boiseau"^^xsd:string ;
+	geo:lat	"47.1959637495178"^^xsd:decimal ;
 	geo:long	"-1.72464405708222"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44640"^^xsd:string ;
@@ -1409,8 +1409,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Chapelle_Bonne_Garde>	 foaf:name 	 "Chapelle Bonne Garde"^^xsd:string ;
-	geo:lat	"47.1957645978179 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Chapelle_Bonne_Garde>	 foaf:name 	 "Chapelle Bonne Garde"^^xsd:string ;
+	geo:lat	"47.1957645978179"^^xsd:decimal ;
 	geo:long	"-1.53629194387735"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -1426,8 +1426,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Chapelle_Saint_Stéphane>	 foaf:name 	 "Chapelle Saint Stéphane"^^xsd:string ;
-	geo:lat	"47.2616549744949 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Chapelle_Saint_Stéphane>	 foaf:name 	 "Chapelle Saint Stéphane"^^xsd:string ;
+	geo:lat	"47.2616549744949"^^xsd:decimal ;
 	geo:long	"-1.62937243070817"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44700"^^xsd:string ;
@@ -1443,8 +1443,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Thomas>	 foaf:name 	 "Eglise Saint Thomas"^^xsd:string ;
-	geo:lat	"47.2295783220167 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Thomas>	 foaf:name 	 "Eglise Saint Thomas"^^xsd:string ;
+	geo:lat	"47.2295783220167"^^xsd:decimal ;
 	geo:long	"-1.61766936593689"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -1460,8 +1460,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Mosquée>	 foaf:name 	 "Mosquée"^^xsd:string ;
-	geo:lat	"47.2197787467056 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Mosquée>	 foaf:name 	 "Mosquée"^^xsd:string ;
+	geo:lat	"47.2197787467056"^^xsd:decimal ;
 	geo:long	"-1.51842753528741"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1477,8 +1477,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "202"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Eloi>	 foaf:name 	 "Eglise Saint Eloi"^^xsd:string ;
-	geo:lat	"47.2152498360784 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Eloi>	 foaf:name 	 "Eglise Saint Eloi"^^xsd:string ;
+	geo:lat	"47.2152498360784"^^xsd:decimal ;
 	geo:long	"-1.67879450397918"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44220"^^xsd:string ;
@@ -1494,8 +1494,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_d'Indre>	 foaf:name 	 "Eglise d'Indre"^^xsd:string ;
-	geo:lat	"47.1986270984005 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_d'Indre>	 foaf:name 	 "Eglise d'Indre"^^xsd:string ;
+	geo:lat	"47.1986270984005"^^xsd:decimal ;
 	geo:long	"-1.67038538133352"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44610"^^xsd:string ;
@@ -1511,8 +1511,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Sainte_Bernadette>	 foaf:name 	 "Eglise Sainte Bernadette"^^xsd:string ;
-	geo:lat	"47.2484484847357 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Sainte_Bernadette>	 foaf:name 	 "Eglise Sainte Bernadette"^^xsd:string ;
+	geo:lat	"47.2484484847357"^^xsd:decimal ;
 	geo:long	"-1.59868171419651"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44700"^^xsd:string ;
@@ -1528,8 +1528,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_de_Mauves_sur_Loire>	 foaf:name 	 "Eglise de Mauves sur Loire"^^xsd:string ;
-	geo:lat	"47.2953319490169 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_de_Mauves_sur_Loire>	 foaf:name 	 "Eglise de Mauves sur Loire"^^xsd:string ;
+	geo:lat	"47.2953319490169"^^xsd:decimal ;
 	geo:long	"-1.39314574495097"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44470"^^xsd:string ;
@@ -1545,8 +1545,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_de_Sautron>	 foaf:name 	 "Eglise de Sautron"^^xsd:string ;
-	geo:lat	"47.2644299274242 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_de_Sautron>	 foaf:name 	 "Eglise de Sautron"^^xsd:string ;
+	geo:lat	"47.2644299274242"^^xsd:decimal ;
 	geo:long	"-1.67188084194146"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44880"^^xsd:string ;
@@ -1562,8 +1562,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_de_La_Chapelle_sur_Erdre>	 foaf:name 	 "Eglise de La Chapelle sur Erdre"^^xsd:string ;
-	geo:lat	"47.2995064005004 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_de_La_Chapelle_sur_Erdre>	 foaf:name 	 "Eglise de La Chapelle sur Erdre"^^xsd:string ;
+	geo:lat	"47.2995064005004"^^xsd:decimal ;
 	geo:long	"-1.54956179017045"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44240"^^xsd:string ;
@@ -1579,8 +1579,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Etienne>	 foaf:name 	 "Eglise Saint Etienne"^^xsd:string ;
-	geo:lat	"47.2086967624759 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Etienne>	 foaf:name 	 "Eglise Saint Etienne"^^xsd:string ;
+	geo:lat	"47.2086967624759"^^xsd:decimal ;
 	geo:long	"-1.60995002250609"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -1596,8 +1596,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Chapelle_de_l'Immaculée>	 foaf:name 	 "Chapelle de l'Immaculée"^^xsd:string ;
-	geo:lat	"47.2181779522736 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Chapelle_de_l'Immaculée>	 foaf:name 	 "Chapelle de l'Immaculée"^^xsd:string ;
+	geo:lat	"47.2181779522736"^^xsd:decimal ;
 	geo:long	"-1.54653525831245"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1613,8 +1613,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Mosquée>	 foaf:name 	 "Mosquée"^^xsd:string ;
-	geo:lat	"47.2134826909489 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Mosquée3> foaf:name  "Mosquée"^^xsd:string ;
+	geo:lat	"47.2134826909489"^^xsd:decimal ;
 	geo:long	"-1.53675221661486"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1630,8 +1630,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "202"^^xsd:string .
 
-<http://projet.com/10/Eglise_Réformée_Temple_Protestant>	 foaf:name 	 "Eglise Réformée Temple Protestant"^^xsd:string ;
-	geo:lat	"47.2189611054336 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Réformée_Temple_Protestant>	 foaf:name 	 "Eglise Réformée Temple Protestant"^^xsd:string ;
+	geo:lat	"47.2189611054336"^^xsd:decimal ;
 	geo:long	"-1.56384098024837"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1647,8 +1647,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "204"^^xsd:string .
 
-<http://projet.com/10/Eglise_Notre_Dame_de_Toutes_Aides>	 foaf:name 	 "Eglise Notre Dame de Toutes Aides"^^xsd:string ;
-	geo:lat	"47.2256155799511 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Notre_Dame_de_Toutes_Aides>	 foaf:name 	 "Eglise Notre Dame de Toutes Aides"^^xsd:string ;
+	geo:lat	"47.2256155799511"^^xsd:decimal ;
 	geo:long	"-1.52314604675565"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1664,8 +1664,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Sainte_Elisabeth>	 foaf:name 	 "Eglise Sainte Elisabeth"^^xsd:string ;
-	geo:lat	"47.2220478360772 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Sainte_Elisabeth>	 foaf:name 	 "Eglise Sainte Elisabeth"^^xsd:string ;
+	geo:lat	"47.2220478360772"^^xsd:decimal ;
 	geo:long	"-1.53713461685472"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1681,8 +1681,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Jean_Baptiste>	 foaf:name 	 "Eglise Saint Jean Baptiste"^^xsd:string ;
-	geo:lat	"47.2436518994458 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Jean_Baptiste>	 foaf:name 	 "Eglise Saint Jean Baptiste"^^xsd:string ;
+	geo:lat	"47.2436518994458"^^xsd:decimal ;
 	geo:long	"-1.52332690445688"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -1698,8 +1698,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Sainte_Thérèse>	 foaf:name 	 "Eglise Sainte Thérèse"^^xsd:string ;
-	geo:lat	"47.2322636606466 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Sainte_Thérèse>	 foaf:name 	 "Eglise Sainte Thérèse"^^xsd:string ;
+	geo:lat	"47.2322636606466"^^xsd:decimal ;
 	geo:long	"-1.57762185733818"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -1715,8 +1715,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "201"^^xsd:string .
 
-<http://projet.com/10/Eglise_Saint_Augustin(Cure_de_Don_Bosco)>	 foaf:name 	 "Eglise Saint Augustin(Cure de Don Bosco)"^^xsd:string ;
-	geo:lat	"47.2384492786634 "^^xsd:decimal ;
+<http://lodpaddle.com/culte/Eglise_Saint_Augustin(Cure_de_Don_Bosco)>	 foaf:name 	 "Eglise Saint Augustin(Cure de Don Bosco)"^^xsd:string ;
+	geo:lat	"47.2384492786634"^^xsd:decimal ;
 	geo:long	"-1.5453113954042"^^xsd:decimal  ;
 	pdll:themeLabel	 "CULTE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;

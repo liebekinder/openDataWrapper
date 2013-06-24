@@ -62,7 +62,7 @@ public class LoadRessources {
 
 		mappingFile = document.getRootElement().getChild("configuration")
 				.getChild("mappingFile").getValue();
-		queryFolder = System.getProperty("user.home")+"/.openDataWrapper/"+document.getRootElement().getChild("configuration")
+		queryFolder = document.getRootElement().getChild("configuration")
 				.getChild("queryFolder").getValue();
 		queryList = findQueries(queryFolder);
 
@@ -75,22 +75,18 @@ public class LoadRessources {
 
 			Element courant = (Element) it.next();
 
-			String nom = courant.getChild("nom").getValue();
-			boolean api = Boolean.parseBoolean(courant.getChild("api")
+			String nom = courant.getChild("nom").getValue().trim();
+			String apiUrl = courant.getChild("apiurl").getValue().trim();
+			String specificMapping = courant.getChild("specificMapping").getValue().trim();
+			String xsltFile = courant.getChild("xsltFile").getValue().trim();
+			boolean specificXSLT = Boolean.parseBoolean(courant.getChild("specificXSLT")
 					.getValue());
-			String apiUrl = courant.getChild("apiurl").getValue();
-			boolean file = Boolean.parseBoolean(courant.getChild("file")
-					.getValue());
-			String filePath = courant.getChild("filepath").getValue();
-			String mappingFile = courant.getChild("mappingFile").getValue();
-			String xsltFile = courant.getChild("xsltFile").getValue();
-			String format = courant.getChild("format").getValue();
-			String outputTtl = courant.getChild("outputTtlFile").getValue();
-			String outputRdf = courant.getChild("outputXmlFile").getValue();
+			String outputTtl = courant.getChild("outputTtlFile").getValue().trim();
+			String outputRdf = courant.getChild("outputXmlFile").getValue().trim();
 
 			// chaque source est ajouté à la hashMap
-			listeDataSource.put(i, new DataSource(nom, api, apiUrl, file,
-					filePath, mappingFile, xsltFile, format, outputTtl,
+			listeDataSource.put(i, new DataSource(nom, apiUrl, specificMapping, xsltFile,
+					specificXSLT, outputTtl,
 					outputRdf));
 			i++;
 		}
@@ -151,22 +147,16 @@ public class LoadRessources {
 
 					Element name = new Element("nom");
 					name.setText((String) valeur);
-					Element api = new Element("api");
-					api.setText("true");
 					Element apiurl = new Element("apiurl");
 					apiurl.setText((String) p.getProperty((String) valeur)
 							+ "?format=xml");
-					Element file = new Element("file");
-					file.setText("false");
-					Element filepath = new Element("filepath");
-					filepath.setText("null");
-					Element mappingFile = new Element("mappingFile");
-					mappingFile.setText("null");
+					Element specificMapping = new Element("specificMapping");
+					specificMapping.setText("null");
 					Element xsltFile = new Element("xsltFile");
 					xsltFile.setText("ressources/xsl/" + (String) valeur
 							+ ".xsl");
-					Element format = new Element("format");
-					format.setText("XML");
+					Element specificXSLT = new Element("specificXSLT");
+					specificXSLT.setText("false");
 					Element outputTtlFile = new Element("outputTtlFile");
 					outputTtlFile.setText("ressources/output/ttl/"
 							+ (String) valeur + ".n3");
@@ -175,13 +165,10 @@ public class LoadRessources {
 							+ (String) valeur + ".rdf");
 
 					temp.addContent(name);
-					temp.addContent(api);
 					temp.addContent(apiurl);
-					temp.addContent(file);
-					temp.addContent(filepath);
-					temp.addContent(mappingFile);
+					temp.addContent(specificMapping);
 					temp.addContent(xsltFile);
-					temp.addContent(format);
+					temp.addContent(specificXSLT);
 					temp.addContent(outputTtlFile);
 					temp.addContent(outputXmlFile);
 

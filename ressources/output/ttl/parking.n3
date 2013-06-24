@@ -15,10 +15,10 @@
 @prefix sc: <http://schema.org/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
-<http://projet.com/10/Parking_ouvrage_Médiathèque>	 foaf:name 	 "Parking ouvrage Médiathèque"^^xsd:string ;
+<http://lodpaddle.com/parking/Parking_ouvrage_Médiathèque>	 foaf:name 	 "Parking ouvrage Médiathèque"^^xsd:string ;
 	pdll:hasBikeFeature	 "Non"^^xsd:string ;
 	pdll:carCapacity	 "447"^^xsd:string ;
-	geo:lat	"47.2108708271003 "^^xsd:decimal ;
+	geo:lat	"47.2108708271003"^^xsd:decimal ;
 	geo:long	"-1.5623381759623"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	pdll:electricBikeCapacity	 "2"^^xsd:integer ;
@@ -39,10 +39,10 @@
 	pdll:TypeLabel	 "Mixte"^^xsd:string ;
 	pdll:id	 "134"^^xsd:string .
 
-<http://projet.com/10/Parking_ouvrage_Gare_Nord>	 foaf:name 	 "Parking ouvrage Gare Nord"^^xsd:string ;
+<http://lodpaddle.com/parking/Parking_ouvrage_Gare_Nord>	 foaf:name 	 "Parking ouvrage Gare Nord"^^xsd:string ;
 	pdll:hasBikeFeature	 "Oui"^^xsd:string ;
 	pdll:carCapacity	 "597"^^xsd:string ;
-	geo:lat	"47.2166890401729 "^^xsd:decimal ;
+	geo:lat	"47.2166890401729"^^xsd:decimal ;
 	geo:long	"-1.54498433411572"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	pdll:electricBikeCapacity	 "2"^^xsd:integer ;
@@ -63,10 +63,10 @@
 	pdll:TypeLabel	 "Elévation"^^xsd:string ;
 	pdll:id	 "280"^^xsd:string .
 
-<http://projet.com/10/Parking_ouvrage_Decré-Bouffay>	 foaf:name 	 "Parking ouvrage Decré-Bouffay"^^xsd:string ;
+<http://lodpaddle.com/parking/Parking_ouvrage_Decré-Bouffay>	 foaf:name 	 "Parking ouvrage Decré-Bouffay"^^xsd:string ;
 	pdll:hasBikeFeature	 "Non"^^xsd:string ;
 	pdll:carCapacity	 "555"^^xsd:string ;
-	geo:lat	"47.2166626199643 "^^xsd:decimal ;
+	geo:lat	"47.2166626199643"^^xsd:decimal ;
 	geo:long	"-1.55400463227177"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	pdll:electricBikeCapacity	 "0"^^xsd:integer ;
@@ -87,10 +87,10 @@
 	pdll:TypeLabel	 "Mixte"^^xsd:string ;
 	pdll:id	 "284"^^xsd:string .
 
-<http://projet.com/10/Parking_ouvrage_Graslin>	 foaf:name 	 "Parking ouvrage Graslin"^^xsd:string ;
+<http://lodpaddle.com/parking/Parking_ouvrage_Graslin>	 foaf:name 	 "Parking ouvrage Graslin"^^xsd:string ;
 	pdll:hasBikeFeature	 "Non"^^xsd:string ;
 	pdll:carCapacity	 "515"^^xsd:string ;
-	geo:lat	"47.2143102105068 "^^xsd:decimal ;
+	geo:lat	"47.2143102105068"^^xsd:decimal ;
 	geo:long	"-1.56257181621741"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	pdll:electricBikeCapacity	 "2"^^xsd:integer ;
@@ -111,10 +111,10 @@
 	pdll:TypeLabel	 "Elévation"^^xsd:string ;
 	pdll:id	 "288"^^xsd:string .
 
-<http://projet.com/10/Parking_ouvrage_Tour_Bretagne>	 foaf:name 	 "Parking ouvrage Tour Bretagne"^^xsd:string ;
+<http://lodpaddle.com/parking/Parking_ouvrage_Tour_Bretagne>	 foaf:name 	 "Parking ouvrage Tour Bretagne"^^xsd:string ;
 	pdll:hasBikeFeature	 "Non"^^xsd:string ;
 	pdll:carCapacity	 "645"^^xsd:string ;
-	geo:lat	"47.2177394198201 "^^xsd:decimal ;
+	geo:lat	"47.2177394198201"^^xsd:decimal ;
 	geo:long	"-1.55820163936291"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	pdll:electricBikeCapacity	 "0"^^xsd:integer ;
@@ -135,10 +135,10 @@
 	pdll:TypeLabel	 "Mixte"^^xsd:string ;
 	pdll:id	 "299"^^xsd:string .
 
-<http://projet.com/10/Parking_ouvrage_Commerce>	 foaf:name 	 "Parking ouvrage Commerce"^^xsd:string ;
+<http://lodpaddle.com/parking/Parking_ouvrage_Commerce>	 foaf:name 	 "Parking ouvrage Commerce"^^xsd:string ;
 	pdll:hasBikeFeature	 "Oui"^^xsd:string ;
 	pdll:carCapacity	 "534"^^xsd:string ;
-	geo:lat	"47.2131202858024 "^^xsd:decimal ;
+	geo:lat	"47.2131202858024"^^xsd:decimal ;
 	geo:long	"-1.55771321969051"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	pdll:electricBikeCapacity	 "2"^^xsd:integer ;
@@ -159,10 +159,10 @@
 	pdll:TypeLabel	 "Souterrain"^^xsd:string ;
 	pdll:id	 "677"^^xsd:string .
 
-<http://projet.com/10/Parking_ouvrage_Aristide_Briand>	 foaf:name 	 "Parking ouvrage Aristide Briand"^^xsd:string ;
+<http://lodpaddle.com/parking/Parking_ouvrage_Aristide_Briand>	 foaf:name 	 "Parking ouvrage Aristide Briand"^^xsd:string ;
 	pdll:hasBikeFeature	 "Non"^^xsd:string ;
 	pdll:carCapacity	 "307"^^xsd:string ;
-	geo:lat	"47.2170936048579 "^^xsd:decimal ;
+	geo:lat	"47.2170936048579"^^xsd:decimal ;
 	geo:long	"-1.56293641808053"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	pdll:electricBikeCapacity	 "0"^^xsd:integer ;
@@ -183,10 +183,10 @@
 	pdll:TypeLabel	 "Souterrain"^^xsd:string ;
 	pdll:id	 "1043"^^xsd:string .
 
-<http://projet.com/10/Parking_ouvrage_Cité_des_Congrès>	 foaf:name 	 "Parking ouvrage Cité des Congrès"^^xsd:string ;
+<http://lodpaddle.com/parking/Parking_ouvrage_Cité_des_Congrès>	 foaf:name 	 "Parking ouvrage Cité des Congrès"^^xsd:string ;
 	pdll:hasBikeFeature	 "Non"^^xsd:string ;
 	pdll:carCapacity	 "430"^^xsd:string ;
-	geo:lat	"47.2129016709023 "^^xsd:decimal ;
+	geo:lat	"47.2129016709023"^^xsd:decimal ;
 	geo:long	"-1.54397127716684"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	pdll:electricBikeCapacity	 "2"^^xsd:integer ;
@@ -207,10 +207,10 @@
 	pdll:TypeLabel	 "Souterrain"^^xsd:string ;
 	pdll:id	 "1044"^^xsd:string .
 
-<http://projet.com/10/Parking_ouvrage_Talensac>	 foaf:name 	 "Parking ouvrage Talensac"^^xsd:string ;
+<http://lodpaddle.com/parking/Parking_ouvrage_Talensac>	 foaf:name 	 "Parking ouvrage Talensac"^^xsd:string ;
 	pdll:hasBikeFeature	 "Non"^^xsd:string ;
 	pdll:carCapacity	 "365"^^xsd:string ;
-	geo:lat	"47.2202559810468 "^^xsd:decimal ;
+	geo:lat	"47.2202559810468"^^xsd:decimal ;
 	geo:long	"-1.55835729990237"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	pdll:electricBikeCapacity	 "2"^^xsd:integer ;
@@ -231,10 +231,10 @@
 	pdll:TypeLabel	 "Elévation"^^xsd:string ;
 	pdll:id	 "1046"^^xsd:string .
 
-<http://projet.com/10/Parc_en_enclos_Gloriette_1>	 foaf:name 	 "Parc en enclos Gloriette 1"^^xsd:string ;
+<http://lodpaddle.com/parking/Parc_en_enclos_Gloriette_1>	 foaf:name 	 "Parc en enclos Gloriette 1"^^xsd:string ;
 	pdll:hasBikeFeature	 "Non"^^xsd:string ;
 	pdll:carCapacity	 "172"^^xsd:string ;
-	geo:lat	"47.2111796553233 "^^xsd:decimal ;
+	geo:lat	"47.2111796553233"^^xsd:decimal ;
 	geo:long	"-1.55843872950464"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	pdll:electricBikeCapacity	 "0"^^xsd:integer ;
@@ -255,10 +255,10 @@
 	pdll:TypeLabel	 "undefined"^^xsd:string ;
 	pdll:id	 "3549"^^xsd:string .
 
-<http://projet.com/10/Parc_en_enclos_Hôtel_Dieu>	 foaf:name 	 "Parc en enclos Hôtel Dieu"^^xsd:string ;
+<http://lodpaddle.com/parking/Parc_en_enclos_Hôtel_Dieu>	 foaf:name 	 "Parc en enclos Hôtel Dieu"^^xsd:string ;
 	pdll:hasBikeFeature	 "Non"^^xsd:string ;
 	pdll:carCapacity	 "122"^^xsd:string ;
-	geo:lat	"47.2110570860299 "^^xsd:decimal ;
+	geo:lat	"47.2110570860299"^^xsd:decimal ;
 	geo:long	"-1.55198311230427"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	pdll:electricBikeCapacity	 "0"^^xsd:integer ;
@@ -279,10 +279,10 @@
 	pdll:TypeLabel	 "undefined"^^xsd:string ;
 	pdll:id	 "3550"^^xsd:string .
 
-<http://projet.com/10/Parc_en_enclos_Baco-LU_2_côté_CHU>	 foaf:name 	 "Parc en enclos Baco-LU 2 côté CHU"^^xsd:string ;
+<http://lodpaddle.com/parking/Parc_en_enclos_Baco-LU_2_côté_CHU>	 foaf:name 	 "Parc en enclos Baco-LU 2 côté CHU"^^xsd:string ;
 	pdll:hasBikeFeature	 "Non"^^xsd:string ;
 	pdll:carCapacity	 "122"^^xsd:string ;
-	geo:lat	"47.2131509800273 "^^xsd:decimal ;
+	geo:lat	"47.2131509800273"^^xsd:decimal ;
 	geo:long	"-1.55160425745185"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	pdll:electricBikeCapacity	 "0"^^xsd:integer ;
@@ -303,10 +303,10 @@
 	pdll:TypeLabel	 "undefined"^^xsd:string ;
 	pdll:id	 "3551"^^xsd:string .
 
-<http://projet.com/10/Parc_en_enclos_Château>	 foaf:name 	 "Parc en enclos Château"^^xsd:string ;
+<http://lodpaddle.com/parking/Parc_en_enclos_Château>	 foaf:name 	 "Parc en enclos Château"^^xsd:string ;
 	pdll:hasBikeFeature	 "Non"^^xsd:string ;
 	pdll:carCapacity	 "118"^^xsd:string ;
-	geo:lat	"47.2169899609793 "^^xsd:decimal ;
+	geo:lat	"47.2169899609793"^^xsd:decimal ;
 	geo:long	"-1.54785044968527"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	pdll:electricBikeCapacity	 "0"^^xsd:integer ;
@@ -327,10 +327,10 @@
 	pdll:TypeLabel	 "undefined"^^xsd:string ;
 	pdll:id	 "3554"^^xsd:string .
 
-<http://projet.com/10/Parc_en_enclos_Gare_Sud_3>	 foaf:name 	 "Parc en enclos Gare Sud 3"^^xsd:string ;
+<http://lodpaddle.com/parking/Parc_en_enclos_Gare_Sud_3>	 foaf:name 	 "Parc en enclos Gare Sud 3"^^xsd:string ;
 	pdll:hasBikeFeature	 "Non"^^xsd:string ;
 	pdll:carCapacity	 "468"^^xsd:string ;
-	geo:lat	"47.216135859474 "^^xsd:decimal ;
+	geo:lat	"47.216135859474"^^xsd:decimal ;
 	geo:long	"-1.53789482834948"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	pdll:electricBikeCapacity	 "0"^^xsd:integer ;
@@ -351,10 +351,10 @@
 	pdll:TypeLabel	 "undefined"^^xsd:string ;
 	pdll:id	 "3555"^^xsd:string .
 
-<http://projet.com/10/Parc_en_enclos_Gare_Sud_2>	 foaf:name 	 "Parc en enclos Gare Sud 2"^^xsd:string ;
+<http://lodpaddle.com/parking/Parc_en_enclos_Gare_Sud_2>	 foaf:name 	 "Parc en enclos Gare Sud 2"^^xsd:string ;
 	pdll:hasBikeFeature	 "Non"^^xsd:string ;
 	pdll:carCapacity	 "279"^^xsd:string ;
-	geo:lat	"47.2142340366163 "^^xsd:decimal ;
+	geo:lat	"47.2142340366163"^^xsd:decimal ;
 	geo:long	"-1.54134337584288"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	pdll:electricBikeCapacity	 "0"^^xsd:integer ;
@@ -375,10 +375,10 @@
 	pdll:TypeLabel	 "undefined"^^xsd:string ;
 	pdll:id	 "3589"^^xsd:string .
 
-<http://projet.com/10/Parc_en_enclos_Gare_Sud_2_limité_1h>	 foaf:name 	 "Parc en enclos Gare Sud 2 limité 1h"^^xsd:string ;
+<http://lodpaddle.com/parking/Parc_en_enclos_Gare_Sud_2_limité_1h>	 foaf:name 	 "Parc en enclos Gare Sud 2 limité 1h"^^xsd:string ;
 	pdll:hasBikeFeature	 "Non"^^xsd:string ;
 	pdll:carCapacity	 "33"^^xsd:string ;
-	geo:lat	"47.2152021232956 "^^xsd:decimal ;
+	geo:lat	"47.2152021232956"^^xsd:decimal ;
 	geo:long	"-1.54267513884661"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	pdll:electricBikeCapacity	 "0"^^xsd:integer ;
@@ -399,10 +399,10 @@
 	pdll:TypeLabel	 "undefined"^^xsd:string ;
 	pdll:id	 "3590"^^xsd:string .
 
-<http://projet.com/10/Parc_en_enclos_Bellamy>	 foaf:name 	 "Parc en enclos Bellamy"^^xsd:string ;
+<http://lodpaddle.com/parking/Parc_en_enclos_Bellamy>	 foaf:name 	 "Parc en enclos Bellamy"^^xsd:string ;
 	pdll:hasBikeFeature	 "Non"^^xsd:string ;
 	pdll:carCapacity	 "78"^^xsd:string ;
-	geo:lat	"47.2223604161017 "^^xsd:decimal ;
+	geo:lat	"47.2223604161017"^^xsd:decimal ;
 	geo:long	"-1.55769369256355"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	pdll:electricBikeCapacity	 "0"^^xsd:integer ;
@@ -423,10 +423,10 @@
 	pdll:TypeLabel	 "undefined"^^xsd:string ;
 	pdll:id	 "3650"^^xsd:string .
 
-<http://projet.com/10/Parc_en_enclos_CHU>	 foaf:name 	 "Parc en enclos CHU"^^xsd:string ;
+<http://lodpaddle.com/parking/Parc_en_enclos_CHU>	 foaf:name 	 "Parc en enclos CHU"^^xsd:string ;
 	pdll:hasBikeFeature	 "Non"^^xsd:string ;
 	pdll:carCapacity	 "148"^^xsd:string ;
-	geo:lat	"47.2093619715999 "^^xsd:decimal ;
+	geo:lat	"47.2093619715999"^^xsd:decimal ;
 	geo:long	"-1.55725023399242"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	pdll:electricBikeCapacity	 "0"^^xsd:integer ;
@@ -447,10 +447,10 @@
 	pdll:TypeLabel	 "undefined"^^xsd:string ;
 	pdll:id	 "3651"^^xsd:string .
 
-<http://projet.com/10/Parking_ouvrage_Cathédrale>	 foaf:name 	 "Parking ouvrage Cathédrale"^^xsd:string ;
+<http://lodpaddle.com/parking/Parking_ouvrage_Cathédrale>	 foaf:name 	 "Parking ouvrage Cathédrale"^^xsd:string ;
 	pdll:hasBikeFeature	 "Non"^^xsd:string ;
 	pdll:carCapacity	 "398"^^xsd:string ;
-	geo:lat	"47.2208133510721 "^^xsd:decimal ;
+	geo:lat	"47.2208133510721"^^xsd:decimal ;
 	geo:long	"-1.55105616832611"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	pdll:electricBikeCapacity	 "2"^^xsd:integer ;
@@ -471,10 +471,10 @@
 	pdll:TypeLabel	 "Souterrain"^^xsd:string ;
 	pdll:id	 "3652"^^xsd:string .
 
-<http://projet.com/10/Parking_ouvrage_Les_Machines>	 foaf:name 	 "Parking ouvrage Les Machines"^^xsd:string ;
+<http://lodpaddle.com/parking/Parking_ouvrage_Les_Machines>	 foaf:name 	 "Parking ouvrage Les Machines"^^xsd:string ;
 	pdll:hasBikeFeature	 "Non"^^xsd:string ;
 	pdll:carCapacity	 "621"^^xsd:string ;
-	geo:lat	"47.2059006220645 "^^xsd:decimal ;
+	geo:lat	"47.2059006220645"^^xsd:decimal ;
 	geo:long	"-1.56272779236372"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	pdll:electricBikeCapacity	 "2"^^xsd:integer ;
@@ -495,10 +495,10 @@
 	pdll:TypeLabel	 "Elévation"^^xsd:string ;
 	pdll:id	 "3951"^^xsd:string .
 
-<http://projet.com/10/Parking_ouvrage_Gare_Sud_4>	 foaf:name 	 "Parking ouvrage Gare Sud 4"^^xsd:string ;
+<http://lodpaddle.com/parking/Parking_ouvrage_Gare_Sud_4>	 foaf:name 	 "Parking ouvrage Gare Sud 4"^^xsd:string ;
 	pdll:hasBikeFeature	 "Non"^^xsd:string ;
 	pdll:carCapacity	 "435"^^xsd:string ;
-	geo:lat	"47.2152099260756 "^^xsd:decimal ;
+	geo:lat	"47.2152099260756"^^xsd:decimal ;
 	geo:long	"-1.53754504260148"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	pdll:electricBikeCapacity	 "2"^^xsd:integer ;
@@ -519,10 +519,10 @@
 	pdll:TypeLabel	 "Souterrain"^^xsd:string ;
 	pdll:id	 "3989"^^xsd:string .
 
-<http://projet.com/10/Pac_en_enclos_Viviani>	 foaf:name 	 "Pac en enclos Viviani"^^xsd:string ;
+<http://lodpaddle.com/parking/Pac_en_enclos_Viviani>	 foaf:name 	 "Pac en enclos Viviani"^^xsd:string ;
 	pdll:hasBikeFeature	 "Non"^^xsd:string ;
 	pdll:carCapacity	 "121"^^xsd:string ;
-	geo:lat	"47.2087756042897 "^^xsd:decimal ;
+	geo:lat	"47.2087756042897"^^xsd:decimal ;
 	geo:long	"-1.53619706978924"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	pdll:electricBikeCapacity	 "0"^^xsd:integer ;
@@ -543,10 +543,10 @@
 	pdll:TypeLabel	 "undefined"^^xsd:string ;
 	pdll:id	 "3990"^^xsd:string .
 
-<http://projet.com/10/Parc_en_enclos_Chantiers_Navals>	 foaf:name 	 "Parc en enclos Chantiers Navals"^^xsd:string ;
+<http://lodpaddle.com/parking/Parc_en_enclos_Chantiers_Navals>	 foaf:name 	 "Parc en enclos Chantiers Navals"^^xsd:string ;
 	pdll:hasBikeFeature	 "Non"^^xsd:string ;
 	pdll:carCapacity	 "104"^^xsd:string ;
-	geo:lat	"47.2082893195233 "^^xsd:decimal ;
+	geo:lat	"47.2082893195233"^^xsd:decimal ;
 	geo:long	"-1.56891560955727"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	pdll:electricBikeCapacity	 "0"^^xsd:integer ;
@@ -567,10 +567,10 @@
 	pdll:TypeLabel	 "undefined"^^xsd:string ;
 	pdll:id	 "4072"^^xsd:string .
 
-<http://projet.com/10/Parc_en_enclos_Gloriette_2>	 foaf:name 	 "Parc en enclos Gloriette 2"^^xsd:string ;
+<http://lodpaddle.com/parking/Parc_en_enclos_Gloriette_2>	 foaf:name 	 "Parc en enclos Gloriette 2"^^xsd:string ;
 	pdll:hasBikeFeature	 "Non"^^xsd:string ;
 	pdll:carCapacity	 "108"^^xsd:string ;
-	geo:lat	"47.2102736871054 "^^xsd:decimal ;
+	geo:lat	"47.2102736871054"^^xsd:decimal ;
 	geo:long	"-1.56028436884679"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	pdll:electricBikeCapacity	 "0"^^xsd:integer ;
@@ -591,10 +591,10 @@
 	pdll:TypeLabel	 "undefined"^^xsd:string ;
 	pdll:id	 "4073"^^xsd:string .
 
-<http://projet.com/10/Parc_en_enclos_Baco-LU_1_côté_gare>	 foaf:name 	 "Parc en enclos Baco-LU 1 côté gare"^^xsd:string ;
+<http://lodpaddle.com/parking/Parc_en_enclos_Baco-LU_1_côté_gare>	 foaf:name 	 "Parc en enclos Baco-LU 1 côté gare"^^xsd:string ;
 	pdll:hasBikeFeature	 "Non"^^xsd:string ;
 	pdll:carCapacity	 "114"^^xsd:string ;
-	geo:lat	"47.2143324211276 "^^xsd:decimal ;
+	geo:lat	"47.2143324211276"^^xsd:decimal ;
 	geo:long	"-1.54898882844897"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	pdll:electricBikeCapacity	 "0"^^xsd:integer ;

@@ -15,209 +15,209 @@
 @prefix sc: <http://schema.org/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
-<http://projet.com/10/_BATIGNOLLES>	 foaf:name 	 " BATIGNOLLES"^^xsd:string ;
+<http://lodpaddle.com/jardin_familiaux/_BATIGNOLLES>	 foaf:name 	 " BATIGNOLLES"^^xsd:string ;
 	pdll:numberOfGarden	 "39"^^xsd:string ;
-	geo:lat	"47.2540385280162 "^^xsd:decimal ;
+	geo:lat	"47.2540385280162"^^xsd:decimal ;
 	geo:long	"-1.52402318387499"^^xsd:decimal  ;
 	dbpprop:dimensions	 "7283.64"^^xsd:string ;
 	dbpprop:location	 "BD DES BATIGNOLLES"^^xsd:string ;
 	sc:organization	 "Asso.Jardins Familiaux Nantais"^^xsd:string .
 
-<http://projet.com/10/TERRE_PROMISE>	 foaf:name 	 "TERRE PROMISE"^^xsd:string ;
+<http://lodpaddle.com/jardin_familiaux/TERRE_PROMISE>	 foaf:name 	 "TERRE PROMISE"^^xsd:string ;
 	pdll:numberOfGarden	 "86"^^xsd:string ;
-	geo:lat	"47.2205751821284 "^^xsd:decimal ;
+	geo:lat	"47.2205751821284"^^xsd:decimal ;
 	geo:long	"-1.50911365979517"^^xsd:decimal  ;
 	dbpprop:dimensions	 "14600.15"^^xsd:string ;
 	dbpprop:location	 "CHEMIN DES BATELIERS"^^xsd:string ;
 	sc:organization	 "Asso . Loire & Jardins"^^xsd:string .
 
-<http://projet.com/10/BOIS_DE_LA_MUSSE>	 foaf:name 	 "BOIS DE LA MUSSE"^^xsd:string ;
+<http://lodpaddle.com/jardin_familiaux/BOIS_DE_LA_MUSSE>	 foaf:name 	 "BOIS DE LA MUSSE"^^xsd:string ;
 	pdll:numberOfGarden	 "67"^^xsd:string ;
-	geo:lat	"47.2037889595427 "^^xsd:decimal ;
+	geo:lat	"47.2037889595427"^^xsd:decimal ;
 	geo:long	"-1.61293860413442"^^xsd:decimal  ;
 	dbpprop:dimensions	 "12293.24"^^xsd:string ;
 	dbpprop:location	 "RUE DU BOIS DE LA MUSSE"^^xsd:string ;
 	sc:organization	 "Asso.Jardins Familiaux Nantais"^^xsd:string .
 
-<http://projet.com/10/_MOUTONNERIE>	 foaf:name 	 " MOUTONNERIE"^^xsd:string ;
+<http://lodpaddle.com/jardin_familiaux/_MOUTONNERIE>	 foaf:name 	 " MOUTONNERIE"^^xsd:string ;
 	pdll:numberOfGarden	 "23"^^xsd:string ;
-	geo:lat	"47.2218094651243 "^^xsd:decimal ;
+	geo:lat	"47.2218094651243"^^xsd:decimal ;
 	geo:long	"-1.53362118270376"^^xsd:decimal  ;
 	dbpprop:dimensions	 "2136.62"^^xsd:string ;
 	dbpprop:location	 "RUE FRANSCISCO FERRER"^^xsd:string ;
 	sc:organization	 "Asso.Jardins Familiaux Nantais"^^xsd:string .
 
-<http://projet.com/10/VERTAIS>	 foaf:name 	 "VERTAIS"^^xsd:string ;
+<http://lodpaddle.com/jardin_familiaux/VERTAIS>	 foaf:name 	 "VERTAIS"^^xsd:string ;
 	pdll:numberOfGarden	 "10"^^xsd:string ;
-	geo:lat	"47.2020816053686 "^^xsd:decimal ;
+	geo:lat	"47.2020816053686"^^xsd:decimal ;
 	geo:long	"-1.54694666084343"^^xsd:decimal  ;
 	dbpprop:dimensions	 "1117.92"^^xsd:string ;
 	dbpprop:location	 "RUE VERTAIS"^^xsd:string ;
 	sc:organization	 "Asso.Jardins du Vertais"^^xsd:string .
 
-<http://projet.com/10/CHAUPIERES>	 foaf:name 	 "CHAUPIERES"^^xsd:string ;
+<http://lodpaddle.com/jardin_familiaux/CHAUPIERES>	 foaf:name 	 "CHAUPIERES"^^xsd:string ;
 	pdll:numberOfGarden	 "86"^^xsd:string ;
-	geo:lat	"47.2446375693427 "^^xsd:decimal ;
+	geo:lat	"47.2446375693427"^^xsd:decimal ;
 	geo:long	"-1.49939897422361"^^xsd:decimal  ;
 	dbpprop:dimensions	 "15880.58"^^xsd:string ;
 	dbpprop:location	 "CHEMIN DES CHAUPIERES"^^xsd:string ;
 	sc:organization	 "Asso.Jardins Familiaux Nantais"^^xsd:string .
 
-<http://projet.com/10/AMANDE>	 foaf:name 	 "AMANDE"^^xsd:string ;
+<http://lodpaddle.com/jardin_familiaux/AMANDE>	 foaf:name 	 "AMANDE"^^xsd:string ;
 	pdll:numberOfGarden	 "21"^^xsd:string ;
-	geo:lat	"47.2626386020172 "^^xsd:decimal ;
+	geo:lat	"47.2626386020172"^^xsd:decimal ;
 	geo:long	"-1.57701678864409"^^xsd:decimal  ;
 	dbpprop:dimensions	 "4754.45"^^xsd:string ;
 	dbpprop:location	 "BD René Cassin"^^xsd:string ;
 	sc:organization	 "Asso Les Jardins de l'Amande"^^xsd:string .
 
-<http://projet.com/10/EGLANTIERS>	 foaf:name 	 "EGLANTIERS"^^xsd:string ;
+<http://lodpaddle.com/jardin_familiaux/EGLANTIERS>	 foaf:name 	 "EGLANTIERS"^^xsd:string ;
 	pdll:numberOfGarden	 "92"^^xsd:string ;
-	geo:lat	"47.2664476306773 "^^xsd:decimal ;
+	geo:lat	"47.2664476306773"^^xsd:decimal ;
 	geo:long	"-1.57356790329742"^^xsd:decimal  ;
 	dbpprop:dimensions	 "22999.12"^^xsd:string ;
 	dbpprop:location	 "RTE DE LA CHAPELLE SUR ERDRE"^^xsd:string ;
 	sc:organization	 "Asso. Les Jardins des Eglantiers"^^xsd:string .
 
-<http://projet.com/10/PORT_BOYER>	 foaf:name 	 "PORT BOYER"^^xsd:string ;
+<http://lodpaddle.com/jardin_familiaux/PORT_BOYER>	 foaf:name 	 "PORT BOYER"^^xsd:string ;
 	pdll:numberOfGarden	 "1"^^xsd:string ;
-	geo:lat	"47.2420619906882 "^^xsd:decimal ;
+	geo:lat	"47.2420619906882"^^xsd:decimal ;
 	geo:long	"-1.53884422722736"^^xsd:decimal  ;
 	dbpprop:dimensions	 "137.08"^^xsd:string ;
 	dbpprop:location	 "rue du Port Boyer"^^xsd:string ;
 	sc:organization	 "Asso  En cours de route"^^xsd:string .
 
-<http://projet.com/10/_LA_ROCHE>	 foaf:name 	 " LA ROCHE"^^xsd:string ;
+<http://lodpaddle.com/jardin_familiaux/_LA_ROCHE>	 foaf:name 	 " LA ROCHE"^^xsd:string ;
 	pdll:numberOfGarden	 "17"^^xsd:string ;
-	geo:lat	"47.2194390174894 "^^xsd:decimal ;
+	geo:lat	"47.2194390174894"^^xsd:decimal ;
 	geo:long	"-1.52344149022095"^^xsd:decimal  ;
 	dbpprop:dimensions	 "4013.0"^^xsd:string ;
 	dbpprop:location	 "Chemin de la Roche"^^xsd:string ;
 	sc:organization	 "Asso  Les jardins de la Roche"^^xsd:string .
 
-<http://projet.com/10/_CRESSONNIERE>	 foaf:name 	 " CRESSONNIERE"^^xsd:string ;
+<http://lodpaddle.com/jardin_familiaux/_CRESSONNIERE>	 foaf:name 	 " CRESSONNIERE"^^xsd:string ;
 	pdll:numberOfGarden	 "10"^^xsd:string ;
-	geo:lat	"47.2565927290361 "^^xsd:decimal ;
+	geo:lat	"47.2565927290361"^^xsd:decimal ;
 	geo:long	"-1.56309409770614"^^xsd:decimal  ;
 	dbpprop:dimensions	 "1176.76"^^xsd:string ;
 	dbpprop:location	 "rue des Renards"^^xsd:string ;
 	sc:organization	 "Asso  Les jardins de la Cressonnière"^^xsd:string .
 
-<http://projet.com/10/LAIT_DE_MAI>	 foaf:name 	 "LAIT DE MAI"^^xsd:string ;
+<http://lodpaddle.com/jardin_familiaux/LAIT_DE_MAI>	 foaf:name 	 "LAIT DE MAI"^^xsd:string ;
 	pdll:numberOfGarden	 "1"^^xsd:string ;
-	geo:lat	"47.2121267611117 "^^xsd:decimal ;
+	geo:lat	"47.2121267611117"^^xsd:decimal ;
 	geo:long	"-1.5481177365621"^^xsd:decimal  ;
 	dbpprop:dimensions	 "182.76"^^xsd:string ;
 	dbpprop:location	 "rue Emile Péhant"^^xsd:string ;
 	sc:organization	 "Asso. Des petits jardins du Lait de Mai"^^xsd:string .
 
-<http://projet.com/10/BREIL_MALVILLE>	 foaf:name 	 "BREIL MALVILLE"^^xsd:string ;
+<http://lodpaddle.com/jardin_familiaux/BREIL_MALVILLE>	 foaf:name 	 "BREIL MALVILLE"^^xsd:string ;
 	pdll:numberOfGarden	 "1"^^xsd:string ;
-	geo:lat	"47.2291489128523 "^^xsd:decimal ;
+	geo:lat	"47.2291489128523"^^xsd:decimal ;
 	geo:long	"-1.58744980917114"^^xsd:decimal  ;
 	dbpprop:dimensions	 "67.99"^^xsd:string ;
 	dbpprop:location	 "Rue Suzanne Lenglen"^^xsd:string ;
 	sc:organization	 "Confédération Syndicale des Familles"^^xsd:string .
 
-<http://projet.com/10/_BREIL/COUBERTIN>	 foaf:name 	 " BREIL/COUBERTIN"^^xsd:string ;
+<http://lodpaddle.com/jardin_familiaux/_BREIL/COUBERTIN>	 foaf:name 	 " BREIL/COUBERTIN"^^xsd:string ;
 	pdll:numberOfGarden	 "14"^^xsd:string ;
-	geo:lat	"47.2281754211676 "^^xsd:decimal ;
+	geo:lat	"47.2281754211676"^^xsd:decimal ;
 	geo:long	"-1.58576356458799"^^xsd:decimal  ;
 	dbpprop:dimensions	 "1743.14"^^xsd:string ;
 	dbpprop:location	 "Bd Pierre de Coubertin"^^xsd:string ;
 	sc:organization	 "Asso.Jardins Familiaux Nantais"^^xsd:string .
 
-<http://projet.com/10/COLLINES>	 foaf:name 	 "COLLINES"^^xsd:string ;
+<http://lodpaddle.com/jardin_familiaux/COLLINES>	 foaf:name 	 "COLLINES"^^xsd:string ;
 	pdll:numberOfGarden	 "31"^^xsd:string ;
-	geo:lat	"47.2420588343492 "^^xsd:decimal ;
+	geo:lat	"47.2420588343492"^^xsd:decimal ;
 	geo:long	"-1.51645836884369"^^xsd:decimal  ;
 	dbpprop:dimensions	 "7683.06"^^xsd:string ;
 	dbpprop:location	 "Chemin des Collines"^^xsd:string ;
 	sc:organization	 "Asso les Jardins des Collnes"^^xsd:string .
 
-<http://projet.com/10/CROISSANT>	 foaf:name 	 "CROISSANT"^^xsd:string ;
+<http://lodpaddle.com/jardin_familiaux/CROISSANT>	 foaf:name 	 "CROISSANT"^^xsd:string ;
 	pdll:numberOfGarden	 "90"^^xsd:string ;
-	geo:lat	"47.2351474602204 "^^xsd:decimal ;
+	geo:lat	"47.2351474602204"^^xsd:decimal ;
 	geo:long	"-1.52309170665746"^^xsd:decimal  ;
 	dbpprop:dimensions	 "15808.73"^^xsd:string ;
 	dbpprop:location	 "RUE DU CROISSANT"^^xsd:string ;
 	sc:organization	 "Asso. Jardins de la Marrière "^^xsd:string .
 
-<http://projet.com/10/CRAPAUDINE>	 foaf:name 	 "CRAPAUDINE"^^xsd:string ;
+<http://lodpaddle.com/jardin_familiaux/CRAPAUDINE>	 foaf:name 	 "CRAPAUDINE"^^xsd:string ;
 	pdll:numberOfGarden	 "92"^^xsd:string ;
-	geo:lat	"47.1911183070505 "^^xsd:decimal ;
+	geo:lat	"47.1911183070505"^^xsd:decimal ;
 	geo:long	"-1.52996452304157"^^xsd:decimal  ;
 	dbpprop:dimensions	 "23222.69"^^xsd:string ;
 	dbpprop:location	 "AVENUE DES GOBELETS"^^xsd:string ;
 	sc:organization	 "Asso.la crapaudine"^^xsd:string .
 
-<http://projet.com/10/LE_JARDINET>	 foaf:name 	 "LE JARDINET"^^xsd:string ;
+<http://lodpaddle.com/jardin_familiaux/LE_JARDINET>	 foaf:name 	 "LE JARDINET"^^xsd:string ;
 	pdll:numberOfGarden	 "1"^^xsd:string ;
-	geo:lat	"47.1957882470328 "^^xsd:decimal ;
+	geo:lat	"47.1957882470328"^^xsd:decimal ;
 	geo:long	"-1.52862142777457"^^xsd:decimal  ;
 	dbpprop:dimensions	 "98.4"^^xsd:string ;
 	dbpprop:location	 "Rue d'Hendaye"^^xsd:string ;
 	sc:organization	 "ECOS"^^xsd:string .
 
-<http://projet.com/10/HALVEQUE/BEAUJOIRE>	 foaf:name 	 "HALVEQUE/BEAUJOIRE"^^xsd:string ;
+<http://lodpaddle.com/jardin_familiaux/HALVEQUE/BEAUJOIRE>	 foaf:name 	 "HALVEQUE/BEAUJOIRE"^^xsd:string ;
 	pdll:numberOfGarden	 "12"^^xsd:string ;
-	geo:lat	"47.2556186549767 "^^xsd:decimal ;
+	geo:lat	"47.2556186549767"^^xsd:decimal ;
 	geo:long	"-1.52052713916583"^^xsd:decimal  ;
 	dbpprop:dimensions	 "713.68"^^xsd:string ;
 	dbpprop:location	 "rue Léon Serpollet"^^xsd:string ;
 	sc:organization	 "Asso.Jardins Familiaux Nantais"^^xsd:string .
 
-<http://projet.com/10/Le_GARDEN'KOFF>	 foaf:name 	 "Le GARDEN'KOFF"^^xsd:string ;
+<http://lodpaddle.com/jardin_familiaux/Le_GARDEN'KOFF>	 foaf:name 	 "Le GARDEN'KOFF"^^xsd:string ;
 	pdll:numberOfGarden	 "1"^^xsd:string ;
-	geo:lat	"47.2160594773854 "^^xsd:decimal ;
+	geo:lat	"47.2160594773854"^^xsd:decimal ;
 	geo:long	"-1.52440173609997"^^xsd:decimal  ;
 	dbpprop:dimensions	 "81.73"^^xsd:string ;
 	dbpprop:location	 "Square de Hongrie"^^xsd:string ;
 	sc:organization	 "Les Idéelles"^^xsd:string .
 
-<http://projet.com/10/FOURNILIERE>	 foaf:name 	 "FOURNILIERE"^^xsd:string ;
+<http://lodpaddle.com/jardin_familiaux/FOURNILIERE>	 foaf:name 	 "FOURNILIERE"^^xsd:string ;
 	pdll:numberOfGarden	 "120"^^xsd:string ;
-	geo:lat	"47.212537479885 "^^xsd:decimal ;
+	geo:lat	"47.212537479885"^^xsd:decimal ;
 	geo:long	"-1.58895939752634"^^xsd:decimal  ;
 	dbpprop:dimensions	 "31604.69"^^xsd:string ;
 	dbpprop:location	 "RUE JULES PIEDELEU"^^xsd:string ;
 	sc:organization	 "Asso. Jardins de la Fournilière"^^xsd:string .
 
-<http://projet.com/10/CONTRIE>	 foaf:name 	 "CONTRIE"^^xsd:string ;
+<http://lodpaddle.com/jardin_familiaux/CONTRIE>	 foaf:name 	 "CONTRIE"^^xsd:string ;
 	pdll:numberOfGarden	 "78"^^xsd:string ;
-	geo:lat	"47.2190308688269 "^^xsd:decimal ;
+	geo:lat	"47.2190308688269"^^xsd:decimal ;
 	geo:long	"-1.60089228893563"^^xsd:decimal  ;
 	dbpprop:dimensions	 "15964.64"^^xsd:string ;
 	dbpprop:location	 "RUE DU CORPS DE GARDE"^^xsd:string ;
 	sc:organization	 "Asso.Jardins Familiaux Nantais"^^xsd:string .
 
-<http://projet.com/10/BOUCARDIERE>	 foaf:name 	 "BOUCARDIERE"^^xsd:string ;
+<http://lodpaddle.com/jardin_familiaux/BOUCARDIERE>	 foaf:name 	 "BOUCARDIERE"^^xsd:string ;
 	pdll:numberOfGarden	 "10"^^xsd:string ;
-	geo:lat	"47.2021953533342 "^^xsd:decimal ;
+	geo:lat	"47.2021953533342"^^xsd:decimal ;
 	geo:long	"-1.59877123488103"^^xsd:decimal  ;
 	dbpprop:dimensions	 "2030.87"^^xsd:string ;
 	dbpprop:location	 "RUE DE L'ABBAYE"^^xsd:string ;
 	sc:organization	 "Asso.Jardins Familiaux Nantais"^^xsd:string .
 
-<http://projet.com/10/ANGLE_CHAILLOU>	 foaf:name 	 "ANGLE CHAILLOU"^^xsd:string ;
+<http://lodpaddle.com/jardin_familiaux/ANGLE_CHAILLOU>	 foaf:name 	 "ANGLE CHAILLOU"^^xsd:string ;
 	pdll:numberOfGarden	 "58"^^xsd:string ;
-	geo:lat	"47.2717876097935 "^^xsd:decimal ;
+	geo:lat	"47.2717876097935"^^xsd:decimal ;
 	geo:long	"-1.57164946642059"^^xsd:decimal  ;
 	dbpprop:dimensions	 "14469.12"^^xsd:string ;
 	dbpprop:location	 "CHEMIN ANGLE CHAILLOU"^^xsd:string ;
 	sc:organization	 "Asso. Nature & Jardins Nantes Nord "^^xsd:string .
 
-<http://projet.com/10/EPINETTES>	 foaf:name 	 "EPINETTES"^^xsd:string ;
+<http://lodpaddle.com/jardin_familiaux/EPINETTES>	 foaf:name 	 "EPINETTES"^^xsd:string ;
 	pdll:numberOfGarden	 "12"^^xsd:string ;
-	geo:lat	"47.228702444088 "^^xsd:decimal ;
+	geo:lat	"47.228702444088"^^xsd:decimal ;
 	geo:long	"-1.52084080364442"^^xsd:decimal  ;
 	dbpprop:dimensions	 "1677.66"^^xsd:string ;
 	dbpprop:location	 "RUE DES EPINETTES"^^xsd:string ;
 	sc:organization	 "Asso. Mille et un jardins"^^xsd:string .
 
-<http://projet.com/10/CHEZINE>	 foaf:name 	 "CHEZINE"^^xsd:string ;
+<http://lodpaddle.com/jardin_familiaux/CHEZINE>	 foaf:name 	 "CHEZINE"^^xsd:string ;
 	pdll:numberOfGarden	 "21"^^xsd:string ;
-	geo:lat	"47.2293984322158 "^^xsd:decimal ;
+	geo:lat	"47.2293984322158"^^xsd:decimal ;
 	geo:long	"-1.59654089683538"^^xsd:decimal  ;
 	dbpprop:dimensions	 "3217.96"^^xsd:string ;
 	dbpprop:location	 "BD DU MASSACRE"^^xsd:string ;

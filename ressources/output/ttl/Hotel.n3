@@ -15,7 +15,7 @@
 @prefix sc: <http://schema.org/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
-<http://projet.com/10/LE_BRETAGNE>	 foaf:name 	 "LE BRETAGNE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LE_BRETAGNE>	 foaf:name 	 "LE BRETAGNE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -41,7 +41,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "ASSERAC"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.41377052 "^^xsd:decimal ;
+	geo:lat	"47.41377052"^^xsd:decimal ;
 	geo:long	"-2.39918115"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -67,7 +67,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44410"^^xsd:integer .
 
-<http://projet.com/10/LE_LICHEN_DE_LA_MER>	 foaf:name 	 "LE LICHEN DE LA MER"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LE_LICHEN_DE_LA_MER>	 foaf:name 	 "LE LICHEN DE LA MER"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert du 17/12/11 au 15/11/12"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -93,7 +93,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "BATZ-SUR-MER"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.27000169 "^^xsd:decimal ;
+	geo:lat	"47.27000169"^^xsd:decimal ;
 	geo:long	"-2.45898179"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "anglais"^^xsd:string ;
@@ -119,7 +119,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44740"^^xsd:integer .
 
-<http://projet.com/10/LES_EMBRUNS>	 foaf:name 	 "LES EMBRUNS"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LES_EMBRUNS>	 foaf:name 	 "LES EMBRUNS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert du 12/02/12 au 15/11/12"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -145,7 +145,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "BATZ-SUR-MER"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.27937572 "^^xsd:decimal ;
+	geo:lat	"47.27937572"^^xsd:decimal ;
 	geo:long	"-2.48370467"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -171,7 +171,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44740"^^xsd:integer .
 
-<http://projet.com/10/B&B_HÔTEL_NANTES_AEROPORT>	 foaf:name 	 "B&B HÔTEL NANTES AEROPORT"^^xsd:string ;
+<http://lodpaddle.com/Hotel/B&B_HÔTEL_NANTES_AEROPORT>	 foaf:name 	 "B&B HÔTEL NANTES AEROPORT"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -197,7 +197,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "BOUGUENAIS"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.157322 "^^xsd:decimal ;
+	geo:lat	"47.157322"^^xsd:decimal ;
 	geo:long	"-1.6020495"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -223,7 +223,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44346"^^xsd:integer .
 
-<http://projet.com/10/HOTEL_F1_-_BOUGUENAIS>	 foaf:name 	 "HOTEL F1 - BOUGUENAIS"^^xsd:string ;
+<http://lodpaddle.com/Hotel/HOTEL_F1_-_BOUGUENAIS>	 foaf:name 	 "HOTEL F1 - BOUGUENAIS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -249,7 +249,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "BOUGUENAIS"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.1736863 "^^xsd:decimal ;
+	geo:lat	"47.1736863"^^xsd:decimal ;
 	geo:long	"-1.6101151"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -275,7 +275,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44340"^^xsd:integer .
 
-<http://projet.com/10/ESCALE_OCEANIA>	 foaf:name 	 "ESCALE OCEANIA"^^xsd:string ;
+<http://lodpaddle.com/Hotel/ESCALE_OCEANIA>	 foaf:name 	 "ESCALE OCEANIA"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -301,7 +301,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "BOUGUENAIS"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.157322 "^^xsd:decimal ;
+	geo:lat	"47.157322"^^xsd:decimal ;
 	geo:long	"-1.6020495"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -327,7 +327,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44340"^^xsd:integer .
 
-<http://projet.com/10/_HOTEL_F1_-_CARQUEFOU___LA_BELLE_ETOILE___>	 foaf:name 	 "HOTEL F1 - CARQUEFOU LA BELLE ETOILE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/_HOTEL_F1_-_CARQUEFOU___LA_BELLE_ETOILE___>	 foaf:name 	 "HOTEL F1 - CARQUEFOU LA BELLE ETOILE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -353,7 +353,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "CARQUEFOU"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2968907 "^^xsd:decimal ;
+	geo:lat	"47.2968907"^^xsd:decimal ;
 	geo:long	"-1.4922237"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -379,7 +379,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44470"^^xsd:integer .
 
-<http://projet.com/10/LE_CHATEAUBRIANT>	 foaf:name 	 "LE CHATEAUBRIANT"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LE_CHATEAUBRIANT>	 foaf:name 	 "LE CHATEAUBRIANT"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -405,7 +405,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "CHATEAUBRIANT"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.7205167 "^^xsd:decimal ;
+	geo:lat	"47.7205167"^^xsd:decimal ;
 	geo:long	"-1.3770787"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -431,7 +431,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44110"^^xsd:integer .
 
-<http://projet.com/10/ETAP_HOTEL>	 foaf:name 	 "ETAP HOTEL"^^xsd:string ;
+<http://lodpaddle.com/Hotel/ETAP_HOTEL>	 foaf:name 	 "ETAP HOTEL"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -457,7 +457,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "CHATEAUBRIANT"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.7044289 "^^xsd:decimal ;
+	geo:lat	"47.7044289"^^xsd:decimal ;
 	geo:long	"-1.3918752"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -483,7 +483,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44110"^^xsd:integer .
 
-<http://projet.com/10/LA_GARE>	 foaf:name 	 "LA GARE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LA_GARE>	 foaf:name 	 "LA GARE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert toute l'année"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -509,7 +509,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "CLISSON"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.0865734 "^^xsd:decimal ;
+	geo:lat	"47.0865734"^^xsd:decimal ;
 	geo:long	"-1.2860688"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -535,7 +535,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44190"^^xsd:integer .
 
-<http://projet.com/10/AUBERGE_DE_LA_CASCADE>	 foaf:name 	 "AUBERGE DE LA CASCADE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/AUBERGE_DE_LA_CASCADE>	 foaf:name 	 "AUBERGE DE LA CASCADE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -561,7 +561,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "CLISSON"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.0957871 "^^xsd:decimal ;
+	geo:lat	"47.0957871"^^xsd:decimal ;
 	geo:long	"-1.2818436"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -587,7 +587,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44190"^^xsd:integer .
 
-<http://projet.com/10/BEST_WESTERN_VILLA_SAINT_ANTOINE>	 foaf:name 	 "BEST WESTERN VILLA SAINT ANTOINE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/BEST_WESTERN_VILLA_SAINT_ANTOINE>	 foaf:name 	 "BEST WESTERN VILLA SAINT ANTOINE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "oui"^^xsd:string ;
 	sc:openingHours	 "Ouvert toute l'année"^^xsd:string ;
 	pdll:hasSpa	 "oui"^^xsd:string ;
@@ -613,7 +613,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "CLISSON"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.0868717 "^^xsd:decimal ;
+	geo:lat	"47.0868717"^^xsd:decimal ;
 	geo:long	"-1.2783918"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -639,7 +639,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44190"^^xsd:integer .
 
-<http://projet.com/10/ETAP_HOTEL_NANTES_OUEST>	 foaf:name 	 "ETAP HOTEL NANTES OUEST"^^xsd:string ;
+<http://lodpaddle.com/Hotel/ETAP_HOTEL_NANTES_OUEST>	 foaf:name 	 "ETAP HOTEL NANTES OUEST"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -665,7 +665,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "COUERON"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2420247 "^^xsd:decimal ;
+	geo:lat	"47.2420247"^^xsd:decimal ;
 	geo:long	"-1.6682179"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -691,7 +691,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44220"^^xsd:integer .
 
-<http://projet.com/10/EUROCEAN>	 foaf:name 	 "EUROCEAN"^^xsd:string ;
+<http://lodpaddle.com/Hotel/EUROCEAN>	 foaf:name 	 "EUROCEAN"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -717,7 +717,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "GUERANDE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.32579105 "^^xsd:decimal ;
+	geo:lat	"47.32579105"^^xsd:decimal ;
 	geo:long	"-2.41348028"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -743,7 +743,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44350"^^xsd:integer .
 
-<http://projet.com/10/LES_REMP'ARTS>	 foaf:name 	 "LES REMP'ARTS"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LES_REMP'ARTS>	 foaf:name 	 "LES REMP'ARTS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert toute l'année"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -769,7 +769,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "GUERANDE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.32902912 "^^xsd:decimal ;
+	geo:lat	"47.32902912"^^xsd:decimal ;
 	geo:long	"-2.42729908"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -795,7 +795,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44350"^^xsd:integer .
 
-<http://projet.com/10/HOTEL_DE_LA_CITE>	 foaf:name 	 "HOTEL DE LA CITE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/HOTEL_DE_LA_CITE>	 foaf:name 	 "HOTEL DE LA CITE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert toute l'année"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -821,7 +821,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "GUERANDE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.3278182 "^^xsd:decimal ;
+	geo:lat	"47.3278182"^^xsd:decimal ;
 	geo:long	"-2.4294169"^^xsd:decimal  ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
 	dbpedia-owl:language	 "anglais"^^xsd:string ;
@@ -847,7 +847,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44350"^^xsd:integer .
 
-<http://projet.com/10/LA_LOUEE>	 foaf:name 	 "LA LOUEE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LA_LOUEE>	 foaf:name 	 "LA LOUEE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -873,7 +873,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "HAUTE-GOULAINE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.184957 "^^xsd:decimal ;
+	geo:lat	"47.184957"^^xsd:decimal ;
 	geo:long	"-1.4422441"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -899,7 +899,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44115"^^xsd:integer .
 
-<http://projet.com/10/HERMITAGE_BARRIERE>	 foaf:name 	 "HERMITAGE BARRIERE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/HERMITAGE_BARRIERE>	 foaf:name 	 "HERMITAGE BARRIERE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert du 30/03/2012 au 23/09/2012"^^xsd:string ;
 	pdll:hasSpa	 "oui"^^xsd:string ;
@@ -925,7 +925,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2869657 "^^xsd:decimal ;
+	geo:lat	"47.2869657"^^xsd:decimal ;
 	geo:long	"-2.3914496"^^xsd:decimal  ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
 	dbpedia-owl:language	 "anglais"^^xsd:string ;
@@ -951,7 +951,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/ROYAL-THALASSO-BARRIERE>	 foaf:name 	 "ROYAL-THALASSO-BARRIERE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/ROYAL-THALASSO-BARRIERE>	 foaf:name 	 "ROYAL-THALASSO-BARRIERE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert du 01/01/2012 au 31/12/2012"^^xsd:string ;
 	pdll:hasSpa	 "oui"^^xsd:string ;
@@ -977,7 +977,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2869657 "^^xsd:decimal ;
+	geo:lat	"47.2869657"^^xsd:decimal ;
 	geo:long	"-2.3914496"^^xsd:decimal  ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
 	dbpedia-owl:language	 "anglais"^^xsd:string ;
@@ -1003,7 +1003,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/ALCYON>	 foaf:name 	 "ALCYON"^^xsd:string ;
+<http://lodpaddle.com/Hotel/ALCYON>	 foaf:name 	 "ALCYON"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert du 23/01/2012 au 31/12/2012"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -1029,7 +1029,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2851755 "^^xsd:decimal ;
+	geo:lat	"47.2851755"^^xsd:decimal ;
 	geo:long	"-2.3956474"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -1055,7 +1055,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/BELLEVUE_PLAGE>	 foaf:name 	 "BELLEVUE PLAGE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/BELLEVUE_PLAGE>	 foaf:name 	 "BELLEVUE PLAGE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert du 28/01/2012 au 09/12/2012"^^xsd:string ;
 	pdll:hasSpa	 "oui"^^xsd:string ;
@@ -1081,7 +1081,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.278698 "^^xsd:decimal ;
+	geo:lat	"47.278698"^^xsd:decimal ;
 	geo:long	"-2.3731482"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -1107,7 +1107,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/MERCURE_LA_BAULE_MAJESTIC>	 foaf:name 	 "MERCURE LA BAULE MAJESTIC"^^xsd:string ;
+<http://lodpaddle.com/Hotel/MERCURE_LA_BAULE_MAJESTIC>	 foaf:name 	 "MERCURE LA BAULE MAJESTIC"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert du 01/01/2012 au 31/12/2012"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -1133,7 +1133,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "italien"^^xsd:string ;
-	geo:lat	"47.280693 "^^xsd:decimal ;
+	geo:lat	"47.280693"^^xsd:decimal ;
 	geo:long	"-2.4084157"^^xsd:decimal  ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
 	dbpedia-owl:language	 "anglais"^^xsd:string ;
@@ -1159,7 +1159,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/LA_VILLA_CAROLINE>	 foaf:name 	 "LA VILLA CAROLINE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LA_VILLA_CAROLINE>	 foaf:name 	 "LA VILLA CAROLINE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert du  25/02 au 30/10/2012"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -1185,7 +1185,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2774795 "^^xsd:decimal ;
+	geo:lat	"47.2774795"^^xsd:decimal ;
 	geo:long	"-2.4208422"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -1211,7 +1211,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/BRITTANY_BEST_WESTERN>	 foaf:name 	 "BRITTANY BEST WESTERN"^^xsd:string ;
+<http://lodpaddle.com/Hotel/BRITTANY_BEST_WESTERN>	 foaf:name 	 "BRITTANY BEST WESTERN"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert du 01/01/2012 au 31/12/2012"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -1237,7 +1237,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2825742 "^^xsd:decimal ;
+	geo:lat	"47.2825742"^^xsd:decimal ;
 	geo:long	"-2.3961749"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -1263,7 +1263,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/VILLA_CAP_D'AIL>	 foaf:name 	 "VILLA CAP D'AIL"^^xsd:string ;
+<http://lodpaddle.com/Hotel/VILLA_CAP_D'AIL>	 foaf:name 	 "VILLA CAP D'AIL"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert du 01/01/2012 au 31/12/2012"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -1289,7 +1289,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2851936 "^^xsd:decimal ;
+	geo:lat	"47.2851936"^^xsd:decimal ;
 	geo:long	"-2.3988756"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "anglais"^^xsd:string ;
@@ -1315,7 +1315,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/HOSTELLERIE_DU_BOIS>	 foaf:name 	 "HOSTELLERIE DU BOIS"^^xsd:string ;
+<http://lodpaddle.com/Hotel/HOSTELLERIE_DU_BOIS>	 foaf:name 	 "HOSTELLERIE DU BOIS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert du  15/03 au 15/11/2012 "^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -1341,7 +1341,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2822716 "^^xsd:decimal ;
+	geo:lat	"47.2822716"^^xsd:decimal ;
 	geo:long	"-2.3672427"^^xsd:decimal  ;
 	dbpedia-owl:language	 "italien"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -1367,7 +1367,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/LUTETIA>	 foaf:name 	 "LUTETIA"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LUTETIA>	 foaf:name 	 "LUTETIA"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert du 01/01/2012 au 31/12/2012"^^xsd:string ;
 	pdll:hasSpa	 "oui"^^xsd:string ;
@@ -1393,7 +1393,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.283742 "^^xsd:decimal ;
+	geo:lat	"47.283742"^^xsd:decimal ;
 	geo:long	"-2.393944"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -1419,7 +1419,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/LA_MASCOTTE>	 foaf:name 	 "LA MASCOTTE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LA_MASCOTTE>	 foaf:name 	 "LA MASCOTTE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert du 01/01/2012 au 31/12/2012"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -1445,7 +1445,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2821202 "^^xsd:decimal ;
+	geo:lat	"47.2821202"^^xsd:decimal ;
 	geo:long	"-2.406516"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -1471,7 +1471,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/SAINT_CHRISTOPHE>	 foaf:name 	 "SAINT CHRISTOPHE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/SAINT_CHRISTOPHE>	 foaf:name 	 "SAINT CHRISTOPHE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert du 01/01/2012 au 31/12/2012"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -1497,7 +1497,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.28320313 "^^xsd:decimal ;
+	geo:lat	"47.28320313"^^xsd:decimal ;
 	geo:long	"-2.39606806"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "anglais"^^xsd:string ;
@@ -1523,7 +1523,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/LE_SAINT_PIERRE>	 foaf:name 	 "LE SAINT PIERRE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LE_SAINT_PIERRE>	 foaf:name 	 "LE SAINT PIERRE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert du 01/01/2012 au 31/12/2012"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -1549,7 +1549,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2847465 "^^xsd:decimal ;
+	geo:lat	"47.2847465"^^xsd:decimal ;
 	geo:long	"-2.4007539"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -1575,7 +1575,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/RELAIS&CHATEAUX_CASTEL_MARIE-LOUISE>	 foaf:name 	 "RELAIS&CHATEAUX CASTEL MARIE-LOUISE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/RELAIS&CHATEAUX_CASTEL_MARIE-LOUISE>	 foaf:name 	 "RELAIS&CHATEAUX CASTEL MARIE-LOUISE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert du 05/02/2012 au 31/12/2012"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -1601,7 +1601,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2869657 "^^xsd:decimal ;
+	geo:lat	"47.2869657"^^xsd:decimal ;
 	geo:long	"-2.3914496"^^xsd:decimal  ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
 	dbpedia-owl:language	 "anglais"^^xsd:string ;
@@ -1627,7 +1627,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/LE_CHRISTINA>	 foaf:name 	 "LE CHRISTINA"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LE_CHRISTINA>	 foaf:name 	 "LE CHRISTINA"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert du 03/02/2012 au 31/12/2012"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -1653,7 +1653,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "néerlandais"^^xsd:string ;
-	geo:lat	"47.2869657 "^^xsd:decimal ;
+	geo:lat	"47.2869657"^^xsd:decimal ;
 	geo:long	"-2.3914496"^^xsd:decimal  ;
 	dbpedia-owl:language	 "italien"^^xsd:string ;
 	dbpedia-owl:language	 "anglais"^^xsd:string ;
@@ -1679,7 +1679,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/CONCORDE>	 foaf:name 	 "CONCORDE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/CONCORDE>	 foaf:name 	 "CONCORDE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert du  05/04 au 30/09/2012"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -1705,7 +1705,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2823436 "^^xsd:decimal ;
+	geo:lat	"47.2823436"^^xsd:decimal ;
 	geo:long	"-2.3998562"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "anglais"^^xsd:string ;
@@ -1731,7 +1731,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/ASTROLABE>	 foaf:name 	 "ASTROLABE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/ASTROLABE>	 foaf:name 	 "ASTROLABE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -1757,7 +1757,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2830924 "^^xsd:decimal ;
+	geo:lat	"47.2830924"^^xsd:decimal ;
 	geo:long	"-2.4078563"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -1783,7 +1783,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/MONA_LISA>	 foaf:name 	 "MONA LISA"^^xsd:string ;
+<http://lodpaddle.com/Hotel/MONA_LISA>	 foaf:name 	 "MONA LISA"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert du 01/01/2012 au 31/12/2012"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -1809,7 +1809,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2877611 "^^xsd:decimal ;
+	geo:lat	"47.2877611"^^xsd:decimal ;
 	geo:long	"-2.3875301"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -1835,7 +1835,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/LA_CLOSERIE>	 foaf:name 	 "LA CLOSERIE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LA_CLOSERIE>	 foaf:name 	 "LA CLOSERIE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -1861,7 +1861,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.285633 "^^xsd:decimal ;
+	geo:lat	"47.285633"^^xsd:decimal ;
 	geo:long	"-2.3970173"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -1887,7 +1887,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/DUNES>	 foaf:name 	 "DUNES"^^xsd:string ;
+<http://lodpaddle.com/Hotel/DUNES>	 foaf:name 	 "DUNES"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -1913,7 +1913,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2863541 "^^xsd:decimal ;
+	geo:lat	"47.2863541"^^xsd:decimal ;
 	geo:long	"-2.3944195"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "anglais"^^xsd:string ;
@@ -1939,7 +1939,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/MARINI>	 foaf:name 	 "MARINI"^^xsd:string ;
+<http://lodpaddle.com/Hotel/MARINI>	 foaf:name 	 "MARINI"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "oui"^^xsd:string ;
@@ -1965,7 +1965,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2874155 "^^xsd:decimal ;
+	geo:lat	"47.2874155"^^xsd:decimal ;
 	geo:long	"-2.3891212"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -1991,7 +1991,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/LA_PALMERAIE>	 foaf:name 	 "LA PALMERAIE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LA_PALMERAIE>	 foaf:name 	 "LA PALMERAIE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -2017,7 +2017,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2828147 "^^xsd:decimal ;
+	geo:lat	"47.2828147"^^xsd:decimal ;
 	geo:long	"-2.3976027"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -2043,7 +2043,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/LE_PARIS>	 foaf:name 	 "LE PARIS"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LE_PARIS>	 foaf:name 	 "LE PARIS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert du 10/01/2012 au 20/12/2012"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -2069,7 +2069,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2880837 "^^xsd:decimal ;
+	geo:lat	"47.2880837"^^xsd:decimal ;
 	geo:long	"-2.3898049"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -2095,7 +2095,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/PLEIADES>	 foaf:name 	 "PLEIADES"^^xsd:string ;
+<http://lodpaddle.com/Hotel/PLEIADES>	 foaf:name 	 "PLEIADES"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -2121,7 +2121,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2809966 "^^xsd:decimal ;
+	geo:lat	"47.2809966"^^xsd:decimal ;
 	geo:long	"-2.3839061"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -2147,7 +2147,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/LES_TENNIS_MEN>	 foaf:name 	 "LES TENNIS MEN"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LES_TENNIS_MEN>	 foaf:name 	 "LES TENNIS MEN"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert du 01/01/2012 au 31/12/2012"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -2173,7 +2173,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2788626 "^^xsd:decimal ;
+	geo:lat	"47.2788626"^^xsd:decimal ;
 	geo:long	"-2.363709"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -2199,7 +2199,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/TY_GWENN>	 foaf:name 	 "TY GWENN"^^xsd:string ;
+<http://lodpaddle.com/Hotel/TY_GWENN>	 foaf:name 	 "TY GWENN"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert du 10/02/2012 au 11/11/2012"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -2225,7 +2225,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.27998548 "^^xsd:decimal ;
+	geo:lat	"47.27998548"^^xsd:decimal ;
 	geo:long	"-2.36814755"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -2251,7 +2251,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/LE_CORALLI>	 foaf:name 	 "LE CORALLI"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LE_CORALLI>	 foaf:name 	 "LE CORALLI"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -2277,7 +2277,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2749913 "^^xsd:decimal ;
+	geo:lat	"47.2749913"^^xsd:decimal ;
 	geo:long	"-2.4265872"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -2303,7 +2303,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/B&B_HÔTEL_NANTES_LA_CHAPELLE>	 foaf:name 	 "B&B HÔTEL NANTES LA CHAPELLE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/B&B_HÔTEL_NANTES_LA_CHAPELLE>	 foaf:name 	 "B&B HÔTEL NANTES LA CHAPELLE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -2329,7 +2329,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA CHAPELLE-SUR-ERDRE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2998093 "^^xsd:decimal ;
+	geo:lat	"47.2998093"^^xsd:decimal ;
 	geo:long	"-1.5498773"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -2355,7 +2355,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44240"^^xsd:integer .
 
-<http://projet.com/10/DELMAR_HOTEL>	 foaf:name 	 "DELMAR HOTEL"^^xsd:string ;
+<http://lodpaddle.com/Hotel/DELMAR_HOTEL>	 foaf:name 	 "DELMAR HOTEL"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "toute l'année"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -2381,7 +2381,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA CHEVROLIERE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.0794343 "^^xsd:decimal ;
+	geo:lat	"47.0794343"^^xsd:decimal ;
 	geo:long	"-1.566995"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -2407,7 +2407,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44118"^^xsd:integer .
 
-<http://projet.com/10/LES_CHANTS_D'AILES>	 foaf:name 	 "LES CHANTS D'AILES"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LES_CHANTS_D'AILES>	 foaf:name 	 "LES CHANTS D'AILES"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert à partir du 11/02/12"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -2433,7 +2433,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA TURBALLE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.34369952 "^^xsd:decimal ;
+	geo:lat	"47.34369952"^^xsd:decimal ;
 	geo:long	"-2.50693665"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -2459,7 +2459,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44420"^^xsd:integer .
 
-<http://projet.com/10/LES_VIKINGS>	 foaf:name 	 "LES VIKINGS"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LES_VIKINGS>	 foaf:name 	 "LES VIKINGS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert toute l'année"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -2485,7 +2485,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LE CROISIC"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.29499178 "^^xsd:decimal ;
+	geo:lat	"47.29499178"^^xsd:decimal ;
 	geo:long	"-2.51508759"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -2511,7 +2511,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44490"^^xsd:integer .
 
-<http://projet.com/10/LES_NIDS>	 foaf:name 	 "LES NIDS"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LES_NIDS>	 foaf:name 	 "LES NIDS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -2537,7 +2537,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LE CROISIC"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.28505448 "^^xsd:decimal ;
+	geo:lat	"47.28505448"^^xsd:decimal ;
 	geo:long	"-2.5131809"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -2563,7 +2563,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44490"^^xsd:integer .
 
-<http://projet.com/10/LE_MONDÈS>	 foaf:name 	 "LE MONDÈS"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LE_MONDÈS>	 foaf:name 	 "LE MONDÈS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert du 01/07/12 au 30/08/12 : de 8h à 01h"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -2589,7 +2589,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LE POULIGUEN"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.27661711 "^^xsd:decimal ;
+	geo:lat	"47.27661711"^^xsd:decimal ;
 	geo:long	"-2.4291201"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -2615,7 +2615,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44510"^^xsd:integer .
 
-<http://projet.com/10/LES_FARFADETS>	 foaf:name 	 "LES FARFADETS"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LES_FARFADETS>	 foaf:name 	 "LES FARFADETS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -2641,7 +2641,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LE POULIGUEN"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.27602192 "^^xsd:decimal ;
+	geo:lat	"47.27602192"^^xsd:decimal ;
 	geo:long	"-2.42694831"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -2667,7 +2667,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44510"^^xsd:integer .
 
-<http://projet.com/10/A_L'OREE_DU_BOIS>	 foaf:name 	 "A L'OREE DU BOIS"^^xsd:string ;
+<http://lodpaddle.com/Hotel/A_L'OREE_DU_BOIS>	 foaf:name 	 "A L'OREE DU BOIS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -2693,7 +2693,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LE POULIGUEN"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.272459 "^^xsd:decimal ;
+	geo:lat	"47.272459"^^xsd:decimal ;
 	geo:long	"-2.4258324"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -2719,7 +2719,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44510"^^xsd:integer .
 
-<http://projet.com/10/ETAP_HOTEL_ANCENIS>	 foaf:name 	 "ETAP HOTEL ANCENIS"^^xsd:string ;
+<http://lodpaddle.com/Hotel/ETAP_HOTEL_ANCENIS>	 foaf:name 	 "ETAP HOTEL ANCENIS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "toute l'année"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -2745,7 +2745,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "MESANGER"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.4320739 "^^xsd:decimal ;
+	geo:lat	"47.4320739"^^xsd:decimal ;
 	geo:long	"-1.2312982"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -2771,7 +2771,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44522"^^xsd:integer .
 
-<http://projet.com/10/AMIRAL>	 foaf:name 	 "AMIRAL"^^xsd:string ;
+<http://lodpaddle.com/Hotel/AMIRAL>	 foaf:name 	 "AMIRAL"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -2797,7 +2797,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2139919 "^^xsd:decimal ;
+	geo:lat	"47.2139919"^^xsd:decimal ;
 	geo:long	"-1.5626165"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -2823,7 +2823,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/STARS>	 foaf:name 	 "STARS"^^xsd:string ;
+<http://lodpaddle.com/Hotel/STARS>	 foaf:name 	 "STARS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -2849,7 +2849,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.247112 "^^xsd:decimal ;
+	geo:lat	"47.247112"^^xsd:decimal ;
 	geo:long	"-1.5040676"^^xsd:decimal  ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
 	dbpedia-owl:language	 "anglais"^^xsd:string ;
@@ -2875,7 +2875,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44303"^^xsd:integer .
 
-<http://projet.com/10/B&B_HÔTEL_NANTES_CENTRE>	 foaf:name 	 "B&B HÔTEL NANTES CENTRE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/B&B_HÔTEL_NANTES_CENTRE>	 foaf:name 	 "B&B HÔTEL NANTES CENTRE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -2901,7 +2901,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.220331 "^^xsd:decimal ;
+	geo:lat	"47.220331"^^xsd:decimal ;
 	geo:long	"-1.5617959"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -2927,7 +2927,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/HOTEL_F1_-_NANTES_EST_PORTE_DE_SAINTE_LUCE>	 foaf:name 	 "HOTEL F1 - NANTES EST PORTE DE SAINTE LUCE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/HOTEL_F1_-_NANTES_EST_PORTE_DE_SAINTE_LUCE>	 foaf:name 	 "HOTEL F1 - NANTES EST PORTE DE SAINTE LUCE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -2953,7 +2953,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2464273 "^^xsd:decimal ;
+	geo:lat	"47.2464273"^^xsd:decimal ;
 	geo:long	"-1.5009625"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -2979,7 +2979,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44303"^^xsd:integer .
 
-<http://projet.com/10/HOTEL_(L')>	 foaf:name 	 "HOTEL (L')"^^xsd:string ;
+<http://lodpaddle.com/Hotel/HOTEL_(L')>	 foaf:name 	 "HOTEL (L')"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -3005,7 +3005,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.217816 "^^xsd:decimal ;
+	geo:lat	"47.217816"^^xsd:decimal ;
 	geo:long	"-1.5479687"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -3031,7 +3031,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/KYRIAD_NANTES_GARE>	 foaf:name 	 "KYRIAD NANTES GARE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/KYRIAD_NANTES_GARE>	 foaf:name 	 "KYRIAD NANTES GARE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -3057,7 +3057,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.217625 "^^xsd:decimal ;
+	geo:lat	"47.217625"^^xsd:decimal ;
 	geo:long	"-1.544374"^^xsd:decimal  ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
 	dbpedia-owl:language	 "anglais"^^xsd:string ;
@@ -3083,7 +3083,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/LA_PEROUSE>	 foaf:name 	 "LA PEROUSE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LA_PEROUSE>	 foaf:name 	 "LA PEROUSE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -3109,7 +3109,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "italien"^^xsd:string ;
-	geo:lat	"47.2185047 "^^xsd:decimal ;
+	geo:lat	"47.2185047"^^xsd:decimal ;
 	geo:long	"-1.5446583"^^xsd:decimal  ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
 	dbpedia-owl:language	 "anglais"^^xsd:string ;
@@ -3135,7 +3135,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/DUQUESNE>	 foaf:name 	 "DUQUESNE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/DUQUESNE>	 foaf:name 	 "DUQUESNE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -3161,7 +3161,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.21763796 "^^xsd:decimal ;
+	geo:lat	"47.21763796"^^xsd:decimal ;
 	geo:long	"-1.55680516"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "anglais"^^xsd:string ;
@@ -3187,7 +3187,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/LONGCHAMP_(LE)>	 foaf:name 	 "LONGCHAMP (LE)"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LONGCHAMP_(LE)>	 foaf:name 	 "LONGCHAMP (LE)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -3213,7 +3213,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2352723 "^^xsd:decimal ;
+	geo:lat	"47.2352723"^^xsd:decimal ;
 	geo:long	"-1.5827716"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -3239,7 +3239,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44100"^^xsd:integer .
 
-<http://projet.com/10/TRIANON>	 foaf:name 	 "TRIANON"^^xsd:string ;
+<http://lodpaddle.com/Hotel/TRIANON>	 foaf:name 	 "TRIANON"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -3265,7 +3265,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2028306 "^^xsd:decimal ;
+	geo:lat	"47.2028306"^^xsd:decimal ;
 	geo:long	"-1.5493349"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -3291,7 +3291,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44200"^^xsd:integer .
 
-<http://projet.com/10/B&B_HÔTEL_NANTES_LA_BEAUJOIRE>	 foaf:name 	 "B&B HÔTEL NANTES LA BEAUJOIRE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/B&B_HÔTEL_NANTES_LA_BEAUJOIRE>	 foaf:name 	 "B&B HÔTEL NANTES LA BEAUJOIRE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -3317,7 +3317,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2336281 "^^xsd:decimal ;
+	geo:lat	"47.2336281"^^xsd:decimal ;
 	geo:long	"-1.5088934"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -3343,7 +3343,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44300"^^xsd:integer .
 
-<http://projet.com/10/HOTEL_DU_COMMERCE>	 foaf:name 	 "HOTEL DU COMMERCE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/HOTEL_DU_COMMERCE>	 foaf:name 	 "HOTEL DU COMMERCE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -3369,7 +3369,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.213418 "^^xsd:decimal ;
+	geo:lat	"47.213418"^^xsd:decimal ;
 	geo:long	"-1.557333"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -3395,7 +3395,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/SAINT_PATRICK>	 foaf:name 	 "SAINT PATRICK"^^xsd:string ;
+<http://lodpaddle.com/Hotel/SAINT_PATRICK>	 foaf:name 	 "SAINT PATRICK"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Fermé du 25/12 au 02/01/2013"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -3421,7 +3421,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2149893 "^^xsd:decimal ;
+	geo:lat	"47.2149893"^^xsd:decimal ;
 	geo:long	"-1.5569885"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -3447,7 +3447,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/HOTEL_MERCURE_NANTES_CENTRAL>	 foaf:name 	 "HOTEL MERCURE NANTES CENTRAL"^^xsd:string ;
+<http://lodpaddle.com/Hotel/HOTEL_MERCURE_NANTES_CENTRAL>	 foaf:name 	 "HOTEL MERCURE NANTES CENTRAL"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -3473,7 +3473,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2140307 "^^xsd:decimal ;
+	geo:lat	"47.2140307"^^xsd:decimal ;
 	geo:long	"-1.5570159"^^xsd:decimal  ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
 	dbpedia-owl:language	 "anglais"^^xsd:string ;
@@ -3499,7 +3499,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/BOURGOGNE_(DE)>	 foaf:name 	 "BOURGOGNE (DE)"^^xsd:string ;
+<http://lodpaddle.com/Hotel/BOURGOGNE_(DE)>	 foaf:name 	 "BOURGOGNE (DE)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -3525,7 +3525,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2175153 "^^xsd:decimal ;
+	geo:lat	"47.2175153"^^xsd:decimal ;
 	geo:long	"-1.5444838"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "italien"^^xsd:string ;
@@ -3551,7 +3551,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/GRASLIN_(LE)>	 foaf:name 	 "GRASLIN (LE)"^^xsd:string ;
+<http://lodpaddle.com/Hotel/GRASLIN_(LE)>	 foaf:name 	 "GRASLIN (LE)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -3577,7 +3577,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2122634 "^^xsd:decimal ;
+	geo:lat	"47.2122634"^^xsd:decimal ;
 	geo:long	"-1.5617997"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -3603,7 +3603,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/ALL_SEASONS_NANTES_CENTRE>	 foaf:name 	 "ALL SEASONS NANTES CENTRE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/ALL_SEASONS_NANTES_CENTRE>	 foaf:name 	 "ALL SEASONS NANTES CENTRE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -3629,7 +3629,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.21405815 "^^xsd:decimal ;
+	geo:lat	"47.21405815"^^xsd:decimal ;
 	geo:long	"-1.55706149"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -3655,7 +3655,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/COMFORT_HOTEL_NANTES_ASTORIA>	 foaf:name 	 "COMFORT HOTEL NANTES ASTORIA"^^xsd:string ;
+<http://lodpaddle.com/Hotel/COMFORT_HOTEL_NANTES_ASTORIA>	 foaf:name 	 "COMFORT HOTEL NANTES ASTORIA"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -3681,7 +3681,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2177212 "^^xsd:decimal ;
+	geo:lat	"47.2177212"^^xsd:decimal ;
 	geo:long	"-1.5437635"^^xsd:decimal  ;
 	dbpedia-owl:language	 "italien"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -3707,7 +3707,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/CHATEAUBRIAND>	 foaf:name 	 "CHATEAUBRIAND"^^xsd:string ;
+<http://lodpaddle.com/Hotel/CHATEAUBRIAND>	 foaf:name 	 "CHATEAUBRIAND"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -3733,7 +3733,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2213706 "^^xsd:decimal ;
+	geo:lat	"47.2213706"^^xsd:decimal ;
 	geo:long	"-1.5551214"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -3759,7 +3759,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/CHOLET_(LE)>	 foaf:name 	 "CHOLET (LE)"^^xsd:string ;
+<http://lodpaddle.com/Hotel/CHOLET_(LE)>	 foaf:name 	 "CHOLET (LE)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -3785,7 +3785,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2119767 "^^xsd:decimal ;
+	geo:lat	"47.2119767"^^xsd:decimal ;
 	geo:long	"-1.5644658"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -3811,7 +3811,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/COEUR_DE_LOIRE>	 foaf:name 	 "COEUR DE LOIRE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/COEUR_DE_LOIRE>	 foaf:name 	 "COEUR DE LOIRE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -3837,7 +3837,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2288626 "^^xsd:decimal ;
+	geo:lat	"47.2288626"^^xsd:decimal ;
 	geo:long	"-1.5623002"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -3863,7 +3863,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/IBIS_STYLE_NANTES_PLACE_GRASLIN_>	 foaf:name 	 "IBIS STYLE NANTES PLACE GRASLIN "^^xsd:string ;
+<http://lodpaddle.com/Hotel/IBIS_STYLE_NANTES_PLACE_GRASLIN_>	 foaf:name 	 "IBIS STYLE NANTES PLACE GRASLIN "^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -3889,7 +3889,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.214981 "^^xsd:decimal ;
+	geo:lat	"47.214981"^^xsd:decimal ;
 	geo:long	"-1.5602717"^^xsd:decimal  ;
 	dbpedia-owl:language	 "italien"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -3915,7 +3915,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/HOTEL_DE_LA_GARE_-_CITOTEL>	 foaf:name 	 "HOTEL DE LA GARE - CITOTEL"^^xsd:string ;
+<http://lodpaddle.com/Hotel/HOTEL_DE_LA_GARE_-_CITOTEL>	 foaf:name 	 "HOTEL DE LA GARE - CITOTEL"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -3941,7 +3941,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2172487 "^^xsd:decimal ;
+	geo:lat	"47.2172487"^^xsd:decimal ;
 	geo:long	"-1.54506201"^^xsd:decimal  ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
 	dbpedia-owl:language	 "anglais"^^xsd:string ;
@@ -3967,7 +3967,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/GRAND_HOTEL_DE_NANTES>	 foaf:name 	 "GRAND HOTEL DE NANTES"^^xsd:string ;
+<http://lodpaddle.com/Hotel/GRAND_HOTEL_DE_NANTES>	 foaf:name 	 "GRAND HOTEL DE NANTES"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -3993,7 +3993,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2127304 "^^xsd:decimal ;
+	geo:lat	"47.2127304"^^xsd:decimal ;
 	geo:long	"-1.560239"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -4019,7 +4019,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/POMMERAYE>	 foaf:name 	 "POMMERAYE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/POMMERAYE>	 foaf:name 	 "POMMERAYE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -4045,7 +4045,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2141747 "^^xsd:decimal ;
+	geo:lat	"47.2141747"^^xsd:decimal ;
 	geo:long	"-1.5604036"^^xsd:decimal  ;
 	dbpedia-owl:language	 "italien"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -4071,7 +4071,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/SURCOUF_(LE)>	 foaf:name 	 "SURCOUF (LE)"^^xsd:string ;
+<http://lodpaddle.com/Hotel/SURCOUF_(LE)>	 foaf:name 	 "SURCOUF (LE)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -4097,7 +4097,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2173056 "^^xsd:decimal ;
+	geo:lat	"47.2173056"^^xsd:decimal ;
 	geo:long	"-1.5465149"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -4123,7 +4123,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/TERMINUS>	 foaf:name 	 "TERMINUS"^^xsd:string ;
+<http://lodpaddle.com/Hotel/TERMINUS>	 foaf:name 	 "TERMINUS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -4149,7 +4149,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2177968 "^^xsd:decimal ;
+	geo:lat	"47.2177968"^^xsd:decimal ;
 	geo:long	"-1.5436515"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -4175,7 +4175,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/ABAT_JOUR>	 foaf:name 	 "ABAT JOUR"^^xsd:string ;
+<http://lodpaddle.com/Hotel/ABAT_JOUR>	 foaf:name 	 "ABAT JOUR"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -4201,7 +4201,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2217484 "^^xsd:decimal ;
+	geo:lat	"47.2217484"^^xsd:decimal ;
 	geo:long	"-1.5485505"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -4227,7 +4227,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/BOURSE_(DE_LA)>	 foaf:name 	 "BOURSE (DE LA)"^^xsd:string ;
+<http://lodpaddle.com/Hotel/BOURSE_(DE_LA)>	 foaf:name 	 "BOURSE (DE LA)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -4253,7 +4253,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2113044 "^^xsd:decimal ;
+	geo:lat	"47.2113044"^^xsd:decimal ;
 	geo:long	"-1.5609426"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -4279,7 +4279,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/CHATEAU_(DU)>	 foaf:name 	 "CHATEAU (DU)"^^xsd:string ;
+<http://lodpaddle.com/Hotel/CHATEAU_(DU)>	 foaf:name 	 "CHATEAU (DU)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -4305,7 +4305,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.217399 "^^xsd:decimal ;
+	geo:lat	"47.217399"^^xsd:decimal ;
 	geo:long	"-1.5475068"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -4331,7 +4331,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/GRAND_MONARQUE_(DU)>	 foaf:name 	 "GRAND MONARQUE (DU)"^^xsd:string ;
+<http://lodpaddle.com/Hotel/GRAND_MONARQUE_(DU)>	 foaf:name 	 "GRAND MONARQUE (DU)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -4357,7 +4357,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2215425 "^^xsd:decimal ;
+	geo:lat	"47.2215425"^^xsd:decimal ;
 	geo:long	"-1.5476867"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -4383,7 +4383,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/OCEAN_(L')>	 foaf:name 	 "OCEAN (L')"^^xsd:string ;
+<http://lodpaddle.com/Hotel/OCEAN_(L')>	 foaf:name 	 "OCEAN (L')"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -4409,7 +4409,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2119726 "^^xsd:decimal ;
+	geo:lat	"47.2119726"^^xsd:decimal ;
 	geo:long	"-1.5613686"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -4435,7 +4435,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/ORLEANS_(D')>	 foaf:name 	 "ORLEANS (D')"^^xsd:string ;
+<http://lodpaddle.com/Hotel/ORLEANS_(D')>	 foaf:name 	 "ORLEANS (D')"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -4461,7 +4461,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2181812 "^^xsd:decimal ;
+	geo:lat	"47.2181812"^^xsd:decimal ;
 	geo:long	"-1.5566763"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -4487,7 +4487,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/RENOVA>	 foaf:name 	 "RENOVA"^^xsd:string ;
+<http://lodpaddle.com/Hotel/RENOVA>	 foaf:name 	 "RENOVA"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -4513,7 +4513,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2148963 "^^xsd:decimal ;
+	geo:lat	"47.2148963"^^xsd:decimal ;
 	geo:long	"-1.5551454"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -4539,7 +4539,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/SAINT_DANIEL>	 foaf:name 	 "SAINT DANIEL"^^xsd:string ;
+<http://lodpaddle.com/Hotel/SAINT_DANIEL>	 foaf:name 	 "SAINT DANIEL"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -4565,7 +4565,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.214944 "^^xsd:decimal ;
+	geo:lat	"47.214944"^^xsd:decimal ;
 	geo:long	"-1.5540503"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -4591,7 +4591,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/TOURISME_(DU)>	 foaf:name 	 "TOURISME (DU)"^^xsd:string ;
+<http://lodpaddle.com/Hotel/TOURISME_(DU)>	 foaf:name 	 "TOURISME (DU)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -4617,7 +4617,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2185047 "^^xsd:decimal ;
+	geo:lat	"47.2185047"^^xsd:decimal ;
 	geo:long	"-1.5446583"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -4643,7 +4643,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/SAINT_YVES>	 foaf:name 	 "SAINT YVES"^^xsd:string ;
+<http://lodpaddle.com/Hotel/SAINT_YVES>	 foaf:name 	 "SAINT YVES"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -4669,7 +4669,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2262831 "^^xsd:decimal ;
+	geo:lat	"47.2262831"^^xsd:decimal ;
 	geo:long	"-1.5433098"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -4695,7 +4695,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/LE_RELAIS_DE_LA_GRANGE>	 foaf:name 	 "LE RELAIS DE LA GRANGE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LE_RELAIS_DE_LA_GRANGE>	 foaf:name 	 "LE RELAIS DE LA GRANGE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -4721,7 +4721,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NORT-SUR-ERDRE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.4371021 "^^xsd:decimal ;
+	geo:lat	"47.4371021"^^xsd:decimal ;
 	geo:long	"-1.4817221"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -4747,7 +4747,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44390"^^xsd:integer .
 
-<http://projet.com/10/INTER_HOTEL_AGORA>	 foaf:name 	 "INTER HOTEL AGORA"^^xsd:string ;
+<http://lodpaddle.com/Hotel/INTER_HOTEL_AGORA>	 foaf:name 	 "INTER HOTEL AGORA"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -4773,7 +4773,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "ORVAULT"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2520846 "^^xsd:decimal ;
+	geo:lat	"47.2520846"^^xsd:decimal ;
 	geo:long	"-1.6190518"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -4799,7 +4799,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44700"^^xsd:integer .
 
-<http://projet.com/10/CITOTEL_ALBERT>	 foaf:name 	 "CITOTEL ALBERT"^^xsd:string ;
+<http://lodpaddle.com/Hotel/CITOTEL_ALBERT>	 foaf:name 	 "CITOTEL ALBERT"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -4825,7 +4825,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "ORVAULT"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2557713 "^^xsd:decimal ;
+	geo:lat	"47.2557713"^^xsd:decimal ;
 	geo:long	"-1.5778318"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -4851,7 +4851,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44700"^^xsd:integer .
 
-<http://projet.com/10/BEAU_SOLEIL>	 foaf:name 	 "BEAU SOLEIL"^^xsd:string ;
+<http://lodpaddle.com/Hotel/BEAU_SOLEIL>	 foaf:name 	 "BEAU SOLEIL"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert toute l'année"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -4877,7 +4877,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "PORNIC"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.1146701 "^^xsd:decimal ;
+	geo:lat	"47.1146701"^^xsd:decimal ;
 	geo:long	"-2.1050726"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -4903,7 +4903,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44210"^^xsd:integer .
 
-<http://projet.com/10/BRIT_HOTEL_LES_ALIZES>	 foaf:name 	 "BRIT HOTEL LES ALIZES"^^xsd:string ;
+<http://lodpaddle.com/Hotel/BRIT_HOTEL_LES_ALIZES>	 foaf:name 	 "BRIT HOTEL LES ALIZES"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert toute l'année"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -4929,7 +4929,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "PORNIC"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.1137768 "^^xsd:decimal ;
+	geo:lat	"47.1137768"^^xsd:decimal ;
 	geo:long	"-2.0927467"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -4955,7 +4955,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44210"^^xsd:integer .
 
-<http://projet.com/10/ARC_EN_CIEL>	 foaf:name 	 "ARC EN CIEL"^^xsd:string ;
+<http://lodpaddle.com/Hotel/ARC_EN_CIEL>	 foaf:name 	 "ARC EN CIEL"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert toute l'année"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -4981,7 +4981,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "PORNIC"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.112836 "^^xsd:decimal ;
+	geo:lat	"47.112836"^^xsd:decimal ;
 	geo:long	"-2.0837673"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -5007,7 +5007,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44210"^^xsd:integer .
 
-<http://projet.com/10/NUIT_DE_RETZ>	 foaf:name 	 "NUIT DE RETZ"^^xsd:string ;
+<http://lodpaddle.com/Hotel/NUIT_DE_RETZ>	 foaf:name 	 "NUIT DE RETZ"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "A l'année"^^xsd:string ;
 	pdll:hasSpa	 "oui"^^xsd:string ;
@@ -5033,7 +5033,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "PORT-SAINT-PERE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.134543 "^^xsd:decimal ;
+	geo:lat	"47.134543"^^xsd:decimal ;
 	geo:long	"-1.7473586"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -5059,7 +5059,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44710"^^xsd:integer .
 
-<http://projet.com/10/PREMIERE_CLASSE_-_REZE>	 foaf:name 	 "PREMIERE CLASSE - REZE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/PREMIERE_CLASSE_-_REZE>	 foaf:name 	 "PREMIERE CLASSE - REZE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -5085,7 +5085,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "REZE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.1847391 "^^xsd:decimal ;
+	geo:lat	"47.1847391"^^xsd:decimal ;
 	geo:long	"-1.5460755"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -5111,7 +5111,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44406"^^xsd:integer .
 
-<http://projet.com/10/CHEVAL_BLANC_(DU)>	 foaf:name 	 "CHEVAL BLANC (DU)"^^xsd:string ;
+<http://lodpaddle.com/Hotel/CHEVAL_BLANC_(DU)>	 foaf:name 	 "CHEVAL BLANC (DU)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -5137,7 +5137,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "REZE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2181665 "^^xsd:decimal ;
+	geo:lat	"47.2181665"^^xsd:decimal ;
 	geo:long	"-1.5539656"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -5163,7 +5163,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44400"^^xsd:integer .
 
-<http://projet.com/10/L'ESTUAIRE>	 foaf:name 	 "L'ESTUAIRE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/L'ESTUAIRE>	 foaf:name 	 "L'ESTUAIRE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert toute l'année"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -5189,7 +5189,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-BREVIN"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.247906 "^^xsd:decimal ;
+	geo:lat	"47.247906"^^xsd:decimal ;
 	geo:long	"-2.14668"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -5215,7 +5215,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44250"^^xsd:integer .
 
-<http://projet.com/10/B&B_HOTEL_NANTES_SAINT_HERBLAIN>	 foaf:name 	 "B&B HOTEL NANTES SAINT HERBLAIN"^^xsd:string ;
+<http://lodpaddle.com/Hotel/B&B_HOTEL_NANTES_SAINT_HERBLAIN>	 foaf:name 	 "B&B HOTEL NANTES SAINT HERBLAIN"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -5241,7 +5241,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-HERBLAIN"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2325203 "^^xsd:decimal ;
+	geo:lat	"47.2325203"^^xsd:decimal ;
 	geo:long	"-1.64561757"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "anglais"^^xsd:string ;
@@ -5267,7 +5267,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44800"^^xsd:integer .
 
-<http://projet.com/10/HOTEL_F1_-_SAINT_HERBLAIN>	 foaf:name 	 "HOTEL F1 - SAINT HERBLAIN"^^xsd:string ;
+<http://lodpaddle.com/Hotel/HOTEL_F1_-_SAINT_HERBLAIN>	 foaf:name 	 "HOTEL F1 - SAINT HERBLAIN"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -5293,7 +5293,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-HERBLAIN"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2296141 "^^xsd:decimal ;
+	geo:lat	"47.2296141"^^xsd:decimal ;
 	geo:long	"-1.6338768"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -5319,7 +5319,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44800"^^xsd:integer .
 
-<http://projet.com/10/PREMIERE_CLASSE_-_SAINT_HERBLAIN>	 foaf:name 	 "PREMIERE CLASSE - SAINT HERBLAIN"^^xsd:string ;
+<http://lodpaddle.com/Hotel/PREMIERE_CLASSE_-_SAINT_HERBLAIN>	 foaf:name 	 "PREMIERE CLASSE - SAINT HERBLAIN"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -5345,7 +5345,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-HERBLAIN"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2144177 "^^xsd:decimal ;
+	geo:lat	"47.2144177"^^xsd:decimal ;
 	geo:long	"-1.6388837"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -5371,7 +5371,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44800"^^xsd:integer .
 
-<http://projet.com/10/ETAP_HOTEL_NANTES_NORD_SAINT_HERBLAIN>	 foaf:name 	 "ETAP HOTEL NANTES NORD SAINT HERBLAIN"^^xsd:string ;
+<http://lodpaddle.com/Hotel/ETAP_HOTEL_NANTES_NORD_SAINT_HERBLAIN>	 foaf:name 	 "ETAP HOTEL NANTES NORD SAINT HERBLAIN"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -5397,7 +5397,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-HERBLAIN"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2484091 "^^xsd:decimal ;
+	geo:lat	"47.2484091"^^xsd:decimal ;
 	geo:long	"-1.6193691"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -5423,7 +5423,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44800"^^xsd:integer .
 
-<http://projet.com/10/AGIL>	 foaf:name 	 "AGIL"^^xsd:string ;
+<http://lodpaddle.com/Hotel/AGIL>	 foaf:name 	 "AGIL"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -5449,7 +5449,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-HERBLAIN"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2319122 "^^xsd:decimal ;
+	geo:lat	"47.2319122"^^xsd:decimal ;
 	geo:long	"-1.6343515"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -5475,7 +5475,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44800"^^xsd:integer .
 
-<http://projet.com/10/ATLANTYS_HOTEL>	 foaf:name 	 "ATLANTYS HOTEL"^^xsd:string ;
+<http://lodpaddle.com/Hotel/ATLANTYS_HOTEL>	 foaf:name 	 "ATLANTYS HOTEL"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -5501,7 +5501,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-HERBLAIN"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2277557 "^^xsd:decimal ;
+	geo:lat	"47.2277557"^^xsd:decimal ;
 	geo:long	"-1.6330708"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -5527,7 +5527,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44800"^^xsd:integer .
 
-<http://projet.com/10/BALLADINS_NANTES_SAINT_HERBLAIN>	 foaf:name 	 "BALLADINS NANTES SAINT HERBLAIN"^^xsd:string ;
+<http://lodpaddle.com/Hotel/BALLADINS_NANTES_SAINT_HERBLAIN>	 foaf:name 	 "BALLADINS NANTES SAINT HERBLAIN"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -5553,7 +5553,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-HERBLAIN"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2296592 "^^xsd:decimal ;
+	geo:lat	"47.2296592"^^xsd:decimal ;
 	geo:long	"-1.6340139"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -5579,7 +5579,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44800"^^xsd:integer .
 
-<http://projet.com/10/KYRIAD_SAINT-HERBLAIN>	 foaf:name 	 "KYRIAD SAINT-HERBLAIN"^^xsd:string ;
+<http://lodpaddle.com/Hotel/KYRIAD_SAINT-HERBLAIN>	 foaf:name 	 "KYRIAD SAINT-HERBLAIN"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -5605,7 +5605,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-HERBLAIN"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2144177 "^^xsd:decimal ;
+	geo:lat	"47.2144177"^^xsd:decimal ;
 	geo:long	"-1.6388837"^^xsd:decimal  ;
 	dbpedia-owl:language	 "italien"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -5631,7 +5631,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44800"^^xsd:integer .
 
-<http://projet.com/10/LA_COTE_DE_JADE>	 foaf:name 	 "LA COTE DE JADE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LA_COTE_DE_JADE>	 foaf:name 	 "LA COTE DE JADE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "A l'année (sur réservation du 1 oct au 1 avr)"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -5657,7 +5657,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-MICHEL-CHEF-CHEF"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.1668699 "^^xsd:decimal ;
+	geo:lat	"47.1668699"^^xsd:decimal ;
 	geo:long	"-2.1662878"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -5683,7 +5683,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44730"^^xsd:integer .
 
-<http://projet.com/10/BRIT_HOTEL_LE_KORALI>	 foaf:name 	 "BRIT HOTEL LE KORALI"^^xsd:string ;
+<http://lodpaddle.com/Hotel/BRIT_HOTEL_LE_KORALI>	 foaf:name 	 "BRIT HOTEL LE KORALI"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -5709,7 +5709,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-NAZAIRE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2896954 "^^xsd:decimal ;
+	geo:lat	"47.2896954"^^xsd:decimal ;
 	geo:long	"-2.2614914"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -5735,7 +5735,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44600"^^xsd:integer .
 
-<http://projet.com/10/HOLIDAY_INN_EXPRESS>	 foaf:name 	 "HOLIDAY INN EXPRESS"^^xsd:string ;
+<http://lodpaddle.com/Hotel/HOLIDAY_INN_EXPRESS>	 foaf:name 	 "HOLIDAY INN EXPRESS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -5761,7 +5761,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-NAZAIRE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2896954 "^^xsd:decimal ;
+	geo:lat	"47.2896954"^^xsd:decimal ;
 	geo:long	"-2.2614914"^^xsd:decimal  ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
 	dbpedia-owl:language	 "anglais"^^xsd:string ;
@@ -5787,7 +5787,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44600"^^xsd:integer .
 
-<http://projet.com/10/LA_BELLE_EPEE>	 foaf:name 	 "LA BELLE EPEE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LA_BELLE_EPEE>	 foaf:name 	 "LA BELLE EPEE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -5813,7 +5813,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-NAZAIRE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2794449 "^^xsd:decimal ;
+	geo:lat	"47.2794449"^^xsd:decimal ;
 	geo:long	"-2.2105174"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -5839,7 +5839,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44600"^^xsd:integer .
 
-<http://projet.com/10/LE_BRETAGNE>	 foaf:name 	 "LE BRETAGNE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LE_BRETAGNE1> foaf:name  "LE BRETAGNE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -5865,7 +5865,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-NAZAIRE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2748482 "^^xsd:decimal ;
+	geo:lat	"47.2748482"^^xsd:decimal ;
 	geo:long	"-2.2136119"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -5891,7 +5891,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44600"^^xsd:integer .
 
-<http://projet.com/10/LE_DAUPHIN>	 foaf:name 	 "LE DAUPHIN"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LE_DAUPHIN>	 foaf:name 	 "LE DAUPHIN"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -5917,7 +5917,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-NAZAIRE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2794933 "^^xsd:decimal ;
+	geo:lat	"47.2794933"^^xsd:decimal ;
 	geo:long	"-2.2095381"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -5943,7 +5943,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44600"^^xsd:integer .
 
-<http://projet.com/10/L'EUROPE>	 foaf:name 	 "L'EUROPE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/L'EUROPE>	 foaf:name 	 "L'EUROPE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -5969,7 +5969,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-NAZAIRE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.279284 "^^xsd:decimal ;
+	geo:lat	"47.279284"^^xsd:decimal ;
 	geo:long	"-2.215215"^^xsd:decimal  ;
 	dbpedia-owl:language	 "italien"^^xsd:string ;
 	dbpedia-owl:language	 "anglais"^^xsd:string ;
@@ -5995,7 +5995,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44600"^^xsd:integer .
 
-<http://projet.com/10/LE_SAINT_LOUIS>	 foaf:name 	 "LE SAINT LOUIS"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LE_SAINT_LOUIS>	 foaf:name 	 "LE SAINT LOUIS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -6021,7 +6021,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-NAZAIRE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2799199 "^^xsd:decimal ;
+	geo:lat	"47.2799199"^^xsd:decimal ;
 	geo:long	"-2.2149658"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -6047,7 +6047,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44600"^^xsd:integer .
 
-<http://projet.com/10/LE_TOURAINE>	 foaf:name 	 "LE TOURAINE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LE_TOURAINE>	 foaf:name 	 "LE TOURAINE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -6073,7 +6073,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-NAZAIRE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2745785 "^^xsd:decimal ;
+	geo:lat	"47.2745785"^^xsd:decimal ;
 	geo:long	"-2.2134488"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -6099,7 +6099,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44600"^^xsd:integer .
 
-<http://projet.com/10/HOTEL_ANAIADE>	 foaf:name 	 "HOTEL ANAIADE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/HOTEL_ANAIADE>	 foaf:name 	 "HOTEL ANAIADE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -6125,7 +6125,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-NAZAIRE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2859874 "^^xsd:decimal ;
+	geo:lat	"47.2859874"^^xsd:decimal ;
 	geo:long	"-2.2956486"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -6151,7 +6151,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44600"^^xsd:integer .
 
-<http://projet.com/10/BEL_HOTEL>	 foaf:name 	 "BEL HOTEL"^^xsd:string ;
+<http://lodpaddle.com/Hotel/BEL_HOTEL>	 foaf:name 	 "BEL HOTEL"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -6177,7 +6177,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-NICOLAS-DE-REDON"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.6476422 "^^xsd:decimal ;
+	geo:lat	"47.6476422"^^xsd:decimal ;
 	geo:long	"-2.0820597"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -6203,7 +6203,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44460"^^xsd:integer .
 
-<http://projet.com/10/B&B_HÔTEL_NANTES_SAINT_SEBASTIEN>	 foaf:name 	 "B&B HÔTEL NANTES SAINT SEBASTIEN"^^xsd:string ;
+<http://lodpaddle.com/Hotel/B&B_HÔTEL_NANTES_SAINT_SEBASTIEN>	 foaf:name 	 "B&B HÔTEL NANTES SAINT SEBASTIEN"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -6229,7 +6229,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-SEBASTIEN-SUR-LOIRE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.1995473 "^^xsd:decimal ;
+	geo:lat	"47.1995473"^^xsd:decimal ;
 	geo:long	"-1.5018762"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -6255,7 +6255,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44230"^^xsd:integer .
 
-<http://projet.com/10/PREMIERE_CLASSE_-_SAINT_SEBASTIEN_SUR_LOIRE>	 foaf:name 	 "PREMIERE CLASSE - SAINT SEBASTIEN SUR LOIRE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/PREMIERE_CLASSE_-_SAINT_SEBASTIEN_SUR_LOIRE>	 foaf:name 	 "PREMIERE CLASSE - SAINT SEBASTIEN SUR LOIRE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -6281,7 +6281,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-SEBASTIEN-SUR-LOIRE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.1995473 "^^xsd:decimal ;
+	geo:lat	"47.1995473"^^xsd:decimal ;
 	geo:long	"-1.5018762"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -6307,7 +6307,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44230"^^xsd:integer .
 
-<http://projet.com/10/LE_RELAIS_DE_NANTES_-_PREMIER_PRIX_HOTEL>	 foaf:name 	 "LE RELAIS DE NANTES - PREMIER PRIX HOTEL"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LE_RELAIS_DE_NANTES_-_PREMIER_PRIX_HOTEL>	 foaf:name 	 "LE RELAIS DE NANTES - PREMIER PRIX HOTEL"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -6333,7 +6333,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINTE-LUCE-SUR-LOIRE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2487446 "^^xsd:decimal ;
+	geo:lat	"47.2487446"^^xsd:decimal ;
 	geo:long	"-1.4731207"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -6359,7 +6359,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44980"^^xsd:integer .
 
-<http://projet.com/10/PREMIERE_CLASSE_-_SAINTE_LUCE_SUR_LOIRE>	 foaf:name 	 "PREMIERE CLASSE - SAINTE LUCE SUR LOIRE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/PREMIERE_CLASSE_-_SAINTE_LUCE_SUR_LOIRE>	 foaf:name 	 "PREMIERE CLASSE - SAINTE LUCE SUR LOIRE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -6385,7 +6385,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINTE-LUCE-SUR-LOIRE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2642498 "^^xsd:decimal ;
+	geo:lat	"47.2642498"^^xsd:decimal ;
 	geo:long	"-1.4870483"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -6411,7 +6411,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44980"^^xsd:integer .
 
-<http://projet.com/10/APARTE_(L')>	 foaf:name 	 "APARTE (L')"^^xsd:string ;
+<http://lodpaddle.com/Hotel/APARTE_(L')>	 foaf:name 	 "APARTE (L')"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -6437,7 +6437,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINTE-LUCE-SUR-LOIRE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2537069 "^^xsd:decimal ;
+	geo:lat	"47.2537069"^^xsd:decimal ;
 	geo:long	"-1.4760423"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -6463,7 +6463,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44980"^^xsd:integer .
 
-<http://projet.com/10/ETAP_HOTEL_-_SAINTE_LUCE_SUR_LOIRE>	 foaf:name 	 "ETAP HOTEL - SAINTE LUCE SUR LOIRE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/ETAP_HOTEL_-_SAINTE_LUCE_SUR_LOIRE>	 foaf:name 	 "ETAP HOTEL - SAINTE LUCE SUR LOIRE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -6489,7 +6489,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINTE-LUCE-SUR-LOIRE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2632155 "^^xsd:decimal ;
+	geo:lat	"47.2632155"^^xsd:decimal ;
 	geo:long	"-1.4859532"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -6515,7 +6515,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44980"^^xsd:integer .
 
-<http://projet.com/10/HOTEL_PREMIERE_CLASSE>	 foaf:name 	 "HOTEL PREMIERE CLASSE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/HOTEL_PREMIERE_CLASSE>	 foaf:name 	 "HOTEL PREMIERE CLASSE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -6541,7 +6541,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "TRIGNAC"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.3152507 "^^xsd:decimal ;
+	geo:lat	"47.3152507"^^xsd:decimal ;
 	geo:long	"-2.2049379"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -6567,7 +6567,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44570"^^xsd:integer .
 
-<http://projet.com/10/HOTEL_F1>	 foaf:name 	 "HOTEL F1"^^xsd:string ;
+<http://lodpaddle.com/Hotel/HOTEL_F1>	 foaf:name 	 "HOTEL F1"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -6593,7 +6593,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "TRIGNAC"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.3152507 "^^xsd:decimal ;
+	geo:lat	"47.3152507"^^xsd:decimal ;
 	geo:long	"-2.2049379"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -6619,7 +6619,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44570"^^xsd:integer .
 
-<http://projet.com/10/IBIS_>	 foaf:name 	 "IBIS "^^xsd:string ;
+<http://lodpaddle.com/Hotel/IBIS_>	 foaf:name 	 "IBIS "^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -6645,7 +6645,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "TRIGNAC"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.3001245 "^^xsd:decimal ;
+	geo:lat	"47.3001245"^^xsd:decimal ;
 	geo:long	"-2.2087425"^^xsd:decimal  ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
 	dbpedia-owl:language	 "anglais"^^xsd:string ;
@@ -6671,7 +6671,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44570"^^xsd:integer .
 
-<http://projet.com/10/HOTEL_B&B>	 foaf:name 	 "HOTEL B&B"^^xsd:string ;
+<http://lodpaddle.com/Hotel/HOTEL_B&B>	 foaf:name 	 "HOTEL B&B"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -6697,7 +6697,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "TRIGNAC"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2940555 "^^xsd:decimal ;
+	geo:lat	"47.2940555"^^xsd:decimal ;
 	geo:long	"-2.2099579"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "anglais"^^xsd:string ;
@@ -6723,7 +6723,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44570"^^xsd:integer .
 
-<http://projet.com/10/CLAIR_DE_LIE>	 foaf:name 	 "CLAIR DE LIE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/CLAIR_DE_LIE>	 foaf:name 	 "CLAIR DE LIE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "oui"^^xsd:string ;
 	sc:openingHours	 "Ouvert toute l'année"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -6749,7 +6749,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "VALLET"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.161737 "^^xsd:decimal ;
+	geo:lat	"47.161737"^^xsd:decimal ;
 	geo:long	"-1.27465"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -6775,7 +6775,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44330"^^xsd:integer .
 
-<http://projet.com/10/LE_DON_QUICHOTTE>	 foaf:name 	 "LE DON QUICHOTTE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LE_DON_QUICHOTTE>	 foaf:name 	 "LE DON QUICHOTTE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -6801,7 +6801,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "VALLET"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.158622 "^^xsd:decimal ;
+	geo:lat	"47.158622"^^xsd:decimal ;
 	geo:long	"-1.271169"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -6827,7 +6827,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44330"^^xsd:integer .
 
-<http://projet.com/10/LA_HAUTE_FORET>	 foaf:name 	 "LA HAUTE FORET"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LA_HAUTE_FORET>	 foaf:name 	 "LA HAUTE FORET"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert toute l'année"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -6853,7 +6853,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "VERTOU"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.1692295 "^^xsd:decimal ;
+	geo:lat	"47.1692295"^^xsd:decimal ;
 	geo:long	"-1.4661752"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -6879,7 +6879,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44120"^^xsd:integer .
 
-<http://projet.com/10/LE_LAURIER_FLEURI>	 foaf:name 	 "LE LAURIER FLEURI"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LE_LAURIER_FLEURI>	 foaf:name 	 "LE LAURIER FLEURI"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert toute l'année"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -6905,7 +6905,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "VERTOU"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.1561441 "^^xsd:decimal ;
+	geo:lat	"47.1561441"^^xsd:decimal ;
 	geo:long	"-1.4631465"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -6931,7 +6931,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44120"^^xsd:integer .
 
-<http://projet.com/10/LE_BEAUTOUR>	 foaf:name 	 "LE BEAUTOUR"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LE_BEAUTOUR>	 foaf:name 	 "LE BEAUTOUR"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert toute l'année"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -6957,7 +6957,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "VERTOU"^^xsd:string ;
 	dbpedia-owl:language	 "italien"^^xsd:string ;
-	geo:lat	"47.1813106 "^^xsd:decimal ;
+	geo:lat	"47.1813106"^^xsd:decimal ;
 	geo:long	"-1.5121498"^^xsd:decimal  ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
 	dbpedia-owl:language	 "anglais"^^xsd:string ;
@@ -6983,7 +6983,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44120"^^xsd:integer .
 
-<http://projet.com/10/HOTEL_TEST>	 foaf:name 	 "HOTEL TEST"^^xsd:string ;
+<http://lodpaddle.com/Hotel/HOTEL_TEST>	 foaf:name 	 "HOTEL TEST"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "oui"^^xsd:string ;
 	sc:openingHours	 "Ouvert toute l'année"^^xsd:string ;
 	pdll:hasSpa	 "oui"^^xsd:string ;
@@ -7009,7 +7009,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "Gault Millau"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2336281 "^^xsd:decimal ;
+	geo:lat	"47.2336281"^^xsd:decimal ;
 	geo:long	"-1.5088934"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "français"^^xsd:string ;
@@ -7035,7 +7035,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44300"^^xsd:integer .
 
-<http://projet.com/10/ALL_SEASONS_NANTES_SUD_REZE>	 foaf:name 	 "ALL SEASONS NANTES SUD REZE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/ALL_SEASONS_NANTES_SUD_REZE>	 foaf:name 	 "ALL SEASONS NANTES SUD REZE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -7061,7 +7061,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "REZE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.1950861 "^^xsd:decimal ;
+	geo:lat	"47.1950861"^^xsd:decimal ;
 	geo:long	"-1.555738"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -7087,7 +7087,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44400"^^xsd:integer .
 
-<http://projet.com/10/BALLADINS>	 foaf:name 	 "BALLADINS"^^xsd:string ;
+<http://lodpaddle.com/Hotel/BALLADINS>	 foaf:name 	 "BALLADINS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -7113,7 +7113,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "CARQUEFOU"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.29624099 "^^xsd:decimal ;
+	geo:lat	"47.29624099"^^xsd:decimal ;
 	geo:long	"-1.486812"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -7139,7 +7139,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44470"^^xsd:integer .
 
-<http://projet.com/10/BEST_HOTEL_NANTES_CENTRE>	 foaf:name 	 "BEST HOTEL NANTES CENTRE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/BEST_HOTEL_NANTES_CENTRE>	 foaf:name 	 "BEST HOTEL NANTES CENTRE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -7165,7 +7165,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2185047 "^^xsd:decimal ;
+	geo:lat	"47.2185047"^^xsd:decimal ;
 	geo:long	"-1.5446583"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -7191,7 +7191,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/BEST_WESTERN_GARDEN_AND_SPA>	 foaf:name 	 "BEST WESTERN GARDEN AND SPA"^^xsd:string ;
+<http://lodpaddle.com/Hotel/BEST_WESTERN_GARDEN_AND_SPA>	 foaf:name 	 "BEST WESTERN GARDEN AND SPA"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert du 01/01/2012 au 31/12/2012"^^xsd:string ;
 	pdll:hasSpa	 "oui"^^xsd:string ;
@@ -7217,7 +7217,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "Best Western"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2875887 "^^xsd:decimal ;
+	geo:lat	"47.2875887"^^xsd:decimal ;
 	geo:long	"-2.3820787"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -7243,7 +7243,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer .
 
-<http://projet.com/10/BEST_WESTERN_PLUS_LE_COLISEE>	 foaf:name 	 "BEST WESTERN PLUS LE COLISEE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/BEST_WESTERN_PLUS_LE_COLISEE>	 foaf:name 	 "BEST WESTERN PLUS LE COLISEE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "oui"^^xsd:string ;
@@ -7269,7 +7269,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "Best Western"^^xsd:string ;
 	dbpprop:town	 "SAINT-HERBLAIN"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2340723 "^^xsd:decimal ;
+	geo:lat	"47.2340723"^^xsd:decimal ;
 	geo:long	"-1.6536949"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -7295,7 +7295,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44800"^^xsd:integer .
 
-<http://projet.com/10/BRIT_HOTEL_BELFORT>	 foaf:name 	 "BRIT HOTEL BELFORT"^^xsd:string ;
+<http://lodpaddle.com/Hotel/BRIT_HOTEL_BELFORT>	 foaf:name 	 "BRIT HOTEL BELFORT"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -7321,7 +7321,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2110314 "^^xsd:decimal ;
+	geo:lat	"47.2110314"^^xsd:decimal ;
 	geo:long	"-1.5445521"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -7347,7 +7347,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/CAMBRONNE_(LE)>	 foaf:name 	 "CAMBRONNE (LE)"^^xsd:string ;
+<http://lodpaddle.com/Hotel/CAMBRONNE_(LE)>	 foaf:name 	 "CAMBRONNE (LE)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -7373,7 +7373,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2118906 "^^xsd:decimal ;
+	geo:lat	"47.2118906"^^xsd:decimal ;
 	geo:long	"-1.5617128"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -7399,7 +7399,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer .
 
-<http://projet.com/10/CAMPANILE_NANTES_CENTRE_SAINT_JACQUES>	 foaf:name 	 "CAMPANILE NANTES CENTRE SAINT JACQUES"^^xsd:string ;
+<http://lodpaddle.com/Hotel/CAMPANILE_NANTES_CENTRE_SAINT_JACQUES>	 foaf:name 	 "CAMPANILE NANTES CENTRE SAINT JACQUES"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -7425,7 +7425,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "Campanile"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.1963276 "^^xsd:decimal ;
+	geo:lat	"47.1963276"^^xsd:decimal ;
 	geo:long	"-1.5307012"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
@@ -7451,7 +7451,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44200"^^xsd:integer .
 
-<http://projet.com/10/ESCALE_OCEANIA>	 foaf:name 	 "ESCALE OCEANIA"^^xsd:string ;
+<http://lodpaddle.com/Hotel/ESCALE_OCEANIA2> foaf:name  "ESCALE OCEANIA"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert toute l'année 24/24"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -7477,7 +7477,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "PORNICHET"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.261195 "^^xsd:decimal ;
+	geo:lat	"47.261195"^^xsd:decimal ;
 	geo:long	"-2.340755"^^xsd:decimal  ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
 	dbpedia-owl:language	 "anglais"^^xsd:string ;
@@ -7503,7 +7503,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44380"^^xsd:integer .
 
-<http://projet.com/10/HOTEL_ECO_NUIT>	 foaf:name 	 "HOTEL ECO NUIT"^^xsd:string ;
+<http://lodpaddle.com/Hotel/HOTEL_ECO_NUIT>	 foaf:name 	 "HOTEL ECO NUIT"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "Ouvert toute l'année"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -7529,7 +7529,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "GUERANDE"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.328003 "^^xsd:decimal ;
+	geo:lat	"47.328003"^^xsd:decimal ;
 	geo:long	"-2.4297589"^^xsd:decimal  ;
 	dbpedia-owl:language	 "espagnol"^^xsd:string ;
 	dbpedia-owl:language	 "anglais"^^xsd:string ;
@@ -7555,7 +7555,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44350"^^xsd:integer .
 
-<http://projet.com/10/LE_CHEVAL_BLANC>	 foaf:name 	 "LE CHEVAL BLANC"^^xsd:string ;
+<http://lodpaddle.com/Hotel/LE_CHEVAL_BLANC>	 foaf:name 	 "LE CHEVAL BLANC"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -7581,7 +7581,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LE LOROUX-BOTTEREAU"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.237914 "^^xsd:decimal ;
+	geo:lat	"47.237914"^^xsd:decimal ;
 	geo:long	"-1.34842"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -7607,7 +7607,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44430"^^xsd:integer .
 
-<http://projet.com/10/NOVELLA_NANTES_CARQUEFOU>	 foaf:name 	 "NOVELLA NANTES CARQUEFOU"^^xsd:string ;
+<http://lodpaddle.com/Hotel/NOVELLA_NANTES_CARQUEFOU>	 foaf:name 	 "NOVELLA NANTES CARQUEFOU"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -7633,7 +7633,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "CARQUEFOU"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.29624099 "^^xsd:decimal ;
+	geo:lat	"47.29624099"^^xsd:decimal ;
 	geo:long	"-1.486812"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "italien"^^xsd:string ;
@@ -7659,7 +7659,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44470"^^xsd:integer .
 
-<http://projet.com/10/QUICK_PALACE>	 foaf:name 	 "QUICK PALACE"^^xsd:string ;
+<http://lodpaddle.com/Hotel/QUICK_PALACE>	 foaf:name 	 "QUICK PALACE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -7685,7 +7685,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2523014 "^^xsd:decimal ;
+	geo:lat	"47.2523014"^^xsd:decimal ;
 	geo:long	"-1.512673"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
@@ -7711,7 +7711,7 @@
 	dbpprop:seatingCapacity	 "NaN"^^xsd:integer ;
 	dbpedia-owl:postalCode	 "44300"^^xsd:integer .
 
-<http://projet.com/10/SOZO_HOTEL>	 foaf:name 	 "SOZO HOTEL"^^xsd:string ;
+<http://lodpaddle.com/Hotel/SOZO_HOTEL>	 foaf:name 	 "SOZO HOTEL"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	pdll:hasSpa	 "undefined"^^xsd:string ;
@@ -7737,7 +7737,7 @@
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
-	geo:lat	"47.2185047 "^^xsd:decimal ;
+	geo:lat	"47.2185047"^^xsd:decimal ;
 	geo:long	"-1.5446583"^^xsd:decimal  ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;
 	dbpedia-owl:language	 "undefined"^^xsd:string ;

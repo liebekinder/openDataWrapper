@@ -14,137 +14,7 @@
     xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" > 
-  <rdf:Description rdf:about="http://projet.com/10/Loire_Atlantique_Espoirs_-_Challenge_National__La_France_Cycliste_Espoirs">
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
-    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyclisme</dbpedia-owl:sport>
-    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire-Atlantique</dbpedia-owl:department>
-    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11/05/2013</sc:startDate>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pontchâteau</dbpprop:town>
-    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12/05/2013</sc:endDate>
-    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44129</dbpprop:insee>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire Atlantique Espoirs - Challenge National  La France Cycliste Espoirs</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Championnat_de_France_Elite_de_Rugby_Fauteuil">
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
-    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multi-disciplines Handisport</dbpedia-owl:sport>
-    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire-Atlantique</dbpedia-owl:department>
-    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12/01/2013</sc:startDate>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carquefou</dbpprop:town>
-    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13/01/2013</sc:endDate>
-    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44026</dbpprop:insee>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Championnat de France Elite de Rugby Fauteuil</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Coupe_du_Monde_de_baby-foot">
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
-    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Football de Table</dbpedia-owl:sport>
-    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire-Atlantique</dbpedia-owl:department>
-    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03/01/2013</sc:startDate>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes</dbpprop:town>
-    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">06/01/2013</sc:endDate>
-    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coupe du Monde de baby-foot</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Gladiator_Contest_2013">
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manifestation sportive de loisir pour tous</TEMPORAIRE:TypeProblem>
-    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multi-disciplines UFOLEP</dbpedia-owl:sport>
-    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire-Atlantique</dbpedia-owl:department>
-    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23/03/2013</sc:startDate>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes</dbpprop:town>
-    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24/03/2013</sc:endDate>
-    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gladiator Contest 2013</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Critérium_Fédéral_National_1_Messieurs_Tour_3">
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
-    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tennis de Table</dbpedia-owl:sport>
-    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire-Atlantique</dbpedia-owl:department>
-    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11/01/2013</sc:startDate>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Julien-de-Concelles</dbpprop:town>
-    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13/01/2013</sc:endDate>
-    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44169</dbpprop:insee>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Critérium Fédéral National 1 Messieurs Tour 3</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Concours_de_Voltige_International***_et_**">
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
-    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Equitation</dbpedia-owl:sport>
-    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maine et Loire</dbpedia-owl:department>
-    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">05/04/2013</sc:startDate>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saumur</dbpprop:town>
-    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">07/04/2013</sc:endDate>
-    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49328</dbpprop:insee>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concours de Voltige International*** et **</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Tennis_European_Winter_Cup_2013">
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
-    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tennis</dbpedia-owl:sport>
-    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maine et Loire</dbpedia-owl:department>
-    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01/02/2013</sc:startDate>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cholet</dbpprop:town>
-    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03/02/2013</sc:endDate>
-    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49099</dbpprop:insee>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tennis European Winter Cup 2013</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Handi_Pro-Am__Golf_2013">
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manifestation non qualificative</TEMPORAIRE:TypeProblem>
-    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Golf</dbpedia-owl:sport>
-    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire-Atlantique</dbpedia-owl:department>
-    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18/05/2013</sc:startDate>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes</dbpprop:town>
-    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20/05/2013</sc:endDate>
-    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Handi Pro-Am  Golf 2013</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Championnat_Régional_Jeunes_de_Cross_Country">
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manifestation non qualificative</TEMPORAIRE:TypeProblem>
-    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpedia-owl:sport>
-    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayenne</dbpedia-owl:department>
-    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10/02/2013</sc:startDate>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pré-en-Pail</dbpprop:town>
-    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10/02/2013</sc:endDate>
-    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53185</dbpprop:insee>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Championnat Régional Jeunes de Cross Country</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/25éme_National_Pétanque_de_Cholet">
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
-    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pétanque</dbpedia-owl:sport>
-    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maine et Loire</dbpedia-owl:department>
-    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14/02/2013</sc:startDate>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cholet</dbpprop:town>
-    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17/02/2013</sc:endDate>
-    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49099</dbpprop:insee>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25éme National Pétanque de Cholet</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Pornichet_Select_6_50">
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
-    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Voile</dbpedia-owl:sport>
-    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire-Atlantique</dbpedia-owl:department>
-    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17/04/2013</sc:startDate>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pornichet</dbpprop:town>
-    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24/04/2013</sc:endDate>
-    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44132</dbpprop:insee>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pornichet Select 6.50</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Congrès_National_de_la__Colombophilie">
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manifestation non qualificative</TEMPORAIRE:TypeProblem>
-    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multi-disciplines Sport en milieu rural</dbpedia-owl:sport>
-    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire-Atlantique</dbpedia-owl:department>
-    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22/02/2013</sc:startDate>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carquefou</dbpprop:town>
-    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24/02/2013</sc:endDate>
-    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44026</dbpprop:insee>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Congrès National de la  Colombophilie</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Open_Espace_Anjou_-_Tournoi_International_de_Tennis">
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
-    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tennis</dbpedia-owl:sport>
-    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maine et Loire</dbpedia-owl:department>
-    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">06/04/2013</sc:startDate>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angers</dbpprop:town>
-    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14/04/2013</sc:endDate>
-    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49007</dbpprop:insee>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Open Espace Anjou - Tournoi International de Tennis</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Course_cycliste_-_Circuit_des_Plages_Vendéennes">
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Course_cycliste_-_Circuit_des_Plages_Vendéennes">
     <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manifestation non qualificative</TEMPORAIRE:TypeProblem>
     <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyclisme</dbpedia-owl:sport>
     <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vendée</dbpedia-owl:department>
@@ -154,17 +24,17 @@
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41314</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Course cycliste - Circuit des Plages Vendéennes</foaf:name>
   </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Grand_Prix_de_la_Ville_de_Coulaines">
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Loire_Atlantique_Espoirs_-_Challenge_National__La_France_Cycliste_Espoirs">
     <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
-    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tennis</dbpedia-owl:sport>
-    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarthe</dbpedia-owl:department>
-    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21/01/2013</sc:startDate>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coulaines</dbpprop:town>
-    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10/02/2013</sc:endDate>
-    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72095</dbpprop:insee>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grand Prix de la Ville de Coulaines</foaf:name>
+    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyclisme</dbpedia-owl:sport>
+    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire-Atlantique</dbpedia-owl:department>
+    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11/05/2013</sc:startDate>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pontchâteau</dbpprop:town>
+    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12/05/2013</sc:endDate>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44129</dbpprop:insee>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire Atlantique Espoirs - Challenge National  La France Cycliste Espoirs</foaf:name>
   </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Tournoi_Tennis_Open_de_Mayenne">
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Tournoi_Tennis_Open_de_Mayenne">
     <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
     <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tennis</dbpedia-owl:sport>
     <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayenne</dbpedia-owl:department>
@@ -174,27 +44,47 @@
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53147</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tournoi Tennis Open de Mayenne</foaf:name>
   </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/5e_édition_du_tournoi_mondial_par_année_d&apos;âges_9/16_ans_OUATT_La_Baule_2013">
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Concours_de_Voltige_International***_et_**">
     <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
-    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tennis</dbpedia-owl:sport>
+    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Equitation</dbpedia-owl:sport>
+    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maine et Loire</dbpedia-owl:department>
+    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">05/04/2013</sc:startDate>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saumur</dbpprop:town>
+    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">07/04/2013</sc:endDate>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49328</dbpprop:insee>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concours de Voltige International*** et **</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Congrès_National_de_la__Colombophilie">
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manifestation non qualificative</TEMPORAIRE:TypeProblem>
+    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multi-disciplines Sport en milieu rural</dbpedia-owl:sport>
     <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire-Atlantique</dbpedia-owl:department>
-    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24/06/2013</sc:startDate>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baule-Escoublac</dbpprop:town>
-    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29/06/2013</sc:endDate>
-    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44055</dbpprop:insee>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5e édition du tournoi mondial par année d'âges 9/16 ans OUATT La Baule 2013</foaf:name>
+    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22/02/2013</sc:startDate>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carquefou</dbpprop:town>
+    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24/02/2013</sc:endDate>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44026</dbpprop:insee>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Congrès National de la  Colombophilie</foaf:name>
   </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Grand_Prix_Char_à_voile_Classe_Promo">
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Pornichet_Select_6_50">
     <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
-    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpedia-owl:sport>
-    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vendée</dbpedia-owl:department>
-    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02/03/2013</sc:startDate>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Notre-Dame-de-Monts</dbpprop:town>
-    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03/03/2013</sc:endDate>
-    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85164</dbpprop:insee>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grand Prix Char à voile Classe Promo</foaf:name>
+    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Voile</dbpedia-owl:sport>
+    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire-Atlantique</dbpedia-owl:department>
+    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17/04/2013</sc:startDate>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pornichet</dbpprop:town>
+    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24/04/2013</sc:endDate>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44132</dbpprop:insee>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pornichet Select 6.50</foaf:name>
   </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/La_Bicentenaire_2013">
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Critérium_Fédéral_National_1_Messieurs_Tour_3">
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
+    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tennis de Table</dbpedia-owl:sport>
+    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire-Atlantique</dbpedia-owl:department>
+    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11/01/2013</sc:startDate>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Julien-de-Concelles</dbpprop:town>
+    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13/01/2013</sc:endDate>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44169</dbpprop:insee>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Critérium Fédéral National 1 Messieurs Tour 3</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/La_Bicentenaire_2013">
     <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manifestation sportive de loisir pour tous</TEMPORAIRE:TypeProblem>
     <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpedia-owl:sport>
     <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vendée</dbpedia-owl:department>
@@ -204,77 +94,17 @@
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85191</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Bicentenaire 2013</foaf:name>
   </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Circuit_Cycliste_Sarthe_Pays_de_la_Loire">
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Grand_Prix_Char_à_voile_Classe_Promo">
     <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
-    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyclisme</dbpedia-owl:sport>
+    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpedia-owl:sport>
     <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vendée</dbpedia-owl:department>
-    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02/04/2013</sc:startDate>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fontenay-le-Comte</dbpprop:town>
-    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">05/04/2013</sc:endDate>
-    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85092</dbpprop:insee>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circuit Cycliste Sarthe Pays de la Loire</foaf:name>
+    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02/03/2013</sc:startDate>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Notre-Dame-de-Monts</dbpprop:town>
+    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03/03/2013</sc:endDate>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85164</dbpprop:insee>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grand Prix Char à voile Classe Promo</foaf:name>
   </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Trophée_Neurocéan_Pays_de_la_Loire">
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manifestation sportive de loisir pour tous</TEMPORAIRE:TypeProblem>
-    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Golf</dbpedia-owl:sport>
-    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maine et Loire</dbpedia-owl:department>
-    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30/03/2013</sc:startDate>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avrillé</dbpprop:town>
-    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">06/10/2013</sc:endDate>
-    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49015</dbpprop:insee>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trophée Neurocéan Pays de la Loire</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Tournoi_International_de_Judo_de_la_Ville_de_Laval">
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
-    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Judo</dbpedia-owl:sport>
-    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayenne</dbpedia-owl:department>
-    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16/02/2013</sc:startDate>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laval</dbpprop:town>
-    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17/02/2013</sc:endDate>
-    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53130</dbpprop:insee>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tournoi International de Judo de la Ville de Laval</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Comité_Organisation_Classic_Loire_Atlantique">
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
-    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyclisme</dbpedia-owl:sport>
-    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire-Atlantique</dbpedia-owl:department>
-    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16/03/2013</sc:startDate>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haie-Fouassière</dbpprop:town>
-    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16/03/2013</sc:endDate>
-    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44070</dbpprop:insee>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comité Organisation Classic Loire Atlantique</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Open_de_Judo_de_Vendée_">
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manifestation non qualificative</TEMPORAIRE:TypeProblem>
-    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Judo</dbpedia-owl:sport>
-    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vendée</dbpedia-owl:department>
-    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20/04/2013</sc:startDate>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mouilleron-le-Captif</dbpprop:town>
-    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20/04/2013</sc:endDate>
-    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85155</dbpprop:insee>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Open de Judo de Vendée </foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Tournoi_International_Foot_Rezé">
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manifestation non qualificative</TEMPORAIRE:TypeProblem>
-    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Football</dbpedia-owl:sport>
-    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire-Atlantique</dbpedia-owl:department>
-    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29/03/2013</sc:startDate>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rezé</dbpprop:town>
-    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31/03/2013</sc:endDate>
-    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44143</dbpprop:insee>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tournoi International Foot Rezé</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Course_Cycliste_Cholet_Pays_de_Loire">
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manifestation non qualificative</TEMPORAIRE:TypeProblem>
-    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyclisme</dbpedia-owl:sport>
-    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maine et Loire</dbpedia-owl:department>
-    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16/03/2013</sc:startDate>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cholet</dbpprop:town>
-    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17/03/2013</sc:endDate>
-    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49099</dbpprop:insee>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Course Cycliste Cholet Pays de Loire</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Golden_League_Féminine">
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Golden_League_Féminine">
     <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manifestation non qualificative</TEMPORAIRE:TypeProblem>
     <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Handball</dbpedia-owl:sport>
     <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire-Atlantique</dbpedia-owl:department>
@@ -284,27 +114,17 @@
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Golden League Féminine</foaf:name>
   </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Championnats_Régionaux_de_Cross_Country_2013">
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/5e_édition_du_tournoi_mondial_par_année_d&apos;âges_9/16_ans_OUATT_La_Baule_2013">
     <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
-    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Athlétisme</dbpedia-owl:sport>
-    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarthe</dbpedia-owl:department>
-    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27/01/2013</sc:startDate>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mans</dbpprop:town>
-    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27/01/2013</sc:endDate>
-    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72181</dbpprop:insee>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Championnats Régionaux de Cross Country 2013</foaf:name>
+    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tennis</dbpedia-owl:sport>
+    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire-Atlantique</dbpedia-owl:department>
+    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24/06/2013</sc:startDate>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baule-Escoublac</dbpprop:town>
+    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29/06/2013</sc:endDate>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44055</dbpprop:insee>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5e édition du tournoi mondial par année d'âges 9/16 ans OUATT La Baule 2013</foaf:name>
   </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Cross_Ouest-France_Pays_de_La_Loire">
-    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manifestation sportive de loisir pour tous</TEMPORAIRE:TypeProblem>
-    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Athlétisme</dbpedia-owl:sport>
-    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarthe</dbpedia-owl:department>
-    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12/01/2013</sc:startDate>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mans</dbpprop:town>
-    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13/01/2013</sc:endDate>
-    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72181</dbpprop:insee>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cross Ouest-France Pays de La Loire</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Tournoi_International_basket_U16_garçons">
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Tournoi_International_basket_U16_garçons">
     <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manifestation non qualificative</TEMPORAIRE:TypeProblem>
     <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basket ball</dbpedia-owl:sport>
     <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vendée</dbpedia-owl:department>
@@ -314,7 +134,37 @@
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85191</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tournoi International basket U16 garçons</foaf:name>
   </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Coupe_de_l&apos;Université_de_Nantes_2013_-_2013_Nantes_University_Sailing_Cup">
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Gladiator_Contest_2013">
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manifestation sportive de loisir pour tous</TEMPORAIRE:TypeProblem>
+    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multi-disciplines UFOLEP</dbpedia-owl:sport>
+    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire-Atlantique</dbpedia-owl:department>
+    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23/03/2013</sc:startDate>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes</dbpprop:town>
+    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24/03/2013</sc:endDate>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gladiator Contest 2013</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Handi_Pro-Am__Golf_2013">
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manifestation non qualificative</TEMPORAIRE:TypeProblem>
+    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Golf</dbpedia-owl:sport>
+    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire-Atlantique</dbpedia-owl:department>
+    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18/05/2013</sc:startDate>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes</dbpprop:town>
+    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20/05/2013</sc:endDate>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Handi Pro-Am  Golf 2013</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Open_de_Judo_de_Vendée_">
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manifestation non qualificative</TEMPORAIRE:TypeProblem>
+    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Judo</dbpedia-owl:sport>
+    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vendée</dbpedia-owl:department>
+    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20/04/2013</sc:startDate>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mouilleron-le-Captif</dbpprop:town>
+    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20/04/2013</sc:endDate>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85155</dbpprop:insee>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Open de Judo de Vendée </foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Coupe_de_l&apos;Université_de_Nantes_2013_-_2013_Nantes_University_Sailing_Cup">
     <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
     <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multi-disciplines Sport Universitaire</dbpedia-owl:sport>
     <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire-Atlantique</dbpedia-owl:department>
@@ -324,7 +174,77 @@
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44026</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coupe de l'Université de Nantes 2013 - 2013 Nantes University Sailing Cup</foaf:name>
   </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Jumping_International_de_France_">
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Championnat_de_France_Elite_de_Rugby_Fauteuil">
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
+    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multi-disciplines Handisport</dbpedia-owl:sport>
+    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire-Atlantique</dbpedia-owl:department>
+    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12/01/2013</sc:startDate>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carquefou</dbpprop:town>
+    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13/01/2013</sc:endDate>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44026</dbpprop:insee>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Championnat de France Elite de Rugby Fauteuil</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Mondial_Football_Montaigu">
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manifestation non qualificative</TEMPORAIRE:TypeProblem>
+    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Football</dbpedia-owl:sport>
+    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vendée</dbpedia-owl:department>
+    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26/03/2013</sc:startDate>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montaigu</dbpprop:town>
+    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01/04/2013</sc:endDate>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85146</dbpprop:insee>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mondial Football Montaigu</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Tennis_European_Winter_Cup_2013">
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
+    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tennis</dbpedia-owl:sport>
+    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maine et Loire</dbpedia-owl:department>
+    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01/02/2013</sc:startDate>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cholet</dbpprop:town>
+    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03/02/2013</sc:endDate>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49099</dbpprop:insee>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tennis European Winter Cup 2013</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/25éme_National_Pétanque_de_Cholet">
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
+    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pétanque</dbpedia-owl:sport>
+    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maine et Loire</dbpedia-owl:department>
+    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14/02/2013</sc:startDate>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cholet</dbpprop:town>
+    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17/02/2013</sc:endDate>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49099</dbpprop:insee>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25éme National Pétanque de Cholet</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Tournoi_International_Foot_Rezé">
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manifestation non qualificative</TEMPORAIRE:TypeProblem>
+    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Football</dbpedia-owl:sport>
+    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire-Atlantique</dbpedia-owl:department>
+    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29/03/2013</sc:startDate>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rezé</dbpprop:town>
+    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31/03/2013</sc:endDate>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44143</dbpprop:insee>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tournoi International Foot Rezé</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Tournoi_International_de_Judo_de_la_Ville_de_Laval">
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
+    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Judo</dbpedia-owl:sport>
+    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayenne</dbpedia-owl:department>
+    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16/02/2013</sc:startDate>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laval</dbpprop:town>
+    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17/02/2013</sc:endDate>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53130</dbpprop:insee>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tournoi International de Judo de la Ville de Laval</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Trophée_Neurocéan_Pays_de_la_Loire">
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manifestation sportive de loisir pour tous</TEMPORAIRE:TypeProblem>
+    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Golf</dbpedia-owl:sport>
+    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maine et Loire</dbpedia-owl:department>
+    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30/03/2013</sc:startDate>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avrillé</dbpprop:town>
+    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">06/10/2013</sc:endDate>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49015</dbpprop:insee>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trophée Neurocéan Pays de la Loire</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Jumping_International_de_France_">
     <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
     <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Equitation</dbpedia-owl:sport>
     <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire-Atlantique</dbpedia-owl:department>
@@ -334,14 +254,94 @@
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44055</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jumping International de France </foaf:name>
   </rdf:Description>
-  <rdf:Description rdf:about="http://projet.com/10/Mondial_Football_Montaigu">
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Championnats_Régionaux_de_Cross_Country_2013">
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
+    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Athlétisme</dbpedia-owl:sport>
+    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarthe</dbpedia-owl:department>
+    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27/01/2013</sc:startDate>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mans</dbpprop:town>
+    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27/01/2013</sc:endDate>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72181</dbpprop:insee>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Championnats Régionaux de Cross Country 2013</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Comité_Organisation_Classic_Loire_Atlantique">
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
+    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyclisme</dbpedia-owl:sport>
+    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire-Atlantique</dbpedia-owl:department>
+    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16/03/2013</sc:startDate>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haie-Fouassière</dbpprop:town>
+    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16/03/2013</sc:endDate>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44070</dbpprop:insee>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comité Organisation Classic Loire Atlantique</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Championnat_Régional_Jeunes_de_Cross_Country">
     <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manifestation non qualificative</TEMPORAIRE:TypeProblem>
-    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Football</dbpedia-owl:sport>
+    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</dbpedia-owl:sport>
+    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayenne</dbpedia-owl:department>
+    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10/02/2013</sc:startDate>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pré-en-Pail</dbpprop:town>
+    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10/02/2013</sc:endDate>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53185</dbpprop:insee>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Championnat Régional Jeunes de Cross Country</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Open_Espace_Anjou_-_Tournoi_International_de_Tennis">
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
+    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tennis</dbpedia-owl:sport>
+    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maine et Loire</dbpedia-owl:department>
+    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">06/04/2013</sc:startDate>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angers</dbpprop:town>
+    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14/04/2013</sc:endDate>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49007</dbpprop:insee>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Open Espace Anjou - Tournoi International de Tennis</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Circuit_Cycliste_Sarthe_Pays_de_la_Loire">
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
+    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyclisme</dbpedia-owl:sport>
     <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vendée</dbpedia-owl:department>
-    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26/03/2013</sc:startDate>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montaigu</dbpprop:town>
-    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01/04/2013</sc:endDate>
-    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85146</dbpprop:insee>
-    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mondial Football Montaigu</foaf:name>
+    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02/04/2013</sc:startDate>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fontenay-le-Comte</dbpprop:town>
+    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">05/04/2013</sc:endDate>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85092</dbpprop:insee>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circuit Cycliste Sarthe Pays de la Loire</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Course_Cycliste_Cholet_Pays_de_Loire">
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manifestation non qualificative</TEMPORAIRE:TypeProblem>
+    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyclisme</dbpedia-owl:sport>
+    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maine et Loire</dbpedia-owl:department>
+    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16/03/2013</sc:startDate>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cholet</dbpprop:town>
+    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17/03/2013</sc:endDate>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49099</dbpprop:insee>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Course Cycliste Cholet Pays de Loire</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Grand_Prix_de_la_Ville_de_Coulaines">
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
+    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tennis</dbpedia-owl:sport>
+    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarthe</dbpedia-owl:department>
+    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21/01/2013</sc:startDate>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coulaines</dbpprop:town>
+    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10/02/2013</sc:endDate>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72095</dbpprop:insee>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grand Prix de la Ville de Coulaines</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Coupe_du_Monde_de_baby-foot">
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compétition fédérale qualificative</TEMPORAIRE:TypeProblem>
+    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Football de Table</dbpedia-owl:sport>
+    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loire-Atlantique</dbpedia-owl:department>
+    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03/01/2013</sc:startDate>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes</dbpprop:town>
+    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">06/01/2013</sc:endDate>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44109</dbpprop:insee>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coupe du Monde de baby-foot</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lodpaddle.com/manifestations_sportives/Cross_Ouest-France_Pays_de_La_Loire">
+    <TEMPORAIRE:TypeProblem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manifestation sportive de loisir pour tous</TEMPORAIRE:TypeProblem>
+    <dbpedia-owl:sport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Athlétisme</dbpedia-owl:sport>
+    <dbpedia-owl:department rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarthe</dbpedia-owl:department>
+    <sc:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12/01/2013</sc:startDate>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mans</dbpprop:town>
+    <sc:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13/01/2013</sc:endDate>
+    <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72181</dbpprop:insee>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cross Ouest-France Pays de La Loire</foaf:name>
   </rdf:Description>
 </rdf:RDF>

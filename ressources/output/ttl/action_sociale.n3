@@ -15,8 +15,8 @@
 @prefix sc: <http://schema.org/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
-<http://projet.com/10/Maison_de_la_Santé>	 foaf:name 	 "Maison de la Santé"^^xsd:string ;
-	geo:lat	"47.1417372637926 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Maison_de_la_Santé>	 foaf:name 	 "Maison de la Santé"^^xsd:string ;
+	geo:lat	"47.1417372637926"^^xsd:decimal ;
 	geo:long	"-1.68927762231238"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44830"^^xsd:string ;
@@ -32,8 +32,8 @@
 	TEMPORAIRE:TypeProblem	 "110303"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Association_Intermédiaire_Retz'Agir>	 foaf:name 	 "Association Intermédiaire Retz'Agir"^^xsd:string ;
-	geo:lat	"47.2018421348059 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Association_Intermédiaire_Retz'Agir>	 foaf:name 	 "Association Intermédiaire Retz'Agir"^^xsd:string ;
+	geo:lat	"47.2018421348059"^^xsd:decimal ;
 	geo:long	"-1.75436512047756"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44640"^^xsd:string ;
@@ -49,8 +49,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Beaulieu>	 foaf:name 	 "Centre Médico-Social Beaulieu"^^xsd:string ;
-	geo:lat	"47.2040074249209 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Beaulieu>	 foaf:name 	 "Centre Médico-Social Beaulieu"^^xsd:string ;
+	geo:lat	"47.2040074249209"^^xsd:decimal ;
 	geo:long	"-1.53398558591631"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -66,8 +66,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_La_Bugallière>	 foaf:name 	 "Centre Médico-Social La Bugallière"^^xsd:string ;
-	geo:lat	"47.2613350599116 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_La_Bugallière>	 foaf:name 	 "Centre Médico-Social La Bugallière"^^xsd:string ;
+	geo:lat	"47.2613350599116"^^xsd:decimal ;
 	geo:long	"-1.63253022786254"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44700"^^xsd:string ;
@@ -83,8 +83,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Plaisance>	 foaf:name 	 "Centre Médico-Social Plaisance"^^xsd:string ;
-	geo:lat	"47.2402878698735 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Plaisance>	 foaf:name 	 "Centre Médico-Social Plaisance"^^xsd:string ;
+	geo:lat	"47.2402878698735"^^xsd:decimal ;
 	geo:long	"-1.59010597275871"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44700"^^xsd:string ;
@@ -100,8 +100,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_des_Dervallières>	 foaf:name 	 "Centre Médico-Social des Dervallières"^^xsd:string ;
-	geo:lat	"47.2224057603955 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_des_Dervallières>	 foaf:name 	 "Centre Médico-Social des Dervallières"^^xsd:string ;
+	geo:lat	"47.2224057603955"^^xsd:decimal ;
 	geo:long	"-1.59553774850686"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -117,8 +117,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Foyer_Départemental_de_l'Enfance>	 foaf:name 	 "Foyer Départemental de l'Enfance"^^xsd:string ;
-	geo:lat	"47.1925444546539 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Foyer_Départemental_de_l'Enfance>	 foaf:name 	 "Foyer Départemental de l'Enfance"^^xsd:string ;
+	geo:lat	"47.1925444546539"^^xsd:decimal ;
 	geo:long	"-1.52245526461647"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44230"^^xsd:string ;
@@ -134,8 +134,8 @@
 	TEMPORAIRE:TypeProblem	 "110202"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_d'Action_Médico-Social_Précoce_Polyvalent_Saint_Sébastien>	 foaf:name 	 "Centre d'Action Médico-Social Précoce Polyvalent Saint Sébastien"^^xsd:string ;
-	geo:lat	"47.1927205420507 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_d'Action_Médico-Social_Précoce_Polyvalent_Saint_Sébastien>	 foaf:name 	 "Centre d'Action Médico-Social Précoce Polyvalent Saint Sébastien"^^xsd:string ;
+	geo:lat	"47.1927205420507"^^xsd:decimal ;
 	geo:long	"-1.52179078045622"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44230"^^xsd:string ;
@@ -151,8 +151,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Le_Triangle_Nantes>	 foaf:name 	 "Le Triangle Nantes"^^xsd:string ;
-	geo:lat	"47.2134586219705 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Le_Triangle_Nantes>	 foaf:name 	 "Le Triangle Nantes"^^xsd:string ;
+	geo:lat	"47.2134586219705"^^xsd:decimal ;
 	geo:long	"-1.55434897843378"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -168,8 +168,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_La_Fontaine>	 foaf:name 	 "Centre Médico-Social La Fontaine"^^xsd:string ;
-	geo:lat	"47.2034027994707 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_La_Fontaine>	 foaf:name 	 "Centre Médico-Social La Fontaine"^^xsd:string ;
+	geo:lat	"47.2034027994707"^^xsd:decimal ;
 	geo:long	"-1.49135060241711"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44230"^^xsd:string ;
@@ -185,8 +185,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Foyer_ADAPEI_Bouaye>	 foaf:name 	 "Foyer ADAPEI Bouaye"^^xsd:string ;
-	geo:lat	"47.1537976120241 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Foyer_ADAPEI_Bouaye>	 foaf:name 	 "Foyer ADAPEI Bouaye"^^xsd:string ;
+	geo:lat	"47.1537976120241"^^xsd:decimal ;
 	geo:long	"-1.68375125020565"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44830"^^xsd:string ;
@@ -202,8 +202,8 @@
 	TEMPORAIRE:TypeProblem	 "110102"^^xsd:string ;
 	pdll:Category	 "1101"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Baptiste_Marcet>	 foaf:name 	 "Centre Médico-Social Baptiste Marcet"^^xsd:string ;
-	geo:lat	"47.1810928463997 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Baptiste_Marcet>	 foaf:name 	 "Centre Médico-Social Baptiste Marcet"^^xsd:string ;
+	geo:lat	"47.1810928463997"^^xsd:decimal ;
 	geo:long	"-1.58847348095717"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44340"^^xsd:string ;
@@ -219,8 +219,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Economie_Sociale_et_Familiale_Baptiste_Marcet>	 foaf:name 	 "Economie Sociale et Familiale Baptiste Marcet"^^xsd:string ;
-	geo:lat	"47.1812060613783 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Economie_Sociale_et_Familiale_Baptiste_Marcet>	 foaf:name 	 "Economie Sociale et Familiale Baptiste Marcet"^^xsd:string ;
+	geo:lat	"47.1812060613783"^^xsd:decimal ;
 	geo:long	"-1.5882013125508"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44340"^^xsd:string ;
@@ -236,8 +236,8 @@
 	TEMPORAIRE:TypeProblem	 "110204"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Chantenay>	 foaf:name 	 "Centre Médico-Social Chantenay"^^xsd:string ;
-	geo:lat	"47.2067586762896 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Chantenay>	 foaf:name 	 "Centre Médico-Social Chantenay"^^xsd:string ;
+	geo:lat	"47.2067586762896"^^xsd:decimal ;
 	geo:long	"-1.58835780347874"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -253,8 +253,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Foyer_Thérapeutique_de_la_Chicotière>	 foaf:name 	 "Foyer Thérapeutique de la Chicotière"^^xsd:string ;
-	geo:lat	"47.2294545765428 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Foyer_Thérapeutique_de_la_Chicotière>	 foaf:name 	 "Foyer Thérapeutique de la Chicotière"^^xsd:string ;
+	geo:lat	"47.2294545765428"^^xsd:decimal ;
 	geo:long	"-1.60532794255062"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -270,8 +270,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Polyclinique_de_l'Atlantique>	 foaf:name 	 "Polyclinique de l'Atlantique"^^xsd:string ;
-	geo:lat	"47.2268963032112 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Polyclinique_de_l'Atlantique>	 foaf:name 	 "Polyclinique de l'Atlantique"^^xsd:string ;
+	geo:lat	"47.2268963032112"^^xsd:decimal ;
 	geo:long	"-1.6105481956649"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -287,8 +287,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Hôpital_Nord_Laënnec>	 foaf:name 	 "Hôpital Nord Laënnec"^^xsd:string ;
-	geo:lat	"47.235599565781 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Hôpital_Nord_Laënnec>	 foaf:name 	 "Hôpital Nord Laënnec"^^xsd:string ;
+	geo:lat	"47.235599565781"^^xsd:decimal ;
 	geo:long	"-1.63927065364859"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -304,8 +304,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Régional_de_Lutte_Contre_le_Cancer_René_Gauducheau_Hôpital_Nord>	 foaf:name 	 "Centre Régional de Lutte Contre le Cancer René Gauducheau Hôpital Nord"^^xsd:string ;
-	geo:lat	"47.2353748934434 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Régional_de_Lutte_Contre_le_Cancer_René_Gauducheau_Hôpital_Nord>	 foaf:name 	 "Centre Régional de Lutte Contre le Cancer René Gauducheau Hôpital Nord"^^xsd:string ;
+	geo:lat	"47.2353748934434"^^xsd:decimal ;
 	geo:long	"-1.63894767376392"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -321,8 +321,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Entreprise_d'Insertion_Rebatir>	 foaf:name 	 "Entreprise d'Insertion Rebatir"^^xsd:string ;
-	geo:lat	"47.2630643358632 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Entreprise_d'Insertion_Rebatir>	 foaf:name 	 "Entreprise d'Insertion Rebatir"^^xsd:string ;
+	geo:lat	"47.2630643358632"^^xsd:decimal ;
 	geo:long	"-1.4912133257182"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44980"^^xsd:string ;
@@ -338,8 +338,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Sainte_Luce-sur-Loire>	 foaf:name 	 "Centre Médico-Social Sainte Luce-sur-Loire"^^xsd:string ;
-	geo:lat	"47.2507695248725 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Sainte_Luce-sur-Loire>	 foaf:name 	 "Centre Médico-Social Sainte Luce-sur-Loire"^^xsd:string ;
+	geo:lat	"47.2507695248725"^^xsd:decimal ;
 	geo:long	"-1.48259890900022"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44980"^^xsd:string ;
@@ -355,8 +355,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Bouaye>	 foaf:name 	 "Centre Médico-Social Bouaye"^^xsd:string ;
-	geo:lat	"47.143021798262 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Bouaye>	 foaf:name 	 "Centre Médico-Social Bouaye"^^xsd:string ;
+	geo:lat	"47.143021798262"^^xsd:decimal ;
 	geo:long	"-1.69390995430076"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44830"^^xsd:string ;
@@ -372,8 +372,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_de_Vie_Saint_Yves>	 foaf:name 	 "Centre de Vie Saint Yves"^^xsd:string ;
-	geo:lat	"47.1836677969271 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_de_Vie_Saint_Yves>	 foaf:name 	 "Centre de Vie Saint Yves"^^xsd:string ;
+	geo:lat	"47.1836677969271"^^xsd:decimal ;
 	geo:long	"-1.45334848758765"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44120"^^xsd:string ;
@@ -389,8 +389,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Foyer_Le_Chardon_Bleu>	 foaf:name 	 "Foyer Le Chardon Bleu"^^xsd:string ;
-	geo:lat	"47.3131257093121 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Foyer_Le_Chardon_Bleu>	 foaf:name 	 "Foyer Le Chardon Bleu"^^xsd:string ;
+	geo:lat	"47.3131257093121"^^xsd:decimal ;
 	geo:long	"-1.56490018863905"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44240"^^xsd:string ;
@@ -406,8 +406,8 @@
 	TEMPORAIRE:TypeProblem	 "110103"^^xsd:string ;
 	pdll:Category	 "1101"^^xsd:string .
 
-<http://projet.com/10/Entreprise_d'Insertion_Soc_Services>	 foaf:name 	 "Entreprise d'Insertion Soc Services"^^xsd:string ;
-	geo:lat	"47.2529693872926 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Entreprise_d'Insertion_Soc_Services>	 foaf:name 	 "Entreprise d'Insertion Soc Services"^^xsd:string ;
+	geo:lat	"47.2529693872926"^^xsd:decimal ;
 	geo:long	"-1.61567371634781"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44700"^^xsd:string ;
@@ -423,8 +423,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Atelier_Chantier_d'Insertion_ATAO_Cycles>	 foaf:name 	 "Atelier Chantier d'Insertion ATAO Cycles"^^xsd:string ;
-	geo:lat	"47.1987939386025 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Atelier_Chantier_d'Insertion_ATAO_Cycles>	 foaf:name 	 "Atelier Chantier d'Insertion ATAO Cycles"^^xsd:string ;
+	geo:lat	"47.1987939386025"^^xsd:decimal ;
 	geo:long	"-1.59786084232115"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -440,8 +440,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Bellevue>	 foaf:name 	 "Centre Médico-Social Bellevue"^^xsd:string ;
-	geo:lat	"47.2031592034915 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Bellevue>	 foaf:name 	 "Centre Médico-Social Bellevue"^^xsd:string ;
+	geo:lat	"47.2031592034915"^^xsd:decimal ;
 	geo:long	"-1.60452757797706"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -457,8 +457,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Entreprise_d'Insertion_Ménage_Service>	 foaf:name 	 "Entreprise d'Insertion Ménage Service"^^xsd:string ;
-	geo:lat	"47.2071384486014 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Entreprise_d'Insertion_Ménage_Service>	 foaf:name 	 "Entreprise d'Insertion Ménage Service"^^xsd:string ;
+	geo:lat	"47.2071384486014"^^xsd:decimal ;
 	geo:long	"-1.61246607073509"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -474,8 +474,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Restaurant_du_Coeur_Moutonnerie>	 foaf:name 	 "Restaurant du Coeur Moutonnerie"^^xsd:string ;
-	geo:lat	"47.2213771919046 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Restaurant_du_Coeur_Moutonnerie>	 foaf:name 	 "Restaurant du Coeur Moutonnerie"^^xsd:string ;
+	geo:lat	"47.2213771919046"^^xsd:decimal ;
 	geo:long	"-1.53208703984382"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -491,8 +491,8 @@
 	TEMPORAIRE:TypeProblem	 "110203"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Clinique_Saint_Henri_Médecine_Polyvalente>	 foaf:name 	 "Clinique Saint Henri Médecine Polyvalente"^^xsd:string ;
-	geo:lat	"47.212600294842 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Clinique_Saint_Henri_Médecine_Polyvalente>	 foaf:name 	 "Clinique Saint Henri Médecine Polyvalente"^^xsd:string ;
+	geo:lat	"47.212600294842"^^xsd:decimal ;
 	geo:long	"-1.57195267493427"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -508,8 +508,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Talensac>	 foaf:name 	 "Centre Médico-Social Talensac"^^xsd:string ;
-	geo:lat	"47.2208438054512 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Talensac>	 foaf:name 	 "Centre Médico-Social Talensac"^^xsd:string ;
+	geo:lat	"47.2208438054512"^^xsd:decimal ;
 	geo:long	"-1.55800690818259"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -525,8 +525,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Clinique_Sourdille>	 foaf:name 	 "Clinique Sourdille"^^xsd:string ;
-	geo:lat	"47.2241674129241 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Clinique_Sourdille>	 foaf:name 	 "Clinique Sourdille"^^xsd:string ;
+	geo:lat	"47.2241674129241"^^xsd:decimal ;
 	geo:long	"-1.57202148038243"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -542,8 +542,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/La_Fraternité_(Habillement)>	 foaf:name 	 "La Fraternité (Habillement)"^^xsd:string ;
-	geo:lat	"47.2099249822944 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/La_Fraternité_(Habillement)>	 foaf:name 	 "La Fraternité (Habillement)"^^xsd:string ;
+	geo:lat	"47.2099249822944"^^xsd:decimal ;
 	geo:long	"-1.5801586261226"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -559,8 +559,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Foyer_de_La_Fraternité>	 foaf:name 	 "Foyer de La Fraternité"^^xsd:string ;
-	geo:lat	"47.2099866108376 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Foyer_de_La_Fraternité>	 foaf:name 	 "Foyer de La Fraternité"^^xsd:string ;
+	geo:lat	"47.2099866108376"^^xsd:decimal ;
 	geo:long	"-1.58019776701335"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -576,8 +576,8 @@
 	TEMPORAIRE:TypeProblem	 "110202"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Clémence_Royer>	 foaf:name 	 "Centre Médico-Social Clémence Royer"^^xsd:string ;
-	geo:lat	"47.1940883390749 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Clémence_Royer>	 foaf:name 	 "Centre Médico-Social Clémence Royer"^^xsd:string ;
+	geo:lat	"47.1940883390749"^^xsd:decimal ;
 	geo:long	"-1.5283925760541"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -593,8 +593,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Atelier_Chantier_Insertion_Recherche_Emplois_Familiaux>	 foaf:name 	 "Atelier Chantier Insertion Recherche Emplois Familiaux"^^xsd:string ;
-	geo:lat	"47.2121480349247 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Atelier_Chantier_Insertion_Recherche_Emplois_Familiaux>	 foaf:name 	 "Atelier Chantier Insertion Recherche Emplois Familiaux"^^xsd:string ;
+	geo:lat	"47.2121480349247"^^xsd:decimal ;
 	geo:long	"-1.58766433979525"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -610,8 +610,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_d'Hébergement_Réinsertion_Sociale_CADA_SAFRAM>	 foaf:name 	 "Centre d'Hébergement Réinsertion Sociale CADA SAFRAM"^^xsd:string ;
-	geo:lat	"47.2249456979649 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_d'Hébergement_Réinsertion_Sociale_CADA_SAFRAM>	 foaf:name 	 "Centre d'Hébergement Réinsertion Sociale CADA SAFRAM"^^xsd:string ;
+	geo:lat	"47.2249456979649"^^xsd:decimal ;
 	geo:long	"-1.56951281574933"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -627,8 +627,8 @@
 	TEMPORAIRE:TypeProblem	 "110202"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Dalby_Millet>	 foaf:name 	 "Centre Médico-Social Dalby Millet"^^xsd:string ;
-	geo:lat	"47.2207059860071 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Dalby_Millet>	 foaf:name 	 "Centre Médico-Social Dalby Millet"^^xsd:string ;
+	geo:lat	"47.2207059860071"^^xsd:decimal ;
 	geo:long	"-1.52974150511117"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -644,8 +644,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/SONACOTRA_Ile_Beaulieu>	 foaf:name 	 "SONACOTRA Ile Beaulieu"^^xsd:string ;
-	geo:lat	"47.2051415638696 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/SONACOTRA_Ile_Beaulieu>	 foaf:name 	 "SONACOTRA Ile Beaulieu"^^xsd:string ;
+	geo:lat	"47.2051415638696"^^xsd:decimal ;
 	geo:long	"-1.54669749869895"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -661,8 +661,8 @@
 	TEMPORAIRE:TypeProblem	 "110202"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Chaptal>	 foaf:name 	 "Centre Médico-Social Chaptal"^^xsd:string ;
-	geo:lat	"47.2097227853708 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Chaptal>	 foaf:name 	 "Centre Médico-Social Chaptal"^^xsd:string ;
+	geo:lat	"47.2097227853708"^^xsd:decimal ;
 	geo:long	"-1.57405236804053"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -678,8 +678,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/CAP_Logement_Jeunes_Nantes>	 foaf:name 	 "CAP Logement Jeunes Nantes"^^xsd:string ;
-	geo:lat	"47.2192222864159 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/CAP_Logement_Jeunes_Nantes>	 foaf:name 	 "CAP Logement Jeunes Nantes"^^xsd:string ;
+	geo:lat	"47.2192222864159"^^xsd:decimal ;
 	geo:long	"-1.56238782554217"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -695,8 +695,8 @@
 	TEMPORAIRE:TypeProblem	 "110202"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Le_Douet>	 foaf:name 	 "Centre Médico-Social Le Douet"^^xsd:string ;
-	geo:lat	"47.1936405390281 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Le_Douet>	 foaf:name 	 "Centre Médico-Social Le Douet"^^xsd:string ;
+	geo:lat	"47.1936405390281"^^xsd:decimal ;
 	geo:long	"-1.5205974543261"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44230"^^xsd:string ;
@@ -712,8 +712,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Clinique_Brétéché>	 foaf:name 	 "Clinique Brétéché"^^xsd:string ;
-	geo:lat	"47.2260668437623 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Clinique_Brétéché>	 foaf:name 	 "Clinique Brétéché"^^xsd:string ;
+	geo:lat	"47.2260668437623"^^xsd:decimal ;
 	geo:long	"-1.54642394331525"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -729,8 +729,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Vieux_Doulon>	 foaf:name 	 "Centre Médico-Social Vieux Doulon"^^xsd:string ;
-	geo:lat	"47.2319436049709 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Vieux_Doulon>	 foaf:name 	 "Centre Médico-Social Vieux Doulon"^^xsd:string ;
+	geo:lat	"47.2319436049709"^^xsd:decimal ;
 	geo:long	"-1.50732604362709"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -746,8 +746,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_d'Hébergement_et_de_Réinsertion_Social__ARCHIPEL>	 foaf:name 	 "Centre d'Hébergement et de Réinsertion Social  ARCHIPEL"^^xsd:string ;
-	geo:lat	"47.2028955111232 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_d'Hébergement_et_de_Réinsertion_Social__ARCHIPEL>	 foaf:name 	 "Centre d'Hébergement et de Réinsertion Social  ARCHIPEL"^^xsd:string ;
+	geo:lat	"47.2028955111232"^^xsd:decimal ;
 	geo:long	"-1.54309353065632"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -763,8 +763,8 @@
 	TEMPORAIRE:TypeProblem	 "110202"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/CHU_Hôpital_de_Jour_Psychiatrie_-_Ste_Anne>	 foaf:name 	 "CHU Hôpital de Jour Psychiatrie - Ste Anne"^^xsd:string ;
-	geo:lat	"47.2053195242833 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/CHU_Hôpital_de_Jour_Psychiatrie_-_Ste_Anne>	 foaf:name 	 "CHU Hôpital de Jour Psychiatrie - Ste Anne"^^xsd:string ;
+	geo:lat	"47.2053195242833"^^xsd:decimal ;
 	geo:long	"-1.57758218476014"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -780,8 +780,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Psycho-Infantile_Nantes>	 foaf:name 	 "Centre Médico-Psycho-Infantile Nantes"^^xsd:string ;
-	geo:lat	"47.2591768811476 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Psycho-Infantile_Nantes>	 foaf:name 	 "Centre Médico-Psycho-Infantile Nantes"^^xsd:string ;
+	geo:lat	"47.2591768811476"^^xsd:decimal ;
 	geo:long	"-1.57344885900796"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -797,8 +797,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Economie_Sociale_et_Familiale_Chêne_des_Anglais>	 foaf:name 	 "Economie Sociale et Familiale Chêne des Anglais"^^xsd:string ;
-	geo:lat	"47.2593072125453 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Economie_Sociale_et_Familiale_Chêne_des_Anglais>	 foaf:name 	 "Economie Sociale et Familiale Chêne des Anglais"^^xsd:string ;
+	geo:lat	"47.2593072125453"^^xsd:decimal ;
 	geo:long	"-1.57340890840206"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -814,8 +814,8 @@
 	TEMPORAIRE:TypeProblem	 "110204"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Atelier_Chantier_d'Insertion_ATAO_(Siège)>	 foaf:name 	 "Atelier Chantier d'Insertion ATAO (Siège)"^^xsd:string ;
-	geo:lat	"47.2591020367178 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Atelier_Chantier_d'Insertion_ATAO_(Siège)>	 foaf:name 	 "Atelier Chantier d'Insertion ATAO (Siège)"^^xsd:string ;
+	geo:lat	"47.2591020367178"^^xsd:decimal ;
 	geo:long	"-1.57345145670703"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -831,8 +831,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Foyer_La_Montagne>	 foaf:name 	 "Foyer La Montagne"^^xsd:string ;
-	geo:lat	"47.1802035469387 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Foyer_La_Montagne>	 foaf:name 	 "Foyer La Montagne"^^xsd:string ;
+	geo:lat	"47.1802035469387"^^xsd:decimal ;
 	geo:long	"-1.67747222809986"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44620"^^xsd:string ;
@@ -848,8 +848,8 @@
 	TEMPORAIRE:TypeProblem	 "110202"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Point_Prévention_Santé_La_Montagne>	 foaf:name 	 "Point Prévention Santé La Montagne"^^xsd:string ;
-	geo:lat	"47.1907363619384 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Point_Prévention_Santé_La_Montagne>	 foaf:name 	 "Point Prévention Santé La Montagne"^^xsd:string ;
+	geo:lat	"47.1907363619384"^^xsd:decimal ;
 	geo:long	"-1.68337010570577"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44620"^^xsd:string ;
@@ -865,8 +865,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/le_SENEVE_,_foyer_de_l'Arche>	 foaf:name 	 "le SENEVE , foyer de l'Arche"^^xsd:string ;
-	geo:lat	"47.1690783367244 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/le_SENEVE_,_foyer_de_l'Arche>	 foaf:name 	 "le SENEVE , foyer de l'Arche"^^xsd:string ;
+	geo:lat	"47.1690783367244"^^xsd:decimal ;
 	geo:long	"-1.48125267996729"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44120"^^xsd:string ;
@@ -882,8 +882,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Aides_Atlantique_(SIDA)_Nantes>	 foaf:name 	 "Aides Atlantique (SIDA) Nantes"^^xsd:string ;
-	geo:lat	"47.2194836467722 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Aides_Atlantique_(SIDA)_Nantes>	 foaf:name 	 "Aides Atlantique (SIDA) Nantes"^^xsd:string ;
+	geo:lat	"47.2194836467722"^^xsd:decimal ;
 	geo:long	"-1.55402847897977"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -899,8 +899,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Atelier_Chantier_d'Insertion_des_2_Rives>	 foaf:name 	 "Atelier Chantier d'Insertion des 2 Rives"^^xsd:string ;
-	geo:lat	"47.2615841411866 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Atelier_Chantier_d'Insertion_des_2_Rives>	 foaf:name 	 "Atelier Chantier d'Insertion des 2 Rives"^^xsd:string ;
+	geo:lat	"47.2615841411866"^^xsd:decimal ;
 	geo:long	"-1.56648261078431"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -916,8 +916,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Soins_Infirmiers_à_Domicile_des_Personnes_Agées_Orvault>	 foaf:name 	 "Soins Infirmiers à Domicile des Personnes Agées Orvault"^^xsd:string ;
-	geo:lat	"47.2714012998316 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Soins_Infirmiers_à_Domicile_des_Personnes_Agées_Orvault>	 foaf:name 	 "Soins Infirmiers à Domicile des Personnes Agées Orvault"^^xsd:string ;
+	geo:lat	"47.2714012998316"^^xsd:decimal ;
 	geo:long	"-1.62370989152365"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44700"^^xsd:string ;
@@ -933,8 +933,8 @@
 	TEMPORAIRE:TypeProblem	 "110303"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Clinique_de_Médecine_Esthétique_et_Laser_Nantes>	 foaf:name 	 "Clinique de Médecine Esthétique et Laser Nantes"^^xsd:string ;
-	geo:lat	"47.2097621972387 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Clinique_de_Médecine_Esthétique_et_Laser_Nantes>	 foaf:name 	 "Clinique de Médecine Esthétique et Laser Nantes"^^xsd:string ;
+	geo:lat	"47.2097621972387"^^xsd:decimal ;
 	geo:long	"-1.54679468609473"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -950,8 +950,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Entreprise_d'Insertion_Hepdale_Nantes_Services_(magasin)>	 foaf:name 	 "Entreprise d'Insertion Hepdale Nantes Services (magasin)"^^xsd:string ;
-	geo:lat	"47.2099636984881 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Entreprise_d'Insertion_Hepdale_Nantes_Services_(magasin)>	 foaf:name 	 "Entreprise d'Insertion Hepdale Nantes Services (magasin)"^^xsd:string ;
+	geo:lat	"47.2099636984881"^^xsd:decimal ;
 	geo:long	"-1.55053207283575"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -967,8 +967,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Economie_Sociale_et_Familiale_Boissière>	 foaf:name 	 "Economie Sociale et Familiale Boissière"^^xsd:string ;
-	geo:lat	"47.2542314893891 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Economie_Sociale_et_Familiale_Boissière>	 foaf:name 	 "Economie Sociale et Familiale Boissière"^^xsd:string ;
+	geo:lat	"47.2542314893891"^^xsd:decimal ;
 	geo:long	"-1.56724598220077"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -984,8 +984,8 @@
 	TEMPORAIRE:TypeProblem	 "110204"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Boissière>	 foaf:name 	 "Centre Médico-Social Boissière"^^xsd:string ;
-	geo:lat	"47.2543413036244 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Boissière>	 foaf:name 	 "Centre Médico-Social Boissière"^^xsd:string ;
+	geo:lat	"47.2543413036244"^^xsd:decimal ;
 	geo:long	"-1.56753008324299"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -1001,8 +1001,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Economie_Sociale_et_Familiale_Port_Boyer>	 foaf:name 	 "Economie Sociale et Familiale Port Boyer"^^xsd:string ;
-	geo:lat	"47.2414113274784 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Economie_Sociale_et_Familiale_Port_Boyer>	 foaf:name 	 "Economie Sociale et Familiale Port Boyer"^^xsd:string ;
+	geo:lat	"47.2414113274784"^^xsd:decimal ;
 	geo:long	"-1.54096054437738"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -1018,8 +1018,8 @@
 	TEMPORAIRE:TypeProblem	 "110204"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Port_Boyer>	 foaf:name 	 "Centre Médico-Social Port Boyer"^^xsd:string ;
-	geo:lat	"47.2413295979514 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Port_Boyer>	 foaf:name 	 "Centre Médico-Social Port Boyer"^^xsd:string ;
+	geo:lat	"47.2413295979514"^^xsd:decimal ;
 	geo:long	"-1.54091348904238"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -1035,8 +1035,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Perray>	 foaf:name 	 "Centre Médico-Social Perray"^^xsd:string ;
-	geo:lat	"47.2469884148565 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Perray>	 foaf:name 	 "Centre Médico-Social Perray"^^xsd:string ;
+	geo:lat	"47.2469884148565"^^xsd:decimal ;
 	geo:long	"-1.51223595999284"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -1052,8 +1052,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Croix_Rouge_Française_Délégation_Régionale_Nantes>	 foaf:name 	 "Croix Rouge Française Délégation Régionale Nantes"^^xsd:string ;
-	geo:lat	"47.2352963696472 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Croix_Rouge_Française_Délégation_Régionale_Nantes>	 foaf:name 	 "Croix Rouge Française Délégation Régionale Nantes"^^xsd:string ;
+	geo:lat	"47.2352963696472"^^xsd:decimal ;
 	geo:long	"-1.53296968941813"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -1069,8 +1069,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Hôpital_Bellier>	 foaf:name 	 "Hôpital Bellier"^^xsd:string ;
-	geo:lat	"47.2223767265097 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Hôpital_Bellier>	 foaf:name 	 "Hôpital Bellier"^^xsd:string ;
+	geo:lat	"47.2223767265097"^^xsd:decimal ;
 	geo:long	"-1.52330957372563"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1086,8 +1086,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Foyer_La_Source>	 foaf:name 	 "Foyer La Source"^^xsd:string ;
-	geo:lat	"47.2052164993423 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Foyer_La_Source>	 foaf:name 	 "Foyer La Source"^^xsd:string ;
+	geo:lat	"47.2052164993423"^^xsd:decimal ;
 	geo:long	"-1.58225168000961"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -1103,8 +1103,8 @@
 	TEMPORAIRE:TypeProblem	 "110202"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Conseil_Départemental_de_la_Croix_Rouge_Nantes>	 foaf:name 	 "Conseil Départemental de la Croix Rouge Nantes"^^xsd:string ;
-	geo:lat	"47.2127268445023 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Conseil_Départemental_de_la_Croix_Rouge_Nantes>	 foaf:name 	 "Conseil Départemental de la Croix Rouge Nantes"^^xsd:string ;
+	geo:lat	"47.2127268445023"^^xsd:decimal ;
 	geo:long	"-1.57277856068356"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -1120,8 +1120,8 @@
 	TEMPORAIRE:TypeProblem	 "110303"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Nantais_Hébergement_des_Réfugiés>	 foaf:name 	 "Centre Nantais Hébergement des Réfugiés"^^xsd:string ;
-	geo:lat	"47.2062277167717 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Nantais_Hébergement_des_Réfugiés>	 foaf:name 	 "Centre Nantais Hébergement des Réfugiés"^^xsd:string ;
+	geo:lat	"47.2062277167717"^^xsd:decimal ;
 	geo:long	"-1.58349899173719"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -1137,8 +1137,8 @@
 	TEMPORAIRE:TypeProblem	 "110202"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Clinique_de_Médecine_Esthétique_Capillaire>	 foaf:name 	 "Clinique de Médecine Esthétique Capillaire"^^xsd:string ;
-	geo:lat	"47.2163889553744 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Clinique_de_Médecine_Esthétique_Capillaire>	 foaf:name 	 "Clinique de Médecine Esthétique Capillaire"^^xsd:string ;
+	geo:lat	"47.2163889553744"^^xsd:decimal ;
 	geo:long	"-1.56576148734713"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1154,8 +1154,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Foyer_ADAPEI_(Foyer_Occupationnel)>	 foaf:name 	 "Foyer ADAPEI (Foyer Occupationnel)"^^xsd:string ;
-	geo:lat	"47.1844779307381 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Foyer_ADAPEI_(Foyer_Occupationnel)>	 foaf:name 	 "Foyer ADAPEI (Foyer Occupationnel)"^^xsd:string ;
+	geo:lat	"47.1844779307381"^^xsd:decimal ;
 	geo:long	"-1.50888331666813"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44120"^^xsd:string ;
@@ -1171,8 +1171,8 @@
 	TEMPORAIRE:TypeProblem	 "110103"^^xsd:string ;
 	pdll:Category	 "1101"^^xsd:string .
 
-<http://projet.com/10/Centre_médico-social_Les_Mahaudières>	 foaf:name 	 "Centre médico-social Les Mahaudières"^^xsd:string ;
-	geo:lat	"47.1878398384351 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_médico-social_Les_Mahaudières>	 foaf:name 	 "Centre médico-social Les Mahaudières"^^xsd:string ;
+	geo:lat	"47.1878398384351"^^xsd:decimal ;
 	geo:long	"-1.55772573405181"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -1188,8 +1188,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Basse-Goulaine>	 foaf:name 	 "Centre Médico-Social Basse-Goulaine"^^xsd:string ;
-	geo:lat	"47.209989035079 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Basse-Goulaine>	 foaf:name 	 "Centre Médico-Social Basse-Goulaine"^^xsd:string ;
+	geo:lat	"47.209989035079"^^xsd:decimal ;
 	geo:long	"-1.46405979148834"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44115"^^xsd:string ;
@@ -1205,8 +1205,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Hospitalier_Georges_Daumézon>	 foaf:name 	 "Centre Hospitalier Georges Daumézon"^^xsd:string ;
-	geo:lat	"47.1795988723256 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Hospitalier_Georges_Daumézon>	 foaf:name 	 "Centre Hospitalier Georges Daumézon"^^xsd:string ;
+	geo:lat	"47.1795988723256"^^xsd:decimal ;
 	geo:long	"-1.57869307468304"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44340"^^xsd:string ;
@@ -1222,8 +1222,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Maison_d'Accueil_Spécialisée_de_l'Epeau_(ADAPEI)>	 foaf:name 	 "Maison d'Accueil Spécialisée de l'Epeau (ADAPEI)"^^xsd:string ;
-	geo:lat	"47.177462291516 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Maison_d'Accueil_Spécialisée_de_l'Epeau_(ADAPEI)>	 foaf:name 	 "Maison d'Accueil Spécialisée de l'Epeau (ADAPEI)"^^xsd:string ;
+	geo:lat	"47.177462291516"^^xsd:decimal ;
 	geo:long	"-1.58911513137749"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44340"^^xsd:string ;
@@ -1239,8 +1239,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Croix_Rouge_Française_Délégation_Locale_Sud_Agglomération_Bouguenais>	 foaf:name 	 "Croix Rouge Française Délégation Locale Sud Agglomération Bouguenais"^^xsd:string ;
-	geo:lat	"47.1775363892074 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Croix_Rouge_Française_Délégation_Locale_Sud_Agglomération_Bouguenais>	 foaf:name 	 "Croix Rouge Française Délégation Locale Sud Agglomération Bouguenais"^^xsd:string ;
+	geo:lat	"47.1775363892074"^^xsd:decimal ;
 	geo:long	"-1.62655793646088"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44340"^^xsd:string ;
@@ -1256,8 +1256,8 @@
 	TEMPORAIRE:TypeProblem	 "110303"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Jean_Monnet>	 foaf:name 	 "Centre Médico-Social Jean Monnet"^^xsd:string ;
-	geo:lat	"47.2003829749861 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Jean_Monnet>	 foaf:name 	 "Centre Médico-Social Jean Monnet"^^xsd:string ;
+	geo:lat	"47.2003829749861"^^xsd:decimal ;
 	geo:long	"-1.67381986596507"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44610"^^xsd:string ;
@@ -1273,8 +1273,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Nouvelles_Cliniques_Nantaises>	 foaf:name 	 "Nouvelles Cliniques Nantaises"^^xsd:string ;
-	geo:lat	"47.1956485997618 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Nouvelles_Cliniques_Nantaises>	 foaf:name 	 "Nouvelles Cliniques Nantaises"^^xsd:string ;
+	geo:lat	"47.1956485997618"^^xsd:decimal ;
 	geo:long	"-1.5475970874174"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -1290,8 +1290,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Clinique_Catherine_de_Sienne>	 foaf:name 	 "Clinique Catherine de Sienne"^^xsd:string ;
-	geo:lat	"47.1951571158802 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Clinique_Catherine_de_Sienne>	 foaf:name 	 "Clinique Catherine de Sienne"^^xsd:string ;
+	geo:lat	"47.1951571158802"^^xsd:decimal ;
 	geo:long	"-1.54647417135921"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -1307,8 +1307,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Atelier_Chantier_d'Insertion_Solidarité_Emploi>	 foaf:name 	 "Atelier Chantier d'Insertion Solidarité Emploi"^^xsd:string ;
-	geo:lat	"47.2987737374671 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Atelier_Chantier_d'Insertion_Solidarité_Emploi>	 foaf:name 	 "Atelier Chantier d'Insertion Solidarité Emploi"^^xsd:string ;
+	geo:lat	"47.2987737374671"^^xsd:decimal ;
 	geo:long	"-1.55031559133733"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44240"^^xsd:string ;
@@ -1324,8 +1324,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Association_Intermédiaire_Solidarité_Emploi>	 foaf:name 	 "Association Intermédiaire Solidarité Emploi"^^xsd:string ;
-	geo:lat	"47.2986918352441 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Association_Intermédiaire_Solidarité_Emploi>	 foaf:name 	 "Association Intermédiaire Solidarité Emploi"^^xsd:string ;
+	geo:lat	"47.2986918352441"^^xsd:decimal ;
 	geo:long	"-1.55037808227115"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44240"^^xsd:string ;
@@ -1341,8 +1341,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Espace_Médicis>	 foaf:name 	 "Centre Médico-Social Espace Médicis"^^xsd:string ;
-	geo:lat	"47.2989377347209 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Espace_Médicis>	 foaf:name 	 "Centre Médico-Social Espace Médicis"^^xsd:string ;
+	geo:lat	"47.2989377347209"^^xsd:decimal ;
 	geo:long	"-1.55071716392512"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44240"^^xsd:string ;
@@ -1358,8 +1358,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Economie_Sociale_et_Familiale_Santos_Dumont>	 foaf:name 	 "Economie Sociale et Familiale Santos Dumont"^^xsd:string ;
-	geo:lat	"47.2598796974746 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Economie_Sociale_et_Familiale_Santos_Dumont>	 foaf:name 	 "Economie Sociale et Familiale Santos Dumont"^^xsd:string ;
+	geo:lat	"47.2598796974746"^^xsd:decimal ;
 	geo:long	"-1.56713759039081"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -1375,8 +1375,8 @@
 	TEMPORAIRE:TypeProblem	 "110204"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Santos_Dumont>	 foaf:name 	 "Centre Médico-Social Santos Dumont"^^xsd:string ;
-	geo:lat	"47.2597300614407 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Santos_Dumont>	 foaf:name 	 "Centre Médico-Social Santos Dumont"^^xsd:string ;
+	geo:lat	"47.2597300614407"^^xsd:decimal ;
 	geo:long	"-1.56704543361844"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -1392,8 +1392,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Point_Accueil_Services_Nantes_Nord>	 foaf:name 	 "Point Accueil Services Nantes Nord"^^xsd:string ;
-	geo:lat	"47.2609776960054 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Point_Accueil_Services_Nantes_Nord>	 foaf:name 	 "Point Accueil Services Nantes Nord"^^xsd:string ;
+	geo:lat	"47.2609776960054"^^xsd:decimal ;
 	geo:long	"-1.56678934805891"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -1409,8 +1409,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/CHU_Hôpital_Saint_Jacques>	 foaf:name 	 "CHU Hôpital Saint Jacques"^^xsd:string ;
-	geo:lat	"47.197861958091 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/CHU_Hôpital_Saint_Jacques>	 foaf:name 	 "CHU Hôpital Saint Jacques"^^xsd:string ;
+	geo:lat	"47.197861958091"^^xsd:decimal ;
 	geo:long	"-1.53845259055707"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -1426,8 +1426,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Saint_Donatien>	 foaf:name 	 "Centre Médico-Social Saint Donatien"^^xsd:string ;
-	geo:lat	"47.2247894411982 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Saint_Donatien>	 foaf:name 	 "Centre Médico-Social Saint Donatien"^^xsd:string ;
+	geo:lat	"47.2247894411982"^^xsd:decimal ;
 	geo:long	"-1.54295068518901"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1443,8 +1443,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/CHU_Hôpital_de_Jour_Psychiatrie_-_Pt_du_Cens>	 foaf:name 	 "CHU Hôpital de Jour Psychiatrie - Pt du Cens"^^xsd:string ;
-	geo:lat	"47.2456820928712 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/CHU_Hôpital_de_Jour_Psychiatrie_-_Pt_du_Cens>	 foaf:name 	 "CHU Hôpital de Jour Psychiatrie - Pt du Cens"^^xsd:string ;
+	geo:lat	"47.2456820928712"^^xsd:decimal ;
 	geo:long	"-1.57619667044743"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -1460,8 +1460,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/SONACOTRA_Résidence_Robert_Schuman>	 foaf:name 	 "SONACOTRA Résidence Robert Schuman"^^xsd:string ;
-	geo:lat	"47.2406518827321 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/SONACOTRA_Résidence_Robert_Schuman>	 foaf:name 	 "SONACOTRA Résidence Robert Schuman"^^xsd:string ;
+	geo:lat	"47.2406518827321"^^xsd:decimal ;
 	geo:long	"-1.57221473951465"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -1477,8 +1477,8 @@
 	TEMPORAIRE:TypeProblem	 "110202"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Le_Petit_Chantilly>	 foaf:name 	 "Centre Médico-Social Le Petit Chantilly"^^xsd:string ;
-	geo:lat	"47.2527753469872 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Le_Petit_Chantilly>	 foaf:name 	 "Centre Médico-Social Le Petit Chantilly"^^xsd:string ;
+	geo:lat	"47.2527753469872"^^xsd:decimal ;
 	geo:long	"-1.59574730013953"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44700"^^xsd:string ;
@@ -1494,8 +1494,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Hôpital_de_Jour_Chalonnières>	 foaf:name 	 "Hôpital de Jour Chalonnières"^^xsd:string ;
-	geo:lat	"47.1770812560166 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Hôpital_de_Jour_Chalonnières>	 foaf:name 	 "Hôpital de Jour Chalonnières"^^xsd:string ;
+	geo:lat	"47.1770812560166"^^xsd:decimal ;
 	geo:long	"-1.56017884288498"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -1511,8 +1511,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Carquefou>	 foaf:name 	 "Centre Médico-Social Carquefou"^^xsd:string ;
-	geo:lat	"47.2961418393393 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Carquefou>	 foaf:name 	 "Centre Médico-Social Carquefou"^^xsd:string ;
+	geo:lat	"47.2961418393393"^^xsd:decimal ;
 	geo:long	"-1.49408939977364"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44470"^^xsd:string ;
@@ -1528,8 +1528,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Atelier_Chantier_d'Insertion_Les_Jardins_de_Cocagne_Nantais_-_Partage_44>	 foaf:name 	 "Atelier Chantier d'Insertion Les Jardins de Cocagne Nantais - Partage 44"^^xsd:string ;
-	geo:lat	"47.2898540044512 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Atelier_Chantier_d'Insertion_Les_Jardins_de_Cocagne_Nantais_-_Partage_44>	 foaf:name 	 "Atelier Chantier d'Insertion Les Jardins de Cocagne Nantais - Partage 44"^^xsd:string ;
+	geo:lat	"47.2898540044512"^^xsd:decimal ;
 	geo:long	"-1.4710233483071"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44470"^^xsd:string ;
@@ -1545,8 +1545,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Maison_de_la_Naissance_Saint_Sébastien>	 foaf:name 	 "Maison de la Naissance Saint Sébastien"^^xsd:string ;
-	geo:lat	"47.1915524141425 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Maison_de_la_Naissance_Saint_Sébastien>	 foaf:name 	 "Maison de la Naissance Saint Sébastien"^^xsd:string ;
+	geo:lat	"47.1915524141425"^^xsd:decimal ;
 	geo:long	"-1.50190248641829"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44230"^^xsd:string ;
@@ -1562,8 +1562,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Le_Bois_Raguenet>	 foaf:name 	 "Centre Médico-Social Le Bois Raguenet"^^xsd:string ;
-	geo:lat	"47.2687925700478 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Le_Bois_Raguenet>	 foaf:name 	 "Centre Médico-Social Le Bois Raguenet"^^xsd:string ;
+	geo:lat	"47.2687925700478"^^xsd:decimal ;
 	geo:long	"-1.59867775739492"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44700"^^xsd:string ;
@@ -1579,8 +1579,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_d'Accueil_Psychiatrie_Saint_Sébastien>	 foaf:name 	 "Centre d'Accueil Psychiatrie Saint Sébastien"^^xsd:string ;
-	geo:lat	"47.2073058295455 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_d'Accueil_Psychiatrie_Saint_Sébastien>	 foaf:name 	 "Centre d'Accueil Psychiatrie Saint Sébastien"^^xsd:string ;
+	geo:lat	"47.2073058295455"^^xsd:decimal ;
 	geo:long	"-1.50860275246637"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44230"^^xsd:string ;
@@ -1596,8 +1596,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Atelier_Chantier_d'Insertion_ATAO_(Métallerie)>	 foaf:name 	 "Atelier Chantier d'Insertion ATAO (Métallerie)"^^xsd:string ;
-	geo:lat	"47.20523823719 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Atelier_Chantier_d'Insertion_ATAO_(Métallerie)>	 foaf:name 	 "Atelier Chantier d'Insertion ATAO (Métallerie)"^^xsd:string ;
+	geo:lat	"47.20523823719"^^xsd:decimal ;
 	geo:long	"-1.56800890366828"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -1613,8 +1613,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Saint_Jean_de_Boiseau>	 foaf:name 	 "Centre Médico-Social Saint Jean de Boiseau"^^xsd:string ;
-	geo:lat	"47.1927473938025 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Saint_Jean_de_Boiseau>	 foaf:name 	 "Centre Médico-Social Saint Jean de Boiseau"^^xsd:string ;
+	geo:lat	"47.1927473938025"^^xsd:decimal ;
 	geo:long	"-1.72587371902574"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44640"^^xsd:string ;
@@ -1630,8 +1630,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/ADOMA_Résidence_Pont_du_Cens>	 foaf:name 	 "ADOMA Résidence Pont du Cens"^^xsd:string ;
-	geo:lat	"47.2474462362332 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/ADOMA_Résidence_Pont_du_Cens>	 foaf:name 	 "ADOMA Résidence Pont du Cens"^^xsd:string ;
+	geo:lat	"47.2474462362332"^^xsd:decimal ;
 	geo:long	"-1.57426427357367"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -1647,8 +1647,8 @@
 	TEMPORAIRE:TypeProblem	 "110202"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Hospitalier_Maubreuil>	 foaf:name 	 "Centre Hospitalier Maubreuil"^^xsd:string ;
-	geo:lat	"47.2972500455408 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Hospitalier_Maubreuil>	 foaf:name 	 "Centre Hospitalier Maubreuil"^^xsd:string ;
+	geo:lat	"47.2972500455408"^^xsd:decimal ;
 	geo:long	"-1.46342707684433"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44470"^^xsd:string ;
@@ -1664,8 +1664,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Economie_Sociale_et_Familiale_Bourderies>	 foaf:name 	 "Economie Sociale et Familiale Bourderies"^^xsd:string ;
-	geo:lat	"47.206679438957 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Economie_Sociale_et_Familiale_Bourderies>	 foaf:name 	 "Economie Sociale et Familiale Bourderies"^^xsd:string ;
+	geo:lat	"47.206679438957"^^xsd:decimal ;
 	geo:long	"-1.5962832764918"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -1681,8 +1681,8 @@
 	TEMPORAIRE:TypeProblem	 "110204"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social__H__Normand_Chabossière>	 foaf:name 	 "Centre Médico-Social  H. Normand Chabossière"^^xsd:string ;
-	geo:lat	"47.2146005024043 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social__H__Normand_Chabossière>	 foaf:name 	 "Centre Médico-Social  H. Normand Chabossière"^^xsd:string ;
+	geo:lat	"47.2146005024043"^^xsd:decimal ;
 	geo:long	"-1.68238113295341"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44220"^^xsd:string ;
@@ -1698,8 +1698,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Vertou>	 foaf:name 	 "Centre Médico-Social Vertou"^^xsd:string ;
-	geo:lat	"47.1644757745204 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Vertou>	 foaf:name 	 "Centre Médico-Social Vertou"^^xsd:string ;
+	geo:lat	"47.1644757745204"^^xsd:decimal ;
 	geo:long	"-1.4740364632095"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44120"^^xsd:string ;
@@ -1715,8 +1715,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Economie_Sociale_et_Familliale_Saint_Sébastien>	 foaf:name 	 "Economie Sociale et Familliale Saint Sébastien"^^xsd:string ;
-	geo:lat	"47.2058710222044 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Economie_Sociale_et_Familliale_Saint_Sébastien>	 foaf:name 	 "Economie Sociale et Familliale Saint Sébastien"^^xsd:string ;
+	geo:lat	"47.2058710222044"^^xsd:decimal ;
 	geo:long	"-1.50610659590157"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44230"^^xsd:string ;
@@ -1732,8 +1732,8 @@
 	TEMPORAIRE:TypeProblem	 "110204"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Foyer_Saint_Benoît>	 foaf:name 	 "Foyer Saint Benoît"^^xsd:string ;
-	geo:lat	"47.1992208150819 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Foyer_Saint_Benoît>	 foaf:name 	 "Foyer Saint Benoît"^^xsd:string ;
+	geo:lat	"47.1992208150819"^^xsd:decimal ;
 	geo:long	"-1.58760321712319"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -1749,8 +1749,8 @@
 	TEMPORAIRE:TypeProblem	 "110202"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Croix_Rouge_Française_-_Délégation_Locale_Nantes>	 foaf:name 	 "Croix Rouge Française - Délégation Locale Nantes"^^xsd:string ;
-	geo:lat	"47.2202090786275 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Croix_Rouge_Française_-_Délégation_Locale_Nantes>	 foaf:name 	 "Croix Rouge Française - Délégation Locale Nantes"^^xsd:string ;
+	geo:lat	"47.2202090786275"^^xsd:decimal ;
 	geo:long	"-1.5453689521758"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1766,8 +1766,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_d'Accueil_L'Etape>	 foaf:name 	 "Centre d'Accueil L'Etape"^^xsd:string ;
-	geo:lat	"47.2610486991209 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_d'Accueil_L'Etape>	 foaf:name 	 "Centre d'Accueil L'Etape"^^xsd:string ;
+	geo:lat	"47.2610486991209"^^xsd:decimal ;
 	geo:long	"-1.57324610417149"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -1783,8 +1783,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/CHU_Hôpital_de_Jour_Psychiatrie_-_Gaudinière>	 foaf:name 	 "CHU Hôpital de Jour Psychiatrie - Gaudinière"^^xsd:string ;
-	geo:lat	"47.2409788634507 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/CHU_Hôpital_de_Jour_Psychiatrie_-_Gaudinière>	 foaf:name 	 "CHU Hôpital de Jour Psychiatrie - Gaudinière"^^xsd:string ;
+	geo:lat	"47.2409788634507"^^xsd:decimal ;
 	geo:long	"-1.58078989298256"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -1800,8 +1800,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Atelier_Chantier_d'Insertion_Réagir_Ensemble>	 foaf:name 	 "Atelier Chantier d'Insertion Réagir Ensemble"^^xsd:string ;
-	geo:lat	"47.187694801923 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Atelier_Chantier_d'Insertion_Réagir_Ensemble>	 foaf:name 	 "Atelier Chantier d'Insertion Réagir Ensemble"^^xsd:string ;
+	geo:lat	"47.187694801923"^^xsd:decimal ;
 	geo:long	"-1.69624750550651"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44640"^^xsd:string ;
@@ -1817,8 +1817,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Maison_des_Associations_de_Santé>	 foaf:name 	 "Maison des Associations de Santé"^^xsd:string ;
-	geo:lat	"47.2211530412125 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Maison_des_Associations_de_Santé>	 foaf:name 	 "Maison des Associations de Santé"^^xsd:string ;
+	geo:lat	"47.2211530412125"^^xsd:decimal ;
 	geo:long	"-1.59269616097716"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -1834,8 +1834,8 @@
 	TEMPORAIRE:TypeProblem	 "110303"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Institut_d'Education_Motrice__La_Grillonnais>	 foaf:name 	 "Institut d'Education Motrice  La Grillonnais"^^xsd:string ;
-	geo:lat	"47.2140184647143 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Institut_d'Education_Motrice__La_Grillonnais>	 foaf:name 	 "Institut d'Education Motrice  La Grillonnais"^^xsd:string ;
+	geo:lat	"47.2140184647143"^^xsd:decimal ;
 	geo:long	"-1.46672238565003"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44115"^^xsd:string ;
@@ -1851,8 +1851,8 @@
 	TEMPORAIRE:TypeProblem	 "110101"^^xsd:string ;
 	pdll:Category	 "1101"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Pierre_Legendre>	 foaf:name 	 "Centre Médico-Social Pierre Legendre"^^xsd:string ;
-	geo:lat	"47.2139000938195 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Pierre_Legendre>	 foaf:name 	 "Centre Médico-Social Pierre Legendre"^^xsd:string ;
+	geo:lat	"47.2139000938195"^^xsd:decimal ;
 	geo:long	"-1.72788290811037"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44220"^^xsd:string ;
@@ -1868,8 +1868,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Association_Intermédiaire_OSER_Forêt_Vivante_(Emplois_Familiaux)>	 foaf:name 	 "Association Intermédiaire OSER Forêt Vivante (Emplois Familiaux)"^^xsd:string ;
-	geo:lat	"47.1850269646637 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Association_Intermédiaire_OSER_Forêt_Vivante_(Emplois_Familiaux)>	 foaf:name 	 "Association Intermédiaire OSER Forêt Vivante (Emplois Familiaux)"^^xsd:string ;
+	geo:lat	"47.1850269646637"^^xsd:decimal ;
 	geo:long	"-1.49081099052744"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44120"^^xsd:string ;
@@ -1885,8 +1885,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Maison_d'Accueil_Spécialisée_La_Sèvre>	 foaf:name 	 "Maison d'Accueil Spécialisée La Sèvre"^^xsd:string ;
-	geo:lat	"47.1775421748305 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Maison_d'Accueil_Spécialisée_La_Sèvre>	 foaf:name 	 "Maison d'Accueil Spécialisée La Sèvre"^^xsd:string ;
+	geo:lat	"47.1775421748305"^^xsd:decimal ;
 	geo:long	"-1.52837535888324"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -1902,8 +1902,8 @@
 	TEMPORAIRE:TypeProblem	 "110102"^^xsd:string ;
 	pdll:Category	 "1101"^^xsd:string .
 
-<http://projet.com/10/Service_d'Accompagnement_Médico-Social_Pour_Adultes_Handicapés_La_Sèvre>	 foaf:name 	 "Service d'Accompagnement Médico-Social Pour Adultes Handicapés La Sèvre"^^xsd:string ;
-	geo:lat	"47.1768112807425 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Service_d'Accompagnement_Médico-Social_Pour_Adultes_Handicapés_La_Sèvre>	 foaf:name 	 "Service d'Accompagnement Médico-Social Pour Adultes Handicapés La Sèvre"^^xsd:string ;
+	geo:lat	"47.1768112807425"^^xsd:decimal ;
 	geo:long	"-1.52827320027592"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -1919,8 +1919,8 @@
 	TEMPORAIRE:TypeProblem	 "110101"^^xsd:string ;
 	pdll:Category	 "1101"^^xsd:string .
 
-<http://projet.com/10/Institut_Pour_Enfants_et_Adolescents_Polyhandicapés_Le_Parc_de_la_Blordière>	 foaf:name 	 "Institut Pour Enfants et Adolescents Polyhandicapés Le Parc de la Blordière"^^xsd:string ;
-	geo:lat	"47.1778867900096 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Institut_Pour_Enfants_et_Adolescents_Polyhandicapés_Le_Parc_de_la_Blordière>	 foaf:name 	 "Institut Pour Enfants et Adolescents Polyhandicapés Le Parc de la Blordière"^^xsd:string ;
+	geo:lat	"47.1778867900096"^^xsd:decimal ;
 	geo:long	"-1.5291478985465"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -1936,8 +1936,8 @@
 	TEMPORAIRE:TypeProblem	 "110101"^^xsd:string ;
 	pdll:Category	 "1101"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Georges_Bertin>	 foaf:name 	 "Centre Médico-Social Georges Bertin"^^xsd:string ;
-	geo:lat	"47.2042795872577 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Georges_Bertin>	 foaf:name 	 "Centre Médico-Social Georges Bertin"^^xsd:string ;
+	geo:lat	"47.2042795872577"^^xsd:decimal ;
 	geo:long	"-1.58060661655106"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -1953,8 +1953,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/CHU_Hôpital_de_Jour_Psychiatrie_-_Mellinet>	 foaf:name 	 "CHU Hôpital de Jour Psychiatrie - Mellinet"^^xsd:string ;
-	geo:lat	"47.2088532635907 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/CHU_Hôpital_de_Jour_Psychiatrie_-_Mellinet>	 foaf:name 	 "CHU Hôpital de Jour Psychiatrie - Mellinet"^^xsd:string ;
+	geo:lat	"47.2088532635907"^^xsd:decimal ;
 	geo:long	"-1.57769507124476"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -1970,8 +1970,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Beaujoire>	 foaf:name 	 "Centre Médico-Social Beaujoire"^^xsd:string ;
-	geo:lat	"47.2590089935343 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Beaujoire>	 foaf:name 	 "Centre Médico-Social Beaujoire"^^xsd:string ;
+	geo:lat	"47.2590089935343"^^xsd:decimal ;
 	geo:long	"-1.52029946893149"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -1987,8 +1987,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/l'Escale>	 foaf:name 	 "l'Escale"^^xsd:string ;
-	geo:lat	"47.2520707985583 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/l'Escale>	 foaf:name 	 "l'Escale"^^xsd:string ;
+	geo:lat	"47.2520707985583"^^xsd:decimal ;
 	geo:long	"-1.56764676020397"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -2004,8 +2004,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Association_Intermédiaire_Partage_44_(Antenne_Centre_Ville)>	 foaf:name 	 "Association Intermédiaire Partage 44 (Antenne Centre Ville)"^^xsd:string ;
-	geo:lat	"47.2132461541693 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Association_Intermédiaire_Partage_44_(Antenne_Centre_Ville)>	 foaf:name 	 "Association Intermédiaire Partage 44 (Antenne Centre Ville)"^^xsd:string ;
+	geo:lat	"47.2132461541693"^^xsd:decimal ;
 	geo:long	"-1.5654937381714"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2021,8 +2021,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Clinique_Jeanne_d'Arc>	 foaf:name 	 "Clinique Jeanne d'Arc"^^xsd:string ;
-	geo:lat	"47.2175720551846 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Clinique_Jeanne_d'Arc>	 foaf:name 	 "Clinique Jeanne d'Arc"^^xsd:string ;
+	geo:lat	"47.2175720551846"^^xsd:decimal ;
 	geo:long	"-1.57723143341346"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -2038,8 +2038,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Foyer_Educatif_de_la_Jaunaie>	 foaf:name 	 "Foyer Educatif de la Jaunaie"^^xsd:string ;
-	geo:lat	"47.1938166236004 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Foyer_Educatif_de_la_Jaunaie>	 foaf:name 	 "Foyer Educatif de la Jaunaie"^^xsd:string ;
+	geo:lat	"47.1938166236004"^^xsd:decimal ;
 	geo:long	"-1.49690427508418"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44230"^^xsd:string ;
@@ -2055,8 +2055,8 @@
 	TEMPORAIRE:TypeProblem	 "110202"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Saint_Vincent_de_Paul_(Habillement)>	 foaf:name 	 "Saint Vincent de Paul (Habillement)"^^xsd:string ;
-	geo:lat	"47.2058547729319 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Saint_Vincent_de_Paul_(Habillement)>	 foaf:name 	 "Saint Vincent de Paul (Habillement)"^^xsd:string ;
+	geo:lat	"47.2058547729319"^^xsd:decimal ;
 	geo:long	"-1.55998236277056"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -2072,8 +2072,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Entreprise_d'Insertion_INSERIM>	 foaf:name 	 "Entreprise d'Insertion INSERIM"^^xsd:string ;
-	geo:lat	"47.2065949957474 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Entreprise_d'Insertion_INSERIM>	 foaf:name 	 "Entreprise d'Insertion INSERIM"^^xsd:string ;
+	geo:lat	"47.2065949957474"^^xsd:decimal ;
 	geo:long	"-1.5531714996979"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -2089,8 +2089,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Jamet>	 foaf:name 	 "Centre Médico-Social Jamet"^^xsd:string ;
-	geo:lat	"47.2063316463051 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Jamet>	 foaf:name 	 "Centre Médico-Social Jamet"^^xsd:string ;
+	geo:lat	"47.2063316463051"^^xsd:decimal ;
 	geo:long	"-1.60530041688561"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -2106,8 +2106,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/CHU_Direction_Générale_Nantes>	 foaf:name 	 "CHU Direction Générale Nantes"^^xsd:string ;
-	geo:lat	"47.2107391301707 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/CHU_Direction_Générale_Nantes>	 foaf:name 	 "CHU Direction Générale Nantes"^^xsd:string ;
+	geo:lat	"47.2107391301707"^^xsd:decimal ;
 	geo:long	"-1.55730852204484"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2123,8 +2123,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Economie_Sociale_et_Familiale_Clos_Toreau>	 foaf:name 	 "Economie Sociale et Familiale Clos Toreau"^^xsd:string ;
-	geo:lat	"47.1950883285473 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Economie_Sociale_et_Familiale_Clos_Toreau>	 foaf:name 	 "Economie Sociale et Familiale Clos Toreau"^^xsd:string ;
+	geo:lat	"47.1950883285473"^^xsd:decimal ;
 	geo:long	"-1.52831282065694"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -2140,8 +2140,8 @@
 	TEMPORAIRE:TypeProblem	 "110204"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Institut_d'Education_Motrice_de_la_Buissonnière>	 foaf:name 	 "Institut d'Education Motrice de la Buissonnière"^^xsd:string ;
-	geo:lat	"47.3046355543656 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Institut_d'Education_Motrice_de_la_Buissonnière>	 foaf:name 	 "Institut d'Education Motrice de la Buissonnière"^^xsd:string ;
+	geo:lat	"47.3046355543656"^^xsd:decimal ;
 	geo:long	"-1.55865052050779"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44240"^^xsd:string ;
@@ -2157,8 +2157,8 @@
 	TEMPORAIRE:TypeProblem	 "110102"^^xsd:string ;
 	pdll:Category	 "1101"^^xsd:string .
 
-<http://projet.com/10/Association_Intermédiaire_OSER-Forêt_Vivante_(Siège)>	 foaf:name 	 "Association Intermédiaire OSER-Forêt Vivante (Siège)"^^xsd:string ;
-	geo:lat	"47.1908310708141 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Association_Intermédiaire_OSER-Forêt_Vivante_(Siège)>	 foaf:name 	 "Association Intermédiaire OSER-Forêt Vivante (Siège)"^^xsd:string ;
+	geo:lat	"47.1908310708141"^^xsd:decimal ;
 	geo:long	"-1.54584008676911"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -2174,8 +2174,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Atelier_Chantier_d'Insertion_OSER_Forêt_Vivante>	 foaf:name 	 "Atelier Chantier d'Insertion OSER Forêt Vivante"^^xsd:string ;
-	geo:lat	"47.1907999359915 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Atelier_Chantier_d'Insertion_OSER_Forêt_Vivante>	 foaf:name 	 "Atelier Chantier d'Insertion OSER Forêt Vivante"^^xsd:string ;
+	geo:lat	"47.1907999359915"^^xsd:decimal ;
 	geo:long	"-1.54598356762737"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -2191,8 +2191,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Sportif_Rezé>	 foaf:name 	 "Centre Médico-Sportif Rezé"^^xsd:string ;
-	geo:lat	"47.1785273062926 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Sportif_Rezé>	 foaf:name 	 "Centre Médico-Sportif Rezé"^^xsd:string ;
+	geo:lat	"47.1785273062926"^^xsd:decimal ;
 	geo:long	"-1.54689192432703"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -2208,8 +2208,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_3_Moulins>	 foaf:name 	 "Centre Médico-Social 3 Moulins"^^xsd:string ;
-	geo:lat	"47.1786411293385 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_3_Moulins>	 foaf:name 	 "Centre Médico-Social 3 Moulins"^^xsd:string ;
+	geo:lat	"47.1786411293385"^^xsd:decimal ;
 	geo:long	"-1.54697811858537"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -2225,8 +2225,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Malakoff>	 foaf:name 	 "Centre Médico-Social Malakoff"^^xsd:string ;
-	geo:lat	"47.2137913975035 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Malakoff>	 foaf:name 	 "Centre Médico-Social Malakoff"^^xsd:string ;
+	geo:lat	"47.2137913975035"^^xsd:decimal ;
 	geo:long	"-1.53281957330256"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2242,8 +2242,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Secours_Catholique_(accompagnement_dans_la_durée_des_personnes_en_difficulté)_Na>	 foaf:name 	 "Secours Catholique (accompagnement dans la durée des personnes en difficulté) Na"^^xsd:string ;
-	geo:lat	"47.2206920634374 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Secours_Catholique_(accompagnement_dans_la_durée_des_personnes_en_difficulté)_Na>	 foaf:name 	 "Secours Catholique (accompagnement dans la durée des personnes en difficulté) Na"^^xsd:string ;
+	geo:lat	"47.2206920634374"^^xsd:decimal ;
 	geo:long	"-1.54621545250455"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2259,8 +2259,8 @@
 	TEMPORAIRE:TypeProblem	 "110203"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Régional_de_Transfusion_Sanguine_Nantes>	 foaf:name 	 "Centre Régional de Transfusion Sanguine Nantes"^^xsd:string ;
-	geo:lat	"47.2097523253027 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Régional_de_Transfusion_Sanguine_Nantes>	 foaf:name 	 "Centre Régional de Transfusion Sanguine Nantes"^^xsd:string ;
+	geo:lat	"47.2097523253027"^^xsd:decimal ;
 	geo:long	"-1.55150355362678"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2276,8 +2276,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Economie_Sociale_et_Familiale_Bellevue>	 foaf:name 	 "Economie Sociale et Familiale Bellevue"^^xsd:string ;
-	geo:lat	"47.2049578546709 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Economie_Sociale_et_Familiale_Bellevue>	 foaf:name 	 "Economie Sociale et Familiale Bellevue"^^xsd:string ;
+	geo:lat	"47.2049578546709"^^xsd:decimal ;
 	geo:long	"-1.60482719657702"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -2293,8 +2293,8 @@
 	TEMPORAIRE:TypeProblem	 "110204"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Point_Accueil_Services_Bellevue>	 foaf:name 	 "Point Accueil Services Bellevue"^^xsd:string ;
-	geo:lat	"47.2051670959999 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Point_Accueil_Services_Bellevue>	 foaf:name 	 "Point Accueil Services Bellevue"^^xsd:string ;
+	geo:lat	"47.2051670959999"^^xsd:decimal ;
 	geo:long	"-1.60524836348333"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -2310,8 +2310,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Association_Intermédiaire_Solidarité_ORE_CENS_Emploi>	 foaf:name 	 "Association Intermédiaire Solidarité ORE CENS Emploi"^^xsd:string ;
-	geo:lat	"47.2713287022697 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Association_Intermédiaire_Solidarité_ORE_CENS_Emploi>	 foaf:name 	 "Association Intermédiaire Solidarité ORE CENS Emploi"^^xsd:string ;
+	geo:lat	"47.2713287022697"^^xsd:decimal ;
 	geo:long	"-1.62275726790995"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44700"^^xsd:string ;
@@ -2327,8 +2327,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Hôpital_Intercommunal_Sèvres_et_Loire>	 foaf:name 	 "Hôpital Intercommunal Sèvres et Loire"^^xsd:string ;
-	geo:lat	"47.1782836996128 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Hôpital_Intercommunal_Sèvres_et_Loire>	 foaf:name 	 "Hôpital Intercommunal Sèvres et Loire"^^xsd:string ;
+	geo:lat	"47.1782836996128"^^xsd:decimal ;
 	geo:long	"-1.4941291896002"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44120"^^xsd:string ;
@@ -2344,8 +2344,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_de_Vie_(foyer_d'accueil_et_occupationnel)_,_Bonheur_Eiffel>	 foaf:name 	 "Centre de Vie (foyer d'accueil et occupationnel) , Bonheur Eiffel"^^xsd:string ;
-	geo:lat	"47.1771918684067 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_de_Vie_(foyer_d'accueil_et_occupationnel)_,_Bonheur_Eiffel>	 foaf:name 	 "Centre de Vie (foyer d'accueil et occupationnel) , Bonheur Eiffel"^^xsd:string ;
+	geo:lat	"47.1771918684067"^^xsd:decimal ;
 	geo:long	"-1.49208544111397"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44120"^^xsd:string ;
@@ -2361,8 +2361,8 @@
 	TEMPORAIRE:TypeProblem	 "110102"^^xsd:string ;
 	pdll:Category	 "1101"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Michelet>	 foaf:name 	 "Centre Médico-Social Michelet"^^xsd:string ;
-	geo:lat	"47.2330866907615 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Michelet>	 foaf:name 	 "Centre Médico-Social Michelet"^^xsd:string ;
+	geo:lat	"47.2330866907615"^^xsd:decimal ;
 	geo:long	"-1.55542657563533"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2378,8 +2378,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Entreprise_d'Insertion_Hepdale_Nantes_Services_(atelier_service)>	 foaf:name 	 "Entreprise d'Insertion Hepdale Nantes Services (atelier service)"^^xsd:string ;
-	geo:lat	"47.2340224929903 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Entreprise_d'Insertion_Hepdale_Nantes_Services_(atelier_service)>	 foaf:name 	 "Entreprise d'Insertion Hepdale Nantes Services (atelier service)"^^xsd:string ;
+	geo:lat	"47.2340224929903"^^xsd:decimal ;
 	geo:long	"-1.54181018116111"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2395,8 +2395,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_d'Aide_par_le_Travail_Saint_Sébastien>	 foaf:name 	 "Centre d'Aide par le Travail Saint Sébastien"^^xsd:string ;
-	geo:lat	"47.2075264520972 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_d'Aide_par_le_Travail_Saint_Sébastien>	 foaf:name 	 "Centre d'Aide par le Travail Saint Sébastien"^^xsd:string ;
+	geo:lat	"47.2075264520972"^^xsd:decimal ;
 	geo:long	"-1.48803197710191"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44230"^^xsd:string ;
@@ -2412,8 +2412,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/CHU_Le_Tourville>	 foaf:name 	 "CHU Le Tourville"^^xsd:string ;
-	geo:lat	"47.2100157359817 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/CHU_Le_Tourville>	 foaf:name 	 "CHU Le Tourville"^^xsd:string ;
+	geo:lat	"47.2100157359817"^^xsd:decimal ;
 	geo:long	"-1.55827776236794"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2429,8 +2429,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/CHU_Hôpital_Hôtel_Dieu>	 foaf:name 	 "CHU Hôpital Hôtel Dieu"^^xsd:string ;
-	geo:lat	"47.2100646062681 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/CHU_Hôpital_Hôtel_Dieu>	 foaf:name 	 "CHU Hôpital Hôtel Dieu"^^xsd:string ;
+	geo:lat	"47.2100646062681"^^xsd:decimal ;
 	geo:long	"-1.55476974661646"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2446,8 +2446,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/CHU_Hôpital_Urgences>	 foaf:name 	 "CHU Hôpital Urgences"^^xsd:string ;
-	geo:lat	"47.209737118077 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/CHU_Hôpital_Urgences>	 foaf:name 	 "CHU Hôpital Urgences"^^xsd:string ;
+	geo:lat	"47.209737118077"^^xsd:decimal ;
 	geo:long	"-1.5539453413356"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2463,8 +2463,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Office_Central_d'Hygiène_Sociale_Nantes>	 foaf:name 	 "Centre Médico-Social Office Central d'Hygiène Sociale Nantes"^^xsd:string ;
-	geo:lat	"47.21203569549 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Office_Central_d'Hygiène_Sociale_Nantes>	 foaf:name 	 "Centre Médico-Social Office Central d'Hygiène Sociale Nantes"^^xsd:string ;
+	geo:lat	"47.21203569549"^^xsd:decimal ;
 	geo:long	"-1.56970635045377"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -2480,8 +2480,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Alcoologie>	 foaf:name 	 "Centre Médico-Social Alcoologie"^^xsd:string ;
-	geo:lat	"47.2121078657509 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Alcoologie>	 foaf:name 	 "Centre Médico-Social Alcoologie"^^xsd:string ;
+	geo:lat	"47.2121078657509"^^xsd:decimal ;
 	geo:long	"-1.56971624423739"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -2497,8 +2497,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Atelier_Chantier_d'Insertion_UFCV>	 foaf:name 	 "Atelier Chantier d'Insertion UFCV"^^xsd:string ;
-	geo:lat	"47.2122227202395 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Atelier_Chantier_d'Insertion_UFCV>	 foaf:name 	 "Atelier Chantier d'Insertion UFCV"^^xsd:string ;
+	geo:lat	"47.2122227202395"^^xsd:decimal ;
 	geo:long	"-1.56981940312355"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -2514,8 +2514,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Pôle_Médico-Social_René_Cassin>	 foaf:name 	 "Pôle Médico-Social René Cassin"^^xsd:string ;
-	geo:lat	"47.2646260318869 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Pôle_Médico-Social_René_Cassin>	 foaf:name 	 "Pôle Médico-Social René Cassin"^^xsd:string ;
+	geo:lat	"47.2646260318869"^^xsd:decimal ;
 	geo:long	"-1.57584382582533"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -2531,8 +2531,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Unité_d'Emploi_Nord>	 foaf:name 	 "Unité d'Emploi Nord"^^xsd:string ;
-	geo:lat	"47.2645365765166 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Unité_d'Emploi_Nord>	 foaf:name 	 "Unité d'Emploi Nord"^^xsd:string ;
+	geo:lat	"47.2645365765166"^^xsd:decimal ;
 	geo:long	"-1.57564516061193"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -2548,8 +2548,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Regie_Associative_Quartiers_Saint_Herblain>	 foaf:name 	 "Regie Associative Quartiers Saint Herblain"^^xsd:string ;
-	geo:lat	"47.2211112908222 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Regie_Associative_Quartiers_Saint_Herblain>	 foaf:name 	 "Regie Associative Quartiers Saint Herblain"^^xsd:string ;
+	geo:lat	"47.2211112908222"^^xsd:decimal ;
 	geo:long	"-1.64393606907903"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -2565,8 +2565,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Entreprise_d'Insertion_Le_Relais_Atlantique>	 foaf:name 	 "Entreprise d'Insertion Le Relais Atlantique"^^xsd:string ;
-	geo:lat	"47.2217280412559 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Entreprise_d'Insertion_Le_Relais_Atlantique>	 foaf:name 	 "Entreprise d'Insertion Le Relais Atlantique"^^xsd:string ;
+	geo:lat	"47.2217280412559"^^xsd:decimal ;
 	geo:long	"-1.64170456840915"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -2582,8 +2582,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Atelier_Chantier_d'Insertion_ATAO_Loc'Auto>	 foaf:name 	 "Atelier Chantier d'Insertion ATAO Loc'Auto"^^xsd:string ;
-	geo:lat	"47.2239721725916 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Atelier_Chantier_d'Insertion_ATAO_Loc'Auto>	 foaf:name 	 "Atelier Chantier d'Insertion ATAO Loc'Auto"^^xsd:string ;
+	geo:lat	"47.2239721725916"^^xsd:decimal ;
 	geo:long	"-1.64027222072443"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -2599,8 +2599,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Atelier_Chantier_d'Insertion_L'Homme_Debout>	 foaf:name 	 "Atelier Chantier d'Insertion L'Homme Debout"^^xsd:string ;
-	geo:lat	"47.223945576687 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Atelier_Chantier_d'Insertion_L'Homme_Debout>	 foaf:name 	 "Atelier Chantier d'Insertion L'Homme Debout"^^xsd:string ;
+	geo:lat	"47.223945576687"^^xsd:decimal ;
 	geo:long	"-1.64161213202332"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -2616,8 +2616,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/CHU_Pavillon_Mère_et_l'Enfant>	 foaf:name 	 "CHU Pavillon Mère et l'Enfant"^^xsd:string ;
-	geo:lat	"47.2091858038915 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/CHU_Pavillon_Mère_et_l'Enfant>	 foaf:name 	 "CHU Pavillon Mère et l'Enfant"^^xsd:string ;
+	geo:lat	"47.2091858038915"^^xsd:decimal ;
 	geo:long	"-1.55277133418509"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2633,8 +2633,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Atelier_Chantier_d'Insertion_Saint-Benoit_Labre>	 foaf:name 	 "Atelier Chantier d'Insertion Saint-Benoit Labre"^^xsd:string ;
-	geo:lat	"47.183829504764 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Atelier_Chantier_d'Insertion_Saint-Benoit_Labre>	 foaf:name 	 "Atelier Chantier d'Insertion Saint-Benoit Labre"^^xsd:string ;
+	geo:lat	"47.183829504764"^^xsd:decimal ;
 	geo:long	"-1.45334989399728"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44120"^^xsd:string ;
@@ -2650,8 +2650,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Atelier_Chantier_d'Insertion_Les_Restos_du_Coeur>	 foaf:name 	 "Atelier Chantier d'Insertion Les Restos du Coeur"^^xsd:string ;
-	geo:lat	"47.2497347220595 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Atelier_Chantier_d'Insertion_Les_Restos_du_Coeur>	 foaf:name 	 "Atelier Chantier d'Insertion Les Restos du Coeur"^^xsd:string ;
+	geo:lat	"47.2497347220595"^^xsd:decimal ;
 	geo:long	"-1.50115268350512"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -2667,8 +2667,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Bains_Douches_Nantes>	 foaf:name 	 "Bains Douches Nantes"^^xsd:string ;
-	geo:lat	"47.2131452441423 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Bains_Douches_Nantes>	 foaf:name 	 "Bains Douches Nantes"^^xsd:string ;
+	geo:lat	"47.2131452441423"^^xsd:decimal ;
 	geo:long	"-1.55050855509005"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2684,8 +2684,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_d'Hébergement_Réinsertion_Sociale_Olivettes>	 foaf:name 	 "Centre d'Hébergement Réinsertion Sociale Olivettes"^^xsd:string ;
-	geo:lat	"47.2105430005377 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_d'Hébergement_Réinsertion_Sociale_Olivettes>	 foaf:name 	 "Centre d'Hébergement Réinsertion Sociale Olivettes"^^xsd:string ;
+	geo:lat	"47.2105430005377"^^xsd:decimal ;
 	geo:long	"-1.54934660196638"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2701,8 +2701,8 @@
 	TEMPORAIRE:TypeProblem	 "110202"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Point_Accueil_Services_Malakoff>	 foaf:name 	 "Point Accueil Services Malakoff"^^xsd:string ;
-	geo:lat	"47.2149840243616 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Point_Accueil_Services_Malakoff>	 foaf:name 	 "Point Accueil Services Malakoff"^^xsd:string ;
+	geo:lat	"47.2149840243616"^^xsd:decimal ;
 	geo:long	"-1.52729244251515"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2718,8 +2718,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Economie_Sociale_et_Familiale_Malakoff>	 foaf:name 	 "Economie Sociale et Familiale Malakoff"^^xsd:string ;
-	geo:lat	"47.2144166973857 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Economie_Sociale_et_Familiale_Malakoff>	 foaf:name 	 "Economie Sociale et Familiale Malakoff"^^xsd:string ;
+	geo:lat	"47.2144166973857"^^xsd:decimal ;
 	geo:long	"-1.52785385634862"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2735,8 +2735,8 @@
 	TEMPORAIRE:TypeProblem	 "110204"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Psychologique_Malakoff>	 foaf:name 	 "Centre Médico-Psychologique Malakoff"^^xsd:string ;
-	geo:lat	"47.2142614860022 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Psychologique_Malakoff>	 foaf:name 	 "Centre Médico-Psychologique Malakoff"^^xsd:string ;
+	geo:lat	"47.2142614860022"^^xsd:decimal ;
 	geo:long	"-1.52827370735814"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2752,8 +2752,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Recherche_et_Rencontres_(Espace_Ecoute)_Nantes>	 foaf:name 	 "Recherche et Rencontres (Espace Ecoute) Nantes"^^xsd:string ;
-	geo:lat	"47.2232832413768 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Recherche_et_Rencontres_(Espace_Ecoute)_Nantes>	 foaf:name 	 "Recherche et Rencontres (Espace Ecoute) Nantes"^^xsd:string ;
+	geo:lat	"47.2232832413768"^^xsd:decimal ;
 	geo:long	"-1.55412757670266"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2769,8 +2769,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Hauts_Pavés>	 foaf:name 	 "Centre Médico-Social Hauts Pavés"^^xsd:string ;
-	geo:lat	"47.2240324581932 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Hauts_Pavés>	 foaf:name 	 "Centre Médico-Social Hauts Pavés"^^xsd:string ;
+	geo:lat	"47.2240324581932"^^xsd:decimal ;
 	geo:long	"-1.56489629719261"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2786,8 +2786,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Breil_Malville>	 foaf:name 	 "Centre Médico-Social Breil Malville"^^xsd:string ;
-	geo:lat	"47.2285990946024 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Breil_Malville>	 foaf:name 	 "Centre Médico-Social Breil Malville"^^xsd:string ;
+	geo:lat	"47.2285990946024"^^xsd:decimal ;
 	geo:long	"-1.58613461846472"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -2803,8 +2803,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_la_Pilotière>	 foaf:name 	 "Centre Médico-Social la Pilotière"^^xsd:string ;
-	geo:lat	"47.2452524741819 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_la_Pilotière>	 foaf:name 	 "Centre Médico-Social la Pilotière"^^xsd:string ;
+	geo:lat	"47.2452524741819"^^xsd:decimal ;
 	geo:long	"-1.5243219508451"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -2820,8 +2820,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Economie_Sociale_et_Familiale_Pilotière>	 foaf:name 	 "Economie Sociale et Familiale Pilotière"^^xsd:string ;
-	geo:lat	"47.2449941845129 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Economie_Sociale_et_Familiale_Pilotière>	 foaf:name 	 "Economie Sociale et Familiale Pilotière"^^xsd:string ;
+	geo:lat	"47.2449941845129"^^xsd:decimal ;
 	geo:long	"-1.52419763000142"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -2837,8 +2837,8 @@
 	TEMPORAIRE:TypeProblem	 "110204"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Institut_Médico-Pédagogique__la_Papotière>	 foaf:name 	 "Institut Médico-Pédagogique  la Papotière"^^xsd:string ;
-	geo:lat	"47.239973307873 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Institut_Médico-Pédagogique__la_Papotière>	 foaf:name 	 "Institut Médico-Pédagogique  la Papotière"^^xsd:string ;
+	geo:lat	"47.239973307873"^^xsd:decimal ;
 	geo:long	"-1.49582944033916"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -2854,8 +2854,8 @@
 	TEMPORAIRE:TypeProblem	 "110101"^^xsd:string ;
 	pdll:Category	 "1101"^^xsd:string .
 
-<http://projet.com/10/Restaurant_du_Coeur__Gustave_Roch>	 foaf:name 	 "Restaurant du Coeur  Gustave Roch"^^xsd:string ;
-	geo:lat	"47.2023589118884 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Restaurant_du_Coeur__Gustave_Roch>	 foaf:name 	 "Restaurant du Coeur  Gustave Roch"^^xsd:string ;
+	geo:lat	"47.2023589118884"^^xsd:decimal ;
 	geo:long	"-1.5532058523237"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -2871,8 +2871,8 @@
 	TEMPORAIRE:TypeProblem	 "110203"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Résidence_Saint_Vincent_de_Paul_Nantes>	 foaf:name 	 "Résidence Saint Vincent de Paul Nantes"^^xsd:string ;
-	geo:lat	"47.2153066575903 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Résidence_Saint_Vincent_de_Paul_Nantes>	 foaf:name 	 "Résidence Saint Vincent de Paul Nantes"^^xsd:string ;
+	geo:lat	"47.2153066575903"^^xsd:decimal ;
 	geo:long	"-1.56651260229996"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2888,8 +2888,8 @@
 	TEMPORAIRE:TypeProblem	 "110202"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Atelier_Chantier_d'Insertion_Banque_Alimentaire_de_Loire-Atlantique>	 foaf:name 	 "Atelier Chantier d'Insertion Banque Alimentaire de Loire-Atlantique"^^xsd:string ;
-	geo:lat	"47.2201172697129 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Atelier_Chantier_d'Insertion_Banque_Alimentaire_de_Loire-Atlantique>	 foaf:name 	 "Atelier Chantier d'Insertion Banque Alimentaire de Loire-Atlantique"^^xsd:string ;
+	geo:lat	"47.2201172697129"^^xsd:decimal ;
 	geo:long	"-1.51171914540739"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -2905,8 +2905,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Beau_Rivage_(Petits_Frères_des_Pauvres)>	 foaf:name 	 "Centre Beau Rivage (Petits Frères des Pauvres)"^^xsd:string ;
-	geo:lat	"47.2188040888489 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Beau_Rivage_(Petits_Frères_des_Pauvres)>	 foaf:name 	 "Centre Beau Rivage (Petits Frères des Pauvres)"^^xsd:string ;
+	geo:lat	"47.2188040888489"^^xsd:decimal ;
 	geo:long	"-1.51307661886731"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -2922,8 +2922,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico_Sportif_Beaulieu>	 foaf:name 	 "Centre Médico Sportif Beaulieu"^^xsd:string ;
-	geo:lat	"47.2091554026254 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico_Sportif_Beaulieu>	 foaf:name 	 "Centre Médico Sportif Beaulieu"^^xsd:string ;
+	geo:lat	"47.2091554026254"^^xsd:decimal ;
 	geo:long	"-1.53734459346585"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -2939,8 +2939,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Maison_d'Accueil_Jour_Francisco_Ferrer>	 foaf:name 	 "Maison d'Accueil Jour Francisco Ferrer"^^xsd:string ;
-	geo:lat	"47.2201610945661 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Maison_d'Accueil_Jour_Francisco_Ferrer>	 foaf:name 	 "Maison d'Accueil Jour Francisco Ferrer"^^xsd:string ;
+	geo:lat	"47.2201610945661"^^xsd:decimal ;
 	geo:long	"-1.53290060089188"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2956,8 +2956,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Foyer_Beaumanoir>	 foaf:name 	 "Foyer Beaumanoir"^^xsd:string ;
-	geo:lat	"47.2127653895099 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Foyer_Beaumanoir>	 foaf:name 	 "Foyer Beaumanoir"^^xsd:string ;
+	geo:lat	"47.2127653895099"^^xsd:decimal ;
 	geo:long	"-1.5703959499341"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -2973,8 +2973,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_d'Accueil_Tréméac>	 foaf:name 	 "Centre d'Accueil Tréméac"^^xsd:string ;
-	geo:lat	"47.2127663777583 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_d'Accueil_Tréméac>	 foaf:name 	 "Centre d'Accueil Tréméac"^^xsd:string ;
+	geo:lat	"47.2127663777583"^^xsd:decimal ;
 	geo:long	"-1.57057936375136"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -2990,8 +2990,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Restaurant_Associatif_Santos_Dumont>	 foaf:name 	 "Restaurant Associatif Santos Dumont"^^xsd:string ;
-	geo:lat	"47.2039289813941 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Restaurant_Associatif_Santos_Dumont>	 foaf:name 	 "Restaurant Associatif Santos Dumont"^^xsd:string ;
+	geo:lat	"47.2039289813941"^^xsd:decimal ;
 	geo:long	"-1.54849588275334"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -3007,8 +3007,8 @@
 	TEMPORAIRE:TypeProblem	 "110203"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Coordination_Accueil_Orientation_Nantes>	 foaf:name 	 "Coordination Accueil Orientation Nantes"^^xsd:string ;
-	geo:lat	"47.2186934576076 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Coordination_Accueil_Orientation_Nantes>	 foaf:name 	 "Coordination Accueil Orientation Nantes"^^xsd:string ;
+	geo:lat	"47.2186934576076"^^xsd:decimal ;
 	geo:long	"-1.55239561657516"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3024,8 +3024,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_d'Accueil_La_Halte_Canclaux>	 foaf:name 	 "Centre d'Accueil La Halte Canclaux"^^xsd:string ;
-	geo:lat	"47.2149031592386 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_d'Accueil_La_Halte_Canclaux>	 foaf:name 	 "Centre d'Accueil La Halte Canclaux"^^xsd:string ;
+	geo:lat	"47.2149031592386"^^xsd:decimal ;
 	geo:long	"-1.57512886775967"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -3041,8 +3041,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Entreprise_d'Insertion_Presta_Entreprise>	 foaf:name 	 "Entreprise d'Insertion Presta Entreprise"^^xsd:string ;
-	geo:lat	"47.2199530955315 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Entreprise_d'Insertion_Presta_Entreprise>	 foaf:name 	 "Entreprise d'Insertion Presta Entreprise"^^xsd:string ;
+	geo:lat	"47.2199530955315"^^xsd:decimal ;
 	geo:long	"-1.64623973646822"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -3058,8 +3058,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Entreprise_d'Insertion_ENVIE_44>	 foaf:name 	 "Entreprise d'Insertion ENVIE 44"^^xsd:string ;
-	geo:lat	"47.2321986250956 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Entreprise_d'Insertion_ENVIE_44>	 foaf:name 	 "Entreprise d'Insertion ENVIE 44"^^xsd:string ;
+	geo:lat	"47.2321986250956"^^xsd:decimal ;
 	geo:long	"-1.65118170285619"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -3075,8 +3075,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Restaurant_Claire_Fontaine>	 foaf:name 	 "Restaurant Claire Fontaine"^^xsd:string ;
-	geo:lat	"47.2218406409442 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Restaurant_Claire_Fontaine>	 foaf:name 	 "Restaurant Claire Fontaine"^^xsd:string ;
+	geo:lat	"47.2218406409442"^^xsd:decimal ;
 	geo:long	"-1.55373474250351"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3092,8 +3092,8 @@
 	TEMPORAIRE:TypeProblem	 "110203"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Foyer_Saint_Martin,_Les_Eaux_Vives>	 foaf:name 	 "Foyer Saint Martin, Les Eaux Vives"^^xsd:string ;
-	geo:lat	"47.2217825237386 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Foyer_Saint_Martin,_Les_Eaux_Vives>	 foaf:name 	 "Foyer Saint Martin, Les Eaux Vives"^^xsd:string ;
+	geo:lat	"47.2217825237386"^^xsd:decimal ;
 	geo:long	"-1.55364735944256"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3109,8 +3109,8 @@
 	TEMPORAIRE:TypeProblem	 "110202"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Restaurant_Brin_de_Causette>	 foaf:name 	 "Restaurant Brin de Causette"^^xsd:string ;
-	geo:lat	"47.2200777274075 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Restaurant_Brin_de_Causette>	 foaf:name 	 "Restaurant Brin de Causette"^^xsd:string ;
+	geo:lat	"47.2200777274075"^^xsd:decimal ;
 	geo:long	"-1.55956759850475"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3126,8 +3126,8 @@
 	TEMPORAIRE:TypeProblem	 "110203"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Restaurant_du_Coeur_-_Sud>	 foaf:name 	 "Restaurant du Coeur - Sud"^^xsd:string ;
-	geo:lat	"47.1888325095434 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Restaurant_du_Coeur_-_Sud>	 foaf:name 	 "Restaurant du Coeur - Sud"^^xsd:string ;
+	geo:lat	"47.1888325095434"^^xsd:decimal ;
 	geo:long	"-1.50275677508274"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44230"^^xsd:string ;
@@ -3143,8 +3143,8 @@
 	TEMPORAIRE:TypeProblem	 "110203"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Atelier_Chantier_d'Insertion_A_R_B_R_E_S>	 foaf:name 	 "Atelier Chantier d'Insertion A.R.B.R.E.S"^^xsd:string ;
-	geo:lat	"47.260757653169 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Atelier_Chantier_d'Insertion_A_R_B_R_E_S>	 foaf:name 	 "Atelier Chantier d'Insertion A.R.B.R.E.S"^^xsd:string ;
+	geo:lat	"47.260757653169"^^xsd:decimal ;
 	geo:long	"-1.57066063719947"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -3160,8 +3160,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Clinique_Psychiatrique_du_Parc>	 foaf:name 	 "Clinique Psychiatrique du Parc"^^xsd:string ;
-	geo:lat	"47.2276364468142 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Clinique_Psychiatrique_du_Parc>	 foaf:name 	 "Clinique Psychiatrique du Parc"^^xsd:string ;
+	geo:lat	"47.2276364468142"^^xsd:decimal ;
 	geo:long	"-1.56163207118038"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3177,8 +3177,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Secours_Populaire_(Colis_Alimentaires)_Nantes>	 foaf:name 	 "Secours Populaire (Colis Alimentaires) Nantes"^^xsd:string ;
-	geo:lat	"47.2298101474159 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Secours_Populaire_(Colis_Alimentaires)_Nantes>	 foaf:name 	 "Secours Populaire (Colis Alimentaires) Nantes"^^xsd:string ;
+	geo:lat	"47.2298101474159"^^xsd:decimal ;
 	geo:long	"-1.56327548624493"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3194,8 +3194,8 @@
 	TEMPORAIRE:TypeProblem	 "110203"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Clinique_Saint_Augustin>	 foaf:name 	 "Clinique Saint Augustin"^^xsd:string ;
-	geo:lat	"47.2254895728042 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Clinique_Saint_Augustin>	 foaf:name 	 "Clinique Saint Augustin"^^xsd:string ;
+	geo:lat	"47.2254895728042"^^xsd:decimal ;
 	geo:long	"-1.55918092038746"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3211,8 +3211,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Entreprise_d'Insertion_ADC_Propreté>	 foaf:name 	 "Entreprise d'Insertion ADC Propreté"^^xsd:string ;
-	geo:lat	"47.1988185547058 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Entreprise_d'Insertion_ADC_Propreté>	 foaf:name 	 "Entreprise d'Insertion ADC Propreté"^^xsd:string ;
+	geo:lat	"47.1988185547058"^^xsd:decimal ;
 	geo:long	"-1.61197933672724"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -3228,8 +3228,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico_Psycho_Pédagogique_Henri_Vallon>	 foaf:name 	 "Centre Médico Psycho Pédagogique Henri Vallon"^^xsd:string ;
-	geo:lat	"47.2209495745629 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico_Psycho_Pédagogique_Henri_Vallon>	 foaf:name 	 "Centre Médico Psycho Pédagogique Henri Vallon"^^xsd:string ;
+	geo:lat	"47.2209495745629"^^xsd:decimal ;
 	geo:long	"-1.59240279160081"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -3245,8 +3245,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Restaurant_du_Coeur_-_Ouest>	 foaf:name 	 "Restaurant du Coeur - Ouest"^^xsd:string ;
-	geo:lat	"47.1956428593094 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Restaurant_du_Coeur_-_Ouest>	 foaf:name 	 "Restaurant du Coeur - Ouest"^^xsd:string ;
+	geo:lat	"47.1956428593094"^^xsd:decimal ;
 	geo:long	"-1.52086515897107"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44230"^^xsd:string ;
@@ -3262,8 +3262,8 @@
 	TEMPORAIRE:TypeProblem	 "110203"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Prévention_de_la_Tuberculose_et_Tabatologie>	 foaf:name 	 "Prévention de la Tuberculose et Tabatologie"^^xsd:string ;
-	geo:lat	"47.2127481249889 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Prévention_de_la_Tuberculose_et_Tabatologie>	 foaf:name 	 "Prévention de la Tuberculose et Tabatologie"^^xsd:string ;
+	geo:lat	"47.2127481249889"^^xsd:decimal ;
 	geo:long	"-1.56573964394121"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3279,8 +3279,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Maison_d'Accueil_du_Gué_Robert>	 foaf:name 	 "Maison d'Accueil du Gué Robert"^^xsd:string ;
-	geo:lat	"47.221301944533 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Maison_d'Accueil_du_Gué_Robert>	 foaf:name 	 "Maison d'Accueil du Gué Robert"^^xsd:string ;
+	geo:lat	"47.221301944533"^^xsd:decimal ;
 	geo:long	"-1.53022255397771"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3296,8 +3296,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/CHU_Hôpital_de_Jour_Psychiatrie_-_St_Donatien>	 foaf:name 	 "CHU Hôpital de Jour Psychiatrie - St Donatien"^^xsd:string ;
-	geo:lat	"47.2265049125546 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/CHU_Hôpital_de_Jour_Psychiatrie_-_St_Donatien>	 foaf:name 	 "CHU Hôpital de Jour Psychiatrie - St Donatien"^^xsd:string ;
+	geo:lat	"47.2265049125546"^^xsd:decimal ;
 	geo:long	"-1.54888933295659"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3313,8 +3313,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Unité_de_Recherche_CHR_(CHU)>	 foaf:name 	 "Unité de Recherche CHR (CHU)"^^xsd:string ;
-	geo:lat	"47.2107206430021 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Unité_de_Recherche_CHR_(CHU)>	 foaf:name 	 "Unité de Recherche CHR (CHU)"^^xsd:string ;
+	geo:lat	"47.2107206430021"^^xsd:decimal ;
 	geo:long	"-1.55412204738858"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3330,8 +3330,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Formation_Recherche_Educative_Sociale_Saint_Herblain>	 foaf:name 	 "Centre Formation Recherche Educative Sociale Saint Herblain"^^xsd:string ;
-	geo:lat	"47.2572109132809 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Formation_Recherche_Educative_Sociale_Saint_Herblain>	 foaf:name 	 "Centre Formation Recherche Educative Sociale Saint Herblain"^^xsd:string ;
+	geo:lat	"47.2572109132809"^^xsd:decimal ;
 	geo:long	"-1.51999026455052"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -3347,8 +3347,8 @@
 	TEMPORAIRE:TypeProblem	 "110203"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Commmission_Technique_Orientation_Reclassement_Prof__Nantes>	 foaf:name 	 "Commmission Technique Orientation Reclassement Prof. Nantes"^^xsd:string ;
-	geo:lat	"47.2068773188098 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Commmission_Technique_Orientation_Reclassement_Prof__Nantes>	 foaf:name 	 "Commmission Technique Orientation Reclassement Prof. Nantes"^^xsd:string ;
+	geo:lat	"47.2068773188098"^^xsd:decimal ;
 	geo:long	"-1.54600080312059"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -3364,8 +3364,8 @@
 	TEMPORAIRE:TypeProblem	 "110102"^^xsd:string ;
 	pdll:Category	 "1101"^^xsd:string .
 
-<http://projet.com/10/Entreprise_d'Insertion_Tris_Actif_Ouest>	 foaf:name 	 "Entreprise d'Insertion Tris Actif Ouest"^^xsd:string ;
-	geo:lat	"47.2233655498008 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Entreprise_d'Insertion_Tris_Actif_Ouest>	 foaf:name 	 "Entreprise d'Insertion Tris Actif Ouest"^^xsd:string ;
+	geo:lat	"47.2233655498008"^^xsd:decimal ;
 	geo:long	"-1.64231299893751"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -3381,8 +3381,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Association_Intermédiaire_CAAP_Ouest>	 foaf:name 	 "Association Intermédiaire CAAP Ouest"^^xsd:string ;
-	geo:lat	"47.2250462749129 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Association_Intermédiaire_CAAP_Ouest>	 foaf:name 	 "Association Intermédiaire CAAP Ouest"^^xsd:string ;
+	geo:lat	"47.2250462749129"^^xsd:decimal ;
 	geo:long	"-1.64061199447619"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -3398,8 +3398,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Atelier_Chantier_d'Insertion_OCEAN>	 foaf:name 	 "Atelier Chantier d'Insertion OCEAN"^^xsd:string ;
-	geo:lat	"47.2248288903425 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Atelier_Chantier_d'Insertion_OCEAN>	 foaf:name 	 "Atelier Chantier d'Insertion OCEAN"^^xsd:string ;
+	geo:lat	"47.2248288903425"^^xsd:decimal ;
 	geo:long	"-1.64081677838952"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -3415,8 +3415,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Atelier_Chantier_d'Insertion_Nantes_Ecologie>	 foaf:name 	 "Atelier Chantier d'Insertion Nantes Ecologie"^^xsd:string ;
-	geo:lat	"47.2170788363868 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Atelier_Chantier_d'Insertion_Nantes_Ecologie>	 foaf:name 	 "Atelier Chantier d'Insertion Nantes Ecologie"^^xsd:string ;
+	geo:lat	"47.2170788363868"^^xsd:decimal ;
 	geo:long	"-1.55008755226042"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3432,8 +3432,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Economie_Sociale_et_Familiale_Dervallières>	 foaf:name 	 "Economie Sociale et Familiale Dervallières"^^xsd:string ;
-	geo:lat	"47.2232816981491 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Economie_Sociale_et_Familiale_Dervallières>	 foaf:name 	 "Economie Sociale et Familiale Dervallières"^^xsd:string ;
+	geo:lat	"47.2232816981491"^^xsd:decimal ;
 	geo:long	"-1.59810346904797"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -3449,8 +3449,8 @@
 	TEMPORAIRE:TypeProblem	 "110204"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Atelier_Chantier_d'Insertion_TRAJET_Pain_Contre_la_Faim>	 foaf:name 	 "Atelier Chantier d'Insertion TRAJET Pain Contre la Faim"^^xsd:string ;
-	geo:lat	"47.2578506704216 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Atelier_Chantier_d'Insertion_TRAJET_Pain_Contre_la_Faim>	 foaf:name 	 "Atelier Chantier d'Insertion TRAJET Pain Contre la Faim"^^xsd:string ;
+	geo:lat	"47.2578506704216"^^xsd:decimal ;
 	geo:long	"-1.65440791964524"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44880"^^xsd:string ;
@@ -3466,8 +3466,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Saint-Herblain_Bourg>	 foaf:name 	 "Centre Médico-Social Saint-Herblain Bourg"^^xsd:string ;
-	geo:lat	"47.2129166666754 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Saint-Herblain_Bourg>	 foaf:name 	 "Centre Médico-Social Saint-Herblain Bourg"^^xsd:string ;
+	geo:lat	"47.2129166666754"^^xsd:decimal ;
 	geo:long	"-1.64870512694279"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -3483,8 +3483,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico_Sportif_Saint_Herblain>	 foaf:name 	 "Centre Médico Sportif Saint Herblain"^^xsd:string ;
-	geo:lat	"47.2129523785886 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico_Sportif_Saint_Herblain>	 foaf:name 	 "Centre Médico Sportif Saint Herblain"^^xsd:string ;
+	geo:lat	"47.2129523785886"^^xsd:decimal ;
 	geo:long	"-1.6488497606266"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -3500,8 +3500,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Régie_Associative_Quartiers_Saint_Herblain>	 foaf:name 	 "Régie Associative Quartiers Saint Herblain"^^xsd:string ;
-	geo:lat	"47.244430063559 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Régie_Associative_Quartiers_Saint_Herblain>	 foaf:name 	 "Régie Associative Quartiers Saint Herblain"^^xsd:string ;
+	geo:lat	"47.244430063559"^^xsd:decimal ;
 	geo:long	"-1.60812403031295"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -3517,8 +3517,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_(DISS)__Bourg>	 foaf:name 	 "Centre Médico-Social (DISS)  Bourg"^^xsd:string ;
-	geo:lat	"47.1794178234004 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_(DISS)__Bourg>	 foaf:name 	 "Centre Médico-Social (DISS)  Bourg"^^xsd:string ;
+	geo:lat	"47.1794178234004"^^xsd:decimal ;
 	geo:long	"-1.62286000264971"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44340"^^xsd:string ;
@@ -3534,8 +3534,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Mission_Locale_Emploi_Jeunes_Rezé>	 foaf:name 	 "Mission Locale Emploi Jeunes Rezé"^^xsd:string ;
-	geo:lat	"47.1913828044629 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Mission_Locale_Emploi_Jeunes_Rezé>	 foaf:name 	 "Mission Locale Emploi Jeunes Rezé"^^xsd:string ;
+	geo:lat	"47.1913828044629"^^xsd:decimal ;
 	geo:long	"-1.56947002668"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -3551,8 +3551,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Point_d'Information_Jeunesse_Rezé_Centre>	 foaf:name 	 "Point d'Information Jeunesse Rezé Centre"^^xsd:string ;
-	geo:lat	"47.1913598431387 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Point_d'Information_Jeunesse_Rezé_Centre>	 foaf:name 	 "Point d'Information Jeunesse Rezé Centre"^^xsd:string ;
+	geo:lat	"47.1913598431387"^^xsd:decimal ;
 	geo:long	"-1.56948843541101"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -3568,8 +3568,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Aide_par_le_Travail_Public_Départemental_Vertou>	 foaf:name 	 "Centre Aide par le Travail Public Départemental Vertou"^^xsd:string ;
-	geo:lat	"47.1838635184052 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Aide_par_le_Travail_Public_Départemental_Vertou>	 foaf:name 	 "Centre Aide par le Travail Public Départemental Vertou"^^xsd:string ;
+	geo:lat	"47.1838635184052"^^xsd:decimal ;
 	geo:long	"-1.48325005919409"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44120"^^xsd:string ;
@@ -3585,8 +3585,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Institut_Médico-Educatif_,_Le_Val_de_Sèvre>	 foaf:name 	 "Institut Médico-Educatif , Le Val de Sèvre"^^xsd:string ;
-	geo:lat	"47.1551326568603 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Institut_Médico-Educatif_,_Le_Val_de_Sèvre>	 foaf:name 	 "Institut Médico-Educatif , Le Val de Sèvre"^^xsd:string ;
+	geo:lat	"47.1551326568603"^^xsd:decimal ;
 	geo:long	"-1.45109341437488"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44120"^^xsd:string ;
@@ -3602,8 +3602,8 @@
 	TEMPORAIRE:TypeProblem	 "110101"^^xsd:string ;
 	pdll:Category	 "1101"^^xsd:string .
 
-<http://projet.com/10/Institut_pour_Handicapés_Visuels_,Les_Hauts_Thébaudières>	 foaf:name 	 "Institut pour Handicapés Visuels ,Les Hauts Thébaudières"^^xsd:string ;
-	geo:lat	"47.1565962857382 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Institut_pour_Handicapés_Visuels_,Les_Hauts_Thébaudières>	 foaf:name 	 "Institut pour Handicapés Visuels ,Les Hauts Thébaudières"^^xsd:string ;
+	geo:lat	"47.1565962857382"^^xsd:decimal ;
 	geo:long	"-1.4473706203127"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44120"^^xsd:string ;
@@ -3619,8 +3619,8 @@
 	TEMPORAIRE:TypeProblem	 "110102"^^xsd:string ;
 	pdll:Category	 "1101"^^xsd:string .
 
-<http://projet.com/10/Economie_Sociale_et_Familiale_Breil_Malville>	 foaf:name 	 "Economie Sociale et Familiale Breil Malville"^^xsd:string ;
-	geo:lat	"47.2339518588234 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Economie_Sociale_et_Familiale_Breil_Malville>	 foaf:name 	 "Economie Sociale et Familiale Breil Malville"^^xsd:string ;
+	geo:lat	"47.2339518588234"^^xsd:decimal ;
 	geo:long	"-1.58169401881195"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -3636,8 +3636,8 @@
 	TEMPORAIRE:TypeProblem	 "110204"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Clinique_Mutualiste>	 foaf:name 	 "Clinique Mutualiste"^^xsd:string ;
-	geo:lat	"47.1916227168911 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Clinique_Mutualiste>	 foaf:name 	 "Clinique Mutualiste"^^xsd:string ;
+	geo:lat	"47.1916227168911"^^xsd:decimal ;
 	geo:long	"-1.50125204057764"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44230"^^xsd:string ;
@@ -3653,8 +3653,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Sainte_Luce_sur_Loire>	 foaf:name 	 "Centre Médico-Social Sainte Luce sur Loire"^^xsd:string ;
-	geo:lat	"47.2484079030159 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Sainte_Luce_sur_Loire>	 foaf:name 	 "Centre Médico-Social Sainte Luce sur Loire"^^xsd:string ;
+	geo:lat	"47.2484079030159"^^xsd:decimal ;
 	geo:long	"-1.48271252749765"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44980"^^xsd:string ;
@@ -3670,8 +3670,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Restaurant_du_Coeur_Nantes>	 foaf:name 	 "Restaurant du Coeur Nantes"^^xsd:string ;
-	geo:lat	"47.2033218640729 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Restaurant_du_Coeur_Nantes>	 foaf:name 	 "Restaurant du Coeur Nantes"^^xsd:string ;
+	geo:lat	"47.2033218640729"^^xsd:decimal ;
 	geo:long	"-1.55385865567089"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -3687,8 +3687,8 @@
 	TEMPORAIRE:TypeProblem	 "110203"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Foyer_Ty_Ar_Vugale>	 foaf:name 	 "Foyer Ty Ar Vugale"^^xsd:string ;
-	geo:lat	"47.2408700092928 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Foyer_Ty_Ar_Vugale>	 foaf:name 	 "Foyer Ty Ar Vugale"^^xsd:string ;
+	geo:lat	"47.2408700092928"^^xsd:decimal ;
 	geo:long	"-1.53221620395453"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -3704,8 +3704,8 @@
 	TEMPORAIRE:TypeProblem	 "110202"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Clinique_Urologique_Nantes_Atlantique>	 foaf:name 	 "Clinique Urologique Nantes Atlantique"^^xsd:string ;
-	geo:lat	"47.2223981246018 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Clinique_Urologique_Nantes_Atlantique>	 foaf:name 	 "Clinique Urologique Nantes Atlantique"^^xsd:string ;
+	geo:lat	"47.2223981246018"^^xsd:decimal ;
 	geo:long	"-1.6354687638856"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -3721,8 +3721,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Clinique_Jules_Verne>	 foaf:name 	 "Clinique Jules Verne"^^xsd:string ;
-	geo:lat	"47.2488930413814 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Clinique_Jules_Verne>	 foaf:name 	 "Clinique Jules Verne"^^xsd:string ;
+	geo:lat	"47.2488930413814"^^xsd:decimal ;
 	geo:long	"-1.51989549417718"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -3738,8 +3738,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Atelier_Chantier_d'Insertion__EPLEFPA_Jules_Rieffel>	 foaf:name 	 "Atelier Chantier d'Insertion  EPLEFPA Jules Rieffel"^^xsd:string ;
-	geo:lat	"47.2522658777224 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Atelier_Chantier_d'Insertion__EPLEFPA_Jules_Rieffel>	 foaf:name 	 "Atelier Chantier d'Insertion  EPLEFPA Jules Rieffel"^^xsd:string ;
+	geo:lat	"47.2522658777224"^^xsd:decimal ;
 	geo:long	"-1.64263362955983"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -3755,8 +3755,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Pédagogique_CENRO>	 foaf:name 	 "Centre Médico-Pédagogique CENRO"^^xsd:string ;
-	geo:lat	"47.1786494081209 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Pédagogique_CENRO>	 foaf:name 	 "Centre Médico-Pédagogique CENRO"^^xsd:string ;
+	geo:lat	"47.1786494081209"^^xsd:decimal ;
 	geo:long	"-1.48806172039653"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44120"^^xsd:string ;
@@ -3772,8 +3772,8 @@
 	TEMPORAIRE:TypeProblem	 "110101"^^xsd:string ;
 	pdll:Category	 "1101"^^xsd:string .
 
-<http://projet.com/10/Hôpital_de_la_Seilleraye>	 foaf:name 	 "Hôpital de la Seilleraye"^^xsd:string ;
-	geo:lat	"47.3009718115226 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Hôpital_de_la_Seilleraye>	 foaf:name 	 "Hôpital de la Seilleraye"^^xsd:string ;
+	geo:lat	"47.3009718115226"^^xsd:decimal ;
 	geo:long	"-1.42228921901466"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44470"^^xsd:string ;
@@ -3789,8 +3789,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Atelier_Chantier_d'Insertion_des_2_Rives>	 foaf:name 	 "Atelier Chantier d'Insertion des 2 Rives"^^xsd:string ;
-	geo:lat	"47.2587822497962 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Atelier_Chantier_d'Insertion_des_2_Rives1> foaf:name  "Atelier Chantier d'Insertion des 2 Rives"^^xsd:string ;
+	geo:lat	"47.2587822497962"^^xsd:decimal ;
 	geo:long	"-1.55201146385472"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44240"^^xsd:string ;
@@ -3806,8 +3806,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médical_Le_Pellerin>	 foaf:name 	 "Centre Médical Le Pellerin"^^xsd:string ;
-	geo:lat	"47.1988568385058 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médical_Le_Pellerin>	 foaf:name 	 "Centre Médical Le Pellerin"^^xsd:string ;
+	geo:lat	"47.1988568385058"^^xsd:decimal ;
 	geo:long	"-1.75189216682603"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44640"^^xsd:string ;
@@ -3823,8 +3823,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_médico-social_Pitre_Athénas>	 foaf:name 	 "Centre médico-social Pitre Athénas"^^xsd:string ;
-	geo:lat	"47.1807847028697 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_médico-social_Pitre_Athénas>	 foaf:name 	 "Centre médico-social Pitre Athénas"^^xsd:string ;
+	geo:lat	"47.1807847028697"^^xsd:decimal ;
 	geo:long	"-1.52904364464861"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -3840,8 +3840,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Secours_Populaire_Français>	 foaf:name 	 "Secours Populaire Français"^^xsd:string ;
-	geo:lat	"47.1911068833082 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Secours_Populaire_Français>	 foaf:name 	 "Secours Populaire Français"^^xsd:string ;
+	geo:lat	"47.1911068833082"^^xsd:decimal ;
 	geo:long	"-1.56303911039074"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -3857,8 +3857,8 @@
 	TEMPORAIRE:TypeProblem	 "110203"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/La_Croix_Rouge_Française>	 foaf:name 	 "La Croix Rouge Française"^^xsd:string ;
-	geo:lat	"47.1913585167185 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/La_Croix_Rouge_Française>	 foaf:name 	 "La Croix Rouge Française"^^xsd:string ;
+	geo:lat	"47.1913585167185"^^xsd:decimal ;
 	geo:long	"-1.56302639051297"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -3874,8 +3874,8 @@
 	TEMPORAIRE:TypeProblem	 "110203"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Thérapeutique_en_Alcoologie_de_la_Baronnais>	 foaf:name 	 "Centre Thérapeutique en Alcoologie de la Baronnais"^^xsd:string ;
-	geo:lat	"47.1779497211707 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Thérapeutique_en_Alcoologie_de_la_Baronnais>	 foaf:name 	 "Centre Thérapeutique en Alcoologie de la Baronnais"^^xsd:string ;
+	geo:lat	"47.1779497211707"^^xsd:decimal ;
 	geo:long	"-1.59231272122675"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44340"^^xsd:string ;
@@ -3891,8 +3891,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Economie_Sociale_et_Familiale_Bottière>	 foaf:name 	 "Economie Sociale et Familiale Bottière"^^xsd:string ;
-	geo:lat	"47.2386216375776 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Economie_Sociale_et_Familiale_Bottière>	 foaf:name 	 "Economie Sociale et Familiale Bottière"^^xsd:string ;
+	geo:lat	"47.2386216375776"^^xsd:decimal ;
 	geo:long	"-1.52040896238267"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -3908,8 +3908,8 @@
 	TEMPORAIRE:TypeProblem	 "110204"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Restaurant_Social_Pierre_Landais>	 foaf:name 	 "Restaurant Social Pierre Landais"^^xsd:string ;
-	geo:lat	"47.205558561414 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Restaurant_Social_Pierre_Landais>	 foaf:name 	 "Restaurant Social Pierre Landais"^^xsd:string ;
+	geo:lat	"47.205558561414"^^xsd:decimal ;
 	geo:long	"-1.55942750581692"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -3925,8 +3925,8 @@
 	TEMPORAIRE:TypeProblem	 "110203"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Entreprise_d'Insertion_Chantier_Vert_Environnement>	 foaf:name 	 "Entreprise d'Insertion Chantier Vert Environnement"^^xsd:string ;
-	geo:lat	"47.2054748514358 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Entreprise_d'Insertion_Chantier_Vert_Environnement>	 foaf:name 	 "Entreprise d'Insertion Chantier Vert Environnement"^^xsd:string ;
+	geo:lat	"47.2054748514358"^^xsd:decimal ;
 	geo:long	"-1.55759777507123"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -3942,8 +3942,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/SOS_Femmes_Nantes>	 foaf:name 	 "SOS Femmes Nantes"^^xsd:string ;
-	geo:lat	"47.2092890580978 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/SOS_Femmes_Nantes>	 foaf:name 	 "SOS Femmes Nantes"^^xsd:string ;
+	geo:lat	"47.2092890580978"^^xsd:decimal ;
 	geo:long	"-1.56697827655218"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -3959,8 +3959,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Foyer_Arc_en_Ciel>	 foaf:name 	 "Foyer Arc en Ciel"^^xsd:string ;
-	geo:lat	"47.2110295312402 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Foyer_Arc_en_Ciel>	 foaf:name 	 "Foyer Arc en Ciel"^^xsd:string ;
+	geo:lat	"47.2110295312402"^^xsd:decimal ;
 	geo:long	"-1.57789639325983"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -3976,8 +3976,8 @@
 	TEMPORAIRE:TypeProblem	 "110202"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/CHR_Psychiatrie_Infantile_Nantes>	 foaf:name 	 "CHR Psychiatrie Infantile Nantes"^^xsd:string ;
-	geo:lat	"47.2258056617464 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/CHR_Psychiatrie_Infantile_Nantes>	 foaf:name 	 "CHR Psychiatrie Infantile Nantes"^^xsd:string ;
+	geo:lat	"47.2258056617464"^^xsd:decimal ;
 	geo:long	"-1.56225973475533"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3993,8 +3993,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Saint_Sébastien-sur-Loire>	 foaf:name 	 "Centre Médico-Social Saint Sébastien-sur-Loire"^^xsd:string ;
-	geo:lat	"47.2058567245991 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Saint_Sébastien-sur-Loire>	 foaf:name 	 "Centre Médico-Social Saint Sébastien-sur-Loire"^^xsd:string ;
+	geo:lat	"47.2058567245991"^^xsd:decimal ;
 	geo:long	"-1.50643544945175"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44230"^^xsd:string ;
@@ -4010,8 +4010,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_DISS_Saint_Sébastien>	 foaf:name 	 "Centre Médico-Social DISS Saint Sébastien"^^xsd:string ;
-	geo:lat	"47.2038168560759 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_DISS_Saint_Sébastien>	 foaf:name 	 "Centre Médico-Social DISS Saint Sébastien"^^xsd:string ;
+	geo:lat	"47.2038168560759"^^xsd:decimal ;
 	geo:long	"-1.48786380336692"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44230"^^xsd:string ;
@@ -4027,8 +4027,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Centre_Educatif_Ajorrant_pour_mères_adolescentes_mineures_et_leurs_enfants>	 foaf:name 	 "Centre Educatif Ajorrant pour mères adolescentes mineures et leurs enfants"^^xsd:string ;
-	geo:lat	"47.230446052275 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Educatif_Ajorrant_pour_mères_adolescentes_mineures_et_leurs_enfants>	 foaf:name 	 "Centre Educatif Ajorrant pour mères adolescentes mineures et leurs enfants"^^xsd:string ;
+	geo:lat	"47.230446052275"^^xsd:decimal ;
 	geo:long	"-1.53968004975567"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -4044,8 +4044,8 @@
 	TEMPORAIRE:TypeProblem	 "110202"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Association_Intermédiaire_Partage_44>	 foaf:name 	 "Association Intermédiaire Partage 44"^^xsd:string ;
-	geo:lat	"47.2314630460965 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Association_Intermédiaire_Partage_44>	 foaf:name 	 "Association Intermédiaire Partage 44"^^xsd:string ;
+	geo:lat	"47.2314630460965"^^xsd:decimal ;
 	geo:long	"-1.53808156179507"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -4061,8 +4061,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_d'Hébergement_Réinsertion_Sociale_Le_Relais_Saint_Benoît>	 foaf:name 	 "Centre d'Hébergement Réinsertion Sociale Le Relais Saint Benoît"^^xsd:string ;
-	geo:lat	"47.2133613150919 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_d'Hébergement_Réinsertion_Sociale_Le_Relais_Saint_Benoît>	 foaf:name 	 "Centre d'Hébergement Réinsertion Sociale Le Relais Saint Benoît"^^xsd:string ;
+	geo:lat	"47.2133613150919"^^xsd:decimal ;
 	geo:long	"-1.54682120549837"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -4078,8 +4078,8 @@
 	TEMPORAIRE:TypeProblem	 "110202"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Médecins_du_Monde_(soins)_Nantes>	 foaf:name 	 "Médecins du Monde (soins) Nantes"^^xsd:string ;
-	geo:lat	"47.2112221880743 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Médecins_du_Monde_(soins)_Nantes>	 foaf:name 	 "Médecins du Monde (soins) Nantes"^^xsd:string ;
+	geo:lat	"47.2112221880743"^^xsd:decimal ;
 	geo:long	"-1.54681099921785"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -4095,8 +4095,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/L'Abri_Nantes>	 foaf:name 	 "L'Abri Nantes"^^xsd:string ;
-	geo:lat	"47.2110977326727 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/L'Abri_Nantes>	 foaf:name 	 "L'Abri Nantes"^^xsd:string ;
+	geo:lat	"47.2110977326727"^^xsd:decimal ;
 	geo:long	"-1.54685589852442"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -4112,8 +4112,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/SONACOTRA_Résidence_Julienne_David>	 foaf:name 	 "SONACOTRA Résidence Julienne David"^^xsd:string ;
-	geo:lat	"47.2411686918212 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/SONACOTRA_Résidence_Julienne_David>	 foaf:name 	 "SONACOTRA Résidence Julienne David"^^xsd:string ;
+	geo:lat	"47.2411686918212"^^xsd:decimal ;
 	geo:long	"-1.51984618865998"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -4129,8 +4129,8 @@
 	TEMPORAIRE:TypeProblem	 "110202"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Secours_Populaire_(Habillement)_Nantes__Ouest>	 foaf:name 	 "Secours Populaire (Habillement) Nantes  Ouest"^^xsd:string ;
-	geo:lat	"47.204646877764 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Secours_Populaire_(Habillement)_Nantes__Ouest>	 foaf:name 	 "Secours Populaire (Habillement) Nantes  Ouest"^^xsd:string ;
+	geo:lat	"47.204646877764"^^xsd:decimal ;
 	geo:long	"-1.57524269007164"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -4146,8 +4146,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Secours_Populaire_(Habillement)_-_Nantes_Est>	 foaf:name 	 "Secours Populaire (Habillement) - Nantes Est"^^xsd:string ;
-	geo:lat	"47.2207872714305 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Secours_Populaire_(Habillement)_-_Nantes_Est>	 foaf:name 	 "Secours Populaire (Habillement) - Nantes Est"^^xsd:string ;
+	geo:lat	"47.2207872714305"^^xsd:decimal ;
 	geo:long	"-1.53172419775429"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -4163,8 +4163,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Régie_de_Quartier_Bellevue_Association_d'Insertion>	 foaf:name 	 "Régie de Quartier Bellevue Association d'Insertion"^^xsd:string ;
-	geo:lat	"47.2046908387802 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Régie_de_Quartier_Bellevue_Association_d'Insertion>	 foaf:name 	 "Régie de Quartier Bellevue Association d'Insertion"^^xsd:string ;
+	geo:lat	"47.2046908387802"^^xsd:decimal ;
 	geo:long	"-1.6059449771748"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -4180,8 +4180,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Entreprise_d'Insertion_Merelcom>	 foaf:name 	 "Entreprise d'Insertion Merelcom"^^xsd:string ;
-	geo:lat	"47.2043604999789 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Entreprise_d'Insertion_Merelcom>	 foaf:name 	 "Entreprise d'Insertion Merelcom"^^xsd:string ;
+	geo:lat	"47.2043604999789"^^xsd:decimal ;
 	geo:long	"-1.60583579607752"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -4197,8 +4197,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Hôpital_de_Jour_(Centre_Médico-Psychologique)>	 foaf:name 	 "Hôpital de Jour (Centre Médico-Psychologique)"^^xsd:string ;
-	geo:lat	"47.1861447872047 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Hôpital_de_Jour_(Centre_Médico-Psychologique)>	 foaf:name 	 "Hôpital de Jour (Centre Médico-Psychologique)"^^xsd:string ;
+	geo:lat	"47.1861447872047"^^xsd:decimal ;
 	geo:long	"-1.51451079573778"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44120"^^xsd:string ;
@@ -4214,8 +4214,8 @@
 	TEMPORAIRE:TypeProblem	 "110302"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Atelier_Chantier_d'Insertion_ATAO_(Rénovation_de_sièges)>	 foaf:name 	 "Atelier Chantier d'Insertion ATAO (Rénovation de sièges)"^^xsd:string ;
-	geo:lat	"47.2239054117006 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Atelier_Chantier_d'Insertion_ATAO_(Rénovation_de_sièges)>	 foaf:name 	 "Atelier Chantier d'Insertion ATAO (Rénovation de sièges)"^^xsd:string ;
+	geo:lat	"47.2239054117006"^^xsd:decimal ;
 	geo:long	"-1.55529688038036"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -4231,8 +4231,8 @@
 	TEMPORAIRE:TypeProblem	 "110205"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_Bourderies>	 foaf:name 	 "Centre Médico-Social Bourderies"^^xsd:string ;
-	geo:lat	"47.2077941412378 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_Bourderies>	 foaf:name 	 "Centre Médico-Social Bourderies"^^xsd:string ;
+	geo:lat	"47.2077941412378"^^xsd:decimal ;
 	geo:long	"-1.59627040922112"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -4248,8 +4248,8 @@
 	TEMPORAIRE:TypeProblem	 "110301"^^xsd:string ;
 	pdll:Category	 "1103"^^xsd:string .
 
-<http://projet.com/10/Epicerie_Communautaire_Bellevue_2000>	 foaf:name 	 "Epicerie Communautaire Bellevue 2000"^^xsd:string ;
-	geo:lat	"47.2057951488146 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Epicerie_Communautaire_Bellevue_2000>	 foaf:name 	 "Epicerie Communautaire Bellevue 2000"^^xsd:string ;
+	geo:lat	"47.2057951488146"^^xsd:decimal ;
 	geo:long	"-1.6080206434307"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -4265,8 +4265,8 @@
 	TEMPORAIRE:TypeProblem	 "110203"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Point_Accueil_Services_Bottière>	 foaf:name 	 "Point Accueil Services Bottière"^^xsd:string ;
-	geo:lat	"47.2398455607965 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Point_Accueil_Services_Bottière>	 foaf:name 	 "Point Accueil Services Bottière"^^xsd:string ;
+	geo:lat	"47.2398455607965"^^xsd:decimal ;
 	geo:long	"-1.51906707801112"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -4282,8 +4282,8 @@
 	TEMPORAIRE:TypeProblem	 "110201"^^xsd:string ;
 	pdll:Category	 "1102"^^xsd:string .
 
-<http://projet.com/10/Centre_Médico-Social_la_Bottière>	 foaf:name 	 "Centre Médico-Social la Bottière"^^xsd:string ;
-	geo:lat	"47.2398414238598 "^^xsd:decimal ;
+<http://lodpaddle.com/action_sociale/Centre_Médico-Social_la_Bottière>	 foaf:name 	 "Centre Médico-Social la Bottière"^^xsd:string ;
+	geo:lat	"47.2398414238598"^^xsd:decimal ;
 	geo:long	"-1.51922851935438"^^xsd:decimal  ;
 	pdll:themeLabel	 "ACTION SOCIALE"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;

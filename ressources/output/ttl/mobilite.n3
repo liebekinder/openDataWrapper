@@ -15,8 +15,8 @@
 @prefix sc: <http://schema.org/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
-<http://projet.com/10/Parc_relais_TER_Gare_de_Pont-Rousseau>	 foaf:name 	 "Parc relais TER Gare de Pont-Rousseau"^^xsd:string ;
-	geo:lat	"47.1928009988406 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_TER_Gare_de_Pont-Rousseau>	 foaf:name 	 "Parc relais TER Gare de Pont-Rousseau"^^xsd:string ;
+	geo:lat	"47.1928009988406"^^xsd:decimal ;
 	geo:long	"-1.5481902720875"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -32,8 +32,8 @@
 	TEMPORAIRE:TypeProblem	 "100202"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Parking_ouvrage_Les_Machines>	 foaf:name 	 "Parking ouvrage Les Machines"^^xsd:string ;
-	geo:lat	"47.2059006220645 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parking_ouvrage_Les_Machines>	 foaf:name 	 "Parking ouvrage Les Machines"^^xsd:string ;
+	geo:lat	"47.2059006220645"^^xsd:decimal ;
 	geo:long	"-1.56272779236372"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -49,8 +49,8 @@
 	TEMPORAIRE:TypeProblem	 "100102"^^xsd:string ;
 	pdll:Category	 "1001"^^xsd:string .
 
-<http://projet.com/10/Parc_en_enclos_Baco-LU_2_côté_CHU>	 foaf:name 	 "Parc en enclos Baco-LU 2 côté CHU"^^xsd:string ;
-	geo:lat	"47.2131509800273 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_en_enclos_Baco-LU_2_côté_CHU>	 foaf:name 	 "Parc en enclos Baco-LU 2 côté CHU"^^xsd:string ;
+	geo:lat	"47.2131509800273"^^xsd:decimal ;
 	geo:long	"-1.55160425745185"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -66,8 +66,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1005"^^xsd:string .
 
-<http://projet.com/10/52_Station_Accueil_Baco>	 foaf:name 	 "52 Station Accueil Baco"^^xsd:string ;
-	geo:lat	"47.2143388426474 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/52_Station_Accueil_Baco>	 foaf:name 	 "52 Station Accueil Baco"^^xsd:string ;
+	geo:lat	"47.2143388426474"^^xsd:decimal ;
 	geo:long	"-1.54876893751898"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -83,8 +83,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parc_en_enclos_Baco-LU_1_côté_gare>	 foaf:name 	 "Parc en enclos Baco-LU 1 côté gare"^^xsd:string ;
-	geo:lat	"47.2143324211276 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_en_enclos_Baco-LU_1_côté_gare>	 foaf:name 	 "Parc en enclos Baco-LU 1 côté gare"^^xsd:string ;
+	geo:lat	"47.2143324211276"^^xsd:decimal ;
 	geo:long	"-1.54898882844897"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -100,8 +100,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1005"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_tramway_Recteur_Schmitt_1>	 foaf:name 	 "Parc relais tramway Recteur Schmitt 1"^^xsd:string ;
-	geo:lat	"47.2517352538688 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_tramway_Recteur_Schmitt_1>	 foaf:name 	 "Parc relais tramway Recteur Schmitt 1"^^xsd:string ;
+	geo:lat	"47.2517352538688"^^xsd:decimal ;
 	geo:long	"-1.55290310437924"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -117,8 +117,8 @@
 	TEMPORAIRE:TypeProblem	 "100201"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_tramway_Recteur_Schmitt_2>	 foaf:name 	 "Parc relais tramway Recteur Schmitt 2"^^xsd:string ;
-	geo:lat	"47.2520277017386 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_tramway_Recteur_Schmitt_2>	 foaf:name 	 "Parc relais tramway Recteur Schmitt 2"^^xsd:string ;
+	geo:lat	"47.2520277017386"^^xsd:decimal ;
 	geo:long	"-1.55247038464754"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -134,8 +134,8 @@
 	TEMPORAIRE:TypeProblem	 "100203"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Station_Zola>	 foaf:name 	 "Station Zola"^^xsd:string ;
-	geo:lat	"47.2138994604397 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Station_Zola>	 foaf:name 	 "Station Zola"^^xsd:string ;
+	geo:lat	"47.2138994604397"^^xsd:decimal ;
 	geo:long	"-1.58634620409642"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -151,8 +151,8 @@
 	TEMPORAIRE:TypeProblem	 "100302"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_tramway_Ranzay>	 foaf:name 	 "Parc relais tramway Ranzay"^^xsd:string ;
-	geo:lat	"47.2543632744444 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_tramway_Ranzay>	 foaf:name 	 "Parc relais tramway Ranzay"^^xsd:string ;
+	geo:lat	"47.2543632744444"^^xsd:decimal ;
 	geo:long	"-1.53313665411229"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -168,8 +168,8 @@
 	TEMPORAIRE:TypeProblem	 "100202"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/100_Station_Abonnement_Gréneraie>	 foaf:name 	 "100 Station Abonnement Gréneraie"^^xsd:string ;
-	geo:lat	"47.1999707101929 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/100_Station_Abonnement_Gréneraie>	 foaf:name 	 "100 Station Abonnement Gréneraie"^^xsd:string ;
+	geo:lat	"47.1999707101929"^^xsd:decimal ;
 	geo:long	"-1.5346071537874"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -185,8 +185,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/21_Station_Accueil_Marché_Talensac_Sud>	 foaf:name 	 "21 Station Accueil Marché Talensac Sud"^^xsd:string ;
-	geo:lat	"47.221154818394 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/21_Station_Accueil_Marché_Talensac_Sud>	 foaf:name 	 "21 Station Accueil Marché Talensac Sud"^^xsd:string ;
+	geo:lat	"47.221154818394"^^xsd:decimal ;
 	geo:long	"-1.55649477179845"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -202,8 +202,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/3_Station_Accueil_Strasbourg>	 foaf:name 	 "3 Station Accueil Strasbourg"^^xsd:string ;
-	geo:lat	"47.216532854728 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/3_Station_Accueil_Strasbourg>	 foaf:name 	 "3 Station Accueil Strasbourg"^^xsd:string ;
+	geo:lat	"47.216532854728"^^xsd:decimal ;
 	geo:long	"-1.55161756498412"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -219,8 +219,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/80_Station_Accueil_Victor-Hugo>	 foaf:name 	 "80 Station Accueil Victor-Hugo"^^xsd:string ;
-	geo:lat	"47.2040143599928 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/80_Station_Accueil_Victor-Hugo>	 foaf:name 	 "80 Station Accueil Victor-Hugo"^^xsd:string ;
+	geo:lat	"47.2040143599928"^^xsd:decimal ;
 	geo:long	"-1.55156732506795"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -236,8 +236,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Station_Mangin>	 foaf:name 	 "Station Mangin"^^xsd:string ;
-	geo:lat	"47.2012759690694 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Station_Mangin>	 foaf:name 	 "Station Mangin"^^xsd:string ;
+	geo:lat	"47.2012759690694"^^xsd:decimal ;
 	geo:long	"-1.54518063963327"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -253,8 +253,8 @@
 	TEMPORAIRE:TypeProblem	 "100302"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/28_Station_Accueil_Place_Edit_de_Nantes>	 foaf:name 	 "28 Station Accueil Place Edit de Nantes"^^xsd:string ;
-	geo:lat	"47.2144590279511 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/28_Station_Accueil_Place_Edit_de_Nantes>	 foaf:name 	 "28 Station Accueil Place Edit de Nantes"^^xsd:string ;
+	geo:lat	"47.2144590279511"^^xsd:decimal ;
 	geo:long	"-1.56761075012927"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -270,8 +270,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Station_Ecole_d'Architecture>	 foaf:name 	 "Station Ecole d'Architecture"^^xsd:string ;
-	geo:lat	"47.2064491542021 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Station_Ecole_d'Architecture>	 foaf:name 	 "Station Ecole d'Architecture"^^xsd:string ;
+	geo:lat	"47.2064491542021"^^xsd:decimal ;
 	geo:long	"-1.55657046348583"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -287,8 +287,8 @@
 	TEMPORAIRE:TypeProblem	 "100302"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_tramway_Orvault_Morlière>	 foaf:name 	 "Parc relais tramway Orvault Morlière"^^xsd:string ;
-	geo:lat	"47.2467766477065 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_tramway_Orvault_Morlière>	 foaf:name 	 "Parc relais tramway Orvault Morlière"^^xsd:string ;
+	geo:lat	"47.2467766477065"^^xsd:decimal ;
 	geo:long	"-1.60304946676259"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44700"^^xsd:string ;
@@ -304,8 +304,8 @@
 	TEMPORAIRE:TypeProblem	 "100201"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Gare_SNCF_de_St-Sébastien_Pas_Enchantés>	 foaf:name 	 "Gare SNCF de St-Sébastien Pas Enchantés"^^xsd:string ;
-	geo:lat	"47.2070087740385 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Gare_SNCF_de_St-Sébastien_Pas_Enchantés>	 foaf:name 	 "Gare SNCF de St-Sébastien Pas Enchantés"^^xsd:string ;
+	geo:lat	"47.2070087740385"^^xsd:decimal ;
 	geo:long	"-1.51111306351385"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44230"^^xsd:string ;
@@ -321,8 +321,8 @@
 	TEMPORAIRE:TypeProblem	 "100403"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_tramway_Le_Cardo>	 foaf:name 	 "Parc relais tramway Le Cardo"^^xsd:string ;
-	geo:lat	"47.2625020936155 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_tramway_Le_Cardo>	 foaf:name 	 "Parc relais tramway Le Cardo"^^xsd:string ;
+	geo:lat	"47.2625020936155"^^xsd:decimal ;
 	geo:long	"-1.58451198079141"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44700"^^xsd:string ;
@@ -338,8 +338,8 @@
 	TEMPORAIRE:TypeProblem	 "100201"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Gare_Routière_Cardo_Lila>	 foaf:name 	 "Gare Routière Cardo Lila"^^xsd:string ;
-	geo:lat	"47.2617996203739 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Gare_Routière_Cardo_Lila>	 foaf:name 	 "Gare Routière Cardo Lila"^^xsd:string ;
+	geo:lat	"47.2617996203739"^^xsd:decimal ;
 	geo:long	"-1.58415510201614"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44700"^^xsd:string ;
@@ -355,8 +355,8 @@
 	TEMPORAIRE:TypeProblem	 "100404"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/Parking_ouvrage_Commerce>	 foaf:name 	 "Parking ouvrage Commerce"^^xsd:string ;
-	geo:lat	"47.2131202858024 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parking_ouvrage_Commerce>	 foaf:name 	 "Parking ouvrage Commerce"^^xsd:string ;
+	geo:lat	"47.2131202858024"^^xsd:decimal ;
 	geo:long	"-1.55771321969051"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -372,8 +372,8 @@
 	TEMPORAIRE:TypeProblem	 "100101"^^xsd:string ;
 	pdll:Category	 "1001"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_tramway_Pirmil>	 foaf:name 	 "Parc relais tramway Pirmil"^^xsd:string ;
-	geo:lat	"47.1973586776381 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_tramway_Pirmil>	 foaf:name 	 "Parc relais tramway Pirmil"^^xsd:string ;
+	geo:lat	"47.1973586776381"^^xsd:decimal ;
 	geo:long	"-1.54153359455402"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -389,8 +389,8 @@
 	TEMPORAIRE:TypeProblem	 "100203"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Gare_Routière_Pirmil_Lila>	 foaf:name 	 "Gare Routière Pirmil Lila"^^xsd:string ;
-	geo:lat	"47.1963923435608 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Gare_Routière_Pirmil_Lila>	 foaf:name 	 "Gare Routière Pirmil Lila"^^xsd:string ;
+	geo:lat	"47.1963923435608"^^xsd:decimal ;
 	geo:long	"-1.54267335074876"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -406,8 +406,8 @@
 	TEMPORAIRE:TypeProblem	 "100404"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/101_Station_Abonnement_Pirmil>	 foaf:name 	 "101 Station Abonnement Pirmil"^^xsd:string ;
-	geo:lat	"47.1966294882289 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/101_Station_Abonnement_Pirmil>	 foaf:name 	 "101 Station Abonnement Pirmil"^^xsd:string ;
+	geo:lat	"47.1966294882289"^^xsd:decimal ;
 	geo:long	"-1.54145063364339"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -423,8 +423,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/32_Station_Accueil_Rubens>	 foaf:name 	 "32 Station Accueil Rubens"^^xsd:string ;
-	geo:lat	"47.2143514409189 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/32_Station_Accueil_Rubens>	 foaf:name 	 "32 Station Accueil Rubens"^^xsd:string ;
+	geo:lat	"47.2143514409189"^^xsd:decimal ;
 	geo:long	"-1.56028729072365"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -440,8 +440,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Station_Doulon>	 foaf:name 	 "Station Doulon"^^xsd:string ;
-	geo:lat	"47.225899016345 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Station_Doulon>	 foaf:name 	 "Station Doulon"^^xsd:string ;
+	geo:lat	"47.225899016345"^^xsd:decimal ;
 	geo:long	"-1.52241697039325"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -457,8 +457,8 @@
 	TEMPORAIRE:TypeProblem	 "100302"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Gare_SNCF_de_Chantenay>	 foaf:name 	 "Gare SNCF de Chantenay"^^xsd:string ;
-	geo:lat	"47.1972022454039 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Gare_SNCF_de_Chantenay>	 foaf:name 	 "Gare SNCF de Chantenay"^^xsd:string ;
+	geo:lat	"47.1972022454039"^^xsd:decimal ;
 	geo:long	"-1.59435499316903"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -474,8 +474,8 @@
 	TEMPORAIRE:TypeProblem	 "100403"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/37_Station_Accueil_Feydeau>	 foaf:name 	 "37 Station Accueil Feydeau"^^xsd:string ;
-	geo:lat	"47.2114728989176 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/37_Station_Accueil_Feydeau>	 foaf:name 	 "37 Station Accueil Feydeau"^^xsd:string ;
+	geo:lat	"47.2114728989176"^^xsd:decimal ;
 	geo:long	"-1.55688248342545"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -491,8 +491,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/10_Station_Accueil_Picasso>	 foaf:name 	 "10 Station Accueil Picasso"^^xsd:string ;
-	geo:lat	"47.2163435868477 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/10_Station_Accueil_Picasso>	 foaf:name 	 "10 Station Accueil Picasso"^^xsd:string ;
+	geo:lat	"47.2163435868477"^^xsd:decimal ;
 	geo:long	"-1.53422912101255"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -508,8 +508,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parking_ouvrage_Talensac>	 foaf:name 	 "Parking ouvrage Talensac"^^xsd:string ;
-	geo:lat	"47.2202559810468 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parking_ouvrage_Talensac>	 foaf:name 	 "Parking ouvrage Talensac"^^xsd:string ;
+	geo:lat	"47.2202559810468"^^xsd:decimal ;
 	geo:long	"-1.55835729990237"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -525,8 +525,8 @@
 	TEMPORAIRE:TypeProblem	 "100102"^^xsd:string ;
 	pdll:Category	 "1001"^^xsd:string .
 
-<http://projet.com/10/Aire_de_covoiturage_Pas_Enchantés>	 foaf:name 	 "Aire de covoiturage Pas Enchantés"^^xsd:string ;
-	geo:lat	"47.2103889373405 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Aire_de_covoiturage_Pas_Enchantés>	 foaf:name 	 "Aire de covoiturage Pas Enchantés"^^xsd:string ;
+	geo:lat	"47.2103889373405"^^xsd:decimal ;
 	geo:long	"-1.5039410584835"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44230"^^xsd:string ;
@@ -542,8 +542,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1006"^^xsd:string .
 
-<http://projet.com/10/72_Station_Accueil_Bellamy_Gué-Moreau>	 foaf:name 	 "72 Station Accueil Bellamy Gué-Moreau"^^xsd:string ;
-	geo:lat	"47.2286141235376 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/72_Station_Accueil_Bellamy_Gué-Moreau>	 foaf:name 	 "72 Station Accueil Bellamy Gué-Moreau"^^xsd:string ;
+	geo:lat	"47.2286141235376"^^xsd:decimal ;
 	geo:long	"-1.56192014921017"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -559,8 +559,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_tramway_Santos_Dumont>	 foaf:name 	 "Parc relais tramway Santos Dumont"^^xsd:string ;
-	geo:lat	"47.2593236730243 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_tramway_Santos_Dumont>	 foaf:name 	 "Parc relais tramway Santos Dumont"^^xsd:string ;
+	geo:lat	"47.2593236730243"^^xsd:decimal ;
 	geo:long	"-1.56822710791259"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -576,8 +576,8 @@
 	TEMPORAIRE:TypeProblem	 "100203"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_tramway_Grande_Ouche>	 foaf:name 	 "Parc relais tramway Grande Ouche"^^xsd:string ;
-	geo:lat	"47.1819948350479 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_tramway_Grande_Ouche>	 foaf:name 	 "Parc relais tramway Grande Ouche"^^xsd:string ;
+	geo:lat	"47.1819948350479"^^xsd:decimal ;
 	geo:long	"-1.57947203525665"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44340"^^xsd:string ;
@@ -593,8 +593,8 @@
 	TEMPORAIRE:TypeProblem	 "100203"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/77_Station_Accueil_Ecole_d'Architecture>	 foaf:name 	 "77 Station Accueil Ecole d'Architecture"^^xsd:string ;
-	geo:lat	"47.2076169020017 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/77_Station_Accueil_Ecole_d'Architecture>	 foaf:name 	 "77 Station Accueil Ecole d'Architecture"^^xsd:string ;
+	geo:lat	"47.2076169020017"^^xsd:decimal ;
 	geo:long	"-1.55755125966966"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -610,8 +610,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/24_Station_Accueil_Versailles>	 foaf:name 	 "24 Station Accueil Versailles"^^xsd:string ;
-	geo:lat	"47.2244233838765 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/24_Station_Accueil_Versailles>	 foaf:name 	 "24 Station Accueil Versailles"^^xsd:string ;
+	geo:lat	"47.2244233838765"^^xsd:decimal ;
 	geo:long	"-1.55372803210723"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -627,8 +627,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Port_de_l'Erdre>	 foaf:name 	 "Port de l'Erdre"^^xsd:string ;
-	geo:lat	"47.2252035773148 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Port_de_l'Erdre>	 foaf:name 	 "Port de l'Erdre"^^xsd:string ;
+	geo:lat	"47.2252035773148"^^xsd:decimal ;
 	geo:long	"-1.55372459801084"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -644,8 +644,8 @@
 	TEMPORAIRE:TypeProblem	 "100402"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/67_Station_Accueil_Place_Waldeck_Rousseau>	 foaf:name 	 "67 Station Accueil Place Waldeck Rousseau"^^xsd:string ;
-	geo:lat	"47.2277863381608 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/67_Station_Accueil_Place_Waldeck_Rousseau>	 foaf:name 	 "67 Station Accueil Place Waldeck Rousseau"^^xsd:string ;
+	geo:lat	"47.2277863381608"^^xsd:decimal ;
 	geo:long	"-1.55216613912966"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -661,8 +661,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/70_Station_Abonnement_et_Bonus_Foch_Cathédrale>	 foaf:name 	 "70 Station Abonnement et Bonus Foch Cathédrale"^^xsd:string ;
-	geo:lat	"47.2186945659362 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/70_Station_Abonnement_et_Bonus_Foch_Cathédrale>	 foaf:name 	 "70 Station Abonnement et Bonus Foch Cathédrale"^^xsd:string ;
+	geo:lat	"47.2186945659362"^^xsd:decimal ;
 	geo:long	"-1.55048013677801"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -678,8 +678,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Service_Maritime_et_Navigation_Ecluse_Saint_Félix>	 foaf:name 	 "Service Maritime et Navigation Ecluse Saint Félix"^^xsd:string ;
-	geo:lat	"47.2125286072856 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Service_Maritime_et_Navigation_Ecluse_Saint_Félix>	 foaf:name 	 "Service Maritime et Navigation Ecluse Saint Félix"^^xsd:string ;
+	geo:lat	"47.2125286072856"^^xsd:decimal ;
 	geo:long	"-1.54089899952201"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -695,8 +695,8 @@
 	TEMPORAIRE:TypeProblem	 "100402"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/Parking_ouvrage_Aristide_Briand>	 foaf:name 	 "Parking ouvrage Aristide Briand"^^xsd:string ;
-	geo:lat	"47.2170936048579 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parking_ouvrage_Aristide_Briand>	 foaf:name 	 "Parking ouvrage Aristide Briand"^^xsd:string ;
+	geo:lat	"47.2170936048579"^^xsd:decimal ;
 	geo:long	"-1.56293641808053"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -712,8 +712,8 @@
 	TEMPORAIRE:TypeProblem	 "100101"^^xsd:string ;
 	pdll:Category	 "1001"^^xsd:string .
 
-<http://projet.com/10/15_Station_Accueil_Place_Aristide_Briand>	 foaf:name 	 "15 Station Accueil Place Aristide Briand"^^xsd:string ;
-	geo:lat	"47.2171962876433 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/15_Station_Accueil_Place_Aristide_Briand>	 foaf:name 	 "15 Station Accueil Place Aristide Briand"^^xsd:string ;
+	geo:lat	"47.2171962876433"^^xsd:decimal ;
 	geo:long	"-1.56300550348212"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -729,8 +729,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Station_Aristide_Briand>	 foaf:name 	 "Station Aristide Briand"^^xsd:string ;
-	geo:lat	"47.2172290515068 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Station_Aristide_Briand>	 foaf:name 	 "Station Aristide Briand"^^xsd:string ;
+	geo:lat	"47.2172290515068"^^xsd:decimal ;
 	geo:long	"-1.5624656224159"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -746,8 +746,8 @@
 	TEMPORAIRE:TypeProblem	 "100302"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_tramway_Goudy>	 foaf:name 	 "Parc relais tramway Goudy"^^xsd:string ;
-	geo:lat	"47.1960989467374 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_tramway_Goudy>	 foaf:name 	 "Parc relais tramway Goudy"^^xsd:string ;
+	geo:lat	"47.1960989467374"^^xsd:decimal ;
 	geo:long	"-1.5410477469437"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -763,8 +763,8 @@
 	TEMPORAIRE:TypeProblem	 "100202"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Parc_en_enclos_Bellamy>	 foaf:name 	 "Parc en enclos Bellamy"^^xsd:string ;
-	geo:lat	"47.2223604161017 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_en_enclos_Bellamy>	 foaf:name 	 "Parc en enclos Bellamy"^^xsd:string ;
+	geo:lat	"47.2223604161017"^^xsd:decimal ;
 	geo:long	"-1.55769369256355"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -780,8 +780,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1005"^^xsd:string .
 
-<http://projet.com/10/Port_de_Trentemoult>	 foaf:name 	 "Port de Trentemoult"^^xsd:string ;
-	geo:lat	"47.1953745261745 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Port_de_Trentemoult>	 foaf:name 	 "Port de Trentemoult"^^xsd:string ;
+	geo:lat	"47.1953745261745"^^xsd:decimal ;
 	geo:long	"-1.57890616493528"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -797,8 +797,8 @@
 	TEMPORAIRE:TypeProblem	 "100402"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/8_Station_Abonnement_Boucherie>	 foaf:name 	 "8 Station Abonnement Boucherie"^^xsd:string ;
-	geo:lat	"47.2162081426351 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/8_Station_Abonnement_Boucherie>	 foaf:name 	 "8 Station Abonnement Boucherie"^^xsd:string ;
+	geo:lat	"47.2162081426351"^^xsd:decimal ;
 	geo:long	"-1.55709068678671"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -814,8 +814,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Station_Bretagne>	 foaf:name 	 "Station Bretagne"^^xsd:string ;
-	geo:lat	"47.2174899073883 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Station_Bretagne>	 foaf:name 	 "Station Bretagne"^^xsd:string ;
+	geo:lat	"47.2174899073883"^^xsd:decimal ;
 	geo:long	"-1.55963354318143"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -831,8 +831,8 @@
 	TEMPORAIRE:TypeProblem	 "100302"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Station_Canclaux>	 foaf:name 	 "Station Canclaux"^^xsd:string ;
-	geo:lat	"47.2141311870327 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Station_Canclaux>	 foaf:name 	 "Station Canclaux"^^xsd:string ;
+	geo:lat	"47.2141311870327"^^xsd:decimal ;
 	geo:long	"-1.57441453801924"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -848,8 +848,8 @@
 	TEMPORAIRE:TypeProblem	 "100302"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parking_ouvrage_Gare_Sud_1>	 foaf:name 	 "Parking ouvrage Gare Sud 1"^^xsd:string ;
-	geo:lat	"47.2161496359544 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parking_ouvrage_Gare_Sud_1>	 foaf:name 	 "Parking ouvrage Gare Sud 1"^^xsd:string ;
+	geo:lat	"47.2161496359544"^^xsd:decimal ;
 	geo:long	"-1.54103682846398"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -865,8 +865,8 @@
 	TEMPORAIRE:TypeProblem	 "100102"^^xsd:string ;
 	pdll:Category	 "1001"^^xsd:string .
 
-<http://projet.com/10/41_Station_Accueil_Chantier_Naval>	 foaf:name 	 "41 Station Accueil Chantier Naval"^^xsd:string ;
-	geo:lat	"47.2083688395591 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/41_Station_Accueil_Chantier_Naval>	 foaf:name 	 "41 Station Accueil Chantier Naval"^^xsd:string ;
+	geo:lat	"47.2083688395591"^^xsd:decimal ;
 	geo:long	"-1.56954316224266"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -882,8 +882,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_busway_Bourdonnières_2>	 foaf:name 	 "Parc relais busway Bourdonnières 2"^^xsd:string ;
-	geo:lat	"47.1867242428305 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_busway_Bourdonnières_2>	 foaf:name 	 "Parc relais busway Bourdonnières 2"^^xsd:string ;
+	geo:lat	"47.1867242428305"^^xsd:decimal ;
 	geo:long	"-1.52315133155692"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -899,8 +899,8 @@
 	TEMPORAIRE:TypeProblem	 "100203"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_navibus_Trentemoult-Roquios>	 foaf:name 	 "Parc relais navibus Trentemoult-Roquios"^^xsd:string ;
-	geo:lat	"47.1952525112789 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_navibus_Trentemoult-Roquios>	 foaf:name 	 "Parc relais navibus Trentemoult-Roquios"^^xsd:string ;
+	geo:lat	"47.1952525112789"^^xsd:decimal ;
 	geo:long	"-1.57778393206355"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -916,8 +916,8 @@
 	TEMPORAIRE:TypeProblem	 "100203"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_busway_Maraîchers>	 foaf:name 	 "Parc relais busway Maraîchers"^^xsd:string ;
-	geo:lat	"47.1853027936471 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_busway_Maraîchers>	 foaf:name 	 "Parc relais busway Maraîchers"^^xsd:string ;
+	geo:lat	"47.1853027936471"^^xsd:decimal ;
 	geo:long	"-1.51085965558255"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44120"^^xsd:string ;
@@ -933,8 +933,8 @@
 	TEMPORAIRE:TypeProblem	 "100203"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Gare_SNCF_de_Couëron>	 foaf:name 	 "Gare SNCF de Couëron"^^xsd:string ;
-	geo:lat	"47.2219441875147 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Gare_SNCF_de_Couëron>	 foaf:name 	 "Gare SNCF de Couëron"^^xsd:string ;
+	geo:lat	"47.2219441875147"^^xsd:decimal ;
 	geo:long	"-1.72359939991892"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44220"^^xsd:string ;
@@ -950,8 +950,8 @@
 	TEMPORAIRE:TypeProblem	 "100403"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_TER_Gare_de_Couëron>	 foaf:name 	 "Parc relais TER Gare de Couëron"^^xsd:string ;
-	geo:lat	"47.2217771934083 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_TER_Gare_de_Couëron>	 foaf:name 	 "Parc relais TER Gare de Couëron"^^xsd:string ;
+	geo:lat	"47.2217771934083"^^xsd:decimal ;
 	geo:long	"-1.72363750160792"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44220"^^xsd:string ;
@@ -967,8 +967,8 @@
 	TEMPORAIRE:TypeProblem	 "100203"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Aire_de_covoiturage_Le_Vélodrôme>	 foaf:name 	 "Aire de covoiturage Le Vélodrôme"^^xsd:string ;
-	geo:lat	"47.2114911474736 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Aire_de_covoiturage_Le_Vélodrôme>	 foaf:name 	 "Aire de covoiturage Le Vélodrôme"^^xsd:string ;
+	geo:lat	"47.2114911474736"^^xsd:decimal ;
 	geo:long	"-1.73553587146421"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44220"^^xsd:string ;
@@ -984,8 +984,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1006"^^xsd:string .
 
-<http://projet.com/10/Gare_SNCF_de_Rezé_Pont-Rousseau>	 foaf:name 	 "Gare SNCF de Rezé Pont-Rousseau"^^xsd:string ;
-	geo:lat	"47.193331595479 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Gare_SNCF_de_Rezé_Pont-Rousseau>	 foaf:name 	 "Gare SNCF de Rezé Pont-Rousseau"^^xsd:string ;
+	geo:lat	"47.193331595479"^^xsd:decimal ;
 	geo:long	"-1.54939210542755"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -1001,8 +1001,8 @@
 	TEMPORAIRE:TypeProblem	 "100403"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/102_Station_Abonnement_Gare_Pont_Rousseau>	 foaf:name 	 "102 Station Abonnement Gare Pont Rousseau"^^xsd:string ;
-	geo:lat	"47.1931492766954 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/102_Station_Abonnement_Gare_Pont_Rousseau>	 foaf:name 	 "102 Station Abonnement Gare Pont Rousseau"^^xsd:string ;
+	geo:lat	"47.1931492766954"^^xsd:decimal ;
 	geo:long	"-1.54900545446362"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -1018,8 +1018,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_busway_Chapeau_Verni>	 foaf:name 	 "Parc relais busway Chapeau Verni"^^xsd:string ;
-	geo:lat	"47.1895300762792 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_busway_Chapeau_Verni>	 foaf:name 	 "Parc relais busway Chapeau Verni"^^xsd:string ;
+	geo:lat	"47.1895300762792"^^xsd:decimal ;
 	geo:long	"-1.51129889181404"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44230"^^xsd:string ;
@@ -1035,8 +1035,8 @@
 	TEMPORAIRE:TypeProblem	 "100202"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/62_Station_Abonnement_Gare_Nord>	 foaf:name 	 "62 Station Abonnement Gare Nord"^^xsd:string ;
-	geo:lat	"47.2181414046142 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/62_Station_Abonnement_Gare_Nord>	 foaf:name 	 "62 Station Abonnement Gare Nord"^^xsd:string ;
+	geo:lat	"47.2181414046142"^^xsd:decimal ;
 	geo:long	"-1.54224096840209"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1052,8 +1052,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/1_Station_Abonnement_Préfecture>	 foaf:name 	 "1 Station Abonnement Préfecture"^^xsd:string ;
-	geo:lat	"47.2201950669957 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/1_Station_Abonnement_Préfecture>	 foaf:name 	 "1 Station Abonnement Préfecture"^^xsd:string ;
+	geo:lat	"47.2201950669957"^^xsd:decimal ;
 	geo:long	"-1.55417604861584"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1069,8 +1069,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/46_Station_Accueil_Place_République>	 foaf:name 	 "46 Station Accueil Place République"^^xsd:string ;
-	geo:lat	"47.2054012265916 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/46_Station_Accueil_Place_République>	 foaf:name 	 "46 Station Accueil Place République"^^xsd:string ;
+	geo:lat	"47.2054012265916"^^xsd:decimal ;
 	geo:long	"-1.55519386163571"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -1086,8 +1086,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/87_Station_Accueil_Anatole-France>	 foaf:name 	 "87 Station Accueil Anatole-France"^^xsd:string ;
-	geo:lat	"47.2236164437223 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/87_Station_Accueil_Anatole-France>	 foaf:name 	 "87 Station Accueil Anatole-France"^^xsd:string ;
+	geo:lat	"47.2236164437223"^^xsd:decimal ;
 	geo:long	"-1.57139236049388"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1103,8 +1103,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/47_Station_Abonnement_Martyrs_Nantais>	 foaf:name 	 "47 Station Abonnement Martyrs Nantais"^^xsd:string ;
-	geo:lat	"47.207035364629 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/47_Station_Abonnement_Martyrs_Nantais>	 foaf:name 	 "47 Station Abonnement Martyrs Nantais"^^xsd:string ;
+	geo:lat	"47.207035364629"^^xsd:decimal ;
 	geo:long	"-1.54817985054706"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -1120,8 +1120,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/50_Station_Abonnement_Château>	 foaf:name 	 "50 Station Abonnement Château"^^xsd:string ;
-	geo:lat	"47.2151359323236 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/50_Station_Abonnement_Château>	 foaf:name 	 "50 Station Abonnement Château"^^xsd:string ;
+	geo:lat	"47.2151359323236"^^xsd:decimal ;
 	geo:long	"-1.55027600234498"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1137,8 +1137,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Aire_de_covoiturage_Sautron>	 foaf:name 	 "Aire de covoiturage Sautron"^^xsd:string ;
-	geo:lat	"47.2681305547612 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Aire_de_covoiturage_Sautron>	 foaf:name 	 "Aire de covoiturage Sautron"^^xsd:string ;
+	geo:lat	"47.2681305547612"^^xsd:decimal ;
 	geo:long	"-1.67105967309211"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44880"^^xsd:string ;
@@ -1154,8 +1154,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1006"^^xsd:string .
 
-<http://projet.com/10/9_Station_Accueil_Guépin>	 foaf:name 	 "9 Station Accueil Guépin"^^xsd:string ;
-	geo:lat	"47.2158294340716 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/9_Station_Accueil_Guépin>	 foaf:name 	 "9 Station Accueil Guépin"^^xsd:string ;
+	geo:lat	"47.2158294340716"^^xsd:decimal ;
 	geo:long	"-1.55915573787153"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1171,8 +1171,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/64_Station_Abonnement_et_Bonus_Saint_Clément>	 foaf:name 	 "64 Station Abonnement et Bonus Saint Clément"^^xsd:string ;
-	geo:lat	"47.2217983948072 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/64_Station_Abonnement_et_Bonus_Saint_Clément>	 foaf:name 	 "64 Station Abonnement et Bonus Saint Clément"^^xsd:string ;
+	geo:lat	"47.2217983948072"^^xsd:decimal ;
 	geo:long	"-1.54717172480906"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1188,8 +1188,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Gare_Routière_Baco_Lila>	 foaf:name 	 "Gare Routière Baco Lila"^^xsd:string ;
-	geo:lat	"47.2126755417774 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Gare_Routière_Baco_Lila>	 foaf:name 	 "Gare Routière Baco Lila"^^xsd:string ;
+	geo:lat	"47.2126755417774"^^xsd:decimal ;
 	geo:long	"-1.55276994885937"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1205,8 +1205,8 @@
 	TEMPORAIRE:TypeProblem	 "100404"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/91_Station_Abonnement_Rond_Point_Vannes>	 foaf:name 	 "91 Station Abonnement Rond Point Vannes"^^xsd:string ;
-	geo:lat	"47.229675345348 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/91_Station_Abonnement_Rond_Point_Vannes>	 foaf:name 	 "91 Station Abonnement Rond Point Vannes"^^xsd:string ;
+	geo:lat	"47.229675345348"^^xsd:decimal ;
 	geo:long	"-1.57201209125591"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1222,8 +1222,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/88_Station_Accueil_Mellinet>	 foaf:name 	 "88 Station Accueil Mellinet"^^xsd:string ;
-	geo:lat	"47.211489622114 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/88_Station_Accueil_Mellinet>	 foaf:name 	 "88 Station Accueil Mellinet"^^xsd:string ;
+	geo:lat	"47.211489622114"^^xsd:decimal ;
 	geo:long	"-1.57712676541886"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -1239,8 +1239,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/48_Station_Abonnement_Verdun>	 foaf:name 	 "48 Station Abonnement Verdun"^^xsd:string ;
-	geo:lat	"47.217516769716 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/48_Station_Abonnement_Verdun>	 foaf:name 	 "48 Station Abonnement Verdun"^^xsd:string ;
+	geo:lat	"47.217516769716"^^xsd:decimal ;
 	geo:long	"-1.55186817651381"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1256,8 +1256,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/2_Station_Accueil_Hôtel_de_Ville>	 foaf:name 	 "2 Station Accueil Hôtel de Ville"^^xsd:string ;
-	geo:lat	"47.2185640015645 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/2_Station_Accueil_Hôtel_de_Ville>	 foaf:name 	 "2 Station Accueil Hôtel de Ville"^^xsd:string ;
+	geo:lat	"47.2185640015645"^^xsd:decimal ;
 	geo:long	"-1.55354426853678"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1273,8 +1273,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/58_Station_Accueil_Palais_des_Sports>	 foaf:name 	 "58 Station Accueil Palais des Sports"^^xsd:string ;
-	geo:lat	"47.2084771961567 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/58_Station_Accueil_Palais_des_Sports>	 foaf:name 	 "58 Station Accueil Palais des Sports"^^xsd:string ;
+	geo:lat	"47.2084771961567"^^xsd:decimal ;
 	geo:long	"-1.53599916068622"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -1290,8 +1290,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/13_Station_Abonnement_et_Bonus_Bretagne_Sud>	 foaf:name 	 "13 Station Abonnement et Bonus Bretagne Sud"^^xsd:string ;
-	geo:lat	"47.2167500594478 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/13_Station_Abonnement_et_Bonus_Bretagne_Sud>	 foaf:name 	 "13 Station Abonnement et Bonus Bretagne Sud"^^xsd:string ;
+	geo:lat	"47.2167500594478"^^xsd:decimal ;
 	geo:long	"-1.55915731787571"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1307,8 +1307,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/7_Station_Accueil_Barillerie>	 foaf:name 	 "7 Station Accueil Barillerie"^^xsd:string ;
-	geo:lat	"47.2154096299385 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/7_Station_Accueil_Barillerie>	 foaf:name 	 "7 Station Accueil Barillerie"^^xsd:string ;
+	geo:lat	"47.2154096299385"^^xsd:decimal ;
 	geo:long	"-1.5561003799956"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1324,8 +1324,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/22_Station_Accueil_Moquechien>	 foaf:name 	 "22 Station Accueil Moquechien"^^xsd:string ;
-	geo:lat	"47.2203790474815 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/22_Station_Accueil_Moquechien>	 foaf:name 	 "22 Station Accueil Moquechien"^^xsd:string ;
+	geo:lat	"47.2203790474815"^^xsd:decimal ;
 	geo:long	"-1.55558297927192"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1341,8 +1341,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Station_Baco>	 foaf:name 	 "Station Baco"^^xsd:string ;
-	geo:lat	"47.2121787060193 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Station_Baco>	 foaf:name 	 "Station Baco"^^xsd:string ;
+	geo:lat	"47.2121787060193"^^xsd:decimal ;
 	geo:long	"-1.55252763911359"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1358,8 +1358,8 @@
 	TEMPORAIRE:TypeProblem	 "100302"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/43_Station_Abonnement_Machines_de_l'Ile>	 foaf:name 	 "43 Station Abonnement Machines de l'Ile"^^xsd:string ;
-	geo:lat	"47.2069302605475 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/43_Station_Abonnement_Machines_de_l'Ile>	 foaf:name 	 "43 Station Abonnement Machines de l'Ile"^^xsd:string ;
+	geo:lat	"47.2069302605475"^^xsd:decimal ;
 	geo:long	"-1.56482580615095"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -1375,8 +1375,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/55_Station_Accueil_Magellan>	 foaf:name 	 "55 Station Accueil Magellan"^^xsd:string ;
-	geo:lat	"47.2106839754833 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/55_Station_Accueil_Magellan>	 foaf:name 	 "55 Station Accueil Magellan"^^xsd:string ;
+	geo:lat	"47.2106839754833"^^xsd:decimal ;
 	geo:long	"-1.54424826339243"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1392,8 +1392,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/26_Station_Abonnement_et_Bonus_Guist'hau_Sud>	 foaf:name 	 "26 Station Abonnement et Bonus Guist'hau Sud"^^xsd:string ;
-	geo:lat	"47.2168394453051 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/26_Station_Abonnement_et_Bonus_Guist'hau_Sud>	 foaf:name 	 "26 Station Abonnement et Bonus Guist'hau Sud"^^xsd:string ;
+	geo:lat	"47.2168394453051"^^xsd:decimal ;
 	geo:long	"-1.56702335731262"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1409,8 +1409,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/27_Station_Accueil_Guist'hau_Nord>	 foaf:name 	 "27 Station Accueil Guist'hau Nord"^^xsd:string ;
-	geo:lat	"47.2179401852254 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/27_Station_Accueil_Guist'hau_Nord>	 foaf:name 	 "27 Station Accueil Guist'hau Nord"^^xsd:string ;
+	geo:lat	"47.2179401852254"^^xsd:decimal ;
 	geo:long	"-1.56926720618524"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1426,8 +1426,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/56_Station_Accueil_Vincent_Gache>	 foaf:name 	 "56 Station Accueil Vincent Gache"^^xsd:string ;
-	geo:lat	"47.2068847351676 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/56_Station_Accueil_Vincent_Gache>	 foaf:name 	 "56 Station Accueil Vincent Gache"^^xsd:string ;
+	geo:lat	"47.2068847351676"^^xsd:decimal ;
 	geo:long	"-1.54185096726864"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -1443,8 +1443,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/34_Station_Abonnement_Médiathèque>	 foaf:name 	 "34 Station Abonnement Médiathèque"^^xsd:string ;
-	geo:lat	"47.2109126549257 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/34_Station_Abonnement_Médiathèque>	 foaf:name 	 "34 Station Abonnement Médiathèque"^^xsd:string ;
+	geo:lat	"47.2109126549257"^^xsd:decimal ;
 	geo:long	"-1.5618418449525"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1460,8 +1460,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Aire_de_covoiturage_Carrefour_Beaujoire>	 foaf:name 	 "Aire de covoiturage Carrefour Beaujoire"^^xsd:string ;
-	geo:lat	"47.2578779098455 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Aire_de_covoiturage_Carrefour_Beaujoire>	 foaf:name 	 "Aire de covoiturage Carrefour Beaujoire"^^xsd:string ;
+	geo:lat	"47.2578779098455"^^xsd:decimal ;
 	geo:long	"-1.50983215080644"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -1477,8 +1477,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1006"^^xsd:string .
 
-<http://projet.com/10/69_Station_Accueil_Manufacture>	 foaf:name 	 "69 Station Accueil Manufacture"^^xsd:string ;
-	geo:lat	"47.2192276992993 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/69_Station_Accueil_Manufacture>	 foaf:name 	 "69 Station Accueil Manufacture"^^xsd:string ;
+	geo:lat	"47.2192276992993"^^xsd:decimal ;
 	geo:long	"-1.53586535019784"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1494,8 +1494,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/99_Station_Accueil_Saint-Jacques>	 foaf:name 	 "99 Station Accueil Saint-Jacques"^^xsd:string ;
-	geo:lat	"47.1958591605985 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/99_Station_Accueil_Saint-Jacques>	 foaf:name 	 "99 Station Accueil Saint-Jacques"^^xsd:string ;
+	geo:lat	"47.1958591605985"^^xsd:decimal ;
 	geo:long	"-1.53658962887906"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -1511,8 +1511,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_busway_Porte_de_Vertou>	 foaf:name 	 "Parc relais busway Porte de Vertou"^^xsd:string ;
-	geo:lat	"47.1801752959869 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_busway_Porte_de_Vertou>	 foaf:name 	 "Parc relais busway Porte de Vertou"^^xsd:string ;
+	geo:lat	"47.1801752959869"^^xsd:decimal ;
 	geo:long	"-1.50516017764927"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44120"^^xsd:string ;
@@ -1528,8 +1528,8 @@
 	TEMPORAIRE:TypeProblem	 "100202"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Parc_en_enclos_Gloriette_2>	 foaf:name 	 "Parc en enclos Gloriette 2"^^xsd:string ;
-	geo:lat	"47.2102736871054 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_en_enclos_Gloriette_2>	 foaf:name 	 "Parc en enclos Gloriette 2"^^xsd:string ;
+	geo:lat	"47.2102736871054"^^xsd:decimal ;
 	geo:long	"-1.56028436884679"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1545,8 +1545,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1005"^^xsd:string .
 
-<http://projet.com/10/14_Station_Accueil_Saint-Félix>	 foaf:name 	 "14 Station Accueil Saint-Félix"^^xsd:string ;
-	geo:lat	"47.2306076047205 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/14_Station_Accueil_Saint-Félix>	 foaf:name 	 "14 Station Accueil Saint-Félix"^^xsd:string ;
+	geo:lat	"47.2306076047205"^^xsd:decimal ;
 	geo:long	"-1.55623411620874"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1562,8 +1562,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/84_Station_Accueil_Région>	 foaf:name 	 "84 Station Accueil Région"^^xsd:string ;
-	geo:lat	"47.2107532371851 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/84_Station_Accueil_Région>	 foaf:name 	 "84 Station Accueil Région"^^xsd:string ;
+	geo:lat	"47.2107532371851"^^xsd:decimal ;
 	geo:long	"-1.52595127548116"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -1579,8 +1579,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_TER_Gare_des_Pas_Enchantés>	 foaf:name 	 "Parc relais TER Gare des Pas Enchantés"^^xsd:string ;
-	geo:lat	"47.2082290545652 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_TER_Gare_des_Pas_Enchantés>	 foaf:name 	 "Parc relais TER Gare des Pas Enchantés"^^xsd:string ;
+	geo:lat	"47.2082290545652"^^xsd:decimal ;
 	geo:long	"-1.51299644307533"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44230"^^xsd:string ;
@@ -1596,8 +1596,8 @@
 	TEMPORAIRE:TypeProblem	 "100203"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/96_Station_Abonnement_Tortière>	 foaf:name 	 "96 Station Abonnement Tortière"^^xsd:string ;
-	geo:lat	"47.2353448001876 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/96_Station_Abonnement_Tortière>	 foaf:name 	 "96 Station Abonnement Tortière"^^xsd:string ;
+	geo:lat	"47.2353448001876"^^xsd:decimal ;
 	geo:long	"-1.54947343741177"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1613,8 +1613,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Station_Graslin>	 foaf:name 	 "Station Graslin"^^xsd:string ;
-	geo:lat	"47.212029862504 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Station_Graslin>	 foaf:name 	 "Station Graslin"^^xsd:string ;
+	geo:lat	"47.212029862504"^^xsd:decimal ;
 	geo:long	"-1.56519317277433"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1630,8 +1630,8 @@
 	TEMPORAIRE:TypeProblem	 "100302"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parking_ouvrage_Cité_des_Congrès>	 foaf:name 	 "Parking ouvrage Cité des Congrès"^^xsd:string ;
-	geo:lat	"47.2129016709023 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parking_ouvrage_Cité_des_Congrès>	 foaf:name 	 "Parking ouvrage Cité des Congrès"^^xsd:string ;
+	geo:lat	"47.2129016709023"^^xsd:decimal ;
 	geo:long	"-1.54397127716684"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1647,8 +1647,8 @@
 	TEMPORAIRE:TypeProblem	 "100101"^^xsd:string ;
 	pdll:Category	 "1001"^^xsd:string .
 
-<http://projet.com/10/75_Station_Accueil_Lamoricière>	 foaf:name 	 "75 Station Accueil Lamoricière"^^xsd:string ;
-	geo:lat	"47.212365614395 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/75_Station_Accueil_Lamoricière>	 foaf:name 	 "75 Station Accueil Lamoricière"^^xsd:string ;
+	geo:lat	"47.212365614395"^^xsd:decimal ;
 	geo:long	"-1.57139899840128"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -1664,8 +1664,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_tramway_Frachon>	 foaf:name 	 "Parc relais tramway Frachon"^^xsd:string ;
-	geo:lat	"47.2186961365515 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_tramway_Frachon>	 foaf:name 	 "Parc relais tramway Frachon"^^xsd:string ;
+	geo:lat	"47.2186961365515"^^xsd:decimal ;
 	geo:long	"-1.62163336178234"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -1681,8 +1681,8 @@
 	TEMPORAIRE:TypeProblem	 "100203"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_tramway_Marcel_Paul>	 foaf:name 	 "Parc relais tramway Marcel Paul"^^xsd:string ;
-	geo:lat	"47.2459045698135 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_tramway_Marcel_Paul>	 foaf:name 	 "Parc relais tramway Marcel Paul"^^xsd:string ;
+	geo:lat	"47.2459045698135"^^xsd:decimal ;
 	geo:long	"-1.61800834963946"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -1698,8 +1698,8 @@
 	TEMPORAIRE:TypeProblem	 "100202"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_tramway_François_Mitterrand>	 foaf:name 	 "Parc relais tramway François Mitterrand"^^xsd:string ;
-	geo:lat	"47.22170620087 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_tramway_François_Mitterrand>	 foaf:name 	 "Parc relais tramway François Mitterrand"^^xsd:string ;
+	geo:lat	"47.22170620087"^^xsd:decimal ;
 	geo:long	"-1.63948414305523"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -1715,8 +1715,8 @@
 	TEMPORAIRE:TypeProblem	 "100201"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/93_Station_Abonnement_Facultés>	 foaf:name 	 "93 Station Abonnement Facultés"^^xsd:string ;
-	geo:lat	"47.2463232883454 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/93_Station_Abonnement_Facultés>	 foaf:name 	 "93 Station Abonnement Facultés"^^xsd:string ;
+	geo:lat	"47.2463232883454"^^xsd:decimal ;
 	geo:long	"-1.5553383498054"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -1732,8 +1732,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/86_Station_Accueil_Hauts-Pavés>	 foaf:name 	 "86 Station Accueil Hauts-Pavés"^^xsd:string ;
-	geo:lat	"47.2254822618338 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/86_Station_Accueil_Hauts-Pavés>	 foaf:name 	 "86 Station Accueil Hauts-Pavés"^^xsd:string ;
+	geo:lat	"47.2254822618338"^^xsd:decimal ;
 	geo:long	"-1.56752047182291"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1749,8 +1749,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parc_en_enclos_Gloriette_1>	 foaf:name 	 "Parc en enclos Gloriette 1"^^xsd:string ;
-	geo:lat	"47.2111796553233 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_en_enclos_Gloriette_1>	 foaf:name 	 "Parc en enclos Gloriette 1"^^xsd:string ;
+	geo:lat	"47.2111796553233"^^xsd:decimal ;
 	geo:long	"-1.55843872950464"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1766,8 +1766,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1005"^^xsd:string .
 
-<http://projet.com/10/Aire_de_covoiturage_Piano'cktail>	 foaf:name 	 "Aire de covoiturage Piano'cktail"^^xsd:string ;
-	geo:lat	"47.1743921106395 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Aire_de_covoiturage_Piano'cktail>	 foaf:name 	 "Aire de covoiturage Piano'cktail"^^xsd:string ;
+	geo:lat	"47.1743921106395"^^xsd:decimal ;
 	geo:long	"-1.60539271713277"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44340"^^xsd:string ;
@@ -1783,8 +1783,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1006"^^xsd:string .
 
-<http://projet.com/10/30_Station_Abonnement_Commerce>	 foaf:name 	 "30 Station Abonnement Commerce"^^xsd:string ;
-	geo:lat	"47.2131450294256 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/30_Station_Abonnement_Commerce>	 foaf:name 	 "30 Station Abonnement Commerce"^^xsd:string ;
+	geo:lat	"47.2131450294256"^^xsd:decimal ;
 	geo:long	"-1.55738072263822"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1800,8 +1800,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/45_Station_Accueil_Prairie_au_Duc>	 foaf:name 	 "45 Station Accueil Prairie au Duc"^^xsd:string ;
-	geo:lat	"47.2047848192062 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/45_Station_Accueil_Prairie_au_Duc>	 foaf:name 	 "45 Station Accueil Prairie au Duc"^^xsd:string ;
+	geo:lat	"47.2047848192062"^^xsd:decimal ;
 	geo:long	"-1.55888284017234"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -1817,8 +1817,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parking_ouvrage_Graslin>	 foaf:name 	 "Parking ouvrage Graslin"^^xsd:string ;
-	geo:lat	"47.2143102105068 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parking_ouvrage_Graslin>	 foaf:name 	 "Parking ouvrage Graslin"^^xsd:string ;
+	geo:lat	"47.2143102105068"^^xsd:decimal ;
 	geo:long	"-1.56257181621741"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1834,8 +1834,8 @@
 	TEMPORAIRE:TypeProblem	 "100102"^^xsd:string ;
 	pdll:Category	 "1001"^^xsd:string .
 
-<http://projet.com/10/Station_Hôtel_de_Ville>	 foaf:name 	 "Station Hôtel de Ville"^^xsd:string ;
-	geo:lat	"47.2176490515034 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Station_Hôtel_de_Ville>	 foaf:name 	 "Station Hôtel de Ville"^^xsd:string ;
+	geo:lat	"47.2176490515034"^^xsd:decimal ;
 	geo:long	"-1.55407383358279"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1851,8 +1851,8 @@
 	TEMPORAIRE:TypeProblem	 "100302"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/90_Station_Abonnement_Procé>	 foaf:name 	 "90 Station Abonnement Procé"^^xsd:string ;
-	geo:lat	"47.2243215861999 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/90_Station_Abonnement_Procé>	 foaf:name 	 "90 Station Abonnement Procé"^^xsd:string ;
+	geo:lat	"47.2243215861999"^^xsd:decimal ;
 	geo:long	"-1.57658356660229"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1868,8 +1868,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Aire_de_covoiturage_Les_Ormeaux>	 foaf:name 	 "Aire de covoiturage Les Ormeaux"^^xsd:string ;
-	geo:lat	"47.1558857839796 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Aire_de_covoiturage_Les_Ormeaux>	 foaf:name 	 "Aire de covoiturage Les Ormeaux"^^xsd:string ;
+	geo:lat	"47.1558857839796"^^xsd:decimal ;
 	geo:long	"-1.68247122952125"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44830"^^xsd:string ;
@@ -1885,8 +1885,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1006"^^xsd:string .
 
-<http://projet.com/10/31_Station_Accueil_Bourse>	 foaf:name 	 "31 Station Accueil Bourse"^^xsd:string ;
-	geo:lat	"47.2120943808486 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/31_Station_Accueil_Bourse>	 foaf:name 	 "31 Station Accueil Bourse"^^xsd:string ;
+	geo:lat	"47.2120943808486"^^xsd:decimal ;
 	geo:long	"-1.55910527758924"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1902,8 +1902,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/94_Station_Abonnement_Petit_Port>	 foaf:name 	 "94 Station Abonnement Petit Port"^^xsd:string ;
-	geo:lat	"47.2432626440766 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/94_Station_Abonnement_Petit_Port>	 foaf:name 	 "94 Station Abonnement Petit Port"^^xsd:string ;
+	geo:lat	"47.2432626440766"^^xsd:decimal ;
 	geo:long	"-1.55638098635507"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -1919,8 +1919,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parc_en_enclos_Gare_Sud_2>	 foaf:name 	 "Parc en enclos Gare Sud 2"^^xsd:string ;
-	geo:lat	"47.2142340366163 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_en_enclos_Gare_Sud_2>	 foaf:name 	 "Parc en enclos Gare Sud 2"^^xsd:string ;
+	geo:lat	"47.2142340366163"^^xsd:decimal ;
 	geo:long	"-1.54134337584288"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1936,8 +1936,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1005"^^xsd:string .
 
-<http://projet.com/10/Parc_en_enclos_Gare_Sud_2_limité_1h>	 foaf:name 	 "Parc en enclos Gare Sud 2 limité 1h"^^xsd:string ;
-	geo:lat	"47.2152021232956 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_en_enclos_Gare_Sud_2_limité_1h>	 foaf:name 	 "Parc en enclos Gare Sud 2 limité 1h"^^xsd:string ;
+	geo:lat	"47.2152021232956"^^xsd:decimal ;
 	geo:long	"-1.54267513884661"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1953,8 +1953,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1005"^^xsd:string .
 
-<http://projet.com/10/Station_Gare_SNCF_Sud>	 foaf:name 	 "Station Gare SNCF Sud"^^xsd:string ;
-	geo:lat	"47.2149069334244 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Station_Gare_SNCF_Sud>	 foaf:name 	 "Station Gare SNCF Sud"^^xsd:string ;
+	geo:lat	"47.2149069334244"^^xsd:decimal ;
 	geo:long	"-1.54185994912442"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1970,8 +1970,8 @@
 	TEMPORAIRE:TypeProblem	 "100302"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/61_Station_Accueil_LU_Lieu_Unique>	 foaf:name 	 "61 Station Accueil LU Lieu Unique"^^xsd:string ;
-	geo:lat	"47.2156027850142 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/61_Station_Accueil_LU_Lieu_Unique>	 foaf:name 	 "61 Station Accueil LU Lieu Unique"^^xsd:string ;
+	geo:lat	"47.2156027850142"^^xsd:decimal ;
 	geo:long	"-1.54592421117785"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -1987,8 +1987,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Aire_de_covoiturage_Norauto_Atlantis>	 foaf:name 	 "Aire de covoiturage Norauto Atlantis"^^xsd:string ;
-	geo:lat	"47.2257239248911 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Aire_de_covoiturage_Norauto_Atlantis>	 foaf:name 	 "Aire de covoiturage Norauto Atlantis"^^xsd:string ;
+	geo:lat	"47.2257239248911"^^xsd:decimal ;
 	geo:long	"-1.62624641113902"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -2004,8 +2004,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1006"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_tram-train_Haluchère_1>	 foaf:name 	 "Parc relais tram-train Haluchère 1"^^xsd:string ;
-	geo:lat	"47.2484503442291 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_tram-train_Haluchère_1>	 foaf:name 	 "Parc relais tram-train Haluchère 1"^^xsd:string ;
+	geo:lat	"47.2484503442291"^^xsd:decimal ;
 	geo:long	"-1.52283117372235"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -2021,8 +2021,8 @@
 	TEMPORAIRE:TypeProblem	 "100202"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_busway_Bourdonnières_1>	 foaf:name 	 "Parc relais busway Bourdonnières 1"^^xsd:string ;
-	geo:lat	"47.186255590967 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_busway_Bourdonnières_1>	 foaf:name 	 "Parc relais busway Bourdonnières 1"^^xsd:string ;
+	geo:lat	"47.186255590967"^^xsd:decimal ;
 	geo:long	"-1.52115429456528"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -2038,8 +2038,8 @@
 	TEMPORAIRE:TypeProblem	 "100202"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_tramway_Plaisance>	 foaf:name 	 "Parc relais tramway Plaisance"^^xsd:string ;
-	geo:lat	"47.2405326620207 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_tramway_Plaisance>	 foaf:name 	 "Parc relais tramway Plaisance"^^xsd:string ;
+	geo:lat	"47.2405326620207"^^xsd:decimal ;
 	geo:long	"-1.59344052396589"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -2055,8 +2055,8 @@
 	TEMPORAIRE:TypeProblem	 "100203"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Gare_Routière_Beauséjour_Lila>	 foaf:name 	 "Gare Routière Beauséjour Lila"^^xsd:string ;
-	geo:lat	"47.2380795016075 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Gare_Routière_Beauséjour_Lila>	 foaf:name 	 "Gare Routière Beauséjour Lila"^^xsd:string ;
+	geo:lat	"47.2380795016075"^^xsd:decimal ;
 	geo:long	"-1.58686060715571"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -2072,8 +2072,8 @@
 	TEMPORAIRE:TypeProblem	 "100404"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/Station_50_Otages>	 foaf:name 	 "Station 50 Otages"^^xsd:string ;
-	geo:lat	"47.2184474307694 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Station_50_Otages>	 foaf:name 	 "Station 50 Otages"^^xsd:string ;
+	geo:lat	"47.2184474307694"^^xsd:decimal ;
 	geo:long	"-1.55759693321303"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2089,8 +2089,8 @@
 	TEMPORAIRE:TypeProblem	 "100302"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/16_Station_Accueil_Place_Edouard_Normand>	 foaf:name 	 "16 Station Accueil Place Edouard Normand"^^xsd:string ;
-	geo:lat	"47.2190280325433 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/16_Station_Accueil_Place_Edouard_Normand>	 foaf:name 	 "16 Station Accueil Place Edouard Normand"^^xsd:string ;
+	geo:lat	"47.2190280325433"^^xsd:decimal ;
 	geo:long	"-1.56349473337675"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2106,8 +2106,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/25_Station_Abonnement_Dalby>	 foaf:name 	 "25 Station Abonnement Dalby"^^xsd:string ;
-	geo:lat	"47.2236126488755 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/25_Station_Abonnement_Dalby>	 foaf:name 	 "25 Station Abonnement Dalby"^^xsd:string ;
+	geo:lat	"47.2236126488755"^^xsd:decimal ;
 	geo:long	"-1.53010845738847"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2123,8 +2123,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Capitainerie_du_Port_Atlantique_Nantes_Saint_Nazaire>	 foaf:name 	 "Capitainerie du Port Atlantique Nantes Saint Nazaire"^^xsd:string ;
-	geo:lat	"47.2054007823477 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Capitainerie_du_Port_Atlantique_Nantes_Saint_Nazaire>	 foaf:name 	 "Capitainerie du Port Atlantique Nantes Saint Nazaire"^^xsd:string ;
+	geo:lat	"47.2054007823477"^^xsd:decimal ;
 	geo:long	"-1.57398139134178"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -2140,8 +2140,8 @@
 	TEMPORAIRE:TypeProblem	 "100402"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/Station_Gare_Maritime>	 foaf:name 	 "Station Gare Maritime"^^xsd:string ;
-	geo:lat	"47.2065301936315 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Station_Gare_Maritime>	 foaf:name 	 "Station Gare Maritime"^^xsd:string ;
+	geo:lat	"47.2065301936315"^^xsd:decimal ;
 	geo:long	"-1.57266897343107"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -2157,8 +2157,8 @@
 	TEMPORAIRE:TypeProblem	 "100302"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/42_Station_Abonnement_Gare_Maritime>	 foaf:name 	 "42 Station Abonnement Gare Maritime"^^xsd:string ;
-	geo:lat	"47.2066090811753 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/42_Station_Abonnement_Gare_Maritime>	 foaf:name 	 "42 Station Abonnement Gare Maritime"^^xsd:string ;
+	geo:lat	"47.2066090811753"^^xsd:decimal ;
 	geo:long	"-1.57262953237793"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -2174,8 +2174,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/78_Station_Accueil_De_Gaulle>	 foaf:name 	 "78 Station Accueil De Gaulle"^^xsd:string ;
-	geo:lat	"47.2084603783954 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/78_Station_Accueil_De_Gaulle>	 foaf:name 	 "78 Station Accueil De Gaulle"^^xsd:string ;
+	geo:lat	"47.2084603783954"^^xsd:decimal ;
 	geo:long	"-1.54056873329161"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -2191,8 +2191,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Gare_SNCF_de_Vertou>	 foaf:name 	 "Gare SNCF de Vertou"^^xsd:string ;
-	geo:lat	"47.1861434794643 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Gare_SNCF_de_Vertou>	 foaf:name 	 "Gare SNCF de Vertou"^^xsd:string ;
+	geo:lat	"47.1861434794643"^^xsd:decimal ;
 	geo:long	"-1.47803194855925"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44120"^^xsd:string ;
@@ -2208,8 +2208,8 @@
 	TEMPORAIRE:TypeProblem	 "100403"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_TER_Gare_de_Vertou_Nord>	 foaf:name 	 "Parc relais TER Gare de Vertou Nord"^^xsd:string ;
-	geo:lat	"47.1864023763705 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_TER_Gare_de_Vertou_Nord>	 foaf:name 	 "Parc relais TER Gare de Vertou Nord"^^xsd:string ;
+	geo:lat	"47.1864023763705"^^xsd:decimal ;
 	geo:long	"-1.47916185458301"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44120"^^xsd:string ;
@@ -2225,8 +2225,8 @@
 	TEMPORAIRE:TypeProblem	 "100203"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Aire_de_covoiturage_La_Herdrie>	 foaf:name 	 "Aire de covoiturage La Herdrie"^^xsd:string ;
-	geo:lat	"47.1981631732408 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Aire_de_covoiturage_La_Herdrie>	 foaf:name 	 "Aire de covoiturage La Herdrie"^^xsd:string ;
+	geo:lat	"47.1981631732408"^^xsd:decimal ;
 	geo:long	"-1.45487772478565"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44115"^^xsd:string ;
@@ -2242,8 +2242,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1006"^^xsd:string .
 
-<http://projet.com/10/Station_Rezé_Mairie>	 foaf:name 	 "Station Rezé Mairie"^^xsd:string ;
-	geo:lat	"47.1912719943743 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Station_Rezé_Mairie>	 foaf:name 	 "Station Rezé Mairie"^^xsd:string ;
+	geo:lat	"47.1912719943743"^^xsd:decimal ;
 	geo:long	"-1.57041911066494"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -2259,8 +2259,8 @@
 	TEMPORAIRE:TypeProblem	 "100302"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Gare_SNCF_de_Bouaye>	 foaf:name 	 "Gare SNCF de Bouaye"^^xsd:string ;
-	geo:lat	"47.1381446873955 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Gare_SNCF_de_Bouaye>	 foaf:name 	 "Gare SNCF de Bouaye"^^xsd:string ;
+	geo:lat	"47.1381446873955"^^xsd:decimal ;
 	geo:long	"-1.68107526983411"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44830"^^xsd:string ;
@@ -2276,8 +2276,8 @@
 	TEMPORAIRE:TypeProblem	 "100403"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_TER_Gare_de_Bouaye>	 foaf:name 	 "Parc relais TER Gare de Bouaye"^^xsd:string ;
-	geo:lat	"47.138339716512 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_TER_Gare_de_Bouaye>	 foaf:name 	 "Parc relais TER Gare de Bouaye"^^xsd:string ;
+	geo:lat	"47.138339716512"^^xsd:decimal ;
 	geo:long	"-1.68209925257509"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44830"^^xsd:string ;
@@ -2293,8 +2293,8 @@
 	TEMPORAIRE:TypeProblem	 "100203"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Gare_SNCF_de_Basse_Indre_St-Herblain>	 foaf:name 	 "Gare SNCF de Basse Indre St-Herblain"^^xsd:string ;
-	geo:lat	"47.2040832390443 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Gare_SNCF_de_Basse_Indre_St-Herblain>	 foaf:name 	 "Gare SNCF de Basse Indre St-Herblain"^^xsd:string ;
+	geo:lat	"47.2040832390443"^^xsd:decimal ;
 	geo:long	"-1.66031284128023"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -2310,8 +2310,8 @@
 	TEMPORAIRE:TypeProblem	 "100403"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_TER_Gare_de_Basse-Indre_Saint-Herblain>	 foaf:name 	 "Parc relais TER Gare de Basse-Indre Saint-Herblain"^^xsd:string ;
-	geo:lat	"47.2041579741319 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_TER_Gare_de_Basse-Indre_Saint-Herblain>	 foaf:name 	 "Parc relais TER Gare de Basse-Indre Saint-Herblain"^^xsd:string ;
+	geo:lat	"47.2041579741319"^^xsd:decimal ;
 	geo:long	"-1.66103809646199"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44800"^^xsd:string ;
@@ -2327,8 +2327,8 @@
 	TEMPORAIRE:TypeProblem	 "100203"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Aire_de_covoiturage_Les_3_Brasseurs>	 foaf:name 	 "Aire de covoiturage Les 3 Brasseurs"^^xsd:string ;
-	geo:lat	"47.1909311959939 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Aire_de_covoiturage_Les_3_Brasseurs>	 foaf:name 	 "Aire de covoiturage Les 3 Brasseurs"^^xsd:string ;
+	geo:lat	"47.1909311959939"^^xsd:decimal ;
 	geo:long	"-1.48944982933608"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44230"^^xsd:string ;
@@ -2344,8 +2344,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1006"^^xsd:string .
 
-<http://projet.com/10/92_Station_Abonnement_Rond_Point_Rennes>	 foaf:name 	 "92 Station Abonnement Rond Point Rennes"^^xsd:string ;
-	geo:lat	"47.2330917037559 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/92_Station_Abonnement_Rond_Point_Rennes>	 foaf:name 	 "92 Station Abonnement Rond Point Rennes"^^xsd:string ;
+	geo:lat	"47.2330917037559"^^xsd:decimal ;
 	geo:long	"-1.56601698077602"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2361,8 +2361,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/6_Station_Abonnement_Place_du_Cirque>	 foaf:name 	 "6 Station Abonnement Place du Cirque"^^xsd:string ;
-	geo:lat	"47.2176522877325 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/6_Station_Abonnement_Place_du_Cirque>	 foaf:name 	 "6 Station Abonnement Place du Cirque"^^xsd:string ;
+	geo:lat	"47.2176522877325"^^xsd:decimal ;
 	geo:long	"-1.55686962933674"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2378,8 +2378,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/5_Station_Accueil_Brossard>	 foaf:name 	 "5 Station Accueil Brossard"^^xsd:string ;
-	geo:lat	"47.2188225831247 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/5_Station_Accueil_Brossard>	 foaf:name 	 "5 Station Accueil Brossard"^^xsd:string ;
+	geo:lat	"47.2188225831247"^^xsd:decimal ;
 	geo:long	"-1.5563270902907"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2395,8 +2395,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/19_Station_Accueil_Saint_Similien>	 foaf:name 	 "19 Station Accueil Saint Similien"^^xsd:string ;
-	geo:lat	"47.219835952652 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/19_Station_Accueil_Saint_Similien>	 foaf:name 	 "19 Station Accueil Saint Similien"^^xsd:string ;
+	geo:lat	"47.219835952652"^^xsd:decimal ;
 	geo:long	"-1.55892890964265"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2412,8 +2412,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/17_Station_Accueil_Sainte_Elisabeth>	 foaf:name 	 "17 Station Accueil Sainte Elisabeth"^^xsd:string ;
-	geo:lat	"47.219225442242 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/17_Station_Accueil_Sainte_Elisabeth>	 foaf:name 	 "17 Station Accueil Sainte Elisabeth"^^xsd:string ;
+	geo:lat	"47.219225442242"^^xsd:decimal ;
 	geo:long	"-1.56158876841816"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2429,8 +2429,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/89_Station_Accueil_Saint-Aignan>	 foaf:name 	 "89 Station Accueil Saint-Aignan"^^xsd:string ;
-	geo:lat	"47.2074440639466 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/89_Station_Accueil_Saint-Aignan>	 foaf:name 	 "89 Station Accueil Saint-Aignan"^^xsd:string ;
+	geo:lat	"47.2074440639466"^^xsd:decimal ;
 	geo:long	"-1.57871509661417"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -2446,8 +2446,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Station_CIO>	 foaf:name 	 "Station CIO"^^xsd:string ;
-	geo:lat	"47.2112773575355 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Station_CIO>	 foaf:name 	 "Station CIO"^^xsd:string ;
+	geo:lat	"47.2112773575355"^^xsd:decimal ;
 	geo:long	"-1.54453132747124"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2463,8 +2463,8 @@
 	TEMPORAIRE:TypeProblem	 "100302"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/76_Station_Accueil_Place_René_Bouhier>	 foaf:name 	 "76 Station Accueil Place René Bouhier"^^xsd:string ;
-	geo:lat	"47.2094420409641 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/76_Station_Accueil_Place_René_Bouhier>	 foaf:name 	 "76 Station Accueil Place René Bouhier"^^xsd:string ;
+	geo:lat	"47.2094420409641"^^xsd:decimal ;
 	geo:long	"-1.57058928666779"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -2480,8 +2480,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/71_Station_Abonnement_et_Bonus_Marché_Talensac_Nord>	 foaf:name 	 "71 Station Abonnement et Bonus Marché Talensac Nord"^^xsd:string ;
-	geo:lat	"47.2219103419541 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/71_Station_Abonnement_et_Bonus_Marché_Talensac_Nord>	 foaf:name 	 "71 Station Abonnement et Bonus Marché Talensac Nord"^^xsd:string ;
+	geo:lat	"47.2219103419541"^^xsd:decimal ;
 	geo:long	"-1.55906934287743"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2497,8 +2497,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parking_ouvrage_Decré-Bouffay>	 foaf:name 	 "Parking ouvrage Decré-Bouffay"^^xsd:string ;
-	geo:lat	"47.2166626199643 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parking_ouvrage_Decré-Bouffay>	 foaf:name 	 "Parking ouvrage Decré-Bouffay"^^xsd:string ;
+	geo:lat	"47.2166626199643"^^xsd:decimal ;
 	geo:long	"-1.55400463227177"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2514,8 +2514,8 @@
 	TEMPORAIRE:TypeProblem	 "100103"^^xsd:string ;
 	pdll:Category	 "1001"^^xsd:string .
 
-<http://projet.com/10/4_Station_Accueil_Moulin>	 foaf:name 	 "4 Station Accueil Moulin"^^xsd:string ;
-	geo:lat	"47.2166468712003 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/4_Station_Accueil_Moulin>	 foaf:name 	 "4 Station Accueil Moulin"^^xsd:string ;
+	geo:lat	"47.2166468712003"^^xsd:decimal ;
 	geo:long	"-1.55442584710721"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2531,8 +2531,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/40_Station_Accueil_Madeleine>	 foaf:name 	 "40 Station Accueil Madeleine"^^xsd:string ;
-	geo:lat	"47.208815874652 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/40_Station_Accueil_Madeleine>	 foaf:name 	 "40 Station Accueil Madeleine"^^xsd:string ;
+	geo:lat	"47.208815874652"^^xsd:decimal ;
 	geo:long	"-1.5504304749082"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2548,8 +2548,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/39_Station_Accueil_Quai_Moncousu>	 foaf:name 	 "39 Station Accueil Quai Moncousu"^^xsd:string ;
-	geo:lat	"47.2093654560619 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/39_Station_Accueil_Quai_Moncousu>	 foaf:name 	 "39 Station Accueil Quai Moncousu"^^xsd:string ;
+	geo:lat	"47.2093654560619"^^xsd:decimal ;
 	geo:long	"-1.555248414263"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2565,8 +2565,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/57_Station_Abonnement_Gaëtan_Rondeau>	 foaf:name 	 "57 Station Abonnement Gaëtan Rondeau"^^xsd:string ;
-	geo:lat	"47.2054072118627 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/57_Station_Abonnement_Gaëtan_Rondeau>	 foaf:name 	 "57 Station Abonnement Gaëtan Rondeau"^^xsd:string ;
+	geo:lat	"47.2054072118627"^^xsd:decimal ;
 	geo:long	"-1.53760013962524"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -2582,8 +2582,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/53_Station_Accueil_Olivettes>	 foaf:name 	 "53 Station Accueil Olivettes"^^xsd:string ;
-	geo:lat	"47.2117494265765 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/53_Station_Accueil_Olivettes>	 foaf:name 	 "53 Station Accueil Olivettes"^^xsd:string ;
+	geo:lat	"47.2117494265765"^^xsd:decimal ;
 	geo:long	"-1.54995935107843"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2599,8 +2599,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/36_Station_Accueil_Alger>	 foaf:name 	 "36 Station Accueil Alger"^^xsd:string ;
-	geo:lat	"47.210705238574 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/36_Station_Accueil_Alger>	 foaf:name 	 "36 Station Accueil Alger"^^xsd:string ;
+	geo:lat	"47.210705238574"^^xsd:decimal ;
 	geo:long	"-1.5666743136651"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -2616,8 +2616,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Gare_SNCF_de_Nantes_Sud>	 foaf:name 	 "Gare SNCF de Nantes Sud"^^xsd:string ;
-	geo:lat	"47.216448854427 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Gare_SNCF_de_Nantes_Sud>	 foaf:name 	 "Gare SNCF de Nantes Sud"^^xsd:string ;
+	geo:lat	"47.216448854427"^^xsd:decimal ;
 	geo:long	"-1.54155846026517"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2633,8 +2633,8 @@
 	TEMPORAIRE:TypeProblem	 "100403"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/60_Station_Abonnement_Gare_Sud>	 foaf:name 	 "60 Station Abonnement Gare Sud"^^xsd:string ;
-	geo:lat	"47.2159307421474 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/60_Station_Abonnement_Gare_Sud>	 foaf:name 	 "60 Station Abonnement Gare Sud"^^xsd:string ;
+	geo:lat	"47.2159307421474"^^xsd:decimal ;
 	geo:long	"-1.54286596091712"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2650,8 +2650,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/74_Station_Accueil_Place_Canclaux>	 foaf:name 	 "74 Station Accueil Place Canclaux"^^xsd:string ;
-	geo:lat	"47.2143716842925 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/74_Station_Accueil_Place_Canclaux>	 foaf:name 	 "74 Station Accueil Place Canclaux"^^xsd:string ;
+	geo:lat	"47.2143716842925"^^xsd:decimal ;
 	geo:long	"-1.57500608192678"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -2667,8 +2667,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parking_ouvrage_Tour_Bretagne>	 foaf:name 	 "Parking ouvrage Tour Bretagne"^^xsd:string ;
-	geo:lat	"47.2177394198201 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parking_ouvrage_Tour_Bretagne>	 foaf:name 	 "Parking ouvrage Tour Bretagne"^^xsd:string ;
+	geo:lat	"47.2177394198201"^^xsd:decimal ;
 	geo:long	"-1.55820163936291"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2684,8 +2684,8 @@
 	TEMPORAIRE:TypeProblem	 "100103"^^xsd:string ;
 	pdll:Category	 "1001"^^xsd:string .
 
-<http://projet.com/10/83_Station_Abonnement_Millerand>	 foaf:name 	 "83 Station Abonnement Millerand"^^xsd:string ;
-	geo:lat	"47.208217819463 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/83_Station_Abonnement_Millerand>	 foaf:name 	 "83 Station Abonnement Millerand"^^xsd:string ;
+	geo:lat	"47.208217819463"^^xsd:decimal ;
 	geo:long	"-1.53016141349475"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -2701,8 +2701,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/29_Station_Accueil_Duguay_Trouin>	 foaf:name 	 "29 Station Accueil Duguay Trouin"^^xsd:string ;
-	geo:lat	"47.2134615787904 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/29_Station_Accueil_Duguay_Trouin>	 foaf:name 	 "29 Station Accueil Duguay Trouin"^^xsd:string ;
+	geo:lat	"47.2134615787904"^^xsd:decimal ;
 	geo:long	"-1.55528850840637"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2718,8 +2718,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_tramway_Morlière_Paquelais>	 foaf:name 	 "Parc relais tramway Morlière Paquelais"^^xsd:string ;
-	geo:lat	"47.2478235218625 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_tramway_Morlière_Paquelais>	 foaf:name 	 "Parc relais tramway Morlière Paquelais"^^xsd:string ;
+	geo:lat	"47.2478235218625"^^xsd:decimal ;
 	geo:long	"-1.60283874722482"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44700"^^xsd:string ;
@@ -2735,8 +2735,8 @@
 	TEMPORAIRE:TypeProblem	 "100203"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Gare_Fluviale_Bateaux_Nantais>	 foaf:name 	 "Gare Fluviale Bateaux Nantais"^^xsd:string ;
-	geo:lat	"47.2279684766427 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Gare_Fluviale_Bateaux_Nantais>	 foaf:name 	 "Gare Fluviale Bateaux Nantais"^^xsd:string ;
+	geo:lat	"47.2279684766427"^^xsd:decimal ;
 	geo:long	"-1.5516367391695"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2752,8 +2752,8 @@
 	TEMPORAIRE:TypeProblem	 "100402"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_tramway_Beauséjour>	 foaf:name 	 "Parc relais tramway Beauséjour"^^xsd:string ;
-	geo:lat	"47.2384135213971 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_tramway_Beauséjour>	 foaf:name 	 "Parc relais tramway Beauséjour"^^xsd:string ;
+	geo:lat	"47.2384135213971"^^xsd:decimal ;
 	geo:long	"-1.5873437488368"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -2769,8 +2769,8 @@
 	TEMPORAIRE:TypeProblem	 "100203"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/44_Station_Accueil_Palais_de_Justice>	 foaf:name 	 "44 Station Accueil Palais de Justice"^^xsd:string ;
-	geo:lat	"47.2083631782056 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/44_Station_Accueil_Palais_de_Justice>	 foaf:name 	 "44 Station Accueil Palais de Justice"^^xsd:string ;
+	geo:lat	"47.2083631782056"^^xsd:decimal ;
 	geo:long	"-1.56124245373142"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -2786,8 +2786,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/65_Station_Accueil_Sully>	 foaf:name 	 "65 Station Accueil Sully"^^xsd:string ;
-	geo:lat	"47.2225988184658 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/65_Station_Accueil_Sully>	 foaf:name 	 "65 Station Accueil Sully"^^xsd:string ;
+	geo:lat	"47.2225988184658"^^xsd:decimal ;
 	geo:long	"-1.5516848391931"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2803,8 +2803,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/85_Station_Accueil_et_Bonus_Bel_Air>	 foaf:name 	 "85 Station Accueil et Bonus Bel Air"^^xsd:string ;
-	geo:lat	"47.2264060339437 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/85_Station_Accueil_et_Bonus_Bel_Air>	 foaf:name 	 "85 Station Accueil et Bonus Bel Air"^^xsd:string ;
+	geo:lat	"47.2264060339437"^^xsd:decimal ;
 	geo:long	"-1.56004122137593"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2820,8 +2820,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/20_Station_Abonnement_Bellamy>	 foaf:name 	 "20 Station Abonnement Bellamy"^^xsd:string ;
-	geo:lat	"47.223348795628 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/20_Station_Abonnement_Bellamy>	 foaf:name 	 "20 Station Abonnement Bellamy"^^xsd:string ;
+	geo:lat	"47.223348795628"^^xsd:decimal ;
 	geo:long	"-1.55765985443575"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2837,8 +2837,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/95_Station_Abonnement_Michelet>	 foaf:name 	 "95 Station Abonnement Michelet"^^xsd:string ;
-	geo:lat	"47.2350837066755 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/95_Station_Abonnement_Michelet>	 foaf:name 	 "95 Station Abonnement Michelet"^^xsd:string ;
+	geo:lat	"47.2350837066755"^^xsd:decimal ;
 	geo:long	"-1.55638870204855"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -2854,8 +2854,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parking_ouvrage_Gare_Sud_4>	 foaf:name 	 "Parking ouvrage Gare Sud 4"^^xsd:string ;
-	geo:lat	"47.2152099260756 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parking_ouvrage_Gare_Sud_4>	 foaf:name 	 "Parking ouvrage Gare Sud 4"^^xsd:string ;
+	geo:lat	"47.2152099260756"^^xsd:decimal ;
 	geo:long	"-1.53754504260148"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2871,8 +2871,8 @@
 	TEMPORAIRE:TypeProblem	 "100101"^^xsd:string ;
 	pdll:Category	 "1001"^^xsd:string .
 
-<http://projet.com/10/81_Station_Abonnement_Mangin>	 foaf:name 	 "81 Station Abonnement Mangin"^^xsd:string ;
-	geo:lat	"47.2010219272 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/81_Station_Abonnement_Mangin>	 foaf:name 	 "81 Station Abonnement Mangin"^^xsd:string ;
+	geo:lat	"47.2010219272"^^xsd:decimal ;
 	geo:long	"-1.54549762740334"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -2888,8 +2888,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/18_Station_Abonnement_et_Bonus_Place_Viarme>	 foaf:name 	 "18 Station Abonnement et Bonus Place Viarme"^^xsd:string ;
-	geo:lat	"47.2214408780072 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/18_Station_Abonnement_et_Bonus_Place_Viarme>	 foaf:name 	 "18 Station Abonnement et Bonus Place Viarme"^^xsd:string ;
+	geo:lat	"47.2214408780072"^^xsd:decimal ;
 	geo:long	"-1.56332698114374"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2905,8 +2905,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/63_Station_Accueil_Jardins_des_Plantes>	 foaf:name 	 "63 Station Accueil Jardins des Plantes"^^xsd:string ;
-	geo:lat	"47.2199317719337 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/63_Station_Accueil_Jardins_des_Plantes>	 foaf:name 	 "63 Station Accueil Jardins des Plantes"^^xsd:string ;
+	geo:lat	"47.2199317719337"^^xsd:decimal ;
 	geo:long	"-1.54476410962437"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2922,8 +2922,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/33_Station_Accueil_Racine>	 foaf:name 	 "33 Station Accueil Racine"^^xsd:string ;
-	geo:lat	"47.2134832603266 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/33_Station_Accueil_Racine>	 foaf:name 	 "33 Station Accueil Racine"^^xsd:string ;
+	geo:lat	"47.2134832603266"^^xsd:decimal ;
 	geo:long	"-1.5631877058962"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2939,8 +2939,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/68_Station_Accueil_Livet>	 foaf:name 	 "68 Station Accueil Livet"^^xsd:string ;
-	geo:lat	"47.2240954955051 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/68_Station_Accueil_Livet>	 foaf:name 	 "68 Station Accueil Livet"^^xsd:string ;
+	geo:lat	"47.2240954955051"^^xsd:decimal ;
 	geo:long	"-1.54521632095855"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -2956,8 +2956,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Aire_de_covoiturage_La_Métaierie_Rouge>	 foaf:name 	 "Aire de covoiturage La Métaierie Rouge"^^xsd:string ;
-	geo:lat	"47.2744422259447 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Aire_de_covoiturage_La_Métaierie_Rouge>	 foaf:name 	 "Aire de covoiturage La Métaierie Rouge"^^xsd:string ;
+	geo:lat	"47.2744422259447"^^xsd:decimal ;
 	geo:long	"-1.54638397050348"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44240"^^xsd:string ;
@@ -2973,8 +2973,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1006"^^xsd:string .
 
-<http://projet.com/10/Bacs_de_Loire_entre_Couëron_et_Le_Pellerin>	 foaf:name 	 "Bacs de Loire entre Couëron et Le Pellerin"^^xsd:string ;
-	geo:lat	"47.2059274676151 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Bacs_de_Loire_entre_Couëron_et_Le_Pellerin>	 foaf:name 	 "Bacs de Loire entre Couëron et Le Pellerin"^^xsd:string ;
+	geo:lat	"47.2059274676151"^^xsd:decimal ;
 	geo:long	"-1.75225472914734"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44220"^^xsd:string ;
@@ -2990,8 +2990,8 @@
 	TEMPORAIRE:TypeProblem	 "100402"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/Aire_de_covoiturage_Le_Paradis>	 foaf:name 	 "Aire de covoiturage Le Paradis"^^xsd:string ;
-	geo:lat	"47.2058433058368 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Aire_de_covoiturage_Le_Paradis>	 foaf:name 	 "Aire de covoiturage Le Paradis"^^xsd:string ;
+	geo:lat	"47.2058433058368"^^xsd:decimal ;
 	geo:long	"-1.751615681513"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44220"^^xsd:string ;
@@ -3007,8 +3007,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1006"^^xsd:string .
 
-<http://projet.com/10/Bacs_de_Loire_entre_Basse-Indre_et_Indret>	 foaf:name 	 "Bacs de Loire entre Basse-Indre et Indret"^^xsd:string ;
-	geo:lat	"47.1977692572592 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Bacs_de_Loire_entre_Basse-Indre_et_Indret>	 foaf:name 	 "Bacs de Loire entre Basse-Indre et Indret"^^xsd:string ;
+	geo:lat	"47.1977692572592"^^xsd:decimal ;
 	geo:long	"-1.67391847052844"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44610"^^xsd:string ;
@@ -3024,8 +3024,8 @@
 	TEMPORAIRE:TypeProblem	 "100402"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/Gare_Routière_Haluchère_Lila>	 foaf:name 	 "Gare Routière Haluchère Lila"^^xsd:string ;
-	geo:lat	"47.2480211629729 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Gare_Routière_Haluchère_Lila>	 foaf:name 	 "Gare Routière Haluchère Lila"^^xsd:string ;
+	geo:lat	"47.2480211629729"^^xsd:decimal ;
 	geo:long	"-1.52143188594155"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -3041,8 +3041,8 @@
 	TEMPORAIRE:TypeProblem	 "100404"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/Gare_Routière_Baco_Eurolines>	 foaf:name 	 "Gare Routière Baco Eurolines"^^xsd:string ;
-	geo:lat	"47.2127402501474 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Gare_Routière_Baco_Eurolines>	 foaf:name 	 "Gare Routière Baco Eurolines"^^xsd:string ;
+	geo:lat	"47.2127402501474"^^xsd:decimal ;
 	geo:long	"-1.55276077185068"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3058,8 +3058,8 @@
 	TEMPORAIRE:TypeProblem	 "100404"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/82_Station_Accueil_Sébilleau>	 foaf:name 	 "82 Station Accueil Sébilleau"^^xsd:string ;
-	geo:lat	"47.2067685846983 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/82_Station_Accueil_Sébilleau>	 foaf:name 	 "82 Station Accueil Sébilleau"^^xsd:string ;
+	geo:lat	"47.2067685846983"^^xsd:decimal ;
 	geo:long	"-1.53313636292619"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -3075,8 +3075,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Gare_SNCF_de_Doulon>	 foaf:name 	 "Gare SNCF de Doulon"^^xsd:string ;
-	geo:lat	"47.2285285048663 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Gare_SNCF_de_Doulon>	 foaf:name 	 "Gare SNCF de Doulon"^^xsd:string ;
+	geo:lat	"47.2285285048663"^^xsd:decimal ;
 	geo:long	"-1.51724402726267"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -3092,8 +3092,8 @@
 	TEMPORAIRE:TypeProblem	 "100403"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_busway_Gréneraie>	 foaf:name 	 "Parc relais busway Gréneraie"^^xsd:string ;
-	geo:lat	"47.2001390392692 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_busway_Gréneraie>	 foaf:name 	 "Parc relais busway Gréneraie"^^xsd:string ;
+	geo:lat	"47.2001390392692"^^xsd:decimal ;
 	geo:long	"-1.53333362324729"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -3109,8 +3109,8 @@
 	TEMPORAIRE:TypeProblem	 "100202"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/98_Station_Abonnement_Huit_Mai>	 foaf:name 	 "98 Station Abonnement Huit Mai"^^xsd:string ;
-	geo:lat	"47.1899986201306 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/98_Station_Abonnement_Huit_Mai>	 foaf:name 	 "98 Station Abonnement Huit Mai"^^xsd:string ;
+	geo:lat	"47.1899986201306"^^xsd:decimal ;
 	geo:long	"-1.55182125953104"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -3126,8 +3126,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_tramway_8_Mai>	 foaf:name 	 "Parc relais tramway 8 Mai"^^xsd:string ;
-	geo:lat	"47.1901779141219 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_tramway_8_Mai>	 foaf:name 	 "Parc relais tramway 8 Mai"^^xsd:string ;
+	geo:lat	"47.1901779141219"^^xsd:decimal ;
 	geo:long	"-1.55169145198101"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -3143,8 +3143,8 @@
 	TEMPORAIRE:TypeProblem	 "100201"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_tramway_Trocardière>	 foaf:name 	 "Parc relais tramway Trocardière"^^xsd:string ;
-	geo:lat	"47.1832927458839 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_tramway_Trocardière>	 foaf:name 	 "Parc relais tramway Trocardière"^^xsd:string ;
+	geo:lat	"47.1832927458839"^^xsd:decimal ;
 	geo:long	"-1.57109558940531"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -3160,8 +3160,8 @@
 	TEMPORAIRE:TypeProblem	 "100203"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Aire_de_covoiturage_Georges_Brassens>	 foaf:name 	 "Aire de covoiturage Georges Brassens"^^xsd:string ;
-	geo:lat	"47.183363813418 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Aire_de_covoiturage_Georges_Brassens>	 foaf:name 	 "Aire de covoiturage Georges Brassens"^^xsd:string ;
+	geo:lat	"47.183363813418"^^xsd:decimal ;
 	geo:long	"-1.6761600551125"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44620"^^xsd:string ;
@@ -3177,8 +3177,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1006"^^xsd:string .
 
-<http://projet.com/10/Aire_de_covoiturage_La_Charmelière>	 foaf:name 	 "Aire de covoiturage La Charmelière"^^xsd:string ;
-	geo:lat	"47.2948276010662 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Aire_de_covoiturage_La_Charmelière>	 foaf:name 	 "Aire de covoiturage La Charmelière"^^xsd:string ;
+	geo:lat	"47.2948276010662"^^xsd:decimal ;
 	geo:long	"-1.47381722266676"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44470"^^xsd:string ;
@@ -3194,8 +3194,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1006"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_TER_Gare_de_Vertou_Sud>	 foaf:name 	 "Parc relais TER Gare de Vertou Sud"^^xsd:string ;
-	geo:lat	"47.1857498067425 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_TER_Gare_de_Vertou_Sud>	 foaf:name 	 "Parc relais TER Gare de Vertou Sud"^^xsd:string ;
+	geo:lat	"47.1857498067425"^^xsd:decimal ;
 	geo:long	"-1.47860856997784"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44120"^^xsd:string ;
@@ -3211,8 +3211,8 @@
 	TEMPORAIRE:TypeProblem	 "100203"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/103_Station_Mobile>	 foaf:name 	 "103 Station Mobile"^^xsd:string ;
-	geo:lat	"47.2059145067047 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/103_Station_Mobile>	 foaf:name 	 "103 Station Mobile"^^xsd:string ;
+	geo:lat	"47.2059145067047"^^xsd:decimal ;
 	geo:long	"-1.56970373529113"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -3228,8 +3228,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parc_en_enclos_Chantiers_Navals>	 foaf:name 	 "Parc en enclos Chantiers Navals"^^xsd:string ;
-	geo:lat	"47.2082893195233 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_en_enclos_Chantiers_Navals>	 foaf:name 	 "Parc en enclos Chantiers Navals"^^xsd:string ;
+	geo:lat	"47.2082893195233"^^xsd:decimal ;
 	geo:long	"-1.56891560955727"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -3245,8 +3245,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1005"^^xsd:string .
 
-<http://projet.com/10/12_Station_Abonnement_et_Bonus_Place_Delorme>	 foaf:name 	 "12 Station Abonnement et Bonus Place Delorme"^^xsd:string ;
-	geo:lat	"47.2151581344299 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/12_Station_Abonnement_et_Bonus_Place_Delorme>	 foaf:name 	 "12 Station Abonnement et Bonus Place Delorme"^^xsd:string ;
+	geo:lat	"47.2151581344299"^^xsd:decimal ;
 	geo:long	"-1.56396356682832"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3262,8 +3262,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Gare_SNCF_de_Thouaré-sur-Loire>	 foaf:name 	 "Gare SNCF de Thouaré-sur-Loire"^^xsd:string ;
-	geo:lat	"47.2651201184653 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Gare_SNCF_de_Thouaré-sur-Loire>	 foaf:name 	 "Gare SNCF de Thouaré-sur-Loire"^^xsd:string ;
+	geo:lat	"47.2651201184653"^^xsd:decimal ;
 	geo:long	"-1.44096386071447"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44470"^^xsd:string ;
@@ -3279,8 +3279,8 @@
 	TEMPORAIRE:TypeProblem	 "100403"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_TER_Gare_de_Thouaré-sur-Loire>	 foaf:name 	 "Parc relais TER Gare de Thouaré-sur-Loire"^^xsd:string ;
-	geo:lat	"47.2647119908848 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_TER_Gare_de_Thouaré-sur-Loire>	 foaf:name 	 "Parc relais TER Gare de Thouaré-sur-Loire"^^xsd:string ;
+	geo:lat	"47.2647119908848"^^xsd:decimal ;
 	geo:long	"-1.4413893536783"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44470"^^xsd:string ;
@@ -3296,8 +3296,8 @@
 	TEMPORAIRE:TypeProblem	 "100203"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Parc_en_enclos_Château>	 foaf:name 	 "Parc en enclos Château"^^xsd:string ;
-	geo:lat	"47.2169899609793 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_en_enclos_Château>	 foaf:name 	 "Parc en enclos Château"^^xsd:string ;
+	geo:lat	"47.2169899609793"^^xsd:decimal ;
 	geo:long	"-1.54785044968527"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3313,8 +3313,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1005"^^xsd:string .
 
-<http://projet.com/10/Station_Duchesse_Anne>	 foaf:name 	 "Station Duchesse Anne"^^xsd:string ;
-	geo:lat	"47.2165024497787 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Station_Duchesse_Anne>	 foaf:name 	 "Station Duchesse Anne"^^xsd:string ;
+	geo:lat	"47.2165024497787"^^xsd:decimal ;
 	geo:long	"-1.54717075568781"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3330,8 +3330,8 @@
 	TEMPORAIRE:TypeProblem	 "100302"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/49_Station_Accueil_Duchesse_Anne>	 foaf:name 	 "49 Station Accueil Duchesse Anne"^^xsd:string ;
-	geo:lat	"47.2165287485861 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/49_Station_Accueil_Duchesse_Anne>	 foaf:name 	 "49 Station Accueil Duchesse Anne"^^xsd:string ;
+	geo:lat	"47.2165287485861"^^xsd:decimal ;
 	geo:long	"-1.54707722079028"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3347,8 +3347,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_tramway_Neustrie_1>	 foaf:name 	 "Parc relais tramway Neustrie 1"^^xsd:string ;
-	geo:lat	"47.1756933085378 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_tramway_Neustrie_1>	 foaf:name 	 "Parc relais tramway Neustrie 1"^^xsd:string ;
+	geo:lat	"47.1756933085378"^^xsd:decimal ;
 	geo:long	"-1.5932723508575"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44340"^^xsd:string ;
@@ -3364,8 +3364,8 @@
 	TEMPORAIRE:TypeProblem	 "100202"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Aire_de_covoiturage_La_Croix_de_Mauves>	 foaf:name 	 "Aire de covoiturage La Croix de Mauves"^^xsd:string ;
-	geo:lat	"47.3002662582306 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Aire_de_covoiturage_La_Croix_de_Mauves>	 foaf:name 	 "Aire de covoiturage La Croix de Mauves"^^xsd:string ;
+	geo:lat	"47.3002662582306"^^xsd:decimal ;
 	geo:long	"-1.39817225866548"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44470"^^xsd:string ;
@@ -3381,8 +3381,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1006"^^xsd:string .
 
-<http://projet.com/10/Station_Sainte_Thérèse>	 foaf:name 	 "Station Sainte Thérèse"^^xsd:string ;
-	geo:lat	"47.2322056559262 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Station_Sainte_Thérèse>	 foaf:name 	 "Station Sainte Thérèse"^^xsd:string ;
+	geo:lat	"47.2322056559262"^^xsd:decimal ;
 	geo:long	"-1.57724775456618"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -3398,8 +3398,8 @@
 	TEMPORAIRE:TypeProblem	 "100302"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/54_Station_Abonnement_Cité_Internationale_des_Congrès>	 foaf:name 	 "54 Station Abonnement Cité Internationale des Congrès"^^xsd:string ;
-	geo:lat	"47.2131685540285 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/54_Station_Abonnement_Cité_Internationale_des_Congrès>	 foaf:name 	 "54 Station Abonnement Cité Internationale des Congrès"^^xsd:string ;
+	geo:lat	"47.2131685540285"^^xsd:decimal ;
 	geo:long	"-1.54502748383111"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3415,8 +3415,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/66_Station_Accueil_Chanzy>	 foaf:name 	 "66 Station Accueil Chanzy"^^xsd:string ;
-	geo:lat	"47.2254413947716 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/66_Station_Accueil_Chanzy>	 foaf:name 	 "66 Station Accueil Chanzy"^^xsd:string ;
+	geo:lat	"47.2254413947716"^^xsd:decimal ;
 	geo:long	"-1.54801802179078"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3432,8 +3432,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_tramway_René_Cassin>	 foaf:name 	 "Parc relais tramway René Cassin"^^xsd:string ;
-	geo:lat	"47.2639509260101 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_tramway_René_Cassin>	 foaf:name 	 "Parc relais tramway René Cassin"^^xsd:string ;
+	geo:lat	"47.2639509260101"^^xsd:decimal ;
 	geo:long	"-1.57499790750312"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -3449,8 +3449,8 @@
 	TEMPORAIRE:TypeProblem	 "100203"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_tramway_La_Beaujoire>	 foaf:name 	 "Parc relais tramway La Beaujoire"^^xsd:string ;
-	geo:lat	"47.2594833036504 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_tramway_La_Beaujoire>	 foaf:name 	 "Parc relais tramway La Beaujoire"^^xsd:string ;
+	geo:lat	"47.2594833036504"^^xsd:decimal ;
 	geo:long	"-1.52739847057661"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44300"^^xsd:string ;
@@ -3466,8 +3466,8 @@
 	TEMPORAIRE:TypeProblem	 "100202"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Parking_ouvrage_Médiathèque>	 foaf:name 	 "Parking ouvrage Médiathèque"^^xsd:string ;
-	geo:lat	"47.2108708271003 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parking_ouvrage_Médiathèque>	 foaf:name 	 "Parking ouvrage Médiathèque"^^xsd:string ;
+	geo:lat	"47.2108708271003"^^xsd:decimal ;
 	geo:long	"-1.5623381759623"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3483,8 +3483,8 @@
 	TEMPORAIRE:TypeProblem	 "100103"^^xsd:string ;
 	pdll:Category	 "1001"^^xsd:string .
 
-<http://projet.com/10/Station_Commerce>	 foaf:name 	 "Station Commerce"^^xsd:string ;
-	geo:lat	"47.2123927720913 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Station_Commerce>	 foaf:name 	 "Station Commerce"^^xsd:string ;
+	geo:lat	"47.2123927720913"^^xsd:decimal ;
 	geo:long	"-1.55794606610268"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3500,8 +3500,8 @@
 	TEMPORAIRE:TypeProblem	 "100302"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parking_ouvrage_Gare_Nord>	 foaf:name 	 "Parking ouvrage Gare Nord"^^xsd:string ;
-	geo:lat	"47.2166890401729 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parking_ouvrage_Gare_Nord>	 foaf:name 	 "Parking ouvrage Gare Nord"^^xsd:string ;
+	geo:lat	"47.2166890401729"^^xsd:decimal ;
 	geo:long	"-1.54498433411572"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3517,8 +3517,8 @@
 	TEMPORAIRE:TypeProblem	 "100102"^^xsd:string ;
 	pdll:Category	 "1001"^^xsd:string .
 
-<http://projet.com/10/Gare_SNCF_de_Nantes_Nord_-_Direction_régionale>	 foaf:name 	 "Gare SNCF de Nantes Nord - Direction régionale"^^xsd:string ;
-	geo:lat	"47.2174431606581 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Gare_SNCF_de_Nantes_Nord_-_Direction_régionale>	 foaf:name 	 "Gare SNCF de Nantes Nord - Direction régionale"^^xsd:string ;
+	geo:lat	"47.2174431606581"^^xsd:decimal ;
 	geo:long	"-1.54235996605665"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3534,8 +3534,8 @@
 	TEMPORAIRE:TypeProblem	 "100403"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/Station_Manufacture>	 foaf:name 	 "Station Manufacture"^^xsd:string ;
-	geo:lat	"47.219107562114 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Station_Manufacture>	 foaf:name 	 "Station Manufacture"^^xsd:string ;
+	geo:lat	"47.219107562114"^^xsd:decimal ;
 	geo:long	"-1.53586498523079"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3551,8 +3551,8 @@
 	TEMPORAIRE:TypeProblem	 "100302"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parc_en_enclos_Courte_Durée_Gare_Nord>	 foaf:name 	 "Parc en enclos Courte Durée Gare Nord"^^xsd:string ;
-	geo:lat	"47.2172647322169 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_en_enclos_Courte_Durée_Gare_Nord>	 foaf:name 	 "Parc en enclos Courte Durée Gare Nord"^^xsd:string ;
+	geo:lat	"47.2172647322169"^^xsd:decimal ;
 	geo:long	"-1.54347875084443"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3568,8 +3568,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1005"^^xsd:string .
 
-<http://projet.com/10/Parc_en_enclos_CHU>	 foaf:name 	 "Parc en enclos CHU"^^xsd:string ;
-	geo:lat	"47.2093619715999 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_en_enclos_CHU>	 foaf:name 	 "Parc en enclos CHU"^^xsd:string ;
+	geo:lat	"47.2093619715999"^^xsd:decimal ;
 	geo:long	"-1.55725023399242"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3585,8 +3585,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1005"^^xsd:string .
 
-<http://projet.com/10/11_Station_Accueil_Calvaire>	 foaf:name 	 "11 Station Accueil Calvaire"^^xsd:string ;
-	geo:lat	"47.2155991819633 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/11_Station_Accueil_Calvaire>	 foaf:name 	 "11 Station Accueil Calvaire"^^xsd:string ;
+	geo:lat	"47.2155991819633"^^xsd:decimal ;
 	geo:long	"-1.56060630687651"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3602,8 +3602,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/51_Station_Abonnement_Berlin>	 foaf:name 	 "51 Station Abonnement Berlin"^^xsd:string ;
-	geo:lat	"47.2143914699763 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/51_Station_Abonnement_Berlin>	 foaf:name 	 "51 Station Abonnement Berlin"^^xsd:string ;
+	geo:lat	"47.2143914699763"^^xsd:decimal ;
 	geo:long	"-1.53007250061588"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3619,8 +3619,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Port_de_Couëron>	 foaf:name 	 "Port de Couëron"^^xsd:string ;
-	geo:lat	"47.2091256884984 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Port_de_Couëron>	 foaf:name 	 "Port de Couëron"^^xsd:string ;
+	geo:lat	"47.2091256884984"^^xsd:decimal ;
 	geo:long	"-1.72995922379383"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44220"^^xsd:string ;
@@ -3636,8 +3636,8 @@
 	TEMPORAIRE:TypeProblem	 "100402"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/Station_Mairie_de_Chantenay>	 foaf:name 	 "Station Mairie de Chantenay"^^xsd:string ;
-	geo:lat	"47.2065168340528 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Station_Mairie_de_Chantenay>	 foaf:name 	 "Station Mairie de Chantenay"^^xsd:string ;
+	geo:lat	"47.2065168340528"^^xsd:decimal ;
 	geo:long	"-1.58787125667645"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -3653,8 +3653,8 @@
 	TEMPORAIRE:TypeProblem	 "100302"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parc_en_enclos_Hôtel_Dieu>	 foaf:name 	 "Parc en enclos Hôtel Dieu"^^xsd:string ;
-	geo:lat	"47.2110570860299 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_en_enclos_Hôtel_Dieu>	 foaf:name 	 "Parc en enclos Hôtel Dieu"^^xsd:string ;
+	geo:lat	"47.2110570860299"^^xsd:decimal ;
 	geo:long	"-1.55198311230427"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3670,8 +3670,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1005"^^xsd:string .
 
-<http://projet.com/10/38_Station_Abonnement_Place_Ricordeau>	 foaf:name 	 "38 Station Abonnement Place Ricordeau"^^xsd:string ;
-	geo:lat	"47.2120904234566 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/38_Station_Abonnement_Place_Ricordeau>	 foaf:name 	 "38 Station Abonnement Place Ricordeau"^^xsd:string ;
+	geo:lat	"47.2120904234566"^^xsd:decimal ;
 	geo:long	"-1.55313666650746"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3687,8 +3687,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_tramway_Bignon>	 foaf:name 	 "Parc relais tramway Bignon"^^xsd:string ;
-	geo:lat	"47.2489752466115 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_tramway_Bignon>	 foaf:name 	 "Parc relais tramway Bignon"^^xsd:string ;
+	geo:lat	"47.2489752466115"^^xsd:decimal ;
 	geo:long	"-1.59820022515513"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44700"^^xsd:string ;
@@ -3704,8 +3704,8 @@
 	TEMPORAIRE:TypeProblem	 "100203"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Parc_en_enclos_Gare_Sud_3>	 foaf:name 	 "Parc en enclos Gare Sud 3"^^xsd:string ;
-	geo:lat	"47.216135859474 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_en_enclos_Gare_Sud_3>	 foaf:name 	 "Parc en enclos Gare Sud 3"^^xsd:string ;
+	geo:lat	"47.216135859474"^^xsd:decimal ;
 	geo:long	"-1.53789482834948"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3721,8 +3721,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1005"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_tramway_Neustrie_2>	 foaf:name 	 "Parc relais tramway Neustrie 2"^^xsd:string ;
-	geo:lat	"47.176672451111 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_tramway_Neustrie_2>	 foaf:name 	 "Parc relais tramway Neustrie 2"^^xsd:string ;
+	geo:lat	"47.176672451111"^^xsd:decimal ;
 	geo:long	"-1.59339969648243"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44340"^^xsd:string ;
@@ -3738,8 +3738,8 @@
 	TEMPORAIRE:TypeProblem	 "100202"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Pac_en_enclos_Viviani>	 foaf:name 	 "Pac en enclos Viviani"^^xsd:string ;
-	geo:lat	"47.2087756042897 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Pac_en_enclos_Viviani>	 foaf:name 	 "Pac en enclos Viviani"^^xsd:string ;
+	geo:lat	"47.2087756042897"^^xsd:decimal ;
 	geo:long	"-1.53619706978924"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44200"^^xsd:string ;
@@ -3755,8 +3755,8 @@
 	TEMPORAIRE:TypeProblem	 "undefined"^^xsd:string ;
 	pdll:Category	 "1005"^^xsd:string .
 
-<http://projet.com/10/Parking_ouvrage_Cathédrale>	 foaf:name 	 "Parking ouvrage Cathédrale"^^xsd:string ;
-	geo:lat	"47.2208133510721 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parking_ouvrage_Cathédrale>	 foaf:name 	 "Parking ouvrage Cathédrale"^^xsd:string ;
+	geo:lat	"47.2208133510721"^^xsd:decimal ;
 	geo:long	"-1.55105616832611"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3772,8 +3772,8 @@
 	TEMPORAIRE:TypeProblem	 "100101"^^xsd:string ;
 	pdll:Category	 "1001"^^xsd:string .
 
-<http://projet.com/10/Station_Cité_des_Congrès>	 foaf:name 	 "Station Cité des Congrès"^^xsd:string ;
-	geo:lat	"47.2132409347 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Station_Cité_des_Congrès>	 foaf:name 	 "Station Cité des Congrès"^^xsd:string ;
+	geo:lat	"47.2132409347"^^xsd:decimal ;
 	geo:long	"-1.54452831608963"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3789,8 +3789,8 @@
 	TEMPORAIRE:TypeProblem	 "100302"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_TER_Frêne_Rond>	 foaf:name 	 "Parc relais TER Frêne Rond"^^xsd:string ;
-	geo:lat	"47.1905492575224 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_TER_Frêne_Rond>	 foaf:name 	 "Parc relais TER Frêne Rond"^^xsd:string ;
+	geo:lat	"47.1905492575224"^^xsd:decimal ;
 	geo:long	"-1.49621830894861"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44230"^^xsd:string ;
@@ -3806,8 +3806,8 @@
 	TEMPORAIRE:TypeProblem	 "100203"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Gare_SNCF_de_St-Sébastien_Frêne_Rond>	 foaf:name 	 "Gare SNCF de St-Sébastien Frêne Rond"^^xsd:string ;
-	geo:lat	"47.1902026129156 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Gare_SNCF_de_St-Sébastien_Frêne_Rond>	 foaf:name 	 "Gare SNCF de St-Sébastien Frêne Rond"^^xsd:string ;
+	geo:lat	"47.1902026129156"^^xsd:decimal ;
 	geo:long	"-1.49592805587597"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44230"^^xsd:string ;
@@ -3823,8 +3823,8 @@
 	TEMPORAIRE:TypeProblem	 "100403"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/35_Station_Abonnement_Jean_V>	 foaf:name 	 "35 Station Abonnement Jean V"^^xsd:string ;
-	geo:lat	"47.212180370735 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/35_Station_Abonnement_Jean_V>	 foaf:name 	 "35 Station Abonnement Jean V"^^xsd:string ;
+	geo:lat	"47.212180370735"^^xsd:decimal ;
 	geo:long	"-1.56556289207478"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3840,8 +3840,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Aéroport_Nantes_Atlantique>	 foaf:name 	 "Aéroport Nantes Atlantique"^^xsd:string ;
-	geo:lat	"47.1575191481928 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Aéroport_Nantes_Atlantique>	 foaf:name 	 "Aéroport Nantes Atlantique"^^xsd:string ;
+	geo:lat	"47.1575191481928"^^xsd:decimal ;
 	geo:long	"-1.60178206983725"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44340"^^xsd:string ;
@@ -3857,8 +3857,8 @@
 	TEMPORAIRE:TypeProblem	 "100401"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_navibus_Trentemoult-Dépôt>	 foaf:name 	 "Parc relais navibus Trentemoult-Dépôt"^^xsd:string ;
-	geo:lat	"47.1919649895095 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_navibus_Trentemoult-Dépôt>	 foaf:name 	 "Parc relais navibus Trentemoult-Dépôt"^^xsd:string ;
+	geo:lat	"47.1919649895095"^^xsd:decimal ;
 	geo:long	"-1.58068768637466"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44400"^^xsd:string ;
@@ -3874,8 +3874,8 @@
 	TEMPORAIRE:TypeProblem	 "100203"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/Gare_SNCF_de_Mauves-sur-Loire>	 foaf:name 	 "Gare SNCF de Mauves-sur-Loire"^^xsd:string ;
-	geo:lat	"47.2930081697889 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Gare_SNCF_de_Mauves-sur-Loire>	 foaf:name 	 "Gare SNCF de Mauves-sur-Loire"^^xsd:string ;
+	geo:lat	"47.2930081697889"^^xsd:decimal ;
 	geo:long	"-1.38930347898703"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44470"^^xsd:string ;
@@ -3891,8 +3891,8 @@
 	TEMPORAIRE:TypeProblem	 "100403"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/Parc_relais_TER_Gare_de_Mauves-sur-Loire>	 foaf:name 	 "Parc relais TER Gare de Mauves-sur-Loire"^^xsd:string ;
-	geo:lat	"47.2932583339329 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Parc_relais_TER_Gare_de_Mauves-sur-Loire>	 foaf:name 	 "Parc relais TER Gare de Mauves-sur-Loire"^^xsd:string ;
+	geo:lat	"47.2932583339329"^^xsd:decimal ;
 	geo:long	"-1.388904886686"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44470"^^xsd:string ;
@@ -3908,8 +3908,8 @@
 	TEMPORAIRE:TypeProblem	 "100203"^^xsd:string ;
 	pdll:Category	 "1002"^^xsd:string .
 
-<http://projet.com/10/79_Station_Accueil_Malakoff>	 foaf:name 	 "79 Station Accueil Malakoff"^^xsd:string ;
-	geo:lat	"47.2132345266324 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/79_Station_Accueil_Malakoff>	 foaf:name 	 "79 Station Accueil Malakoff"^^xsd:string ;
+	geo:lat	"47.2132345266324"^^xsd:decimal ;
 	geo:long	"-1.53642071591634"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3925,8 +3925,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/59_Station_Accueil_Stade_Saupin>	 foaf:name 	 "59 Station Accueil Stade Saupin"^^xsd:string ;
-	geo:lat	"47.2139780010056 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/59_Station_Accueil_Stade_Saupin>	 foaf:name 	 "59 Station Accueil Stade Saupin"^^xsd:string ;
+	geo:lat	"47.2139780010056"^^xsd:decimal ;
 	geo:long	"-1.53963958134972"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3942,8 +3942,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/97_Station_Accueil_Saint-Donatien>	 foaf:name 	 "97 Station Accueil Saint-Donatien"^^xsd:string ;
-	geo:lat	"47.2291287626691 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/97_Station_Accueil_Saint-Donatien>	 foaf:name 	 "97 Station Accueil Saint-Donatien"^^xsd:string ;
+	geo:lat	"47.2291287626691"^^xsd:decimal ;
 	geo:long	"-1.5404024174378"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3959,8 +3959,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/23_Station_Accueil_Buat>	 foaf:name 	 "23 Station Accueil Buat"^^xsd:string ;
-	geo:lat	"47.2271569726 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/23_Station_Accueil_Buat>	 foaf:name 	 "23 Station Accueil Buat"^^xsd:string ;
+	geo:lat	"47.2271569726"^^xsd:decimal ;
 	geo:long	"-1.54242264341268"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;
@@ -3976,8 +3976,8 @@
 	TEMPORAIRE:TypeProblem	 "100301"^^xsd:string ;
 	pdll:Category	 "1003"^^xsd:string .
 
-<http://projet.com/10/Port_Autonome_de_Nantes_Saint_Nazaire>	 foaf:name 	 "Port Autonome de Nantes Saint Nazaire"^^xsd:string ;
-	geo:lat	"47.2055111148953 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/Port_Autonome_de_Nantes_Saint_Nazaire>	 foaf:name 	 "Port Autonome de Nantes Saint Nazaire"^^xsd:string ;
+	geo:lat	"47.2055111148953"^^xsd:decimal ;
 	geo:long	"-1.57471135472788"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44100"^^xsd:string ;
@@ -3993,8 +3993,8 @@
 	TEMPORAIRE:TypeProblem	 "100402"^^xsd:string ;
 	pdll:Category	 "1004"^^xsd:string .
 
-<http://projet.com/10/73_Station_Accueil_Sarradin>	 foaf:name 	 "73 Station Accueil Sarradin"^^xsd:string ;
-	geo:lat	"47.2208837667212 "^^xsd:decimal ;
+<http://lodpaddle.com/mobilite/73_Station_Accueil_Sarradin>	 foaf:name 	 "73 Station Accueil Sarradin"^^xsd:string ;
+	geo:lat	"47.2208837667212"^^xsd:decimal ;
 	geo:long	"-1.57050717785263"^^xsd:decimal  ;
 	pdll:themeLabel	 "DEPLACEMENT"^^xsd:string ;
 	sc:postalCode	 "44000"^^xsd:string ;

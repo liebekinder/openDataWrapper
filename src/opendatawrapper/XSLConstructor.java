@@ -19,17 +19,19 @@ public class XSLConstructor {
 	public String XSLFile;
 	public Document XMLFile;
 	public Properties properties;
-
-	public final String URIBase = "http://projet.com/";
+	public String dataset;
+	
+	public final String URIBase = "http://lodpaddle.com/";
 
 	private final String intVide = "NaN";
 	private final String decVide = "NaN";
 	private final String stringVide = "undefined";
 
-	public XSLConstructor(String xSLFile_, Document document, Properties p) {
+	public XSLConstructor(String xSLFile_, Document document, Properties p, String Dataset) {
 		XSLFile = xSLFile_;
 		XMLFile = document;
 		properties = p;
+		dataset = Dataset;
 	}
 
 	public boolean construct(String mappingPath) {
@@ -113,7 +115,7 @@ public class XSLConstructor {
 
 			prefixes(out);
 
-			out.write("\n" + "</xsl:text>\n" + "	<xsl:apply-templates />\n"
+			out.write("\n" + "</xsl:text>\n" + "	<xsl:apply-templates/>\n"
 					+ "</xsl:template>\n" + "\n"
 					+ "<xsl:template match=\"element\">\n");
 
@@ -150,7 +152,8 @@ public class XSLConstructor {
 						+ "<xsl:otherwise>"
 						+ "<xsl:value-of select=\"concat(concat('&lt;"
 						+ URIBase
-						+ "10/',translate(translate(translate(translate(translate(translate(./text(),'&quot;',' '),'&gt;',' '),'&lt;',' '),'  ',' '),' ','_'),'.','_')),'&gt;')\"/>&#009; "
+						+ dataset
+						+ "/',translate(translate(translate(translate(translate(translate(./text(),'&quot;',' '),'&gt;',' '),'&lt;',' '),'  ',' '),' ','_'),'.','_')),'&gt;')\"/>&#009; "
 						+ map.get(courant).vocabulaire
 						+ " &#009; \"<xsl:value-of select=\"translate(., '&quot;','')\"/>\"^^xsd:string ;"
 						+ lastRetour(it)
@@ -221,13 +224,12 @@ public class XSLConstructor {
 						+ "&#009;"
 						+ "geo:lat"
 						+ "&#009;\""
-						+ "<xsl:value-of select=\"substring-after(substring-before(.,','),'[ ')\"/>\"^^xsd:decimal ;\n"
+						+ "<xsl:value-of select=\"substring-after(substring-before(.,' ,'),'[ ')\"/>\"^^xsd:decimal ;\n"
 						+ "&#009;"
 						+ "geo:long"
 						+ "&#009;\""
 						+ "<xsl:value-of select=\"substring-before(substring-after(.,', '),']')\"/>\"^^xsd:decimal  "
-						+ last(it) + lastRetour(it)
-						+ "</xsl:template>\n\n");
+						+ last(it) + lastRetour(it) + "</xsl:template>\n\n");
 		return s;
 	}
 
@@ -241,7 +243,7 @@ public class XSLConstructor {
 			if (map.get(courant).vocabulaire.equals("foaf:name")) {
 				out.write(templateName(courant, it, map));
 			} else {
-				if (courant=="_l") {
+				if (courant == "_l") {
 					out.write(templateCoord(courant, it, map));
 				} else {
 					if (map.get(courant).type.equals("decimal")) {

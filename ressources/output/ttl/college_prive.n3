@@ -15,9 +15,9 @@
 @prefix sc: <http://schema.org/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
-<http://projet.com/10/Angreviers>	 foaf:name 	 "Angreviers"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Angreviers>	 foaf:name 	 "Angreviers"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.0989284598 "^^xsd:decimal ;
+	geo:lat	"47.0989284598"^^xsd:decimal ;
 	geo:long	"-1.30206944602"^^xsd:decimal  ;
 	pdll:id	 "109"^^xsd:string ;
 	dbpprop:town	 "GORGES"^^xsd:string ;
@@ -28,9 +28,9 @@
 	sc:telephone	 "02 40 06 91 67"^^xsd:string ;
 	sc:faxNumber	 "02 40 06 94 71"^^xsd:string .
 
-<http://projet.com/10/Blanche_de_Castille>	 foaf:name 	 "Blanche de Castille"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Blanche_de_Castille>	 foaf:name 	 "Blanche de Castille"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.237335763 "^^xsd:decimal ;
+	geo:lat	"47.237335763"^^xsd:decimal ;
 	geo:long	"-1.53416495279"^^xsd:decimal  ;
 	pdll:id	 "12"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
@@ -41,9 +41,9 @@
 	sc:telephone	 "02 40 52 54 60"^^xsd:string ;
 	sc:faxNumber	 "02 40 52 54 64"^^xsd:string .
 
-<http://projet.com/10/Cens>	 foaf:name 	 "Cens"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Cens>	 foaf:name 	 "Cens"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.2597143894 "^^xsd:decimal ;
+	geo:lat	"47.2597143894"^^xsd:decimal ;
 	geo:long	"-1.54336506896"^^xsd:decimal  ;
 	pdll:id	 "14"^^xsd:string ;
 	dbpprop:town	 "LA CHAPELLE SUR ERDRE"^^xsd:string ;
@@ -54,9 +54,9 @@
 	sc:telephone	 "02 40 37 01 53 "^^xsd:string ;
 	sc:faxNumber	 "02 40 37 02 15"^^xsd:string .
 
-<http://projet.com/10/Collège_de_Bretagne_>	 foaf:name 	 "Collège de Bretagne "^^xsd:string ;
+<http://lodpaddle.com/college_prive/Collège_de_Bretagne_>	 foaf:name 	 "Collège de Bretagne "^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.2326208252 "^^xsd:decimal ;
+	geo:lat	"47.2326208252"^^xsd:decimal ;
 	geo:long	"-1.52054492869"^^xsd:decimal  ;
 	pdll:id	 "0"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
@@ -67,9 +67,9 @@
 	sc:telephone	 "02 40 49 21 57"^^xsd:string ;
 	sc:faxNumber	 "02 40 49 05 47"^^xsd:string .
 
-<http://projet.com/10/Externat_Enfants_Nantais>	 foaf:name 	 "Externat Enfants Nantais"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Externat_Enfants_Nantais>	 foaf:name 	 "Externat Enfants Nantais"^^xsd:string ;
 	pdll:isSEGPA	 "oui"^^xsd:string ;
-	geo:lat	"47.2189029947 "^^xsd:decimal ;
+	geo:lat	"47.2189029947"^^xsd:decimal ;
 	geo:long	"-1.57293345499"^^xsd:decimal  ;
 	pdll:id	 "28"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
@@ -80,9 +80,9 @@
 	sc:telephone	 "02 40 20 61 54"^^xsd:string ;
 	sc:faxNumber	 "02 40 20 61 50"^^xsd:string .
 
-<http://projet.com/10/Françoise_d'Amboise>	 foaf:name 	 "Françoise d'Amboise"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Françoise_d'Amboise>	 foaf:name 	 "Françoise d'Amboise"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.2175215326 "^^xsd:decimal ;
+	geo:lat	"47.2175215326"^^xsd:decimal ;
 	geo:long	"-1.56968550979"^^xsd:decimal  ;
 	pdll:id	 "15"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
@@ -93,9 +93,9 @@
 	sc:telephone	 "02 51 84 91 30"^^xsd:string ;
 	sc:faxNumber	 "02 51 84 91 39"^^xsd:string .
 
-<http://projet.com/10/Gabriel_Deshayes>	 foaf:name 	 "Gabriel Deshayes"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Gabriel_Deshayes>	 foaf:name 	 "Gabriel Deshayes"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.517813584 "^^xsd:decimal ;
+	geo:lat	"47.517813584"^^xsd:decimal ;
 	geo:long	"-2.03733414048"^^xsd:decimal  ;
 	pdll:id	 "16"^^xsd:string ;
 	dbpprop:town	 "ST GILDAS"^^xsd:string ;
@@ -106,9 +106,9 @@
 	sc:telephone	 "02 40 00 76 76"^^xsd:string ;
 	sc:faxNumber	 "02 40 88 66 25"^^xsd:string .
 
-<http://projet.com/10/Helder_Camara>	 foaf:name 	 "Helder Camara"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Helder_Camara>	 foaf:name 	 "Helder Camara"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.3297245894 "^^xsd:decimal ;
+	geo:lat	"47.3297245894"^^xsd:decimal ;
 	geo:long	"-1.62032465794"^^xsd:decimal  ;
 	pdll:id	 "126"^^xsd:string ;
 	dbpprop:town	 "TREILLIERES"^^xsd:string ;
@@ -119,9 +119,9 @@
 	sc:telephone	 "02 51 77 07 33"^^xsd:string ;
 	sc:faxNumber	 "02 51 77 07 42"^^xsd:string .
 
-<http://projet.com/10/Immaculée_Conception>	 foaf:name 	 "Immaculée Conception"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Immaculée_Conception>	 foaf:name 	 "Immaculée Conception"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.0920023227 "^^xsd:decimal ;
+	geo:lat	"47.0920023227"^^xsd:decimal ;
 	geo:long	"-1.28122114125"^^xsd:decimal  ;
 	pdll:id	 "132"^^xsd:string ;
 	dbpprop:town	 "CLISSON"^^xsd:string ;
@@ -132,9 +132,9 @@
 	sc:telephone	 "02 40 54 01 77"^^xsd:string ;
 	sc:faxNumber	 "02 40 54 36 73"^^xsd:string .
 
-<http://projet.com/10/La_Maine>	 foaf:name 	 "La Maine"^^xsd:string ;
+<http://lodpaddle.com/college_prive/La_Maine>	 foaf:name 	 "La Maine"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.0780341621 "^^xsd:decimal ;
+	geo:lat	"47.0780341621"^^xsd:decimal ;
 	geo:long	"-1.40515760077"^^xsd:decimal  ;
 	pdll:id	 "98"^^xsd:string ;
 	dbpprop:town	 "AIGREFEUILLE S/MAINE"^^xsd:string ;
@@ -145,9 +145,9 @@
 	sc:telephone	 "02 40 03 85 50"^^xsd:string ;
 	sc:faxNumber	 "02 40 33 52 11"^^xsd:string .
 
-<http://projet.com/10/La_Perverie>	 foaf:name 	 "La Perverie"^^xsd:string ;
+<http://lodpaddle.com/college_prive/La_Perverie>	 foaf:name 	 "La Perverie"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.2413220173 "^^xsd:decimal ;
+	geo:lat	"47.2413220173"^^xsd:decimal ;
 	geo:long	"-1.56273475369"^^xsd:decimal  ;
 	pdll:id	 "104"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
@@ -158,9 +158,9 @@
 	sc:telephone	 "02 40 14 53 70"^^xsd:string ;
 	sc:faxNumber	 "02 40 14 53 79"^^xsd:string .
 
-<http://projet.com/10/Lamoricière>	 foaf:name 	 "Lamoricière"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Lamoricière>	 foaf:name 	 "Lamoricière"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.0387215833 "^^xsd:decimal ;
+	geo:lat	"47.0387215833"^^xsd:decimal ;
 	geo:long	"-1.64522074452"^^xsd:decimal  ;
 	pdll:id	 "23"^^xsd:string ;
 	dbpprop:town	 "ST PHILBERT"^^xsd:string ;
@@ -171,9 +171,9 @@
 	sc:telephone	 "02 40 78 71 22"^^xsd:string ;
 	sc:faxNumber	 "02 40 78 80 52"^^xsd:string .
 
-<http://projet.com/10/Notre_Dame>	 foaf:name 	 "Notre Dame"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Notre_Dame>	 foaf:name 	 "Notre Dame"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.1896966573 "^^xsd:decimal ;
+	geo:lat	"47.1896966573"^^xsd:decimal ;
 	geo:long	"-1.68723497699"^^xsd:decimal  ;
 	pdll:id	 "124"^^xsd:string ;
 	dbpprop:town	 "MONTAGNE (LA)"^^xsd:string ;
@@ -184,9 +184,9 @@
 	sc:telephone	 "02 40 65 60 67"^^xsd:string ;
 	sc:faxNumber	 "02 40 65 88 55"^^xsd:string .
 
-<http://projet.com/10/Notre_Dame>	 foaf:name 	 "Notre Dame"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Notre_Dame1> foaf:name  "Notre Dame"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.2376227003 "^^xsd:decimal ;
+	geo:lat	"47.2376227003"^^xsd:decimal ;
 	geo:long	"-1.34888171533"^^xsd:decimal  ;
 	pdll:id	 "129"^^xsd:string ;
 	dbpprop:town	 "LOROUX BOTTEREAU (LE) "^^xsd:string ;
@@ -197,9 +197,9 @@
 	sc:telephone	 "02 40 33 81 25"^^xsd:string ;
 	sc:faxNumber	 "02 40 33 88 18"^^xsd:string .
 
-<http://projet.com/10/Notre_Dame_de_l'Abbaye>	 foaf:name 	 "Notre Dame de l'Abbaye"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Notre_Dame_de_l'Abbaye>	 foaf:name 	 "Notre Dame de l'Abbaye"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.2005734348 "^^xsd:decimal ;
+	geo:lat	"47.2005734348"^^xsd:decimal ;
 	geo:long	"-1.59601136765"^^xsd:decimal  ;
 	pdll:id	 "123"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
@@ -210,9 +210,9 @@
 	sc:telephone	 "02 40 58 67 83"^^xsd:string ;
 	sc:faxNumber	 "02 40 43 42 79"^^xsd:string .
 
-<http://projet.com/10/Notre_Dame_de_Recouvrance>	 foaf:name 	 "Notre Dame de Recouvrance"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Notre_Dame_de_Recouvrance>	 foaf:name 	 "Notre Dame de Recouvrance"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.1173261302 "^^xsd:decimal ;
+	geo:lat	"47.1173261302"^^xsd:decimal ;
 	geo:long	"-2.10263317248"^^xsd:decimal  ;
 	pdll:id	 "112"^^xsd:string ;
 	dbpprop:town	 "PORNIC"^^xsd:string ;
@@ -223,9 +223,9 @@
 	sc:telephone	 "02 40 82 01 11"^^xsd:string ;
 	sc:faxNumber	 "02 40 82 85 10"^^xsd:string .
 
-<http://projet.com/10/Notre_Dame_de_toutes_Aides>	 foaf:name 	 "Notre Dame de toutes Aides"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Notre_Dame_de_toutes_Aides>	 foaf:name 	 "Notre Dame de toutes Aides"^^xsd:string ;
 	pdll:isSEGPA	 "oui"^^xsd:string ;
-	geo:lat	"47.2273003437 "^^xsd:decimal ;
+	geo:lat	"47.2273003437"^^xsd:decimal ;
 	geo:long	"-1.51895687387"^^xsd:decimal  ;
 	pdll:id	 "116"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
@@ -236,9 +236,9 @@
 	sc:telephone	 "02 40 49 37 93"^^xsd:string ;
 	sc:faxNumber	 "02 40 49 10 14"^^xsd:string .
 
-<http://projet.com/10/Notre_Dame_du_Bon_Conseil>	 foaf:name 	 "Notre Dame du Bon Conseil"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Notre_Dame_du_Bon_Conseil>	 foaf:name 	 "Notre Dame du Bon Conseil"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.2150451795 "^^xsd:decimal ;
+	geo:lat	"47.2150451795"^^xsd:decimal ;
 	geo:long	"-1.56176527827"^^xsd:decimal  ;
 	pdll:id	 "29"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
@@ -249,9 +249,9 @@
 	sc:telephone	 "02 40 48 25 36"^^xsd:string ;
 	sc:faxNumber	 "02 51 82 24 75"^^xsd:string .
 
-<http://projet.com/10/Sacré_Coeur>	 foaf:name 	 "Sacré Coeur"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Sacré_Coeur>	 foaf:name 	 "Sacré Coeur"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.099264889 "^^xsd:decimal ;
+	geo:lat	"47.099264889"^^xsd:decimal ;
 	geo:long	"-1.818068938"^^xsd:decimal  ;
 	pdll:id	 "27"^^xsd:string ;
 	dbpprop:town	 "STE PAZANNE"^^xsd:string ;
@@ -262,9 +262,9 @@
 	sc:telephone	 "02 40 02 40 72"^^xsd:string ;
 	sc:faxNumber	 "02 40 02 79 55"^^xsd:string .
 
-<http://projet.com/10/Sacré_Coeur>	 foaf:name 	 "Sacré Coeur"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Sacré_Coeur2> foaf:name  "Sacré Coeur"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.2126728574 "^^xsd:decimal ;
+	geo:lat	"47.2126728574"^^xsd:decimal ;
 	geo:long	"-1.58467000034"^^xsd:decimal  ;
 	pdll:id	 "33"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
@@ -275,9 +275,9 @@
 	sc:telephone	 "02 40 46 27 13"^^xsd:string ;
 	sc:faxNumber	 "02 40 46 59 19"^^xsd:string .
 
-<http://projet.com/10/Sacré_Coeur>	 foaf:name 	 "Sacré Coeur"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Sacré_Coeur3> foaf:name  "Sacré Coeur"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.2635342125 "^^xsd:decimal ;
+	geo:lat	"47.2635342125"^^xsd:decimal ;
 	geo:long	"-2.34236615639"^^xsd:decimal  ;
 	pdll:id	 "24"^^xsd:string ;
 	dbpprop:town	 "PORNICHET"^^xsd:string ;
@@ -288,9 +288,9 @@
 	sc:telephone	 "02 40 61 10 70"^^xsd:string ;
 	sc:faxNumber	 "02 40 61 86 13"^^xsd:string .
 
-<http://projet.com/10/Saint_Augustin>	 foaf:name 	 "Saint Augustin"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Augustin>	 foaf:name 	 "Saint Augustin"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.5189312283 "^^xsd:decimal ;
+	geo:lat	"47.5189312283"^^xsd:decimal ;
 	geo:long	"-1.29216934509"^^xsd:decimal  ;
 	pdll:id	 "131"^^xsd:string ;
 	dbpprop:town	 "RIAILLE"^^xsd:string ;
@@ -301,9 +301,9 @@
 	sc:telephone	 "02 40 97 81 61"^^xsd:string ;
 	sc:faxNumber	 "02 40 97 82 07"^^xsd:string .
 
-<http://projet.com/10/Saint_Blaise>	 foaf:name 	 "Saint Blaise"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Blaise>	 foaf:name 	 "Saint Blaise"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.1664252252 "^^xsd:decimal ;
+	geo:lat	"47.1664252252"^^xsd:decimal ;
 	geo:long	"-1.46890974092"^^xsd:decimal  ;
 	pdll:id	 "79"^^xsd:string ;
 	dbpprop:town	 "VERTOU"^^xsd:string ;
@@ -314,9 +314,9 @@
 	sc:telephone	 "02 40 34 37 61"^^xsd:string ;
 	sc:faxNumber	 "02 40 34 41 35"^^xsd:string .
 
-<http://projet.com/10/Saint_Dominique>	 foaf:name 	 "Saint Dominique"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Dominique>	 foaf:name 	 "Saint Dominique"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.2437753367 "^^xsd:decimal ;
+	geo:lat	"47.2437753367"^^xsd:decimal ;
 	geo:long	"-1.6048978219"^^xsd:decimal  ;
 	pdll:id	 "42"^^xsd:string ;
 	dbpprop:town	 "ST HERBLAIN"^^xsd:string ;
@@ -327,9 +327,9 @@
 	sc:telephone	 "02 28 01 72 72"^^xsd:string ;
 	sc:faxNumber	 "02 40 63 02 79"^^xsd:string .
 
-<http://projet.com/10/Saint_Félix>	 foaf:name 	 "Saint Félix"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Félix>	 foaf:name 	 "Saint Félix"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.2314108888 "^^xsd:decimal ;
+	geo:lat	"47.2314108888"^^xsd:decimal ;
 	geo:long	"-1.56026616387"^^xsd:decimal  ;
 	pdll:id	 "56"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
@@ -340,9 +340,9 @@
 	sc:telephone	 "02 40 14 50 50"^^xsd:string ;
 	sc:faxNumber	 "02 40 74 76 35"^^xsd:string .
 
-<http://projet.com/10/Saint_Gabriel>	 foaf:name 	 "Saint Gabriel"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Gabriel>	 foaf:name 	 "Saint Gabriel"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.1986017346 "^^xsd:decimal ;
+	geo:lat	"47.1986017346"^^xsd:decimal ;
 	geo:long	"-1.44518449502"^^xsd:decimal  ;
 	pdll:id	 "25"^^xsd:string ;
 	dbpprop:town	 "HAUTE GOULAINE"^^xsd:string ;
@@ -353,9 +353,9 @@
 	sc:telephone	 "02 40 54 91 14"^^xsd:string ;
 	sc:faxNumber	 "02 40 06 18 84"^^xsd:string .
 
-<http://projet.com/10/Saint_Hermeland>	 foaf:name 	 "Saint Hermeland"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Hermeland>	 foaf:name 	 "Saint Hermeland"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.1442358688 "^^xsd:decimal ;
+	geo:lat	"47.1442358688"^^xsd:decimal ;
 	geo:long	"-1.69681609118"^^xsd:decimal  ;
 	pdll:id	 "31"^^xsd:string ;
 	dbpprop:town	 "BOUAYE"^^xsd:string ;
@@ -366,9 +366,9 @@
 	sc:telephone	 "02 40 65 46 10"^^xsd:string ;
 	sc:faxNumber	 "02 40 65 49 21"^^xsd:string .
 
-<http://projet.com/10/Saint_Jacques_Compostelle>	 foaf:name 	 "Saint Jacques Compostelle"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Jacques_Compostelle>	 foaf:name 	 "Saint Jacques Compostelle"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.1958177227 "^^xsd:decimal ;
+	geo:lat	"47.1958177227"^^xsd:decimal ;
 	geo:long	"-1.53961799475"^^xsd:decimal  ;
 	pdll:id	 "13"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
@@ -379,9 +379,9 @@
 	sc:telephone	 "02 40 75 58 72"^^xsd:string ;
 	sc:faxNumber	 "02 51 70 16 75"^^xsd:string .
 
-<http://projet.com/10/Saint_Jean_Baptiste>	 foaf:name 	 "Saint Jean Baptiste"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Jean_Baptiste>	 foaf:name 	 "Saint Jean Baptiste"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.2277745322 "^^xsd:decimal ;
+	geo:lat	"47.2277745322"^^xsd:decimal ;
 	geo:long	"-1.54249531209"^^xsd:decimal  ;
 	pdll:id	 "63"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
@@ -392,9 +392,9 @@
 	sc:telephone	 "02 51 86 06 10"^^xsd:string ;
 	sc:faxNumber	 "02 40 74 85 61"^^xsd:string .
 
-<http://projet.com/10/Saint_Jean_Baptiste>	 foaf:name 	 "Saint Jean Baptiste"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Jean_Baptiste4> foaf:name  "Saint Jean Baptiste"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.3259343768 "^^xsd:decimal ;
+	geo:lat	"47.3259343768"^^xsd:decimal ;
 	geo:long	"-2.42955470504"^^xsd:decimal  ;
 	pdll:id	 "30"^^xsd:string ;
 	dbpprop:town	 "GUERANDE"^^xsd:string ;
@@ -405,9 +405,9 @@
 	sc:telephone	 "02 40 24 90 55"^^xsd:string ;
 	sc:faxNumber	 "02 51 73 00 69"^^xsd:string .
 
-<http://projet.com/10/Saint_Joseph>	 foaf:name 	 "Saint Joseph"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Joseph>	 foaf:name 	 "Saint Joseph"^^xsd:string ;
 	pdll:isSEGPA	 "oui"^^xsd:string ;
-	geo:lat	"46.9936500288 "^^xsd:decimal ;
+	geo:lat	"46.9936500288"^^xsd:decimal ;
 	geo:long	"-1.82369380909"^^xsd:decimal  ;
 	pdll:id	 "111"^^xsd:string ;
 	dbpprop:town	 "MACHECOUL"^^xsd:string ;
@@ -418,9 +418,9 @@
 	sc:telephone	 "02 40 78 50 18"^^xsd:string ;
 	sc:faxNumber	 "02 40 78 56 34"^^xsd:string .
 
-<http://projet.com/10/Saint_Joseph>	 foaf:name 	 "Saint Joseph"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Joseph5> foaf:name  "Saint Joseph"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.1656636569 "^^xsd:decimal ;
+	geo:lat	"47.1656636569"^^xsd:decimal ;
 	geo:long	"-1.26838218727"^^xsd:decimal  ;
 	pdll:id	 "102"^^xsd:string ;
 	dbpprop:town	 "VALLET"^^xsd:string ;
@@ -431,9 +431,9 @@
 	sc:telephone	 "02 40 33 93 82"^^xsd:string ;
 	sc:faxNumber	 "02 40 36 38 60"^^xsd:string .
 
-<http://projet.com/10/Saint_Joseph>	 foaf:name 	 "Saint Joseph"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Joseph6> foaf:name  "Saint Joseph"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.2446742467 "^^xsd:decimal ;
+	geo:lat	"47.2446742467"^^xsd:decimal ;
 	geo:long	"-2.16656924156"^^xsd:decimal  ;
 	pdll:id	 "100"^^xsd:string ;
 	dbpprop:town	 "ST BREVIN"^^xsd:string ;
@@ -444,9 +444,9 @@
 	sc:telephone	 "02 40 27 21 41"^^xsd:string ;
 	sc:faxNumber	 "02 40 64 48 76"^^xsd:string .
 
-<http://projet.com/10/Saint_Joseph>	 foaf:name 	 "Saint Joseph"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Joseph7> foaf:name  "Saint Joseph"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.3583233616 "^^xsd:decimal ;
+	geo:lat	"47.3583233616"^^xsd:decimal ;
 	geo:long	"-1.94020115863"^^xsd:decimal  ;
 	pdll:id	 "110"^^xsd:string ;
 	dbpprop:town	 "SAVENAY"^^xsd:string ;
@@ -457,9 +457,9 @@
 	sc:telephone	 "02 40 56 91 32"^^xsd:string ;
 	sc:faxNumber	 "02 40 56 92 26"^^xsd:string .
 
-<http://projet.com/10/Saint_Joseph>	 foaf:name 	 "Saint Joseph"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Joseph8> foaf:name  "Saint Joseph"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.370380831 "^^xsd:decimal ;
+	geo:lat	"47.370380831"^^xsd:decimal ;
 	geo:long	"-1.17887706977"^^xsd:decimal  ;
 	pdll:id	 "41"^^xsd:string ;
 	dbpprop:town	 "ANCENIS"^^xsd:string ;
@@ -470,9 +470,9 @@
 	sc:telephone	 "02 40 96 03 16"^^xsd:string ;
 	sc:faxNumber	 "02 40 83 21 92"^^xsd:string .
 
-<http://projet.com/10/Saint_Joseph>	 foaf:name 	 "Saint Joseph"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Joseph9> foaf:name  "Saint Joseph"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.410046539 "^^xsd:decimal ;
+	geo:lat	"47.410046539"^^xsd:decimal ;
 	geo:long	"-1.37547613435"^^xsd:decimal  ;
 	pdll:id	 "18"^^xsd:string ;
 	dbpprop:town	 "LIGNE"^^xsd:string ;
@@ -483,9 +483,9 @@
 	sc:telephone	 "02 40 77 04 40"^^xsd:string ;
 	sc:faxNumber	 "02 40 77 09 28"^^xsd:string .
 
-<http://projet.com/10/Saint_Joseph>	 foaf:name 	 "Saint Joseph"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Joseph10> foaf:name  "Saint Joseph"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.4508834045 "^^xsd:decimal ;
+	geo:lat	"47.4508834045"^^xsd:decimal ;
 	geo:long	"-2.31955886685"^^xsd:decimal  ;
 	pdll:id	 "48"^^xsd:string ;
 	dbpprop:town	 "HERBIGNAC"^^xsd:string ;
@@ -496,9 +496,9 @@
 	sc:telephone	 "02 51 76 99 10"^^xsd:string ;
 	sc:faxNumber	 "02 51 76 99 11"^^xsd:string .
 
-<http://projet.com/10/Saint_Joseph>	 foaf:name 	 "Saint Joseph"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Joseph11> foaf:name  "Saint Joseph"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.5646486254 "^^xsd:decimal ;
+	geo:lat	"47.5646486254"^^xsd:decimal ;
 	geo:long	"-1.62728424196"^^xsd:decimal  ;
 	pdll:id	 "106"^^xsd:string ;
 	dbpprop:town	 "NOZAY"^^xsd:string ;
@@ -509,9 +509,9 @@
 	sc:telephone	 "02 40 79 43 06"^^xsd:string ;
 	sc:faxNumber	 "02 40 79 30 19"^^xsd:string .
 
-<http://projet.com/10/Saint_Joseph>	 foaf:name 	 "Saint Joseph"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Joseph12> foaf:name  "Saint Joseph"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.6664335947 "^^xsd:decimal ;
+	geo:lat	"47.6664335947"^^xsd:decimal ;
 	geo:long	"-1.67219277494"^^xsd:decimal  ;
 	pdll:id	 "36"^^xsd:string ;
 	dbpprop:town	 "DERVAL"^^xsd:string ;
@@ -522,9 +522,9 @@
 	sc:telephone	 "02 40 07 71 47"^^xsd:string ;
 	sc:faxNumber	 "02 40 07 08 30"^^xsd:string .
 
-<http://projet.com/10/Saint_Joseph>	 foaf:name 	 "Saint Joseph"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Joseph13> foaf:name  "Saint Joseph"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.7167576628 "^^xsd:decimal ;
+	geo:lat	"47.7167576628"^^xsd:decimal ;
 	geo:long	"-1.37692885377"^^xsd:decimal  ;
 	pdll:id	 "26"^^xsd:string ;
 	dbpprop:town	 "CHATEAUBRIANT"^^xsd:string ;
@@ -535,9 +535,9 @@
 	sc:telephone	 "02 40 28 15 25"^^xsd:string ;
 	sc:faxNumber	 "02 40 28 17 47"^^xsd:string .
 
-<http://projet.com/10/Saint_Joseph_du_Loquidy>	 foaf:name 	 "Saint Joseph du Loquidy"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Joseph_du_Loquidy>	 foaf:name 	 "Saint Joseph du Loquidy"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.2366388222 "^^xsd:decimal ;
+	geo:lat	"47.2366388222"^^xsd:decimal ;
 	geo:long	"-1.55721447091"^^xsd:decimal  ;
 	pdll:id	 "107"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
@@ -548,9 +548,9 @@
 	sc:telephone	 "02 40 74 03 12"^^xsd:string ;
 	sc:faxNumber	 "02 40 29 19 77"^^xsd:string .
 
-<http://projet.com/10/Saint_Laurent>	 foaf:name 	 "Saint Laurent"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Laurent>	 foaf:name 	 "Saint Laurent"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.4752767593 "^^xsd:decimal ;
+	geo:lat	"47.4752767593"^^xsd:decimal ;
 	geo:long	"-1.7650748569"^^xsd:decimal  ;
 	pdll:id	 "114"^^xsd:string ;
 	dbpprop:town	 "BLAIN"^^xsd:string ;
@@ -561,9 +561,9 @@
 	sc:telephone	 "02 40 79 01 17"^^xsd:string ;
 	sc:faxNumber	 "02 40 79 87 97"^^xsd:string .
 
-<http://projet.com/10/Saint_Louis>	 foaf:name 	 "Saint Louis"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Louis>	 foaf:name 	 "Saint Louis"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.2684307662 "^^xsd:decimal ;
+	geo:lat	"47.2684307662"^^xsd:decimal ;
 	geo:long	"-2.21959980659"^^xsd:decimal  ;
 	pdll:id	 "115"^^xsd:string ;
 	dbpprop:town	 "ST NAZAIRE"^^xsd:string ;
@@ -574,9 +574,9 @@
 	sc:telephone	 "02 51 76 60 20"^^xsd:string ;
 	sc:faxNumber	 "02 40 53 69 75"^^xsd:string .
 
-<http://projet.com/10/Saint_Martin>	 foaf:name 	 "Saint Martin"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Martin>	 foaf:name 	 "Saint Martin"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.4350361756 "^^xsd:decimal ;
+	geo:lat	"47.4350361756"^^xsd:decimal ;
 	geo:long	"-2.09166255577"^^xsd:decimal  ;
 	pdll:id	 "117"^^xsd:string ;
 	dbpprop:town	 "PONCHATEAU"^^xsd:string ;
@@ -587,9 +587,9 @@
 	sc:telephone	 "02 40 01 62 38"^^xsd:string ;
 	sc:faxNumber	 "02 40 01 63 98"^^xsd:string .
 
-<http://projet.com/10/Saint_Michel>	 foaf:name 	 "Saint Michel"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Michel>	 foaf:name 	 "Saint Michel"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.4395687829 "^^xsd:decimal ;
+	geo:lat	"47.4395687829"^^xsd:decimal ;
 	geo:long	"-1.49951667599"^^xsd:decimal  ;
 	pdll:id	 "122"^^xsd:string ;
 	dbpprop:town	 "NORT SUR ERDRE"^^xsd:string ;
@@ -600,9 +600,9 @@
 	sc:telephone	 "02 51 12 00 51"^^xsd:string ;
 	sc:faxNumber	 "02 40 29 51 44"^^xsd:string .
 
-<http://projet.com/10/Saint_Michel>	 foaf:name 	 "Saint Michel"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Michel14> foaf:name  "Saint Michel"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.6284556676 "^^xsd:decimal ;
+	geo:lat	"47.6284556676"^^xsd:decimal ;
 	geo:long	"-1.83407777988"^^xsd:decimal  ;
 	pdll:id	 "119"^^xsd:string ;
 	dbpprop:town	 "GUEMENE PENFAO"^^xsd:string ;
@@ -613,9 +613,9 @@
 	sc:telephone	 "02 40 79 22 57"^^xsd:string ;
 	sc:faxNumber	 "02 40 51 13 95"^^xsd:string .
 
-<http://projet.com/10/Saint_Paul>	 foaf:name 	 "Saint Paul"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Paul>	 foaf:name 	 "Saint Paul"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.1864244045 "^^xsd:decimal ;
+	geo:lat	"47.1864244045"^^xsd:decimal ;
 	geo:long	"-1.54708814561"^^xsd:decimal  ;
 	pdll:id	 "125"^^xsd:string ;
 	dbpprop:town	 "REZE"^^xsd:string ;
@@ -626,9 +626,9 @@
 	sc:telephone	 "02 51 11 01 01"^^xsd:string ;
 	sc:faxNumber	 "02 40 75 20 94"^^xsd:string .
 
-<http://projet.com/10/Saint_Roch>	 foaf:name 	 "Saint Roch"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Roch>	 foaf:name 	 "Saint Roch"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.2055604575 "^^xsd:decimal ;
+	geo:lat	"47.2055604575"^^xsd:decimal ;
 	geo:long	"-2.04232012122"^^xsd:decimal  ;
 	pdll:id	 "130"^^xsd:string ;
 	dbpprop:town	 "ST PERE EN RETZ"^^xsd:string ;
@@ -639,9 +639,9 @@
 	sc:telephone	 "02 40 21 71 14"^^xsd:string ;
 	sc:faxNumber	 "02 40 21 77 64"^^xsd:string .
 
-<http://projet.com/10/Saint_Stanislas>	 foaf:name 	 "Saint Stanislas"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Saint_Stanislas>	 foaf:name 	 "Saint Stanislas"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.222853733 "^^xsd:decimal ;
+	geo:lat	"47.222853733"^^xsd:decimal ;
 	geo:long	"-1.55552866842"^^xsd:decimal  ;
 	pdll:id	 "101"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
@@ -652,9 +652,9 @@
 	sc:telephone	 "02 40 20 17 50"^^xsd:string ;
 	sc:faxNumber	 "02 40 48 12 30"^^xsd:string .
 
-<http://projet.com/10/Sainte_Anne>	 foaf:name 	 "Sainte Anne"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Sainte_Anne>	 foaf:name 	 "Sainte Anne"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"46.8852508284 "^^xsd:decimal ;
+	geo:lat	"46.8852508284"^^xsd:decimal ;
 	geo:long	"-1.60028767396"^^xsd:decimal  ;
 	pdll:id	 "103"^^xsd:string ;
 	dbpprop:town	 "LEGE"^^xsd:string ;
@@ -665,9 +665,9 @@
 	sc:telephone	 "02 40 26 32 32"^^xsd:string ;
 	sc:faxNumber	 "02 40 26 30 47"^^xsd:string .
 
-<http://projet.com/10/Sainte_Anne>	 foaf:name 	 "Sainte Anne"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Sainte_Anne15> foaf:name  "Sainte Anne"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.1917598554 "^^xsd:decimal ;
+	geo:lat	"47.1917598554"^^xsd:decimal ;
 	geo:long	"-1.56765538275"^^xsd:decimal  ;
 	pdll:id	 "120"^^xsd:string ;
 	dbpprop:town	 "REZE"^^xsd:string ;
@@ -678,9 +678,9 @@
 	sc:telephone	 "02 40 75 42 71"^^xsd:string ;
 	sc:faxNumber	 "02 40 04 23 12"^^xsd:string .
 
-<http://projet.com/10/Sainte_Anne>	 foaf:name 	 "Sainte Anne"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Sainte_Anne16> foaf:name  "Sainte Anne"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.2946968169 "^^xsd:decimal ;
+	geo:lat	"47.2946968169"^^xsd:decimal ;
 	geo:long	"-1.49336302382"^^xsd:decimal  ;
 	pdll:id	 "121"^^xsd:string ;
 	dbpprop:town	 "CARQUEFOU"^^xsd:string ;
@@ -691,9 +691,9 @@
 	sc:telephone	 "02 40 50 90 93"^^xsd:string ;
 	sc:faxNumber	 "02 40 50 90 16"^^xsd:string .
 
-<http://projet.com/10/Sainte_Anne>	 foaf:name 	 "Sainte Anne"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Sainte_Anne17> foaf:name  "Sainte Anne"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.3851162367 "^^xsd:decimal ;
+	geo:lat	"47.3851162367"^^xsd:decimal ;
 	geo:long	"-1.02886972774"^^xsd:decimal  ;
 	pdll:id	 "128"^^xsd:string ;
 	dbpprop:town	 "VARADES"^^xsd:string ;
@@ -704,9 +704,9 @@
 	sc:telephone	 "02 40 09 70 90"^^xsd:string ;
 	sc:faxNumber	 "02 40 83 49 48"^^xsd:string .
 
-<http://projet.com/10/Sainte_Madeleine>	 foaf:name 	 "Sainte Madeleine"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Sainte_Madeleine>	 foaf:name 	 "Sainte Madeleine"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.2058995749 "^^xsd:decimal ;
+	geo:lat	"47.2058995749"^^xsd:decimal ;
 	geo:long	"-1.55151832758"^^xsd:decimal  ;
 	pdll:id	 "113"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
@@ -717,9 +717,9 @@
 	sc:telephone	 "02 51 25 06 80"^^xsd:string ;
 	sc:faxNumber	 "02 40 12 04 18"^^xsd:string .
 
-<http://projet.com/10/Sainte_Philomène>	 foaf:name 	 "Sainte Philomène"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Sainte_Philomène>	 foaf:name 	 "Sainte Philomène"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.2123221022 "^^xsd:decimal ;
+	geo:lat	"47.2123221022"^^xsd:decimal ;
 	geo:long	"-1.72478079109"^^xsd:decimal  ;
 	pdll:id	 "118"^^xsd:string ;
 	dbpprop:town	 "COUERON"^^xsd:string ;
@@ -730,9 +730,9 @@
 	sc:telephone	 "02 40 86 18 34"^^xsd:string ;
 	sc:faxNumber	 "02 40 86 20 53"^^xsd:string .
 
-<http://projet.com/10/Sainte_Thérèse>	 foaf:name 	 "Sainte Thérèse"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Sainte_Thérèse>	 foaf:name 	 "Sainte Thérèse"^^xsd:string ;
 	pdll:isSEGPA	 "oui"^^xsd:string ;
-	geo:lat	"47.2796636437 "^^xsd:decimal ;
+	geo:lat	"47.2796636437"^^xsd:decimal ;
 	geo:long	"-2.20904911003"^^xsd:decimal  ;
 	pdll:id	 "0"^^xsd:string ;
 	dbpprop:town	 "ST NAZAIRE"^^xsd:string ;
@@ -743,9 +743,9 @@
 	sc:telephone	 "02 40 22 52 87"^^xsd:string ;
 	sc:faxNumber	 "02 40 22 95 65"^^xsd:string .
 
-<http://projet.com/10/Théophane_Vénard>	 foaf:name 	 "Théophane Vénard"^^xsd:string ;
+<http://lodpaddle.com/college_prive/Théophane_Vénard>	 foaf:name 	 "Théophane Vénard"^^xsd:string ;
 	pdll:isSEGPA	 "undefined"^^xsd:string ;
-	geo:lat	"47.2323642748 "^^xsd:decimal ;
+	geo:lat	"47.2323642748"^^xsd:decimal ;
 	geo:long	"-1.57885947592"^^xsd:decimal  ;
 	pdll:id	 "108"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;

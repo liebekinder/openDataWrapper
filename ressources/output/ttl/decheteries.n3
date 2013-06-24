@@ -15,9 +15,9 @@
 @prefix sc: <http://schema.org/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
-<http://projet.com/10/Déchèterie_de_La_Prairie_de_Mauves>	 foaf:name 	 "Déchèterie de La Prairie de Mauves"^^xsd:string ;
+<http://lodpaddle.com/decheteries/Déchèterie_de_La_Prairie_de_Mauves>	 foaf:name 	 "Déchèterie de La Prairie de Mauves"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.22573520587 "^^xsd:decimal ;
+	geo:lat	"47.22573520587"^^xsd:decimal ;
 	geo:long	"-1.50460810028402"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	dbpedia-owl:abstract	 "Réservé aux particuliers habitant Nantes Métropole.Déchets admis : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-journaux-livres, plastiques ménagers, pneus, textiles, tontes de pelouse-produits d'élagage-branchages de jardin (production admissible pour un ménage, et branchages de longueur inférieure à 1 mètre), verre.Déchets interdits : cadavres d'animaux, déblais-gravats autres que ceux issus du bricolage familial, déchets anatomiques ou infectieux, déchets hospitaliers, éléments entiers de carrosserie de voiture ou camion, médicaments, ordures ménagères, produits explosifs-inflammables-radioactifs, résidus de fabrication industrielle.Déchets admis sous conditions : se renseigner à la déchèterie AVANT les dépôts : déchets d'amiante liée, tontes de pelouse-produits d'élagage-branchages de jardin en grande quantité."^^xsd:string ;
@@ -29,9 +29,9 @@
 	pdll:id	 "1011"^^xsd:string ;
 	sc:telephone	 "02 40 49 43 20"^^xsd:string .
 
-<http://projet.com/10/Ecopoint_Chantenay>	 foaf:name 	 "Ecopoint Chantenay"^^xsd:string ;
+<http://lodpaddle.com/decheteries/Ecopoint_Chantenay>	 foaf:name 	 "Ecopoint Chantenay"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.1984376431205 "^^xsd:decimal ;
+	geo:lat	"47.1984376431205"^^xsd:decimal ;
 	geo:long	"-1.60175179062477"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	dbpedia-owl:abstract	 "Réservé aux particuliers habitant Nantes Métropole.Déchets admis : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-journaux-livres, plastiques ménagers, textiles, tontes de pelouse-produits d'élagage-branchages de jardin (production admissible pour un ménage, et branchages de longueur inférieure à 1 mètre), verre.Déchets interdits : cadavres d'animaux, déblais-gravats autres que ceux issus du bricolage familial, déchets anatomiques ou infectieux, déchets hospitaliers, éléments entiers de carrosserie de voiture ou camion, médicaments, ordures ménagères, pneus, produits explosifs-inflammables-radioactifs, résidus de fabrication industrielle.Déchets admis sous conditions : se renseigner à la déchèterie AVANT les dépôts : déchets d'amiante liée, tontes de pelouse-produits d'élagage-branchages de jardin en grande quantité."^^xsd:string ;
@@ -43,9 +43,9 @@
 	pdll:id	 "1012"^^xsd:string ;
 	sc:telephone	 "02 40 46 61 05"^^xsd:string .
 
-<http://projet.com/10/Ecopoint_La_Beaujoire>	 foaf:name 	 "Ecopoint La Beaujoire"^^xsd:string ;
+<http://lodpaddle.com/decheteries/Ecopoint_La_Beaujoire>	 foaf:name 	 "Ecopoint La Beaujoire"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.2540041595208 "^^xsd:decimal ;
+	geo:lat	"47.2540041595208"^^xsd:decimal ;
 	geo:long	"-1.52324785106304"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	dbpedia-owl:abstract	 "Réservé aux particuliers habitant Nantes Métropole.Déchets admis : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-journaux-livres, plastiques ménagers, textiles, tontes de pelouse-produits d'élagage-branchages de jardin (production admissible pour un ménage, et branchages de longueur inférieure à 1 mètre), verre.Déchets interdits : cadavres d'animaux, déblais-gravats autres que ceux issus du bricolage familial, déchets anatomiques ou infectieux, déchets hospitaliers, éléments entiers de carrosserie de voiture ou camion, médicaments, ordures ménagères, pneus, produits explosifs-inflammables-radioactifs, résidus de fabrication industrielle.Déchets admis sous conditions : se renseigner à la déchèterie AVANT les dépôts : déchets d'amiante liée, tontes de pelouse-produits d'élagage-branchages de jardin en grande quantité."^^xsd:string ;
@@ -57,9 +57,9 @@
 	pdll:id	 "1013"^^xsd:string ;
 	sc:telephone	 "02 40 49 62 67"^^xsd:string .
 
-<http://projet.com/10/Ecopoint_Dervallières>	 foaf:name 	 "Ecopoint Dervallières"^^xsd:string ;
+<http://lodpaddle.com/decheteries/Ecopoint_Dervallières>	 foaf:name 	 "Ecopoint Dervallières"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.2252529348366 "^^xsd:decimal ;
+	geo:lat	"47.2252529348366"^^xsd:decimal ;
 	geo:long	"-1.59132968772156"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	dbpedia-owl:abstract	 "Réservé aux particuliers habitant Nantes Métropole.Déchets admis : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-journaux-livres, plastiques ménagers, textiles, tontes de pelouse-produits d'élagage-branchages de jardin (production admissible pour un ménage, et branchages de longueur inférieure à 1 mètre), verre.Déchets interdits : cadavres d'animaux, déblais-gravats autres que ceux issus du bricolage familial, déchets anatomiques ou infectieux, déchets hospitaliers, éléments entiers de carrosserie de voiture ou camion, médicaments, ordures ménagères, pneus, produits explosifs-inflammables-radioactifs, résidus de fabrication industrielle.Déchets admis sous conditions : se renseigner à la déchèterie AVANT les dépôts : déchets d'amiante liée, tontes de pelouse-produits d'élagage-branchages de jardin en grande quantité."^^xsd:string ;
@@ -71,9 +71,9 @@
 	pdll:id	 "1014"^^xsd:string ;
 	sc:telephone	 "02 40 43 36 69"^^xsd:string .
 
-<http://projet.com/10/Ecopoint_Viarme>	 foaf:name 	 "Ecopoint Viarme"^^xsd:string ;
+<http://lodpaddle.com/decheteries/Ecopoint_Viarme>	 foaf:name 	 "Ecopoint Viarme"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.2224088646331 "^^xsd:decimal ;
+	geo:lat	"47.2224088646331"^^xsd:decimal ;
 	geo:long	"-1.56463870590524"^^xsd:decimal  ;
 	dbpprop:insee	 "440109"^^xsd:integer ;
 	dbpedia-owl:abstract	 "Réservé aux particuliers habitant Nantes Métropole.Déchets admis : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-journaux-livres, plastiques ménagers, textiles, tontes de pelouse-produits d'élagage-branchages de jardin (production admissible pour un ménage, et branchages de longueur inférieure à 1 mètre), verre.Déchets interdits : cadavres d'animaux, déblais-gravats autres que ceux issus du bricolage familial, déchets anatomiques ou infectieux, déchets hospitaliers, éléments entiers de carrosserie de voiture ou camion, médicaments, ordures ménagères, pneus, produits explosifs-inflammables-radioactifs, résidus de fabrication industrielle.Déchets admis sous conditions : se renseigner à la déchèterie AVANT les dépôts : déchets d'amiante liée, tontes de pelouse-produits d'élagage-branchages de jardin en grande quantité."^^xsd:string ;
@@ -85,9 +85,9 @@
 	pdll:id	 "1015"^^xsd:string ;
 	sc:telephone	 "02 51 82 31 47"^^xsd:string .
 
-<http://projet.com/10/Déchèterie_de_Saint_Sébastien>	 foaf:name 	 "Déchèterie de Saint Sébastien"^^xsd:string ;
+<http://lodpaddle.com/decheteries/Déchèterie_de_Saint_Sébastien>	 foaf:name 	 "Déchèterie de Saint Sébastien"^^xsd:string ;
 	dbpprop:town	 "ST-SEBASTIEN"^^xsd:string ;
-	geo:lat	"47.1992747714477 "^^xsd:decimal ;
+	geo:lat	"47.1992747714477"^^xsd:decimal ;
 	geo:long	"-1.48372892561533"^^xsd:decimal  ;
 	dbpprop:insee	 "440190"^^xsd:integer ;
 	dbpedia-owl:abstract	 "Réservé aux particuliers habitant Nantes Métropole.Déchets admis : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-journaux-livres, plastiques ménagers, textiles, tontes de pelouse-produits d'élagage-branchages de jardin (production admissible pour un ménage, et branchages de longueur inférieure à 1 mètre), verre.Déchets interdits : cadavres d'animaux, déblais-gravats autres que ceux issus du bricolage familial, déchets anatomiques ou infectieux, déchets hospitaliers, éléments entiers de carrosserie de voiture ou camion, médicaments, ordures ménagères, pneus, produits explosifs-inflammables-radioactifs, résidus de fabrication industrielle.Déchets admis sous conditions : se renseigner à la déchèterie AVANT les dépôts : déchets d'amiante liée, tontes de pelouse-produits d'élagage-branchages de jardin en grande quantité."^^xsd:string ;
@@ -99,9 +99,9 @@
 	pdll:id	 "2152"^^xsd:string ;
 	sc:telephone	 "02 40 03 08 33"^^xsd:string .
 
-<http://projet.com/10/Déchèterie_de_Saint_Herblain>	 foaf:name 	 "Déchèterie de Saint Herblain"^^xsd:string ;
+<http://lodpaddle.com/decheteries/Déchèterie_de_Saint_Herblain>	 foaf:name 	 "Déchèterie de Saint Herblain"^^xsd:string ;
 	dbpprop:town	 "ST-HERBLAIN"^^xsd:string ;
-	geo:lat	"47.1966846746915 "^^xsd:decimal ;
+	geo:lat	"47.1966846746915"^^xsd:decimal ;
 	geo:long	"-1.64203878129303"^^xsd:decimal  ;
 	dbpprop:insee	 "440162"^^xsd:integer ;
 	dbpedia-owl:abstract	 "Réservé aux particuliers habitant Nantes Métropole.Déchets admis : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-journaux-livres, plastiques ménagers, textiles, tontes de pelouse-produits d'élagage-branchages de jardin (production admissible pour un ménage, et branchages de longueur inférieure à 1 mètre), verre.Déchets interdits : cadavres d'animaux, déblais-gravats autres que ceux issus du bricolage familial, déchets anatomiques ou infectieux, déchets hospitaliers, éléments entiers de carrosserie de voiture ou camion, médicaments, ordures ménagères, pneus, produits explosifs-inflammables-radioactifs, résidus de fabrication industrielle.Déchets admis sous conditions : se renseigner à la déchèterie AVANT les dépôts : déchets d'amiante liée, tontes de pelouse-produits d'élagage-branchages de jardin en grande quantité."^^xsd:string ;
@@ -113,9 +113,9 @@
 	pdll:id	 "2220"^^xsd:string ;
 	sc:telephone	 "02 51 80 90 27"^^xsd:string .
 
-<http://projet.com/10/Déchèterie_de_Carquefou>	 foaf:name 	 "Déchèterie de Carquefou"^^xsd:string ;
+<http://lodpaddle.com/decheteries/Déchèterie_de_Carquefou>	 foaf:name 	 "Déchèterie de Carquefou"^^xsd:string ;
 	dbpprop:town	 "CARQUEFOU"^^xsd:string ;
-	geo:lat	"47.2903598677247 "^^xsd:decimal ;
+	geo:lat	"47.2903598677247"^^xsd:decimal ;
 	geo:long	"-1.44111343491299"^^xsd:decimal  ;
 	dbpprop:insee	 "440026"^^xsd:integer ;
 	dbpedia-owl:abstract	 "Réservé aux particuliers habitant Nantes Métropole.Déchets admis : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-journaux-livres, plastiques ménagers, textiles, tontes de pelouse-produits d'élagage-branchages de jardin (production admissible pour un ménage, et branchages de longueur inférieure à 1 mètre), verre.Déchets interdits : cadavres d'animaux, déblais-gravats autres que ceux issus du bricolage familial, déchets anatomiques ou infectieux, déchets hospitaliers, éléments entiers de carrosserie de voiture ou camion, médicaments, ordures ménagères, pneus, produits explosifs-inflammables-radioactifs, résidus de fabrication industrielle.Déchets admis sous conditions : se renseigner à la déchèterie AVANT les dépôts : déchets d'amiante liée, tontes de pelouse-produits d'élagage-branchages de jardin en grande quantité."^^xsd:string ;
@@ -127,9 +127,9 @@
 	pdll:id	 "3139"^^xsd:string ;
 	sc:telephone	 "02 40 93 76 71"^^xsd:string .
 
-<http://projet.com/10/Déchèterie_de_Saint_Jean_de_Boiseau>	 foaf:name 	 "Déchèterie de Saint Jean de Boiseau"^^xsd:string ;
+<http://lodpaddle.com/decheteries/Déchèterie_de_Saint_Jean_de_Boiseau>	 foaf:name 	 "Déchèterie de Saint Jean de Boiseau"^^xsd:string ;
 	dbpprop:town	 "SAINT-JEAN-DE-BOISEAU"^^xsd:string ;
-	geo:lat	"47.1864390826324 "^^xsd:decimal ;
+	geo:lat	"47.1864390826324"^^xsd:decimal ;
 	geo:long	"-1.7197063767543"^^xsd:decimal  ;
 	dbpprop:insee	 "440166"^^xsd:integer ;
 	dbpedia-owl:abstract	 "Réservé aux particuliers habitant Nantes Métropole.Déchets admis : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-journaux-livres, plastiques ménagers, textiles, tontes de pelouse-produits d'élagage-branchages de jardin (production admissible pour un ménage, et branchages de longueur inférieure à 1 mètre), verre.Déchets interdits : cadavres d'animaux, déblais-gravats autres que ceux issus du bricolage familial, déchets anatomiques ou infectieux, déchets hospitaliers, éléments entiers de carrosserie de voiture ou camion, médicaments, ordures ménagères, pneus, produits explosifs-inflammables-radioactifs, résidus de fabrication industrielle.Déchets admis sous conditions : se renseigner à la déchèterie AVANT les dépôts : déchets d'amiante liée, tontes de pelouse-produits d'élagage-branchages de jardin en grande quantité."^^xsd:string ;
@@ -141,9 +141,9 @@
 	pdll:id	 "3140"^^xsd:string ;
 	sc:telephone	 "02 40 32 94 22"^^xsd:string .
 
-<http://projet.com/10/Déchèterie_de_La_Chapelle_sur_Erdre>	 foaf:name 	 "Déchèterie de La Chapelle sur Erdre"^^xsd:string ;
+<http://lodpaddle.com/decheteries/Déchèterie_de_La_Chapelle_sur_Erdre>	 foaf:name 	 "Déchèterie de La Chapelle sur Erdre"^^xsd:string ;
 	dbpprop:town	 "LA-CHAPELLE-SUR-ERDRE"^^xsd:string ;
-	geo:lat	"47.2586626585741 "^^xsd:decimal ;
+	geo:lat	"47.2586626585741"^^xsd:decimal ;
 	geo:long	"-1.55097680217858"^^xsd:decimal  ;
 	dbpprop:insee	 "440035"^^xsd:integer ;
 	dbpedia-owl:abstract	 "Réservé aux particuliers habitant Nantes Métropole.Déchets admis : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-journaux-livres, plastiques ménagers, textiles, tontes de pelouse-produits d'élagage-branchages de jardin (production admissible pour un ménage, et branchages de longueur inférieure à 1 mètre), verre.Déchets interdits : cadavres d'animaux, déblais-gravats autres que ceux issus du bricolage familial, déchets anatomiques ou infectieux, déchets hospitaliers, éléments entiers de carrosserie de voiture ou camion, médicaments, ordures ménagères, pneus, produits explosifs-inflammables-radioactifs, résidus de fabrication industrielle.Déchets admis sous conditions : se renseigner à la déchèterie AVANT les dépôts : déchets d'amiante liée, tontes de pelouse-produits d'élagage-branchages de jardin en grande quantité."^^xsd:string ;
@@ -155,9 +155,9 @@
 	pdll:id	 "3141"^^xsd:string ;
 	sc:telephone	 "02 40 37 72 21"^^xsd:string .
 
-<http://projet.com/10/Déchèterie_de_La_Montagne>	 foaf:name 	 "Déchèterie de La Montagne"^^xsd:string ;
+<http://lodpaddle.com/decheteries/Déchèterie_de_La_Montagne>	 foaf:name 	 "Déchèterie de La Montagne"^^xsd:string ;
 	dbpprop:town	 "LA-MONTAGNE"^^xsd:string ;
-	geo:lat	"47.176908197867 "^^xsd:decimal ;
+	geo:lat	"47.176908197867"^^xsd:decimal ;
 	geo:long	"-1.68296122658226"^^xsd:decimal  ;
 	dbpprop:insee	 "440101"^^xsd:integer ;
 	dbpedia-owl:abstract	 "Réservé aux particuliers habitant Nantes Métropole.Déchets admis : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-journaux-livres, plastiques ménagers, textiles, tontes de pelouse-produits d'élagage-branchages de jardin (production admissible pour un ménage, et branchages de longueur inférieure à 1 mètre), verre.Déchets interdits : cadavres d'animaux, déblais-gravats autres que ceux issus du bricolage familial, déchets anatomiques ou infectieux, déchets hospitaliers, éléments entiers de carrosserie de voiture ou camion, médicaments, ordures ménagères, pneus, produits explosifs-inflammables-radioactifs, résidus de fabrication industrielle.Déchets admis sous conditions : se renseigner à la déchèterie AVANT les dépôts : déchets d'amiante liée, tontes de pelouse-produits d'élagage-branchages de jardin en grande quantité."^^xsd:string ;
@@ -169,9 +169,9 @@
 	pdll:id	 "3142"^^xsd:string ;
 	sc:telephone	 "02 40 32 94 23"^^xsd:string .
 
-<http://projet.com/10/Déchèterie_d'Orvault>	 foaf:name 	 "Déchèterie d'Orvault"^^xsd:string ;
+<http://lodpaddle.com/decheteries/Déchèterie_d'Orvault>	 foaf:name 	 "Déchèterie d'Orvault"^^xsd:string ;
 	dbpprop:town	 "ORVAULT"^^xsd:string ;
-	geo:lat	"47.2569694552235 "^^xsd:decimal ;
+	geo:lat	"47.2569694552235"^^xsd:decimal ;
 	geo:long	"-1.63332176172048"^^xsd:decimal  ;
 	dbpprop:insee	 "440114"^^xsd:integer ;
 	dbpedia-owl:abstract	 "Réservé aux particuliers habitant Nantes Métropole.Déchets admis : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-journaux-livres, plastiques ménagers, textiles, tontes de pelouse-produits d'élagage-branchages de jardin (production admissible pour un ménage, et branchages de longueur inférieure à 1 mètre), verre.Déchets interdits : cadavres d'animaux, déblais-gravats autres que ceux issus du bricolage familial, déchets anatomiques ou infectieux, déchets hospitaliers, éléments entiers de carrosserie de voiture ou camion, médicaments, ordures ménagères, pneus, produits explosifs-inflammables-radioactifs, résidus de fabrication industrielle.Déchets admis sous conditions : se renseigner à la déchèterie AVANT les dépôts : déchets d'amiante liée, tontes de pelouse-produits d'élagage-branchages de jardin en grande quantité."^^xsd:string ;
@@ -183,9 +183,9 @@
 	pdll:id	 "3143"^^xsd:string ;
 	sc:telephone	 "02 40 63 06 76"^^xsd:string .
 
-<http://projet.com/10/Déchèterie_de_Saint_Aignan_Grand_Lieu>	 foaf:name 	 "Déchèterie de Saint Aignan Grand Lieu"^^xsd:string ;
+<http://lodpaddle.com/decheteries/Déchèterie_de_Saint_Aignan_Grand_Lieu>	 foaf:name 	 "Déchèterie de Saint Aignan Grand Lieu"^^xsd:string ;
 	dbpprop:town	 "SAINT-AIGNAN-GRANDLIEU"^^xsd:string ;
-	geo:lat	"47.1494677405852 "^^xsd:decimal ;
+	geo:lat	"47.1494677405852"^^xsd:decimal ;
 	geo:long	"-1.62387472739094"^^xsd:decimal  ;
 	dbpprop:insee	 "440150"^^xsd:integer ;
 	dbpedia-owl:abstract	 "Réservé aux particuliers habitant Nantes Métropole.Déchets admis : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-journaux-livres, plastiques ménagers, textiles, tontes de pelouse-produits d'élagage-branchages de jardin (production admissible pour un ménage, et branchages de longueur inférieure à 1 mètre), verre.Déchets interdits : cadavres d'animaux, déblais-gravats autres que ceux issus du bricolage familial, déchets anatomiques ou infectieux, déchets hospitaliers, éléments entiers de carrosserie de voiture ou camion, médicaments, ordures ménagères, pneus, produits explosifs-inflammables-radioactifs, résidus de fabrication industrielle.Déchets admis sous conditions : se renseigner à la déchèterie AVANT les dépôts : déchets d'amiante liée, tontes de pelouse-produits d'élagage-branchages de jardin en grande quantité."^^xsd:string ;
@@ -197,9 +197,9 @@
 	pdll:id	 "3144"^^xsd:string ;
 	sc:telephone	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Déchèterie_de_Rezé>	 foaf:name 	 "Déchèterie de Rezé"^^xsd:string ;
+<http://lodpaddle.com/decheteries/Déchèterie_de_Rezé>	 foaf:name 	 "Déchèterie de Rezé"^^xsd:string ;
 	dbpprop:town	 "REZE"^^xsd:string ;
-	geo:lat	"47.1582708379875 "^^xsd:decimal ;
+	geo:lat	"47.1582708379875"^^xsd:decimal ;
 	geo:long	"-1.53331377718091"^^xsd:decimal  ;
 	dbpprop:insee	 "440143"^^xsd:integer ;
 	dbpedia-owl:abstract	 "Réservé aux particuliers habitant Nantes Métropole.Déchets admis : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-journaux-livres, plastiques ménagers, textiles, tontes de pelouse-produits d'élagage-branchages de jardin (production admissible pour un ménage, et branchages de longueur inférieure à 1 mètre), verre.Déchets interdits : cadavres d'animaux, déblais-gravats autres que ceux issus du bricolage familial, déchets anatomiques ou infectieux, déchets hospitaliers, éléments entiers de carrosserie de voiture ou camion, médicaments, ordures ménagères, pneus, produits explosifs-inflammables-radioactifs, résidus de fabrication industrielle.Déchets admis sous conditions : se renseigner à la déchèterie AVANT les dépôts : déchets d'amiante liée, tontes de pelouse-produits d'élagage-branchages de jardin en grande quantité."^^xsd:string ;
@@ -211,9 +211,9 @@
 	pdll:id	 "3145"^^xsd:string ;
 	sc:telephone	 "02 51 70 24 04"^^xsd:string .
 
-<http://projet.com/10/Déchèterie_de_Vertou>	 foaf:name 	 "Déchèterie de Vertou"^^xsd:string ;
+<http://lodpaddle.com/decheteries/Déchèterie_de_Vertou>	 foaf:name 	 "Déchèterie de Vertou"^^xsd:string ;
 	dbpprop:town	 "VERTOU"^^xsd:string ;
-	geo:lat	"47.1785023717599 "^^xsd:decimal ;
+	geo:lat	"47.1785023717599"^^xsd:decimal ;
 	geo:long	"-1.46033666089119"^^xsd:decimal  ;
 	dbpprop:insee	 "440215"^^xsd:integer ;
 	dbpedia-owl:abstract	 "Réservé aux particuliers habitant Nantes Métropole.Déchets admis : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-journaux-livres, plastiques ménagers, textiles, tontes de pelouse-produits d'élagage-branchages de jardin (production admissible pour un ménage, et branchages de longueur inférieure à 1 mètre), verre.Déchets interdits : cadavres d'animaux, déblais-gravats autres que ceux issus du bricolage familial, déchets anatomiques ou infectieux, déchets hospitaliers, éléments entiers de carrosserie de voiture ou camion, médicaments, ordures ménagères, pneus, produits explosifs-inflammables-radioactifs, résidus de fabrication industrielle.Déchets admis sous conditions : se renseigner à la déchèterie AVANT les dépôts : déchets d'amiante liée, tontes de pelouse-produits d'élagage-branchages de jardin en grande quantité."^^xsd:string ;
@@ -225,9 +225,9 @@
 	pdll:id	 "3146"^^xsd:string ;
 	sc:telephone	 "02 40 34 43 74"^^xsd:string .
 
-<http://projet.com/10/Déchèterie_de_Mauves_sur_Loire>	 foaf:name 	 "Déchèterie de Mauves sur Loire"^^xsd:string ;
+<http://lodpaddle.com/decheteries/Déchèterie_de_Mauves_sur_Loire>	 foaf:name 	 "Déchèterie de Mauves sur Loire"^^xsd:string ;
 	dbpprop:town	 "MAUVES-SUR-LOIRE"^^xsd:string ;
-	geo:lat	"47.3132666046435 "^^xsd:decimal ;
+	geo:lat	"47.3132666046435"^^xsd:decimal ;
 	geo:long	"-1.41118791536659"^^xsd:decimal  ;
 	dbpprop:insee	 "440094"^^xsd:integer ;
 	dbpedia-owl:abstract	 "Réservé aux particuliers habitant Nantes Métropole.Déchets admis : batteries, bois, cartons, déblais et gravats issus du bricolage familial, déchets d'équipement électrique et électronique, encombrants ménagers divers, ferrailles, huiles moteur, papiers-journaux-livres, plastiques ménagers, textiles, tontes de pelouse-produits d'élagage-branchages de jardin (production admissible pour un ménage, et branchages de longueur inférieure à 1 mètre), verre.Déchets interdits : cadavres d'animaux, déblais-gravats autres que ceux issus du bricolage familial, déchets anatomiques ou infectieux, déchets hospitaliers, éléments entiers de carrosserie de voiture ou camion, médicaments, ordures ménagères, pneus, produits explosifs-inflammables-radioactifs, résidus de fabrication industrielle.Déchets admis sous conditions : se renseigner à la déchèterie AVANT les dépôts : déchets d'amiante liée, tontes de pelouse-produits d'élagage-branchages de jardin en grande quantité."^^xsd:string ;

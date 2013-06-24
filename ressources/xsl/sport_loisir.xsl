@@ -31,7 +31,7 @@
 @prefix geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt; .
 
 </xsl:text>
-	<xsl:apply-templates />
+	<xsl:apply-templates/>
 </xsl:template>
 
 <xsl:template match="element">
@@ -53,7 +53,7 @@
 
 </xsl:template>
 
-<xsl:template match="_l">&#009;geo:lat&#009;"<xsl:value-of select="substring-after(substring-before(.,','),'[ ')"/>"^^xsd:decimal ;
+<xsl:template match="_l">&#009;geo:lat&#009;"<xsl:value-of select="substring-after(substring-before(.,' ,'),'[ ')"/>"^^xsd:decimal ;
 &#009;geo:long&#009;"<xsl:value-of select="substring-before(substring-after(.,', '),']')"/>"^^xsd:decimal  ;
 </xsl:template>
 
@@ -100,7 +100,7 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="geo/name"><xsl:choose><xsl:when test=". = 'null'"></xsl:when>
-<xsl:otherwise><xsl:value-of select="concat(concat('&lt;http://projet.com/10/',translate(translate(translate(translate(translate(translate(./text(),'&quot;',' '),'&gt;',' '),'&lt;',' '),'  ',' '),' ','_'),'.','_')),'&gt;')"/>&#009; foaf:name &#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise><xsl:value-of select="concat(concat('&lt;http://lodpaddle.com/sport_loisir/',translate(translate(translate(translate(translate(translate(./text(),'&quot;',' '),'&gt;',' '),'&lt;',' '),'  ',' '),' ','_'),'.','_')),'&gt;')"/>&#009; foaf:name &#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="LIBCATEGORIE">

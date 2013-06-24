@@ -15,12 +15,12 @@
 @prefix sc: <http://schema.org/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
-<http://projet.com/10/BENUREAU>	 foaf:name 	 "BENUREAU"^^xsd:string ;
+<http://lodpaddle.com/restaurant/BENUREAU>	 foaf:name 	 "BENUREAU"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINTE-LUCE-SUR-LOIRE"^^xsd:string ;
-	geo:lat	"47.246705 "^^xsd:decimal ;
+	geo:lat	"47.246705"^^xsd:decimal ;
 	geo:long	"-1.468539"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 25 95 25"^^xsd:string ;
@@ -50,12 +50,12 @@
 	dbpedia-owl:postalCode	 "44980"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LA_CLOSERIE_DES_ROSES>	 foaf:name 	 "LA CLOSERIE DES ROSES"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LA_CLOSERIE_DES_ROSES>	 foaf:name 	 "LA CLOSERIE DES ROSES"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "VARADES"^^xsd:string ;
-	geo:lat	"47.40962921 "^^xsd:decimal ;
+	geo:lat	"47.40962921"^^xsd:decimal ;
 	geo:long	"-0.96211472"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 98 33 30"^^xsd:string ;
@@ -85,12 +85,12 @@
 	dbpedia-owl:postalCode	 "44370"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/DE_LA_LOIRE>	 foaf:name 	 "DE LA LOIRE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/DE_LA_LOIRE>	 foaf:name 	 "DE LA LOIRE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "ANCENIS"^^xsd:string ;
-	geo:lat	"47.377862 "^^xsd:decimal ;
+	geo:lat	"47.377862"^^xsd:decimal ;
 	geo:long	"-1.141239"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 96 00 03"^^xsd:string ;
@@ -120,12 +120,12 @@
 	dbpedia-owl:postalCode	 "44150"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LA_P'TITE_AUBERGE>	 foaf:name 	 "LA P'TITE AUBERGE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LA_P'TITE_AUBERGE>	 foaf:name 	 "LA P'TITE AUBERGE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-HERBLON"^^xsd:string ;
-	geo:lat	"47.3733068 "^^xsd:decimal ;
+	geo:lat	"47.3733068"^^xsd:decimal ;
 	geo:long	"-1.1587433"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "undefined"^^xsd:string ;
@@ -155,12 +155,12 @@
 	dbpedia-owl:postalCode	 "44150"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LES_TERRASSES_DE_BEL_AIR>	 foaf:name 	 "LES TERRASSES DE BEL AIR"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LES_TERRASSES_DE_BEL_AIR>	 foaf:name 	 "LES TERRASSES DE BEL AIR"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "ANCENIS"^^xsd:string ;
-	geo:lat	"47.3724041 "^^xsd:decimal ;
+	geo:lat	"47.3724041"^^xsd:decimal ;
 	geo:long	"-1.1606065"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 83 02 87"^^xsd:string ;
@@ -190,12 +190,12 @@
 	dbpedia-owl:postalCode	 "44150"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LA_TABLE_DU_PÊCHEUR>	 foaf:name 	 "LA TABLE DU PÊCHEUR"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LA_TABLE_DU_PÊCHEUR>	 foaf:name 	 "LA TABLE DU PÊCHEUR"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "oui"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "ANCENIS"^^xsd:string ;
-	geo:lat	"47.3668448 "^^xsd:decimal ;
+	geo:lat	"47.3668448"^^xsd:decimal ;
 	geo:long	"-1.173973"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 83 11 36"^^xsd:string ;
@@ -225,12 +225,12 @@
 	dbpedia-owl:postalCode	 "44150"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LA_TOILE_À_BEURRE>	 foaf:name 	 "LA TOILE À BEURRE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LA_TOILE_À_BEURRE>	 foaf:name 	 "LA TOILE À BEURRE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "ANCENIS"^^xsd:string ;
-	geo:lat	"47.3664283 "^^xsd:decimal ;
+	geo:lat	"47.3664283"^^xsd:decimal ;
 	geo:long	"-1.1755261"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 98 89 64"^^xsd:string ;
@@ -260,12 +260,12 @@
 	dbpedia-owl:postalCode	 "44150"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_BISTRO_D'ANCENIS>	 foaf:name 	 "LE BISTRO D'ANCENIS"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_BISTRO_D'ANCENIS>	 foaf:name 	 "LE BISTRO D'ANCENIS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "ANCENIS"^^xsd:string ;
-	geo:lat	"47.3661499 "^^xsd:decimal ;
+	geo:lat	"47.3661499"^^xsd:decimal ;
 	geo:long	"-1.1759927"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 83 07 88"^^xsd:string ;
@@ -295,12 +295,12 @@
 	dbpedia-owl:postalCode	 "44150"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_7_DE_TABLE>	 foaf:name 	 "LE 7 DE TABLE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_7_DE_TABLE>	 foaf:name 	 "LE 7 DE TABLE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "MESANGER"^^xsd:string ;
-	geo:lat	"47.4155899 "^^xsd:decimal ;
+	geo:lat	"47.4155899"^^xsd:decimal ;
 	geo:long	"-1.1911219"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 51 14 04 14"^^xsd:string ;
@@ -330,12 +330,12 @@
 	dbpedia-owl:postalCode	 "44522"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_PRIEURE_DES_GOURMANDS>	 foaf:name 	 "LE PRIEURE DES GOURMANDS"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_PRIEURE_DES_GOURMANDS>	 foaf:name 	 "LE PRIEURE DES GOURMANDS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "BONNOEUVRE"^^xsd:string ;
-	geo:lat	"47.527713 "^^xsd:decimal ;
+	geo:lat	"47.527713"^^xsd:decimal ;
 	geo:long	"-1.237004"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 56 30 00"^^xsd:string ;
@@ -365,12 +365,12 @@
 	dbpedia-owl:postalCode	 "44540"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Au_fil_des_saisons>	 foaf:name 	 "Au fil des saisons"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Au_fil_des_saisons>	 foaf:name 	 "Au fil des saisons"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "VALLET"^^xsd:string ;
-	geo:lat	"47.160816 "^^xsd:decimal ;
+	geo:lat	"47.160816"^^xsd:decimal ;
 	geo:long	"-1.265954"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 36 30 05"^^xsd:string ;
@@ -400,12 +400,12 @@
 	dbpedia-owl:postalCode	 "44330"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_DON_QUICHOTTE>	 foaf:name 	 "LE DON QUICHOTTE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_DON_QUICHOTTE>	 foaf:name 	 "LE DON QUICHOTTE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "VALLET"^^xsd:string ;
-	geo:lat	"47.158622 "^^xsd:decimal ;
+	geo:lat	"47.158622"^^xsd:decimal ;
 	geo:long	"-1.271169"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 33 99 67"^^xsd:string ;
@@ -435,12 +435,12 @@
 	dbpedia-owl:postalCode	 "44330"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Auberge_de_la_Comtière>	 foaf:name 	 "Auberge de la Comtière"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Auberge_de_la_Comtière>	 foaf:name 	 "Auberge de la Comtière"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "VALLET"^^xsd:string ;
-	geo:lat	"47.184041 "^^xsd:decimal ;
+	geo:lat	"47.184041"^^xsd:decimal ;
 	geo:long	"-1.285591"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 33 65 59 "^^xsd:string ;
@@ -470,12 +470,12 @@
 	dbpedia-owl:postalCode	 "44330"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/DE_LA_GARE>	 foaf:name 	 "DE LA GARE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/DE_LA_GARE>	 foaf:name 	 "DE LA GARE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "CLISSON"^^xsd:string ;
-	geo:lat	"47.086415 "^^xsd:decimal ;
+	geo:lat	"47.086415"^^xsd:decimal ;
 	geo:long	"-1.285899"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 36 16 55"^^xsd:string ;
@@ -505,12 +505,12 @@
 	dbpedia-owl:postalCode	 "44190"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Villa_Saint-Germain>	 foaf:name 	 "Villa Saint-Germain"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Villa_Saint-Germain>	 foaf:name 	 "Villa Saint-Germain"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "OUDON"^^xsd:string ;
-	geo:lat	"47.345741 "^^xsd:decimal ;
+	geo:lat	"47.345741"^^xsd:decimal ;
 	geo:long	"-1.287906"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 51 14 10 04 "^^xsd:string ;
@@ -540,12 +540,12 @@
 	dbpedia-owl:postalCode	 "44521"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/AUBERGE_DU_TIRE_BOUCHON>	 foaf:name 	 "AUBERGE DU TIRE BOUCHON"^^xsd:string ;
+<http://lodpaddle.com/restaurant/AUBERGE_DU_TIRE_BOUCHON>	 foaf:name 	 "AUBERGE DU TIRE BOUCHON"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "COUFFE"^^xsd:string ;
-	geo:lat	"47.389697 "^^xsd:decimal ;
+	geo:lat	"47.389697"^^xsd:decimal ;
 	geo:long	"-1.295797"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 96 54 39"^^xsd:string ;
@@ -575,12 +575,12 @@
 	dbpedia-owl:postalCode	 "44521"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LA_BONNE_AUBERGE>	 foaf:name 	 "LA BONNE AUBERGE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LA_BONNE_AUBERGE>	 foaf:name 	 "LA BONNE AUBERGE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "CLISSON"^^xsd:string ;
-	geo:lat	"47.09976626 "^^xsd:decimal ;
+	geo:lat	"47.09976626"^^xsd:decimal ;
 	geo:long	"-1.29714771"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 54 01 90"^^xsd:string ;
@@ -610,12 +610,12 @@
 	dbpedia-owl:postalCode	 "44190"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "oui"^^xsd:string .
 
-<http://projet.com/10/La_Gétignière>	 foaf:name 	 "La Gétignière"^^xsd:string ;
+<http://lodpaddle.com/restaurant/La_Gétignière>	 foaf:name 	 "La Gétignière"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "GETIGNE"^^xsd:string ;
-	geo:lat	"47.09976626 "^^xsd:decimal ;
+	geo:lat	"47.09976626"^^xsd:decimal ;
 	geo:long	"-1.29714771"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 36 05 37"^^xsd:string ;
@@ -645,12 +645,12 @@
 	dbpedia-owl:postalCode	 "44190"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_FORMIDABLE>	 foaf:name 	 "LE FORMIDABLE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_FORMIDABLE>	 foaf:name 	 "LE FORMIDABLE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA CHAPELLE-BASSE-MER"^^xsd:string ;
-	geo:lat	"47.271643 "^^xsd:decimal ;
+	geo:lat	"47.271643"^^xsd:decimal ;
 	geo:long	"-1.33891"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 80 03 81"^^xsd:string ;
@@ -680,12 +680,12 @@
 	dbpedia-owl:postalCode	 "44450"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/L'AUBERGE_NANTAISE>	 foaf:name 	 "L'AUBERGE NANTAISE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/L'AUBERGE_NANTAISE>	 foaf:name 	 "L'AUBERGE NANTAISE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-JULIEN-DE-CONCELLES"^^xsd:string ;
-	geo:lat	"47.27087886 "^^xsd:decimal ;
+	geo:lat	"47.27087886"^^xsd:decimal ;
 	geo:long	"-1.35426606"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 54 10 73"^^xsd:string ;
@@ -715,12 +715,12 @@
 	dbpedia-owl:postalCode	 "44450"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_POËLON_D'OR>	 foaf:name 	 "LE POËLON D'OR"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_POËLON_D'OR>	 foaf:name 	 "LE POËLON D'OR"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "CHATEAUBRIANT"^^xsd:string ;
-	geo:lat	"47.7205167 "^^xsd:decimal ;
+	geo:lat	"47.7205167"^^xsd:decimal ;
 	geo:long	"-1.3770787"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 81 43 33"^^xsd:string ;
@@ -750,12 +750,12 @@
 	dbpedia-owl:postalCode	 "44110"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/HOSTELLERIE_DE_LA_FERRIERE>	 foaf:name 	 "HOSTELLERIE DE LA FERRIERE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/HOSTELLERIE_DE_LA_FERRIERE>	 foaf:name 	 "HOSTELLERIE DE LA FERRIERE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "CHATEAUBRIANT"^^xsd:string ;
-	geo:lat	"47.701779 "^^xsd:decimal ;
+	geo:lat	"47.701779"^^xsd:decimal ;
 	geo:long	"-1.381743"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 28 00 28"^^xsd:string ;
@@ -785,12 +785,12 @@
 	dbpedia-owl:postalCode	 "44110"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/RESTAURANT_JEAN_DE_LA_QUEUE>	 foaf:name 	 "RESTAURANT JEAN DE LA QUEUE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/RESTAURANT_JEAN_DE_LA_QUEUE>	 foaf:name 	 "RESTAURANT JEAN DE LA QUEUE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA HAIE-FOUASSIERE"^^xsd:string ;
-	geo:lat	"47.179372 "^^xsd:decimal ;
+	geo:lat	"47.179372"^^xsd:decimal ;
 	geo:long	"-1.407782"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "undefined"^^xsd:string ;
@@ -820,12 +820,12 @@
 	dbpedia-owl:postalCode	 "44690"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/RESTAURANT_CLEMENCE>	 foaf:name 	 "RESTAURANT CLEMENCE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/RESTAURANT_CLEMENCE>	 foaf:name 	 "RESTAURANT CLEMENCE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "oui"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "oui"^^xsd:string ;
 	dbpprop:town	 "SAINT-JULIEN-DE-CONCELLES"^^xsd:string ;
-	geo:lat	"47.2669725 "^^xsd:decimal ;
+	geo:lat	"47.2669725"^^xsd:decimal ;
 	geo:long	"-1.4117822"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 36 03 18"^^xsd:string ;
@@ -855,12 +855,12 @@
 	dbpedia-owl:postalCode	 "44450"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/MANOIR_DE_LA_BOULAIE>	 foaf:name 	 "MANOIR DE LA BOULAIE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/MANOIR_DE_LA_BOULAIE>	 foaf:name 	 "MANOIR DE LA BOULAIE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "oui"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "HAUTE-GOULAINE"^^xsd:string ;
-	geo:lat	"47.1899399 "^^xsd:decimal ;
+	geo:lat	"47.1899399"^^xsd:decimal ;
 	geo:long	"-1.4285761"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 06 15 91"^^xsd:string ;
@@ -890,12 +890,12 @@
 	dbpedia-owl:postalCode	 "44115"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "oui"^^xsd:string .
 
-<http://projet.com/10/LA_CLOSERIE>	 foaf:name 	 "LA CLOSERIE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LA_CLOSERIE>	 foaf:name 	 "LA CLOSERIE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "THOUARE-SUR-LOIRE"^^xsd:string ;
-	geo:lat	"47.288067 "^^xsd:decimal ;
+	geo:lat	"47.288067"^^xsd:decimal ;
 	geo:long	"-1.432533"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "undefined"^^xsd:string ;
@@ -925,12 +925,12 @@
 	dbpedia-owl:postalCode	 "44470"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/AUBERGE_DE_LA_GAILLOTIERE>	 foaf:name 	 "AUBERGE DE LA GAILLOTIERE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/AUBERGE_DE_LA_GAILLOTIERE>	 foaf:name 	 "AUBERGE DE LA GAILLOTIERE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "oui"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "CHATEAU-THEBAUD"^^xsd:string ;
-	geo:lat	"47.1311398 "^^xsd:decimal ;
+	geo:lat	"47.1311398"^^xsd:decimal ;
 	geo:long	"-1.4332719"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 28 21 31 16"^^xsd:string ;
@@ -960,12 +960,12 @@
 	dbpedia-owl:postalCode	 "44690"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LA_DIVATE>	 foaf:name 	 "LA DIVATE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LA_DIVATE>	 foaf:name 	 "LA DIVATE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-JULIEN-DE-CONCELLES"^^xsd:string ;
-	geo:lat	"47.2455626 "^^xsd:decimal ;
+	geo:lat	"47.2455626"^^xsd:decimal ;
 	geo:long	"-1.4366337"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 54 19 66"^^xsd:string ;
@@ -995,12 +995,12 @@
 	dbpedia-owl:postalCode	 "44450"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Le_Bistrot_Nantais>	 foaf:name 	 "Le Bistrot Nantais"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Le_Bistrot_Nantais>	 foaf:name 	 "Le Bistrot Nantais"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-JULIEN-DE-CONCELLES"^^xsd:string ;
-	geo:lat	"47.245514 "^^xsd:decimal ;
+	geo:lat	"47.245514"^^xsd:decimal ;
 	geo:long	"-1.436659"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 54 10 20 "^^xsd:string ;
@@ -1030,12 +1030,12 @@
 	dbpedia-owl:postalCode	 "44450"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LA_CHAUMIERE>	 foaf:name 	 "LA CHAUMIERE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LA_CHAUMIERE>	 foaf:name 	 "LA CHAUMIERE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "THOUARE-SUR-LOIRE"^^xsd:string ;
-	geo:lat	"47.2650508 "^^xsd:decimal ;
+	geo:lat	"47.2650508"^^xsd:decimal ;
 	geo:long	"-1.4395534"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 77 30 94 "^^xsd:string ;
@@ -1065,12 +1065,12 @@
 	dbpedia-owl:postalCode	 "44470"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/VILLA_MON_REVE>	 foaf:name 	 "VILLA MON REVE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/VILLA_MON_REVE>	 foaf:name 	 "VILLA MON REVE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "oui"^^xsd:string ;
 	dbpprop:town	 "BASSE-GOULAINE"^^xsd:string ;
-	geo:lat	"47.2331882 "^^xsd:decimal ;
+	geo:lat	"47.2331882"^^xsd:decimal ;
 	geo:long	"-1.4630353"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 03 55 50"^^xsd:string ;
@@ -1100,12 +1100,12 @@
 	dbpedia-owl:postalCode	 "44115"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LA_HAUTE_FORET>	 foaf:name 	 "LA HAUTE FORET"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LA_HAUTE_FORET>	 foaf:name 	 "LA HAUTE FORET"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "VERTOU"^^xsd:string ;
-	geo:lat	"47.170009 "^^xsd:decimal ;
+	geo:lat	"47.170009"^^xsd:decimal ;
 	geo:long	"-1.467114"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "undefined"^^xsd:string ;
@@ -1135,12 +1135,12 @@
 	dbpedia-owl:postalCode	 "44120"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Manoir_du_Petit_Plessis>	 foaf:name 	 "Manoir du Petit Plessis"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Manoir_du_Petit_Plessis>	 foaf:name 	 "Manoir du Petit Plessis"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINTE-LUCE-SUR-LOIRE"^^xsd:string ;
-	geo:lat	"47.246908 "^^xsd:decimal ;
+	geo:lat	"47.246908"^^xsd:decimal ;
 	geo:long	"-1.469317"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 08 99 85"^^xsd:string ;
@@ -1170,12 +1170,12 @@
 	dbpedia-owl:postalCode	 "44980"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/RESTAURANT_DU_PONT>	 foaf:name 	 "RESTAURANT DU PONT"^^xsd:string ;
+<http://lodpaddle.com/restaurant/RESTAURANT_DU_PONT>	 foaf:name 	 "RESTAURANT DU PONT"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "BASSE-GOULAINE"^^xsd:string ;
-	geo:lat	"47.2153934 "^^xsd:decimal ;
+	geo:lat	"47.2153934"^^xsd:decimal ;
 	geo:long	"-1.4749447"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 03 58 62"^^xsd:string ;
@@ -1205,12 +1205,12 @@
 	dbpedia-owl:postalCode	 "44115"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/MONTE_CRISTO>	 foaf:name 	 "MONTE CRISTO"^^xsd:string ;
+<http://lodpaddle.com/restaurant/MONTE_CRISTO>	 foaf:name 	 "MONTE CRISTO"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "oui"^^xsd:string ;
 	dbpprop:town	 "VERTOU"^^xsd:string ;
-	geo:lat	"47.1686207 "^^xsd:decimal ;
+	geo:lat	"47.1686207"^^xsd:decimal ;
 	geo:long	"-1.4809551"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 34 40 36"^^xsd:string ;
@@ -1240,12 +1240,12 @@
 	dbpedia-owl:postalCode	 "44120"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_LAURIER_FLEURI>	 foaf:name 	 "LE LAURIER FLEURI"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_LAURIER_FLEURI>	 foaf:name 	 "LE LAURIER FLEURI"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "VERTOU"^^xsd:string ;
-	geo:lat	"47.18723 "^^xsd:decimal ;
+	geo:lat	"47.18723"^^xsd:decimal ;
 	geo:long	"-1.482801"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "undefined"^^xsd:string ;
@@ -1275,12 +1275,12 @@
 	dbpedia-owl:postalCode	 "44120"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_PELICAN>	 foaf:name 	 "LE PELICAN"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_PELICAN>	 foaf:name 	 "LE PELICAN"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "GENESTON"^^xsd:string ;
-	geo:lat	"47.0554239 "^^xsd:decimal ;
+	geo:lat	"47.0554239"^^xsd:decimal ;
 	geo:long	"-1.5122468"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 04 77 88"^^xsd:string ;
@@ -1310,12 +1310,12 @@
 	dbpedia-owl:postalCode	 "44140"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_CLOS_ST-THOMAS>	 foaf:name 	 "LE CLOS ST-THOMAS"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_CLOS_ST-THOMAS>	 foaf:name 	 "LE CLOS ST-THOMAS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "oui"^^xsd:string ;
 	dbpprop:town	 "SUCE-SUR-ERDRE"^^xsd:string ;
-	geo:lat	"47.3396302 "^^xsd:decimal ;
+	geo:lat	"47.3396302"^^xsd:decimal ;
 	geo:long	"-1.5261822"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 77 71 34"^^xsd:string ;
@@ -1345,12 +1345,12 @@
 	dbpedia-owl:postalCode	 "44240"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/MANOIR_DE_LA_REGATE_(LE)>	 foaf:name 	 "MANOIR DE LA REGATE (LE)"^^xsd:string ;
+<http://lodpaddle.com/restaurant/MANOIR_DE_LA_REGATE_(LE)>	 foaf:name 	 "MANOIR DE LA REGATE (LE)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.293755 "^^xsd:decimal ;
+	geo:lat	"47.293755"^^xsd:decimal ;
 	geo:long	"-1.527529"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 18 02 97"^^xsd:string ;
@@ -1380,12 +1380,12 @@
 	dbpedia-owl:postalCode	 "44300"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Amandine_Restaurant>	 foaf:name 	 "Amandine Restaurant"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Amandine_Restaurant>	 foaf:name 	 "Amandine Restaurant"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.254493 "^^xsd:decimal ;
+	geo:lat	"47.254493"^^xsd:decimal ;
 	geo:long	"-1.5282982"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 50 07 07"^^xsd:string ;
@@ -1415,12 +1415,12 @@
 	dbpedia-owl:postalCode	 "44300"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/B_A__Ba_Restaurant>	 foaf:name 	 "B.A. Ba Restaurant"^^xsd:string ;
+<http://lodpaddle.com/restaurant/B_A__Ba_Restaurant>	 foaf:name 	 "B.A. Ba Restaurant"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.208953 "^^xsd:decimal ;
+	geo:lat	"47.208953"^^xsd:decimal ;
 	geo:long	"-1.528629"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 28 44 38 04 "^^xsd:string ;
@@ -1450,12 +1450,12 @@
 	dbpedia-owl:postalCode	 "44200"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/BEAUJOIRE_HOTEL_Rest__LE_JARDIN>	 foaf:name 	 "BEAUJOIRE HOTEL Rest. LE JARDIN"^^xsd:string ;
+<http://lodpaddle.com/restaurant/BEAUJOIRE_HOTEL_Rest__LE_JARDIN>	 foaf:name 	 "BEAUJOIRE HOTEL Rest. LE JARDIN"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.257457 "^^xsd:decimal ;
+	geo:lat	"47.257457"^^xsd:decimal ;
 	geo:long	"-1.529558"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "undefined"^^xsd:string ;
@@ -1485,12 +1485,12 @@
 	dbpedia-owl:postalCode	 "44300"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/AUBERGE_DU_VIEUX_GACHET>	 foaf:name 	 "AUBERGE DU VIEUX GACHET"^^xsd:string ;
+<http://lodpaddle.com/restaurant/AUBERGE_DU_VIEUX_GACHET>	 foaf:name 	 "AUBERGE DU VIEUX GACHET"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "CARQUEFOU"^^xsd:string ;
-	geo:lat	"47.2960463 "^^xsd:decimal ;
+	geo:lat	"47.2960463"^^xsd:decimal ;
 	geo:long	"-1.5297102"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "undefined"^^xsd:string ;
@@ -1520,12 +1520,12 @@
 	dbpedia-owl:postalCode	 "44470"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/RIVE_GAUCHE_(LE)>	 foaf:name 	 "RIVE GAUCHE (LE)"^^xsd:string ;
+<http://lodpaddle.com/restaurant/RIVE_GAUCHE_(LE)>	 foaf:name 	 "RIVE GAUCHE (LE)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "oui"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.2012635 "^^xsd:decimal ;
+	geo:lat	"47.2012635"^^xsd:decimal ;
 	geo:long	"-1.5314653"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 34 38 52"^^xsd:string ;
@@ -1555,12 +1555,12 @@
 	dbpedia-owl:postalCode	 "44200"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/ABELIA_(L')>	 foaf:name 	 "ABELIA (L')"^^xsd:string ;
+<http://lodpaddle.com/restaurant/ABELIA_(L')>	 foaf:name 	 "ABELIA (L')"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.2322643 "^^xsd:decimal ;
+	geo:lat	"47.2322643"^^xsd:decimal ;
 	geo:long	"-1.5316317"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 35 40 40"^^xsd:string ;
@@ -1590,12 +1590,12 @@
 	dbpedia-owl:postalCode	 "44300"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "oui"^^xsd:string .
 
-<http://projet.com/10/COU_DE_LA_GIRAFE_(LE)>	 foaf:name 	 "COU DE LA GIRAFE (LE)"^^xsd:string ;
+<http://lodpaddle.com/restaurant/COU_DE_LA_GIRAFE_(LE)>	 foaf:name 	 "COU DE LA GIRAFE (LE)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.2303663 "^^xsd:decimal ;
+	geo:lat	"47.2303663"^^xsd:decimal ;
 	geo:long	"-1.5394132"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 51 81 98 26"^^xsd:string ;
@@ -1625,12 +1625,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/BRASSERIE_FELIX>	 foaf:name 	 "BRASSERIE FELIX"^^xsd:string ;
+<http://lodpaddle.com/restaurant/BRASSERIE_FELIX>	 foaf:name 	 "BRASSERIE FELIX"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.2143292 "^^xsd:decimal ;
+	geo:lat	"47.2143292"^^xsd:decimal ;
 	geo:long	"-1.5441412"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 34 15 93"^^xsd:string ;
@@ -1660,12 +1660,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/La_Tavola>	 foaf:name 	 "La Tavola"^^xsd:string ;
+<http://lodpaddle.com/restaurant/La_Tavola>	 foaf:name 	 "La Tavola"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.217741 "^^xsd:decimal ;
+	geo:lat	"47.217741"^^xsd:decimal ;
 	geo:long	"-1.54545"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 74 11 61 "^^xsd:string ;
@@ -1695,12 +1695,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/MAISON_BARON-LEFEVRE>	 foaf:name 	 "MAISON BARON-LEFEVRE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/MAISON_BARON-LEFEVRE>	 foaf:name 	 "MAISON BARON-LEFEVRE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.2104248 "^^xsd:decimal ;
+	geo:lat	"47.2104248"^^xsd:decimal ;
 	geo:long	"-1.545918"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 89 20 20"^^xsd:string ;
@@ -1730,12 +1730,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/SQUARE_(LE)>	 foaf:name 	 "SQUARE (LE)"^^xsd:string ;
+<http://lodpaddle.com/restaurant/SQUARE_(LE)>	 foaf:name 	 "SQUARE (LE)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.2127534 "^^xsd:decimal ;
+	geo:lat	"47.2127534"^^xsd:decimal ;
 	geo:long	"-1.5462059"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 35 98 09"^^xsd:string ;
@@ -1765,12 +1765,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Le_Vanola>	 foaf:name 	 "Le Vanola"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Le_Vanola>	 foaf:name 	 "Le Vanola"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.217379 "^^xsd:decimal ;
+	geo:lat	"47.217379"^^xsd:decimal ;
 	geo:long	"-1.546288"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 74 13 88 "^^xsd:string ;
@@ -1800,12 +1800,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/A_ma_table>	 foaf:name 	 "A ma table"^^xsd:string ;
+<http://lodpaddle.com/restaurant/A_ma_table>	 foaf:name 	 "A ma table"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.213296 "^^xsd:decimal ;
+	geo:lat	"47.213296"^^xsd:decimal ;
 	geo:long	"-1.546345"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 47 01 18"^^xsd:string ;
@@ -1835,12 +1835,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Plan_B>	 foaf:name 	 "Plan B"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Plan_B>	 foaf:name 	 "Plan B"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.211742 "^^xsd:decimal ;
+	geo:lat	"47.211742"^^xsd:decimal ;
 	geo:long	"-1.5467"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 85 37 15 02"^^xsd:string ;
@@ -1870,12 +1870,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LA_TAVERNE_DU_CHÂTEAU>	 foaf:name 	 "LA TAVERNE DU CHÂTEAU"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LA_TAVERNE_DU_CHÂTEAU>	 foaf:name 	 "LA TAVERNE DU CHÂTEAU"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.2166963 "^^xsd:decimal ;
+	geo:lat	"47.2166963"^^xsd:decimal ;
 	geo:long	"-1.5467448"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 74 87 37"^^xsd:string ;
@@ -1905,12 +1905,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/GRESSIN_(LE)>	 foaf:name 	 "GRESSIN (LE)"^^xsd:string ;
+<http://lodpaddle.com/restaurant/GRESSIN_(LE)>	 foaf:name 	 "GRESSIN (LE)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.2115021 "^^xsd:decimal ;
+	geo:lat	"47.2115021"^^xsd:decimal ;
 	geo:long	"-1.5469734"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 48 26 24"^^xsd:string ;
@@ -1940,12 +1940,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/La_Raffinerie>	 foaf:name 	 "La Raffinerie"^^xsd:string ;
+<http://lodpaddle.com/restaurant/La_Raffinerie>	 foaf:name 	 "La Raffinerie"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.210388 "^^xsd:decimal ;
+	geo:lat	"47.210388"^^xsd:decimal ;
 	geo:long	"-1.547246"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 74 81 05"^^xsd:string ;
@@ -1975,12 +1975,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Aux_délices_bretons>	 foaf:name 	 "Aux délices bretons"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Aux_délices_bretons>	 foaf:name 	 "Aux délices bretons"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.221319 "^^xsd:decimal ;
+	geo:lat	"47.221319"^^xsd:decimal ;
 	geo:long	"-1.547759"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 28 24 00 25 "^^xsd:string ;
@@ -2010,12 +2010,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/CHANTS_D'AVRIL_(LES)>	 foaf:name 	 "CHANTS D'AVRIL (LES)"^^xsd:string ;
+<http://lodpaddle.com/restaurant/CHANTS_D'AVRIL_(LES)>	 foaf:name 	 "CHANTS D'AVRIL (LES)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.2124928 "^^xsd:decimal ;
+	geo:lat	"47.2124928"^^xsd:decimal ;
 	geo:long	"-1.5480567"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 89 34 76"^^xsd:string ;
@@ -2045,12 +2045,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Le_Bistroquet>	 foaf:name 	 "Le Bistroquet"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Le_Bistroquet>	 foaf:name 	 "Le Bistroquet"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.220213 "^^xsd:decimal ;
+	geo:lat	"47.220213"^^xsd:decimal ;
 	geo:long	"-1.548983"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 74 09 44"^^xsd:string ;
@@ -2080,12 +2080,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/L’Atelier_d’Alain>	 foaf:name 	 "L’Atelier d’Alain"^^xsd:string ;
+<http://lodpaddle.com/restaurant/L’Atelier_d’Alain>	 foaf:name 	 "L’Atelier d’Alain"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.21057 "^^xsd:decimal ;
+	geo:lat	"47.21057"^^xsd:decimal ;
 	geo:long	"-1.549229"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 84 38 66"^^xsd:string ;
@@ -2115,12 +2115,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Le_P’tit_qu’a_fait>	 foaf:name 	 "Le P’tit qu’a fait"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Le_P’tit_qu’a_fait>	 foaf:name 	 "Le P’tit qu’a fait"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.212048 "^^xsd:decimal ;
+	geo:lat	"47.212048"^^xsd:decimal ;
 	geo:long	"-1.549983"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "09 52 67 31 26"^^xsd:string ;
@@ -2150,12 +2150,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Rêves_marins___>	 foaf:name 	 "Rêves marins..."^^xsd:string ;
+<http://lodpaddle.com/restaurant/Rêves_marins___>	 foaf:name 	 "Rêves marins..."^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.218707 "^^xsd:decimal ;
+	geo:lat	"47.218707"^^xsd:decimal ;
 	geo:long	"-1.551038"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 47 00 96 "^^xsd:string ;
@@ -2185,12 +2185,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/PATIO'NNEMENT>	 foaf:name 	 "PATIO'NNEMENT"^^xsd:string ;
+<http://lodpaddle.com/restaurant/PATIO'NNEMENT>	 foaf:name 	 "PATIO'NNEMENT"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.2158088 "^^xsd:decimal ;
+	geo:lat	"47.2158088"^^xsd:decimal ;
 	geo:long	"-1.5520352"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 51 82 41 16"^^xsd:string ;
@@ -2220,12 +2220,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Bistrot_l’Alchimiste>	 foaf:name 	 "Bistrot l’Alchimiste"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Bistrot_l’Alchimiste>	 foaf:name 	 "Bistrot l’Alchimiste"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.217919 "^^xsd:decimal ;
+	geo:lat	"47.217919"^^xsd:decimal ;
 	geo:long	"-1.552043"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 20 46 20"^^xsd:string ;
@@ -2255,12 +2255,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Resto-revues>	 foaf:name 	 "Resto-revues"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Resto-revues>	 foaf:name 	 "Resto-revues"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.218743 "^^xsd:decimal ;
+	geo:lat	"47.218743"^^xsd:decimal ;
 	geo:long	"-1.552198"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 47 42 91 "^^xsd:string ;
@@ -2290,12 +2290,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Le_P’tite_Ardoise>	 foaf:name 	 "Le P’tite Ardoise"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Le_P’tite_Ardoise>	 foaf:name 	 "Le P’tite Ardoise"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.205513 "^^xsd:decimal ;
+	geo:lat	"47.205513"^^xsd:decimal ;
 	geo:long	"-1.552259"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 69 66 20 "^^xsd:string ;
@@ -2325,12 +2325,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/La_Mangeoire>	 foaf:name 	 "La Mangeoire"^^xsd:string ;
+<http://lodpaddle.com/restaurant/La_Mangeoire>	 foaf:name 	 "La Mangeoire"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.215333 "^^xsd:decimal ;
+	geo:lat	"47.215333"^^xsd:decimal ;
 	geo:long	"-1.552365"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "undefined"^^xsd:string ;
@@ -2360,12 +2360,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Le_Gribiche>	 foaf:name 	 "Le Gribiche"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Le_Gribiche>	 foaf:name 	 "Le Gribiche"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.206677 "^^xsd:decimal ;
+	geo:lat	"47.206677"^^xsd:decimal ;
 	geo:long	"-1.552679"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 47 95 59"^^xsd:string ;
@@ -2395,12 +2395,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/POISSONNERIE_(LA)>	 foaf:name 	 "POISSONNERIE (LA)"^^xsd:string ;
+<http://lodpaddle.com/restaurant/POISSONNERIE_(LA)>	 foaf:name 	 "POISSONNERIE (LA)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.2138998 "^^xsd:decimal ;
+	geo:lat	"47.2138998"^^xsd:decimal ;
 	geo:long	"-1.5531203"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 47 79 50"^^xsd:string ;
@@ -2430,12 +2430,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Les_Petits_Saints>	 foaf:name 	 "Les Petits Saints"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Les_Petits_Saints>	 foaf:name 	 "Les Petits Saints"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.217429 "^^xsd:decimal ;
+	geo:lat	"47.217429"^^xsd:decimal ;
 	geo:long	"-1.553274"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 20 24 48"^^xsd:string ;
@@ -2465,12 +2465,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/La_Vache_Nantaise>	 foaf:name 	 "La Vache Nantaise"^^xsd:string ;
+<http://lodpaddle.com/restaurant/La_Vache_Nantaise>	 foaf:name 	 "La Vache Nantaise"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.213613 "^^xsd:decimal ;
+	geo:lat	"47.213613"^^xsd:decimal ;
 	geo:long	"-1.553494"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 89 59 69 "^^xsd:string ;
@@ -2500,12 +2500,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Le_Lait_de_Mai>	 foaf:name 	 "Le Lait de Mai"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Le_Lait_de_Mai>	 foaf:name 	 "Le Lait de Mai"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.224006 "^^xsd:decimal ;
+	geo:lat	"47.224006"^^xsd:decimal ;
 	geo:long	"-1.553687"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 35 65 97 "^^xsd:string ;
@@ -2535,12 +2535,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Café_Grimault>	 foaf:name 	 "Café Grimault"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Café_Grimault>	 foaf:name 	 "Café Grimault"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.22343 "^^xsd:decimal ;
+	geo:lat	"47.22343"^^xsd:decimal ;
 	geo:long	"-1.553911"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "09 81 61 39 26 "^^xsd:string ;
@@ -2570,12 +2570,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Les_Enfants_Terribles>	 foaf:name 	 "Les Enfants Terribles"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Les_Enfants_Terribles>	 foaf:name 	 "Les Enfants Terribles"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.217121 "^^xsd:decimal ;
+	geo:lat	"47.217121"^^xsd:decimal ;
 	geo:long	"-1.554261"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 47 00 38 "^^xsd:string ;
@@ -2605,12 +2605,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Le_Bistrot_de_l’Ile>	 foaf:name 	 "Le Bistrot de l’Ile"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Le_Bistrot_de_l’Ile>	 foaf:name 	 "Le Bistrot de l’Ile"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.206503 "^^xsd:decimal ;
+	geo:lat	"47.206503"^^xsd:decimal ;
 	geo:long	"-1.554539"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 47 92 35"^^xsd:string ;
@@ -2640,12 +2640,12 @@
 	dbpedia-owl:postalCode	 "44200"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/ENTRE_AMIS>	 foaf:name 	 "ENTRE AMIS"^^xsd:string ;
+<http://lodpaddle.com/restaurant/ENTRE_AMIS>	 foaf:name 	 "ENTRE AMIS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.2168328 "^^xsd:decimal ;
+	geo:lat	"47.2168328"^^xsd:decimal ;
 	geo:long	"-1.5548495"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 20 33 86"^^xsd:string ;
@@ -2675,12 +2675,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Le_Nouveau_Monde>	 foaf:name 	 "Le Nouveau Monde"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Le_Nouveau_Monde>	 foaf:name 	 "Le Nouveau Monde"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.213275 "^^xsd:decimal ;
+	geo:lat	"47.213275"^^xsd:decimal ;
 	geo:long	"-1.554858"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 48 03 04"^^xsd:string ;
@@ -2710,12 +2710,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Chez_Lizette>	 foaf:name 	 "Chez Lizette"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Chez_Lizette>	 foaf:name 	 "Chez Lizette"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.207196 "^^xsd:decimal ;
+	geo:lat	"47.207196"^^xsd:decimal ;
 	geo:long	"-1.554922"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 47 04 44 "^^xsd:string ;
@@ -2745,12 +2745,12 @@
 	dbpedia-owl:postalCode	 "44200"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/OCEANIDE_(L')>	 foaf:name 	 "OCEANIDE (L')"^^xsd:string ;
+<http://lodpaddle.com/restaurant/OCEANIDE_(L')>	 foaf:name 	 "OCEANIDE (L')"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.2207063 "^^xsd:decimal ;
+	geo:lat	"47.2207063"^^xsd:decimal ;
 	geo:long	"-1.5549582"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 20 32 28"^^xsd:string ;
@@ -2780,12 +2780,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Tontonpic>	 foaf:name 	 "Tontonpic"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Tontonpic>	 foaf:name 	 "Tontonpic"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.221471 "^^xsd:decimal ;
+	geo:lat	"47.221471"^^xsd:decimal ;
 	geo:long	"-1.5551"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 74 09 27"^^xsd:string ;
@@ -2815,12 +2815,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/À_l’Ardoise>	 foaf:name 	 "À l’Ardoise"^^xsd:string ;
+<http://lodpaddle.com/restaurant/À_l’Ardoise>	 foaf:name 	 "À l’Ardoise"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.219037 "^^xsd:decimal ;
+	geo:lat	"47.219037"^^xsd:decimal ;
 	geo:long	"-1.555212"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 47 54 51 "^^xsd:string ;
@@ -2850,12 +2850,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/CHEMINS_D'ALEXANDRE_(LES)>	 foaf:name 	 "CHEMINS D'ALEXANDRE (LES)"^^xsd:string ;
+<http://lodpaddle.com/restaurant/CHEMINS_D'ALEXANDRE_(LES)>	 foaf:name 	 "CHEMINS D'ALEXANDRE (LES)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.218691 "^^xsd:decimal ;
+	geo:lat	"47.218691"^^xsd:decimal ;
 	geo:long	"-1.555291"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "undefined"^^xsd:string ;
@@ -2885,12 +2885,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Les_Chemins_d'Alexandre>	 foaf:name 	 "Les Chemins d'Alexandre"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Les_Chemins_d'Alexandre>	 foaf:name 	 "Les Chemins d'Alexandre"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.218691 "^^xsd:decimal ;
+	geo:lat	"47.218691"^^xsd:decimal ;
 	geo:long	"-1.555291"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 48 62 27"^^xsd:string ;
@@ -2920,12 +2920,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/La_Pasta>	 foaf:name 	 "La Pasta"^^xsd:string ;
+<http://lodpaddle.com/restaurant/La_Pasta>	 foaf:name 	 "La Pasta"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.217258 "^^xsd:decimal ;
+	geo:lat	"47.217258"^^xsd:decimal ;
 	geo:long	"-1.555495"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 47 33 22 "^^xsd:string ;
@@ -2955,12 +2955,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/PRESSOIR_(LE)>	 foaf:name 	 "PRESSOIR (LE)"^^xsd:string ;
+<http://lodpaddle.com/restaurant/PRESSOIR_(LE)>	 foaf:name 	 "PRESSOIR (LE)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.2122483 "^^xsd:decimal ;
+	geo:lat	"47.2122483"^^xsd:decimal ;
 	geo:long	"-1.5558267"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 35 31 10"^^xsd:string ;
@@ -2990,12 +2990,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Le_P’tit_Bouillon>	 foaf:name 	 "Le P’tit Bouillon"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Le_P’tit_Bouillon>	 foaf:name 	 "Le P’tit Bouillon"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.217721 "^^xsd:decimal ;
+	geo:lat	"47.217721"^^xsd:decimal ;
 	geo:long	"-1.556221"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 20 35 77"^^xsd:string ;
@@ -3025,12 +3025,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LES_BOUTEILLES_-_LA_CANTINE>	 foaf:name 	 "LES BOUTEILLES - LA CANTINE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LES_BOUTEILLES_-_LA_CANTINE>	 foaf:name 	 "LES BOUTEILLES - LA CANTINE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.2178849 "^^xsd:decimal ;
+	geo:lat	"47.2178849"^^xsd:decimal ;
 	geo:long	"-1.5562477"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 12 10 38"^^xsd:string ;
@@ -3060,12 +3060,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/EMBELLIE_(L')>	 foaf:name 	 "EMBELLIE (L')"^^xsd:string ;
+<http://lodpaddle.com/restaurant/EMBELLIE_(L')>	 foaf:name 	 "EMBELLIE (L')"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.2174799 "^^xsd:decimal ;
+	geo:lat	"47.2174799"^^xsd:decimal ;
 	geo:long	"-1.5562844"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 48 20 02"^^xsd:string ;
@@ -3095,12 +3095,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Terroirs_Bio>	 foaf:name 	 "Terroirs Bio"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Terroirs_Bio>	 foaf:name 	 "Terroirs Bio"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.205995 "^^xsd:decimal ;
+	geo:lat	"47.205995"^^xsd:decimal ;
 	geo:long	"-1.556538"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 51 86 25 60 "^^xsd:string ;
@@ -3130,12 +3130,12 @@
 	dbpedia-owl:postalCode	 "44200"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/DUQUESNE>	 foaf:name 	 "DUQUESNE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/DUQUESNE>	 foaf:name 	 "DUQUESNE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.218666 "^^xsd:decimal ;
+	geo:lat	"47.218666"^^xsd:decimal ;
 	geo:long	"-1.556729"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 47 57 24"^^xsd:string ;
@@ -3165,12 +3165,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Pommier-Laprugne>	 foaf:name 	 "Pommier-Laprugne"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Pommier-Laprugne>	 foaf:name 	 "Pommier-Laprugne"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.211223 "^^xsd:decimal ;
+	geo:lat	"47.211223"^^xsd:decimal ;
 	geo:long	"-1.556931"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 47 78 08 "^^xsd:string ;
@@ -3200,12 +3200,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Les_Oliviers>	 foaf:name 	 "Les Oliviers"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Les_Oliviers>	 foaf:name 	 "Les Oliviers"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.218174 "^^xsd:decimal ;
+	geo:lat	"47.218174"^^xsd:decimal ;
 	geo:long	"-1.556959"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 20 21 99"^^xsd:string ;
@@ -3235,12 +3235,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/A_la_Belle_Cocotte>	 foaf:name 	 "A la Belle Cocotte"^^xsd:string ;
+<http://lodpaddle.com/restaurant/A_la_Belle_Cocotte>	 foaf:name 	 "A la Belle Cocotte"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.216422 "^^xsd:decimal ;
+	geo:lat	"47.216422"^^xsd:decimal ;
 	geo:long	"-1.557869"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "undefined"^^xsd:string ;
@@ -3270,12 +3270,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Beckett’s_Canteen>	 foaf:name 	 "Beckett’s Canteen"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Beckett’s_Canteen>	 foaf:name 	 "Beckett’s Canteen"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.216146 "^^xsd:decimal ;
+	geo:lat	"47.216146"^^xsd:decimal ;
 	geo:long	"-1.558976"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 48 76 46 "^^xsd:string ;
@@ -3305,12 +3305,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Crêperie_de_Brocéliande>	 foaf:name 	 "Crêperie de Brocéliande"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Crêperie_de_Brocéliande>	 foaf:name 	 "Crêperie de Brocéliande"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.214068 "^^xsd:decimal ;
+	geo:lat	"47.214068"^^xsd:decimal ;
 	geo:long	"-1.558979"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 89 04 03"^^xsd:string ;
@@ -3340,12 +3340,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/CREPERIE_LA_TETE_NOIRE>	 foaf:name 	 "CREPERIE LA TETE NOIRE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/CREPERIE_LA_TETE_NOIRE>	 foaf:name 	 "CREPERIE LA TETE NOIRE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.2151238 "^^xsd:decimal ;
+	geo:lat	"47.2151238"^^xsd:decimal ;
 	geo:long	"-1.5589895"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 48 69 41"^^xsd:string ;
@@ -3375,12 +3375,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Heb-Ken>	 foaf:name 	 "Heb-Ken"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Heb-Ken>	 foaf:name 	 "Heb-Ken"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.214106 "^^xsd:decimal ;
+	geo:lat	"47.214106"^^xsd:decimal ;
 	geo:long	"-1.559129"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 48 79 03"^^xsd:string ;
@@ -3410,12 +3410,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Song_Saveurs_&_Sens_>	 foaf:name 	 "Song Saveurs & Sens "^^xsd:string ;
+<http://lodpaddle.com/restaurant/Song_Saveurs_&_Sens_>	 foaf:name 	 "Song Saveurs & Sens "^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.21343 "^^xsd:decimal ;
+	geo:lat	"47.21343"^^xsd:decimal ;
 	geo:long	"-1.560381"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 20 88 07"^^xsd:string ;
@@ -3445,12 +3445,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Le_Bambou_d'Or>	 foaf:name 	 "Le Bambou d'Or"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Le_Bambou_d'Or>	 foaf:name 	 "Le Bambou d'Or"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.212576 "^^xsd:decimal ;
+	geo:lat	"47.212576"^^xsd:decimal ;
 	geo:long	"-1.560538"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 73 60 01"^^xsd:string ;
@@ -3480,12 +3480,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/1_(LE)>	 foaf:name 	 "1 (LE)"^^xsd:string ;
+<http://lodpaddle.com/restaurant/1_(LE)>	 foaf:name 	 "1 (LE)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.21884108 "^^xsd:decimal ;
+	geo:lat	"47.21884108"^^xsd:decimal ;
 	geo:long	"-1.56078061"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 08 28 00"^^xsd:string ;
@@ -3515,12 +3515,12 @@
 	dbpedia-owl:postalCode	 "44200"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/La_Cigale>	 foaf:name 	 "La Cigale"^^xsd:string ;
+<http://lodpaddle.com/restaurant/La_Cigale>	 foaf:name 	 "La Cigale"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.212689 "^^xsd:decimal ;
+	geo:lat	"47.212689"^^xsd:decimal ;
 	geo:long	"-1.561124"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 51 84 94 94"^^xsd:string ;
@@ -3550,12 +3550,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/BISTROT_DE_L'ECRIVAIN_(LE)>	 foaf:name 	 "BISTROT DE L'ECRIVAIN (LE)"^^xsd:string ;
+<http://lodpaddle.com/restaurant/BISTROT_DE_L'ECRIVAIN_(LE)>	 foaf:name 	 "BISTROT DE L'ECRIVAIN (LE)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.2128222 "^^xsd:decimal ;
+	geo:lat	"47.2128222"^^xsd:decimal ;
 	geo:long	"-1.5613966"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 51 84 15 15"^^xsd:string ;
@@ -3585,12 +3585,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_BOUCHE_A_OREILLE>	 foaf:name 	 "LE BOUCHE A OREILLE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_BOUCHE_A_OREILLE>	 foaf:name 	 "LE BOUCHE A OREILLE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.2129171 "^^xsd:decimal ;
+	geo:lat	"47.2129171"^^xsd:decimal ;
 	geo:long	"-1.5614379"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 73 00 25"^^xsd:string ;
@@ -3620,12 +3620,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/BRASSERIE_LA_CIGALE>	 foaf:name 	 "BRASSERIE LA CIGALE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/BRASSERIE_LA_CIGALE>	 foaf:name 	 "BRASSERIE LA CIGALE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.2129501 "^^xsd:decimal ;
+	geo:lat	"47.2129501"^^xsd:decimal ;
 	geo:long	"-1.5622253"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 51 84 94 94"^^xsd:string ;
@@ -3655,12 +3655,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/PALATIUM_(LE)>	 foaf:name 	 "PALATIUM (LE)"^^xsd:string ;
+<http://lodpaddle.com/restaurant/PALATIUM_(LE)>	 foaf:name 	 "PALATIUM (LE)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.217169 "^^xsd:decimal ;
+	geo:lat	"47.217169"^^xsd:decimal ;
 	geo:long	"-1.56228476"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 35 45 92"^^xsd:string ;
@@ -3690,12 +3690,12 @@
 	dbpedia-owl:postalCode	 "44200"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/TEMPS_CHANGENT_(LES)>	 foaf:name 	 "TEMPS CHANGENT (LES)"^^xsd:string ;
+<http://lodpaddle.com/restaurant/TEMPS_CHANGENT_(LES)>	 foaf:name 	 "TEMPS CHANGENT (LES)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.21745 "^^xsd:decimal ;
+	geo:lat	"47.21745"^^xsd:decimal ;
 	geo:long	"-1.5624206"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 51 72 18 01"^^xsd:string ;
@@ -3725,12 +3725,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Laurence>	 foaf:name 	 "Laurence"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Laurence>	 foaf:name 	 "Laurence"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.214114 "^^xsd:decimal ;
+	geo:lat	"47.214114"^^xsd:decimal ;
 	geo:long	"-1.562771"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 51 82 67 34"^^xsd:string ;
@@ -3760,12 +3760,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Le_Charette>	 foaf:name 	 "Le Charette"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Le_Charette>	 foaf:name 	 "Le Charette"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.220844 "^^xsd:decimal ;
+	geo:lat	"47.220844"^^xsd:decimal ;
 	geo:long	"-1.563047"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 35 25 57 "^^xsd:string ;
@@ -3795,12 +3795,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Joyi>	 foaf:name 	 "Joyi"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Joyi>	 foaf:name 	 "Joyi"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.220386 "^^xsd:decimal ;
+	geo:lat	"47.220386"^^xsd:decimal ;
 	geo:long	"-1.56307"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 51 82 33 65"^^xsd:string ;
@@ -3830,12 +3830,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/L’Alexandre>	 foaf:name 	 "L’Alexandre"^^xsd:string ;
+<http://lodpaddle.com/restaurant/L’Alexandre>	 foaf:name 	 "L’Alexandre"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.220386 "^^xsd:decimal ;
+	geo:lat	"47.220386"^^xsd:decimal ;
 	geo:long	"-1.56307"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 89 73 67 "^^xsd:string ;
@@ -3865,12 +3865,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Crêperie_du_Théâtre>	 foaf:name 	 "Crêperie du Théâtre"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Crêperie_du_Théâtre>	 foaf:name 	 "Crêperie du Théâtre"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.213666 "^^xsd:decimal ;
+	geo:lat	"47.213666"^^xsd:decimal ;
 	geo:long	"-1.563561"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 73 82 98"^^xsd:string ;
@@ -3900,12 +3900,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Le_Grapillon>	 foaf:name 	 "Le Grapillon"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Le_Grapillon>	 foaf:name 	 "Le Grapillon"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.213608 "^^xsd:decimal ;
+	geo:lat	"47.213608"^^xsd:decimal ;
 	geo:long	"-1.565404"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 51 84 27 95 "^^xsd:string ;
@@ -3935,12 +3935,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/CAPUCINES_(LES)>	 foaf:name 	 "CAPUCINES (LES)"^^xsd:string ;
+<http://lodpaddle.com/restaurant/CAPUCINES_(LES)>	 foaf:name 	 "CAPUCINES (LES)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.2184521 "^^xsd:decimal ;
+	geo:lat	"47.2184521"^^xsd:decimal ;
 	geo:long	"-1.5655236"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 20 41 58"^^xsd:string ;
@@ -3970,12 +3970,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Le_Montesquieu>	 foaf:name 	 "Le Montesquieu"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Le_Montesquieu>	 foaf:name 	 "Le Montesquieu"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.213058 "^^xsd:decimal ;
+	geo:lat	"47.213058"^^xsd:decimal ;
 	geo:long	"-1.565937"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 73 06 69"^^xsd:string ;
@@ -4005,12 +4005,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Les_Agapes>	 foaf:name 	 "Les Agapes"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Les_Agapes>	 foaf:name 	 "Les Agapes"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.211862 "^^xsd:decimal ;
+	geo:lat	"47.211862"^^xsd:decimal ;
 	geo:long	"-1.565989"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 89 57 25 "^^xsd:string ;
@@ -4040,12 +4040,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/La_Gavotte>	 foaf:name 	 "La Gavotte"^^xsd:string ;
+<http://lodpaddle.com/restaurant/La_Gavotte>	 foaf:name 	 "La Gavotte"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.211574 "^^xsd:decimal ;
+	geo:lat	"47.211574"^^xsd:decimal ;
 	geo:long	"-1.566793"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "undefined"^^xsd:string ;
@@ -4075,12 +4075,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/RESTAURANT_TEO>	 foaf:name 	 "RESTAURANT TEO"^^xsd:string ;
+<http://lodpaddle.com/restaurant/RESTAURANT_TEO>	 foaf:name 	 "RESTAURANT TEO"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.2015476 "^^xsd:decimal ;
+	geo:lat	"47.2015476"^^xsd:decimal ;
 	geo:long	"-1.5731357"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 08 90 28"^^xsd:string ;
@@ -4110,12 +4110,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/L’Aquarelle>	 foaf:name 	 "L’Aquarelle"^^xsd:string ;
+<http://lodpaddle.com/restaurant/L’Aquarelle>	 foaf:name 	 "L’Aquarelle"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "REZE"^^xsd:string ;
-	geo:lat	"47.195532 "^^xsd:decimal ;
+	geo:lat	"47.195532"^^xsd:decimal ;
 	geo:long	"-1.574325"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 75 18 33"^^xsd:string ;
@@ -4145,12 +4145,12 @@
 	dbpedia-owl:postalCode	 "44400"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/La_Cantine_du_Général>	 foaf:name 	 "La Cantine du Général"^^xsd:string ;
+<http://lodpaddle.com/restaurant/La_Cantine_du_Général>	 foaf:name 	 "La Cantine du Général"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.211298 "^^xsd:decimal ;
+	geo:lat	"47.211298"^^xsd:decimal ;
 	geo:long	"-1.575768"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 73 19 18"^^xsd:string ;
@@ -4180,12 +4180,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/L'ENDROIT>	 foaf:name 	 "L'ENDROIT"^^xsd:string ;
+<http://lodpaddle.com/restaurant/L'ENDROIT>	 foaf:name 	 "L'ENDROIT"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.263912 "^^xsd:decimal ;
+	geo:lat	"47.263912"^^xsd:decimal ;
 	geo:long	"-1.5802196"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 40 62 62"^^xsd:string ;
@@ -4215,12 +4215,12 @@
 	dbpedia-owl:postalCode	 "44470"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/La_Civelle>	 foaf:name 	 "La Civelle"^^xsd:string ;
+<http://lodpaddle.com/restaurant/La_Civelle>	 foaf:name 	 "La Civelle"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "REZE"^^xsd:string ;
-	geo:lat	"47.1948618 "^^xsd:decimal ;
+	geo:lat	"47.1948618"^^xsd:decimal ;
 	geo:long	"-1.5830103"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 75 46 60"^^xsd:string ;
@@ -4250,12 +4250,12 @@
 	dbpedia-owl:postalCode	 "44400"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/RESTAURANT_LA_MAISON>	 foaf:name 	 "RESTAURANT LA MAISON"^^xsd:string ;
+<http://lodpaddle.com/restaurant/RESTAURANT_LA_MAISON>	 foaf:name 	 "RESTAURANT LA MAISON"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "PONT-SAINT-MARTIN"^^xsd:string ;
-	geo:lat	"47.12321 "^^xsd:decimal ;
+	geo:lat	"47.12321"^^xsd:decimal ;
 	geo:long	"-1.584534"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 32 75 44"^^xsd:string ;
@@ -4285,12 +4285,12 @@
 	dbpedia-owl:postalCode	 "44860"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/DOMAINE_D'ORVAULT_(LE)>	 foaf:name 	 "DOMAINE D'ORVAULT (LE)"^^xsd:string ;
+<http://lodpaddle.com/restaurant/DOMAINE_D'ORVAULT_(LE)>	 foaf:name 	 "DOMAINE D'ORVAULT (LE)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "ORVAULT"^^xsd:string ;
-	geo:lat	"47.2589956 "^^xsd:decimal ;
+	geo:lat	"47.2589956"^^xsd:decimal ;
 	geo:long	"-1.5898053"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 76 84 02"^^xsd:string ;
@@ -4320,12 +4320,12 @@
 	dbpedia-owl:postalCode	 "44700"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LES_CAUDALIES>	 foaf:name 	 "LES CAUDALIES"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LES_CAUDALIES>	 foaf:name 	 "LES CAUDALIES"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-HERBLAIN"^^xsd:string ;
-	geo:lat	"47.2421076 "^^xsd:decimal ;
+	geo:lat	"47.2421076"^^xsd:decimal ;
 	geo:long	"-1.5955292"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 94 35 35"^^xsd:string ;
@@ -4355,12 +4355,12 @@
 	dbpedia-owl:postalCode	 "44800"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "oui"^^xsd:string .
 
-<http://projet.com/10/ATLANTIDE_(L')>	 foaf:name 	 "ATLANTIDE (L')"^^xsd:string ;
+<http://lodpaddle.com/restaurant/ATLANTIDE_(L')>	 foaf:name 	 "ATLANTIDE (L')"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.2080348 "^^xsd:decimal ;
+	geo:lat	"47.2080348"^^xsd:decimal ;
 	geo:long	"-1.5963603"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 73 23 23"^^xsd:string ;
@@ -4390,12 +4390,12 @@
 	dbpedia-owl:postalCode	 "44100"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "oui"^^xsd:string .
 
-<http://projet.com/10/PAVILLON_(LE)>	 foaf:name 	 "PAVILLON (LE)"^^xsd:string ;
+<http://lodpaddle.com/restaurant/PAVILLON_(LE)>	 foaf:name 	 "PAVILLON (LE)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-HERBLAIN"^^xsd:string ;
-	geo:lat	"47.252029 "^^xsd:decimal ;
+	geo:lat	"47.252029"^^xsd:decimal ;
 	geo:long	"-1.6236666"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 94 99 99"^^xsd:string ;
@@ -4425,12 +4425,12 @@
 	dbpedia-owl:postalCode	 "44800"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/L'OREE_DE_BOIS>	 foaf:name 	 "L'OREE DE BOIS"^^xsd:string ;
+<http://lodpaddle.com/restaurant/L'OREE_DE_BOIS>	 foaf:name 	 "L'OREE DE BOIS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "ORVAULT"^^xsd:string ;
-	geo:lat	"47.265415 "^^xsd:decimal ;
+	geo:lat	"47.265415"^^xsd:decimal ;
 	geo:long	"-1.635566"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 63 63 54"^^xsd:string ;
@@ -4460,12 +4460,12 @@
 	dbpedia-owl:postalCode	 "44700"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/L'ABREUVOIR>	 foaf:name 	 "L'ABREUVOIR"^^xsd:string ;
+<http://lodpaddle.com/restaurant/L'ABREUVOIR>	 foaf:name 	 "L'ABREUVOIR"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "HERIC"^^xsd:string ;
-	geo:lat	"47.421629 "^^xsd:decimal ;
+	geo:lat	"47.421629"^^xsd:decimal ;
 	geo:long	"-1.639681"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 57 63 81"^^xsd:string ;
@@ -4495,12 +4495,12 @@
 	dbpedia-owl:postalCode	 "44810"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LA_BOSSELLE>	 foaf:name 	 "LA BOSSELLE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LA_BOSSELLE>	 foaf:name 	 "LA BOSSELLE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-PHILBERT-DE-GRAND-LIEU"^^xsd:string ;
-	geo:lat	"47.039996 "^^xsd:decimal ;
+	geo:lat	"47.039996"^^xsd:decimal ;
 	geo:long	"-1.641883"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "undefined"^^xsd:string ;
@@ -4530,12 +4530,12 @@
 	dbpedia-owl:postalCode	 "44310"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Le_Carré_Blanc>	 foaf:name 	 "Le Carré Blanc"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Le_Carré_Blanc>	 foaf:name 	 "Le Carré Blanc"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-HERBLAIN"^^xsd:string ;
-	geo:lat	"47.231398 "^^xsd:decimal ;
+	geo:lat	"47.231398"^^xsd:decimal ;
 	geo:long	"-1.64336"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 63 33 22"^^xsd:string ;
@@ -4565,12 +4565,12 @@
 	dbpedia-owl:postalCode	 "44800"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/ROMARIN_(LE)>	 foaf:name 	 "ROMARIN (LE)"^^xsd:string ;
+<http://lodpaddle.com/restaurant/ROMARIN_(LE)>	 foaf:name 	 "ROMARIN (LE)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAUTRON"^^xsd:string ;
-	geo:lat	"47.2629936 "^^xsd:decimal ;
+	geo:lat	"47.2629936"^^xsd:decimal ;
 	geo:long	"-1.6759195"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 63 15 87"^^xsd:string ;
@@ -4600,12 +4600,12 @@
 	dbpedia-owl:postalCode	 "44880"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/FRANCOIS_II_(LE)>	 foaf:name 	 "FRANCOIS II (LE)"^^xsd:string ;
+<http://lodpaddle.com/restaurant/FRANCOIS_II_(LE)>	 foaf:name 	 "FRANCOIS II (LE)"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "COUERON"^^xsd:string ;
-	geo:lat	"47.2108427 "^^xsd:decimal ;
+	geo:lat	"47.2108427"^^xsd:decimal ;
 	geo:long	"-1.7275436"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 38 32 32"^^xsd:string ;
@@ -4635,12 +4635,12 @@
 	dbpedia-owl:postalCode	 "44220"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/RESTAURANT_ATLANTEL>	 foaf:name 	 "RESTAURANT ATLANTEL"^^xsd:string ;
+<http://lodpaddle.com/restaurant/RESTAURANT_ATLANTEL>	 foaf:name 	 "RESTAURANT ATLANTEL"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "VIGNEUX-DE-BRETAGNE"^^xsd:string ;
-	geo:lat	"47.3269286 "^^xsd:decimal ;
+	geo:lat	"47.3269286"^^xsd:decimal ;
 	geo:long	"-1.7380705"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 57 10 80"^^xsd:string ;
@@ -4670,12 +4670,12 @@
 	dbpedia-owl:postalCode	 "44360"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/NUIT_DE_RETZ>	 foaf:name 	 "NUIT DE RETZ"^^xsd:string ;
+<http://lodpaddle.com/restaurant/NUIT_DE_RETZ>	 foaf:name 	 "NUIT DE RETZ"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "PORT-SAINT-PERE"^^xsd:string ;
-	geo:lat	"47.129603 "^^xsd:decimal ;
+	geo:lat	"47.129603"^^xsd:decimal ;
 	geo:long	"-1.743716"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "undefined"^^xsd:string ;
@@ -4705,12 +4705,12 @@
 	dbpedia-owl:postalCode	 "44710"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/AUBERGE_DU_PAYS_DE_RETZ>	 foaf:name 	 "AUBERGE DU PAYS DE RETZ"^^xsd:string ;
+<http://lodpaddle.com/restaurant/AUBERGE_DU_PAYS_DE_RETZ>	 foaf:name 	 "AUBERGE DU PAYS DE RETZ"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "oui"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "PORT-SAINT-PERE"^^xsd:string ;
-	geo:lat	"47.134543 "^^xsd:decimal ;
+	geo:lat	"47.134543"^^xsd:decimal ;
 	geo:long	"-1.7473586"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 04 84 84"^^xsd:string ;
@@ -4740,12 +4740,12 @@
 	dbpedia-owl:postalCode	 "44710"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/AUBERGE_DE_LA_FORET>	 foaf:name 	 "AUBERGE DE LA FORET"^^xsd:string ;
+<http://lodpaddle.com/restaurant/AUBERGE_DE_LA_FORET>	 foaf:name 	 "AUBERGE DE LA FORET"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LE GAVRE"^^xsd:string ;
-	geo:lat	"47.52687 "^^xsd:decimal ;
+	geo:lat	"47.52687"^^xsd:decimal ;
 	geo:long	"-1.765988"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 51 20 26"^^xsd:string ;
@@ -4775,12 +4775,12 @@
 	dbpedia-owl:postalCode	 "44130"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_COLVERT>	 foaf:name 	 "LE COLVERT"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_COLVERT>	 foaf:name 	 "LE COLVERT"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "FRESNAY-EN-RETZ"^^xsd:string ;
-	geo:lat	"47.0245536 "^^xsd:decimal ;
+	geo:lat	"47.0245536"^^xsd:decimal ;
 	geo:long	"-1.8766668"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 21 46 79"^^xsd:string ;
@@ -4810,12 +4810,12 @@
 	dbpedia-owl:postalCode	 "44580"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_CHENE_VERT>	 foaf:name 	 "LE CHENE VERT"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_CHENE_VERT>	 foaf:name 	 "LE CHENE VERT"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAVENAY"^^xsd:string ;
-	geo:lat	"47.359281 "^^xsd:decimal ;
+	geo:lat	"47.359281"^^xsd:decimal ;
 	geo:long	"-1.943585"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "undefined"^^xsd:string ;
@@ -4845,12 +4845,12 @@
 	dbpedia-owl:postalCode	 "44260"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_POICTOV>	 foaf:name 	 "LE POICTOV"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_POICTOV>	 foaf:name 	 "LE POICTOV"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "ARTHON-EN-RETZ "^^xsd:string ;
-	geo:lat	"47.187137 "^^xsd:decimal ;
+	geo:lat	"47.187137"^^xsd:decimal ;
 	geo:long	"-1.947556"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 64 65 29"^^xsd:string ;
@@ -4880,12 +4880,12 @@
 	dbpedia-owl:postalCode	 "44320"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_RELAIS_SAINT_CLAIR>	 foaf:name 	 "LE RELAIS SAINT CLAIR"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_RELAIS_SAINT_CLAIR>	 foaf:name 	 "LE RELAIS SAINT CLAIR"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "oui"^^xsd:string ;
 	dbpprop:town	 "GUENROUET"^^xsd:string ;
-	geo:lat	"47.5225357 "^^xsd:decimal ;
+	geo:lat	"47.5225357"^^xsd:decimal ;
 	geo:long	"-1.9505313"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 87 66 11"^^xsd:string ;
@@ -4915,12 +4915,12 @@
 	dbpedia-owl:postalCode	 "44530"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/RESTAURANT_D'EDOUARD>	 foaf:name 	 "RESTAURANT D'EDOUARD"^^xsd:string ;
+<http://lodpaddle.com/restaurant/RESTAURANT_D'EDOUARD>	 foaf:name 	 "RESTAURANT D'EDOUARD"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "oui"^^xsd:string ;
 	dbpprop:town	 "AVESSAC"^^xsd:string ;
-	geo:lat	"47.6362823 "^^xsd:decimal ;
+	geo:lat	"47.6362823"^^xsd:decimal ;
 	geo:long	"-1.9595362"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 99 71 01 02"^^xsd:string ;
@@ -4950,12 +4950,12 @@
 	dbpedia-owl:postalCode	 "44460"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_PARADIS_DES_PECHEURS>	 foaf:name 	 "LE PARADIS DES PECHEURS"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_PARADIS_DES_PECHEURS>	 foaf:name 	 "LE PARADIS DES PECHEURS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "GUENROUET"^^xsd:string ;
-	geo:lat	"47.5443416 "^^xsd:decimal ;
+	geo:lat	"47.5443416"^^xsd:decimal ;
 	geo:long	"-2.0100864"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 87 64 10"^^xsd:string ;
@@ -4985,12 +4985,12 @@
 	dbpedia-owl:postalCode	 "44530"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/AUBERGE_LA_FONTAINE_AUX_BRETONS>	 foaf:name 	 "AUBERGE LA FONTAINE AUX BRETONS"^^xsd:string ;
+<http://lodpaddle.com/restaurant/AUBERGE_LA_FONTAINE_AUX_BRETONS>	 foaf:name 	 "AUBERGE LA FONTAINE AUX BRETONS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "oui"^^xsd:string ;
 	dbpprop:town	 "PORNIC"^^xsd:string ;
-	geo:lat	"47.1021345 "^^xsd:decimal ;
+	geo:lat	"47.1021345"^^xsd:decimal ;
 	geo:long	"-2.0675033"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 51 74 08 08"^^xsd:string ;
@@ -5020,12 +5020,12 @@
 	dbpedia-owl:postalCode	 "44210"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/AUBERGE_DU_POTEAU_VERT>	 foaf:name 	 "AUBERGE DU POTEAU VERT"^^xsd:string ;
+<http://lodpaddle.com/restaurant/AUBERGE_DU_POTEAU_VERT>	 foaf:name 	 "AUBERGE DU POTEAU VERT"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-NICOLAS-DE-REDON"^^xsd:string ;
-	geo:lat	"47.644221 "^^xsd:decimal ;
+	geo:lat	"47.644221"^^xsd:decimal ;
 	geo:long	"-2.068266"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "undefined"^^xsd:string ;
@@ -5055,12 +5055,12 @@
 	dbpedia-owl:postalCode	 "44460"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/BEAU_RIVAGE>	 foaf:name 	 "BEAU RIVAGE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/BEAU_RIVAGE>	 foaf:name 	 "BEAU RIVAGE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "oui"^^xsd:string ;
 	dbpprop:town	 "PORNIC"^^xsd:string ;
-	geo:lat	"47.1368749 "^^xsd:decimal ;
+	geo:lat	"47.1368749"^^xsd:decimal ;
 	geo:long	"-2.0802799"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 82 03 08"^^xsd:string ;
@@ -5090,12 +5090,12 @@
 	dbpedia-owl:postalCode	 "44210"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Le_11>	 foaf:name 	 "Le 11"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Le_11>	 foaf:name 	 "Le 11"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "PONTCHATEAU"^^xsd:string ;
-	geo:lat	"47.435249 "^^xsd:decimal ;
+	geo:lat	"47.435249"^^xsd:decimal ;
 	geo:long	"-2.090044"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 42 23 28"^^xsd:string ;
@@ -5125,12 +5125,12 @@
 	dbpedia-owl:postalCode	 "44160"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LES_COLONNADES>	 foaf:name 	 "LES COLONNADES"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LES_COLONNADES>	 foaf:name 	 "LES COLONNADES"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "PORNIC"^^xsd:string ;
-	geo:lat	"47.1204697 "^^xsd:decimal ;
+	geo:lat	"47.1204697"^^xsd:decimal ;
 	geo:long	"-2.1003904"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 82 85 49"^^xsd:string ;
@@ -5160,12 +5160,12 @@
 	dbpedia-owl:postalCode	 "44210"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/L'ANA_GRAM>	 foaf:name 	 "L'ANA GRAM"^^xsd:string ;
+<http://lodpaddle.com/restaurant/L'ANA_GRAM>	 foaf:name 	 "L'ANA GRAM"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "PORNIC"^^xsd:string ;
-	geo:lat	"47.1146891 "^^xsd:decimal ;
+	geo:lat	"47.1146891"^^xsd:decimal ;
 	geo:long	"-2.1042527"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 82 51 25"^^xsd:string ;
@@ -5195,12 +5195,12 @@
 	dbpedia-owl:postalCode	 "44210"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/MANOIR_DE_LA_BRIANDAIS>	 foaf:name 	 "MANOIR DE LA BRIANDAIS"^^xsd:string ;
+<http://lodpaddle.com/restaurant/MANOIR_DE_LA_BRIANDAIS>	 foaf:name 	 "MANOIR DE LA BRIANDAIS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "MISSILLAC"^^xsd:string ;
-	geo:lat	"47.5142861 "^^xsd:decimal ;
+	geo:lat	"47.5142861"^^xsd:decimal ;
 	geo:long	"-2.1117212"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 88 32 66"^^xsd:string ;
@@ -5230,12 +5230,12 @@
 	dbpedia-owl:postalCode	 "44780"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_CLOS_DE_MELANIE>	 foaf:name 	 "LE CLOS DE MELANIE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_CLOS_DE_MELANIE>	 foaf:name 	 "LE CLOS DE MELANIE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "oui"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "oui"^^xsd:string ;
 	dbpprop:town	 "PONTCHATEAU"^^xsd:string ;
-	geo:lat	"47.443233 "^^xsd:decimal ;
+	geo:lat	"47.443233"^^xsd:decimal ;
 	geo:long	"-2.130888"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 88 08 39"^^xsd:string ;
@@ -5265,12 +5265,12 @@
 	dbpedia-owl:postalCode	 "44160"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LES_SABLONS>	 foaf:name 	 "LES SABLONS"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LES_SABLONS>	 foaf:name 	 "LES SABLONS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "PORNIC"^^xsd:string ;
-	geo:lat	"47.11238 "^^xsd:decimal ;
+	geo:lat	"47.11238"^^xsd:decimal ;
 	geo:long	"-2.134939"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "undefined"^^xsd:string ;
@@ -5300,12 +5300,12 @@
 	dbpedia-owl:postalCode	 "44210"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/AUBERGE_DU_CALVAIRE>	 foaf:name 	 "AUBERGE DU CALVAIRE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/AUBERGE_DU_CALVAIRE>	 foaf:name 	 "AUBERGE DU CALVAIRE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "PONTCHATEAU"^^xsd:string ;
-	geo:lat	"47.442237 "^^xsd:decimal ;
+	geo:lat	"47.442237"^^xsd:decimal ;
 	geo:long	"-2.134947"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 01 61 65"^^xsd:string ;
@@ -5335,12 +5335,12 @@
 	dbpedia-owl:postalCode	 "44160"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/AUBERGE_DU_CHALAND>	 foaf:name 	 "AUBERGE DU CHALAND"^^xsd:string ;
+<http://lodpaddle.com/restaurant/AUBERGE_DU_CHALAND>	 foaf:name 	 "AUBERGE DU CHALAND"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINTE-REINE-DE-BRETAGNE"^^xsd:string ;
-	geo:lat	"47.42382975 "^^xsd:decimal ;
+	geo:lat	"47.42382975"^^xsd:decimal ;
 	geo:long	"-2.14274841"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 01 05 28"^^xsd:string ;
@@ -5370,12 +5370,12 @@
 	dbpedia-owl:postalCode	 "44160"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LA_FERME_DU_BLANCHOT>	 foaf:name 	 "LA FERME DU BLANCHOT"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LA_FERME_DU_BLANCHOT>	 foaf:name 	 "LA FERME DU BLANCHOT"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "CROSSAC"^^xsd:string ;
-	geo:lat	"47.407093 "^^xsd:decimal ;
+	geo:lat	"47.407093"^^xsd:decimal ;
 	geo:long	"-2.163913"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 00 34 70"^^xsd:string ;
@@ -5405,12 +5405,12 @@
 	dbpedia-owl:postalCode	 "44160"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Le_Bac_à_Blé>	 foaf:name 	 "Le Bac à Blé"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Le_Bac_à_Blé>	 foaf:name 	 "Le Bac à Blé"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-MICHEL-CHEF-CHEF"^^xsd:string ;
-	geo:lat	"47.165761 "^^xsd:decimal ;
+	geo:lat	"47.165761"^^xsd:decimal ;
 	geo:long	"-2.165022"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 64 90 90"^^xsd:string ;
@@ -5440,12 +5440,12 @@
 	dbpedia-owl:postalCode	 "44730"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_BELEM>	 foaf:name 	 "LE BELEM"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_BELEM>	 foaf:name 	 "LE BELEM"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-MICHEL-CHEF-CHEF"^^xsd:string ;
-	geo:lat	"47.16839639 "^^xsd:decimal ;
+	geo:lat	"47.16839639"^^xsd:decimal ;
 	geo:long	"-2.16596344"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 64 90 06"^^xsd:string ;
@@ -5475,12 +5475,12 @@
 	dbpedia-owl:postalCode	 "44730"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/L'EMPREINTE>	 foaf:name 	 "L'EMPREINTE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/L'EMPREINTE>	 foaf:name 	 "L'EMPREINTE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-MICHEL-CHEF-CHEF"^^xsd:string ;
-	geo:lat	"47.168363 "^^xsd:decimal ;
+	geo:lat	"47.168363"^^xsd:decimal ;
 	geo:long	"-2.166226"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "undefined"^^xsd:string ;
@@ -5510,12 +5510,12 @@
 	dbpedia-owl:postalCode	 "44730"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/RESTAURANT_DE_LA_BRETESCHE,_LE_MONTAIGU>	 foaf:name 	 "RESTAURANT DE LA BRETESCHE, LE MONTAIGU"^^xsd:string ;
+<http://lodpaddle.com/restaurant/RESTAURANT_DE_LA_BRETESCHE,_LE_MONTAIGU>	 foaf:name 	 "RESTAURANT DE LA BRETESCHE, LE MONTAIGU"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "MISSILLAC"^^xsd:string ;
-	geo:lat	"47.481524 "^^xsd:decimal ;
+	geo:lat	"47.481524"^^xsd:decimal ;
 	geo:long	"-2.172439"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 51 76 86 96"^^xsd:string ;
@@ -5545,12 +5545,12 @@
 	dbpedia-owl:postalCode	 "44780"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Di_20_WineBar>	 foaf:name 	 "Di 20 WineBar"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Di_20_WineBar>	 foaf:name 	 "Di 20 WineBar"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-NAZAIRE"^^xsd:string ;
-	geo:lat	"47.274708 "^^xsd:decimal ;
+	geo:lat	"47.274708"^^xsd:decimal ;
 	geo:long	"-2.207103"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 " 02 40 15 19 20"^^xsd:string ;
@@ -5580,12 +5580,12 @@
 	dbpedia-owl:postalCode	 "44600"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/ANNE_DE_BRETAGNE>	 foaf:name 	 "ANNE DE BRETAGNE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/ANNE_DE_BRETAGNE>	 foaf:name 	 "ANNE DE BRETAGNE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA PLAINE-SUR-MER"^^xsd:string ;
-	geo:lat	"47.159 "^^xsd:decimal ;
+	geo:lat	"47.159"^^xsd:decimal ;
 	geo:long	"-2.2091667"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 21 54 72"^^xsd:string ;
@@ -5615,12 +5615,12 @@
 	dbpedia-owl:postalCode	 "44770"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "oui"^^xsd:string .
 
-<http://projet.com/10/Le_Berry>	 foaf:name 	 "Le Berry"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Le_Berry>	 foaf:name 	 "Le Berry"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-NAZAIRE"^^xsd:string ;
-	geo:lat	"47.285024 "^^xsd:decimal ;
+	geo:lat	"47.285024"^^xsd:decimal ;
 	geo:long	"-2.211034"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 22 42 61"^^xsd:string ;
@@ -5650,12 +5650,12 @@
 	dbpedia-owl:postalCode	 "44600"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LA_MARE_AUX_OISEAUX>	 foaf:name 	 "LA MARE AUX OISEAUX"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LA_MARE_AUX_OISEAUX>	 foaf:name 	 "LA MARE AUX OISEAUX"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-JOACHIM"^^xsd:string ;
-	geo:lat	"47.3728326 "^^xsd:decimal ;
+	geo:lat	"47.3728326"^^xsd:decimal ;
 	geo:long	"-2.2136265"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 88 53 01"^^xsd:string ;
@@ -5685,12 +5685,12 @@
 	dbpedia-owl:postalCode	 "44720"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LA_HUTTE_BRIERONNE>	 foaf:name 	 "LA HUTTE BRIERONNE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LA_HUTTE_BRIERONNE>	 foaf:name 	 "LA HUTTE BRIERONNE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-JOACHIM"^^xsd:string ;
-	geo:lat	"47.3719695 "^^xsd:decimal ;
+	geo:lat	"47.3719695"^^xsd:decimal ;
 	geo:long	"-2.2136289"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 88 43 05"^^xsd:string ;
@@ -5720,12 +5720,12 @@
 	dbpedia-owl:postalCode	 "44720"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/BRASSERIE_F>	 foaf:name 	 "BRASSERIE F"^^xsd:string ;
+<http://lodpaddle.com/restaurant/BRASSERIE_F>	 foaf:name 	 "BRASSERIE F"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "NANTES"^^xsd:string ;
-	geo:lat	"47.2185047 "^^xsd:decimal ;
+	geo:lat	"47.2185047"^^xsd:decimal ;
 	geo:long	"-1.5446583"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 47 79 69"^^xsd:string ;
@@ -5755,12 +5755,12 @@
 	dbpedia-owl:postalCode	 "44000"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LA_PLAGE_DE_M__HULOT>	 foaf:name 	 "LA PLAGE DE M. HULOT"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LA_PLAGE_DE_M__HULOT>	 foaf:name 	 "LA PLAGE DE M. HULOT"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-NAZAIRE"^^xsd:string ;
-	geo:lat	"47.2734979 "^^xsd:decimal ;
+	geo:lat	"47.2734979"^^xsd:decimal ;
 	geo:long	"-2.213848"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "undefined"^^xsd:string ;
@@ -5790,12 +5790,12 @@
 	dbpedia-owl:postalCode	 "44600"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/BRASSERIE_LE_TRANSAT>	 foaf:name 	 "BRASSERIE LE TRANSAT"^^xsd:string ;
+<http://lodpaddle.com/restaurant/BRASSERIE_LE_TRANSAT>	 foaf:name 	 "BRASSERIE LE TRANSAT"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-NAZAIRE"^^xsd:string ;
-	geo:lat	"47.268822 "^^xsd:decimal ;
+	geo:lat	"47.268822"^^xsd:decimal ;
 	geo:long	"-2.214707"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 00 16 96"^^xsd:string ;
@@ -5825,12 +5825,12 @@
 	dbpedia-owl:postalCode	 "44600"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_COLIBRI>	 foaf:name 	 "LE COLIBRI"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_COLIBRI>	 foaf:name 	 "LE COLIBRI"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA CHAPELLE-DES-MARAIS"^^xsd:string ;
-	geo:lat	"47.4478226 "^^xsd:decimal ;
+	geo:lat	"47.4478226"^^xsd:decimal ;
 	geo:long	"-2.2408885"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 53 23 60"^^xsd:string ;
@@ -5860,12 +5860,12 @@
 	dbpedia-owl:postalCode	 "44410"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_CALLUNA>	 foaf:name 	 "LE CALLUNA"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_CALLUNA>	 foaf:name 	 "LE CALLUNA"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "PREFAILLES"^^xsd:string ;
-	geo:lat	"47.133571 "^^xsd:decimal ;
+	geo:lat	"47.133571"^^xsd:decimal ;
 	geo:long	"-2.245674"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "undefined"^^xsd:string ;
@@ -5895,12 +5895,12 @@
 	dbpedia-owl:postalCode	 "44770"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/AUBERGE_DU_HAUT_MARLAND>	 foaf:name 	 "AUBERGE DU HAUT MARLAND"^^xsd:string ;
+<http://lodpaddle.com/restaurant/AUBERGE_DU_HAUT_MARLAND>	 foaf:name 	 "AUBERGE DU HAUT MARLAND"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-ANDRE-DES-EAUX"^^xsd:string ;
-	geo:lat	"47.3320745 "^^xsd:decimal ;
+	geo:lat	"47.3320745"^^xsd:decimal ;
 	geo:long	"-2.2906792"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 01 29 00"^^xsd:string ;
@@ -5930,12 +5930,12 @@
 	dbpedia-owl:postalCode	 "44117"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/AUBERGE_LES_TYPHAS>	 foaf:name 	 "AUBERGE LES TYPHAS"^^xsd:string ;
+<http://lodpaddle.com/restaurant/AUBERGE_LES_TYPHAS>	 foaf:name 	 "AUBERGE LES TYPHAS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-LYPHARD"^^xsd:string ;
-	geo:lat	"47.3992074 "^^xsd:decimal ;
+	geo:lat	"47.3992074"^^xsd:decimal ;
 	geo:long	"-2.3047468"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 91 32 32"^^xsd:string ;
@@ -5965,12 +5965,12 @@
 	dbpedia-owl:postalCode	 "44410"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/AUBERGE_DE_KER-ROLAND>	 foaf:name 	 "AUBERGE DE KER-ROLAND"^^xsd:string ;
+<http://lodpaddle.com/restaurant/AUBERGE_DE_KER-ROLAND>	 foaf:name 	 "AUBERGE DE KER-ROLAND"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "HERBIGNAC"^^xsd:string ;
-	geo:lat	"47.4481474 "^^xsd:decimal ;
+	geo:lat	"47.4481474"^^xsd:decimal ;
 	geo:long	"-2.3186765"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 51 76 91 76"^^xsd:string ;
@@ -6000,12 +6000,12 @@
 	dbpedia-owl:postalCode	 "44410"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/AUBERGE_LE_NEZIL>	 foaf:name 	 "AUBERGE LE NEZIL"^^xsd:string ;
+<http://lodpaddle.com/restaurant/AUBERGE_LE_NEZIL>	 foaf:name 	 "AUBERGE LE NEZIL"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-LYPHARD"^^xsd:string ;
-	geo:lat	"47.3714497 "^^xsd:decimal ;
+	geo:lat	"47.3714497"^^xsd:decimal ;
 	geo:long	"-2.3235693"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 91 41 41"^^xsd:string ;
@@ -6035,12 +6035,12 @@
 	dbpedia-owl:postalCode	 "44410"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/AUBERGE_DE_BRECA>	 foaf:name 	 "AUBERGE DE BRECA"^^xsd:string ;
+<http://lodpaddle.com/restaurant/AUBERGE_DE_BRECA>	 foaf:name 	 "AUBERGE DE BRECA"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "oui"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-LYPHARD"^^xsd:string ;
-	geo:lat	"47.3649064 "^^xsd:decimal ;
+	geo:lat	"47.3649064"^^xsd:decimal ;
 	geo:long	"-2.3328413"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 91 41 42"^^xsd:string ;
@@ -6070,12 +6070,12 @@
 	dbpedia-owl:postalCode	 "44410"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_BILLOT>	 foaf:name 	 "LE BILLOT"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_BILLOT>	 foaf:name 	 "LE BILLOT"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
-	geo:lat	"47.2603637 "^^xsd:decimal ;
+	geo:lat	"47.2603637"^^xsd:decimal ;
 	geo:long	"-2.3378644"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 60 00 00"^^xsd:string ;
@@ -6105,12 +6105,12 @@
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/AUBERGE_DE_KERHINET>	 foaf:name 	 "AUBERGE DE KERHINET"^^xsd:string ;
+<http://lodpaddle.com/restaurant/AUBERGE_DE_KERHINET>	 foaf:name 	 "AUBERGE DE KERHINET"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "SAINT-LYPHARD"^^xsd:string ;
-	geo:lat	"47.3644631 "^^xsd:decimal ;
+	geo:lat	"47.3644631"^^xsd:decimal ;
 	geo:long	"-2.3489362"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 61 91 46"^^xsd:string ;
@@ -6140,12 +6140,12 @@
 	dbpedia-owl:postalCode	 "44410"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_SUNSET>	 foaf:name 	 "LE SUNSET"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_SUNSET>	 foaf:name 	 "LE SUNSET"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "PORNICHET"^^xsd:string ;
-	geo:lat	"47.269109 "^^xsd:decimal ;
+	geo:lat	"47.269109"^^xsd:decimal ;
 	geo:long	"-2.3497295"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "undefined"^^xsd:string ;
@@ -6175,12 +6175,12 @@
 	dbpedia-owl:postalCode	 "44380"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_REGENT>	 foaf:name 	 "LE REGENT"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_REGENT>	 foaf:name 	 "LE REGENT"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "PORNICHET"^^xsd:string ;
-	geo:lat	"47.269608 "^^xsd:decimal ;
+	geo:lat	"47.269608"^^xsd:decimal ;
 	geo:long	"-2.350835"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "undefined"^^xsd:string ;
@@ -6210,12 +6210,12 @@
 	dbpedia-owl:postalCode	 "44380"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_GRAIN_DE_FOLIE>	 foaf:name 	 "LE GRAIN DE FOLIE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_GRAIN_DE_FOLIE>	 foaf:name 	 "LE GRAIN DE FOLIE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "PORNICHET"^^xsd:string ;
-	geo:lat	"47.2699604 "^^xsd:decimal ;
+	geo:lat	"47.2699604"^^xsd:decimal ;
 	geo:long	"-2.3509926"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 61 04 04"^^xsd:string ;
@@ -6245,12 +6245,12 @@
 	dbpedia-owl:postalCode	 "44380"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/CARPE_DIEM>	 foaf:name 	 "CARPE DIEM"^^xsd:string ;
+<http://lodpaddle.com/restaurant/CARPE_DIEM>	 foaf:name 	 "CARPE DIEM"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
-	geo:lat	"47.3040334 "^^xsd:decimal ;
+	geo:lat	"47.3040334"^^xsd:decimal ;
 	geo:long	"-2.3556956"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 24 13 14"^^xsd:string ;
@@ -6280,12 +6280,12 @@
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LA_CHAUMIERE_DES_MARAIS>	 foaf:name 	 "LA CHAUMIERE DES MARAIS"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LA_CHAUMIERE_DES_MARAIS>	 foaf:name 	 "LA CHAUMIERE DES MARAIS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "oui"^^xsd:string ;
 	dbpprop:town	 "HERBIGNAC"^^xsd:string ;
-	geo:lat	"47.370388 "^^xsd:decimal ;
+	geo:lat	"47.370388"^^xsd:decimal ;
 	geo:long	"-2.3558698"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 91 32 36"^^xsd:string ;
@@ -6315,12 +6315,12 @@
 	dbpedia-owl:postalCode	 "44410"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LA_VERANDA>	 foaf:name 	 "LA VERANDA"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LA_VERANDA>	 foaf:name 	 "LA VERANDA"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "oui"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
-	geo:lat	"47.278698 "^^xsd:decimal ;
+	geo:lat	"47.278698"^^xsd:decimal ;
 	geo:long	"-2.3731482"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 60 57 77"^^xsd:string ;
@@ -6350,12 +6350,12 @@
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_PARIS>	 foaf:name 	 "LE PARIS"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_PARIS>	 foaf:name 	 "LE PARIS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
-	geo:lat	"47.2880836 "^^xsd:decimal ;
+	geo:lat	"47.2880836"^^xsd:decimal ;
 	geo:long	"-2.3897827"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 70 09 01"^^xsd:string ;
@@ -6385,12 +6385,12 @@
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/L'EDEN_BEACH>	 foaf:name 	 "L'EDEN BEACH"^^xsd:string ;
+<http://lodpaddle.com/restaurant/L'EDEN_BEACH>	 foaf:name 	 "L'EDEN BEACH"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
-	geo:lat	"47.2869657 "^^xsd:decimal ;
+	geo:lat	"47.2869657"^^xsd:decimal ;
 	geo:long	"-2.3914496"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 11 46 16"^^xsd:string ;
@@ -6420,12 +6420,12 @@
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LA_ROTONDE>	 foaf:name 	 "LA ROTONDE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LA_ROTONDE>	 foaf:name 	 "LA ROTONDE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
-	geo:lat	"47.2869657 "^^xsd:decimal ;
+	geo:lat	"47.2869657"^^xsd:decimal ;
 	geo:long	"-2.3914496"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 11 48 48"^^xsd:string ;
@@ -6455,12 +6455,12 @@
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/NOSSY-BE>	 foaf:name 	 "NOSSY-BE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/NOSSY-BE>	 foaf:name 	 "NOSSY-BE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
-	geo:lat	"47.2869657 "^^xsd:decimal ;
+	geo:lat	"47.2869657"^^xsd:decimal ;
 	geo:long	"-2.3914496"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 60 42 25"^^xsd:string ;
@@ -6490,12 +6490,12 @@
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LUTETIA_Rest__LE_ROSSINI>	 foaf:name 	 "LUTETIA Rest. LE ROSSINI"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LUTETIA_Rest__LE_ROSSINI>	 foaf:name 	 "LUTETIA Rest. LE ROSSINI"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
-	geo:lat	"47.2833105 "^^xsd:decimal ;
+	geo:lat	"47.2833105"^^xsd:decimal ;
 	geo:long	"-2.3942455"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 60 25 81"^^xsd:string ;
@@ -6525,12 +6525,12 @@
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/SAINT_CHRISTOPHE>	 foaf:name 	 "SAINT CHRISTOPHE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/SAINT_CHRISTOPHE>	 foaf:name 	 "SAINT CHRISTOPHE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
-	geo:lat	"47.2836319 "^^xsd:decimal ;
+	geo:lat	"47.2836319"^^xsd:decimal ;
 	geo:long	"-2.3960028"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 62 40 00"^^xsd:string ;
@@ -6560,12 +6560,12 @@
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/RELAIS_&_CHATEAUX_CASTEL_MARIE-LOUISE>	 foaf:name 	 "RELAIS & CHATEAUX CASTEL MARIE-LOUISE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/RELAIS_&_CHATEAUX_CASTEL_MARIE-LOUISE>	 foaf:name 	 "RELAIS & CHATEAUX CASTEL MARIE-LOUISE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
-	geo:lat	"47.28205912 "^^xsd:decimal ;
+	geo:lat	"47.28205912"^^xsd:decimal ;
 	geo:long	"-2.40378141"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 11 48 38"^^xsd:string ;
@@ -6595,12 +6595,12 @@
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "oui"^^xsd:string .
 
-<http://projet.com/10/Castel_Marie-Louise>	 foaf:name 	 "Castel Marie-Louise"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Castel_Marie-Louise>	 foaf:name 	 "Castel Marie-Louise"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
-	geo:lat	"47.2812881 "^^xsd:decimal ;
+	geo:lat	"47.2812881"^^xsd:decimal ;
 	geo:long	"-2.4077933"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 11 48 38"^^xsd:string ;
@@ -6630,12 +6630,12 @@
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_RUBAN_BLEU>	 foaf:name 	 "LE RUBAN BLEU"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_RUBAN_BLEU>	 foaf:name 	 "LE RUBAN BLEU"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA BAULE"^^xsd:string ;
-	geo:lat	"47.280693 "^^xsd:decimal ;
+	geo:lat	"47.280693"^^xsd:decimal ;
 	geo:long	"-2.4084157"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 60 24 86"^^xsd:string ;
@@ -6665,12 +6665,12 @@
 	dbpedia-owl:postalCode	 "44500"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_BALZAC>	 foaf:name 	 "LE BALZAC"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_BALZAC>	 foaf:name 	 "LE BALZAC"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "GUERANDE"^^xsd:string ;
-	geo:lat	"47.38583698 "^^xsd:decimal ;
+	geo:lat	"47.38583698"^^xsd:decimal ;
 	geo:long	"-2.41397827"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "undefined"^^xsd:string ;
@@ -6700,12 +6700,12 @@
 	dbpedia-owl:postalCode	 "44350"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_GARDE-COTE>	 foaf:name 	 "LE GARDE-COTE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_GARDE-COTE>	 foaf:name 	 "LE GARDE-COTE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LE POULIGUEN"^^xsd:string ;
-	geo:lat	"47.2755984 "^^xsd:decimal ;
+	geo:lat	"47.2755984"^^xsd:decimal ;
 	geo:long	"-2.4258823"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 42 31 20"^^xsd:string ;
@@ -6735,12 +6735,12 @@
 	dbpedia-owl:postalCode	 "44510"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LES_REMPARTS>	 foaf:name 	 "LES REMPARTS"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LES_REMPARTS>	 foaf:name 	 "LES REMPARTS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "GUERANDE"^^xsd:string ;
-	geo:lat	"47.3280761 "^^xsd:decimal ;
+	geo:lat	"47.3280761"^^xsd:decimal ;
 	geo:long	"-2.4266204"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 24 90 69"^^xsd:string ;
@@ -6770,12 +6770,12 @@
 	dbpedia-owl:postalCode	 "44350"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/BRASSERIE_DU_CENTRE>	 foaf:name 	 "BRASSERIE DU CENTRE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/BRASSERIE_DU_CENTRE>	 foaf:name 	 "BRASSERIE DU CENTRE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "GUERANDE"^^xsd:string ;
-	geo:lat	"47.3280592 "^^xsd:decimal ;
+	geo:lat	"47.3280592"^^xsd:decimal ;
 	geo:long	"-2.4295765"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "undefined"^^xsd:string ;
@@ -6805,12 +6805,12 @@
 	dbpedia-owl:postalCode	 "44350"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LES_VOYAGEURS>	 foaf:name 	 "LES VOYAGEURS"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LES_VOYAGEURS>	 foaf:name 	 "LES VOYAGEURS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "GUERANDE"^^xsd:string ;
-	geo:lat	"47.3298789 "^^xsd:decimal ;
+	geo:lat	"47.3298789"^^xsd:decimal ;
 	geo:long	"-2.4297179"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 24 90 13"^^xsd:string ;
@@ -6840,12 +6840,12 @@
 	dbpedia-owl:postalCode	 "44350"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/La_Cabane_à_Jules>	 foaf:name 	 "La Cabane à Jules"^^xsd:string ;
+<http://lodpaddle.com/restaurant/La_Cabane_à_Jules>	 foaf:name 	 "La Cabane à Jules"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "GUERANDE"^^xsd:string ;
-	geo:lat	"47.295172 "^^xsd:decimal ;
+	geo:lat	"47.295172"^^xsd:decimal ;
 	geo:long	"-2.431333"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 88 78 24"^^xsd:string ;
@@ -6875,12 +6875,12 @@
 	dbpedia-owl:postalCode	 "44350"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_DUGUAY-TROUIN>	 foaf:name 	 "LE DUGUAY-TROUIN"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_DUGUAY-TROUIN>	 foaf:name 	 "LE DUGUAY-TROUIN"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LE POULIGUEN"^^xsd:string ;
-	geo:lat	"47.2690767 "^^xsd:decimal ;
+	geo:lat	"47.2690767"^^xsd:decimal ;
 	geo:long	"-2.4331035"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 42 32 05"^^xsd:string ;
@@ -6910,12 +6910,12 @@
 	dbpedia-owl:postalCode	 "44510"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/CAFE_JULES>	 foaf:name 	 "CAFE JULES"^^xsd:string ;
+<http://lodpaddle.com/restaurant/CAFE_JULES>	 foaf:name 	 "CAFE JULES"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LE POULIGUEN"^^xsd:string ;
-	geo:lat	"47.27009011 "^^xsd:decimal ;
+	geo:lat	"47.27009011"^^xsd:decimal ;
 	geo:long	"-2.44061048"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 42 31 79"^^xsd:string ;
@@ -6945,12 +6945,12 @@
 	dbpedia-owl:postalCode	 "44510"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LA_VIEILLE_FORGE>	 foaf:name 	 "LA VIEILLE FORGE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LA_VIEILLE_FORGE>	 foaf:name 	 "LA VIEILLE FORGE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "oui"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "oui"^^xsd:string ;
 	dbpprop:town	 "MESQUER"^^xsd:string ;
-	geo:lat	"47.3989723 "^^xsd:decimal ;
+	geo:lat	"47.3989723"^^xsd:decimal ;
 	geo:long	"-2.4601976"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 42 62 68"^^xsd:string ;
@@ -6980,12 +6980,12 @@
 	dbpedia-owl:postalCode	 "44420"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/CRÊPERIE_DU_DERWIN>	 foaf:name 	 "CRÊPERIE DU DERWIN"^^xsd:string ;
+<http://lodpaddle.com/restaurant/CRÊPERIE_DU_DERWIN>	 foaf:name 	 "CRÊPERIE DU DERWIN"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "BATZ-SUR-MER"^^xsd:string ;
-	geo:lat	"47.2708543 "^^xsd:decimal ;
+	geo:lat	"47.2708543"^^xsd:decimal ;
 	geo:long	"-2.4679844"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "undefined"^^xsd:string ;
@@ -7015,12 +7015,12 @@
 	dbpedia-owl:postalCode	 "44740"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LA_ROCHE_MATHIEU>	 foaf:name 	 "LA ROCHE MATHIEU"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LA_ROCHE_MATHIEU>	 foaf:name 	 "LA ROCHE MATHIEU"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "oui"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "oui"^^xsd:string ;
 	dbpprop:town	 "BATZ-SUR-MER"^^xsd:string ;
-	geo:lat	"47.272935 "^^xsd:decimal ;
+	geo:lat	"47.272935"^^xsd:decimal ;
 	geo:long	"-2.478828"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 23 92 12"^^xsd:string ;
@@ -7050,12 +7050,12 @@
 	dbpedia-owl:postalCode	 "44740"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Le_Derwin>	 foaf:name 	 "Le Derwin"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Le_Derwin>	 foaf:name 	 "Le Derwin"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "BATZ-SUR-MER"^^xsd:string ;
-	geo:lat	"47.277641 "^^xsd:decimal ;
+	geo:lat	"47.277641"^^xsd:decimal ;
 	geo:long	"-2.479422"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 23 90 06"^^xsd:string ;
@@ -7085,12 +7085,12 @@
 	dbpedia-owl:postalCode	 "44740"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_RELAIS_MARINE>	 foaf:name 	 "LE RELAIS MARINE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_RELAIS_MARINE>	 foaf:name 	 "LE RELAIS MARINE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "MESQUER"^^xsd:string ;
-	geo:lat	"47.40542 "^^xsd:decimal ;
+	geo:lat	"47.40542"^^xsd:decimal ;
 	geo:long	"-2.4819"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "undefined"^^xsd:string ;
@@ -7120,12 +7120,12 @@
 	dbpedia-owl:postalCode	 "44420"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/DE_PEN_BRON>	 foaf:name 	 "DE PEN BRON"^^xsd:string ;
+<http://lodpaddle.com/restaurant/DE_PEN_BRON>	 foaf:name 	 "DE PEN BRON"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LA TURBALLE"^^xsd:string ;
-	geo:lat	"47.3029419 "^^xsd:decimal ;
+	geo:lat	"47.3029419"^^xsd:decimal ;
 	geo:long	"-2.510541"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "undefined"^^xsd:string ;
@@ -7155,12 +7155,12 @@
 	dbpedia-owl:postalCode	 "44420"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LES_NIDS>	 foaf:name 	 "LES NIDS"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LES_NIDS>	 foaf:name 	 "LES NIDS"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LE CROISIC"^^xsd:string ;
-	geo:lat	"47.2851307 "^^xsd:decimal ;
+	geo:lat	"47.2851307"^^xsd:decimal ;
 	geo:long	"-2.5131612"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 23 00 63"^^xsd:string ;
@@ -7190,12 +7190,12 @@
 	dbpedia-owl:postalCode	 "44490"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/LE_LENIGO>	 foaf:name 	 "LE LENIGO"^^xsd:string ;
+<http://lodpaddle.com/restaurant/LE_LENIGO>	 foaf:name 	 "LE LENIGO"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LE CROISIC"^^xsd:string ;
-	geo:lat	"47.2981729 "^^xsd:decimal ;
+	geo:lat	"47.2981729"^^xsd:decimal ;
 	geo:long	"-2.5151765"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 23 00 31"^^xsd:string ;
@@ -7225,12 +7225,12 @@
 	dbpedia-owl:postalCode	 "44490"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/L'OCEAN>	 foaf:name 	 "L'OCEAN"^^xsd:string ;
+<http://lodpaddle.com/restaurant/L'OCEAN>	 foaf:name 	 "L'OCEAN"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LE CROISIC"^^xsd:string ;
-	geo:lat	"47.291638 "^^xsd:decimal ;
+	geo:lat	"47.291638"^^xsd:decimal ;
 	geo:long	"-2.5206328"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 62 90 03"^^xsd:string ;
@@ -7260,12 +7260,12 @@
 	dbpedia-owl:postalCode	 "44490"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/RESTAURANT_FORT_DE_L'OCEAN>	 foaf:name 	 "RESTAURANT FORT DE L'OCEAN"^^xsd:string ;
+<http://lodpaddle.com/restaurant/RESTAURANT_FORT_DE_L'OCEAN>	 foaf:name 	 "RESTAURANT FORT DE L'OCEAN"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "LE CROISIC"^^xsd:string ;
-	geo:lat	"47.2905815 "^^xsd:decimal ;
+	geo:lat	"47.2905815"^^xsd:decimal ;
 	geo:long	"-2.5422991"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 15 77 77"^^xsd:string ;
@@ -7295,12 +7295,12 @@
 	dbpedia-owl:postalCode	 "44490"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/Bodega_Bay>	 foaf:name 	 "Bodega Bay"^^xsd:string ;
+<http://lodpaddle.com/restaurant/Bodega_Bay>	 foaf:name 	 "Bodega Bay"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "PIRIAC-SUR-MER"^^xsd:string ;
-	geo:lat	"47.379836 "^^xsd:decimal ;
+	geo:lat	"47.379836"^^xsd:decimal ;
 	geo:long	"-2.546404"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 23 62 24"^^xsd:string ;
@@ -7330,12 +7330,12 @@
 	dbpedia-owl:postalCode	 "44420"^^xsd:integer ;
 	pdll:isInMichelinGuide	 "undefined"^^xsd:string .
 
-<http://projet.com/10/DE_LA_POSTE_Rest__LA_TERRASSE_FLEURIE>	 foaf:name 	 "DE LA POSTE Rest. LA TERRASSE FLEURIE"^^xsd:string ;
+<http://lodpaddle.com/restaurant/DE_LA_POSTE_Rest__LA_TERRASSE_FLEURIE>	 foaf:name 	 "DE LA POSTE Rest. LA TERRASSE FLEURIE"^^xsd:string ;
 	pdll:VignoleEtDecouverteLabelled	 "undefined"^^xsd:string ;
 	pdll:isMaitreRestaurateurLabelled	 "undefined"^^xsd:string ;
 	pdll:isCuisineriesGourmandesLabelled	 "undefined"^^xsd:string ;
 	dbpprop:town	 "PIRIAC-SUR-MER"^^xsd:string ;
-	geo:lat	"47.379374 "^^xsd:decimal ;
+	geo:lat	"47.379374"^^xsd:decimal ;
 	geo:long	"-2.54652"^^xsd:decimal  ;
 	sc:openingHours	 "undefined"^^xsd:string ;
 	sc:telephone	 "02 40 23 50 90"^^xsd:string ;

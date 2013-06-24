@@ -15,7 +15,7 @@
 @prefix sc: <http://schema.org/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
-<http://projet.com/10/FÊTE_DU_LIVRE_JEUNESSE>	 foaf:name 	 "FÊTE DU LIVRE JEUNESSE"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/FÊTE_DU_LIVRE_JEUNESSE>	 foaf:name 	 "FÊTE DU LIVRE JEUNESSE"^^xsd:string ;
 	dbpprop:insee	 "85003"^^xsd:integer ;
 	sc:performer	 "Association Bibliobulle"^^xsd:string ;
 	dbpedia-owl:abstract	 "À Aizenay, les enfants sont les principaux acteurs de la Fête du livre jeunesse : ils jouent tour à tour le rôle de conseillers lecteurs, auteurs et raconteurs de kamishibaïs ou de raconte-tapis, lecteurs pour les plus jeunes… Cette année, ils font « La fête à Claude Ponti », dans un décor créé par la plasticienne Sophie M. Parmi les animations : expositions, tables rondes, spectacles pour enfants, soirée festive, petit déjeuner littéraire..."^^xsd:string ;
@@ -25,7 +25,7 @@
 	dbpprop:town	 "Aizenay"^^xsd:string ;
 	dbpprop:website	 "www.fetedulivre-aizenay.com"^^xsd:string .
 
-<http://projet.com/10/CARTE_BLANCHE_À_CHRISTOPHE_BOTTI>	 foaf:name 	 "CARTE BLANCHE À CHRISTOPHE BOTTI"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/CARTE_BLANCHE_À_CHRISTOPHE_BOTTI>	 foaf:name 	 "CARTE BLANCHE À CHRISTOPHE BOTTI"^^xsd:string ;
 	dbpprop:insee	 "44003"^^xsd:integer ;
 	sc:performer	 "Association La Turmelière à Liré"^^xsd:string ;
 	dbpedia-owl:abstract	 "Temps fort à l’occasion de la clôture de la résidence du dramaturge Christophe Botti sur le territoire des Mauges et du Pays d’Ancenis en 2012. L’association La Turmelière et le théâtre Quartier Libre à Ancenis invitent à découvrir l’artiste invité par l’auteur : Stéphane Botti. Une soirée pour deux spectacles : « La Merveilleuse évasion » (Stéphane Botti), suivi du spectacle « Doubles ou l’incroyable histoire de Robert et Louis les frères siamois » (Stéphane et Christophe Botti)."^^xsd:string ;
@@ -35,7 +35,7 @@
 	dbpprop:town	 "Ancenis"^^xsd:string ;
 	dbpprop:website	 "www.laturmeliere.org"^^xsd:string .
 
-<http://projet.com/10/FESTIVAL_ANGERS_BD>	 foaf:name 	 "FESTIVAL ANGERS BD"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/FESTIVAL_ANGERS_BD>	 foaf:name 	 "FESTIVAL ANGERS BD"^^xsd:string ;
 	dbpprop:insee	 "49007"^^xsd:integer ;
 	sc:performer	 "Association Angers BD "^^xsd:string ;
 	dbpedia-owl:abstract	 "Lors de sa 14e édition, le festival présentera des œuvres de dessinateurs de BD au travers de nombreuses animations, rencontres avec les artistes, expositions, conférences-débats et séances de dédicaces. Les exposants, viticulteurs, libraires et bouquinistes, seront présents pour partager avec les bédéphiles – petits et grands – la richesse de ce festival, au centre des congrès d’Angers."^^xsd:string ;
@@ -45,7 +45,7 @@
 	dbpprop:town	 "Angers"^^xsd:string ;
 	dbpprop:website	 "www.angersbd.fr"^^xsd:string .
 
-<http://projet.com/10/BD_MANIA>	 foaf:name 	 "BD MANIA"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/BD_MANIA>	 foaf:name 	 "BD MANIA"^^xsd:string ;
 	dbpprop:insee	 "72008"^^xsd:integer ;
 	sc:performer	 "Commune d’Arnage"^^xsd:string ;
 	dbpedia-owl:abstract	 "Rendez-vous des amateurs de bande dessinée en Sarthe, BD Mania accueillera 28 auteurs professionnels ainsi que de nombreuses animations : expositions de planches originales, jeu concours en lien avec le réseau des médiathèques du département, cafés BD, ateliers d’initiations à la BD. Á noter également : un espace jeune auteurs."^^xsd:string ;
@@ -55,7 +55,7 @@
 	dbpprop:town	 "Arnage"^^xsd:string ;
 	dbpprop:website	 " www.arnage.fr"^^xsd:string .
 
-<http://projet.com/10/DES_MOTS_À_LA_BOUCHE>	 foaf:name 	 "DES MOTS À LA BOUCHE"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/DES_MOTS_À_LA_BOUCHE>	 foaf:name 	 "DES MOTS À LA BOUCHE"^^xsd:string ;
 	dbpprop:insee	 "49021"^^xsd:integer ;
 	sc:performer	 "Association Aé"^^xsd:string ;
 	dbpedia-owl:abstract	 "Événement dédié à la littérature et à l’écrit, Des mots à la bouche propose pour sa cinquième édition expositions, dédicaces, lectures et ateliers autour du thème Galerie de portraits. Différents auteurs-illustrateurs se prêtent à des rencontres : Nicolas Jolivot, Fred Sochard et Yves Jouan parleront de leur travail à plus de 300 enfants lors de journées dédiées aux scolaires."^^xsd:string ;
@@ -65,7 +65,7 @@
 	dbpprop:town	 "Beaufort-en-Vallée"^^xsd:string ;
 	dbpprop:website	 "http://desmotsalabouche.blogspot.com"^^xsd:string .
 
-<http://projet.com/10/LA_TRÈS_PETITE_BALADE_LITTÉRAIRE>	 foaf:name 	 "LA TRÈS PETITE BALADE LITTÉRAIRE"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/LA_TRÈS_PETITE_BALADE_LITTÉRAIRE>	 foaf:name 	 "LA TRÈS PETITE BALADE LITTÉRAIRE"^^xsd:string ;
 	dbpprop:insee	 "44043"^^xsd:integer ;
 	sc:performer	 "La très petite librairie"^^xsd:string ;
 	dbpedia-owl:abstract	 "Pour la 3e année, La très petite association organise une balade littéraire dans Clisson, avec des lectures de textes « coups de cœur » dans des endroits insolites de la ville… Cette année, la balade est nocturne… Rendez-vous à 19 h devant la librairie."^^xsd:string ;
@@ -75,7 +75,7 @@
 	dbpprop:town	 "Clisson"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string .
 
-<http://projet.com/10/RENCONTRES_DE_FONTEVRAUD>	 foaf:name 	 "RENCONTRES DE FONTEVRAUD"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/RENCONTRES_DE_FONTEVRAUD>	 foaf:name 	 "RENCONTRES DE FONTEVRAUD"^^xsd:string ;
 	dbpprop:insee	 "49140"^^xsd:integer ;
 	sc:performer	 "Association Meet"^^xsd:string ;
 	dbpedia-owl:abstract	 "La Maison des écrivains étrangers et des traducteurs organise les 20 et 21 octobre 2012, à l’abbaye de Fontevraud, un colloque intitulé : « L’engagement critique ». « La critique a longtemps exercé un magistère, 10 rendez-vous littéraires et le rez-de-chaussée du journal Le Monde en était une ﬁgure. Aujourd’hui, existe-t-il  un type de critique qui déﬁnisse ce qui est  littérature et ce qui ne l’est pas ? Comment  la légitimité vient-elle aux œuvres ? Quel  rôle la critique universitaire joue-t-elle  maintenant qu’elle accepte de se confronter  à l’immédiat contemporain? »"^^xsd:string ;
@@ -85,7 +85,7 @@
 	dbpprop:town	 "Fontevraud"^^xsd:string ;
 	dbpprop:website	 "www.maisonecrivainsetrangers.com"^^xsd:string .
 
-<http://projet.com/10/FESTIVAL_DU_LIVRE_EN_BRETAGNE>	 foaf:name 	 "FESTIVAL DU LIVRE EN BRETAGNE"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/FESTIVAL_DU_LIVRE_EN_BRETAGNE>	 foaf:name 	 "FESTIVAL DU LIVRE EN BRETAGNE"^^xsd:string ;
 	dbpprop:insee	 "44069"^^xsd:integer ;
 	sc:performer	 "Association Gourenez"^^xsd:string ;
 	dbpedia-owl:abstract	 "Rendez-vous d’automne des éditeurs, des auteurs et des lecteurs, le Festival du Livre en Bretagne de Guérande fait découvrir à un large public des ouvrages en relation avec la Bretagne au Centre Culturel Athanor. Placé sous le thème de « La Bretagne au féminin », la 9e édition du Festival sera l’occasion d’échanges avec les auteurs invités, de voyages inattendus grâce aux conférences, exposition, films…"^^xsd:string ;
@@ -95,7 +95,7 @@
 	dbpprop:town	 "Guérande"^^xsd:string ;
 	dbpprop:website	 "www.festivaldulivreenbretagne.com  "^^xsd:string .
 
-<http://projet.com/10/ÉCRIVAINS_EN_BORD_DE_MER>	 foaf:name 	 "ÉCRIVAINS EN BORD DE MER"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/ÉCRIVAINS_EN_BORD_DE_MER>	 foaf:name 	 "ÉCRIVAINS EN BORD DE MER"^^xsd:string ;
 	dbpprop:insee	 "44055"^^xsd:integer ;
 	sc:performer	 "Association Ecrivains en bord de mer"^^xsd:string ;
 	dbpedia-owl:abstract	 "Une manifestation littéraire au cœur de l’été où tous les participants ont en commun l’amour d’une littérature créative. Cette manifestation est aussi l’occasion de mettre en avant ceux qui propagent cette littérature audacieuse : les éditeurs, les traducteurs, les journalistes, les critiques littéraires… Auteurs attendus pour cette 16e édition : Annie Ernaux, John Burnside, Laura Kasischke, Charles Robinson…"^^xsd:string ;
@@ -105,7 +105,7 @@
 	dbpprop:town	 "La Baule"^^xsd:string ;
 	dbpprop:website	 "www.ecrivainsenborddemer.fr"^^xsd:string .
 
-<http://projet.com/10/FÊTE_DU_LIVRE>	 foaf:name 	 "FÊTE DU LIVRE"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/FÊTE_DU_LIVRE>	 foaf:name 	 "FÊTE DU LIVRE"^^xsd:string ;
 	dbpprop:insee	 "44126"^^xsd:integer ;
 	sc:performer	 "Office de Tourisme de La Plaine-sur-Mer"^^xsd:string ;
 	dbpedia-owl:abstract	 "Manifestation en plein air présentant la production et la création littéraire des Pays de Loire et de Bretagne, tous genres confondus, avec toutefois une mise en avant du polar pour cette 8e édition. Des animations littéraires seront proposées sur le salon durant la journée."^^xsd:string ;
@@ -115,7 +115,7 @@
 	dbpprop:town	 "La Plaine sur Mer"^^xsd:string ;
 	dbpprop:website	 "www.laplainesurmer.fr"^^xsd:string .
 
-<http://projet.com/10/FESTIVAL_DU_PREMIER_ROMAN>	 foaf:name 	 "FESTIVAL DU PREMIER ROMAN"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/FESTIVAL_DU_PREMIER_ROMAN>	 foaf:name 	 "FESTIVAL DU PREMIER ROMAN"^^xsd:string ;
 	dbpprop:insee	 "53130"^^xsd:integer ;
 	sc:performer	 "Association Lecture en Tête "^^xsd:string ;
 	dbpedia-owl:abstract	 "Cette édition exceptionnelle du Festival, parrainé par Sorj Chalandon, et qui aura lieu au Théâtre de Laval, fait honneur aux 12 auteurs de premiers romans (Kaouther Adimi, Marie-Odile Ascher, Joël Baqué, Stéphane Chaumet, Dalibor Frioux, Hélène Gestern, Caroline Lunoir, William Memlouk, Emmanuelle Pol, Nicole Roland, Sophie Schulze et Eric Sommier) aux cafés littéraires et tables rondes, aux éditions Gallimard dont le centenaire s’associe aux 20 ans de Lecture en Tête, organisatrice du Festival, ainsi qu’aux 19 éditions passées qui ont vu défi ler pour leur premier roman des auteurs tels que Carole Martinez, Blandine Le Callet, Isabelle Jarry, Olivier Maulin et Violaine Bérot. Samedi 24 mars à 20 h 30, Macha Méril et Laurent Menez prêtent leurs voix aux premiers romans chefs d’œuvre de la littérature des 100 dernières années lors d’une lecture-spectacle de 45 minutes."^^xsd:string ;
@@ -125,7 +125,7 @@
 	dbpprop:town	 "Laval"^^xsd:string ;
 	dbpprop:website	 "www.lecture-en-tete.fr"^^xsd:string .
 
-<http://projet.com/10/PASSERELLES_:_AU-DELÀ_DES_GENRES>	 foaf:name 	 "PASSERELLES : AU-DELÀ DES GENRES"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/PASSERELLES_:_AU-DELÀ_DES_GENRES>	 foaf:name 	 "PASSERELLES : AU-DELÀ DES GENRES"^^xsd:string ;
 	dbpprop:insee	 "72181"^^xsd:integer ;
 	sc:performer	 "Médiathèque de l’Espal"^^xsd:string ;
 	dbpedia-owl:abstract	 "« Passerelles » est un rendez-vous annuel proposé par la médiathèque de l’Espal autour des littératures de l’imaginaire (science-fiction, fantastique, fantasy). Cette quatrième rencontre aborde le thème des « cités et mondes utopiques » en compagnie de Joëlle Wintrebert, Mathieu Gaborit et Sylvie Denis."^^xsd:string ;
@@ -135,7 +135,7 @@
 	dbpprop:town	 "Le Mans"^^xsd:string ;
 	dbpprop:website	 "www.facebook.com/mediatheques.lemans"^^xsd:string .
 
-<http://projet.com/10/LECTURES_EN_CITÉ_PLANTAGENÊT>	 foaf:name 	 "LECTURES EN CITÉ PLANTAGENÊT"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/LECTURES_EN_CITÉ_PLANTAGENÊT>	 foaf:name 	 "LECTURES EN CITÉ PLANTAGENÊT"^^xsd:string ;
 	dbpprop:insee	 "72181"^^xsd:integer ;
 	sc:performer	 "Office de Tourisme du Mans"^^xsd:string ;
 	dbpedia-owl:abstract	 "Dans les Jardins de da Cathédrale Saint Julien, comédiens et public partagent le plaisir de la lecture des grands textes littéraires. Se succéderont Catherine Paysan, Brigitte Fossey, Jean-Claude Drouot, Marie-Christine Barrault et Charles Gonzales, Xavier Gallais, Jean-Francois Balmer."^^xsd:string ;
@@ -145,7 +145,7 @@
 	dbpprop:town	 "Le Mans"^^xsd:string ;
 	dbpprop:website	 "www.lemanstourisme.com"^^xsd:string .
 
-<http://projet.com/10/LA_25E_HEURE_DU_LIVRE>	 foaf:name 	 "LA 25E HEURE DU LIVRE"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/LA_25E_HEURE_DU_LIVRE>	 foaf:name 	 "LA 25E HEURE DU LIVRE"^^xsd:string ;
 	dbpprop:insee	 "72181"^^xsd:integer ;
 	sc:performer	 "Association 25e Heure du livre"^^xsd:string ;
 	dbpedia-owl:abstract	 "Le salon du livre du Mans, organisé par la Ville du Mans et l’association « La 25e Heure du Livre », recevra les auteurs de l’actualité littéraire au sein de ses espaces jeunesse, BD, polar, littérature de l’imaginaire, littérature générale… Sa thématique à caractère ethnographique sera cette année consacrée à une rencontre avec les peuples d’Océanie. Journée scolaire le 12 octobre réservée aux classes lauréates des Trophées Lecture Jeunesse."^^xsd:string ;
@@ -155,7 +155,7 @@
 	dbpprop:town	 "Le Mans"^^xsd:string ;
 	dbpprop:website	 "www.la25eheuredulivre.fr"^^xsd:string .
 
-<http://projet.com/10/FORUM_LE_MONDE_–_LE_MANS>	 foaf:name 	 "FORUM LE MONDE – LE MANS"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/FORUM_LE_MONDE_–_LE_MANS>	 foaf:name 	 "FORUM LE MONDE – LE MANS"^^xsd:string ;
 	dbpprop:insee	 "72181"^^xsd:integer ;
 	sc:performer	 "Association Cercle des amis Forum Le Monde-Le Mans"^^xsd:string ;
 	dbpedia-owl:abstract	 "Depuis plus de vingt ans, le journal Le Monde, la ville du Mans, l’Université du Maine et l’association du Forum Le Monde Le Mans invitent des grands noms de la pensée française et internationale à débattre pendant trois jours sur des préoccupations majeures de ce début de siècle : science et philosophie, éthique, culture européenne, modernité de la pensée antique, argent, art et connaissance, bonheur, avenir, tolérance, valeur, violence, techniques... Le déﬁ de ces rencontres est de rendre accessible la philosophie à tous sans pour autant rendre simpliste le propos, de démontrer que la rigueur des colloques savants et la spontanéité du débat citoyen convergent dans un seul et même élan. Le thème du 24e Forum sera celui de l’amour."^^xsd:string ;
@@ -165,7 +165,7 @@
 	dbpprop:town	 "Le Mans "^^xsd:string ;
 	dbpprop:website	 "forumlemondelemans.univ-lemans.fr"^^xsd:string .
 
-<http://projet.com/10/FESTIVAL_DE_LA_BD_ENGAGÉE>	 foaf:name 	 "FESTIVAL DE LA BD ENGAGÉE"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/FESTIVAL_DE_LA_BD_ENGAGÉE>	 foaf:name 	 "FESTIVAL DE LA BD ENGAGÉE"^^xsd:string ;
 	dbpprop:insee	 "49193"^^xsd:integer ;
 	sc:performer	 "Association Bandes à part"^^xsd:string ;
 	dbpedia-owl:abstract	 "Rencontres entre auteurs, dessinateurs et le public curieux de découvrir le travail des artistes associant l’art graphique aux problèmes de société. Ce festival est organisé en partenariat avec la librairie le Yéti."^^xsd:string ;
@@ -175,7 +175,7 @@
 	dbpprop:town	 "Le May-sur-Evre"^^xsd:string ;
 	dbpprop:website	 "www.bandesapart.org"^^xsd:string .
 
-<http://projet.com/10/LES_BELLES_RENCONTRES>	 foaf:name 	 "LES BELLES RENCONTRES"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/LES_BELLES_RENCONTRES>	 foaf:name 	 "LES BELLES RENCONTRES"^^xsd:string ;
 	dbpprop:insee	 "44135"^^xsd:integer ;
 	sc:performer	 "Association Le Sel des Mots"^^xsd:string ;
 	dbpedia-owl:abstract	 "Ces trois journées littéraires s’organisent autour du thème de la maison : celle qui abrite, accompagne, fait grandir, édite… Au programme : des débats, rencontres et tables rondes – « Première publication et après ? », « La place de la librairie indépendante dans la diffusion de textes et d’auteurs plus confidentiels »… –, des ateliers (impression, calligraphie…), et la découverte du travail des éditeurs indépendants présents. Parmi eux : Attila, Ane Bâté, Cénomane, Chandeigne, éditions du Chemin de fer, Chants d’ortie, L’Escarbille, Esperluète, MLD, La Part commune, éditions du Sonneur, Millefeuille, etc."^^xsd:string ;
@@ -185,7 +185,7 @@
 	dbpprop:town	 "Le Pouliguen"^^xsd:string ;
 	dbpprop:website	 "http://le-sel-des-mots.over-blog.com"^^xsd:string .
 
-<http://projet.com/10/RENDEZ-VOUS_DU_BOIS_CHEVALIER>	 foaf:name 	 "RENDEZ-VOUS DU BOIS CHEVALIER"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/RENDEZ-VOUS_DU_BOIS_CHEVALIER>	 foaf:name 	 "RENDEZ-VOUS DU BOIS CHEVALIER"^^xsd:string ;
 	dbpprop:insee	 "44081"^^xsd:integer ;
 	sc:performer	 "Association Les amis de la Forge"^^xsd:string ;
 	dbpedia-owl:abstract	 "Cette 4e édition traitera le thème du soleil. Des spécialistes de ce sujet interviendront, scientifiques et astrophysiciens : Jean-Claude Vial, Patrick Boumier. Conférences, lectures de poésie, avec pour invités Antoine Emaz, Anthony Phelps et Évelyne Morin, ainsi que la participation de Brigitte Gyr. Pour les enfants et les plus grands, une coupole du Planétarium de Nantes sera installée dans la cour."^^xsd:string ;
@@ -195,7 +195,7 @@
 	dbpprop:town	 "Légé"^^xsd:string ;
 	dbpprop:website	 "www.rendez-vous-du-bois-chevalier.com"^^xsd:string .
 
-<http://projet.com/10/MAI_LIVRES>	 foaf:name 	 "MAI LIVRES"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/MAI_LIVRES>	 foaf:name 	 "MAI LIVRES"^^xsd:string ;
 	dbpprop:insee	 "85082"^^xsd:integer ;
 	sc:performer	 "Communauté de Communes du Pays des Herbiers"^^xsd:string ;
 	dbpedia-owl:abstract	 "La 6e édition de Mai Livres débarque dans la commune des Épesses pour deux jours, dans une bibliothèque fraîchement agrandie et rénovée. Ce week-end est synonyme de rencontres et d’échanges autour d’intervenants, de conteurs et de spectacles. Seront présents Jean-Claude Lumet, Marcel Grelet, Christophe Prat, la maison d’édition Gulf Stream, l’illustrateur Lionel Tarchala et les éditions Soc & Foc. Des escales littéraires, une balade contée semi-nocturne et un spectacle musical seront les temps forts de ce week-end. "^^xsd:string ;
@@ -205,7 +205,7 @@
 	dbpprop:town	 "Les Épesses"^^xsd:string ;
 	dbpprop:website	 "www.cc-paysdesherbiers.fr"^^xsd:string .
 
-<http://projet.com/10/FESTIVAL_SIMENON>	 foaf:name 	 "FESTIVAL SIMENON"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/FESTIVAL_SIMENON>	 foaf:name 	 "FESTIVAL SIMENON"^^xsd:string ;
 	dbpprop:insee	 "85194"^^xsd:integer ;
 	sc:performer	 "Association sablaise pour la promotion de la culture (ASPC)"^^xsd:string ;
 	dbpedia-owl:abstract	 "14e festival sous le thème « Georges Simenon, le Liégeois de Vendée ». Débats, projections de films, animations expositions, autour de l’œuvre de Simenon."^^xsd:string ;
@@ -215,7 +215,7 @@
 	dbpprop:town	 "Les Sables-d’Olonne"^^xsd:string ;
 	dbpprop:website	 "www.festival-simenon-sablesolonne.com"^^xsd:string .
 
-<http://projet.com/10/FESTI’MALLES>	 foaf:name 	 "FESTI’MALLES"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/FESTI’MALLES>	 foaf:name 	 "FESTI’MALLES"^^xsd:string ;
 	dbpprop:insee	 "49197"^^xsd:integer ;
 	sc:performer	 "Association La Turmelière "^^xsd:string ;
 	dbpedia-owl:abstract	 "3e édition de Festi’malles : un festival gratuit pour les animateurs, bibliothécaires et médiateurs de la lecture (salariés et bénévoles). Temps privilégié de découvertes, réflexions, partages et de rencontres sur les pratiques d’animation en lecture et en écriture, pour faire connaître et valoriser les différents outils d’animation lecture des Pays-de-Loire (forum, tables rondes, conférences, ateliers...)."^^xsd:string ;
@@ -225,7 +225,7 @@
 	dbpprop:town	 "Liré"^^xsd:string ;
 	dbpprop:website	 "www.laturmeliere.org"^^xsd:string .
 
-<http://projet.com/10/RENCONTRES_DE_LIRÉ>	 foaf:name 	 "RENCONTRES DE LIRÉ"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/RENCONTRES_DE_LIRÉ>	 foaf:name 	 "RENCONTRES DE LIRÉ"^^xsd:string ;
 	dbpprop:insee	 "49197"^^xsd:integer ;
 	sc:performer	 "Association Les Lyriades"^^xsd:string ;
 	dbpedia-owl:abstract	 "Ces rencontres biennales se penchent pour leur 6e édition sur le thème : « Le français, une langue pour réussir ». Pendant une semaine, il s’agira de réfléchir au rôle joué par la langue française dans les domaines socio-politique, professionnel et artistique, au cours de communications et d’échanges avec le public. Des tables rondes prolongeront la réflexion, tandis qu’expositions, spectacles, ateliers (dictée des Lyriades, mots croisés), jeux, parcours et visites apporteront à la manifestation sa dimension festive."^^xsd:string ;
@@ -235,7 +235,7 @@
 	dbpprop:town	 "Liré, Angers, Ancenis"^^xsd:string ;
 	dbpprop:website	 "www.leslyriades.fr"^^xsd:string .
 
-<http://projet.com/10/SEMAINE_DU_LIVRE_JEUNESSE>	 foaf:name 	 "SEMAINE DU LIVRE JEUNESSE"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/SEMAINE_DU_LIVRE_JEUNESSE>	 foaf:name 	 "SEMAINE DU LIVRE JEUNESSE"^^xsd:string ;
 	dbpprop:insee	 "85128"^^xsd:integer ;
 	sc:performer	 "Médiathèque Pierre Menanteau"^^xsd:string ;
 	dbpedia-owl:abstract	 "Placée sous la thématique « le livre fait son cinéma », cette 13e édition de la Semaine du livre jeunesse met en lumière le travail de création que représente l’adaptation d’une œuvre écrite au cinéma ou en bande dessinée. Expositions, rencontres, spectacles et projections de films inviteront à découvrir le travail de nombreux artistes – illustrateurs, auteurs, scénaristes… Parmi eux : Eric Simard, Thomas Scotto, Yves Grevet, Sylvie Deshors, Yann Degruel, Donal Grant… "^^xsd:string ;
@@ -245,7 +245,7 @@
 	dbpprop:town	 "Luçon"^^xsd:string ;
 	dbpprop:website	 "www.livre-jeunesse-lucon.com"^^xsd:string .
 
-<http://projet.com/10/MAUVES_EN_NOIR>	 foaf:name 	 "MAUVES EN NOIR"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/MAUVES_EN_NOIR>	 foaf:name 	 "MAUVES EN NOIR"^^xsd:string ;
 	dbpprop:insee	 "44094"^^xsd:integer ;
 	sc:performer	 "Association Mauves en Noir"^^xsd:string ;
 	dbpedia-owl:abstract	 "Mauves en noir recevra une quarantaine d’auteurs de roman noir et polar pour cette 11e édition. Pour la première fois, des auteurs de langue espagnole sont invités. Des rencontres, tables rondes, conférences, jeux de lecture et d’écriture et une ouverture particulière au public non et mal-voyant. Dans les jours précédents plusieurs auteurs invités interviendront dans les écoles, collèges et lycées ainsi que dans des TER."^^xsd:string ;
@@ -255,7 +255,7 @@
 	dbpprop:town	 "Mauves-sur-Loire"^^xsd:string ;
 	dbpprop:website	 "mauvesennoir.com"^^xsd:string .
 
-<http://projet.com/10/CROQ’LES_MOTS,_MARMOT_!>	 foaf:name 	 "CROQ’LES MOTS, MARMOT !"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/CROQ’LES_MOTS,_MARMOT_!>	 foaf:name 	 "CROQ’LES MOTS, MARMOT !"^^xsd:string ;
 	dbpprop:insee	 "53147"^^xsd:integer ;
 	sc:performer	 "Pays de Haute Mayenne"^^xsd:string ;
 	dbpedia-owl:abstract	 "Pour la 3° édition, le Pays de Haute Mayenne, le Kiosque et le réseau Lecture s’associent de nouveau pour la mise en place de la formule unique de Croq’. Rendez-vous le vendredi 1er juin pour la journée professionnelle autour de « L’oralité, les livres et les tout-petits » ; puis les 2 et 3 juin pour le salon du livre petite enfance (0-6 ans) : 12 auteurs-illustrateurs, une librairie géante ; des rencontres, des ateliers, des spectacles, des projections, des expos et surtout des lecteurs permanents : un salon où tout est fait pour les enfants !"^^xsd:string ;
@@ -265,7 +265,7 @@
 	dbpprop:town	 "Mayenne"^^xsd:string ;
 	dbpprop:website	 "www.hautemayenne.org"^^xsd:string .
 
-<http://projet.com/10/LE_PRINTEMPS_DU_LIVRE_DE_MONTAIGU>	 foaf:name 	 "LE PRINTEMPS DU LIVRE DE MONTAIGU"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/LE_PRINTEMPS_DU_LIVRE_DE_MONTAIGU>	 foaf:name 	 "LE PRINTEMPS DU LIVRE DE MONTAIGU"^^xsd:string ;
 	dbpprop:insee	 "85146"^^xsd:integer ;
 	sc:performer	 "Communauté de communes Terres de Montaigu"^^xsd:string ;
 	dbpedia-owl:abstract	 "Sous la présidence d’honneur de Mireille Calmel, 250 auteurs et de nombreux professionnels du livre (libraires, éditeurs, bibliothécaires) sont rassemblés pour la 24e édition du Printemps du livre de Montaigu. Il se tient cette année sur le site du théâtre de Thalie, le nouveau pôle culturel de la Communauté de communes Terres de Montaigu."^^xsd:string ;
@@ -275,7 +275,7 @@
 	dbpprop:town	 "Montaigu"^^xsd:string ;
 	dbpprop:website	 "www.terresdemontaigu.fr"^^xsd:string .
 
-<http://projet.com/10/13ÈME_FESTIVAL_BD>	 foaf:name 	 "13ÈME FESTIVAL BD"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/13ÈME_FESTIVAL_BD>	 foaf:name 	 "13ÈME FESTIVAL BD"^^xsd:string ;
 	dbpprop:insee	 "49125"^^xsd:integer ;
 	sc:performer	 "Association Au coeur des bulles"^^xsd:string ;
 	dbpedia-owl:abstract	 "Aux côtés de l’invité d’honneur Philippe Xavier, dessinateur de Croisade, le festival rassemble de nombreux auteurs de BD dont Alexe, Adeline Blondieau, Boulet, Jean Dufaux, Curd Ridel…Le collectif angevin La boîte qui fait Beuh anime un atelier BD. Nouveauté 2012 : un café littéraire au petit théâtre des caves Bouvet-Ladubay à Saint Hilaire Saint Florent le vendredi 1er juin 2012 à 18 h 30."^^xsd:string ;
@@ -285,7 +285,7 @@
 	dbpprop:town	 "Montreuil-Bellay"^^xsd:string ;
 	dbpprop:website	 "www.aucoeurdesbulles.com"^^xsd:string .
 
-<http://projet.com/10/SALON_ANGEVIN_DU_LIVRE_ANCIEN>	 foaf:name 	 "SALON ANGEVIN DU LIVRE ANCIEN"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/SALON_ANGEVIN_DU_LIVRE_ANCIEN>	 foaf:name 	 "SALON ANGEVIN DU LIVRE ANCIEN"^^xsd:string ;
 	dbpprop:insee	 "49223"^^xsd:integer ;
 	sc:performer	 "Centre culturel Jean-Carmet"^^xsd:string ;
 	dbpedia-owl:abstract	 "14e édition qui réunit nombre de librairies anciennes et d’occasion ainsi que quelques artisans (relieur, enlumineur) autour d’expositions et d’animations. Les vieux métiers seront à l’honneur pour 2012."^^xsd:string ;
@@ -295,7 +295,7 @@
 	dbpprop:town	 "Mûrs-Érigné"^^xsd:string ;
 	dbpprop:website	 "www.ville-murs-erigne.fr"^^xsd:string .
 
-<http://projet.com/10/LES_UTOPIALES>	 foaf:name 	 "LES UTOPIALES"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/LES_UTOPIALES>	 foaf:name 	 "LES UTOPIALES"^^xsd:string ;
 	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:performer	 "Association du Festival International de Science-Fiction de Nantes"^^xsd:string ;
 	dbpedia-owl:abstract	 "Ce festival international de référence consacre une large place à la littérature, le cinéma, la bande dessinée, et propose expositions, jeux de rôles et rencontres scientiﬁques… Durant quatre jours, la science-ﬁction est abordée dans son actualité et dans toutes ses dimensions à la Cité des Congrès de Nantes-Métropole."^^xsd:string ;
@@ -305,7 +305,7 @@
 	dbpprop:town	 "Nantes"^^xsd:string ;
 	dbpprop:website	 "www.utopiales.org"^^xsd:string .
 
-<http://projet.com/10/RENCONTRES_LITTÉRAIRES_NORDIQUES>	 foaf:name 	 "RENCONTRES LITTÉRAIRES NORDIQUES"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/RENCONTRES_LITTÉRAIRES_NORDIQUES>	 foaf:name 	 "RENCONTRES LITTÉRAIRES NORDIQUES"^^xsd:string ;
 	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:performer	 "Association Impressions d’Europe"^^xsd:string ;
 	dbpedia-owl:abstract	 "L’association Impressions d’Europe invite à découvrir les littératures nordiques avec des représentants du Danemark, de Suède, de Finlande, de Norvège et des Pays Bas. Films, expositions d’œuvres graphiques, théâtre, librairie thématique."^^xsd:string ;
@@ -315,7 +315,7 @@
 	dbpprop:town	 "Nantes"^^xsd:string ;
 	dbpprop:website	 "www.impressionsdeurope.com"^^xsd:string .
 
-<http://projet.com/10/LES_CRAYONANTES>	 foaf:name 	 "LES CRAYONANTES"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/LES_CRAYONANTES>	 foaf:name 	 "LES CRAYONANTES"^^xsd:string ;
 	dbpprop:insee	 "44109"^^xsd:integer ;
 	sc:performer	 "Association Taille-Crayon"^^xsd:string ;
 	dbpedia-owl:abstract	 "Pour sa 8e édition, le festival organisé par l’association Taille-crayon proposera des expositions, des ateliers manga, animations, rencontres avec une trentaine d’auteurs pour le grand public et le public scolaire."^^xsd:string ;
@@ -325,7 +325,7 @@
 	dbpprop:town	 "Nantes"^^xsd:string ;
 	dbpprop:website	 "www.nantesbd.com"^^xsd:string .
 
-<http://projet.com/10/ESCALE_2012_DU_SALON_DU_LIVRE_DE_MER_DE_L’ÎLE_DE_NOIRMOUTIER>	 foaf:name 	 "ESCALE 2012 DU SALON DU LIVRE DE MER DE L’ÎLE DE NOIRMOUTIER"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/ESCALE_2012_DU_SALON_DU_LIVRE_DE_MER_DE_L’ÎLE_DE_NOIRMOUTIER>	 foaf:name 	 "ESCALE 2012 DU SALON DU LIVRE DE MER DE L’ÎLE DE NOIRMOUTIER"^^xsd:string ;
 	dbpprop:insee	 "85163"^^xsd:integer ;
 	sc:performer	 "Association Printemps Lecture et Culture "^^xsd:string ;
 	dbpedia-owl:abstract	 "Rencontres et dédicaces d’écrivains, conférences, cafés littéraires, expositions, avec également présence de libraires, éditeurs, associations à vocation maritime."^^xsd:string ;
@@ -335,7 +335,7 @@
 	dbpprop:town	 "Noirmoutier"^^xsd:string ;
 	dbpprop:website	 "www.livre-mer-noirmoutier.com"^^xsd:string .
 
-<http://projet.com/10/ABRACADABULLES>	 foaf:name 	 "ABRACADABULLES"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/ABRACADABULLES>	 foaf:name 	 "ABRACADABULLES"^^xsd:string ;
 	dbpprop:insee	 "85166"^^xsd:integer ;
 	sc:performer	 "Association Abracadabulles"^^xsd:string ;
 	dbpedia-owl:abstract	 "Plus de 40 auteurs sont attendus pour cette 13e édition du festival de la bande dessinée."^^xsd:string ;
@@ -345,7 +345,7 @@
 	dbpprop:town	 "Olonne-sur-Mer"^^xsd:string ;
 	dbpprop:website	 "www.abracadabulles.com"^^xsd:string .
 
-<http://projet.com/10/MARCHÉ_DE_LA_POÉSIE>	 foaf:name 	 "MARCHÉ DE LA POÉSIE"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/MARCHÉ_DE_LA_POÉSIE>	 foaf:name 	 "MARCHÉ DE LA POÉSIE"^^xsd:string ;
 	dbpprop:insee	 "49259"^^xsd:integer ;
 	sc:performer	 "Centre Poétique de Rochefort-sur-Loire"^^xsd:string ;
 	dbpedia-owl:abstract	 "Le marché de la poésie présente des éditeurs de poésie de toute la France et des lectures de poètes. En 2012, la commune accueillera Christophe Jubien, Maram Al Masri, Franck Cottet, Françoise Hàn et Jean-Pierre Siméon (Président du Printemps des Poètes au niveau national). Edith Azam, poète accueillie en résidence d’avril à juillet présentera le travail effectué lors de cette période. Enfin, les habitants de Rochefort-sur-Loire proposeront des intermèdes poétiques et musicaux dans la commune."^^xsd:string ;
@@ -355,7 +355,7 @@
 	dbpprop:town	 "Rochefort-sur-Loire"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string .
 
-<http://projet.com/10/JOURNÉES_DE_LA_BD>	 foaf:name 	 "JOURNÉES DE LA BD"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/JOURNÉES_DE_LA_BD>	 foaf:name 	 "JOURNÉES DE LA BD"^^xsd:string ;
 	dbpprop:insee	 "44145"^^xsd:integer ;
 	sc:performer	 "Association Journées de la BD"^^xsd:string ;
 	dbpedia-owl:abstract	 "Pour leur 25e édition, les journées de la BD font un tour du côté de la science-fiction, avec pour cri de ralliement : « Inventez le XXVe siècle ! » Autour de Gess – dessinateur de l’affiche 2012 – et de Jean-Marie Michaud, une quarantaine d’auteurs seront présents pour rencontrer leur public et dédicacer leurs albums."^^xsd:string ;
@@ -365,7 +365,7 @@
 	dbpprop:town	 "Rouans"^^xsd:string ;
 	dbpprop:website	 "http://journeesbd.free.fr"^^xsd:string .
 
-<http://projet.com/10/SABLÉ_SUR_LIVRES>	 foaf:name 	 "SABLÉ SUR LIVRES"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/SABLÉ_SUR_LIVRES>	 foaf:name 	 "SABLÉ SUR LIVRES"^^xsd:string ;
 	dbpprop:insee	 "72264"^^xsd:integer ;
 	sc:performer	 "Association Sablé-sur-Livres"^^xsd:string ;
 	dbpedia-owl:abstract	 "Sablé Sur Livres fête son 10e anniversaire le dimanche 1er avril de 10 h à 19 h à la Halle de l’Hippodrome de Sablé. Au programme : rencontres, dédicaces, ateliers... Seront présents : la bibliothèque municipale, Alpha Sablé, la bibliothèque pour tous, Passé Simple ainsi que la Librairie Doucet (Le Mans) et les éditions Le Petit Pavé, La Vie Mancelle, Télémaque, Les Deux Encres, Vinarelles, MF Editions..."^^xsd:string ;
@@ -375,7 +375,7 @@
 	dbpprop:town	 "Sablé"^^xsd:string ;
 	dbpprop:website	 "www.sable-sur-livres.com"^^xsd:string .
 
-<http://projet.com/10/JOURNÉES_GRACQ>	 foaf:name 	 "JOURNÉES GRACQ"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/JOURNÉES_GRACQ>	 foaf:name 	 "JOURNÉES GRACQ"^^xsd:string ;
 	dbpprop:insee	 "49276"^^xsd:integer ;
 	sc:performer	 "Commune de Saint-Florent-Le-Vieil"^^xsd:string ;
 	dbpedia-owl:abstract	 "Depuis 2008, la ville de Saint-Florent-Le-Vieil organise des événements littéraires autour de l’œuvre de Julien Gracq dans le cadre du projet Maison Julien Gracq. En 2012, la commune poursuivra ses actions avec notamment la cinquième édition des Journées Gracq. Écrivains, journalistes et personnalités du monde littéraire interviendront tout au long de ce week-end."^^xsd:string ;
@@ -385,7 +385,7 @@
 	dbpprop:town	 "Saint-Florent-Le-Vieil"^^xsd:string ;
 	dbpprop:website	 "www.ville-saintflorentlevieil.fr"^^xsd:string .
 
-<http://projet.com/10/AFRIQUE_ANJOU_LIVRES_&_EXPRESSIONS>	 foaf:name 	 "AFRIQUE ANJOU LIVRES & EXPRESSIONS"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/AFRIQUE_ANJOU_LIVRES_&_EXPRESSIONS>	 foaf:name 	 "AFRIQUE ANJOU LIVRES & EXPRESSIONS"^^xsd:string ;
 	dbpprop:insee	 "49294"^^xsd:integer ;
 	sc:performer	 "Association Ebena"^^xsd:string ;
 	dbpedia-owl:abstract	 "Sous le nouveau nom Afrique Anjou Livres & expressions, l’ancien Salon du livre africain, biennal, rassemble pour sa 7e édition des auteurs français et africains dans la salle communale de Saint-Lambert-la-Potherie. Au fil de la journée se tiendront des conférences et des débats, des séances de dédicaces et diverses animations."^^xsd:string ;
@@ -395,7 +395,7 @@
 	dbpprop:town	 "Saint-Lambert-la-Potherie"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string .
 
-<http://projet.com/10/L’ENFANCE_À_LA_PAGE>	 foaf:name 	 "L’ENFANCE À LA PAGE"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/L’ENFANCE_À_LA_PAGE>	 foaf:name 	 "L’ENFANCE À LA PAGE"^^xsd:string ;
 	dbpprop:insee	 "44184"^^xsd:integer ;
 	sc:performer	 "Association L’Écrit parle "^^xsd:string ;
 	dbpedia-owl:abstract	 "L’Écrit parle organise son sixième salon du livre pour enfants. Une trentaine d’éditeurs, d’ici et d’ailleurs, petits ou grands, seront présentés. Au programme des rencontres avec des auteurs et des illustrateurs, des spectacles, des contes…."^^xsd:string ;
@@ -405,7 +405,7 @@
 	dbpprop:town	 "Saint-Nazaire"^^xsd:string ;
 	dbpprop:website	 "undefined"^^xsd:string .
 
-<http://projet.com/10/MEETING_N°10>	 foaf:name 	 "MEETING N°10"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/MEETING_N°10>	 foaf:name 	 "MEETING N°10"^^xsd:string ;
 	dbpprop:insee	 "44184"^^xsd:integer ;
 	sc:performer	 "Association Meet"^^xsd:string ;
 	dbpedia-owl:abstract	 "Chaque année, le troisième week-end de novembre, la Maison des écrivains étrangers et des traducteurs de Saint-Nazaire invite une vingtaine d’écrivains du monde entier à venir se rencontrer et rencontrer leurs lecteurs. Deux villes seront à l’honneur en 2012 : Quito et Dublin."^^xsd:string ;
@@ -415,7 +415,7 @@
 	dbpprop:town	 "Saint-Nazaire "^^xsd:string ;
 	dbpprop:website	 "www.maisonecrivainsetrangers.com"^^xsd:string .
 
-<http://projet.com/10/JOURNÉES_NATIONALES_DU_LIVRE_ET_DU_VIN>	 foaf:name 	 "JOURNÉES NATIONALES DU LIVRE ET DU VIN"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/JOURNÉES_NATIONALES_DU_LIVRE_ET_DU_VIN>	 foaf:name 	 "JOURNÉES NATIONALES DU LIVRE ET DU VIN"^^xsd:string ;
 	dbpprop:insee	 "49328"^^xsd:integer ;
 	sc:performer	 "Association Journées nationales du livre et du vin"^^xsd:string ;
 	dbpedia-owl:abstract	 "Le thème décliné cette année est « L’ivresse de la liberté ». Au programme : lectures publiques, conférences, débats littéraires autour d’une centaine d’invités."^^xsd:string ;
@@ -425,7 +425,7 @@
 	dbpprop:town	 "Saumur"^^xsd:string ;
 	dbpprop:website	 "www.livreetvin.com"^^xsd:string .
 
-<http://projet.com/10/SALON_DU_LIVRE_JEUNESSE_EN_ERDRE_ET_GESVRES>	 foaf:name 	 "SALON DU LIVRE JEUNESSE EN ERDRE ET GESVRES"^^xsd:string ;
+<http://lodpaddle.com/RDV_litteraires/SALON_DU_LIVRE_JEUNESSE_EN_ERDRE_ET_GESVRES>	 foaf:name 	 "SALON DU LIVRE JEUNESSE EN ERDRE ET GESVRES"^^xsd:string ;
 	dbpprop:insee	 "44201"^^xsd:integer ;
 	sc:performer	 "Communauté de communes Erdre et Gesvres"^^xsd:string ;
 	dbpedia-owl:abstract	 "Pour cette 8e édition sont attendus à Sucé-sur-Erdre 17 auteurs et illustrateurs, qui auront au préalable rencontré des élèves dans leurs établissements. Parmi eux : Juliette Binet, Pierrick Bisinski, Nathalie Brisac, Frédéric Clément, Cécile Gambini, Julien Magnani, Zazie Sazono… Un rendez-vous professionnel, « Quand les livres jouent… », précède également le salon, le 29 mars. Rythmé de rencontres, dédicaces, ateliers, animations, expositions, conférences…, celui-ci s’articule cette année autour du thème « De l’autre côté du miroir »."^^xsd:string ;
