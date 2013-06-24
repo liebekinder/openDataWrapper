@@ -36,19 +36,62 @@
 
 <xsl:template match="element">
 	<xsl:apply-templates select="geo/name"/>
-	<xsl:apply-templates select="COMMUNE"/>
 	<xsl:apply-templates select="_l"/>
-	<xsl:apply-templates select="COD_COM"/>
-	<xsl:apply-templates select="PRESENTATION"/>
+	<xsl:apply-templates select="LIBTHEME"/>
+	<xsl:apply-templates select="CODE_POSTAL"/>
+	<xsl:apply-templates select="WEB"/>
+	<xsl:apply-templates select="STATUT"/>
+	<xsl:apply-templates select="TELEPHONE"/>
+	<xsl:apply-templates select="THEME"/>
+	<xsl:apply-templates select="COMMUNE"/>
 	<xsl:apply-templates select="LIBCATEGORIE"/>
 	<xsl:apply-templates select="ADRESSE"/>
-	<xsl:apply-templates select="CODE_POSTAL"/>
 	<xsl:apply-templates select="LIBTYPE"/>
-	<xsl:apply-templates select="WEB"/>
 	<xsl:apply-templates select="_IDOBJ"/>
-	<xsl:apply-templates select="TELEPHONE"/>
+	<xsl:apply-templates select="TYPE"/>
+	<xsl:apply-templates select="CATEGORIE"/>
 
 </xsl:template>
+
+<xsl:template match="_l">&#009;geo:lat&#009;"<xsl:value-of select="substring-after(substring-before(.,' ,'),'[ ')"/>"^^xsd:decimal ;
+&#009;geo:long&#009;"<xsl:value-of select="substring-before(substring-after(.,', '),']')"/>"^^xsd:decimal  ;
+</xsl:template>
+
+<xsl:template match="LIBTHEME">
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:themeLabel&#009; "undefined"^^xsd:string ;
+</xsl:when>
+<xsl:otherwise>&#009;pdll:themeLabel&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+</xsl:otherwise></xsl:choose></xsl:template>
+
+<xsl:template match="CODE_POSTAL">
+<xsl:choose><xsl:when test=". = 'null'">&#009;sc:postalCode&#009; "undefined"^^xsd:string ;
+</xsl:when>
+<xsl:otherwise>&#009;sc:postalCode&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+</xsl:otherwise></xsl:choose></xsl:template>
+
+<xsl:template match="WEB">
+<xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:website&#009; "undefined"^^xsd:string ;
+</xsl:when>
+<xsl:otherwise>&#009;dbpprop:website&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+</xsl:otherwise></xsl:choose></xsl:template>
+
+<xsl:template match="STATUT">
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:statut&#009; "undefined"^^xsd:string ;
+</xsl:when>
+<xsl:otherwise>&#009;pdll:statut&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+</xsl:otherwise></xsl:choose></xsl:template>
+
+<xsl:template match="TELEPHONE">
+<xsl:choose><xsl:when test=". = 'null'">&#009;sc:telephone&#009; "undefined"^^xsd:string ;
+</xsl:when>
+<xsl:otherwise>&#009;sc:telephone&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+</xsl:otherwise></xsl:choose></xsl:template>
+
+<xsl:template match="THEME">
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:Theme&#009; "undefined"^^xsd:string ;
+</xsl:when>
+<xsl:otherwise>&#009;pdll:Theme&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+</xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="COMMUNE">
 <xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:town&#009; "undefined"^^xsd:string ;
@@ -56,23 +99,8 @@
 <xsl:otherwise>&#009;dbpprop:town&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
-<xsl:template match="_l">&#009;geo:lat&#009;"<xsl:value-of select="substring-after(substring-before(.,' ,'),'[ ')"/>"^^xsd:decimal ;
-&#009;geo:long&#009;"<xsl:value-of select="substring-before(substring-after(.,', '),']')"/>"^^xsd:decimal  ;
-</xsl:template>
-
 <xsl:template match="geo/name"><xsl:choose><xsl:when test=". = 'null'"></xsl:when>
-<xsl:otherwise><xsl:value-of select="concat(concat('&lt;http://lodpaddle.com/decheteries/',translate(translate(translate(translate(translate(translate(./text(),'&quot;',' '),'&gt;',' '),'&lt;',' '),'  ',' '),' ','_'),'.','_')),'&gt;')"/>&#009; foaf:name &#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
-</xsl:otherwise></xsl:choose></xsl:template>
-
-<xsl:template match="COD_COM"><xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:insee&#009; "NaN"^^xsd:integer ;
-</xsl:when>
-<xsl:otherwise>&#009;dbpprop:insee&#009; "<xsl:value-of select="."/>"^^xsd:integer ;
-</xsl:otherwise></xsl:choose></xsl:template>
-
-<xsl:template match="PRESENTATION">
-<xsl:choose><xsl:when test=". = 'null'">&#009;dbpedia-owl:abstract&#009; "undefined"^^xsd:string ;
-</xsl:when>
-<xsl:otherwise>&#009;dbpedia-owl:abstract&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise><xsl:value-of select="concat(concat('&lt;http://lodpaddle.com/equipement_culture/',translate(translate(translate(translate(translate(translate(./text(),'&quot;',' '),'&gt;',' '),'&lt;',' '),'  ',' '),' ','_'),'.','_')),'&gt;')"/>&#009; foaf:name &#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="LIBCATEGORIE">
@@ -87,22 +115,10 @@
 <xsl:otherwise>&#009;dbpprop:location&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
-<xsl:template match="CODE_POSTAL">
-<xsl:choose><xsl:when test=". = 'null'">&#009;sc:postalCode&#009; "undefined"^^xsd:string ;
-</xsl:when>
-<xsl:otherwise>&#009;sc:postalCode&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
-</xsl:otherwise></xsl:choose></xsl:template>
-
 <xsl:template match="LIBTYPE">
 <xsl:choose><xsl:when test=". = 'null'">&#009;pdll:TypeLabel&#009; "undefined"^^xsd:string ;
 </xsl:when>
 <xsl:otherwise>&#009;pdll:TypeLabel&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
-</xsl:otherwise></xsl:choose></xsl:template>
-
-<xsl:template match="WEB">
-<xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:website&#009; "undefined"^^xsd:string ;
-</xsl:when>
-<xsl:otherwise>&#009;dbpprop:website&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="_IDOBJ">
@@ -111,11 +127,17 @@
 <xsl:otherwise>&#009;pdll:id&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
-<xsl:template match="TELEPHONE">
-<xsl:choose><xsl:when test=". = 'null'">&#009;sc:telephone&#009; "undefined"^^xsd:string .
+<xsl:template match="TYPE">
+<xsl:choose><xsl:when test=". = 'null'">&#009;TEMPORAIRE:TypeProblem&#009; "undefined"^^xsd:string ;
+</xsl:when>
+<xsl:otherwise>&#009;TEMPORAIRE:TypeProblem&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+</xsl:otherwise></xsl:choose></xsl:template>
+
+<xsl:template match="CATEGORIE">
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:Category&#009; "undefined"^^xsd:string .
 
 </xsl:when>
-<xsl:otherwise>&#009;sc:telephone&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string .
+<xsl:otherwise>&#009;pdll:Category&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string .
 
 </xsl:otherwise></xsl:choose></xsl:template>
 

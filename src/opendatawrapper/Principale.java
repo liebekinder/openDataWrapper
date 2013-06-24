@@ -19,14 +19,12 @@ public class Principale {
 	public static LoadRessources lr;
 	public static Map<Integer, String> queries;
 	public static String queryFolder;
-	
+
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-		// TODO
 		/*
 		 * This will be the front door of the application The wrapper will know
 		 * what data it is supposed to transform what method it will use if he
@@ -36,11 +34,12 @@ public class Principale {
 		try {
 			lr = new LoadRessources();
 		} catch (JDOMException e1) {
-			// TODO Auto-generated catch block
-			System.err.println("The configuration file dataSource.xml is corrupted. Please check that this file is a valid XML file!");
+			System.err
+					.println("The configuration file dataSource.xml is corrupted. Please check that this file is a valid XML file!");
 			return;
 		} catch (IOException e1) {
-			System.err.println("Unable to open the configuration file dataSources.xml");
+			System.err
+					.println("Unable to open the configuration file dataSources.xml");
 			return;
 		}
 		listeDataSource = lr.extractData();
@@ -62,10 +61,9 @@ public class Principale {
 						+ "[3] Convert one data into turtle\n"
 						+ "[4] Convert all data into turtle\n"
 						+ "[5] Convert one data into RDF/XML\n"
-						+ "[6] Convert all data into RDF/XML\n" 
-						+ "[7] Query over converted data\n" 
-						+ "[8] Reload data\n" 
-						+ "[0] Quit\n");
+						+ "[6] Convert all data into RDF/XML\n"
+						+ "[7] Query over converted data\n"
+						+ "[8] Reload data\n" + "[0] Quit\n");
 				result = in.nextInt();
 
 				switch (result) {
@@ -110,7 +108,7 @@ public class Principale {
 	private static void queryOverData() {
 		System.out.println("Query management system");
 		QueryManager qm = new QueryManager(queries, listeDataSource);
-		qm.run();		
+		qm.run();
 	}
 
 	private static void reloadData() {
@@ -122,7 +120,7 @@ public class Principale {
 		System.out.print("adding new sources...");
 		lr.addDatasources();
 		listeDataSource = lr.extractData();
-		System.out.println("done!");		
+		System.out.println("done!");
 	}
 
 	private static void listDatasources() {
@@ -142,18 +140,9 @@ public class Principale {
 	 * @param DataSource dts, the DataSource ressource you want to convert
 	 */
 	private static void conversionTtl(DataSource dts) {
-		if (dts.getFormat().equals("XML")) {
-			ConvertXML cxml = new ConvertXML(dts.getXsltFile(),
-					dts.getOutputTtl(), lr.mappingFile);
-			if (dts.isApi()) {
-				cxml.convertFromApi(dts.getApiUrl(), properties);
-			} else {
-				cxml.convertfromFile(dts.getFilePath(), properties);
-			}
-		} else {
-			System.err.println("the format " + dts.getFormat()
-					+ " is not supported yet!");
-		}
+		ConvertTTL cttl = new ConvertTTL(dts.getXsltFile(), dts.getOutputTtl(),
+				lr.mappingFile, dts.getNom(), lr.getSpecificMappingFolder()+"/"+dts.getNom()+".properties");
+		cttl.convertFromApi(dts.getApiUrl(), properties, dts.isSpecificXSLT());
 	}
 
 	/*
@@ -166,13 +155,8 @@ public class Principale {
 		try {
 			int result = in.nextInt();
 			DataSource dts = listeDataSource.get(result);
-			if (dts.getFormat().equals("XML")) {
-				conversionTtl(dts);
-				System.out.println("conversion ok!");
-			} else {
-				System.err
-						.println("le format de fichier n'est pas supporté pour le moment!");
-			}
+			conversionTtl(dts);
+			System.out.println("conversion ok!");
 		} catch (InputMismatchException e) {
 			System.err.println("la saisie effectué n'est pas un nombre!");
 		}
@@ -191,9 +175,7 @@ public class Principale {
 		while (it.hasNext()) {
 			courant = it.next();
 			dts = listeDataSource.get(courant);
-			if (dts.getFormat().equals("XML")) {
-				conversionTtl(dts);
-			}
+			conversionTtl(dts);
 		}
 	}
 
@@ -204,14 +186,9 @@ public class Principale {
 		try {
 			int result = in.nextInt();
 			DataSource dts = listeDataSource.get(result);
-			if (dts.getFormat().equals("XML")) {
-				conversionTtl(dts);
-				conversionXmlRdf(dts);
-				System.out.println("conversion ok!");
-			} else {
-				System.err
-						.println("le format de fichier n'est pas supporté pour le moment!");
-			}
+			conversionTtl(dts);
+			conversionXmlRdf(dts);
+			System.out.println("conversion ok!");
 		} catch (InputMismatchException e) {
 			System.err.println("la saisie effectué n'est pas un nombre!");
 		}
@@ -226,18 +203,16 @@ public class Principale {
 		while (it.hasNext()) {
 			courant = it.next();
 			dts = listeDataSource.get(courant);
-			if (dts.getFormat().equals("XML")) {
-				conversionTtl(dts);
-				conversionXmlRdf(dts);
-			}
+			conversionTtl(dts);
+			conversionXmlRdf(dts);
 		}
 	}
 
 	private static void conversionXmlRdf(DataSource dts) {
-		ConvertTtl cttl = new ConvertTtl(dts.getOutputTtl(), dts.getOutputRdf());
-		cttl.convert();
+		ConvertXML cxml = new ConvertXML(dts.getOutputTtl(), dts.getOutputRdf());
+		cxml.convert();
 	}
-	
+
 	public static Properties getMapping(String path) {
 		Properties p = new Properties();
 		try {

@@ -37,15 +37,12 @@
 <xsl:template match="element">
 	<xsl:apply-templates select="geo/name"/>
 	<xsl:apply-templates select="Adresse"/>
-	<xsl:apply-templates select="Capacité"/>
 	<xsl:apply-templates select="_l"/>
-	<xsl:apply-templates select="Jauge"/>
-	<xsl:apply-templates select="Contact"/>
 	<xsl:apply-templates select="ID"/>
-	<xsl:apply-templates select="Courriel"/>
 	<xsl:apply-templates select="Ville"/>
 	<xsl:apply-templates select="CP"/>
 	<xsl:apply-templates select="Téléphone"/>
+	<xsl:apply-templates select="Nature"/>
 
 </xsl:template>
 
@@ -55,42 +52,18 @@
 <xsl:otherwise>&#009;dbpprop:location&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
-<xsl:template match="Capacité">
-<xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:capacity&#009; "undefined"^^xsd:string ;
-</xsl:when>
-<xsl:otherwise>&#009;dbpprop:capacity&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
-</xsl:otherwise></xsl:choose></xsl:template>
-
 <xsl:template match="_l">&#009;geo:lat&#009;"<xsl:value-of select="substring-after(substring-before(.,' ,'),'[ ')"/>"^^xsd:decimal ;
 &#009;geo:long&#009;"<xsl:value-of select="substring-before(substring-after(.,', '),']')"/>"^^xsd:decimal  ;
 </xsl:template>
 
-<xsl:template match="Jauge">
-<xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:seatingCapacity&#009; "undefined"^^xsd:string ;
-</xsl:when>
-<xsl:otherwise>&#009;dbpprop:seatingCapacity&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
-</xsl:otherwise></xsl:choose></xsl:template>
-
 <xsl:template match="geo/name"><xsl:choose><xsl:when test=". = 'null'"></xsl:when>
-<xsl:otherwise><xsl:value-of select="concat(concat('&lt;http://lodpaddle.com/salle_spectacle/',translate(translate(translate(translate(translate(translate(./text(),'&quot;',' '),'&gt;',' '),'&lt;',' '),'  ',' '),' ','_'),'.','_')),'&gt;')"/>&#009; foaf:name &#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
-</xsl:otherwise></xsl:choose></xsl:template>
-
-<xsl:template match="Contact">
-<xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:owner&#009; "undefined"^^xsd:string ;
-</xsl:when>
-<xsl:otherwise>&#009;dbpprop:owner&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise><xsl:value-of select="concat(concat('&lt;http://lodpaddle.com/musique2/',translate(translate(translate(translate(translate(translate(./text(),'&quot;',' '),'&gt;',' '),'&lt;',' '),'  ',' '),' ','_'),'.','_')),'&gt;')"/>&#009; foaf:name &#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="ID">
 <xsl:choose><xsl:when test=". = 'null'">&#009;pdll:id&#009; "undefined"^^xsd:string ;
 </xsl:when>
 <xsl:otherwise>&#009;pdll:id&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
-</xsl:otherwise></xsl:choose></xsl:template>
-
-<xsl:template match="Courriel">
-<xsl:choose><xsl:when test=". = 'null'">&#009;sc:email&#009; "undefined"^^xsd:string ;
-</xsl:when>
-<xsl:otherwise>&#009;sc:email&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="Ville">
@@ -105,10 +78,16 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="Téléphone">
-<xsl:choose><xsl:when test=". = 'null'">&#009;sc:telephone&#009; "undefined"^^xsd:string .
+<xsl:choose><xsl:when test=". = 'null'">&#009;sc:telephone&#009; "undefined"^^xsd:string ;
+</xsl:when>
+<xsl:otherwise>&#009;sc:telephone&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+</xsl:otherwise></xsl:choose></xsl:template>
+
+<xsl:template match="Nature">
+<xsl:choose><xsl:when test=". = 'null'">&#009;dbpedia-owl:abstract&#009; "undefined"^^xsd:string .
 
 </xsl:when>
-<xsl:otherwise>&#009;sc:telephone&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string .
+<xsl:otherwise>&#009;dbpedia-owl:abstract&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string .
 
 </xsl:otherwise></xsl:choose></xsl:template>
 

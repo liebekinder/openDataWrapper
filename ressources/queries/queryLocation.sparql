@@ -1,0 +1,11 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+
+SELECT DISTINCT ?nom ?lat ?lon
+WHERE{
+  ?r foaf:name ?nom .
+  ?r geo:lat ?lat .
+  ?r geo:long ?lon .
+  FILTER (?lat < 47.234257 && ?lat > 47.215254 && ?lon < -1.600256 && ?lon > -1.640425) .
+}
