@@ -1,7 +1,9 @@
 package opendatawrapper;
 
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileOutputStream;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
@@ -20,18 +22,22 @@ public class XSLConstructor {
 	public Document XMLFile;
 	public Properties properties;
 	public String dataset;
-	
+	public String speMappingPath;
+
 	public final String URIBase = "http://lodpaddle.com/";
 
 	private final String intVide = "NaN";
 	private final String decVide = "NaN";
 	private final String stringVide = "undefined";
+	private Properties speProp;
 
-	public XSLConstructor(String xSLFile_, Document document, Properties p, String Dataset) {
+	public XSLConstructor(String xSLFile_, Document document, Properties p,
+			String Dataset, String spePath) {
 		XSLFile = xSLFile_;
 		XMLFile = document;
 		properties = p;
 		dataset = Dataset;
+		speMappingPath = spePath;
 	}
 
 	public boolean construct(String mappingPath) {
@@ -45,6 +51,13 @@ public class XSLConstructor {
 			// on possède ainsi un élément du fichier
 			List<Element> listeTag = element.getChildren();
 			Iterator<Element> it = listeTag.iterator();
+			File f = new File(speMappingPath);
+			if (f.exists()) {
+				System.out
+						.println("Personnal property file detected");
+				speProp = new Properties();
+				speProp.load(new FileReader(f));
+			}
 			System.out.print("XSL construction preprocessing");
 			boolean modification = false;
 			while (it.hasNext()) {
@@ -53,20 +66,27 @@ public class XSLConstructor {
 
 				// patch pour geo/name => a corriger
 				String name = courant.getName();
+
 				if (courant.getChildren().size() == 1) {
 					name += "/name";
 				}
-				if (properties.containsKey(name)) {
+				if (speProp != null && speProp.containsKey(name)) {
 					map.put(name,
-							new MappingUnit((String) properties.get(name)));
+							new MappingUnit((String) speProp.get(name)));
 				} else {
-					// la propriété n'existe pas, il faut la créer
-					properties.setProperty(name, "TEMPORAIRE:" + name
-							+ ",string");
-					System.err.println("WARNING: new property added: " + name);
-					modification = true;
-					map.put(name,
-							new MappingUnit((String) properties.get(name)));
+					if (properties.containsKey(name)) {
+						map.put(name,
+								new MappingUnit((String) properties.get(name)));
+					} else {
+						// la propriété n'existe pas, il faut la créer
+						properties.setProperty(name, "TEMPORAIRE:" + name
+								+ ",string");
+						System.err.println("WARNING: new property added: "
+								+ name);
+						modification = true;
+						map.put(name,
+								new MappingUnit((String) properties.get(name)));
+					}
 				}
 			}
 			if (modification) {
@@ -262,7 +282,6 @@ public class XSLConstructor {
 	}
 
 	private String lastRetour(Iterator<String> it) {
-		// TODO Auto-generated method stub
 		if (it.hasNext())
 			return "\n";
 		else
@@ -270,7 +289,6 @@ public class XSLConstructor {
 	}
 
 	private String last(Iterator<String> it) {
-		// TODO Auto-generated method stub
 		if (it.hasNext())
 			return ";";
 		else

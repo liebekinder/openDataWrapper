@@ -33,6 +33,7 @@ public class LoadRessources {
 	public String mappingFile;
 	public String queryFolder;
 	public Map<Integer,String> queryList;
+	public String specificMappingFolder;
 
 	public Map<Integer, String> getQueries() {
 		return queryList;
@@ -65,6 +66,8 @@ public class LoadRessources {
 		queryFolder = document.getRootElement().getChild("configuration")
 				.getChild("queryFolder").getValue();
 		queryList = findQueries(queryFolder);
+		specificMappingFolder = document.getRootElement().getChild("configuration")
+				.getChild("specificMappingFolder").getValue();
 
 		// Dans un premier temps on liste tous les étudiants
 		List<Element> listsources = racine.getChildren("source");
@@ -77,7 +80,6 @@ public class LoadRessources {
 
 			String nom = courant.getChild("nom").getValue().trim();
 			String apiUrl = courant.getChild("apiurl").getValue().trim();
-			String specificMapping = courant.getChild("specificMapping").getValue().trim();
 			String xsltFile = courant.getChild("xsltFile").getValue().trim();
 			boolean specificXSLT = Boolean.parseBoolean(courant.getChild("specificXSLT")
 					.getValue());
@@ -85,7 +87,7 @@ public class LoadRessources {
 			String outputRdf = courant.getChild("outputXmlFile").getValue().trim();
 
 			// chaque source est ajouté à la hashMap
-			listeDataSource.put(i, new DataSource(nom, apiUrl, specificMapping, xsltFile,
+			listeDataSource.put(i, new DataSource(nom, apiUrl, xsltFile,
 					specificXSLT, outputTtl,
 					outputRdf));
 			i++;
@@ -95,6 +97,10 @@ public class LoadRessources {
 
 	}
 	
+	public String getSpecificMappingFolder() {
+		return specificMappingFolder;
+	}
+
 	/**
 	 * @param queryFolder2, the folder that contains all .sparql query files
 	 * @return a TreeMap with the file name and the absolute path
@@ -150,8 +156,6 @@ public class LoadRessources {
 					Element apiurl = new Element("apiurl");
 					apiurl.setText((String) p.getProperty((String) valeur)
 							+ "?format=xml");
-					Element specificMapping = new Element("specificMapping");
-					specificMapping.setText("null");
 					Element xsltFile = new Element("xsltFile");
 					xsltFile.setText("ressources/xsl/" + (String) valeur
 							+ ".xsl");
@@ -166,7 +170,6 @@ public class LoadRessources {
 
 					temp.addContent(name);
 					temp.addContent(apiurl);
-					temp.addContent(specificMapping);
 					temp.addContent(xsltFile);
 					temp.addContent(specificXSLT);
 					temp.addContent(outputTtlFile);

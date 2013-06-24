@@ -89,9 +89,9 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="LABEL_1">
-<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:isCuisineriesGourmandesLabelled&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;gr:TESTDEPROPRIETEBLABLA&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;pdll:isCuisineriesGourmandesLabelled&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;gr:TESTDEPROPRIETEBLABLA&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="VIL">

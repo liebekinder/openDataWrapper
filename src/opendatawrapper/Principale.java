@@ -141,8 +141,8 @@ public class Principale {
 	 */
 	private static void conversionTtl(DataSource dts) {
 		ConvertTTL cttl = new ConvertTTL(dts.getXsltFile(), dts.getOutputTtl(),
-				lr.mappingFile, dts.getNom());
-		cttl.convertFromApi(dts.getApiUrl(), properties);
+				lr.mappingFile, dts.getNom(), lr.getSpecificMappingFolder()+"/"+dts.getNom()+".properties");
+		cttl.convertFromApi(dts.getApiUrl(), properties, dts.isSpecificXSLT());
 	}
 
 	/*

@@ -31,7 +31,7 @@
 @prefix geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt; .
 
 </xsl:text>
-	<xsl:apply-templates />
+	<xsl:apply-templates/>
 </xsl:template>
 
 <xsl:template match="element">

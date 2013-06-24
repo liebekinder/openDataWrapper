@@ -4,19 +4,16 @@ public class DataSource {
 
 	public String nom;
 	public String apiUrl;
-	public String specificMapping;
 	public String xsltFile;
 	public boolean specificXSLT;
 	public String outputTtl;
 	public String outputRdf;
 
-	public DataSource(String nom, String apiUrl, String specificMapping,
-			String xsltFile, boolean specificXSLT, String outputTtl,
-			String outputRdf) {
+	public DataSource(String nom, String apiUrl, String xsltFile,
+			boolean specificXSLT, String outputTtl, String outputRdf) {
 		super();
 		this.nom = nom;
 		this.apiUrl = apiUrl;
-		this.specificMapping = specificMapping;
 		this.xsltFile = xsltFile;
 		this.specificXSLT = specificXSLT;
 		this.outputTtl = outputTtl;
@@ -29,10 +26,6 @@ public class DataSource {
 
 	public String getApiUrl() {
 		return apiUrl;
-	}
-
-	public String getSpecificMapping() {
-		return specificMapping;
 	}
 
 	public String getXsltFile() {

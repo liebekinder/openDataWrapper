@@ -42,6 +42,7 @@ public class ConvertTTL {
 	public String outputFile;
 	public String mappingPath;
 	public String datasetName;
+	public String speMappingPath;
 
 	String proxyHost;
 	String proxyPort;
@@ -60,11 +61,12 @@ public class ConvertTTL {
 	 * @param XMLout le dossier qui contiendra le fichier converti
 	 */
 	public ConvertTTL(String XSLin, String XMLout, String mappingPath,
-			String dataset) {
+			String dataset, String speMap) {
 		XSLFile_ = XSLin;
 		outputFile = XMLout;
 		this.mappingPath = mappingPath;
 		datasetName = dataset;
+		speMappingPath = speMap;
 
 		try {
 			Properties prop = new Properties();
@@ -84,10 +86,15 @@ public class ConvertTTL {
 	 * 
 	 * @param url, the URL of the remote API *
 	 */
-	public void convertFromApi(String url, Properties p) {
+	public void convertFromApi(String url, Properties p, boolean construct) {
 		Document document = getRemoteXML(url);
 		if (document != null) {
-			if (constructXSL(p, document)) {
+			boolean constructOk = true;
+			if (!construct) {
+				constructOk = constructXSL(p, document);
+			}
+			if (constructOk) {
+
 				DOMOutputter domOutputter = new DOMOutputter();
 				org.w3c.dom.Document w3cDoc;
 
@@ -230,12 +237,10 @@ public class ConvertTTL {
 			System.out.println("data received!");
 			return new SAXBuilder().build(stream);
 		} catch (MalformedURLException e) {
-			// TODO Auto-generated catch block
 			System.err.println("l'URL demandée n'est pas correcte! "
 					+ e.getMessage());
 			return null;
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			System.err
 					.println("probleme de gestion du stream de donnée! Etes-vous connecté à internet? ("
 							+ e.getMessage() + ")");
@@ -243,7 +248,6 @@ public class ConvertTTL {
 					.println("Vérifiez que vous n'etes pas derriere un proxy. Dans le cas positif, vérifez vos paramètres proxy! ");
 			return null;
 		} catch (JDOMException e) {
-			// TODO Auto-generated catch block
 			System.err
 					.println("erreur lors de l'intéprétation de l'XML reçu! ("
 							+ e.getMessage() + ")");
@@ -262,7 +266,7 @@ public class ConvertTTL {
 	 */
 	public boolean constructXSL(Properties p, Document document) {
 		XSLConstructor xslc = new XSLConstructor(XSLFile_, document, p,
-				datasetName);
+				datasetName, speMappingPath);
 		return xslc.construct(mappingPath);
 
 	}
