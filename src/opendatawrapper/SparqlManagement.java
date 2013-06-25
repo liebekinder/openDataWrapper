@@ -25,6 +25,7 @@ import com.hp.hpl.jena.util.FileManager;
 public class SparqlManagement {
 
 	public String datasetDirectory;
+	public final String UriBase = "http://localhost:3030/openData/";
 
 	public SparqlManagement(String dataset) {
 		super();
@@ -40,7 +41,8 @@ public class SparqlManagement {
 			DataSource courant = listeDataSource.get(cle);
 			Model temporaryModel = FileManager.get().loadModel(
 					"file:" + courant.getOutputTtl(), "N3");
-			dataset.addNamedModel(courant.getNom(), temporaryModel);
+			System.out.println(UriBase+courant.getNom());
+			dataset.addNamedModel(UriBase+courant.getNom(), temporaryModel);
 		}
 		dataset.close();
 		System.out.println("done!");
