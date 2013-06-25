@@ -112,8 +112,8 @@ public class Principale {
 	private static void sparql() {
 		SparqlManagement spm = new SparqlManagement(lr.getDatasetFolder());
 		
-		//spm.load(listeDataSource);
-		spm.query();
+		spm.load(listeDataSource);
+		//spm.query();
 	}
 
 	private static void queryOverData() {

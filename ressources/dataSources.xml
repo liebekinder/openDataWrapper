@@ -4,7 +4,7 @@
     <mappingFile>ressources/mapping.properties</mappingFile>
     <specificMappingFolder>ressources/specific_mapping</specificMappingFolder>
     <queryFolder>ressources/queries</queryFolder>
-    <datasetFolder>ressources/tdpDataset</datasetFolder>
+    <datasetFolder>tdpDataset</datasetFolder>
   </configuration>
   <source>
     <nom>service_public</nom>

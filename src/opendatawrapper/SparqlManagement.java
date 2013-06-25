@@ -28,7 +28,7 @@ public class SparqlManagement {
 
 	public SparqlManagement(String dataset) {
 		super();
-		this.datasetDirectory = dataset;
+		this.datasetDirectory = System.getProperty("user.home")+"/.openDataWrapper/"+dataset;
 	}
 
 	public void load(Map<Integer, DataSource> listeDataSource) {
