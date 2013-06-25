@@ -36,6 +36,8 @@
 
 <xsl:template match="element">
 	<xsl:apply-templates select="geo/name"/>
+<xsl:text>&#009;rdf:type&#009; pdll:parc_animalier_theme;
+</xsl:text>
 	<xsl:apply-templates select="V-D"/>
 	<xsl:apply-templates select="VISIT_GRO_GUI"/>
 	<xsl:apply-templates select="LABEL_1"/>

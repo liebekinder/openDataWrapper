@@ -36,6 +36,8 @@
 
 <xsl:template match="element">
 	<xsl:apply-templates select="geo/name"/>
+<xsl:text>&#009;rdf:type&#009; pdll:patrimoine;
+</xsl:text>
 	<xsl:apply-templates select="SCLE"/>
 	<xsl:apply-templates select="STAT"/>
 	<xsl:apply-templates select="MURS"/>

@@ -53,8 +53,7 @@ public class XSLConstructor {
 			Iterator<Element> it = listeTag.iterator();
 			File f = new File(speMappingPath);
 			if (f.exists()) {
-				System.out
-						.println("Personnal property file detected");
+				System.out.println("Personnal property file detected");
 				speProp = new Properties();
 				speProp.load(new FileReader(f));
 			}
@@ -71,8 +70,7 @@ public class XSLConstructor {
 					name += "/name";
 				}
 				if (speProp != null && speProp.containsKey(name)) {
-					map.put(name,
-							new MappingUnit((String) speProp.get(name)));
+					map.put(name, new MappingUnit((String) speProp.get(name)));
 				} else {
 					if (properties.containsKey(name)) {
 						map.put(name,
@@ -281,6 +279,12 @@ public class XSLConstructor {
 		}
 	}
 
+	private String templateType() {
+		String s = new String("<xsl:text>&#009;rdf:type&#009; pdll:" + dataset
+				+ ";\n</xsl:text>\n");
+		return s;
+	}
+
 	private String lastRetour(Iterator<String> it) {
 		if (it.hasNext())
 			return "\n";
@@ -306,6 +310,7 @@ public class XSLConstructor {
 			if (map.get(courant).vocabulaire.equals("foaf:name")) {
 				out.write("\t<xsl:apply-templates select=\"" + courant
 						+ "\"/>\n");
+				out.write(templateType());
 				trouve = true;
 				principal = courant;
 			}

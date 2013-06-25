@@ -36,6 +36,8 @@
 
 <xsl:template match="element">
 	<xsl:apply-templates select="geo/name"/>
+<xsl:text>&#009;rdf:type&#009; pdll:action_sociale ;
+</xsl:text>
 	<xsl:apply-templates select="_l"/>
 	<xsl:apply-templates select="LIBTHEME"/>
 	<xsl:apply-templates select="CODE_POSTAL"/>
@@ -50,7 +52,6 @@
 	<xsl:apply-templates select="_IDOBJ"/>
 	<xsl:apply-templates select="TYPE"/>
 	<xsl:apply-templates select="CATEGORIE"/>
-
 </xsl:template>
 
 <xsl:template match="_l">&#009;geo:lat&#009;"<xsl:value-of select="substring-after(substring-before(.,' ,'),'[ ')"/>"^^xsd:decimal ;

@@ -63,7 +63,8 @@ public class Principale {
 						+ "[5] Convert one data into RDF/XML\n"
 						+ "[6] Convert all data into RDF/XML\n"
 						+ "[7] Query over converted data\n"
-						+ "[8] Reload data\n" + "[0] Quit\n");
+						+ "[8] Reload data\n" + "[9] SPARQL Endpoint\n"
+						+ "[0] Quit\n");
 				result = in.nextInt();
 
 				switch (result) {
@@ -91,6 +92,9 @@ public class Principale {
 				case 8:
 					reloadData();
 					break;
+				case 9:
+					sparql();
+					break;
 				default:
 					// on quitte
 					result = -1;
@@ -103,6 +107,13 @@ public class Principale {
 			}
 		}
 		System.out.println("Exiting...");
+	}
+
+	private static void sparql() {
+		SparqlManagement spm = new SparqlManagement(lr.getDatasetFolder());
+		
+		//spm.load(listeDataSource);
+		spm.query();
 	}
 
 	private static void queryOverData() {
@@ -141,7 +152,8 @@ public class Principale {
 	 */
 	private static void conversionTtl(DataSource dts) {
 		ConvertTTL cttl = new ConvertTTL(dts.getXsltFile(), dts.getOutputTtl(),
-				lr.mappingFile, dts.getNom(), lr.getSpecificMappingFolder()+"/"+dts.getNom()+".properties");
+				lr.mappingFile, dts.getNom(), lr.getSpecificMappingFolder()
+						+ "/" + dts.getNom() + ".properties");
 		cttl.convertFromApi(dts.getApiUrl(), properties, dts.isSpecificXSLT());
 	}
 

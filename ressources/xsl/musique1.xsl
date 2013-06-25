@@ -36,6 +36,8 @@
 
 <xsl:template match="element">
 	<xsl:apply-templates select="geo/name"/>
+<xsl:text>&#009;rdf:type&#009; pdll:musique1;
+</xsl:text>
 	<xsl:apply-templates select="Adresse"/>
 	<xsl:apply-templates select="_l"/>
 	<xsl:apply-templates select="ID"/>

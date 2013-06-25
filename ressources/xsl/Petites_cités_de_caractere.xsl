@@ -36,6 +36,8 @@
 
 <xsl:template match="element">
 	<xsl:apply-templates select="COMMUNE_LIBELLE"/>
+<xsl:text>&#009;rdf:type&#009; pdll:Petites_cités_de_caractere;
+</xsl:text>
 	<xsl:apply-templates select="COMMUNE_CODE_INSEE"/>
 	<xsl:apply-templates select="LABELLISEE"/>
 	<xsl:apply-templates select="LABELLISABLE"/>

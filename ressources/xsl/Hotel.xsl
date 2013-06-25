@@ -36,6 +36,8 @@
 
 <xsl:template match="element">
 	<xsl:apply-templates select="geo/name"/>
+<xsl:text>&#009;rdf:type&#009; pdll:Hotel;
+</xsl:text>
 	<xsl:apply-templates select="V-D"/>
 	<xsl:apply-templates select="DESCRIPTION_DESCRIPTIF_OUVERTURES"/>
 	<xsl:apply-templates select="SPA"/>

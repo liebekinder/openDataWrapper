@@ -34,6 +34,11 @@ public class LoadRessources {
 	public String queryFolder;
 	public Map<Integer,String> queryList;
 	public String specificMappingFolder;
+	public String datasetFolder;
+
+	public String getDatasetFolder() {
+		return datasetFolder;
+	}
 
 	public Map<Integer, String> getQueries() {
 		return queryList;
@@ -68,6 +73,8 @@ public class LoadRessources {
 		queryList = findQueries(queryFolder);
 		specificMappingFolder = document.getRootElement().getChild("configuration")
 				.getChild("specificMappingFolder").getValue();
+		datasetFolder = document.getRootElement().getChild("configuration")
+				.getChild("datasetFolder").getValue();
 
 		// Dans un premier temps on liste tous les étudiants
 		List<Element> listsources = racine.getChildren("source");

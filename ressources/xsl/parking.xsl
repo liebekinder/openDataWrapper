@@ -36,6 +36,8 @@
 
 <xsl:template match="element">
 	<xsl:apply-templates select="geo/name"/>
+<xsl:text>&#009;rdf:type&#009; pdll:parking;
+</xsl:text>
 	<xsl:apply-templates select="SERVICE_VELO"/>
 	<xsl:apply-templates select="CAPACITE_VOITURE"/>
 	<xsl:apply-templates select="_l"/>

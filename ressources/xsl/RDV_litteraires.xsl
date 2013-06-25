@@ -36,6 +36,8 @@
 
 <xsl:template match="element">
 	<xsl:apply-templates select="NOM"/>
+<xsl:text>&#009;rdf:type&#009; pdll:RDV_litteraires;
+</xsl:text>
 	<xsl:apply-templates select="COMMUNE_CODE_INSEE"/>
 	<xsl:apply-templates select="ORGANISATEUR"/>
 	<xsl:apply-templates select="DESCRIPTION"/>

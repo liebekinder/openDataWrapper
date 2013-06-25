@@ -36,6 +36,8 @@
 
 <xsl:template match="element">
 	<xsl:apply-templates select="NOM"/>
+<xsl:text>&#009;rdf:type&#009; pdll:lieux_d_art;
+</xsl:text>
 	<xsl:apply-templates select="SOUTIEN"/>
 	<xsl:apply-templates select="DESCRIPTION"/>
 	<xsl:apply-templates select="HORAIRES"/>

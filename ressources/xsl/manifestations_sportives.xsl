@@ -36,6 +36,8 @@
 
 <xsl:template match="element">
 	<xsl:apply-templates select="MANIFESTATION"/>
+<xsl:text>&#009;rdf:type&#009; pdll:manifestations_sportives;
+</xsl:text>
 	<xsl:apply-templates select="COMMUNE_CODE_INSEE"/>
 	<xsl:apply-templates select="DATE_FIN"/>
 	<xsl:apply-templates select="COMMUNE"/>

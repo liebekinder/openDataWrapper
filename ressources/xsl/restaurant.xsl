@@ -36,6 +36,8 @@
 
 <xsl:template match="element">
 	<xsl:apply-templates select="geo/name"/>
+<xsl:text>&#009;rdf:type&#009; pdll:restaurant;
+</xsl:text>
 	<xsl:apply-templates select="V-D"/>
 	<xsl:apply-templates select="LABEL_2"/>
 	<xsl:apply-templates select="LABEL_1"/>

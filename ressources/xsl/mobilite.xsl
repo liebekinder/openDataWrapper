@@ -36,6 +36,8 @@
 
 <xsl:template match="element">
 	<xsl:apply-templates select="geo/name"/>
+<xsl:text>&#009;rdf:type&#009; pdll:mobilite;
+</xsl:text>
 	<xsl:apply-templates select="_l"/>
 	<xsl:apply-templates select="LIBTHEME"/>
 	<xsl:apply-templates select="CODE_POSTAL"/>
