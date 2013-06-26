@@ -14,6 +14,13 @@ import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
 import org.jdom2.JDOMException;
 
+import com.hp.hpl.jena.query.Query;
+import com.hp.hpl.jena.query.QueryExecution;
+import com.hp.hpl.jena.query.QueryExecutionFactory;
+import com.hp.hpl.jena.query.QueryFactory;
+import com.hp.hpl.jena.query.ResultSet;
+import com.hp.hpl.jena.query.ResultSetFormatter;
+
 public class Principale {
 
 	static Logger logger = Logger.getLogger(Principale.class);
@@ -35,7 +42,7 @@ public class Principale {
 		 * can contact the API or must use a file
 		 */
 		// Set up a simple configuration that logs on the console.
-	     BasicConfigurator.configure();
+		BasicConfigurator.configure();
 
 		try {
 			lr = new LoadRessources();
@@ -70,7 +77,7 @@ public class Principale {
 						+ "[6] Convert all data into RDF/XML\n"
 						+ "[7] Query over converted data\n"
 						+ "[8] Reload data\n" + "[9] SPARQL Endpoint\n"
-						+ "[0] Quit\n");
+						+ "[9] Test requete\n" + "[0] Quit\n");
 				result = in.nextInt();
 
 				switch (result) {
@@ -100,6 +107,9 @@ public class Principale {
 					break;
 				case 9:
 					sparql();
+					break;
+				case 10:
+					fetchFile();
 					break;
 				default:
 					// on quitte
@@ -260,5 +270,26 @@ public class Principale {
 							+ e.getMessage());
 		}
 		return p;
+	}
+
+	private static void fetchFile() {
+		// just fetch the xml file to rdf/xml format
+		String queryString = "select * where {?a ?b ?c} limit 100";
+		// now creating query object
+		Query query = QueryFactory.create(queryString);
+		// initializing queryExecution factory with remote service.
+		// **this actually was the main problem I couldn't figure out.**
+		QueryExecution qexec = QueryExecutionFactory.sparqlService(
+				"http://localhost:3030/openData/query", query);
+		// after it goes standard query execution and result processing which
+		// can
+		// be found in almost any Jena/SPARQL tutorial.
+		try {
+			ResultSet results = qexec.execSelect();
+			// File fp = new File("output.csv");
+			ResultSetFormatter.out(System.out, results);
+		} finally {
+			qexec.close();
+		}
 	}
 }

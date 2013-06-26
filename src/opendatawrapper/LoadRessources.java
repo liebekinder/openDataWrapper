@@ -148,7 +148,7 @@ public class LoadRessources {
 
 			content += "<#service_tdb_read_only> rdf:type fuseki:Service ;\n"
 					+ "rdfs:label                      \"TDB Service (R)\" ;\n"
-					+ "fuseki:name                     \"ds\" ;\n"
+					+ "fuseki:name                     \"openData\" ;\n"
 					+ "fuseki:serviceQuery             \"query\" ;\n"
 					+ "fuseki:serviceQuery             \"sparql\" ;\n"
 					+ "fuseki:serviceUpdate            \"update\" ;\n"

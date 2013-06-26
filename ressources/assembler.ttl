@@ -1,0 +1,183 @@
+@prefix :        <#> .
+@prefix fuseki:  <http://jena.apache.org/fuseki#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tdb:     <http://jena.hpl.hp.com/2008/tdb#> .
+@prefix ja:      <http://jena.hpl.hp.com/2005/11/Assembler#> .
+
+[] ja:loadClass "com.hp.hpl.jena.tdb.TDB" .
+tdb:DatasetTDB  rdfs:subClassOf  ja:RDFDataset .
+tdb:GraphTDB    rdfs:subClassOf  ja:Model      .
+
+<#dataset> rdf:type         tdb:DatasetTDB ;
+    tdb:location "/home/seb/.openDataWrapper/tdpDataset" ;
+    .
+
+<#graph> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> .
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/service_public> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/sport_loisir> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/mobilite> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/patrimoine> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/Communes_geolocalises> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/cinema> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/Hotel> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/bibliotheque_mediatheque> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/parking> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/manifestations_sportives> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/action_sociale> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/vie_sociale> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/chateau_monument> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/enseignement> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/golf> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/RDV_litteraires> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/Petites_cités_de_caractere> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/jardin_familiaux> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/culte> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/musique3> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/salle_spectacle> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/musique2> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/musique1> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/equipement_culture> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/decheteries> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/vie_pratique> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/plage> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/restaurant> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/justice_securite> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/college_prive> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/Librairies> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/lieux_d_art> ;
+.
+
+<#graphNamed> rdf:type tdb:GraphTDB ;
+tdb:dataset <#dataset> ;
+tdb:graphName <http://localhost:3030/openData/parc_animalier_theme> ;
+.
+

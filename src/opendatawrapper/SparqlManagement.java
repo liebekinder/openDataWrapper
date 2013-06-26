@@ -36,7 +36,6 @@ public class SparqlManagement {
 
 	public String datasetDirectory;
 	public Map<Integer, DataSource> listDTS;
-	private Dataset dataset;
 
 	public final String UriBase = "http://localhost:3030/openData/";
 
@@ -54,8 +53,12 @@ public class SparqlManagement {
 				+ "/.openDataWrapper/" + datasetFolder;
 		listDTS = listeDataSource;
 		System.out.println("Connecting to the TDB triple store...");
-		dataset = TDBFactory.createDataset(datasetDirectory);
+		Dataset dataset = TDBFactory.createDataset(datasetDirectory);
 		System.out.println("Connection Ok!");
+		logger.warn("Dataset memory address= " + dataset);
+	}
+
+	public void datasetConnection() {
 	}
 
 	/**
@@ -84,7 +87,7 @@ public class SparqlManagement {
 						+ "SPARQL Management!\n" + " What do you want to do?\n"
 						+ "[1] Export local datasources into TDB folder\n"
 						+ "[2] Run Fuseki\n" + "[3] Get Graph URIs\n"
-						+ "[0] Quit\n");
+						+ "[4] query?\n" + "[0] Quit\n");
 				result = in.nextInt();
 
 				switch (result) {
@@ -96,6 +99,9 @@ public class SparqlManagement {
 					break;
 				case 3:
 					listGraphs();
+					break;
+				case 4:
+					query();
 					break;
 				default:
 					// on quitte
@@ -121,6 +127,7 @@ public class SparqlManagement {
 	public void load() {
 		System.out.println("WARNING! The current directory: "
 				+ datasetDirectory + " will be erase! Continue? [y/N]");
+
 		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
 		try {
@@ -129,6 +136,7 @@ public class SparqlManagement {
 					|| answer.equals("Y") || answer.equals("Yes")
 					|| answer.equals("YES")) {
 				deleteFolder(new File(datasetDirectory));
+				Dataset dataset = TDBFactory.createDataset(datasetDirectory);
 				Set<Integer> cleData = listDTS.keySet();
 				System.out.println("loading data ...");
 				for (Integer cle : cleData) {
@@ -147,8 +155,6 @@ public class SparqlManagement {
 		} catch (InputMismatchException e) {
 			System.out
 					.println("Wrong answer, considered as negative. Abortion.");
-		} finally {
-			// in.close();
 		}
 	}
 
@@ -196,13 +202,13 @@ public class SparqlManagement {
 		pb.directory(new File(System.getProperty("user.dir")));
 		pb.redirectErrorStream(true);
 		// log append
-//		File log = new File(System.getProperty("user.home")
-//				+ "/.openDataWrapper/log.fuseki");
-//		pb.redirectOutput(ProcessBuilder.Redirect.appendTo(log));
+		// File log = new File(System.getProperty("user.home")
+		// + "/.openDataWrapper/log.fuseki");
+		// pb.redirectOutput(ProcessBuilder.Redirect.appendTo(log));
 		pb.inheritIO();
 		try {
 			Process p = pb.start();
-			
+
 			if (p.waitFor() != 0) {
 				return;
 			}
@@ -222,12 +228,7 @@ public class SparqlManagement {
 	 * the union graph of all graph. For testing only.
 	 */
 	public void query() {
-
 		Dataset dataset = TDBFactory.createDataset(datasetDirectory);
-		Iterator<String> listnom = dataset.listNames();
-		while (listnom.hasNext()) {
-			System.out.println(listnom.next());
-		}
 		dataset.begin(ReadWrite.READ);
 
 		try {
@@ -252,9 +253,9 @@ public class SparqlManagement {
 	 * the connection with the triple store have been closed, it crashes.
 	 */
 	private void listGraphs() {
-		Dataset d = TDBFactory.createDataset(datasetDirectory);
-		System.out.println(d);
-		Iterator<String> listeUris = d.listNames();
+		Dataset dataset = TDBFactory.createDataset(datasetDirectory);
+		logger.warn("Dataset memory address= " + dataset);
+		Iterator<String> listeUris = dataset.listNames();
 		while (listeUris.hasNext()) {
 			String courant = listeUris.next();
 			System.out.println(courant);
