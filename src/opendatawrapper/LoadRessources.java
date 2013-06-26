@@ -73,26 +73,12 @@ public class LoadRessources {
 	public Map<Integer, DataSource> extractData() {
 		Element racine = document.getRootElement();
 
-		mappingFile = document.getRootElement().getChild("configuration")
-				.getChild("mappingFile").getValue();
-		queryFolder = document.getRootElement().getChild("configuration")
-				.getChild("queryFolder").getValue();
-		queryList = findQueries(queryFolder);
-		specificMappingFolder = document.getRootElement()
-				.getChild("configuration").getChild("specificMappingFolder")
-				.getValue();
-		datasetFolder = document.getRootElement().getChild("configuration")
-				.getChild("datasetFolder").getValue();
-		fusekiFolder = document.getRootElement().getChild("configuration")
-				.getChild("fusekiFolder").getValue();
-		fusekiConfigFile = document.getRootElement().getChild("configuration")
-				.getChild("fusekiConfigFile").getValue();
-		fusekiRunScript = document.getRootElement().getChild("configuration")
-				.getChild("fusekiRunScript").getValue();
+		// extraction of the configuration tag
+		configuration();
 
 		// generate the fusekiconfigfile
 		generateFuseki();
-
+		
 		// Dans un premier temps on liste tous les étudiants
 		List<Element> listsources = racine.getChildren("source");
 		Iterator<Element> it = listsources.iterator();
@@ -119,6 +105,27 @@ public class LoadRessources {
 		}
 
 		return getListeDataSource();
+
+	}
+
+	private void configuration() {
+
+		mappingFile = document.getRootElement().getChild("configuration")
+				.getChild("mappingFile").getValue();
+		queryFolder = document.getRootElement().getChild("configuration")
+				.getChild("queryFolder").getValue();
+		queryList = findQueries(queryFolder);
+		specificMappingFolder = document.getRootElement()
+				.getChild("configuration").getChild("specificMappingFolder")
+				.getValue();
+		datasetFolder = document.getRootElement().getChild("configuration")
+				.getChild("datasetFolder").getValue();
+		fusekiFolder = document.getRootElement().getChild("configuration")
+				.getChild("fusekiFolder").getValue();
+		fusekiConfigFile = document.getRootElement().getChild("configuration")
+				.getChild("fusekiConfigFile").getValue();
+		fusekiRunScript = document.getRootElement().getChild("configuration")
+				.getChild("fusekiRunScript").getValue();
 
 	}
 
@@ -158,7 +165,8 @@ public class LoadRessources {
 					+ ".\n\n";
 
 			content += "<#tdb_dataset_read> rdf:type      tdb:DatasetTDB ;\n"
-					+ "tdb:location \"" + System.getProperty("user.home")+"/.openDataWrapper/"+datasetFolder + "\" ;\n"
+					+ "tdb:location \"" + System.getProperty("user.home")
+					+ "/.openDataWrapper/" + datasetFolder + "\" ;\n"
 					+ "tdb:unionDefaultGraph true ;\n" + ".";
 
 			configFile.write(content);

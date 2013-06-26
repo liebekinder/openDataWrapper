@@ -180,7 +180,6 @@ public class Principale {
 	private static void conversionTtlOne() {
 		System.out.println("Which dataset?");
 		listDatasources();
-		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
 		try {
 			int result = in.nextInt();
@@ -218,7 +217,6 @@ public class Principale {
 	private static void conversionXmlOne() {
 		System.out.println("Which dataset?");
 		listDatasources();
-		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
 		try {
 			int result = in.nextInt();

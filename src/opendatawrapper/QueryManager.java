@@ -50,7 +50,6 @@ public class QueryManager {
 	 * queries.
 	 */
 	public void run() {
-		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
 		int result = 0;
 		while (result >= 0) {
@@ -202,7 +201,6 @@ public class QueryManager {
 	private void runOneQuery() {
 		System.out.println("which query do you want to run?");
 		displayQueries();
-		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
 		try {
 			int result = in.nextInt();
@@ -265,7 +263,6 @@ public class QueryManager {
 	private void loadOneDataset() {
 		System.out.println("which dataset do you want to load?");
 		listDatasources();
-		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
 		try {
 			int result = in.nextInt();

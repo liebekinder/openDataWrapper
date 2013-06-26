@@ -77,7 +77,6 @@ public class SparqlManagement {
 	 */
 	public void run(String fusekiRunScript, String fusekiFolder,
 			String fusekiConfigFile) {
-		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
 		int result = 0;
 		while (result >= 0) {
@@ -128,7 +127,6 @@ public class SparqlManagement {
 		System.out.println("WARNING! The current directory: "
 				+ datasetDirectory + " will be erase! Continue? [y/N]");
 
-		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
 		try {
 			String answer = in.next().trim();

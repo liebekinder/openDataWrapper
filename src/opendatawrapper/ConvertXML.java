@@ -1,5 +1,6 @@
 package opendatawrapper;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
@@ -32,7 +33,12 @@ public class ConvertXML {
 			OutputStream out = new FileOutputStream(target);
 			model.write(out, "RDF/XML");
 		} catch (FileNotFoundException e) {
-			System.err.println("Le fichier n3 n'existe pas, il y a eu une erreur plus tôt!");
+			File f = new File(target).getParentFile();
+			if(!f.exists() || !f.isDirectory()){
+				//faire la création
+			}
+			
+			System.err.println("Le dossier rdf-xml n'existe pas, il y a eu une erreur plus tôt!");
 		}
 
 	}
