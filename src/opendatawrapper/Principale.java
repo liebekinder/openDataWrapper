@@ -10,9 +10,13 @@ import java.util.Properties;
 import java.util.Scanner;
 import java.util.Set;
 
+import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.Logger;
 import org.jdom2.JDOMException;
 
 public class Principale {
+
+	static Logger logger = Logger.getLogger(Principale.class);
 
 	public static Map<Integer, DataSource> listeDataSource;
 	public static Properties properties;
@@ -30,6 +34,8 @@ public class Principale {
 		 * what data it is supposed to transform what method it will use if he
 		 * can contact the API or must use a file
 		 */
+		// Set up a simple configuration that logs on the console.
+	     BasicConfigurator.configure();
 
 		try {
 			lr = new LoadRessources();
@@ -107,13 +113,14 @@ public class Principale {
 			}
 		}
 		System.out.println("Exiting...");
+		in.close();
 	}
 
 	private static void sparql() {
-		SparqlManagement spm = new SparqlManagement(lr.getDatasetFolder());
-		
-		spm.load(listeDataSource);
-		//spm.query();
+		SparqlManagement spm = new SparqlManagement(lr.getDatasetFolder(),
+				listeDataSource);
+		spm.run(lr.getFusekiRunScript(), lr.getFusekiFolder(),
+				lr.getFusekiConfigFile());
 	}
 
 	private static void queryOverData() {
@@ -163,14 +170,21 @@ public class Principale {
 	private static void conversionTtlOne() {
 		System.out.println("Which dataset?");
 		listDatasources();
+		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
 		try {
 			int result = in.nextInt();
-			DataSource dts = listeDataSource.get(result);
-			conversionTtl(dts);
-			System.out.println("conversion ok!");
+			if (result > 0 && result <= listeDataSource.keySet().size()) {
+				DataSource dts = listeDataSource.get(result);
+				conversionTtl(dts);
+				System.out.println("conversion ok!");
+			} else {
+				System.err.println("unknown data source");
+			}
 		} catch (InputMismatchException e) {
 			System.err.println("la saisie effectué n'est pas un nombre!");
+		} finally {
+			// in.close();
 		}
 	}
 
@@ -194,15 +208,22 @@ public class Principale {
 	private static void conversionXmlOne() {
 		System.out.println("Which dataset?");
 		listDatasources();
+		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
 		try {
 			int result = in.nextInt();
-			DataSource dts = listeDataSource.get(result);
-			conversionTtl(dts);
-			conversionXmlRdf(dts);
-			System.out.println("conversion ok!");
+			if (result > 0 && result <= listeDataSource.keySet().size()) {
+				DataSource dts = listeDataSource.get(result);
+				conversionTtl(dts);
+				conversionXmlRdf(dts);
+				System.out.println("conversion ok!");
+			} else {
+				System.err.println("la saisie effectué n'est pas un nombre!");
+			}
 		} catch (InputMismatchException e) {
 			System.err.println("la saisie effectué n'est pas un nombre!");
+		} finally {
+			// in.close();
 		}
 	}
 

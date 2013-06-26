@@ -26,6 +26,7 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 
+import org.apache.log4j.Logger;
 import org.jdom2.Document;
 import org.jdom2.JDOMException;
 import org.jdom2.input.SAXBuilder;
@@ -36,6 +37,8 @@ import org.jdom2.output.DOMOutputter;
  * Les parametres de proxy sont à spécifier dans un fichier proxy.pwd à la racine de votre $HOME
  */
 public class ConvertTTL {
+	
+	static Logger logger = Logger.getLogger(ConvertTTL.class);
 
 	public String XMLFile_;
 	public String XSLFile_;

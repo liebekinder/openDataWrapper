@@ -4,11 +4,15 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
 
+import org.apache.log4j.Logger;
+
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.util.FileManager;
 
 public class ConvertXML {
 
+	static Logger logger = Logger.getLogger(ConvertXML.class);
+	
 	public String source;
 	public String target;
 

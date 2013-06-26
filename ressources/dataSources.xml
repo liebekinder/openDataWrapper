@@ -5,6 +5,9 @@
     <specificMappingFolder>ressources/specific_mapping</specificMappingFolder>
     <queryFolder>ressources/queries</queryFolder>
     <datasetFolder>tdpDataset</datasetFolder>
+    <fusekiFolder>jena-fuseki-0.2.7</fusekiFolder>
+    <fusekiConfigFile>ressources/fusekiConfig.ttl</fusekiConfigFile>
+    <fusekiRunScript>ressources/fusekiRun.sh</fusekiRunScript>
   </configuration>
   <source>
     <nom>service_public</nom>

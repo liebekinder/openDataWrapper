@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.Iterator;
@@ -13,6 +14,7 @@ import java.util.Properties;
 import java.util.Set;
 import java.util.TreeMap;
 
+import org.apache.log4j.Logger;
 import org.jdom2.Document;
 import org.jdom2.Element;
 import org.jdom2.JDOMException;
@@ -22,9 +24,10 @@ import org.jdom2.output.XMLOutputter;
 
 /**
  * @author seb
- *
+ * 
  */
 public class LoadRessources {
+	static Logger logger = Logger.getLogger(LoadRessources.class);
 
 	public Document document;
 	public String DocumentPath = "ressources/dataSources.xml";
@@ -32,9 +35,13 @@ public class LoadRessources {
 	public Properties mapping;
 	public String mappingFile;
 	public String queryFolder;
-	public Map<Integer,String> queryList;
+	public Map<Integer, String> queryList;
 	public String specificMappingFolder;
 	public String datasetFolder;
+
+	public String fusekiFolder;
+	public String fusekiConfigFile;
+	public String fusekiRunScript;
 
 	public String getDatasetFolder() {
 		return datasetFolder;
@@ -71,10 +78,20 @@ public class LoadRessources {
 		queryFolder = document.getRootElement().getChild("configuration")
 				.getChild("queryFolder").getValue();
 		queryList = findQueries(queryFolder);
-		specificMappingFolder = document.getRootElement().getChild("configuration")
-				.getChild("specificMappingFolder").getValue();
+		specificMappingFolder = document.getRootElement()
+				.getChild("configuration").getChild("specificMappingFolder")
+				.getValue();
 		datasetFolder = document.getRootElement().getChild("configuration")
 				.getChild("datasetFolder").getValue();
+		fusekiFolder = document.getRootElement().getChild("configuration")
+				.getChild("fusekiFolder").getValue();
+		fusekiConfigFile = document.getRootElement().getChild("configuration")
+				.getChild("fusekiConfigFile").getValue();
+		fusekiRunScript = document.getRootElement().getChild("configuration")
+				.getChild("fusekiRunScript").getValue();
+
+		// generate the fusekiconfigfile
+		generateFuseki();
 
 		// Dans un premier temps on liste tous les étudiants
 		List<Element> listsources = racine.getChildren("source");
@@ -88,32 +105,94 @@ public class LoadRessources {
 			String nom = courant.getChild("nom").getValue().trim();
 			String apiUrl = courant.getChild("apiurl").getValue().trim();
 			String xsltFile = courant.getChild("xsltFile").getValue().trim();
-			boolean specificXSLT = Boolean.parseBoolean(courant.getChild("specificXSLT")
-					.getValue());
-			String outputTtl = courant.getChild("outputTtlFile").getValue().trim();
-			String outputRdf = courant.getChild("outputXmlFile").getValue().trim();
+			boolean specificXSLT = Boolean.parseBoolean(courant.getChild(
+					"specificXSLT").getValue());
+			String outputTtl = courant.getChild("outputTtlFile").getValue()
+					.trim();
+			String outputRdf = courant.getChild("outputXmlFile").getValue()
+					.trim();
 
 			// chaque source est ajouté à la hashMap
 			listeDataSource.put(i, new DataSource(nom, apiUrl, xsltFile,
-					specificXSLT, outputTtl,
-					outputRdf));
+					specificXSLT, outputTtl, outputRdf));
 			i++;
 		}
 
 		return getListeDataSource();
 
 	}
-	
+
+	private void generateFuseki() {
+		// we need to construct the file
+		try {
+			FileWriter configFile = new FileWriter(new File(fusekiConfigFile),
+					false);
+			String content = "@prefix :        <#> .\n"
+					+ "@prefix fuseki:  <http://jena.apache.org/fuseki#> .\n"
+					+ "@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n"
+					+ "@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .\n"
+					+ "@prefix tdb:     <http://jena.hpl.hp.com/2008/tdb#> .\n"
+					+ "@prefix ja:      <http://jena.hpl.hp.com/2005/11/Assembler#> .\n\n";
+
+			content += "[] ja:loadClass \"com.hp.hpl.jena.tdb.TDB\" .\n"
+					+ "tdb:DatasetTDB  rdfs:subClassOf  ja:RDFDataset .\n"
+					+ "tdb:GraphTDB    rdfs:subClassOf  ja:Model .\n\n";
+
+			content += "[] rdf:type fuseki:Server ;\n" + "fuseki:services (\n"
+					+ "<#service_tdb_read_only>\n" + ") .\n\n";
+
+			content += "# TDB\n"
+					+ "[] ja:loadClass \"com.hp.hpl.jena.tdb.TDB\" .\n"
+					+ "tdb:DatasetTDB  rdfs:subClassOf  ja:RDFDataset .\n"
+					+ "tdb:GraphTDB    rdfs:subClassOf  ja:Model .\n\n";
+
+			content += "<#service_tdb_read_only> rdf:type fuseki:Service ;\n"
+					+ "rdfs:label                      \"TDB Service (R)\" ;\n"
+					+ "fuseki:name                     \"ds\" ;\n"
+					+ "fuseki:serviceQuery             \"query\" ;\n"
+					+ "fuseki:serviceQuery             \"sparql\" ;\n"
+					+ "fuseki:serviceUpdate            \"update\" ;\n"
+					+ "fuseki:serviceReadGraphStore    \"data\" ;\n"
+					+ "fuseki:serviceReadGraphStore    \"get\" ;\n"
+					+ "fuseki:dataset           <#tdb_dataset_read> ;\n"
+					+ ".\n\n";
+
+			content += "<#tdb_dataset_read> rdf:type      tdb:DatasetTDB ;\n"
+					+ "tdb:location \"" + System.getProperty("user.home")+"/.openDataWrapper/"+datasetFolder + "\" ;\n"
+					+ "tdb:unionDefaultGraph true ;\n" + ".";
+
+			configFile.write(content);
+			configFile.close();
+		} catch (IOException e) {
+			System.err.println("Unable to locate " + fusekiConfigFile
+					+ ". Check that the file exist and is readable.");
+		}
+
+	}
+
+	public String getFusekiFolder() {
+		return fusekiFolder;
+	}
+
+	public String getFusekiConfigFile() {
+		return fusekiConfigFile;
+	}
+
+	public String getFusekiRunScript() {
+		return fusekiRunScript;
+	}
+
 	public String getSpecificMappingFolder() {
 		return specificMappingFolder;
 	}
 
 	/**
-	 * @param queryFolder2, the folder that contains all .sparql query files
+	 * @param queryFolder2
+	 *            , the folder that contains all .sparql query files
 	 * @return a TreeMap with the file name and the absolute path
 	 */
-	private Map<Integer,String> findQueries(String queryFolder2) {
-		Map<Integer,String> m = new TreeMap<Integer,String>();
+	private Map<Integer, String> findQueries(String queryFolder2) {
+		Map<Integer, String> m = new TreeMap<Integer, String>();
 		String files;
 		File folder = new File(queryFolder2);
 		File[] listOfFiles = folder.listFiles();
@@ -122,7 +201,7 @@ public class LoadRessources {
 			if (listOfFiles[i].isFile()) {
 				files = listOfFiles[i].getName();
 				if (files.endsWith(".sparql") || files.endsWith(".SPARQL")) {
-					m.put(cpt,files+":"+listOfFiles[i].getAbsolutePath());
+					m.put(cpt, files + ":" + listOfFiles[i].getAbsolutePath());
 					cpt++;
 				}
 			}
@@ -206,10 +285,12 @@ public class LoadRessources {
 	private void eraseDocument() {
 		try {
 			OutputStream fos = new FileOutputStream(
-					System.getProperty("user.home") + "/.openDataWrapper/import.odw");
+					System.getProperty("user.home")
+							+ "/.openDataWrapper/import.odw");
 			fos.close();
 		} catch (IOException e) {
-			System.err.println("import.owd can't be opened! Please check that the file exists and is writable!");
+			System.err
+					.println("import.owd can't be opened! Please check that the file exists and is writable!");
 			e.printStackTrace();
 		}
 	}

@@ -13,10 +13,12 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
 
+import org.apache.log4j.Logger;
 import org.jdom2.Document;
 import org.jdom2.Element;
 
 public class XSLConstructor {
+	static Logger logger = Logger.getLogger(XSLConstructor.class);
 
 	public String XSLFile;
 	public Document XMLFile;
@@ -171,7 +173,7 @@ public class XSLConstructor {
 						+ "<xsl:value-of select=\"concat(concat('&lt;"
 						+ URIBase
 						+ dataset
-						+ "/',translate(translate(translate(translate(translate(translate(./text(),'&quot;',' '),'&gt;',' '),'&lt;',' '),'  ',' '),' ','_'),'.','_')),'&gt;')\"/>&#009; "
+						+ "/',translate(translate(translate(translate(translate(translate(translate(./text(),'&quot;',' '),'«',' '),'&gt;',' '),'&lt;',' '),'  ',' '),' ','_'),'.','_')),'&gt;')\"/>&#009; "
 						+ map.get(courant).vocabulaire
 						+ " &#009; \"<xsl:value-of select=\"translate(., '&quot;','')\"/>\"^^xsd:string ;"
 						+ lastRetour(it)
