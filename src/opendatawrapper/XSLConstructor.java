@@ -33,6 +33,19 @@ public class XSLConstructor {
 	private final String stringVide = "undefined";
 	private Properties speProp;
 
+	/**
+	 * 
+	 * @param xSLFile_
+	 *            the path to the xslt file
+	 * @param document
+	 *            the XML jdom2 document tree
+	 * @param p
+	 *            mapping;properties properties
+	 * @param Dataset
+	 *            the name of the current dataset
+	 * @param spePath
+	 *            the path to the specific property file
+	 */
 	public XSLConstructor(String xSLFile_, Document document, Properties p,
 			String Dataset, String spePath) {
 		XSLFile = xSLFile_;
@@ -42,6 +55,18 @@ public class XSLConstructor {
 		speMappingPath = spePath;
 	}
 
+	/**
+	 * This function construct automatically the XSLT file. It look at the first
+	 * element of the xml, and deduct the form of the answer. The foaf:name
+	 * resolved xml tag is put first, as it plays the subject role. The function
+	 * checks if a specific property file is given, and if yes, uses it in
+	 * priority. Each property type have is own XSLT out.
+	 * 
+	 * @param mappingPath
+	 *            the path to the file that contains the mapping between the XML
+	 *            tag and the vocabulary
+	 * @return true if the construction is ok, false else.
+	 */
 	public boolean construct(String mappingPath) {
 		Document document;
 		// chargement du XML
@@ -186,9 +211,8 @@ public class XSLConstructor {
 		String s = new String("<xsl:template match=\"" + courant + "\">"
 				+ "<xsl:choose>" + "<xsl:when test=\". = 'null'\">" + "&#009;"
 				+ map.get(courant).vocabulaire + "&#009; \"" + intVide
-				+ "\"^^xsd:int " + last(it) + lastRetour(it)
-				+ "</xsl:when>\n" + "<xsl:otherwise>" + "&#009;"
-				+ map.get(courant).vocabulaire
+				+ "\"^^xsd:int " + last(it) + lastRetour(it) + "</xsl:when>\n"
+				+ "<xsl:otherwise>" + "&#009;" + map.get(courant).vocabulaire
 				+ "&#009; \"<xsl:value-of select=\".\"/>\"^^xsd:int "
 				+ last(it) + lastRetour(it)
 				+ "</xsl:otherwise></xsl:choose></xsl:template>\n\n");

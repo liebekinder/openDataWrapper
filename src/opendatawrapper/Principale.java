@@ -126,9 +126,6 @@ public class Principale {
 		in.close();
 	}
 
-	/**
-	 * This function launches the Sparql management main method
-	 */
 	private static void sparql() {
 		SparqlManagement spm = new SparqlManagement(lr.getDatasetFolder(),
 				listeDataSource);
@@ -257,6 +254,11 @@ public class Principale {
 		cxml.convert();
 	}
 
+	/**
+	 * This function open the property file stored at path.
+	 * @param path the path of the property file
+	 * @return a Property document, empty if the path is wrong.
+	 */
 	public static Properties getMapping(String path) {
 		Properties p = new Properties();
 		try {

@@ -51,6 +51,12 @@ public class LoadRessources {
 		return queryList;
 	}
 
+	/**
+	 * Constructor. Create the jdom2 document tree from the dataSources.xml
+	 * 
+	 * @throws JDOMException
+	 * @throws IOException
+	 */
 	public LoadRessources() throws JDOMException, IOException {
 		SAXBuilder sxb = new SAXBuilder();
 		// On crée un nouveau document JDOM avec en argument le fichier XML
@@ -70,6 +76,11 @@ public class LoadRessources {
 		}
 	}
 
+	/**
+	 * This function extract all the necessary data from the configuration XML
+	 * 
+	 * @return a map with an id and a data source
+	 */
 	public Map<Integer, DataSource> extractData() {
 		Element racine = document.getRootElement();
 
@@ -78,7 +89,7 @@ public class LoadRessources {
 
 		// generate the fusekiconfigfile
 		generateFuseki();
-		
+
 		// Dans un premier temps on liste tous les étudiants
 		List<Element> listsources = racine.getChildren("source");
 		Iterator<Element> it = listsources.iterator();
@@ -221,6 +232,9 @@ public class LoadRessources {
 		return queryFolder;
 	}
 
+	/**
+	 * This function read the import file and modifies the configuration xml
+	 */
 	public void addDatasources() {
 		// le document a déjà été chargé
 		Properties p = new Properties();

@@ -37,7 +37,7 @@ import org.jdom2.output.DOMOutputter;
  * Les parametres de proxy sont à spécifier dans un fichier proxy.pwd à la racine de votre $HOME
  */
 public class ConvertTTL {
-	
+
 	static Logger logger = Logger.getLogger(ConvertTTL.class);
 
 	public String XMLFile_;
@@ -55,13 +55,15 @@ public class ConvertTTL {
 			+ "/.openDataWrapper/proxy.pwd";
 
 	/*
-	 * Constructeur
+	 * The constructor tries to read the proxy file stored at the user
+	 * home/.openDataWrapper/proxy.pwd. If such file doesn't exist, continue
+	 * without warning.
 	 * 
-	 * @param XMLin le fichier à convertir
+	 * @param XMLin The file to convert
 	 * 
-	 * @param XSL le fichier de convertion
+	 * @param XSL The conversion file
 	 * 
-	 * @param XMLout le dossier qui contiendra le fichier converti
+	 * @param XMLout the output folder of the conversion
 	 */
 	public ConvertTTL(String XSLin, String XMLout, String mappingPath,
 			String dataset, String speMap) {
@@ -85,7 +87,9 @@ public class ConvertTTL {
 
 	/*
 	 * convert an XML file from a remote call into turtle. It uses the global
-	 * paramters XSLFile_ and outputFile of the class ConvertXML
+	 * parameters XSLFile_ and outputFile of the class ConvertTTL. Checks if it
+	 * needs to create a new XSLT file or use the existing one. Contact the API
+	 * using the proxy setting. Checks if the URI are unique.
 	 * 
 	 * @param url, the URL of the remote API *
 	 */
