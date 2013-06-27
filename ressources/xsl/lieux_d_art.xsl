@@ -38,26 +38,25 @@
 	<xsl:apply-templates select="NOM"/>
 <xsl:text>&#009;rdf:type&#009; pdll:lieux_d_art;
 </xsl:text>
-	<xsl:apply-templates select="SOUTIEN"/>
-	<xsl:apply-templates select="DESCRIPTION"/>
-	<xsl:apply-templates select="HORAIRES"/>
-	<xsl:apply-templates select="ACCES"/>
-	<xsl:apply-templates select="MAIL"/>
-	<xsl:apply-templates select="TARIFS"/>
 	<xsl:apply-templates select="COMMUNE_CODE_INSEE"/>
+	<xsl:apply-templates select="DESCRIPTION"/>
+	<xsl:apply-templates select="SOUTIEN"/>
 	<xsl:apply-templates select="TEL"/>
+	<xsl:apply-templates select="HORAIRES"/>
 	<xsl:apply-templates select="VILLE"/>
+	<xsl:apply-templates select="ACCES"/>
 	<xsl:apply-templates select="SITE_WEB"/>
 	<xsl:apply-templates select="CP"/>
+	<xsl:apply-templates select="TARIFS"/>
+	<xsl:apply-templates select="MAIL"/>
 	<xsl:apply-templates select="ADRESSE2"/>
 	<xsl:apply-templates select="ADRESSE1"/>
 
 </xsl:template>
 
-<xsl:template match="SOUTIEN">
-<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:soutien&#009; "undefined"^^xsd:string ;
+<xsl:template match="COMMUNE_CODE_INSEE"><xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:insee&#009; "NaN"^^xsd:integer ;
 </xsl:when>
-<xsl:otherwise>&#009;pdll:soutien&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;dbpprop:insee&#009; "<xsl:value-of select="."/>"^^xsd:integer ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="DESCRIPTION">
@@ -66,37 +65,10 @@
 <xsl:otherwise>&#009;dbpedia-owl:abstract&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
-<xsl:template match="HORAIRES">
-<xsl:choose><xsl:when test=". = 'null'">&#009;sc:openingHours&#009; "undefined"^^xsd:string ;
+<xsl:template match="SOUTIEN">
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:soutien&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;sc:openingHours&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
-</xsl:otherwise></xsl:choose></xsl:template>
-
-<xsl:template match="NOM"><xsl:choose><xsl:when test=". = 'null'"></xsl:when>
-<xsl:otherwise><xsl:value-of select="concat(concat('&lt;http://lodpaddle.com/lieux_d_art/',translate(translate(translate(translate(translate(translate(./text(),'&quot;',' '),'&gt;',' '),'&lt;',' '),'  ',' '),' ','_'),'.','_')),'&gt;')"/>&#009; foaf:name &#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
-</xsl:otherwise></xsl:choose></xsl:template>
-
-<xsl:template match="ACCES">
-<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:transportAccess&#009; "undefined"^^xsd:string ;
-</xsl:when>
-<xsl:otherwise>&#009;pdll:transportAccess&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
-</xsl:otherwise></xsl:choose></xsl:template>
-
-<xsl:template match="MAIL">
-<xsl:choose><xsl:when test=". = 'null'">&#009;sc:email&#009; "undefined"^^xsd:string ;
-</xsl:when>
-<xsl:otherwise>&#009;sc:email&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
-</xsl:otherwise></xsl:choose></xsl:template>
-
-<xsl:template match="TARIFS">
-<xsl:choose><xsl:when test=". = 'null'">&#009;sc:price&#009; "undefined"^^xsd:string ;
-</xsl:when>
-<xsl:otherwise>&#009;sc:price&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
-</xsl:otherwise></xsl:choose></xsl:template>
-
-<xsl:template match="COMMUNE_CODE_INSEE"><xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:insee&#009; "NaN"^^xsd:integer ;
-</xsl:when>
-<xsl:otherwise>&#009;dbpprop:insee&#009; "<xsl:value-of select="."/>"^^xsd:integer ;
+<xsl:otherwise>&#009;pdll:soutien&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="TEL">
@@ -105,10 +77,26 @@
 <xsl:otherwise>&#009;sc:telephone&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
+<xsl:template match="HORAIRES">
+<xsl:choose><xsl:when test=". = 'null'">&#009;sc:openingHours&#009; "undefined"^^xsd:string ;
+</xsl:when>
+<xsl:otherwise>&#009;sc:openingHours&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+</xsl:otherwise></xsl:choose></xsl:template>
+
 <xsl:template match="VILLE">
 <xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:town&#009; "undefined"^^xsd:string ;
 </xsl:when>
 <xsl:otherwise>&#009;dbpprop:town&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+</xsl:otherwise></xsl:choose></xsl:template>
+
+<xsl:template match="ACCES">
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:transportAccess&#009; "undefined"^^xsd:string ;
+</xsl:when>
+<xsl:otherwise>&#009;pdll:transportAccess&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+</xsl:otherwise></xsl:choose></xsl:template>
+
+<xsl:template match="NOM"><xsl:choose><xsl:when test=". = 'null'"></xsl:when>
+<xsl:otherwise><xsl:value-of select="concat(concat('&lt;http://lodpaddle.com/lieux_d_art/',translate(translate(translate(translate(translate(translate(translate(./text(),'&quot;',' '),'«',' '),'&gt;',' '),'&lt;',' '),'  ',' '),' ','_'),'.','_')),'&gt;')"/>&#009; foaf:name &#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="SITE_WEB">
@@ -120,6 +108,18 @@
 <xsl:template match="CP"><xsl:choose><xsl:when test=". = 'null'">&#009;dbpedia-owl:postalCode&#009; "NaN"^^xsd:integer ;
 </xsl:when>
 <xsl:otherwise>&#009;dbpedia-owl:postalCode&#009; "<xsl:value-of select="."/>"^^xsd:integer ;
+</xsl:otherwise></xsl:choose></xsl:template>
+
+<xsl:template match="TARIFS">
+<xsl:choose><xsl:when test=". = 'null'">&#009;sc:price&#009; "undefined"^^xsd:string ;
+</xsl:when>
+<xsl:otherwise>&#009;sc:price&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+</xsl:otherwise></xsl:choose></xsl:template>
+
+<xsl:template match="MAIL">
+<xsl:choose><xsl:when test=". = 'null'">&#009;sc:email&#009; "undefined"^^xsd:string ;
+</xsl:when>
+<xsl:otherwise>&#009;sc:email&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="ADRESSE2">

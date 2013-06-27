@@ -13,7 +13,7 @@ import com.hp.hpl.jena.util.FileManager;
 public class ConvertXML {
 
 	static Logger logger = Logger.getLogger(ConvertXML.class);
-	
+
 	public String source;
 	public String target;
 
@@ -34,11 +34,14 @@ public class ConvertXML {
 			model.write(out, "RDF/XML");
 		} catch (FileNotFoundException e) {
 			File f = new File(target).getParentFile();
-			if(!f.exists() || !f.isDirectory()){
-				//faire la création
+			if (!f.exists() || !f.isDirectory()) {
+				// faire la création
+				if (!f.mkdirs()) {
+					System.err.println("Unable to create output folder! Stop");
+				} else {
+					convert();
+				}
 			}
-			
-			System.err.println("Le dossier rdf-xml n'existe pas, il y a eu une erreur plus tôt!");
 		}
 
 	}

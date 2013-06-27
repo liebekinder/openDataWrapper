@@ -36,7 +36,7 @@
 
 <xsl:template match="element">
 	<xsl:apply-templates select="geo/name"/>
-<xsl:text>&#009;rdf:type&#009; pdll:action_sociale ;
+<xsl:text>&#009;rdf:type&#009; pdll:action_sociale;
 </xsl:text>
 	<xsl:apply-templates select="_l"/>
 	<xsl:apply-templates select="LIBTHEME"/>
@@ -52,6 +52,7 @@
 	<xsl:apply-templates select="_IDOBJ"/>
 	<xsl:apply-templates select="TYPE"/>
 	<xsl:apply-templates select="CATEGORIE"/>
+
 </xsl:template>
 
 <xsl:template match="_l">&#009;geo:lat&#009;"<xsl:value-of select="substring-after(substring-before(.,' ,'),'[ ')"/>"^^xsd:decimal ;
@@ -101,7 +102,7 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="geo/name"><xsl:choose><xsl:when test=". = 'null'"></xsl:when>
-<xsl:otherwise><xsl:value-of select="concat(concat('&lt;http://lodpaddle.com/action_sociale/',translate(translate(translate(translate(translate(translate(./text(),'&quot;',' '),'&gt;',' '),'&lt;',' '),'  ',' '),' ','_'),'.','_')),'&gt;')"/>&#009; foaf:name &#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise><xsl:value-of select="concat(concat('&lt;http://lodpaddle.com/action_sociale/',translate(translate(translate(translate(translate(translate(translate(./text(),'&quot;',' '),'«',' '),'&gt;',' '),'&lt;',' '),'  ',' '),' ','_'),'.','_')),'&gt;')"/>&#009; foaf:name &#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="LIBCATEGORIE">
