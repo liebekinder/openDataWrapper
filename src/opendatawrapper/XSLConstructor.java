@@ -186,10 +186,10 @@ public class XSLConstructor {
 		String s = new String("<xsl:template match=\"" + courant + "\">"
 				+ "<xsl:choose>" + "<xsl:when test=\". = 'null'\">" + "&#009;"
 				+ map.get(courant).vocabulaire + "&#009; \"" + intVide
-				+ "\"^^xsd:integer " + last(it) + lastRetour(it)
+				+ "\"^^xsd:int " + last(it) + lastRetour(it)
 				+ "</xsl:when>\n" + "<xsl:otherwise>" + "&#009;"
 				+ map.get(courant).vocabulaire
-				+ "&#009; \"<xsl:value-of select=\".\"/>\"^^xsd:integer "
+				+ "&#009; \"<xsl:value-of select=\".\"/>\"^^xsd:int "
 				+ last(it) + lastRetour(it)
 				+ "</xsl:otherwise></xsl:choose></xsl:template>\n\n");
 		return s;

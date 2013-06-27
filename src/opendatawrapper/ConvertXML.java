@@ -26,6 +26,7 @@ public class ConvertXML {
 	/*
 	 * This function takes a ttl file, import it into Jena and produce a RDF/XML
 	 * All parameters are given by the dataSources.xml
+	 * Issues: if the rdf-xml folder doesn't exist, the function create it.
 	 */
 	public void convert() {
 		try {

@@ -126,6 +126,9 @@ public class Principale {
 		in.close();
 	}
 
+	/**
+	 * This function launches the Sparql management main method
+	 */
 	private static void sparql() {
 		SparqlManagement spm = new SparqlManagement(lr.getDatasetFolder(),
 				listeDataSource);
