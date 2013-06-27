@@ -77,7 +77,7 @@ public class Principale {
 						+ "[6] Convert all data into RDF/XML\n"
 						+ "[7] Query over converted data\n"
 						+ "[8] Reload data\n" + "[9] SPARQL Endpoint\n"
-						+ "[9] Test requete\n" + "[0] Quit\n");
+						+ "[10] Test requete\n" + "[0] Quit\n");
 				result = in.nextInt();
 
 				switch (result) {

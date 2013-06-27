@@ -52,10 +52,10 @@ public class SparqlManagement {
 		this.datasetDirectory = System.getProperty("user.home")
 				+ "/.openDataWrapper/" + datasetFolder;
 		listDTS = listeDataSource;
-		System.out.println("Connecting to the TDB triple store...");
-		Dataset dataset = TDBFactory.createDataset(datasetDirectory);
-		System.out.println("Connection Ok!");
-		logger.warn("Dataset memory address= " + dataset);
+//		System.out.println("Connecting to the TDB triple store...");
+//		Dataset dataset = TDBFactory.createDataset(datasetDirectory);
+//		System.out.println("Connection Ok!");
+//		logger.warn("Dataset memory address= " + dataset);
 	}
 
 	public void datasetConnection() {
