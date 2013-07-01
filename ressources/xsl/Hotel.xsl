@@ -150,9 +150,9 @@
 <xsl:otherwise>&#009;dbpprop:website&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
-<xsl:template match="DESCRIPTION_DESCRIPTIF_CAPACITE"><xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:seatingCapacity&#009; "NaN"^^xsd:integer ;
+<xsl:template match="DESCRIPTION_DESCRIPTIF_CAPACITE"><xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:seatingCapacity&#009; "NaN"^^xsd:int ;
 </xsl:when>
-<xsl:otherwise>&#009;dbpprop:seatingCapacity&#009; "<xsl:value-of select="."/>"^^xsd:integer ;
+<xsl:otherwise>&#009;dbpprop:seatingCapacity&#009; "<xsl:value-of select="."/>"^^xsd:int ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="ECO_LABEL2">
@@ -373,15 +373,15 @@
 <xsl:otherwise>&#009;dbpedia-owl:abstract&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
-<xsl:template match="CAPACITE_PERS"><xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:seatingCapacity&#009; "NaN"^^xsd:integer ;
+<xsl:template match="CAPACITE_PERS"><xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:seatingCapacity&#009; "NaN"^^xsd:int ;
 </xsl:when>
-<xsl:otherwise>&#009;dbpprop:seatingCapacity&#009; "<xsl:value-of select="."/>"^^xsd:integer ;
+<xsl:otherwise>&#009;dbpprop:seatingCapacity&#009; "<xsl:value-of select="."/>"^^xsd:int ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
-<xsl:template match="CP"><xsl:choose><xsl:when test=". = 'null'">&#009;dbpedia-owl:postalCode&#009; "NaN"^^xsd:integer .
+<xsl:template match="CP"><xsl:choose><xsl:when test=". = 'null'">&#009;dbpedia-owl:postalCode&#009; "NaN"^^xsd:int .
 
 </xsl:when>
-<xsl:otherwise>&#009;dbpedia-owl:postalCode&#009; "<xsl:value-of select="."/>"^^xsd:integer .
+<xsl:otherwise>&#009;dbpedia-owl:postalCode&#009; "<xsl:value-of select="."/>"^^xsd:int .
 
 </xsl:otherwise></xsl:choose></xsl:template>
 

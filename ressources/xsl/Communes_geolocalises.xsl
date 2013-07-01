@@ -49,14 +49,14 @@
 <xsl:otherwise><xsl:value-of select="concat(concat('&lt;http://lodpaddle.com/Communes_geolocalises/',translate(translate(translate(translate(translate(translate(translate(./text(),'&quot;',' '),'«',' '),'&gt;',' '),'&lt;',' '),'  ',' '),' ','_'),'.','_')),'&gt;')"/>&#009; foaf:name &#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
-<xsl:template match="COMMUNE_CODE_INSEE"><xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:insee&#009; "NaN"^^xsd:integer ;
+<xsl:template match="COMMUNE_CODE_INSEE"><xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:insee&#009; "NaN"^^xsd:int ;
 </xsl:when>
-<xsl:otherwise>&#009;dbpprop:insee&#009; "<xsl:value-of select="."/>"^^xsd:integer ;
+<xsl:otherwise>&#009;dbpprop:insee&#009; "<xsl:value-of select="."/>"^^xsd:int ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
-<xsl:template match="NB_HABITANTS"><xsl:choose><xsl:when test=". = 'null'">&#009;dbpedia-owl:populationTotal&#009; "NaN"^^xsd:integer ;
+<xsl:template match="NB_HABITANTS"><xsl:choose><xsl:when test=". = 'null'">&#009;dbpedia-owl:populationTotal&#009; "NaN"^^xsd:int ;
 </xsl:when>
-<xsl:otherwise>&#009;dbpedia-owl:populationTotal&#009; "<xsl:value-of select="."/>"^^xsd:integer ;
+<xsl:otherwise>&#009;dbpedia-owl:populationTotal&#009; "<xsl:value-of select="."/>"^^xsd:int ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="LONGITUDE"><xsl:choose><xsl:when test=". = 'null'">&#009;geo:long&#009; "NaN"^^xsd:decimal ;

@@ -90,9 +90,9 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="THEME">
-<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:Theme&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:theme&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;pdll:Theme&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;pdll:theme&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="COMMUNE">
@@ -118,9 +118,9 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="LIBTYPE">
-<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:TypeLabel&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:typeLabel&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;pdll:TypeLabel&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;pdll:typeLabel&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="_IDOBJ">

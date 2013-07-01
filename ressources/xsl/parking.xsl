@@ -78,14 +78,14 @@
 &#009;geo:long&#009;"<xsl:value-of select="substring-before(substring-after(.,', '),']')"/>"^^xsd:decimal  ;
 </xsl:template>
 
-<xsl:template match="CODCOMMUNE"><xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:insee&#009; "NaN"^^xsd:integer ;
+<xsl:template match="CODCOMMUNE"><xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:insee&#009; "NaN"^^xsd:int ;
 </xsl:when>
-<xsl:otherwise>&#009;dbpprop:insee&#009; "<xsl:value-of select="."/>"^^xsd:integer ;
+<xsl:otherwise>&#009;dbpprop:insee&#009; "<xsl:value-of select="."/>"^^xsd:int ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
-<xsl:template match="CAPACITE_VEHICULE_ELECTRIQUE"><xsl:choose><xsl:when test=". = 'null'">&#009;pdll:electricBikeCapacity&#009; "NaN"^^xsd:integer ;
+<xsl:template match="CAPACITE_VEHICULE_ELECTRIQUE"><xsl:choose><xsl:when test=". = 'null'">&#009;pdll:electricBikeCapacity&#009; "NaN"^^xsd:int ;
 </xsl:when>
-<xsl:otherwise>&#009;pdll:electricBikeCapacity&#009; "<xsl:value-of select="."/>"^^xsd:integer ;
+<xsl:otherwise>&#009;pdll:electricBikeCapacity&#009; "<xsl:value-of select="."/>"^^xsd:int ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="CODE_POSTAL">
@@ -177,9 +177,9 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="LIBTYPE">
-<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:TypeLabel&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:typeLabel&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;pdll:TypeLabel&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;pdll:typeLabel&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="_IDOBJ">

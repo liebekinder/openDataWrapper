@@ -80,7 +80,7 @@ public class XSLConstructor {
 			Iterator<Element> it = listeTag.iterator();
 			File f = new File(speMappingPath);
 			if (f.exists()) {
-				System.out.println("Personnal property file detected");
+				logger.info("Personnal property file detected");
 				speProp = new Properties();
 				speProp.load(new FileReader(f));
 			}
@@ -100,12 +100,30 @@ public class XSLConstructor {
 					map.put(name, new MappingUnit((String) speProp.get(name)));
 				} else {
 					if (properties.containsKey(name)) {
+
+						// Vérification de la source et ajout de la nouvelle
+						// source si besoin
+						String[] liste = ((String) properties.get(name))
+								.split(",");
+						boolean gotSource = false;
+						for (String s : liste) {
+							if (s.equals(dataset)) {
+								gotSource = true;
+							}
+						}
+						if (!gotSource) {
+							properties.setProperty(name,
+									((String) properties.get(name))
+											+ ","+dataset);
+							modification = true;
+						}
+
 						map.put(name,
 								new MappingUnit((String) properties.get(name)));
 					} else {
 						// la propriété n'existe pas, il faut la créer
 						properties.setProperty(name, "TEMPORAIRE:" + name
-								+ ",string");
+								+ ",string," + dataset);
 						System.err.println("WARNING: new property added: "
 								+ name);
 						modification = true;
@@ -136,7 +154,7 @@ public class XSLConstructor {
 	private boolean generateXSL(Map<String, MappingUnit> map) {
 		try {
 			// Create file
-			System.out.print("XSL construction processing...");
+			System.out.println("XSL construction processing...");
 			FileWriter fstream = new FileWriter(XSLFile);
 			BufferedWriter out = new BufferedWriter(fstream);
 
@@ -176,11 +194,14 @@ public class XSLConstructor {
 			}
 
 			// Close the output stream
-			System.out.println("done!");
+			System.out.println("Processing done!");
 			out.close();
 			return true;
 		} catch (Exception e) {// Catch exception if any
-			System.err.println("Error: " + e.getMessage());
+			// e.getStackTrace();
+			System.err
+					.println("Error. please Check that your dataset have a foaf:name property! "
+							+ e.getMessage());
 			return false;
 		}
 
@@ -277,6 +298,20 @@ public class XSLConstructor {
 		return s;
 	}
 
+	private String templateEmpty(String courant, Iterator<String> it,
+			Map<String, MappingUnit> map) {
+		logger.info("La propriété " + courant + " va être ignorée!");
+		String s = new String();
+		if (it.hasNext()) {
+			s += new String("<xsl:template match=\"" + courant
+					+ "\"></xsl:template>\n\n");
+		} else {
+			s += new String("<xsl:template match=\"" + courant
+					+ "\"><xsl:text>&#009;.\n\n</xsl:text></xsl:template>\n\n");
+		}
+		return s;
+	}
+
 	private void templateWrite(Map<String, MappingUnit> map, BufferedWriter out)
 			throws IOException {
 		Set<String> keys = map.keySet();
@@ -284,23 +319,30 @@ public class XSLConstructor {
 		it = keys.iterator();
 		while (it.hasNext()) {
 			String courant = it.next();
-			if (map.get(courant).vocabulaire.equals("foaf:name")) {
-				out.write(templateName(courant, it, map));
-			} else {
-				if (courant == "_l") {
-					out.write(templateCoord(courant, it, map));
+			if (!map.get(courant).ignore) {
+				if (map.get(courant).vocabulaire.equals("foaf:name")) {
+					out.write(templateName(courant, it, map));
 				} else {
-					if (map.get(courant).type.equals("decimal")) {
-						out.write(templateFloat(courant, it, map));
+					if (courant == "_l") {
+						out.write(templateCoord(courant, it, map));
+
 					} else {
-						if (map.get(courant).type.equals("integer")) {
-							out.write(templateInt(courant, it, map));
+						if (map.get(courant).type.equals("decimal")) {
+							out.write(templateFloat(courant, it, map));
+
 						} else {
-							// on suppose que le cas général est string
-							out.write(templateString(courant, it, map));
+							if (map.get(courant).type.equals("integer")) {
+								out.write(templateInt(courant, it, map));
+
+							} else {
+								// on suppose que le cas général est string
+								out.write(templateString(courant, it, map));
+							}
 						}
 					}
 				}
+			} else {
+				out.write(templateEmpty(courant, it, map));
 			}
 		}
 	}
@@ -333,16 +375,19 @@ public class XSLConstructor {
 		String principal = "";
 		while (it.hasNext() && !trouve) {
 			String courant = it.next();
-			if (map.get(courant).vocabulaire.equals("foaf:name")) {
+			if (!map.get(courant).ignore
+					&& map.get(courant).vocabulaire.equals("foaf:name")) {
 				out.write("\t<xsl:apply-templates select=\"" + courant
 						+ "\"/>\n");
+				// cas particulier du type, placé directement après le foaf:name
 				out.write(templateType());
 				trouve = true;
 				principal = courant;
 			}
 		}
 		if (!trouve) {
-			System.err.println("id non trouvé!");
+			System.err
+					.println("id not found! We absolutely need some properties that will give a foaf:name !");
 			return false;
 		}
 		it = keys.iterator();

@@ -89,11 +89,7 @@
 <xsl:otherwise>&#009;sc:telephone&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
-<xsl:template match="THEME">
-<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:Theme&#009; "undefined"^^xsd:string ;
-</xsl:when>
-<xsl:otherwise>&#009;pdll:Theme&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
-</xsl:otherwise></xsl:choose></xsl:template>
+<xsl:template match="THEME"></xsl:template>
 
 <xsl:template match="COMMUNE">
 <xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:town&#009; "undefined"^^xsd:string ;
@@ -118,9 +114,9 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="LIBTYPE">
-<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:TypeLabel&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:typeLabel&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;pdll:TypeLabel&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;pdll:typeLabel&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="_IDOBJ">
@@ -135,12 +131,8 @@
 <xsl:otherwise>&#009;TEMPORAIRE:TypeProblem&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
-<xsl:template match="CATEGORIE">
-<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:Category&#009; "undefined"^^xsd:string .
+<xsl:template match="CATEGORIE"><xsl:text>&#009;.
 
-</xsl:when>
-<xsl:otherwise>&#009;pdll:Category&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string .
-
-</xsl:otherwise></xsl:choose></xsl:template>
+</xsl:text></xsl:template>
 
 </xsl:stylesheet>
