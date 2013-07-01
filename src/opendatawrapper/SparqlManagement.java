@@ -1,6 +1,9 @@
 package opendatawrapper;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Iterator;
@@ -36,6 +39,7 @@ public class SparqlManagement {
 
 	public String datasetDirectory;
 	public Map<Integer, DataSource> listDTS;
+	public int pid;
 
 	public final String UriBase = "http://localhost:3030/openData/";
 
@@ -49,13 +53,14 @@ public class SparqlManagement {
 	public SparqlManagement(String datasetFolder,
 			Map<Integer, DataSource> listeDataSource) {
 		super();
+		this.pid = 0;
 		this.datasetDirectory = System.getProperty("user.home")
 				+ "/.openDataWrapper/" + datasetFolder;
 		listDTS = listeDataSource;
-//		System.out.println("Connecting to the TDB triple store...");
-//		Dataset dataset = TDBFactory.createDataset(datasetDirectory);
-//		System.out.println("Connection Ok!");
-//		logger.warn("Dataset memory address= " + dataset);
+		// System.out.println("Connecting to the TDB triple store...");
+		// Dataset dataset = TDBFactory.createDataset(datasetDirectory);
+		// System.out.println("Connection Ok!");
+		// logger.warn("Dataset memory address= " + dataset);
 	}
 
 	public void datasetConnection() {
@@ -86,7 +91,7 @@ public class SparqlManagement {
 						+ "SPARQL Management!\n" + " What do you want to do?\n"
 						+ "[1] Export local datasources into TDB folder\n"
 						+ "[2] Run Fuseki\n" + "[3] Get Graph URIs\n"
-						+ "[4] query?\n" + "[0] Quit\n");
+						+ "[4] query?\n"+ "[5] close Fuseki\n" + "[0] Quit\n");
 				result = in.nextInt();
 
 				switch (result) {
@@ -101,6 +106,9 @@ public class SparqlManagement {
 					break;
 				case 4:
 					query();
+					break;
+				case 5:
+					closeFuseki();
 					break;
 				default:
 					// on quitte
@@ -195,30 +203,74 @@ public class SparqlManagement {
 	 */
 	public void runFuseki(String fusekiRunScript, String fusekiFolder,
 			String fusekiConfigFile) {
-		ProcessBuilder pb = new ProcessBuilder(fusekiRunScript, fusekiFolder,
-				fusekiConfigFile);
-		pb.directory(new File(System.getProperty("user.dir")));
-		pb.redirectErrorStream(true);
-		// log append
-		// File log = new File(System.getProperty("user.home")
-		// + "/.openDataWrapper/log.fuseki");
-		// pb.redirectOutput(ProcessBuilder.Redirect.appendTo(log));
-		pb.inheritIO();
-		try {
-			Process p = pb.start();
+		if (pid == 0) {
+			ProcessBuilder pb = new ProcessBuilder(fusekiRunScript,
+					fusekiFolder, fusekiConfigFile);
+			pb.directory(new File(System.getProperty("user.dir")));
+			pb.redirectErrorStream(true);
 
-			if (p.waitFor() != 0) {
+			// Code pour recupération du PID
+			pb.redirectOutput(new File("jena-fuseki-0.2.7/stdout.log"));
+
+			try {
+
+				Process p = pb.start();
+
+				if (p.waitFor() != 0) {
+					return;
+				}
+				Thread.sleep(2000);
+				System.out.println("Fuseki Launched!");
+				extractPID();
+			} catch (IOException ex) {
+				ex.printStackTrace(System.out);
+				return;
+			} catch (InterruptedException iex) {
+				iex.printStackTrace(System.out);
 				return;
 			}
-			System.out.println("Fuseki Launched!");
-		} catch (IOException ex) {
-			ex.printStackTrace(System.out);
-			return;
-		} catch (InterruptedException iex) {
-			iex.printStackTrace(System.out);
-			return;
+		} else {
+			System.out
+					.println("Fuseki is already running, please close Fuseki and launch it again if you want to reload the data");
 		}
+	}
 
+	private void extractPID() {
+		try {
+			BufferedReader fp = new BufferedReader(new FileReader(new File("jena-fuseki-0.2.7/stdout.log")));
+			String line="";
+			while((line = fp.readLine()) != null){
+				if(line.contains("&&-&&")){
+					//atta good line!
+					pid = (int) Integer.valueOf(line.trim().substring(6));
+					logger.debug(pid);
+				}
+				else{
+					System.out.println(line);
+				}
+			}
+			fp.close();
+		} catch (FileNotFoundException e) {
+			System.err.println("the file doesn't exist or cannot be opened");
+		} catch (IOException e) {
+			System.err.println("Unable to get fuseki's PID, you'll have to close it manually!");
+		}
+		
+	}
+
+	public void closeFuseki() {
+		if (pid != 0) {
+			ShellExecutor excutor = new ShellExecutor("/bin/bash", "");
+			try {
+			  System.out.println(excutor.execute("kill "+pid));
+			  System.out.println("Fuseki closed!");
+			  pid = 0;
+			} catch (IOException e) {
+			  e.printStackTrace();
+			}
+		} else {
+			System.out.println("Fuseki is already closed!");
+		}	
 	}
 
 	/**
