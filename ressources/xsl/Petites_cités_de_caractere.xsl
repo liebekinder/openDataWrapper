@@ -48,10 +48,10 @@
 </xsl:template>
 
 <xsl:template match="COMMUNE_LIBELLE"><xsl:choose><xsl:when test=". = 'null'"></xsl:when>
-<xsl:otherwise><xsl:value-of select="concat(concat('&lt;http://lodpaddle.com/Petites_cités_de_caractere/',translate(translate(translate(translate(translate(translate(translate(./text(),'&quot;',' '),'«',' '),'&gt;',' '),'&lt;',' '),'  ',' '),' ','_'),'.','_')),'&gt;')"/>&#009; foaf:name &#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise><xsl:value-of select="concat(concat('&lt;http://lodpaddle.com/Petites_cités_de_caractere/',encode-for-uri(.)),'&gt;')"/>&#009; foaf:name &#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
-<xsl:template match="COMMUNE_CODE_INSEE"><xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:insee&#009; "NaN"^^xsd:int ;
+<xsl:template match="COMMUNE_CODE_INSEE"><xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:insee&#009; "-120404040"^^xsd:int ;
 </xsl:when>
 <xsl:otherwise>&#009;dbpprop:insee&#009; "<xsl:value-of select="."/>"^^xsd:int ;
 </xsl:otherwise></xsl:choose></xsl:template>
@@ -74,12 +74,12 @@
 <xsl:otherwise>&#009;rdfs:comment&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
-<xsl:template match="LONGITUDE"><xsl:choose><xsl:when test=". = 'null'">&#009;geo:long&#009; "NaN"^^xsd:decimal ;
+<xsl:template match="LONGITUDE"><xsl:choose><xsl:when test=". = 'null'">&#009;geo:long&#009; "-120404040.00"^^xsd:decimal ;
 </xsl:when>
 <xsl:otherwise>&#009;geo:long&#009; "<xsl:value-of select="."/>"^^xsd:decimal ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
-<xsl:template match="LATITUDE"><xsl:choose><xsl:when test=". = 'null'">&#009;geo:lat&#009; "NaN"^^xsd:decimal .
+<xsl:template match="LATITUDE"><xsl:choose><xsl:when test=". = 'null'">&#009;geo:lat&#009; "-120404040.00"^^xsd:decimal .
 
 </xsl:when>
 <xsl:otherwise>&#009;geo:lat&#009; "<xsl:value-of select="."/>"^^xsd:decimal .

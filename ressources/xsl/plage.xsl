@@ -148,9 +148,10 @@
 <xsl:otherwise>&#009;dbpprop:website&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
-<xsl:template match="DESCRIPTION_DESCRIPTIF_CAPACITE"><xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:seatingCapacity&#009; "NaN"^^xsd:int ;
+<xsl:template match="DESCRIPTION_DESCRIPTIF_CAPACITE">
+<xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:seatingCapacity&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;dbpprop:seatingCapacity&#009; "<xsl:value-of select="."/>"^^xsd:int ;
+<xsl:otherwise>&#009;dbpprop:seatingCapacity&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="MEL_1">
@@ -268,7 +269,7 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="geo/name"><xsl:choose><xsl:when test=". = 'null'"></xsl:when>
-<xsl:otherwise><xsl:value-of select="concat(concat('&lt;http://lodpaddle.com/plage/',translate(translate(translate(translate(translate(translate(translate(./text(),'&quot;',' '),'«',' '),'&gt;',' '),'&lt;',' '),'  ',' '),' ','_'),'.','_')),'&gt;')"/>&#009; foaf:name &#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise><xsl:value-of select="concat(concat('&lt;http://lodpaddle.com/plage/',encode-for-uri(.)),'&gt;')"/>&#009; foaf:name &#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="TYPE_1">
@@ -289,7 +290,7 @@
 <xsl:otherwise>&#009;dbpedia-owl:abstract&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
-<xsl:template match="CP"><xsl:choose><xsl:when test=". = 'null'">&#009;dbpedia-owl:postalCode&#009; "NaN"^^xsd:int ;
+<xsl:template match="CP"><xsl:choose><xsl:when test=". = 'null'">&#009;dbpedia-owl:postalCode&#009; "-120404040"^^xsd:int ;
 </xsl:when>
 <xsl:otherwise>&#009;dbpedia-owl:postalCode&#009; "<xsl:value-of select="."/>"^^xsd:int ;
 </xsl:otherwise></xsl:choose></xsl:template>

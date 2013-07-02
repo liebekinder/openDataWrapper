@@ -28,8 +28,8 @@ public class XSLConstructor {
 
 	public final String URIBase = "http://lodpaddle.com/";
 
-	private final String intVide = "NaN";
-	private final String decVide = "NaN";
+	private final String intVide = "-120404040";
+	private final String decVide = "-120404040.00";
 	private final String stringVide = "undefined";
 	private Properties speProp;
 
@@ -219,7 +219,11 @@ public class XSLConstructor {
 						+ "<xsl:value-of select=\"concat(concat('&lt;"
 						+ URIBase
 						+ dataset
-						+ "/',translate(translate(translate(translate(translate(translate(translate(./text(),'&quot;',' '),'«',' '),'&gt;',' '),'&lt;',' '),'  ',' '),' ','_'),'.','_')),'&gt;')\"/>&#009; "
+						+ "/',encode-for-uri(.)),'&gt;')\"/>&#009; "
+//						+ "<xsl:value-of select=\"concat(concat('&lt;"
+//						+ URIBase
+//						+ dataset
+//						+ "/',translate(translate(translate(translate(translate(translate(translate(./text(),'&quot;',' '),'«',' '),'&gt;',' '),'&lt;',' '),'  ',' '),' ','_'),'.','_')),'&gt;')\"/>&#009; "
 						+ map.get(courant).vocabulaire
 						+ " &#009; \"<xsl:value-of select=\"translate(., '&quot;','')\"/>\"^^xsd:string ;"
 						+ lastRetour(it)
