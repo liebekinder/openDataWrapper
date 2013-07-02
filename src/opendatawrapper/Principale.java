@@ -3,7 +3,6 @@ package opendatawrapper;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.lang.management.ManagementFactory;
 import java.util.InputMismatchException;
 import java.util.Iterator;
 import java.util.Map;
@@ -45,6 +44,11 @@ public class Principale {
 		// Set up a simple configuration that logs on the console.
 		BasicConfigurator.configure();
 
+//		IOpenDataWrapper open = new OpenDataWrapper();
+//		open.convert();
+//		open.runQuery("Select * where {?a ?b ?c} limit 100");
+//		open.export("/home/seb/TDB");
+		
 		try {
 			lr = new LoadRessources();
 		} catch (JDOMException e1) {
