@@ -133,7 +133,7 @@ public class Principale {
 
 	private static void sparql() {
 		SparqlManagement spm = new SparqlManagement(lr.getDatasetFolder(),
-				listeDataSource);
+				listeDataSource,lr.getAdditionalSource());
 		spm.run(lr.getFusekiRunScript(), lr.getFusekiFolder(),
 				lr.getFusekiConfigFile());
 	}

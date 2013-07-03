@@ -8,6 +8,7 @@
     <fusekiFolder>jena-fuseki-0.2.7</fusekiFolder>
     <fusekiConfigFile>ressources/fusekiConfig.ttl</fusekiConfigFile>
     <fusekiRunScript>ressources/fusekiRun.sh</fusekiRunScript>
+    <additionalSource>ressources/otherTTL</additionalSource>
   </configuration>
   <source>
     <nom>service_public</nom>

@@ -43,6 +43,8 @@ public class LoadRessources {
 	public String fusekiConfigFile;
 	public String fusekiRunScript;
 
+	private String additionalSource;
+
 	public String getDatasetFolder() {
 		return datasetFolder;
 	}
@@ -137,6 +139,8 @@ public class LoadRessources {
 				.getChild("fusekiConfigFile").getValue();
 		fusekiRunScript = document.getRootElement().getChild("configuration")
 				.getChild("fusekiRunScript").getValue();
+		additionalSource = document.getRootElement().getChild("configuration")
+				.getChild("additionalSource").getValue();
 
 	}
 
@@ -334,5 +338,9 @@ public class LoadRessources {
 
 	public Map<Integer, DataSource> getListeDataSource() {
 		return listeDataSource;
+	}
+
+	public String getAdditionalSource() {
+		return additionalSource;
 	}
 }

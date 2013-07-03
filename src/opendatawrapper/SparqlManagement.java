@@ -38,6 +38,7 @@ public class SparqlManagement {
 	static Logger logger = Logger.getLogger(SparqlManagement.class);
 
 	public String datasetDirectory;
+	public String additionalSourceFolder;
 	public Map<Integer, DataSource> listDTS;
 	public int pid;
 
@@ -51,12 +52,13 @@ public class SparqlManagement {
 	 * @param listeDataSource
 	 */
 	public SparqlManagement(String datasetFolder,
-			Map<Integer, DataSource> listeDataSource) {
+			Map<Integer, DataSource> listeDataSource, String additional) {
 		super();
 		this.pid = 0;
 		this.datasetDirectory = System.getProperty("user.home")
 				+ "/.openDataWrapper/" + datasetFolder;
 		listDTS = listeDataSource;
+		additionalSourceFolder = additional;
 		// System.out.println("Connecting to the TDB triple store...");
 		// Dataset dataset = TDBFactory.createDataset(datasetDirectory);
 		// System.out.println("Connection Ok!");
@@ -91,7 +93,7 @@ public class SparqlManagement {
 						+ "SPARQL Management!\n" + " What do you want to do?\n"
 						+ "[1] Export local datasources into TDB folder\n"
 						+ "[2] Run Fuseki\n" + "[3] Get Graph URIs\n"
-						+ "[4] query?\n"+ "[5] close Fuseki\n" + "[0] Quit\n");
+						+ "[4] query?\n" + "[5] close Fuseki\n" + "[0] Quit\n");
 				result = in.nextInt();
 
 				switch (result) {
@@ -153,6 +155,7 @@ public class SparqlManagement {
 					dataset.addNamedModel(UriBase + courant.getNom(),
 							temporaryModel);
 				}
+				additionalLoad(dataset);
 				System.out.println("Loading done!");
 			} else {
 				System.out.println("Loading Abortion..");
@@ -161,6 +164,30 @@ public class SparqlManagement {
 		} catch (InputMismatchException e) {
 			System.out
 					.println("Wrong answer, considered as negative. Abortion.");
+		}
+	}
+
+	/**
+	 * This method reads the contents of additionalSource folder (define in
+	 * dataSoruces.xml) and add them into TDB
+	 * 
+	 * @param dataset
+	 */
+	private void additionalLoad(Dataset dataset) {
+		String files;
+		File folder = new File(additionalSourceFolder);
+		File[] listOfFiles = folder.listFiles();
+		for (int i = 0; i < listOfFiles.length; i++) {
+			if (listOfFiles[i].isFile()) {
+				files = listOfFiles[i].getName();
+				if (files.endsWith(".ttl") || files.endsWith(".TTL")) {
+					Model temporaryModel = FileManager.get().loadModel(
+							"file:" +listOfFiles[i].getAbsolutePath(), "N3");
+					logger.info(UriBase + listOfFiles[i].getName());
+					dataset.addNamedModel(UriBase + listOfFiles[i].getName(),
+							temporaryModel);
+				}
+			}
 		}
 	}
 
@@ -237,15 +264,15 @@ public class SparqlManagement {
 
 	private void extractPID() {
 		try {
-			BufferedReader fp = new BufferedReader(new FileReader(new File("jena-fuseki-0.2.7/stdout.log")));
-			String line="";
-			while((line = fp.readLine()) != null){
-				if(line.contains("&&-&&")){
-					//atta good line!
+			BufferedReader fp = new BufferedReader(new FileReader(new File(
+					"jena-fuseki-0.2.7/stdout.log")));
+			String line = "";
+			while ((line = fp.readLine()) != null) {
+				if (line.contains("&&-&&")) {
+					// atta good line!
 					pid = (int) Integer.valueOf(line.trim().substring(6));
 					logger.debug(pid);
-				}
-				else{
+				} else {
 					System.out.println(line);
 				}
 			}
@@ -253,24 +280,25 @@ public class SparqlManagement {
 		} catch (FileNotFoundException e) {
 			System.err.println("the file doesn't exist or cannot be opened");
 		} catch (IOException e) {
-			System.err.println("Unable to get fuseki's PID, you'll have to close it manually!");
+			System.err
+					.println("Unable to get fuseki's PID, you'll have to close it manually!");
 		}
-		
+
 	}
 
 	public void closeFuseki() {
 		if (pid != 0) {
 			ShellExecutor excutor = new ShellExecutor("/bin/bash", "");
 			try {
-			  System.out.println(excutor.execute("kill "+pid));
-			  System.out.println("Fuseki closed!");
-			  pid = 0;
+				System.out.println(excutor.execute("kill " + pid));
+				System.out.println("Fuseki closed!");
+				pid = 0;
 			} catch (IOException e) {
-			  e.printStackTrace();
+				e.printStackTrace();
 			}
 		} else {
 			System.out.println("Fuseki is already closed!");
-		}	
+		}
 	}
 
 	/**
