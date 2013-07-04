@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dspl xmlns="http://schemas.google.com/dspl/2010" xmlns:time="http://www.google.com/publicdata/dataset/google/time"
+	xmlns:dp="http://www.data-publica.com/geo" xmlns:entity="http://www.google.com/publicdata/dataset/google/entity"
+	xmlns:quantity="http://www.google.com/publicdata/dataset/google/quantity">
+	<info>
+		<name>
+			<value> Bibliothèque et Médiathèque en Loire-Atlantique</value>
+		</name>
+		<description>
+			<value>Liste des bibliothèques et médiathèques en Loire-Atlantique</value>
+		</description>
+		<url>
+			<value>
+			    Alimentation auto
+			</value>
+		</url>
+	</info>
+	<provider>
+		<name>
+			<value>
+				Propriétaire : Loire Atlantique Tourisme
+				Licence : ODBL
+			</value>
+		</name>
+		<url>
+			<value>
+
+				Alimentation auto
+			</value>
+		</url>
+	</provider>
+	<concepts>
+		<concept id="NOM DE LA BIBLIOTHEQUE" extends="dp:geoname">
+			<info>
+				<name>
+					<value>Nom de l'établissement</value>
+				</name>
+				<totalName>
+					<value />
+				</totalName>
+				<description>
+					<value>Nom de l'établissement</value>
+				</description>
+			</info>
+			<type ref="string" />
+			<attribute id="is_filterable">
+				<value>true</value>
+			</attribute>
+			<attribute id="is_displayed">
+				<value>true</value>
+			</attribute>
+			<attribute id="statistics">
+				<value>false</value>
+			</attribute>
+			<attribute id="is_percentage">
+				<value>false</value>
+			</attribute>
+		</concept>
+		<concept id="ADRESSE PHYSIQUE" extends="entity:entity">
+			<info>
+				<name>
+					<value>Adresse de l'établissement</value>
+				</name>
+				<totalName>
+					<value />
+				</totalName>
+				<description>
+					<value>Adresse de l'établissement</value>
+				</description>
+			</info>
+			<type ref="string" />
+			<attribute id="is_filterable">
+				<value>true</value>
+			</attribute>
+			<attribute id="is_displayed">
+				<value>true</value>
+			</attribute>
+			<attribute id="statistics">
+				<value>false</value>
+			</attribute>
+			<attribute id="is_percentage">
+				<value>false</value>
+			</attribute>
+		</concept>
+		<concept id="CP" extends="entity:entity">
+			<info>
+				<name>
+					<value>Code postal</value>
+				</name>
+				<totalName>
+					<value />
+				</totalName>
+				<description>
+					<value>Code postal</value>
+				</description>
+			</info>
+			<type ref="string" />
+			<attribute id="is_filterable">
+				<value>true</value>
+			</attribute>
+			<attribute id="is_displayed">
+				<value>true</value>
+			</attribute>
+			<attribute id="statistics">
+				<value>false</value>
+			</attribute>
+			<attribute id="is_percentage">
+				<value>false</value>
+			</attribute>
+		</concept>
+		<concept id="COMMUNE" extends="entity:entity">
+			<info>
+				<name>
+					<value>Commune</value>
+				</name>
+				<totalName>
+					<value />
+				</totalName>
+				<description>
+					<value>Commune</value>
+				</description>
+			</info>
+			<type ref="string" />
+			<attribute id="is_filterable">
+				<value>true</value>
+			</attribute>
+			<attribute id="is_displayed">
+				<value>true</value>
+			</attribute>
+			<attribute id="statistics">
+				<value>false</value>
+			</attribute>
+			<attribute id="is_percentage">
+				<value>false</value>
+			</attribute>
+		</concept>		
+		<concept id="TELEPHONE" extends="entity:entity">
+			<info>
+				<name>
+					<value>Telephone</value>
+				</name>
+				<totalName>
+					<value />
+				</totalName>
+				<description>
+					<value>Commune</value>
+				</description>
+			</info>
+			<type ref="string" />
+			<attribute id="is_filterable">
+				<value>true</value>
+			</attribute>
+			<attribute id="is_displayed">
+				<value>true</value>
+			</attribute>
+			<attribute id="statistics">
+				<value>false</value>
+			</attribute>
+			<attribute id="is_percentage">
+				<value>false</value>
+			</attribute>
+		</concept>
+		<concept id="ADRESSE MAIL" extends="entity:entity">
+			<info>
+				<name>
+					<value>Adresse email</value>
+				</name>
+				<totalName>
+					<value />
+				</totalName>
+				<description>
+					<value>Adresse email</value>
+				</description>
+			</info>
+			<type ref="string" />
+			<attribute id="is_filterable">
+				<value>true</value>
+			</attribute>
+			<attribute id="is_displayed">
+				<value>true</value>
+			</attribute>
+			<attribute id="statistics">
+				<value>false</value>
+			</attribute>
+			<attribute id="is_percentage">
+				<value>false</value>
+			</attribute>
+		</concept>		
+		<concept id="HORAIRES D_OUVERTURE" extends="entity:entity">
+			<info>
+				<name>
+					<value>Horaires</value>
+				</name>
+				<totalName>
+					<value />
+				</totalName>
+				<description>
+					<value>Horaires</value>
+				</description>
+			</info>
+			<type ref="string" />
+			<attribute id="is_filterable">
+				<value>true</value>
+			</attribute>
+			<attribute id="is_displayed">
+				<value>true</value>
+			</attribute>
+			<attribute id="statistics">
+				<value>false</value>
+			</attribute>
+			<attribute id="is_percentage">
+				<value>false</value>
+			</attribute>
+		</concept>
+	  <concept id="lat" extends="dp:latitude">
+         <info>
+            <name>
+               <value>LATITUDE</value>
+            </name>
+            <totalName>
+               <value/>
+            </totalName>
+            <description>
+               <value>LATITUDE</value>
+            </description>
+         </info>
+         <type ref="float"/>
+         <attribute id="is_filterable">
+            <value>true</value>
+         </attribute>
+         <attribute id="is_displayed">
+            <value>true</value>
+         </attribute>
+         <attribute id="statistics">
+            <value>false</value>
+         </attribute>
+         <attribute id="is_percentage">
+            <value>false</value>
+         </attribute>
+      </concept>
+      <concept id="long" extends="dp:longitude">
+         <info>
+            <name>
+               <value>LONGITUDE</value>
+            </name>
+            <totalName>
+               <value/>
+            </totalName>
+            <description>
+               <value>LONGITUDE</value>
+            </description>
+         </info>
+         <type ref="float"/>
+         <attribute id="is_filterable">
+            <value>true</value>
+         </attribute>
+         <attribute id="is_displayed">
+            <value>true</value>
+         </attribute>
+         <attribute id="statistics">
+            <value>false</value>
+         </attribute>
+         <attribute id="is_percentage">
+            <value>false</value>
+         </attribute>
+      </concept>
+	</concepts>
+	<slices>
+		<slice id="vignobles_et_decouvertes_SLI">
+			<dimension concept="NOM DE LA BIBLIOTHEQUE" />
+			<dimension concept="ADRESSE PHYSIQUE" />
+			<dimension concept="CP" />
+			<dimension concept="COMMUNE" />
+			<dimension concept="ADRESSE MAIL" />
+			<dimension concept="lat" />
+			<dimension concept="long" />
+			<table ref="bibliotheque_STBL" />
+		</slice>
+	</slices>
+	<tables>
+		<table id="bibliotheque_STBL">
+			<info>
+				<name>
+					<value>bibliotheque_STBL</value>
+				</name>
+			</info>
+			<column id="NOM DE LA BIBLIOTHEQUE" type="string" />
+			<column id="ADRESSE PHYSIQUE" type="string" />
+			<column id="CP" type="string" />
+			<column id="COMMUNE" type="string" />
+			<column id="ADRESSE MAIL" type="string" />
+			<column id="lat" type="float"/>
+			<column id="long" type="float"/>
+			<data>
+				<file encoding="UTF-8" format="csv">bibliotheque.csv</file>
+			</data>
+		</table>
+	</tables>
+</dspl>

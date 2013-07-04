@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+   <identifiant>22440002800011_CG44_CLT_03001</identifiant>
+   <titre>Bibliothèque et Médiathèque en Loire-Atlantique</titre>
+   <description>Liste des bibliothèque et médiathèque en Loire-Atlantique</description>
+   <themes>
+      <theme>culture_tourisme</theme>
+   </themes>
+   <themeInspire/>
+   <motsCles>art dramatique, art et essai, court métrage, dessin animé</motsCles>
+   <licence>odbl</licence>
+   <datePublication>04/07/2013</datePublication>
+   <dateCreation>04/07/2013</dateCreation>
+   <objetMaj>
+      <date>04/07/2013</date>
+      <modification>Création</modification>
+      <description>Création</description>
+   </objetMaj>
+   <frequenceMaj>Lorsque nécessaire</frequenceMaj>
+   <proprietaire>cg44</proprietaire>
+   <diffuseur>cg44</diffuseur>
+   <gestionnaire>cg44</gestionnaire>
+   <couvertureSpatiale>Loire-Atlantique</couvertureSpatiale>
+   <couvertureTemporelle>Sans objet</couvertureTemporelle>
+   <langue>fr</langue>
+   <qualite/>
+   <granularite/>
+   <documentation></documentation>
+   <vocabulaire/>
+   <ressources>
+	    <ressource>
+         <format>dspl</format>
+         <description>Fichier de visualisation DSPL</description>
+         <encodage>UTF-8</encodage>
+         <nom>bibliotheque_dspl.zip</nom>
+		 <vuePrincipale>bibliotheque_STBL</vuePrincipale>
+      </ressource>
+   </ressources>
+</data> 
