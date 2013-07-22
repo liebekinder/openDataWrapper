@@ -1,0 +1,14 @@
+\select@language {french}
+\contentsline {section}{\numberline {1}LodPaddle et le web s\IeC {\'e}mantique}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Pr\IeC {\'e}sentation de LodPaddle}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Qu'est ce que le web s\IeC {\'e}mantique}{3}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Le format Ressource Description Framework (RDF)}{3}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Le Linked Open Data}{4}{subsection.1.4}
+\contentsline {section}{\numberline {2}Open Data Wrapper}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Utilisation}{5}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Les proxies}{5}{subsubsection.2.1.1}
+\contentsline {subsection}{\numberline {2.2}D\IeC {\'e}veloppement}{5}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}dataSources.xml}{5}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}ajout alternatif de source}{6}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}mapping.properties}{6}{subsubsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.4}mapping.properties}{7}{subsubsection.2.2.4}

@@ -1,0 +1,18 @@
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dbpprop: <http://dbpedia.org/property/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX pdll: <http://data.paysdelaloire.fr/>
+ 
+SELECT ?ville ?name ( ( (47.150638-xsd:float(?lat))*(47.150638-xsd:float(?lat)) + (-1.419937-xsd:float(?lon))*(-1.419937-xsd:float(?lon))*(0.88446139877-(-0.00214022732*xsd:float(?lat))) ) AS ?d2brgrad)
+WHERE {
+      
+      ?ressource geo:lat  ?lat .
+      ?ressource geo:long ?lon .
+      ?ressource dbpprop:town ?ville .
+      ?ressource rdf:type pdll:cinema.
+      ?ressource foaf:name ?name .
+      FILTER( (47.150638-xsd:float(?lat))*(47.150638-xsd:float(?lat)) + (-1.419937-xsd:float(?lon))*(-1.419937-xsd:float(?lon))*(0.88446139877-(-0.00214022732*xsd:float(?lat))) < 0.00202194934 ) .
+}
+ORDER BY ?d2brgrad

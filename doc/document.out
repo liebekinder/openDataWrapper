@@ -1,0 +1,13 @@
+\BOOKMARK [1][-]{section.1}{LodPaddle et le web s\351mantique}{}
+\BOOKMARK [2][-]{subsection.1.1}{Pr\351sentation de LodPaddle}{section.1}
+\BOOKMARK [2][-]{subsection.1.2}{Qu'est ce que le web s\351mantique}{section.1}
+\BOOKMARK [2][-]{subsection.1.3}{Le format Ressource Description Framework \(RDF\)}{section.1}
+\BOOKMARK [2][-]{subsection.1.4}{Le Linked Open Data}{section.1}
+\BOOKMARK [1][-]{section.2}{Open Data Wrapper}{}
+\BOOKMARK [2][-]{subsection.2.1}{Utilisation}{section.2}
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Les proxies}{subsection.2.1}
+\BOOKMARK [2][-]{subsection.2.2}{D\351veloppement}{section.2}
+\BOOKMARK [3][-]{subsubsection.2.2.1}{dataSources.xml}{subsection.2.2}
+\BOOKMARK [3][-]{subsubsection.2.2.2}{ajout alternatif de source}{subsection.2.2}
+\BOOKMARK [3][-]{subsubsection.2.2.3}{mapping.properties}{subsection.2.2}
+\BOOKMARK [3][-]{subsubsection.2.2.4}{mapping.properties}{subsection.2.2}

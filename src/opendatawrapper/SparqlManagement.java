@@ -93,7 +93,7 @@ public class SparqlManagement {
 						+ "SPARQL Management!\n" + " What do you want to do?\n"
 						+ "[1] Export local datasources into TDB folder\n"
 						+ "[2] Run Fuseki\n" + "[3] Get Graph URIs\n"
-						+ "[4] query?\n" + "[5] close Fuseki\n" + "[0] Quit\n");
+						+ "[4] query?\n" + "[5] close Fuseki\n"+"[7] Link datasets \n" + "[0] Quit\n");
 				result = in.nextInt();
 
 				switch (result) {
@@ -111,6 +111,9 @@ public class SparqlManagement {
 					break;
 				case 5:
 					closeFuseki();
+					break;
+				case 7:
+					linkDatasets();
 					break;
 				default:
 					// on quitte
@@ -324,6 +327,15 @@ public class SparqlManagement {
 		} finally {
 			dataset.end();
 		}
+	}
+	
+	private static void linkDatasets(){
+		System.out.println("   	****************************************************");
+		System.out.println("            	   Linking all the data sets");
+		System.out.println("   	****************************************************\n");
+
+		LoadLinks ll=new LoadLinks();
+		ll.run();
 	}
 
 	/**

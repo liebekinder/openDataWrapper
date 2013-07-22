@@ -139,12 +139,12 @@
     <outputXmlFile>ressources/output/rdf-xml/RDV_litteraires.rdf</outputXmlFile>
   </source>
   <source>
-    <nom>Petites_cités_de_caractere</nom>
+    <nom>Petites_cites_de_caractere</nom>
     <apiurl>http://data.paysdelaloire.fr/api/publication/23440003400026_J027/cites_de_caractere_table/content?format=xml</apiurl>
-    <xsltFile>ressources/xsl/Petites_cités_de_caractere.xsl</xsltFile>
+    <xsltFile>ressources/xsl/Petites_cites_de_caractere.xsl</xsltFile>
     <specificXSLT>false</specificXSLT>
-    <outputTtlFile>ressources/output/ttl/Petites_cités_de_caractere.n3</outputTtlFile>
-    <outputXmlFile>ressources/output/rdf-xml/Petites_cités_de_caractere.rdf</outputXmlFile>
+    <outputTtlFile>ressources/output/ttl/Petites_cites_de_caractere.n3</outputTtlFile>
+    <outputXmlFile>ressources/output/rdf-xml/Petites_cites_de_caractere.rdf</outputXmlFile>
   </source>
   <source>
     <nom>jardin_familiaux</nom>

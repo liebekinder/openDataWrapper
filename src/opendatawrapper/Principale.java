@@ -82,7 +82,9 @@ public class Principale {
 						+ "[6] Convert all data into RDF/XML\n"
 						+ "[7] Query over converted data\n"
 						+ "[8] Reload data\n" + "[9] SPARQL Endpoint\n"
-						+ "[10] Test requete\n" + "[0] Quit\n");
+						+ "[10] Test requete\n" 
+						+ "[11] Link datasets \n"
+						+ "[0] Quit\n");
 				result = in.nextInt();
 
 				switch (result) {
@@ -116,6 +118,9 @@ public class Principale {
 				case 10:
 					fetchFile();
 					break;
+				case 11:
+					linkDatasets();
+					break;
 				default:
 					// on quitte
 					result = -1;
@@ -144,6 +149,15 @@ public class Principale {
 		qm.run();
 	}
 
+	private static void linkDatasets(){
+		System.out.println("   	****************************************************");
+		System.out.println("            	   Linking all the data sets");
+		System.out.println("   	****************************************************\n");
+
+		LoadLinks ll=new LoadLinks();
+		ll.run();
+	}
+	
 	private static void reloadData() {
 		listeDataSource = lr.extractData();
 		System.out.println("reload complete!");
