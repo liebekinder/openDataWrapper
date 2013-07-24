@@ -31,6 +31,6 @@ fuseki:dataset           <#tdb_dataset_read> ;
 .
 
 <#tdb_dataset_read> rdf:type      tdb:DatasetTDB ;
-tdb:location "/home/aida/.openDataWrapper/tdpDataset" ;
+tdb:location "/home/seb/.openDataWrapper/tdpDataset" ;
 tdb:unionDefaultGraph true ;
 .

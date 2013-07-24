@@ -307,6 +307,15 @@ public class LoadLinks {
 					        		name=prop.getProperty("map"+filename).split(",")[2];
 					        		name1=prop.getProperty("map"+filename).split(",")[0];
 					        		System.out.println(name1+" , "+name);
+					        		
+					        		File f = new File("ressources/output/links/resultFiles");
+					    			if (!f.exists() || !f.isDirectory()) {
+					    				// faire la création
+					    				if (!f.mkdirs()) {
+					    					System.err.println("Unable to create output folder! Stop");
+					    					return;
+					    				}
+					    			}
 									deleteDuplicates(fi.getPath(), "ressources/output/links/nt/"+name1+"-"+name+".nt","ressources/output/links/resultFiles/"+name1+"-"+name+".ttl");
 			        			}
 	        				}

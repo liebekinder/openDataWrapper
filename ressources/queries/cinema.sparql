@@ -1,0 +1,15 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX dbpprop: <http://dbpedia.org/property/>
+
+SELECT ?nom ?ville ((47.716743-xsd:float(?lat))*(47.716743-xsd:float(?lat)) + (-1.376516-xsd:float(?long))*(-1.376516-xsd:float(?long))*(0.8856729921648534-(-0.0021402273217319264*xsd:float(?lat)))) 
+WHERE{
+ ?sub geo:lat ?lat.
+ ?sub geo:long?long.
+ ?sub foaf:name ?nom.
+ ?sub dbpprop:town ?ville .
+ ?sub a <http://data.paysdelaloire.fr/cinema> .
+ } ORDER BY ASC 3
+ LIMIT 3

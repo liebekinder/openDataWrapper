@@ -14,6 +14,9 @@
 
 <xsl:template match="data">
 	<xsl:text>
+@prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
+@prefix : &lt;#&gt; .
+@prefix void: &lt;http://rdfs.org/ns/void#&gt; .
 @prefix TEMPORAIRE: &lt;http://temporaire.org/&gt; .
 @prefix gr: &lt;http://purl.org/goodrelations/&gt; .
 @prefix pdll: &lt;http://data.paysdelaloire.fr/&gt; .
@@ -29,6 +32,15 @@
 @prefix dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt; .
 @prefix sc: &lt;http://schema.org/&gt; .
 @prefix geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt; .
+
+&lt;http://lodpaddle.univ-nantes.fr//parking&gt; rdf:type void:Dataset ;
+	foaf:homepage &lt;http://data.nantes.fr/donnees/detail/offres-de-services-des-parkings-publics-de-la-ville-de-nantes-1/&gt;;
+	dcterms:title "Offres de services des parkings publics de la Ville de Nantes"^^xsd:string ;
+	dcterms:description "Offres de services des parkings publics de la Ville de Nantes"^^xsd:string ;
+	dcterms:created "2013-07-24"^^xsd:date;
+	dcterms:publisher :pub .
+
+:pub rdfs:label "Nantes Métropole".
 
 </xsl:text>
 	<xsl:apply-templates/>
@@ -125,7 +137,7 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="geo/name"><xsl:choose><xsl:when test=". = 'null'"></xsl:when>
-<xsl:otherwise><xsl:value-of select="concat(concat('&lt;http://lodpaddle.com/parking/',encode-for-uri(.)),'&gt;')"/>&#009; foaf:name &#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise><xsl:value-of select="concat(concat('&lt;http://lodpaddle.univ-nantes.fr/parking/',encode-for-uri(.)),'&gt;')"/>&#009; foaf:name &#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="SERVICES">

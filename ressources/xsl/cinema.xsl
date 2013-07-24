@@ -14,6 +14,9 @@
 
 <xsl:template match="data">
 	<xsl:text>
+@prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
+@prefix : &lt;#&gt; .
+@prefix void: &lt;http://rdfs.org/ns/void#&gt; .
 @prefix TEMPORAIRE: &lt;http://temporaire.org/&gt; .
 @prefix gr: &lt;http://purl.org/goodrelations/&gt; .
 @prefix pdll: &lt;http://data.paysdelaloire.fr/&gt; .
@@ -29,6 +32,15 @@
 @prefix dbpedia-owl: &lt;http://dbpedia.org/ontology/&gt; .
 @prefix sc: &lt;http://schema.org/&gt; .
 @prefix geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt; .
+
+&lt;http://lodpaddle.univ-nantes.fr//cinema&gt; rdf:type void:Dataset ;
+	foaf:homepage &lt;http://data.nantes.fr/donnees/detail/salles-de-cinema-en-loire-atlantique/&gt;;
+	dcterms:title "Salles de cinéma en Loire-Atlantique"^^xsd:string ;
+	dcterms:description "Salles de cinéma en Loire-Atlantique"^^xsd:string ;
+	dcterms:created "2013-07-24"^^xsd:date;
+	dcterms:publisher :pub .
+
+:pub rdfs:label "Département de Loire-Atlantique".
 
 </xsl:text>
 	<xsl:apply-templates/>
@@ -57,7 +69,7 @@
 </xsl:template>
 
 <xsl:template match="geo/name"><xsl:choose><xsl:when test=". = 'null'"></xsl:when>
-<xsl:otherwise><xsl:value-of select="concat(concat('&lt;http://lodpaddle.com/cinema/',encode-for-uri(.)),'&gt;')"/>&#009; foaf:name &#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise><xsl:value-of select="concat(concat('&lt;http://lodpaddle.univ-nantes.fr/cinema/',encode-for-uri(.)),'&gt;')"/>&#009; foaf:name &#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="SITE_INTERNET">

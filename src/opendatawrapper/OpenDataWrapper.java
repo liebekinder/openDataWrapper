@@ -74,7 +74,8 @@ public class OpenDataWrapper implements IOpenDataWrapper {
 	private void conversionTtl(DataSource dts) {
 		ConvertTTL cttl = new ConvertTTL(dts.getXsltFile(), dts.getOutputTtl(),
 				lr.mappingFile, dts.getNom(), lr.getSpecificMappingFolder()
-						+ "/" + dts.getNom() + ".properties");
+						+ "/" + dts.getNom() + ".properties", dts.getUrl(),
+				dts.getTitre(), dts.getPublisher());
 		cttl.convertFromApi(dts.getApiUrl(), properties, dts.isSpecificXSLT());
 	}
 
@@ -96,11 +97,12 @@ public class OpenDataWrapper implements IOpenDataWrapper {
 			p.load(new FileReader(path));
 			return p;
 		} catch (FileNotFoundException e) {
-			logger.error("Le fichier de mapping n'existe pas! "
+			System.err.println("Mapping file does not exist! "
 					+ e.getMessage());
 		} catch (IOException e) {
-			logger.error("Erreur de lecture du fichier de mapping. Vérifiez que vous avez les droits en lecture! "
-					+ e.getMessage());
+			System.err
+					.println("Error with mapping file. Check that you have the right permission! "
+							+ e.getMessage());
 		}
 		return p;
 	}

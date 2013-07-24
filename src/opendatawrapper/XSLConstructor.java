@@ -6,6 +6,9 @@ import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -25,8 +28,11 @@ public class XSLConstructor {
 	public Properties properties;
 	public String dataset;
 	public String speMappingPath;
+	public String url;
+	public String titre;
+	public String publisher;
 
-	public final String URIBase = "http://lodpaddle.com/";
+	public final String URIBase = "http://lodpaddle.univ-nantes.fr/";
 
 	private final String intVide = "-120404040";
 	private final String decVide = "-120404040.00";
@@ -47,12 +53,16 @@ public class XSLConstructor {
 	 *            the path to the specific property file
 	 */
 	public XSLConstructor(String xSLFile_, Document document, Properties p,
-			String Dataset, String spePath) {
+			String Dataset, String spePath, String url_, String titre_, String publisher_) {
 		XSLFile = xSLFile_;
 		XMLFile = document;
 		properties = p;
 		dataset = Dataset;
 		speMappingPath = spePath;
+		url = url_;
+		titre = titre_;
+		publisher = publisher_;
+		//logger.error(XSLFile);
 	}
 
 	/**
@@ -155,6 +165,7 @@ public class XSLConstructor {
 		try {
 			// Create file
 			System.out.println("XSL construction processing...");
+			//   logger.error(XSLFile);
 			FileWriter fstream = new FileWriter(XSLFile);
 			BufferedWriter out = new BufferedWriter(fstream);
 
@@ -178,6 +189,8 @@ public class XSLConstructor {
 
 			prefixes(out);
 
+			vo_id(out);
+			
 			out.write("\n" + "</xsl:text>\n" + "	<xsl:apply-templates/>\n"
 					+ "</xsl:template>\n" + "\n"
 					+ "<xsl:template match=\"element\">\n");
@@ -198,12 +211,34 @@ public class XSLConstructor {
 			out.close();
 			return true;
 		} catch (Exception e) {// Catch exception if any
-			// e.getStackTrace();
+			e.getStackTrace();
 			System.err
 					.println("Error. please Check that your dataset have a foaf:name property! "
 							+ e.getMessage());
 			return false;
 		}
+
+	}
+	/**
+	 * This function manage VoID information about the dataset
+	 * @param out
+	 * @throws IOException 
+	 */
+	private void vo_id(BufferedWriter out) throws IOException {
+		
+		//logger.info("beginning of VoID");
+		
+		DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+		Date date = new Date();
+		String d = dateFormat.format(date);
+		
+		out.write("\n&lt;"+URIBase+"/"+dataset+"&gt; rdf:type void:Dataset ;\n" +
+				"\tfoaf:homepage &lt;"+url+"&gt;;\n" +
+				"\tdcterms:title \""+titre+"\"^^xsd:string ;\n" +
+				"\tdcterms:description \""+titre+"\"^^xsd:string ;\n" +
+				"\tdcterms:created \""+d+"\"^^xsd:date;\n" +
+				"\tdcterms:publisher :pub .\n" +
+				"\n:pub rdfs:label \""+publisher+"\".\n");	
 
 	}
 
@@ -406,6 +441,7 @@ public class XSLConstructor {
 	}
 
 	private void prefixes(BufferedWriter out) throws IOException {
+		//logger.info("prefixes management");
 		String prefixChaine = (String) properties.get("$$prefixes$$");
 		String[] prefixes = prefixChaine.split(",");
 		for (String value : prefixes) {

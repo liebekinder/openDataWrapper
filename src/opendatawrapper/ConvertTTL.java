@@ -46,6 +46,9 @@ public class ConvertTTL {
 	public String mappingPath;
 	public String datasetName;
 	public String speMappingPath;
+	public String url;
+	public String titre;
+	public String publisher;
 
 	String proxyHost;
 	String proxyPort;
@@ -66,12 +69,18 @@ public class ConvertTTL {
 	 * @param XMLout the output folder of the conversion
 	 */
 	public ConvertTTL(String XSLin, String XMLout, String mappingPath,
-			String dataset, String speMap) {
+			String dataset, String speMap,String url, String titre, String publisher) {
 		XSLFile_ = XSLin;
 		outputFile = XMLout;
 		this.mappingPath = mappingPath;
 		datasetName = dataset;
 		speMappingPath = speMap;
+		this.url = url;
+		this.titre = titre;
+		this.publisher = publisher;
+		
+
+		//logger.error(XSLFile_);
 
 		try {
 			Properties prop = new Properties();
@@ -272,8 +281,9 @@ public class ConvertTTL {
 	 * @return true if the construction got well, false else
 	 */
 	public boolean constructXSL(Properties p, Document document) {
+		//logger.error(XSLFile_);
 		XSLConstructor xslc = new XSLConstructor(XSLFile_, document, p,
-				datasetName, speMappingPath);
+				datasetName, speMappingPath, url, titre, publisher);
 		return xslc.construct(mappingPath);
 
 	}
