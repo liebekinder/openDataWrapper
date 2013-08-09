@@ -19,7 +19,7 @@
 @prefix void: &lt;http://rdfs.org/ns/void#&gt; .
 @prefix TEMPORAIRE: &lt;http://temporaire.org/&gt; .
 @prefix gr: &lt;http://purl.org/goodrelations/&gt; .
-@prefix pdll: &lt;http://data.paysdelaloire.fr/&gt; .
+@prefix pdll: &lt;http://lodpaddle.univ-nantes.fr/&gt; .
 @prefix dbpedia: &lt;http://dbpedia.org/resource/&gt; .
 @prefix prop-fr: &lt;http://fr.dbpedia.org/property/&gt; .
 @prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
@@ -33,11 +33,11 @@
 @prefix sc: &lt;http://schema.org/&gt; .
 @prefix geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt; .
 
-&lt;http://lodpaddle.univ-nantes.fr//salle_spectacle&gt; rdf:type void:Dataset ;
-	foaf:homepage &lt;http://data.nantes.fr/donnees/detail/salles-de-spectacles-en-loire-atlantique/&gt;;
+&lt;http://lodpaddle.univ-nantes.fr/salle_spectacle&gt; rdf:type void:Dataset ;
+	foaf:homepage "http://data.nantes.fr/donnees/detail/salles-de-spectacles-en-loire-atlantique/";
 	dcterms:title "Salles de spectacles en Loire-Atlantique"^^xsd:string ;
 	dcterms:description "Salles de spectacles en Loire-Atlantique"^^xsd:string ;
-	dcterms:created "2013-07-24"^^xsd:date;
+	dcterms:created "2013-08-09"^^xsd:date;
 	dcterms:publisher :pub .
 
 :pub rdfs:label "Département de Loire-Atlantique".
@@ -113,9 +113,9 @@
 <xsl:otherwise>&#009;dbpprop:town&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
-<xsl:template match="CP"><xsl:choose><xsl:when test=". = 'null'">&#009;dbpedia-owl:postalCode&#009; "-120404040"^^xsd:int ;
+<xsl:template match="CP"><xsl:choose><xsl:when test=". = 'null'">&#009;sc:postalCode&#009; "-120404040"^^xsd:int ;
 </xsl:when>
-<xsl:otherwise>&#009;dbpedia-owl:postalCode&#009; "<xsl:value-of select="."/>"^^xsd:int ;
+<xsl:otherwise>&#009;sc:postalCode&#009; "<xsl:value-of select="."/>"^^xsd:int ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="Téléphone">

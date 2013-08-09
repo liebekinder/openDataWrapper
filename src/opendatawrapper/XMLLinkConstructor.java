@@ -1,20 +1,9 @@
 package opendatawrapper;
 
-import grizzled.sys;
-
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Properties;
-import java.util.Set;
 
 //import org.jdom2.Document;
 //import org.jdom2.Element;
@@ -98,7 +87,7 @@ public class XMLLinkConstructor {
 
 							+ "		<Prefix namespace=\"http://temporaire.org\" id=\"TEMPORAIRE\"></Prefix>\n"
 							+ "		<Prefix namespace=\"http://purl.org/goodrelations\" id=\"gr\"></Prefix>\n"
-							+ "		<Prefix namespace=\"http://data.paysdelaloire.fr\" id=\"pdll\"></Prefix>\n"
+							+ "		<Prefix namespace=\"http://lodpaddle.univ-nantes.fr\" id=\"pdll\"></Prefix>\n"
 							+ "		<Prefix namespace=\"http://http://xmlns.com/foaf/0.1\" id=\"foaf\"></Prefix>\n"
 							+ "		<Prefix namespace=\"http://http://www.w3.org/2002/07/owl#\" id=\"owl\"></Prefix>\n"
 							+ "		<Prefix namespace=\"http://dbpedia.org/property\" id=\"dbpprop\"></Prefix>\n"

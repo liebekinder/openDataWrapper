@@ -168,6 +168,7 @@ public class LoadLinks {
 		String[] items;
 		String town;
 		Boolean isTownFound=false;
+		String linkuri="";
 		
 		/** lecture du fichier de liens et le contenu est mis dans une map**/
 		while((line = linkReader.readLine()) != null){
@@ -177,9 +178,16 @@ public class LoadLinks {
 				items=line.split("<");
 				town=items[3].split("http://dbpedia.org/resource/")[1];	/*******/		
 				linkMap.put("<"+items[1].trim(),"<"+items[3].substring(0,items[3].indexOf(" .")));
+				linkuri= "<"+items[2].trim();
 			}
-		}		
-
+		}	
+		
+		if(linkuri.equals("<http://www.w3.org/2002/07/owl#sameAs>")){
+			linkuri="owl:sameAs";
+		}else if(linkuri.equals("<http://dbpedia.org/property/town>")) {
+			linkuri="dbpprop:town";
+		}
+		
 		/** Construction du nouveau fichier en remplaçant ce qu'il faut**/
 		while ((line = reader.readLine()) != null) {
 			if (line.length() > 1) {
@@ -201,7 +209,7 @@ public class LoadLinks {
 
 							if(ligne2.trim().startsWith("dbpprop:town")){
 								tmp2=ligne2.split("\t")[2];
-								line="\tdbpprop:town\t"+linkMap.get(tempuri)+" ;";
+								line="\t"+linkuri+"\t"+linkMap.get(tempuri)+";";
 								stringBuilder.append(line);
 								stringBuilder.append(ls);
 								isTownFound=true;
@@ -215,12 +223,12 @@ public class LoadLinks {
 						/** Si la propriete dbpprop:town n'existe pas, la rajouter**/
 						if (isTownFound==false){
 							if(linkMap.get(tempuri)!=null){
-								line="\tdbpprop:town\t"+linkMap.get(tempuri)+".";
+								line="\t"+linkuri+"\t"+linkMap.get(tempuri)+".";
 								stringBuilder.replace(stringBuilder.lastIndexOf("."),stringBuilder.lastIndexOf(".")+1," ;");
 								stringBuilder.append(line);
 								stringBuilder.append(ls);
 							}else{
-								line="\tdbpprop:town\t\"undefined\"^^xsd:string ;";
+								line="\t"+linkuri+"\t\"undefined\"^^xsd:string ;";
 								stringBuilder.append(line);
 								stringBuilder.append(ls);
 							}
@@ -251,7 +259,7 @@ public class LoadLinks {
 
 							/** Si la propriete dbpprop:town n'existe pas, la rajouter**/
 						   if (isTownFound==false){
-									line="\tdbpprop:town\t\"undefined\"^^xsd:string .";
+									line="\t"+linkuri+"\t\"undefined\"^^xsd:string .";
 									stringBuilder.replace(stringBuilder.lastIndexOf("."),stringBuilder.lastIndexOf(".")+1," ;");
 									stringBuilder.append(line);
 									stringBuilder.append(ls);
