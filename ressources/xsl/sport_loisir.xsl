@@ -19,7 +19,7 @@
 @prefix void: &lt;http://rdfs.org/ns/void#&gt; .
 @prefix TEMPORAIRE: &lt;http://temporaire.org/&gt; .
 @prefix gr: &lt;http://purl.org/goodrelations/&gt; .
-@prefix pdll: &lt;http://data.paysdelaloire.fr/&gt; .
+@prefix pdll: &lt;http://lodpaddle.univ-nantes.fr/&gt; .
 @prefix dbpedia: &lt;http://dbpedia.org/resource/&gt; .
 @prefix prop-fr: &lt;http://fr.dbpedia.org/property/&gt; .
 @prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
@@ -33,11 +33,11 @@
 @prefix sc: &lt;http://schema.org/&gt; .
 @prefix geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt; .
 
-&lt;http://lodpaddle.univ-nantes.fr//sport_loisir&gt; rdf:type void:Dataset ;
+&lt;http://lodpaddle.univ-nantes.fr/sport_loisir&gt; rdf:type void:Dataset ;
 	foaf:homepage &lt;http://data.nantes.fr/donnees/detail/localisation-des-equipements-publics-relevant-du-theme-sports-loisirs-de-nantes-metropole/&gt;;
 	dcterms:title "Localisation des équipements publics relevant du thème 'Sports, loisirs' de Nantes Métropole"^^xsd:string ;
 	dcterms:description "Localisation des équipements publics relevant du thème 'Sports, loisirs' de Nantes Métropole"^^xsd:string ;
-	dcterms:created "2013-07-24"^^xsd:date;
+	dcterms:created "2013-08-12"^^xsd:date;
 	dcterms:publisher :pub .
 
 :pub rdfs:label "Nantes Métropole".
@@ -101,11 +101,7 @@
 <xsl:otherwise>&#009;sc:telephone&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
-<xsl:template match="THEME">
-<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:theme&#009; "undefined"^^xsd:string ;
-</xsl:when>
-<xsl:otherwise>&#009;pdll:theme&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
-</xsl:otherwise></xsl:choose></xsl:template>
+<xsl:template match="THEME"></xsl:template>
 
 <xsl:template match="COMMUNE">
 <xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:town&#009; "undefined"^^xsd:string ;
@@ -141,18 +137,10 @@
 <xsl:otherwise>&#009;pdll:id&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
-<xsl:template match="TYPE">
-<xsl:choose><xsl:when test=". = 'null'">&#009;TEMPORAIRE:TypeProblem&#009; "undefined"^^xsd:string ;
-</xsl:when>
-<xsl:otherwise>&#009;TEMPORAIRE:TypeProblem&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
-</xsl:otherwise></xsl:choose></xsl:template>
+<xsl:template match="TYPE"></xsl:template>
 
-<xsl:template match="CATEGORIE">
-<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:Category&#009; "undefined"^^xsd:string .
+<xsl:template match="CATEGORIE"><xsl:text>&#009;.
 
-</xsl:when>
-<xsl:otherwise>&#009;pdll:Category&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string .
-
-</xsl:otherwise></xsl:choose></xsl:template>
+</xsl:text></xsl:template>
 
 </xsl:stylesheet>

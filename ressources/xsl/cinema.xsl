@@ -19,7 +19,7 @@
 @prefix void: &lt;http://rdfs.org/ns/void#&gt; .
 @prefix TEMPORAIRE: &lt;http://temporaire.org/&gt; .
 @prefix gr: &lt;http://purl.org/goodrelations/&gt; .
-@prefix pdll: &lt;http://data.paysdelaloire.fr/&gt; .
+@prefix pdll: &lt;http://lodpaddle.univ-nantes.fr/&gt; .
 @prefix dbpedia: &lt;http://dbpedia.org/resource/&gt; .
 @prefix prop-fr: &lt;http://fr.dbpedia.org/property/&gt; .
 @prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
@@ -33,11 +33,11 @@
 @prefix sc: &lt;http://schema.org/&gt; .
 @prefix geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt; .
 
-&lt;http://lodpaddle.univ-nantes.fr//cinema&gt; rdf:type void:Dataset ;
+&lt;http://lodpaddle.univ-nantes.fr/cinema&gt; rdf:type void:Dataset ;
 	foaf:homepage &lt;http://data.nantes.fr/donnees/detail/salles-de-cinema-en-loire-atlantique/&gt;;
 	dcterms:title "Salles de cinéma en Loire-Atlantique"^^xsd:string ;
 	dcterms:description "Salles de cinéma en Loire-Atlantique"^^xsd:string ;
-	dcterms:created "2013-07-24"^^xsd:date;
+	dcterms:created "2013-08-12"^^xsd:date;
 	dcterms:publisher :pub .
 
 :pub rdfs:label "Département de Loire-Atlantique".

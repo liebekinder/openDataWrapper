@@ -232,7 +232,7 @@ public class XSLConstructor {
 		Date date = new Date();
 		String d = dateFormat.format(date);
 		
-		out.write("\n&lt;"+URIBase+"/"+dataset+"&gt; rdf:type void:Dataset ;\n" +
+		out.write("\n&lt;"+URIBase+dataset+"&gt; rdf:type void:Dataset ;\n" +
 				"\tfoaf:homepage &lt;"+url+"&gt;;\n" +
 				"\tdcterms:title \""+titre+"\"^^xsd:string ;\n" +
 				"\tdcterms:description \""+titre+"\"^^xsd:string ;\n" +
