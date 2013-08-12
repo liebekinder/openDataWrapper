@@ -34,7 +34,7 @@
 @prefix geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt; .
 
 &lt;http://lodpaddle.univ-nantes.fr/Petites_cites_de_caractere&gt; rdf:type void:Dataset ;
-	foaf:homepage &lt;http://data.nantes.fr/donnees/detail/petites-cites-de-caractere-en-pays-de-la-loire/?tx_icsoddatastore_pi1[page]=1&gt;;
+	foaf:homepage "http://data.nantes.fr/donnees/detail/petites-cites-de-caractere-en-pays-de-la-loire/?tx_icsoddatastore_pi1[page]=1";
 	dcterms:title "Petites cités de caractère en Pays de la Loire"^^xsd:string ;
 	dcterms:description "Petites cités de caractère en Pays de la Loire"^^xsd:string ;
 	dcterms:created "2013-08-12"^^xsd:date;

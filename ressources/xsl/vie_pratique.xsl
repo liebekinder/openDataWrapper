@@ -34,7 +34,7 @@
 @prefix geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt; .
 
 &lt;http://lodpaddle.univ-nantes.fr/vie_pratique&gt; rdf:type void:Dataset ;
-	foaf:homepage &lt;http://data.nantes.fr/donnees/detail/localisation-des-equipements-publics-relevant-du-theme-vie-pratique-de-nantes-metropole/&gt;;
+	foaf:homepage "http://data.nantes.fr/donnees/detail/localisation-des-equipements-publics-relevant-du-theme-vie-pratique-de-nantes-metropole/";
 	dcterms:title "Localisation des équipements publics relevant du thème 'Vie pratique' de Nantes Métropole"^^xsd:string ;
 	dcterms:description "Localisation des équipements publics relevant du thème 'Vie pratique' de Nantes Métropole"^^xsd:string ;
 	dcterms:created "2013-08-12"^^xsd:date;

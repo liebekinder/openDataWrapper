@@ -34,7 +34,7 @@
 @prefix geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt; .
 
 &lt;http://lodpaddle.univ-nantes.fr/Communes_geolocalises&gt; rdf:type void:Dataset ;
-	foaf:homepage &lt;http://data.nantes.fr/donnees/detail/communes-geolocalisees-des-pays-de-la-loire/&gt;;
+	foaf:homepage "http://data.nantes.fr/donnees/detail/communes-geolocalisees-des-pays-de-la-loire/";
 	dcterms:title "Communes géolocalisées des Pays de la Loire"^^xsd:string ;
 	dcterms:description "Communes géolocalisées des Pays de la Loire"^^xsd:string ;
 	dcterms:created "2013-08-12"^^xsd:date;

@@ -34,7 +34,7 @@
 @prefix geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt; .
 
 &lt;http://lodpaddle.univ-nantes.fr/decheteries&gt; rdf:type void:Dataset ;
-	foaf:homepage &lt;http://data.nantes.fr/donnees/detail/decheteries-ecopoints-de-nantes-metropole/&gt;;
+	foaf:homepage "http://data.nantes.fr/donnees/detail/decheteries-ecopoints-de-nantes-metropole/";
 	dcterms:title "Déchèteries-écopoints de Nantes Métropole"^^xsd:string ;
 	dcterms:description "Déchèteries-écopoints de Nantes Métropole"^^xsd:string ;
 	dcterms:created "2013-08-12"^^xsd:date;

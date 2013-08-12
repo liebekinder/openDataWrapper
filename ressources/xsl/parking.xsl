@@ -34,7 +34,7 @@
 @prefix geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt; .
 
 &lt;http://lodpaddle.univ-nantes.fr/parking&gt; rdf:type void:Dataset ;
-	foaf:homepage &lt;http://data.nantes.fr/donnees/detail/offres-de-services-des-parkings-publics-de-la-ville-de-nantes-1/&gt;;
+	foaf:homepage "http://data.nantes.fr/donnees/detail/offres-de-services-des-parkings-publics-de-la-ville-de-nantes-1/";
 	dcterms:title "Offres de services des parkings publics de la Ville de Nantes"^^xsd:string ;
 	dcterms:description "Offres de services des parkings publics de la Ville de Nantes"^^xsd:string ;
 	dcterms:created "2013-08-12"^^xsd:date;

@@ -34,7 +34,7 @@
 @prefix geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt; .
 
 &lt;http://lodpaddle.univ-nantes.fr/jardin_familiaux&gt; rdf:type void:Dataset ;
-	foaf:homepage &lt;http://data.nantes.fr/donnees/detail/jardins-familiaux-de-la-ville-de-nantes/&gt;;
+	foaf:homepage "http://data.nantes.fr/donnees/detail/jardins-familiaux-de-la-ville-de-nantes/";
 	dcterms:title "Jardins familiaux de la ville de Nantes"^^xsd:string ;
 	dcterms:description "Jardins familiaux de la ville de Nantes"^^xsd:string ;
 	dcterms:created "2013-08-12"^^xsd:date;

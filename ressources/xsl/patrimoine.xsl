@@ -34,7 +34,7 @@
 @prefix geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt; .
 
 &lt;http://lodpaddle.univ-nantes.fr/patrimoine&gt; rdf:type void:Dataset ;
-	foaf:homepage &lt;http://data.nantes.fr/donnees/detail/inventaire-du-patrimoine-en-region-des-pays-de-la-loire/&gt;;
+	foaf:homepage "http://data.nantes.fr/donnees/detail/inventaire-du-patrimoine-en-region-des-pays-de-la-loire/";
 	dcterms:title "Inventaire du patrimoine en région des Pays de la Loire"^^xsd:string ;
 	dcterms:description "Inventaire du patrimoine en région des Pays de la Loire"^^xsd:string ;
 	dcterms:created "2013-08-12"^^xsd:date;
@@ -119,9 +119,9 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="COM">
-<xsl:choose><xsl:when test=". = 'null'">&#009;dbpedia-owl:location&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;dbpprop:location&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;dbpedia-owl:location&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;dbpprop:location&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="DENO">
@@ -164,9 +164,9 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="AIRE">
-<xsl:choose><xsl:when test=". = 'null'">&#009;dbpedia-owl:location&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;dbpedia-owl:aire&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;dbpedia-owl:location&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;dbpedia-owl:aire&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="NOMFIC">

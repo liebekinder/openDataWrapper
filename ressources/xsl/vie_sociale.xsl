@@ -34,7 +34,7 @@
 @prefix geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt; .
 
 &lt;http://lodpaddle.univ-nantes.fr/vie_sociale&gt; rdf:type void:Dataset ;
-	foaf:homepage &lt;http://data.nantes.fr/donnees/detail/localisation-des-equipements-publics-relevant-du-theme-vie-sociale-de-nantes-metropole-1/&gt;;
+	foaf:homepage "http://data.nantes.fr/donnees/detail/localisation-des-equipements-publics-relevant-du-theme-vie-sociale-de-nantes-metropole-1/";
 	dcterms:title "Localisation des équipements publics relevant du thème 'Vie sociale' de Nantes Métropole"^^xsd:string ;
 	dcterms:description "Localisation des équipements publics relevant du thème 'Vie sociale' de Nantes Métropole"^^xsd:string ;
 	dcterms:created "2013-08-12"^^xsd:date;

@@ -34,7 +34,7 @@
 @prefix geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt; .
 
 &lt;http://lodpaddle.univ-nantes.fr/golf&gt; rdf:type void:Dataset ;
-	foaf:homepage &lt;http://data.nantes.fr/donnees/detail/golf-en-loire-atlantique/&gt;;
+	foaf:homepage "http://data.nantes.fr/donnees/detail/golf-en-loire-atlantique/";
 	dcterms:title "Parcours de golf en Loire-Atlantique"^^xsd:string ;
 	dcterms:description "Parcours de golf en Loire-Atlantique"^^xsd:string ;
 	dcterms:created "2013-08-12"^^xsd:date;
@@ -267,9 +267,9 @@
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="GEO">
-<xsl:choose><xsl:when test=". = 'null'">&#009;dbpedia-owl:location&#009; "undefined"^^xsd:string ;
+<xsl:choose><xsl:when test=". = 'null'">&#009;pdll:zoneGeo&#009; "undefined"^^xsd:string ;
 </xsl:when>
-<xsl:otherwise>&#009;dbpedia-owl:location&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
+<xsl:otherwise>&#009;pdll:zoneGeo&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="geo/name"><xsl:choose><xsl:when test=". = 'null'"></xsl:when>
@@ -294,9 +294,9 @@
 <xsl:otherwise>&#009;dbpedia-owl:abstract&#009; "<xsl:value-of select="translate(., '&quot;','')"/>"^^xsd:string ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
-<xsl:template match="CP"><xsl:choose><xsl:when test=". = 'null'">&#009;dbpedia-owl:postalCode&#009; "-120404040"^^xsd:int ;
+<xsl:template match="CP"><xsl:choose><xsl:when test=". = 'null'">&#009;sc:postalCode&#009; "-120404040"^^xsd:int ;
 </xsl:when>
-<xsl:otherwise>&#009;dbpedia-owl:postalCode&#009; "<xsl:value-of select="."/>"^^xsd:int ;
+<xsl:otherwise>&#009;sc:postalCode&#009; "<xsl:value-of select="."/>"^^xsd:int ;
 </xsl:otherwise></xsl:choose></xsl:template>
 
 <xsl:template match="DESCRIPTION_DESCRIPTIF_TARIF">

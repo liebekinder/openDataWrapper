@@ -34,7 +34,7 @@
 @prefix geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt; .
 
 &lt;http://lodpaddle.univ-nantes.fr/justice_securite&gt; rdf:type void:Dataset ;
-	foaf:homepage &lt;http://data.nantes.fr/donnees/detail/localisation-des-equipements-publics-relevant-du-theme-justice-et-securite-de-nantes-metropol-1/&gt;;
+	foaf:homepage "http://data.nantes.fr/donnees/detail/localisation-des-equipements-publics-relevant-du-theme-justice-et-securite-de-nantes-metropol-1/";
 	dcterms:title "Localisation des équipements publics relevant du thème 'Justice et sécurité' de Nantes Métropole"^^xsd:string ;
 	dcterms:description "Localisation des équipements publics relevant du thème 'Justice et sécurité' de Nantes Métropole"^^xsd:string ;
 	dcterms:created "2013-08-12"^^xsd:date;

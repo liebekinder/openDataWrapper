@@ -233,7 +233,7 @@ public class XSLConstructor {
 		String d = dateFormat.format(date);
 		
 		out.write("\n&lt;"+URIBase+dataset+"&gt; rdf:type void:Dataset ;\n" +
-				"\tfoaf:homepage &lt;"+url+"&gt;;\n" +
+				"\tfoaf:homepage \""+url+"\";\n" +
 				"\tdcterms:title \""+titre+"\"^^xsd:string ;\n" +
 				"\tdcterms:description \""+titre+"\"^^xsd:string ;\n" +
 				"\tdcterms:created \""+d+"\"^^xsd:date;\n" +
@@ -405,6 +405,16 @@ public class XSLConstructor {
 		else
 			return ".";
 	}
+	
+//	private boolean lastItem(Iterator<String> it){
+//		Iterator<String> i = it;
+//		if (i.hasNext()){
+//			if(i.next().split(regex))
+//			return lastItem(i);
+//		}
+//		else
+//			return true;
+//	}
 
 	private boolean templateDef(Map<String, MappingUnit> map, BufferedWriter out)
 			throws IOException {
